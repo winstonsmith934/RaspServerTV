@@ -33,14 +33,17 @@
     <main class="main-content">
       
       <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 960px;">
-        <p id="channelTitle" style="margin: 0; display: flex; align-items: center;">
+        <p id="channelTitle" style="margin: 0; display: flex; align-items: center; width:450px;">
           <!-- Riempito dinamicamente -->
         </p>
         <span id="statusMessage" style=""></span>
         <span id="locationInfo" style="font-size: 14px; color: #ccc;"></span>
       </div>
       <video id="player" controls autoplay></video>
+      
+      <button id="toggleFlags" class="toggle-btn">Countries ▾</button>
       <div class="country-selector" id="countrySelector"></div>
+
     </main>
   </div>
 
@@ -86,10 +89,12 @@
     }
 
     function updateChannelTitle(name, logo) {
-      channelTitle.innerHTML = `
-        <img src="${logo}" alt="Logo" style="width: 28px; height: 28px; margin-right: 8px;">
-        ${name}
-      `;
+     channelTitle.innerHTML = `
+  <img src="${logo}" alt="Logo" style="height: 28px; max-width: 60px; object-fit: contain; margin-right: 8px;">
+  ${name}
+`;
+
+
     }
 
   function createChannelElement(name, logo, url) {
@@ -245,6 +250,13 @@
       .then(res => res.text())
       .then(parseM3U)
       .catch(err => console.error('Playlist loading error:', err));
+      
+      document.getElementById('toggleFlags').addEventListener('click', function() {
+  const countrySelector = document.getElementById('countrySelector');
+  countrySelector.classList.toggle('collapsed');
+  this.textContent = countrySelector.classList.contains('collapsed') ? 'Countries ▸' : 'Countries ▾';
+});
+
   </script>
 </body>
 </html>

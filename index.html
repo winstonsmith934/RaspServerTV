@@ -33,7 +33,7 @@
     <main class="main-content">
       
       <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 960px;">
-        <p id="channelTitle" style="margin: 0; display: flex; align-items: center;">
+        <p id="channelTitle" style="margin: 0; display: flex; align-items: center; width:450px;">
           <!-- Riempito dinamicamente -->
         </p>
         <span id="statusMessage" style=""></span>
@@ -89,10 +89,12 @@
     }
 
     function updateChannelTitle(name, logo) {
-      channelTitle.innerHTML = `
-        <img src="${logo}" alt="Logo" style="width: 28px; height: 28px; margin-right: 8px;">
-        ${name}
-      `;
+     channelTitle.innerHTML = `
+  <img src="${logo}" alt="Logo" style="height: 28px; max-width: 60px; object-fit: contain; margin-right: 8px;">
+  ${name}
+`;
+
+
     }
 
   function createChannelElement(name, logo, url) {
