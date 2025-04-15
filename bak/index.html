@@ -40,10 +40,7 @@
         <span id="locationInfo" style="font-size: 14px; color: #ccc;"></span>
       </div>
       <video id="player" controls autoplay></video>
-      
-      <button id="toggleFlags" class="toggle-btn">Countries ▾</button>
       <div class="country-selector" id="countrySelector"></div>
-
     </main>
   </div>
 
@@ -248,13 +245,6 @@
       .then(res => res.text())
       .then(parseM3U)
       .catch(err => console.error('Playlist loading error:', err));
-      
-      document.getElementById('toggleFlags').addEventListener('click', function() {
-  const countrySelector = document.getElementById('countrySelector');
-  countrySelector.classList.toggle('collapsed');
-  this.textContent = countrySelector.classList.contains('collapsed') ? 'Countries ▸' : 'Countries ▾';
-});
-
   </script>
 </body>
 </html>
