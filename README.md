@@ -19,3 +19,8 @@ This is a playlist for everybody.
     No channels dedicated to any particular political party
     No channels made for a country and funded by a different country
 
+Channels which are not in HD are marked with an Ⓢ.
+
+Channels which use GeoIP blocking are marked with a Ⓖ.
+
+Channels which are live Youtube channels are marked with a Ⓨ.
