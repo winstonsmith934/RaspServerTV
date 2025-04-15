@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>RaspServerTV</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+
+<header class="main-header">
+  <div class="logo-area">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/raspberrypi/raspberrypi-plain.svg" alt="Logo" class="site-logo">
+    <span class="site-title">RaspServerTV</span>
+  </div>
+  <!-- 
+  <nav class="main-nav">
+    <a href="#">Home</a>
+    <a href="#">Home</a>
+    <a href="#">Home</a>
+    <a href="#">Home</a>
+    <a href="#">Home</a>
+    <a href="#">Home</a>
+  </nav>
+  -->
+  <input class="search firefox-style" id="searchBox" type="text" placeholder="Search channel...">
+</header>
+
+
+  <div class="container">
+    <aside class="sidebar" id="channelList"></aside>
+
+    <main class="main-content">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 960px;">
+        <p id="channelTitle" style="margin: 0; display: flex; align-items: center;">
+          <!-- Riempito dinamicamente -->
+        </p>
+        <span id="statusMessage" style=""></span>
+        <span id="locationInfo" style="font-size: 14px; color: #ccc;"></span>
+      </div>
+      <video id="player" controls autoplay></video>
+      <div class="country-selector" id="countrySelector"></div>
+    </main>
+  </div>
+
+  <script>
+    const player = document.getElementById('player');
+    const channelList = document.getElementById('channelList');
+    const countrySelector = document.getElementById('countrySelector');
+    const searchBox = document.getElementById('searchBox');
+    const statusMsg = document.getElementById('statusMessage');
+    const channelTitle = document.getElementById('channelTitle');
+    let hls, allChannels = {}, currentGroup = 'UK';
+
+    function playStream(url) {
+      if (hls) hls.destroy();
+      if (Hls.isSupported()) {
+        hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(player);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          player.play();
+          statusMsg.textContent = '';
+        });
+        hls.on(Hls.Events.ERROR, function (event, data) {
+          if (data.fatal) {
+            statusMsg.textContent = "Channel not available, trying another one...";
+            const visible = Array.from(document.querySelectorAll('.channel')).filter(el => el.style.display !== 'none');
+            const i = visible.findIndex(el => el.dataset.url === url);
+            const next = visible[i + 1];
+            if (next) {
+              updateChannelTitle(next.dataset.display, next.dataset.logo);
+              playStream(next.dataset.url);
+            } else {
+              statusMsg.textContent = "No other channel available.";
+            }
+          }
+        });
+      } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
+        player.src = url;
+        player.play();
+      } else {
+        alert("Your browser does not support HLS.");
+      }
+    }
+
+    function updateChannelTitle(name, logo) {
+      channelTitle.innerHTML = `
+        <img src="${logo}" alt="Logo" style="width: 28px; height: 28px; margin-right: 8px;">
+        ${name}
+      `;
+    }
+
+  function createChannelElement(name, logo, url) {
+  const div = document.createElement('div');
+  div.className = 'channel';
+  div.dataset.url = url;
+  div.dataset.name = name.toLowerCase();
+  div.dataset.display = name;
+  div.dataset.logo = logo;
+
+  const img = document.createElement('img');
+  img.src = logo && logo.trim() !== '' 
+    ? logo 
+    : 'https://static-00.iconduck.com/assets.00/deepin-music-player-icon-256x255-7u4awn96.png';
+  img.alt = name;
+  img.className = 'channel-logo';
+
+  const nameSpan = document.createElement('span');
+  nameSpan.textContent = name;
+  nameSpan.className = 'channel-name';
+
+  div.appendChild(img);
+  div.appendChild(nameSpan);
+
+  div.addEventListener('click', () => {
+    playStream(url);
+    updateChannelTitle(name, logo);
+  });
+
+  channelList.appendChild(div);
+}
+
+
+    function getCountryCode(groupName) {
+      const map = {
+        "UK": "gb", "USA": "us", "Canada": "ca", "Ireland": "ie", "Australia": "au",
+        "India": "in", "Japan": "jp", "China": "cn", "Hong Kong": "hk", "Macau": "mo",
+        "Taiwan": "tw", "North Korea": "kp", "Korea": "kr", "Denmark": "dk",
+        "Faroe Islands": "fo", "Greenland": "gl", "Finland": "fi", "Iceland": "is",
+        "Norway": "no", "Sweden": "se", "Estonia": "ee", "Latvia": "lv", "Lithuania": "lt",
+        "Belgium": "be", "Netherlands": "nl", "Luxembourg": "lu", "Germany": "de",
+        "Austria": "at", "Switzerland": "ch", "Poland": "pl", "Czech Republic": "cz",
+        "Slovakia": "sk", "Hungary": "hu", "Romania": "ro", "Moldova": "md", "Bulgaria": "bg",
+        "France": "fr", "Italy": "it", "Portugal": "pt", "Spain": "es", "Russia": "ru",
+        "Belarus": "by", "Ukraine": "ua", "Armenia": "am", "Azerbaijan": "az", "Georgia": "ge",
+        "Bosnia and Herzegovina": "ba", "Croatia": "hr", "Montenegro": "me",
+        "North Macedonia": "mk", "Serbia": "rs", "Slovenia": "si", "Albania": "al",
+        "Kosovo": "xk", "Greece": "gr", "Cyprus": "cy", "Andorra": "ad", "Malta": "mt",
+        "Monaco": "mc", "San Marino": "sm", "Iran": "ir", "Iraq": "iq", "Israel": "il",
+        "Qatar": "qa", "Turkey": "tr", "United Arab Emirates": "ae", "Argentina": "ar",
+        "Costa Rica": "cr", "Dominican Republic": "do", "Mexico": "mx", "Paraguay": "py",
+        "Peru": "pe", "Venezuela": "ve", "Brazil": "br", "Trinidad": "tt", "Chad": "td",
+        "Somalia": "so", "Indonesia": "id"
+      };
+      return map[groupName] || groupName.toLowerCase();
+    }
+
+    function createCountryFlag(country) {
+      const code = getCountryCode(country);
+      const btn = document.createElement('img');
+      btn.className = 'flag';
+      btn.title = country;
+      btn.src = `https://hatscripts.github.io/circle-flags/flags/${code}.svg`;
+      btn.onerror = () => {
+        btn.src = 'https://cdn-icons-png.flaticon.com/512/221/221771.png';
+      };
+      btn.dataset.country = country;
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.flag').forEach(f => f.classList.remove('selected'));
+        btn.classList.add('selected');
+        loadCountry(country);
+      });
+      countrySelector.appendChild(btn);
+    }
+
+    function loadCountry(group) {
+      currentGroup = group;
+      channelList.innerHTML = '';
+      const channels = allChannels[group] || [];
+      channels.forEach(ch => createChannelElement(ch.name, ch.logo, ch.url));
+      if (channels[0]) {
+        updateChannelTitle(channels[0].name, channels[0].logo);
+        playStream(channels[0].url);
+      }
+    }
+
+    function searchChannels() {
+      const term = searchBox.value.toLowerCase();
+      channelList.innerHTML = '';
+
+      if (term === '') {
+        loadCountry(currentGroup);
+        return;
+      }
+
+      // Cerca in tutti i gruppi
+      for (const group in allChannels) {
+        allChannels[group].forEach(channel => {
+          if (channel.name.toLowerCase().includes(term)) {
+            createChannelElement(channel.name, channel.logo, channel.url);
+          }
+        });
+      }
+    }
+
+    searchBox.addEventListener('input', searchChannels);
+
+    function parseM3U(text) {
+      const lines = text.split('\n');
+      let name = '', logo = '', group = '', url = '';
+
+      lines.forEach((line) => {
+        if (line.startsWith('#EXTINF')) {
+          const nameMatch = line.match(/,(.+)$/);
+          const logoMatch = line.match(/tvg-logo="([^"]+)"/);
+          const groupMatch = line.match(/group-title="([^"]+)"/);
+
+          name = nameMatch ? nameMatch[1] : 'No Name';
+          logo = logoMatch ? logoMatch[1] : '';
+          group = groupMatch ? groupMatch[1] : 'Other';
+        } else if (line.startsWith('http')) {
+          url = line.trim();
+          if (!allChannels[group]) allChannels[group] = [];
+          allChannels[group].push({ name, logo, url });
+        }
+      });
+
+      const countries = Object.keys(allChannels).sort();
+      countries.forEach(c => createCountryFlag(c));
+
+      fetch('https://ipinfo.io/json')
+        .then(res => res.json())
+        .then(ipdata => {
+          const ipCountryCode = ipdata.country.toLowerCase();
+          const groupName = Object.keys(allChannels).find(
+            key => getCountryCode(key) === ipCountryCode
+          );
+          if (groupName) {
+            const defaultBtn = document.querySelector(`[data-country="${groupName}"]`);
+            if (defaultBtn) defaultBtn.click();
+          }
+          const flagUrl = `https://hatscripts.github.io/circle-flags/flags/${ipdata.country.toLowerCase()}.svg`;
+          const info = `<a href='https://ipinfo.io/${ipdata.ip}' target='_blank' style='text-decoration: none; color: inherit;'>
+            <img src='${flagUrl}' style='width: 20px; vertical-align: middle; margin-right: 5px;'>
+            ${ipdata.country} (${ipdata.ip})
+          </a>`;
+          document.getElementById('locationInfo').innerHTML = info;
+        })
+        .catch(err => console.warn('IP info not available:', err));
+    }
+
+    fetch('https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8')
+      .then(res => res.text())
+      .then(parseM3U)
+      .catch(err => console.error('Playlist loading error:', err));
+  </script>
+</body>
+</html>
+
