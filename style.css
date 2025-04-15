@@ -247,7 +247,7 @@ h1 {
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
-  margin: 10px 0;
+  margin: 5px 0;
   transition: background-color 0.3s;
 }
 
@@ -260,6 +260,7 @@ h1 {
   overflow: hidden;
   max-height: 300px; /* Altezza sufficiente per mostrare tutte le bandiere */
   opacity: 1;
+  margin-bottom:50px;
 }
 
 .country-selector.collapsed {
