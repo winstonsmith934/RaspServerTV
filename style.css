@@ -257,10 +257,10 @@ h1 {
 
 .country-selector {
   transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
-  overflow: hidden;
-  max-height: 300px; /* Altezza sufficiente per mostrare tutte le bandiere */
   opacity: 1;
-  margin-bottom:100px;
+  overflow: hidden;
+  max-height: 60vh
+  margin-bottom:50px;
 }
 
 .country-selector.collapsed {
