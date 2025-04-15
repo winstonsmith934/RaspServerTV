@@ -259,8 +259,8 @@ h1 {
   transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
   opacity: 1;
   overflow: hidden;
-  max-height: 60vh
-  margin-bottom:50px;
+  max-height: 60vh;
+  
 }
 
 .country-selector.collapsed {
@@ -269,5 +269,26 @@ h1 {
   padding: 0;
 }
 
+.main-footer {
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  margin-top: auto;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.main-footer a.donate-link {
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.main-footer a.donate-link:hover {
+  text-decoration: underline;
+}
 
 

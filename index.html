@@ -46,6 +46,17 @@
 
     </main>
   </div>
+<footer class="main-footer">
+  <p>
+    &copy; <span id="year"></span> RaspServerTV • Made with ❤️ by Jonathan |
+    <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Supporta il progetto</a>
+  </p>
+</footer>
+
+<script>
+  // Imposta l'anno corrente automaticamente
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
   <script>
     const player = document.getElementById('player');
@@ -258,6 +269,8 @@
 });
 
   </script>
+  
+  
 </body>
 </html>
 
