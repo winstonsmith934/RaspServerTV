@@ -69,8 +69,8 @@
     const channelTitle = document.getElementById('channelTitle');
     
     const m3uUrls = [
-      '#test.m3u',
-      '',
+    
+      'https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/processed/altre.m3u',
       'https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8'
     ];
 
@@ -190,7 +190,7 @@ let hls, allChannels = {}, currentGroup = 'UK';
   const img = document.createElement('img');
   img.src = logo && logo.trim() !== '' 
     ? logo 
-    : 'https://static-00.iconduck.com/assets.00/deepin-music-player-icon-256x255-7u4awn96.png';
+    : 'https://img.icons8.com/office40/512/raspberry-pi.png';
   img.alt = name;
   img.className = 'channel-logo';
 
@@ -243,7 +243,7 @@ let hls, allChannels = {}, currentGroup = 'UK';
   flag.className = 'flag';
   flag.src = `https://hatscripts.github.io/circle-flags/flags/${code}.svg`;
   flag.onerror = () => {
-    flag.src = 'https://cdn-icons-png.flaticon.com/512/221/221771.png';
+    flag.src = 'https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/11113cc80977b7c9417ce4fb349cbd35_low_res_Folder_Common.png';
   };
   flag.title = country;
   flag.dataset.country = country;

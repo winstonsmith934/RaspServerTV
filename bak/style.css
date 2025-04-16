@@ -187,7 +187,6 @@ h1 {
   height: 36px;
   cursor: pointer;
   border: 2px solid transparent;
-  border-radius: 50%;
   transition: border-color 0.2s;
 }
 
@@ -233,21 +232,7 @@ h1 {
 }
 
 
-.toggle-btn {
-  background-color: #222;
-  color: #fff;
-  border: none;
-  padding: 8px 12px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 8px;
-  margin: 5px 0;
-  transition: background-color 0.3s;
-}
 
-.toggle-btn:hover {
-  background-color: #444;
-}
 
 
 
@@ -311,7 +296,7 @@ h1 {
 .flag {
   width: 28px;
   height: 28px;
-  border-radius: 50%;
+  
 }
 
 .flag-label {
