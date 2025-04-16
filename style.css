@@ -115,11 +115,16 @@ justify-content: space-between;
   width:100%;
 }
 
+.material-info-panel span {
+  margin: 4px 0;
+  font-size: 14px;
+}
 
 .material-info-panel p {
   margin: 4px 0;
   font-size: 14px;
 }
+
 .material-info-panel a {
   font-weight: bold;
   color: #4fc3f7;
