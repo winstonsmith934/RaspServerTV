@@ -98,9 +98,9 @@ justify-content: space-between;
   color: #c0174e;
 }
 
-
+/*
 .material-info-panel {
-  background: #1e1e1e; /* colore di base pannello */
+  background: #1e1e1e; 
   color: #ddd;
   border-radius: 12px;
   padding: 16px 20px;
@@ -109,12 +109,35 @@ justify-content: space-between;
   font-size: 14px;
   line-height: 1.6;
   max-width: 600px;
-  border-left: 4px solid #03dac6; /* accent cyan Material dark */
+  border-left: 4px solid #03dac6; 
 }
 
 .material-info-panel p {
   margin: 6px 0;
 }
+*/
+
+
+.material-info-panel {
+  background: #222;
+  color: #eee;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  margin: 16px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+.material-info-panel p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+.material-info-panel a {
+  font-weight: bold;
+  color: #4fc3f7;
+  text-decoration: none;
+}
+
+
 
 
 
