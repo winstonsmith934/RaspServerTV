@@ -41,6 +41,7 @@
       </div>
       <video id="player" controls autoplay></video>
       <span id="statusMessage" style=""></span>
+      <div id="update-info" class="update-info">Caricamento...</div>
 
     </main>
      <aside class="flag-sidebar">
@@ -54,7 +55,17 @@
     <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Supporta il progetto</a>
   </p>
 </footer>
-
+<script>
+    fetch('lists/last_update.txt')
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById('update-info').textContent = text;
+      })
+      .catch(err => {
+        document.getElementById('update-info').textContent = 'Impossibile caricare la data.';
+        console.error(err);
+      });
+  </script>
 <script>
   // Imposta l'anno corrente automaticamente
   document.getElementById("year").textContent = new Date().getFullYear();
