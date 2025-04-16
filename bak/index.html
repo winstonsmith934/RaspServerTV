@@ -36,15 +36,17 @@
         <p id="channelTitle" style="margin: 0; display: flex; align-items: center; width:450px;">
           <!-- Riempito dinamicamente -->
         </p>
-        <span id="statusMessage" style=""></span>
+        
         <span id="locationInfo" style="font-size: 14px; color: #ccc;"></span>
       </div>
       <video id="player" controls autoplay></video>
-      
-      <button id="toggleFlags" class="toggle-btn">Countries ▾</button>
-      <div class="country-selector" id="countrySelector"></div>
+      <span id="statusMessage" style=""></span>
 
     </main>
+     <aside class="flag-sidebar">
+           <div class="country-selector" id="countrySelector"></div>
+      </aside>
+
   </div>
 <footer class="main-footer">
   <p>
@@ -65,7 +67,76 @@
     const searchBox = document.getElementById('searchBox');
     const statusMsg = document.getElementById('statusMessage');
     const channelTitle = document.getElementById('channelTitle');
-    let hls, allChannels = {}, currentGroup = 'UK';
+    
+    const m3uUrls = [
+      '#test.m3u',
+      '',
+      'https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8'
+    ];
+
+
+    function parseM3UData(text, skipFlags = false) {
+      const lines = text.split('\n');
+      let name = '', logo = '', group = '', url = '';
+
+      lines.forEach((line) => {
+        if (line.startsWith('#EXTINF')) {
+          const nameMatch = line.match(/,(.+)$/);
+          const logoMatch = line.match(/tvg-logo="([^"]+)"/);
+          const groupMatch = line.match(/group-title="([^"]+)"/);
+
+          name = nameMatch ? nameMatch[1] : 'No Name';
+          logo = logoMatch ? logoMatch[1] : '';
+          group = groupMatch ? groupMatch[1] : 'Other';
+        } else if (line.startsWith('http')) {
+          url = line.trim();
+          if (!allChannels[group]) allChannels[group] = [];
+          allChannels[group].push({ name, logo, url });
+        }
+      });
+
+      if (!skipFlags) {
+        const countries = Object.keys(allChannels).sort();
+        countries.forEach(c => createCountryFlag(c));
+
+        fetch('https://ipinfo.io/json')
+          .then(res => res.json())
+          .then(ipdata => {
+            const ipCountryCode = ipdata.country.toLowerCase();
+            const groupName = Object.keys(allChannels).find(
+              key => getCountryCode(key) === ipCountryCode
+            );
+            if (groupName) {
+              const defaultBtn = document.querySelector(`[data-country="${groupName}"]`);
+              if (defaultBtn) defaultBtn.click();
+            }
+            const flagUrl = `https://hatscripts.github.io/circle-flags/flags/${ipdata.country.toLowerCase()}.svg`;
+            const info = `<a href='https://ipinfo.io/${ipdata.ip}' target='_blank' style='text-decoration: none; color: inherit;'>
+              <img src='${flagUrl}' style='width: 20px; vertical-align: middle; margin-right: 5px;'>
+              ${ipdata.country} (${ipdata.ip})
+            </a>`;
+            document.getElementById('locationInfo').innerHTML = info;
+          })
+          .catch(err => console.warn('IP info not available:', err));
+      }
+    }
+
+
+    async function loadAllPlaylists(urls) {
+      for (let i = 0; i < urls.length; i++) {
+        try {
+          const res = await fetch(urls[i]);
+          const text = await res.text();
+          parseM3UData(text, i < urls.length - 1);
+        } catch (err) {
+          console.error(`Errore caricamento lista ${i + 1}:`, err);
+        }
+      }
+    }
+
+    loadAllPlaylists(m3uUrls);
+
+let hls, allChannels = {}, currentGroup = 'UK';
 
     function playStream(url) {
       if (hls) hls.destroy();
@@ -164,22 +235,38 @@
     }
 
     function createCountryFlag(country) {
-      const code = getCountryCode(country);
-      const btn = document.createElement('img');
-      btn.className = 'flag';
-      btn.title = country;
-      btn.src = `https://hatscripts.github.io/circle-flags/flags/${code}.svg`;
-      btn.onerror = () => {
-        btn.src = 'https://cdn-icons-png.flaticon.com/512/221/221771.png';
-      };
-      btn.dataset.country = country;
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.flag').forEach(f => f.classList.remove('selected'));
-        btn.classList.add('selected');
-        loadCountry(country);
-      });
-      countrySelector.appendChild(btn);
-    }
+  const code = getCountryCode(country); // es: "it"
+  const wrapper = document.createElement('div');
+  wrapper.className = 'flag-wrapper';
+
+  const flag = document.createElement('img');
+  flag.className = 'flag';
+  flag.src = `https://hatscripts.github.io/circle-flags/flags/${code}.svg`;
+  flag.onerror = () => {
+    flag.src = 'https://cdn-icons-png.flaticon.com/512/221/221771.png';
+  };
+  flag.title = country;
+  flag.dataset.country = country;
+
+  const count = allChannels[country]?.length || 0;
+  const label = document.createElement('div');
+  label.className = 'flag-label';
+  label.textContent = `${country} (${count})`;
+
+
+  wrapper.appendChild(flag);
+  wrapper.appendChild(label);
+
+  wrapper.addEventListener('click', () => {
+    document.querySelectorAll('.flag-wrapper').forEach(w => w.classList.remove('selected'));
+    wrapper.classList.add('selected');
+    loadCountry(country);
+  });
+
+  countrySelector.appendChild(wrapper);
+}
+
+
 
     function loadCountry(group) {
       currentGroup = group;
@@ -257,7 +344,7 @@
         .catch(err => console.warn('IP info not available:', err));
     }
 
-    fetch('https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8')
+    fetch('')
       .then(res => res.text())
       .then(parseM3U)
       .catch(err => console.error('Playlist loading error:', err));
@@ -267,6 +354,7 @@
   countrySelector.classList.toggle('collapsed');
   this.textContent = countrySelector.classList.contains('collapsed') ? 'Countries ▸' : 'Countries ▾';
 });
+
 
   </script>
   
