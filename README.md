@@ -19,8 +19,7 @@ Built with pure HTML, CSS, and JavaScript – no frameworks, just performance an
 
     Ideal for personal IPTV setups or lightweight streaming dashboards.
 
-![Screenshot From 2025-04-15 18-31-36](https://github.com/user-attachments/assets/848c7379-c1c3-4b79-9c31-8f67c68b0c32)
-
+![Screenshot From 2025-04-16 13-05-15](https://github.com/user-attachments/assets/2ce6fec4-1024-4f52-94ce-1a6362739232)
 
 
 Only free channels
