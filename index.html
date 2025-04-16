@@ -378,7 +378,7 @@ let hls, allChannels = {}, currentGroup = 'UK';
   </script>
 
   <script>
-  fetch('lists/info/stats.json')
+  fetch('https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/info/stats.json')
     .then(res => res.json())
     .then(stats => {
       document.getElementById('updateDate').textContent = `Last update: ${stats.last_update}`;
