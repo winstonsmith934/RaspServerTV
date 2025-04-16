@@ -56,7 +56,7 @@
   </p>
 </footer>
 <script>
-    fetch('lists/last_update.txt')
+    fetch('https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/last_update.txt')
       .then(response => response.text())
       .then(text => {
         document.getElementById('update-info').textContent = text;
