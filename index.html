@@ -44,11 +44,15 @@
 
       
 <div class="material-info-panel">
-  <a href="https://github.com/JonathanSanfilippo/iptv-auto-cleaner/actions" target="_blank">Auto M3U Updater</a>
-  <p></p>
-  <p id="statusMessage">Loading status...</p>
-  <p id="update-info">Loading update info...</p>
+  <a href="https://github.com/JonathanSanfilippo/iptv-auto-cleaner/actions" target="_blank">
+    Auto M3U Updater
+  </a>
+  <p id="updateDate"></p>
+  <p id="validCount"></p>
+  <p id="skippedCount"></p>
+  <p id="totalCount"></p>
 </div>
+
 
 
     </main>
@@ -66,16 +70,20 @@
 </footer>
 
 <script>
-    fetch('https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/last_update.txt')
-      .then(response => response.text())
-      .then(text => {
-        document.getElementById('update-info').textContent = text;
-      })
-      .catch(err => {
-        document.getElementById('update-info').textContent = 'Impossibile caricare la data.';
-        console.error(err);
-      });
-  </script>
+  fetch('lists/info/stats.json')
+    .then(res => res.json())
+    .then(stats => {
+      document.getElementById('updateDate').textContent = `Last update: ${stats.last_update}`;
+      document.getElementById('validCount').textContent = `Valid channels: ${stats.valid}`;
+      document.getElementById('skippedCount').textContent = `Skipped channels: ${stats.skipped}`;
+      document.getElementById('totalCount').textContent = `Total entries: ${stats.total}`;
+    })
+    .catch(err => {
+      console.warn("⚠️ Impossibile caricare stats.json:", err);
+      document.getElementById('updateDate').textContent = "❌ Unable to load stats.";
+    });
+</script>
+
 <script>
   // Imposta l'anno corrente automaticamente
   document.getElementById("year").textContent = new Date().getFullYear();
