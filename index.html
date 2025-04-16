@@ -229,29 +229,32 @@ let hls, allChannels = {}, currentGroup = 'UK';
 }
 
 
-    function getCountryCode(groupName) {
-      const map = {
-        "UK": "gb", "USA": "us", "Canada": "ca", "Ireland": "ie", "Australia": "au",
-        "India": "in", "Japan": "jp", "China": "cn", "Hong Kong": "hk", "Macau": "mo",
-        "Taiwan": "tw", "North Korea": "kp", "Korea": "kr", "Denmark": "dk",
-        "Faroe Islands": "fo", "Greenland": "gl", "Finland": "fi", "Iceland": "is",
-        "Norway": "no", "Sweden": "se", "Estonia": "ee", "Latvia": "lv", "Lithuania": "lt",
-        "Belgium": "be", "Netherlands": "nl", "Luxembourg": "lu", "Germany": "de",
-        "Austria": "at", "Switzerland": "ch", "Poland": "pl", "Czech Republic": "cz",
-        "Slovakia": "sk", "Hungary": "hu", "Romania": "ro", "Moldova": "md", "Bulgaria": "bg",
-        "France": "fr", "Italy": "it", "Portugal": "pt", "Spain": "es", "Russia": "ru",
-        "Belarus": "by", "Ukraine": "ua", "Armenia": "am", "Azerbaijan": "az", "Georgia": "ge",
-        "Bosnia and Herzegovina": "ba", "Croatia": "hr", "Montenegro": "me",
-        "North Macedonia": "mk", "Serbia": "rs", "Slovenia": "si", "Albania": "al",
-        "Kosovo": "xk", "Greece": "gr", "Cyprus": "cy", "Andorra": "ad", "Malta": "mt",
-        "Monaco": "mc", "San Marino": "sm", "Iran": "ir", "Iraq": "iq", "Israel": "il",
-        "Qatar": "qa", "Turkey": "tr", "United Arab Emirates": "ae", "Argentina": "ar",
-        "Costa Rica": "cr", "Dominican Republic": "do", "Mexico": "mx", "Paraguay": "py",
-        "Peru": "pe", "Venezuela": "ve", "Brazil": "br", "Trinidad": "tt", "Chad": "td",
-        "Somalia": "so", "Indonesia": "id"
-      };
-      return map[groupName] || groupName.toLowerCase();
-    }
+   function getCountryCode(groupName) {
+  const map = {
+    "uk": "gb", "usa": "us", "canada": "ca", "ireland": "ie", "australia": "au",
+    "india": "in", "japan": "jp", "china": "cn", "hong kong": "hk", "macau": "mo",
+    "taiwan": "tw", "north korea": "kp", "korea": "kr", "denmark": "dk",
+    "faroe islands": "fo", "greenland": "gl", "finland": "fi", "iceland": "is",
+    "norway": "no", "sweden": "se", "estonia": "ee", "latvia": "lv", "lithuania": "lt",
+    "belgium": "be", "netherlands": "nl", "luxembourg": "lu", "germany": "de",
+    "austria": "at", "switzerland": "ch", "poland": "pl", "czech republic": "cz",
+    "slovakia": "sk", "hungary": "hu", "romania": "ro", "moldova": "md", "bulgaria": "bg",
+    "france": "fr", "italy": "it", "portugal": "pt", "spain": "es", "russia": "ru",
+    "belarus": "by", "ukraine": "ua", "armenia": "am", "azerbaijan": "az", "georgia": "ge",
+    "bosnia and herzegovina": "ba", "croatia": "hr", "montenegro": "me",
+    "north macedonia": "mk", "serbia": "rs", "slovenia": "si", "albania": "al",
+    "kosovo": "xk", "greece": "gr", "cyprus": "cy", "andorra": "ad", "malta": "mt",
+    "monaco": "mc", "san marino": "sm", "iran": "ir", "iraq": "iq", "israel": "il",
+    "qatar": "qa", "turkey": "tr", "united arab emirates": "ae", "argentina": "ar",
+    "costa rica": "cr", "dominican republic": "do", "mexico": "mx", "paraguay": "py",
+    "peru": "pe", "venezuela": "ve", "brazil": "br", "trinidad": "tt", "chad": "td",
+    "somalia": "so", "indonesia": "id"
+  };
+
+  const key = groupName.toLowerCase().trim();
+  return map[key] || key;
+}
+
 
     function createCountryFlag(country) {
   const code = getCountryCode(country); // es: "it"
