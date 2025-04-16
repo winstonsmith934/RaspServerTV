@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @font-face {
   font-display:optional;
@@ -98,35 +98,21 @@ justify-content: space-between;
   color: #c0174e;
 }
 
-/*
-.material-info-panel {
-  background: #1e1e1e; 
-  color: #ddd;
-  border-radius: 12px;
-  padding: 16px 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-  margin: 20px 0;
-  font-size: 14px;
-  line-height: 1.6;
-  max-width: 600px;
-  border-left: 4px solid #03dac6; 
-}
-
-.material-info-panel p {
-  margin: 6px 0;
-}
-*/
 
 
 .material-info-panel {
   background: #222;
-  color: #eee;
+  color: #c6c6c6;
   padding: 10px 16px;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
   margin: 16px 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
+
+
 .material-info-panel p {
   margin: 4px 0;
   font-size: 14px;
