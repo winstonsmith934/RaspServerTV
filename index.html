@@ -69,20 +69,7 @@
   </p>
 </footer>
 
-<script>
-  fetch('lists/info/stats.json')
-    .then(res => res.json())
-    .then(stats => {
-      document.getElementById('updateDate').textContent = `Last update: ${stats.last_update}`;
-      document.getElementById('validCount').textContent = `Valid channels: ${stats.valid}`;
-      document.getElementById('skippedCount').textContent = `Skipped channels: ${stats.skipped}`;
-      document.getElementById('totalCount').textContent = `Total entries: ${stats.total}`;
-    })
-    .catch(err => {
-      console.warn("⚠️ Impossibile caricare stats.json:", err);
-      document.getElementById('updateDate').textContent = "❌ Unable to load stats.";
-    });
-</script>
+
 
 <script>
   // Imposta l'anno corrente automaticamente
@@ -389,7 +376,21 @@ let hls, allChannels = {}, currentGroup = 'UK';
 
 
   </script>
-  
+
+  <script>
+  fetch('lists/info/stats.json')
+    .then(res => res.json())
+    .then(stats => {
+      document.getElementById('updateDate').textContent = `Last update: ${stats.last_update}`;
+      document.getElementById('validCount').textContent = `Valid channels: ${stats.valid}`;
+      document.getElementById('skippedCount').textContent = `Skipped channels: ${stats.skipped}`;
+      document.getElementById('totalCount').textContent = `Total entries: ${stats.total}`;
+    })
+    .catch(err => {
+      console.warn("⚠️ Impossibile caricare stats.json:", err);
+      document.getElementById('updateDate').textContent = "❌ Unable to load stats.";
+    });
+</script>
   
 </body>
 </html>
