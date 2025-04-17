@@ -1,7 +1,6 @@
-# RaspServerTV
-https://jonathansanfilippo.github.io/RaspServerTV/
-
 # 🛰️ RaspServerTV
+
+🌍 **Live site**: [https://jonathansanfilippo.github.io/RaspServerTV/](https://jonathansanfilippo.github.io/RaspServerTV/)
 
 **RaspServerTV** is a personal project created to collect and display IPTV channels in a clean and organized way, directly from the browser. It provides an updated and filtered list of streaming channels from around the world, accessible anywhere.
 
@@ -34,6 +33,31 @@ The website uses `hls.js` to ensure proper playback of these streams in a compat
 
 ---
 
+## 📄 Channel Policy
+
+**Only free channels**  
+This playlist includes only channels that are freely and officially available in their country of origin (e.g., via DVB-T, DVB-S, analog, or legal online streaming).  
+
+- ❌ No paid subscription channels  
+- ✅ Only officially free-to-air or publicly available content
+
+**Only mainstream channels**  
+This project aims to be accessible to a wide audience. Therefore:
+
+- ❌ No adult content  
+- ❌ No channels tied to specific religions or political parties  
+- ❌ No state-funded foreign propaganda channels
+
+---
+
+### 🔍 Channel Legend
+
+- Ⓢ = Not in HD (Standard Definition)  
+- Ⓖ = Geo-blocked (only viewable from specific countries)  
+- Ⓨ = YouTube live stream
+
+---
+
 ## 🔗 Useful Links
 
 - 🌍 **Live Site**: [https://jonathansanfilippo.github.io/RaspServerTV/](https://jonathansanfilippo.github.io/RaspServerTV/)
@@ -48,27 +72,4 @@ The website uses `hls.js` to ensure proper playback of these streams in a compat
 
 ---
 
-© 2025 Jonathan Sanfilippo
-
-
-Only free channels
-
-If a channel is normally only available via commercial subscriptions it has nothing to do in this playlist. If on the other hand it is provided for free to everybody in a particular country, then it should be in this playlist.
-
-    No paid channels
-    Only channels which are officially provided for free (via DVB-S, DVB-T, analog, etc..)
-
-Only mainstream channels
-
-This is a playlist for everybody.
-
-    No adult channels
-    No channels dedicated to any particular religion
-    No channels dedicated to any particular political party
-    No channels made for a country and funded by a different country
-
-Channels which are not in HD are marked with an Ⓢ.
-
-Channels which use GeoIP blocking are marked with a Ⓖ.
-
-Channels which are live Youtube channels are marked with a Ⓨ.
+© 2025 Jonathan Sanfilip
