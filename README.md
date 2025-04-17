@@ -1,25 +1,6 @@
 # RaspServerTV
 https://jonathansanfilippo.github.io/RaspServerTV/
 
-📺 RaspServerTV
-
-RaspServerTV is a lightweight, responsive web-based IPTV player optimized for Raspberry Pi and other low-power devices. It dynamically parses M3U playlists and provides:
-
-    🇺🇳 Country-based filtering with flag selection
-
-    🔍 Live search to quickly find channels
-
-    🎥 HLS.js streaming support for smooth playback
-
-    🎨 Modern Netflix-style UI using custom fonts and CSS
-
-    🌐 Geo-detection to auto-load your local TV channels
-
-Built with pure HTML, CSS, and JavaScript – no frameworks, just performance and portability.
-
-    Ideal for personal IPTV setups or lightweight streaming dashboards.
-
-![Screenshot From 2025-04-16 13-05-15](https://github.com/user-attachments/assets/2ce6fec4-1024-4f52-94ce-1a6362739232)
 
 
 Only free channels
