@@ -72,4 +72,4 @@ This project aims to be accessible to a wide audience. Therefore:
 
 ---
 
-© 2025 Jonathan Sanfilip
+© 2025 Jonathan Sanfilippo
