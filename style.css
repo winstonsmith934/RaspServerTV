@@ -272,6 +272,25 @@ code, pre{
   
 }
 
+@media (max-width: 768px) {
+  
+  .channel img {
+  width: 20px;
+  height: auto;
+}
+  .channel-name {
+    font-size: 12px;
+  }
+
+  .flag-label {
+    font-size: 12px;
+    
+  }
+  .flag {
+  width: 22px;
+  height: 22px
+}
+
 
 
 
