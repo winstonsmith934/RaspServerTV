@@ -64,13 +64,6 @@
       <div class="country-selector" id="countrySelector"></div>
     </aside>
   </div>
-
-  <footer class="main-footer">
-    <p>Copyright © <span id="year"></span> Jonathan Sanfilippo - <a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> - <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Donate</a> - <span class="visite">Views <span id="visits" ></span></span></p>
-    
-  </footer>
-  
-<script src="scripts.js"></script>
 <script>
   fetch('https://api.countapi.xyz/hit/https://jonathansanfilippo.github.io/RaspServerTV')
   .then(res => res.json())
@@ -78,6 +71,13 @@
     document.getElementById('visits').textContent = data.value;
   });
 </script>
+  <footer class="main-footer">
+    <p>Copyright © <span id="year"></span> Jonathan Sanfilippo - <a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> - <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Donate</a> - <span class="visite">Views <span id="visits" ></span></span></p>
+    
+  </footer>
+  
+<script src="scripts.js"></script>
+
 
 </body>
 </html>

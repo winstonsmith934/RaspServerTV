@@ -18,7 +18,6 @@
       <span class="site-title">RaspberryTV</span><p class="logomobile">Mobile v0.1b</p>
     </a>
     
-    <input class="search firefox-style" id="searchBox" type="text" placeholder="Search channel...">
   </header>
 
 
@@ -30,8 +29,16 @@
 
     <main class="main-content">
       <!-- Contenuto centrale -->
+      
       <video id="player" controls autoplay></video>
-     
+      
+       <div class="panel-box">
+            <span id="channelTitle" class="channelCurrent" style=""><span id="statusMessage" class="statusMessage"></span></span>
+            
+       </div>
+      
+      <input class="search firefox-style" id="searchBox" type="text" placeholder="Search channel...">
+      
         <aside class="sidebar left-sidebar" id="channelList">
       <!-- Sidebar sinistra -->
      </aside>
@@ -40,30 +47,7 @@
       <!-- Sidebar destra -->
           <div class="country-selector" id="countrySelector"></div>
      </aside>
-      
-      
-      
-      
-      <div class="panel-box">
-      
-         
-      
-      
-         <div class="container-box">
-              <p id="channelTitle" class="channelCurrent" style=""></p>
-              <span id="statusMessage" class="statusMessage"></span>
-                 <br>
-              <p><span class="repo-language-color"></span> <span id="updateDate"></span></p>
-              <p id="validCount"></p>
-              <p id="skippedCount"></p>
-              <p id="totalCount"></p>
-                <br>
-              <span>You are connected from <span id="locationInfo"></span></span>
-        
-        </div>
-      </div>
-      
-      
+ 
     </main>
     
     
@@ -73,13 +57,6 @@
   </div>
   
   <!-- ------------------------------------------------------------------------ -->
-
-  <footer class="main-footer">
-    <p>Copyright © <span id="year"></span> Jonathan Sanfilippo - <a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> - <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Donate</a> - <span class="visite">Views <span id="visits" ></span></span></p>
-    
-  </footer>
-  
-<script src="scripts.js"></script>
 <script>
   fetch('https://api.countapi.xyz/hit/https://jonathansanfilippo.github.io/RaspServerTV')
   .then(res => res.json())
@@ -87,5 +64,12 @@
     document.getElementById('visits').textContent = data.value;
   });
 </script>
+  <footer class="main-footer">
+    <p>Copyright © <span id="year"></span> Jonathan Sanfilippo <br><a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> - <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Donate</a> - <span class="visite">Views <span id="visits" ></span></span></p>
+    
+  </footer>
+  
+<script src="scripts.js"></script>
+
 </body>
 </html>
