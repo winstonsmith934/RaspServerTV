@@ -2,51 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>RaspServerTV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="icon" type="image/png" href="">
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
-<header class="main-header">
-  <a href="index.html" class="logo-area" style="text-decoration: none; color: inherit;">
+
+  <header class="main-header">
+   
+
+    <a href="index.html" class="logo-area" style="text-decoration: none; color: inherit;">
     <img src="https://static-00.iconduck.com/assets.00/raspberry-pi-icon-401x512-fgfc1d0q.png" alt="" class="site-logo">
-    <span class="site-title">RaspServerTV</span>
+    <span class="site-title">RaspberryTV</span>
   </a>
+  
   <input class="search firefox-style" id="searchBox" type="text" placeholder="Search channel...">
-</header>
+  
+  
+  </header>
 
-<div class="container">
-  <aside class="sidebar" id="channelList"></aside>
-  <main class="main-content">
-    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 960px;"></div>
-    <video id="player" controls autoplay></video>
-    <div class="material-info-panel">
-      <p id="channelTitle" style="display: flex; align-items: center; width: 100%;"></p>
-      <span id="statusMessage" class="statusMessage"></span>
-      <br><br>
-      <a href="https://github.com/JonathanSanfilippo/iptv-auto-cleaner/actions" target="_blank">Auto M3U Updater</a>
-      <p id="updateDate"></p>
-      <p id="validCount"></p>
-      <p id="skippedCount"></p>
-      <p id="totalCount"></p>
-      <br>
-      <span>you are connect with <span id="locationInfo"></span></span>
-    </div>
-  </main>
-  <aside class="flag-sidebar">
-    <div class="country-selector" id="countrySelector"></div>
-  </aside>
-</div>
+  <div class="layout-container">
+    <aside class="sidebar left-sidebar" id="channelList">
+      <!-- Sidebar sinistra -->
+      
+    </aside>
 
-<footer class="main-footer">
-  <p>
-    &copy; <span id="year"></span>
-    <a href="https://github.com/JonathanSanfilippo" target="_blank">Jonathan Sanfilippo</a> |
-    <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Supporta il progetto</a>
-  </p>
-</footer>
+    <main class="main-content">
+      <!-- Contenuto centrale -->
+      <video id="player" controls autoplay></video>
+     
+      
+      <div class="panel-box">
+         <div class="container-box">
+              <p id="channelTitle" class="channelCurrent" style=""></p>
+              <span id="statusMessage" class="statusMessage"></span>
+                 <br>
+              <p><span class="repo-language-color"></span> <span id="updateDate"></span></p>
+              <p id="validCount"></p>
+              <p id="skippedCount"></p>
+              <p id="totalCount"></p>
+                <br>
+              <span>You are connected from <span id="locationInfo"></span></span>
+        
+        </div>
+      </div>
+    </main>
+    
+    <aside class="sidebar right-sidebar flag-sidebar">
+      <!-- Sidebar destra -->
+      <div class="country-selector" id="countrySelector"></div>
+    </aside>
+  </div>
 
-  <script src="scripts.js"></script>
+  <footer class="main-footer">
+    <p>Copyright © <span id="year"></span> Jonathan Sanfilippo. All rights reserved. - <a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> - <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Donate</a></p>
+  </footer>
+  
+<script src="scripts.js"></script>
+
+
 </body>
 </html>
 

@@ -77,9 +77,15 @@
       hls.loadSource(url);
       hls.attachMedia(player);
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
-        player.play();
-        statusMsg.textContent = '';
-      });
+  player.play();
+  statusMsg.textContent = '';
+
+  // Evidenzia il canale che sta effettivamente partendo
+  document.querySelectorAll('.channel').forEach(c => c.classList.remove('selected'));
+  const selectedChannel = document.querySelector(`.channel[data-url="${url}"]`);
+  if (selectedChannel) selectedChannel.classList.add('selected');
+});
+
       hls.on(Hls.Events.ERROR, function (event, data) {
         if (data.fatal) {
           statusMsg.textContent = "Channel not available, trying another one...";
@@ -104,8 +110,8 @@
 
   function updateChannelTitle(name, logo) {
     channelTitle.innerHTML = `
-      <img src="${logo}" alt="Logo" style="height: 80px; max-width: 100px; object-fit: contain; margin-right: 20px;">
-      <p style="font-family:Netflix Sans!important; font-weight:500; font-size:30px!important;">${name}</p>`;
+      <img src="${logo}" alt="" ><p> ${name}<p/>
+      `;
   }
 
   function createChannelElement(name, logo, url) {
@@ -129,9 +135,15 @@
     div.appendChild(nameSpan);
 
     div.addEventListener('click', () => {
-      playStream(url);
-      updateChannelTitle(name, logo);
-    });
+  // Rimuove "selected" da tutti i canali
+  document.querySelectorAll('.channel').forEach(c => c.classList.remove('selected'));
+
+  // Aggiunge "selected" solo al canale cliccato
+  div.classList.add('selected');
+
+  playStream(url);
+  updateChannelTitle(name, logo);
+});
 
     channelList.appendChild(div);
   }
@@ -292,3 +304,8 @@
       console.warn("⚠️ Impossibile caricare stats.json:", err);
       document.getElementById('updateDate').textContent = "❌ Unable to load stats.";
     });
+    
+    
+    //test
+    
+
