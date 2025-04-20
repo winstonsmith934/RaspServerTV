@@ -23,10 +23,18 @@
 
     <a href="index.html" class="logo-area" style="text-decoration: none; color: inherit;">
     <img src="https://static-00.iconduck.com/assets.00/raspberry-pi-icon-401x512-fgfc1d0q.png" alt="" class="site-logo">
-    <span class="site-title">RaspberryTV</span><p class="logodesktop">Desktop v0.3b</p>
+    <span class="site-title">RaspberryTV</span><p class="logodesktop">Desktop v0.4b</p>
   </a>
- 
-  
+         <div class="info">
+            <p class="maintenance"><i class="fa-duotone fa-solid fa-triangle-exclamation"></i><span> Maintenance</span></p>
+            <p class="listupdate"><i class="fa-duotone fa-solid fa-file-arrow-down"></i><span id="updateDate"></span></p>
+            <p><i class="fa-duotone fa-solid fa-clapperboard-play"></i><span id="validCount"></span></p>
+         <p><span id="locationInfo"></p>
+         
+         
+         </div>
+         
+         
   <input class="search firefox-style" id="searchBox" type="text" placeholder="Search channel...">
   
   
@@ -48,12 +56,12 @@
               <p id="channelTitle" class="channelCurrent" style=""></p>
               <span id="statusMessage" class="statusMessage"></span>
                  <br>
-              <p><span class="repo-language-color"></span> <span id="updateDate"></span></p>
+             
               <p id="validCount"></p>
               <p id="skippedCount"></p>
               <p id="totalCount"></p>
                 <br>
-              <span>You are connected from <span id="locationInfo"></span></span>
+              <span>You are connected from </span></span>
         
         </div>
       </div>
@@ -64,15 +72,9 @@
       <div class="country-selector" id="countrySelector"></div>
     </aside>
   </div>
-<script>
-  fetch('https://api.countapi.xyz/hit/https://jonathansanfilippo.github.io/RaspServerTV')
-  .then(res => res.json())
-  .then(data => {
-    document.getElementById('visits').textContent = data.value;
-  });
-</script>
+
   <footer class="main-footer">
-    <p>Copyright © <span id="year"></span> Jonathan Sanfilippo - <a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> - <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Donate</a> - <span class="visite">Views <span id="visits" ></span></span></p>
+    <p>Copyright © <span id="year"></span> Jonathan Sanfilippo - <a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> - <a href="https://www.paypal.com/donate" target="_blank" class="donate-link">Donate</a><span class="visite"><span id="visitCount" ></span></span></p>
     
   </footer>
   

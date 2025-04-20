@@ -86,20 +86,26 @@
   if (selectedChannel) selectedChannel.classList.add('selected');
 });
 
-      hls.on(Hls.Events.ERROR, function (event, data) {
-        if (data.fatal) {
-          statusMsg.textContent = "Channel not available, trying another one...";
-          const visible = Array.from(document.querySelectorAll('.channel')).filter(el => el.style.display !== 'none');
-          const i = visible.findIndex(el => el.dataset.url === url);
-          const next = visible[i + 1];
-          if (next) {
-            updateChannelTitle(next.dataset.display, next.dataset.logo);
-            playStream(next.dataset.url);
-          } else {
-            statusMsg.textContent = "No other channel available.";
-          }
-        }
-      });
+  hls.on(Hls.Events.ERROR, function (event, data) {
+  if (data.fatal) {
+    // Rimuove l'elemento dalla sidebar
+    const failedChannel = document.querySelector(`.channel[data-url="${url}"]`);
+    if (failedChannel) failedChannel.remove();
+
+    // Mostra messaggio e passa al prossimo
+    statusMsg.textContent = "Channel not available, trying another one...";
+    const visible = Array.from(document.querySelectorAll('.channel')).filter(el => el.style.display !== 'none');
+    const i = visible.findIndex(el => el.dataset.url === url);
+    const next = visible[i + 1];
+    if (next) {
+      updateChannelTitle(next.dataset.display, next.dataset.logo);
+      playStream(next.dataset.url);
+    } else {
+      statusMsg.textContent = "No other channel available.";
+    }
+  }
+});
+
     } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
       player.src = url;
       player.play();
@@ -295,15 +301,24 @@
   fetch('https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/info/stats.json')
     .then(res => res.json())
     .then(stats => {
-      document.getElementById('updateDate').textContent = `Last update: ${stats.last_update}`;
-      document.getElementById('validCount').textContent = `Valid channels: ${stats.valid}`;
-      document.getElementById('skippedCount').textContent = `Skipped channels: ${stats.skipped}`;
-      document.getElementById('totalCount').textContent = `Total entries: ${stats.total}`;
+      document.getElementById('updateDate').textContent = ` List ${stats.last_update}`;
+      document.getElementById('validCount').textContent = ` ${stats.valid}`;
+      document.getElementById('skippedCount').textContent = ` ${stats.skipped}`;
+      document.getElementById('totalCount').textContent = ` ${stats.total}`;
     })
     .catch(err => {
-      console.warn("⚠️ Impossibile caricare stats.json:", err);
-      document.getElementById('updateDate').textContent = "❌ Unable to load stats.";
+      console.warn(" Impossibile caricare stats.json:", err);
+      document.getElementById('updateDate').textContent = " Unable to load stats.";
     });
     
-    
+   //visits 
+ 
+    fetch('visits.php')
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('visitCount').textContent = ` - Views ${data.visits}`;
+  })
+  .catch(err => {
+    document.getElementById('visitCount').textContent = " ";
+  });
    
