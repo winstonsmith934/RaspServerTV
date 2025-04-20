@@ -63,7 +63,7 @@ code, pre{
 .layout-container {
   flex: 1;
   display: flex;
-  overflow: hidden;
+  overflow-y: auto;
 }
 
 .sidebar {
@@ -87,7 +87,6 @@ code, pre{
 .main-content {
   flex: 1;
   padding: 20px;
-
   box-sizing: border-box;
 }
 
