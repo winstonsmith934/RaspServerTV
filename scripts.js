@@ -2,7 +2,7 @@
   document.getElementById("year").textContent = new Date().getFullYear();
 
   const m3uUrls = [
-    'https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/testing/test.m3u'
+    'https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/original/original.m3u'
   ];
 
   let hls, allChannels = {}, currentGroup = 'UK';
