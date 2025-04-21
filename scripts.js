@@ -50,8 +50,8 @@
           const flagUrl = `https://hatscripts.github.io/circle-flags/flags/${ipdata.country.toLowerCase()}.svg`;
           const info = `<a href='https://ipinfo.io/${ipdata.ip}' target='_blank' style='text-decoration: none; color: inherit;'>
             <img src='${flagUrl}' style=' width: 14px; vertical-align: middle;'>
-            ${ipdata.country} (${ipdata.ip})
-          </a>`;
+            ${ipdata.country} 
+          </a><span style="font-size:14px;">[${ipdata.ip}]</span>`;
           document.getElementById('locationInfo').innerHTML = info;
         })
         .catch(err => console.warn('IP info not available:', err));
@@ -76,6 +76,107 @@
       hls = new Hls();
       hls.loadSource(url);
       hls.attachMedia(player);
+     
+ // 1. Setup qualità visibili come link
+hls.on(Hls.Events.MANIFEST_PARSED, function () {
+  const qualityOptions = document.getElementById('qualityOptions');
+  if (!qualityOptions) return;
+
+  qualityOptions.innerHTML = ''; // reset
+
+  const autoBtn = document.createElement('span');
+  autoBtn.className = 'quality-option active';
+  autoBtn.textContent = 'Auto';
+  autoBtn.onclick = () => {
+    hls.currentLevel = -1;
+    updateQualityButtons(-1);
+  };
+  qualityOptions.appendChild(autoBtn);
+
+  hls.levels.forEach((level, index) => {
+    const height = level.height;
+    let label = '';
+
+   if (height >= 4320) label = '8K';
+else if (height >= 2160) label = '4K';
+else if (height >= 1440) label = '2K';
+else if (height >= 1080) label = '1080p';
+else if (height >= 720)  label = '720p';
+else if (height >= 480)  label = '480p';
+else if (height >= 360)  label = '360p';
+else if (height >= 240)  label = '240p';
+else if (height >= 144)  label = '144p';
+else label = 'Very Low';
+
+
+    const bitrate = Math.round(level.bitrate / 1000);
+    const option = document.createElement('span');
+    option.className = 'quality-option';
+    option.textContent = `${label}`;
+    option.title = `${height}p, ${bitrate} kbps`;
+    option.dataset.level = index;
+
+    option.onclick = () => {
+      hls.currentLevel = index;
+      updateQualityButtons(index);
+    };
+
+    qualityOptions.appendChild(option);
+  });
+
+  function updateQualityButtons(activeLevel) {
+    document.querySelectorAll('.quality-option').forEach(el => {
+      el.classList.toggle('active', el.dataset.level == activeLevel || (activeLevel === -1 && !el.dataset.level));
+    });
+  }
+});
+
+// 2. Aggiorna visualizzazione qualità corrente
+hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
+  const level = hls.levels[data.level];
+  const qualityInfo = document.getElementById('qualityInfo');
+
+  if (!level) {
+    qualityInfo.textContent = 'Quality: Auto';
+    qualityInfo.style.color = '#aaa';
+    return;
+  }
+
+  const height = level.height;
+  let label = '';
+  let color = '';
+
+  if (height >= 4320) {
+  label = '8K Ultra HD'; color = '#ff4500'; // rosso arancio intenso
+} else if (height >= 2160) {
+  label = '4K Ultra HD'; color = '#ff8c00'; // arancio
+} else if (height >= 1440) {
+  label = '2K QHD'; color = '#ffd700'; // oro
+} else if (height >= 1080) {
+  label = 'Full HD'; color = '#00ffcc'; // verde acqua
+} else if (height >= 720) {
+  label = 'HD Ready'; color = '#1e90ff'; // blu
+} else if (height >= 480) {
+  label = 'SD 480p'; color = '#bbbbbb'; // grigio medio
+} else if (height >= 360) {
+  label = 'SD 360p'; color = '#999999'; // grigio scuro
+} else if (height >= 240) {
+  label = 'Low 240p'; color = '#d87b7b'; // rosato
+} else if (height >= 144) {
+  label = 'Very Low 144p'; color = '#e05252'; // rosso tenue
+} else {
+  label = 'Potato Mode'; color = '#c0392b'; // meme: rosso scuro
+}
+
+
+  const bitrate = Math.round(level.bitrate / 1000);
+  qualityInfo.textContent = `${label} [${height}p, ${bitrate} kbps]`;
+  qualityInfo.style.color = color;
+});
+
+
+
+      
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
   player.play();
   statusMsg.textContent = '';
@@ -302,9 +403,9 @@
     .then(res => res.json())
     .then(stats => {
       document.getElementById('updateDate').textContent = ` List ${stats.last_update}`;
-      document.getElementById('validCount').textContent = ` ${stats.valid}`;
-      document.getElementById('skippedCount').textContent = ` ${stats.skipped}`;
-      document.getElementById('totalCount').textContent = ` ${stats.total}`;
+      document.getElementById('validCount').textContent = `${stats.valid}`;
+      document.getElementById('skippedCount').textContent = `${stats.skipped}`;
+      document.getElementById('totalCount').textContent = `${stats.total}`;
     })
     .catch(err => {
       console.warn(" Impossibile caricare stats.json:", err);

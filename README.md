@@ -1,52 +1,75 @@
-# 🛰️ RaspberryTV — IPTV Web Interface & Auto Cleaner
+# 🛰️ RaspServerTV
 
-🌍 **Live Site**: [https://jonathansanfilippo.github.io/RaspServerTV/](https://jonathansanfilippo.github.io/RaspServerTV/)  
-📦 **GitHub Repo (Script)**: [https://github.com/JonathanSanfilippo/iptv-auto-cleaner](https://github.com/JonathanSanfilippo/iptv-auto-cleaner)
+🌍 **Live site**: [https://jonathansanfilippo.github.io/RaspServerTV/](https://jonathansanfilippo.github.io/RaspServerTV/)
 
-**RaspberryTV** is a clean, mobile-friendly web interface to browse, search, and watch IPTV channels.  
-It works with an automated Bash script that builds and maintains a curated `.m3u` playlist from various country-based sources.
+**RaspServerTV** is a personal project created to collect and display IPTV channels in a clean and organized way, directly from the browser. It provides an updated and filtered list of streaming channels from around the world, accessible anywhere.
 
 ---
 
-## 💡 Features
+## 🔧 How It Works
 
-- 🌐 Web-based IPTV browser (desktop & mobile)
-- 📂 Channel lists by country
-- 🔎 Search, logos, and stream preview
-- ⚙️ Auto-detect your country via IP (GeoIP)
-- 🧼 GitHub Action to clean and verify stream URLs
-- ✅ Uses `ffprobe` to detect valid video/audio streams
-- 📊 JSON + TXT stats for frontend use
+- A Bash script processes multiple `.m3u` source files organized by country (`italy.txt`, `uk.txt`, etc.).
+- Dead links (e.g., 404, 500, 000) are automatically removed.
+- Channels with 403 errors are fixed when possible (name, logo, link).
+- The result is a cleaned master playlist: `original.m3u`.
 
 ---
 
-## 🖥️ RaspberryTV: The Frontend
+## 🌐 Web Interface
 
-Built with **HTML, CSS (Ubuntu fonts)**, and **JavaScript + HLS.js**.
-
-### Desktop Version
-- URL: [Desktop view](https://jonathansanfilippo.github.io/RaspServerTV/)
-- Sidebar with channels and flags
-- Auto-play on selection
-- Status messages, last update info, and view counter
-
-### Mobile Version
-- URL: [Mobile view](https://jonathansanfilippo.github.io/RaspServerTV/mobile.html)
-- Responsive layout with same functionalities
-- Flags and channels in vertical layout
-- Built-in video player and fast navigation
-
-> Both versions share the same logic via `scripts.js` and load data dynamically from the GitHub repo.
+- A lightweight HTML + JavaScript page loads the cleaned playlist.
+- Channels are displayed by country, with logos and names.
+- The site detects the user's location (via IP or VPN) and prioritizes channels from that country.
+- Everything runs directly in the browser — no installation needed.
 
 ---
 
-## ⚙️ Backend: IPTV Auto-Cleaner Script
+## ⚠️ Technical Note
 
-This Bash script automatically parses, verifies, and rebuilds `.m3u` IPTV playlists.
+Some streams may **not work properly in VLC or other external IPTV players**, as they require loading through a browser that supports **HLS (HTTP Live Streaming)**.
 
-### 📄 Script Overview
+The website uses `hls.js` to ensure proper playback of these streams in a compatible environment.  
+**For best results, use the website interface.**
 
-```bash
-# Uses ffprobe to validate each stream:
-ffprobe -v error -show_entries stream=codec_type -of csv=p=0 "$url"
+---
 
+## 📄 Channel Policy
+
+**Only free channels**  
+This playlist includes only channels that are freely and officially available in their country of origin (e.g., via DVB-T, DVB-S, analog, or legal online streaming).  
+
+- ❌ No paid subscription channels  
+- ✅ Only officially free-to-air or publicly available content
+
+**Only mainstream channels**  
+This project aims to be accessible to a wide audience. Therefore:
+
+- ❌ No adult content  
+- ❌ No channels tied to specific religions or political parties  
+- ❌ No state-funded foreign propaganda channels
+
+---
+
+### 🔍 Channel Legend
+
+- Ⓢ = Not in HD (Standard Definition)  
+- Ⓖ = Geo-blocked (only viewable from specific countries)  
+- Ⓨ = YouTube live stream
+
+---
+
+## 🔗 Useful Links
+
+- 🌍 **Live Site**: [https://jonathansanfilippo.github.io/RaspServerTV/](https://jonathansanfilippo.github.io/RaspServerTV/)
+- 📄 **Clean M3U Playlist**:  
+  [https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/original/original.m3u](https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/original/original.m3u)
+
+---
+
+## 📬 Contact
+
+📧 **Email**: jonalinux.uk@gmail.com
+
+---
+
+© 2025 Jonathan Sanfilippo

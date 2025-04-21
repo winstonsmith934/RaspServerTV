@@ -126,11 +126,53 @@ code, pre{
   font-size:17px;
   font-family: "Ubuntu Mono", monospace;
   background:#0d1117;
-  padding:2px 6px;
+  padding:6px 6px;
   border-radius:8px;
   margin-right:10px;
   display: inline;
 
+}
+
+.quality{
+   font-size:14px;
+  font-family: "Ubuntu Mono", monospace;
+  background:#0d1117;
+  color:#5ac8fa;
+  padding:6px 6px;
+  border-radius:8px;
+  margin-right:10px;
+  display: inline;
+}
+
+.quality-options {
+  margin-top:10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+   font-family: "Ubuntu Mono", monospace;
+  font-size: 16px;
+  color: white;
+}
+
+.quality-option {
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 2px;
+  background:#0d1117;
+  transition: background 0.2s;
+  border:2px solid #2c353e ;
+}
+
+.quality-option:hover {
+  background:#2c353e;
+  border:2px solid #2c353e ;
+}
+
+.quality-option.active {
+  background:#0d1117;
+  font-weight: bold;
+  border:2px solid #327095;
 }
 
 
@@ -141,13 +183,29 @@ code, pre{
 .listupdate{
   color:#5ac8fa;
 }
+.canali{
+  color:#d7fa5a;
+}
+
+.totchan{
+   color:#fada5a;
+   font-size:14px;
+}
+
+.skip{
+  color:#ff8181;
+}
+
+.ip{
+  color:#6a7383;
+}
 
 .panel-box {
   width: 100%;
   max-width: 960px;
   margin: 10px auto;
   padding: 0px; 
-  background: #0d1117;
+  background: #010409;
   }
   
 .container-box {
