@@ -246,7 +246,15 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
     channelTitle.innerHTML = `
       <img src="${logo}" alt="" ><p> ${name}<p/>
       `;
+      document.title = `${name}`;
+  
+
+   // Aggiorna la favicon con il logo canale
+  const favicon = document.getElementById('dynamic-favicon');
+  if (favicon) {
+    favicon.href = logo && logo.trim() !== '' ? logo : 'https://img.icons8.com/office40/512/raspberry-pi.png';
   }
+}
 
   function createChannelElement(name, logo, url) {
     const div = document.createElement('div');
