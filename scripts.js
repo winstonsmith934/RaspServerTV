@@ -462,14 +462,4 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
       document.getElementById('updateDate').textContent = " Unable to load stats.";
     });
     
-   //visits 
  
-    fetch('visits.php')
-  .then(res => res.json())
-  .then(data => {
-    document.getElementById('visitCount').textContent = ` - Views ${data.visits}`;
-  })
-  .catch(err => {
-    document.getElementById('visitCount').textContent = " ";
-  });
-   
