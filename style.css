@@ -1,11 +1,9 @@
-
-
 html,body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background:#000204;;
-  color: #f0f6fc;
+  background:#0e1117;
+  color: #c9d1d9;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -18,13 +16,12 @@ code, pre{
   font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  background:;
-  color:;
+  background:#1c2128;
+  color:#58a6ff;
 }
 
-
 .main-header {
-  background:#010409;
+  background:#161b22;
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -36,12 +33,11 @@ code, pre{
   color:#d7fa5a;
   font-size:17px;
   font-family: "Ubuntu Mono", monospace;
-  background:#0d1117;
+  background:#1c2128;
   padding:2px 8px;
   border-radius:6px;
   margin-right:10px;
 }
-
 
 .logo-area {
   display: flex;
@@ -59,7 +55,6 @@ code, pre{
   font-weight: 600;
 }
 
-
 .layout-container {
   flex: 1;
   display: flex;
@@ -74,11 +69,9 @@ code, pre{
   overflow-x: hidden;
   box-sizing: border-box;
   position: relative; 
-  background-color: #0d1117; 
+  background-color: #1c2128; 
   scrollbar-gutter: stable; 
 }
-
-
 
 .right-sidebar {
   
@@ -92,18 +85,16 @@ code, pre{
 
 /* Footer */
 .main-footer {
-  background: #0d1117;
-  color: #aaa;
+  background: #161b22;
+  color: #8b949e;
   text-align: center;
   padding: 15px;
   font-size: 14px;
   margin: 0;
-  
-  
 }
 
 .main-footer a {
-  color: #5ac8fa;
+  color: #58a6ff;
   text-decoration: none;
 }
 
@@ -111,35 +102,37 @@ code, pre{
   text-decoration: underline;
 }
 
-.visite{
-    color:#fada5a;
-}
+.visite{}
 
 #player {
   width: 100%;
   max-width: 960px;
   margin: 10px auto;
   display: block;
-  background:#010409;
+  background:#161b22;
+  background-image: url("https://static-00.iconduck.com/assets.00/raspberry-pi-icon-401x512-fgfc1d0q.png");
+  background-position: center top;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .info p{
-  
   font-size:17px;
   font-family: "Ubuntu Mono", monospace;
-  background:#0d1117;
+  background:#1c2128;
   padding:6px 6px;
   border-radius:8px;
   margin-right:10px;
   display: inline;
-
+  color: #c9d1d9;
 }
 
 .quality{
-   font-size:14px;
+  font-size:14px;
   font-family: "Ubuntu Mono", monospace;
-  background:#0d1117;
-  color:#5ac8fa;
+  background:#1c2128;
+  color:#58a6ff;
   padding:6px 6px;
   border-radius:8px;
   margin-right:10px;
@@ -152,54 +145,55 @@ code, pre{
   gap: 10px;
   flex-wrap: wrap;
   align-items: center;
-   font-family: "Ubuntu Mono", monospace;
+  font-family: "Ubuntu Mono", monospace;
   font-size: 16px;
-  color: white;
+  color: #c9d1d9;
 }
 
 .quality-option {
   cursor: pointer;
   padding: 4px 8px;
   border-radius: 2px;
-  background:#0d1117;
+  background:#1c2128;
   transition: background 0.2s;
-  border:2px solid #2c353e ;
+  border:2px solid #2c313a ;
+  color: #c9d1d9;
 }
 
 .quality-option:hover {
-  background:#2c353e;
-  border:2px solid #2c353e ;
+  background:#2c313a;
+  border:2px solid #2c313a ;
 }
 
 .quality-option.active {
-  background:#0d1117;
+  background:#2c313a;
   font-weight: bold;
-  border:2px solid #327095;
+  border:2px solid #58a6ff;
 }
 
-
 .maintenance{
-   color:#ff3f3f;
+  color:#ff7b72;
 }
 
 .listupdate{
-  color:#5ac8fa;
+  color:#58a6ff;
 }
+
 .canali{
-  color:#d7fa5a;
+  color:#56d364;
 }
 
 .totchan{
-   color:#fada5a;
-   font-size:14px;
+  color:#f0b232;
+  font-size:14px;
 }
 
 .skip{
-  color:#ff8181;
+  color:#ff7b72;
 }
 
 .ip{
-  color:#6a7383;
+  color:#8b949e;
 }
 
 .panel-box {
@@ -207,14 +201,15 @@ code, pre{
   max-width: 960px;
   margin: 10px auto;
   padding: 0px; 
-  background: #010409;
-  }
-  
-.container-box {
- padding: 2px 30px 30px 30px  ; 
- font-size:14px;
+  background: #161b22;
 }
-  
+
+.container-box {
+ padding: 2px 30px 30px 30px; 
+ font-size:14px;
+ color: #c9d1d9;
+}
+
 .repo-language-color {
   position: relative;
   top: 1px;
@@ -224,8 +219,6 @@ code, pre{
   border-radius:50%;
   background-color: #89e051;
 }
-
-
 
 .flag {
   width: 36px;
@@ -240,7 +233,6 @@ code, pre{
   border-color: none;
 }
 
-
 .flag-sidebar {
   width: 240px;
   background: ;
@@ -248,68 +240,64 @@ code, pre{
   padding: 0px;
   display: flex;
   flex-direction: column;
- 
 }
 
 .flag-wrapper {
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color:#0d1117;
+  background-color:#1c2128;
   transition: background-color 0.2s;
   cursor: pointer;
 }
 
 .flag-wrapper:hover {
-  background-color: #151b23;
+  background-color: #2c313a;
 }
 
 .flag {
   width: 28px;
   height: 28px;
-  
 }
 
 .flag-label {
   font-size: 17px;
   padding-left:5px;
-  
+  color: #c9d1d9;
 }
 
 .flag-wrapper.selected {
-  background-color: #151b23;
-  border-right: 4px solid #5ac8fa;
+  background-color: #2c313a;
+  border-right: 4px solid #58a6ff;
 }
 
 .update-info{
   font-size: 17px;
- 
   color:#555;
 }
-
 
 .channel {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #0d1117;
+  background: #1c2128;
   padding:10px ;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .channel:hover {
-  background: #151b23;
+  background: #2c313a;
 }
 
 .channel.selected {
-  background-color: #151b23;
-  border-left: 4px solid #5ac8fa;
+  background-color: #2c313a;
+  border-left: 4px solid #58a6ff;
 }
 
 .channel-name {
-   font-size: 17px;
-  color: var(--color-text);
+  font-size: 17px;
+  color: #c9d1d9;
   flex-grow: 1;
   text-align: left;
   padding-left: 10px;
@@ -324,66 +312,61 @@ code, pre{
   margin-top: 5px;
   font-size: 17px;
   text-align: center;
+  color: #c9d1d9;
 }
-
 
 .channelCurrent{
   display: flex; 
   align-items: center; 
   width: 100%; 
   font-size:20px;
-  
+  color: #c9d1d9;
 }
+
 .channelCurrent img{
  width: 60px;
  height: auto;
  margin-right: 20px;
- 
- 
 }
 
-
-
 .firefox-style {
-  background: #0d1117;
-  color: #f0f6fc;
+  background: #1c2128;
+  color: #c9d1d9;
   border: none;
   border-radius: 6px;
   padding: 10px 16px;
   font-size: 16px;
   width: 100%;
   max-width: 200px;
-  margin-top: 20px;
-  transition: box-shadow 0.2s, background 0.2s;
   margin-top: 0px; 
   margin-bottom: 0px;
+  transition: box-shadow 0.2s, background 0.2s;
 }
 
 .firefox-style:focus {
   outline: none;
-  background: #0d1117;
-  
+  background: #2c313a;
 }
 
 @media (max-width: 768px) {
-  
   .channel img {
-  width: 20px;
-  height: auto;
-}
+    width: 20px;
+    height: auto;
+  }
+
   .channel-name {
     font-size: 12px;
   }
 
   .flag-label {
     font-size: 12px;
-    
   }
-  .flag {
-  width: 22px;
-  height: 22px
-}
 
+  .flag {
+    width: 22px;
+    height: 22px
+  }
+}
 
 .anim-rotate {
   animation: rotate 1s linear infinite;
@@ -402,3 +385,4 @@ code, pre{
 .statusMessage{
    display: inline;
 }
+
