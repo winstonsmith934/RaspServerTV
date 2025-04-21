@@ -466,20 +466,3 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
 
 //
 
-document.getElementById('contatoreFrame').onload = () => {
-      try {
-        const iframe = document.getElementById('contatoreFrame');
-        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-        const texts = iframeDoc.querySelectorAll('text');
-        for (const text of texts) {
-          if (text.textContent.startsWith('Total:')) {
-            document.getElementById('contatore').textContent = text.textContent;
-            return;
-          }
-        }
-        document.getElementById('contatore').textContent = 'Contatore non trovato';
-      } catch (e) {
-        document.getElementById('contatore').textContent = '*';
-        console.error('Errore nell\'accesso all\'iframe:', e);
-      }
-    };
