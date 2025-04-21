@@ -70,12 +70,27 @@
     }
   }
 
-  function playStream(url) {
-    if (hls) hls.destroy();
-    if (Hls.isSupported()) {
-      hls = new Hls();
-      hls.loadSource(url);
-      hls.attachMedia(player);
+ function playStream(url) {
+  // Se è un link RAI, tentiamo prima con il proxy
+  if (url.includes("relinker/relinkerServlet")) {
+    fetch('rai-proxy.php?url=' + encodeURIComponent(url))
+      .then(res => res.json())
+      .then(data => {
+        if (data.stream) {
+          playStream(data.stream); // Riprova con lo stream risolto
+        } else {
+          skipToNextChannel(url);
+        }
+      })
+      .catch(() => skipToNextChannel(url));
+    return; // blocca finché non risolviamo via proxy
+  }
+
+  if (hls) hls.destroy();
+  if (Hls.isSupported()) {
+    hls = new Hls();
+    hls.loadSource(url);
+    hls.attachMedia(player);
      
  // 1. Setup qualità visibili come link
 hls.on(Hls.Events.MANIFEST_PARSED, function () {
@@ -213,7 +228,7 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
   if (selectedChannel) {
     selectedChannel.classList.add('selected');
 
-    // ✅ SOLO SE PARTE: aggiorna titolo + favicon
+    // aggiorna titolo + favicon
     const name = selectedChannel.dataset.display;
     const logo = selectedChannel.dataset.logo;
 
@@ -264,6 +279,31 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
       alert("Your browser does not support HLS.");
     }
   }
+
+function skipToNextChannel(currentUrl) {
+  const failedChannel = document.querySelector(`.channel[data-url="${currentUrl}"]`);
+  if (failedChannel) {
+    failedChannel.classList.add('channel-error');
+    failedChannel.style.opacity = 0.3;
+    failedChannel.style.pointerEvents = 'none';
+  }
+
+  statusMsg.innerHTML = `<span style=" font-size:30px;"> 
+    <i class="fa-duotone fa-solid fa-spinner-third fa-spin"></i> loading</span>`;
+
+  const visible = Array.from(document.querySelectorAll('.channel'))
+    .filter(el => el.style.display !== 'none');
+  const i = visible.findIndex(el => el.dataset.url === currentUrl);
+  const next = visible[i + 1];
+
+  if (next) {
+    updateChannelTitle(next.dataset.display, next.dataset.logo);
+    playStream(next.dataset.url);
+  } else {
+    statusMsg.textContent = "No other channel available.";
+  }
+}
+
 
   function updateChannelTitle(name, logo) {
     channelTitle.innerHTML = `
