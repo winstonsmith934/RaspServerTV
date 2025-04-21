@@ -217,7 +217,7 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
     const name = selectedChannel.dataset.display;
     const logo = selectedChannel.dataset.logo;
 
-    document.title = `${name} – RaspServerTV`;
+    document.title = `${name}`;
 
     const favicon = document.getElementById('dynamic-favicon');
        if (favicon) {
