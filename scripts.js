@@ -2,7 +2,8 @@
   document.getElementById("year").textContent = new Date().getFullYear();
 
   const m3uUrls = [
-    'https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/original/original.m3u'
+    'https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/original/original.m3u',
+    'test.m3u'
   ];
 
   let hls, allChannels = {}, currentGroup = 'UK';
@@ -462,4 +463,23 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
       document.getElementById('updateDate').textContent = " Unable to load stats.";
     });
     
- 
+
+//
+
+document.getElementById('contatoreFrame').onload = () => {
+      try {
+        const iframe = document.getElementById('contatoreFrame');
+        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+        const texts = iframeDoc.querySelectorAll('text');
+        for (const text of texts) {
+          if (text.textContent.startsWith('Total:')) {
+            document.getElementById('contatore').textContent = text.textContent;
+            return;
+          }
+        }
+        document.getElementById('contatore').textContent = 'Contatore non trovato';
+      } catch (e) {
+        document.getElementById('contatore').textContent = '*';
+        console.error('Errore nell\'accesso all\'iframe:', e);
+      }
+    };
