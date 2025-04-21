@@ -88,7 +88,6 @@ code, pre{
   background: #161b22;
   color: #8b949e;
   text-align: center;
-  padding: 15px;
   font-size: 14px;
   margin: 0;
 }
@@ -393,13 +392,13 @@ code, pre{
 
 #player {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1000px;
  
 }
 
 
 /* Su schermi più larghi */
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   #player {
     max-width: 2200px;
   }
