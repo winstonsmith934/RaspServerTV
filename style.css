@@ -105,8 +105,7 @@ code, pre{
 .visite{}
 
 #player {
-  width: 100%;
-  max-width: 960px;
+ 
   margin: 10px auto;
   display: block;
   background:#161b22;
@@ -204,7 +203,7 @@ code, pre{
 
 .panel-box {
   width: 100%;
-  max-width: 960px;
+  max-width: 1100px;
   margin: 10px auto;
   padding: 0px; 
   background: #161b22;
@@ -391,4 +390,11 @@ code, pre{
 .statusMessage{
    display: inline;
 }
+
+#player {
+  width: 100%;
+  max-width: 1100px;
+ 
+}
+
 
