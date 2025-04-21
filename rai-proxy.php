@@ -44,7 +44,7 @@ if (!$response) {
   ]);
 }
 
-// ✅ Cerca l'URL .m3u8 nella risposta
+
 if (preg_match('/https?:\/\/[^\s"]+\.m3u8/', $response, $matches)) {
   respond([
     'stream' => $matches[0],
