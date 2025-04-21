@@ -194,7 +194,8 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
     if (failedChannel) failedChannel.remove();
 
     // Mostra messaggio e passa al prossimo
-    statusMsg.textContent = "Channel not available, trying another one...";
+    statusMsg.innerHTML = `<span style=" font-size:30px;"> <i class="fa-duotone fa-solid fa-spinner-third fa-spin"></i><span> loading</span><span>` ;
+
     const visible = Array.from(document.querySelectorAll('.channel')).filter(el => el.style.display !== 'none');
     const i = visible.findIndex(el => el.dataset.url === url);
     const next = visible[i + 1];
