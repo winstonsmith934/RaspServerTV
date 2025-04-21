@@ -147,30 +147,30 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
   let color = '';
 
   if (height >= 4320) {
-  label = '8K Ultra HD'; color = '#ff4500'; // rosso arancio intenso
+  label = '8K Ultra HD'; color = '#A144FF'; // 
 } else if (height >= 2160) {
-  label = '4K Ultra HD'; color = '#ff8c00'; // arancio
+  label = '4K Ultra HD'; color = '#A144FF'; //
 } else if (height >= 1440) {
-  label = '2K QHD'; color = '#ffd700'; // oro
+  label = '2K QHD'; color = '#ffd700'; // 
 } else if (height >= 1080) {
-  label = 'Full HD'; color = '#00ffcc'; // verde acqua
+  label = 'Full HD'; color = '#00ffcc'; // 
 } else if (height >= 720) {
-  label = 'HD Ready'; color = '#1e90ff'; // blu
+  label = 'HD Ready'; color = '#5ac8fa'; // 
 } else if (height >= 480) {
-  label = 'SD 480p'; color = '#bbbbbb'; // grigio medio
+  label = 'SD 480p'; color = '#fada5a'; // 
 } else if (height >= 360) {
-  label = 'SD 360p'; color = '#999999'; // grigio scuro
+  label = 'SD 360p'; color = '#FAAC5A'; // 
 } else if (height >= 240) {
-  label = 'Low 240p'; color = '#d87b7b'; // rosato
+  label = 'Low 240p'; color = '#d87b7b'; // 
 } else if (height >= 144) {
-  label = 'Very Low 144p'; color = '#e05252'; // rosso tenue
+  label = 'Very Low 144p'; color = '#e05252'; // 
 } else {
   label = 'Potato Mode'; color = '#c0392b'; // meme: rosso scuro
 }
 
 
   const bitrate = Math.round(level.bitrate / 1000);
-  qualityInfo.textContent = `${label} [${height}p, ${bitrate} kbps]`;
+  qualityInfo.innerHTML = `<i class="fa-duotone fa-solid fa-signal-stream"></i> ${label} [${height}p, ${bitrate} kbps]`;
   qualityInfo.style.color = color;
 });
 
