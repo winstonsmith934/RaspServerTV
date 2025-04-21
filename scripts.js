@@ -207,17 +207,37 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
   player.play();
   statusMsg.textContent = '';
 
-  // Evidenzia il canale che sta effettivamente partendo
+   // Evidenzia il canale che sta effettivamente partendo
   document.querySelectorAll('.channel').forEach(c => c.classList.remove('selected'));
   const selectedChannel = document.querySelector(`.channel[data-url="${url}"]`);
-  if (selectedChannel) selectedChannel.classList.add('selected');
+  if (selectedChannel) {
+    selectedChannel.classList.add('selected');
+
+    // ✅ SOLO SE PARTE: aggiorna titolo + favicon
+    const name = selectedChannel.dataset.display;
+    const logo = selectedChannel.dataset.logo;
+
+    document.title = `${name} – RaspServerTV`;
+
+    const favicon = document.getElementById('dynamic-favicon');
+    if (favicon) {
+      favicon.href = '';
+    }
+  }
 });
+
+
 
   hls.on(Hls.Events.ERROR, function (event, data) {
   if (data.fatal) {
+  
     // Rimuove l'elemento dalla sidebar
     const failedChannel = document.querySelector(`.channel[data-url="${url}"]`);
-    if (failedChannel) failedChannel.remove();
+    if (failedChannel) {
+  failedChannel.classList.add('channel-error');
+  failedChannel.style.opacity = 0.3;
+  failedChannel.style.pointerEvents = 'none'; // lo disattiva senza eliminarlo
+}
 
     // Mostra messaggio e passa al prossimo
     statusMsg.innerHTML = `<span style=" font-size:30px;"> <i class="fa-duotone fa-solid fa-spinner-third fa-spin"></i><span> loading</span><span>` ;
@@ -246,15 +266,7 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
     channelTitle.innerHTML = `
       <img src="${logo}" alt="" ><p> ${name}<p/>
       `;
-      document.title = `${name}`;
-  
-
-   // Aggiorna la favicon con il logo canale
-  const favicon = document.getElementById('dynamic-favicon');
-  if (favicon) {
-    favicon.href = logo && logo.trim() !== '' ? logo : 'https://img.icons8.com/office40/512/raspberry-pi.png';
-  }
-}
+ }
 
   function createChannelElement(name, logo, url) {
     const div = document.createElement('div');
