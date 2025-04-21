@@ -97,16 +97,25 @@ hls.on(Hls.Events.MANIFEST_PARSED, function () {
     const height = level.height;
     let label = '';
 
-   if (height >= 4320) label = '8K';
+if (height >= 8640) label = '16K';
+else if (height >= 4320) label = '8K';
+else if (height >= 2880) label = '5K';
 else if (height >= 2160) label = '4K';
+else if (height >= 1600) label = '1600p';
 else if (height >= 1440) label = '2K';
+else if (height >= 1280) label = '1280p';
 else if (height >= 1080) label = '1080p';
+else if (height >= 1024) label = '1024p';
 else if (height >= 720)  label = '720p';
+else if (height >= 576)  label = '576p';
 else if (height >= 480)  label = '480p';
 else if (height >= 360)  label = '360p';
 else if (height >= 240)  label = '240p';
 else if (height >= 144)  label = '144p';
-else label = 'Very Low';
+else if (height >= 120)  label = '120p';
+else if (height >= 96)   label = '96p';
+else label = 'Potato';
+
 
 
     const bitrate = Math.round(level.bitrate / 1000);
@@ -146,27 +155,44 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
   let label = '';
   let color = '';
 
-  if (height >= 4320) {
-  label = '8K Ultra HD'; color = '#A144FF'; // 
+  if (height >= 8640) {
+  label = '16K Experimental'; color = '#FF44CC'; // Ultra futuristica
+} else if (height >= 4320) {
+  label = '8K Ultra HD'; color = '#A144FF';
+} else if (height >= 2880) {
+  label = '5K UltraWide'; color = '#A166FF'; // iMac 27" etc.
 } else if (height >= 2160) {
-  label = '4K Ultra HD'; color = '#A144FF'; //
+  label = '4K Ultra HD'; color = '#A144FF';
+} else if (height >= 1600) {
+  label = 'WQXGA+ 1600p'; color = '#33FFC1'; // Monitor alti
 } else if (height >= 1440) {
-  label = '2K QHD'; color = '#ffd700'; // 
+  label = '2K QHD'; color = '#00FFC3';
+} else if (height >= 1280) {
+  label = 'HD+ 1280p'; color = '#33FFDD'; // Stream HD migliorato
 } else if (height >= 1080) {
-  label = 'Full HD'; color = '#00ffcc'; // 
+  label = 'Full HD'; color = '#00FFCC';
+} else if (height >= 1024) {
+  label = 'XGA+ 1024p'; color = '#66FFCC'; // Qualità media alta
 } else if (height >= 720) {
-  label = 'HD Ready'; color = '#5ac8fa'; // 
+  label = 'HD Ready'; color = '#5AC8FA';
+} else if (height >= 576) {
+  label = 'PAL SD 576p'; color = '#f7ce3c'; // Standard europeo
 } else if (height >= 480) {
-  label = 'SD 480p'; color = '#fada5a'; // 
+  label = 'SD 480p'; color = '#FADA5A';
 } else if (height >= 360) {
-  label = 'SD 360p'; color = '#FAAC5A'; // 
+  label = 'SD 360p'; color = '#FAAC5A';
 } else if (height >= 240) {
-  label = 'Low 240p'; color = '#d87b7b'; // 
+  label = 'Low 240p'; color = '#D87B7B';
 } else if (height >= 144) {
-  label = 'Very Low 144p'; color = '#e05252'; // 
+  label = 'Very Low 144p'; color = '#E05252';
+} else if (height >= 120) {
+  label = 'Low 120p'; color = '#B0413E';
+} else if (height >= 96) {
+  label = 'Retro 96p'; color = '#964B00';
 } else {
-  label = 'Potato Mode'; color = '#c0392b'; // meme: rosso scuro
+  label = 'Potato Mode'; color = '#C0392B'; // Meme mode
 }
+
 
 
   const bitrate = Math.round(level.bitrate / 1000);
