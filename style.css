@@ -105,7 +105,7 @@ code, pre{
 
 #player {
  
-  margin: 10px auto;
+  margin: auto;
   display: block;
   background:#161b22;
   background-image: url("https://static-00.iconduck.com/assets.00/raspberry-pi-icon-401x512-fgfc1d0q.png");
@@ -392,13 +392,13 @@ code, pre{
 
 #player {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1100px;
  
 }
 
 
 /* Su schermi più larghi */
-@media (min-width: 1400px) {
+@media (min-width: 2000px) {
   #player {
     max-width: 2200px;
   }
