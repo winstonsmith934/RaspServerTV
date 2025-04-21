@@ -50,9 +50,9 @@
           }
           const flagUrl = `https://hatscripts.github.io/circle-flags/flags/${ipdata.country.toLowerCase()}.svg`;
           const info = `<a href='https://ipinfo.io/${ipdata.ip}' target='_blank' style='text-decoration: none; color: inherit;'>
-            <img src='${flagUrl}' style=' width: 14px; vertical-align: middle;'>
+           
             ${ipdata.country} 
-          </a><span style="font-size:14px;">[${ipdata.ip}]</span>`;
+          </a><span style="font-size:14px;">[${ipdata.ip}]</span>`; // <img src='${flagUrl}' style=' width: 14px; vertical-align: middle;'>
           document.getElementById('locationInfo').innerHTML = info;
         })
         .catch(err => console.warn('IP info not available:', err));
@@ -453,7 +453,7 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
   fetch('https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/info/stats.json')
     .then(res => res.json())
     .then(stats => {
-      document.getElementById('updateDate').textContent = ` List ${stats.last_update}`;
+      document.getElementById('updateDate').textContent = `${stats.last_update}`;
       document.getElementById('validCount').textContent = `${stats.valid}`;
       document.getElementById('skippedCount').textContent = `${stats.skipped}`;
       document.getElementById('totalCount').textContent = `${stats.total}`;
