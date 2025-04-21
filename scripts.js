@@ -220,9 +220,12 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
     document.title = `${name} – RaspServerTV`;
 
     const favicon = document.getElementById('dynamic-favicon');
-    if (favicon) {
-      favicon.href = '';
-    }
+       if (favicon) {
+      favicon.href = logo && logo.trim() !== ''
+        ? logo
+        : 'https://img.icons8.com/office40/512/raspberry-pi.png';
+  }
+    
   }
 });
 
