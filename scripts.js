@@ -50,9 +50,9 @@
           }
           const flagUrl = `https://hatscripts.github.io/circle-flags/flags/${ipdata.country.toLowerCase()}.svg`;
           const info = `<a href='https://ipinfo.io/${ipdata.ip}' target='_blank' style='text-decoration: none; color: inherit;'>
-           
+            <img src='${flagUrl}' style=' width: 14px; vertical-align:middle;'>
             ${ipdata.country} 
-          </a><span style="font-size:14px;">[${ipdata.ip}]</span>`; // <img src='${flagUrl}' style=' width: 14px; vertical-align: middle;'>
+          </a><span style="font-size:14px;">[${ipdata.ip}]</span>`; 
           document.getElementById('locationInfo').innerHTML = info;
         })
         .catch(err => console.warn('IP info not available:', err));
