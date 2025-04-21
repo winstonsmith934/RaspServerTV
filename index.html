@@ -79,7 +79,7 @@
   <footer class="main-footer">
  
   <iframe id="contatoreFrame" src="https://www.counters-free.net/count/hpv2" style="display:none;"></iframe>
-    <p>Copyright © <span id="year"></span> Jonathan Sanfilippo - <a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> - <a href="https://www.paypal.com/donate/?hosted_button_id=WTN3XPYNNKRNL" target="_blank" class="donate-link">Donate</a><span class="visite"> - Views</span> <span id="contatore"></span></p>
+    <p>Copyright © <span id="year"></span> Jonathan Sanfilippo - <a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> - <a href="https://www.paypal.com/donate/?hosted_button_id=WTN3XPYNNKRNL" target="_blank" class="donate-link">Donate</a> - </span> <span class="visite"><i class="fa-duotone fa-solid fa-eye"></i> <span id="contatore"></span></p>
 
 
  
@@ -88,30 +88,6 @@
 
 <script src="scripts.js"></script>
 
-
-<iframe id="counterFrame"
-        src="https://www.counters-free.net/count/hpvh"
-        style="width:0;height:0;border:0;visibility:"
-        onload="estraiContatore()"></iframe>
-
-<script>
-function estraiContatore() {
-  const iframe = document.getElementById("counterFrame");
-  const doc = iframe.contentDocument || iframe.contentWindow.document;
-
-  // Attendi un minimo perché document.write può essere asincrono
-  setTimeout(() => {
-    const texts = doc.getElementsByTagName("text");
-    for (let t of texts) {
-      if (t.textContent.includes("Total:")) {
-        document.getElementById("contatore").innerText = t.textContent.trim();
-        return;
-      }
-    }
-    document.getElementById("contatore").innerText = "Totale non trovato.";
-  }, 200);
-}
-</script>
 
 
 </body>
