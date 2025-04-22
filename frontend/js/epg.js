@@ -7,14 +7,13 @@ function normalizeEPGName(str) {
     .replace(/canale\s*5/g, 'canale5')
     .replace(/italia\s*1/g, 'italia1')
     .replace(/tv\s*8/g, 'tv8')
-    .replace(/[^a-z0-9]/g, '') // Solo lettere e numeri
+    .replace(/[^a-z0-9]/g, '')
     .trim();
 }
 
 function formatHourMinutes(date) {
   return `${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
 }
-
 
 function parseEPGDate(str) {
   if (!str) return new Date(0);
@@ -33,7 +32,7 @@ async function loadEPG(channelName) {
 
   let epgMap = {};
   try {
-    const res = await fetch('https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/epg-sources.json');
+    const res = await fetch('/backend/epg/epg-sources.json');
     if (!res.ok) throw new Error('Errore nel fetch epg-sources');
     epgMap = await res.json();
   } catch (err) {
@@ -42,10 +41,8 @@ async function loadEPG(channelName) {
     return;
   }
 
-  const epgFallback = [].concat(...Object.values(epgMap));
-  const guideFiles = epgMap[currentGroup]
-    ? [...epgMap[currentGroup], ...epgFallback.filter(e => !epgMap[currentGroup].includes(e))]
-    : epgFallback;
+  // Unifica tutte le URL da tutti i gruppi
+  const guideFiles = [].concat(...Object.values(epgMap));
 
   for (const guideFile of guideFiles) {
     try {
@@ -80,24 +77,30 @@ async function loadEPG(channelName) {
         const title = nowProgram.querySelector('title')?.textContent || 'Nessun titolo';
         const progress = Math.min(100, ((now - start) / (stop - start)) * 100).toFixed(1);
         html += `
-          <div class="program">
-            <strong style="color:#f9c855;">Now:</strong> ${title}<br>
-            <span style="font-size:12px;">${formatHourMinutes(start)}</span>
+          <div class="program" style="background:#1c212869; padding:10px;">
+            <span style=" font-size:17px;">${title}</span> 
+           
+           <div style="display:flex; justify-content:space-between; font-size:12px; padding-top:10px;">
+               <div><span style="color:#f9c855"><i class="fa-duotone fa-solid fa-timer"></i></span> ${formatHourMinutes(start)}</div>
+               <div>${formatHourMinutes(stop)}</div>
+          </div>
+
             <div class="progress-bar">
               <div class="progress" style="width: ${progress}%"></div>
             </div>
           </div>`;
       }
 
+
+
       if (nextProgram) {
         const start = parseEPGDate(nextProgram.getAttribute('start'));
         const title = nextProgram.querySelector('title')?.textContent || 'Nessun titolo';
-        html += `<div class="program"><strong style="color:#f95572;">Next:</strong> ${title}<br><span style="font-size:12px;">${formatHourMinutes(start)}</span>
-</div>`;
+        html += `<div class="program" style="background:#1c2128; padding:10px;"><span style="color:#ff6cb8;">${formatHourMinutes(start)} <i class="fa-duotone fa-solid fa-chevrons-right"></i> </span> ${title}<br><span style="font-size:12px;"></span></div>`;
       }
 
       container.innerHTML = html || `<p>Nessun programma disponibile.</p>`;
-      container.innerHTML += `<p style="font-size:10px;color:#888;">Fonte: ${new URL(guideFile).hostname}</p>`;
+      container.innerHTML += `<p style="font-size:0px;color:#888;">Fonte: ${new URL(guideFile).hostname}</p>`;
       return;
 
     } catch (err) {

@@ -195,10 +195,10 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
 
 
   const bitrate = Math.round(level.bitrate / 1000);
-  qualityInfo.innerHTML = `<i class="fa-duotone fa-solid fa-signal-stream"></i> ${label} [${height}p, ${bitrate} kbps]`;
+  qualityInfo.innerHTML = `<p><i class="fa-duotone fa-solid fa-signal-stream"></i> ${label}</p> `;
   qualityInfo.style.color = color;
-});
 
+});
 
 
       
@@ -216,7 +216,7 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
     const name = selectedChannel.dataset.display;
     const logo = selectedChannel.dataset.logo;
 
-    document.title = `${name}`;
+    document.title = `${name} - [${height}p, ${bitrate} kbps]`;
 
     const favicon = document.getElementById('dynamic-favicon');
        if (favicon) {
