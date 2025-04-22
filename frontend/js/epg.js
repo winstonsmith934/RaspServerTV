@@ -108,7 +108,9 @@ async function loadEPG(channelName) {
     }
   }
 
-  container.innerHTML = `<p>EPG non trovato per questo canale.</p>`;
+  container.innerHTML = ` <div class="">
+                               <div class="" style="text-align:center;"><i class="fa-duotone fa-solid fa-circle-info"></i> EPG not found for this channel.</div>
+                        </div>`;
 }
 
 
