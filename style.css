@@ -130,9 +130,6 @@ code, pre{
 }
 
 
-.epg-container{
-  font-size:16px;
-}
 
 .progress-bar {
     width: 50%;
@@ -148,6 +145,10 @@ code, pre{
     background-color: #f9c855;
     transition: width 0.5s;
   }
+
+.qualityinfo{
+   font-size:12px;
+}
 
 
 .quality{
@@ -437,15 +438,14 @@ code, pre{
 
 
 #epg-container {
-  font-family: "Ubuntu Mono", monospace;
+ 
   background: ;
   color: #f0f0f0;
-  padding: 2px;
-  border-radius: 8px;
+  padding: 5px;
   margin-top: 1px;
 }
 .program {
-  padding:5px;
+  padding:20px;
   
 }
 
@@ -457,9 +457,10 @@ code, pre{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 0px;
   margin-bottom: 8px;
   flex-wrap: wrap;
+  width:80%;
 }
 
 .channel-info {
@@ -483,11 +484,12 @@ code, pre{
 }
 
 .epg-info .program {
-  padding: 2px 0;
+  padding: 5px 0;
 }
 
 .progress-bar {
   height: 2px;
   margin-top: 2px;
+  width:100%;
 }
 

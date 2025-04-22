@@ -247,7 +247,7 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
 }
 
     // Mostra messaggio e passa al prossimo
-    statusMsg.innerHTML = `<span style=" font-size:30px;"> <i class="fa-duotone fa-solid fa-spinner-third fa-spin"></i><span> loading</span><span>` ;
+    statusMsg.innerHTML = `<span style=" font-size:20px;"> <i class="fa-duotone fa-solid fa-spinner-third fa-spin"></i><span> loading</span><span>` ;
 
     const visible = Array.from(document.querySelectorAll('.channel')).filter(el => el.style.display !== 'none');
     const i = visible.findIndex(el => el.dataset.url === url);
@@ -552,7 +552,7 @@ async function loadEPG(channelName) {
   html += `
     <div class="program">
       <strong style="color:#f9c855;">Now:</strong> ${title}<br>
-      ${start.toLocaleTimeString()} - ${stop.toLocaleTimeString()}
+      <span style="font-size:12px;">${start.toLocaleTimeString()}</span>
       <div class="progress-bar">
         <div class="progress" style="width: ${progress}%"></div>
       </div>
@@ -564,7 +564,7 @@ async function loadEPG(channelName) {
         const start = parseEPGDate(nextProgram.getAttribute('start'));
         const stop = parseEPGDate(nextProgram.getAttribute('stop'));
         const title = nextProgram.querySelector('title')?.textContent || 'Nessun titolo';
-        html += `<div class="program"><strong style="color:#f95572;">Next:</strong> ${title}<br>${start.toLocaleTimeString()} - ${stop.toLocaleTimeString()}</div>`;
+        html += `<div class="program"><strong style="color:#f95572;">Next:</strong> ${title}<br><span style="font-size:12px;">${start.toLocaleTimeString()}</span></div>`;
       }
 
       container.innerHTML += html || `<p>Nessun programma disponibile.</p>`;
