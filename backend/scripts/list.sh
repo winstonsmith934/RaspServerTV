@@ -2,15 +2,13 @@
 
 CHECK_STREAMS=true
 REPO_DIR="$(dirname "$(readlink -f "$0")")"
-COUNTRIES_DIR="$REPO_DIR/lists/countries"
-ORIGINAL_DIR="$REPO_DIR/lists/original"
-INFO_DIR="$REPO_DIR/lists/info"
-SKIPPED_FILE="$REPO_DIR/lists/skipped.m3u"
-OUTPUT_FILE="$ORIGINAL_DIR/original.m3u"
-EPG_JSON_FILE="$INFO_DIR/epg.json"
+COUNTRIES_DIR="$REPO_DIR/backend/lists/countries"
+ORIGINAL_DIR="$REPO_DIR/backend/lists"
+INFO_DIR="$REPO_DIR/backend/info"
+SKIPPED_FILE="$REPO_DIR/backend/skipped.m3u"
+OUTPUT_FILE="$ORIGINAL_DIR/list.m3u"
 
 mkdir -p "$ORIGINAL_DIR" "$INFO_DIR"
-rm -f "$OUTPUT_FILE" "$SKIPPED_FILE"
 echo "#EXTM3U" > "$OUTPUT_FILE"
 echo "#EXTM3U" > "$SKIPPED_FILE"
 
