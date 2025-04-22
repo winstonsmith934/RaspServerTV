@@ -24,7 +24,7 @@
 
     <a href="index.html" class="logo-area" style="text-decoration: none; color: inherit;">
     <img src="https://static-00.iconduck.com/assets.00/raspberry-pi-icon-401x512-fgfc1d0q.png" alt="" class="site-logo">
-    <span class="site-title">RaspberryTV</span><p class="logodesktop">Desktop v0.10b</p>
+    <span class="site-title">RaspberryTV</span><p class="logodesktop">Desktop v0.11b</p>
   </a>
          <div class="info">
        
@@ -55,19 +55,25 @@
      
       
       <div class="panel-box">
-         <div class="container-box">
-              <p id="channelTitle" class="channelCurrent" style=""></p>
+             <div class="channel-epg-row">
+                   
+                   <div class="epg-info" id="epg-container"></div>
+                   <div class="channel-info" id="channelTitle"></div>
+             </div>
+
+              
               <p id="statusMessage" class="statusMessage"></p>
               
                   <div class="player-controls">
                      
                      <span id="qualityInfo"><span id="statusMessage" class="statusMessage"></span></span>
                      <div id="qualityOptions" class="quality-options"></div>
+                     
                   </div>
 
 
              
-        </div>
+        
       </div>
     </main>
     
@@ -88,7 +94,6 @@
 
 
 <script src="scripts.js"></script>
-
 
 
 </body>

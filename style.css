@@ -126,6 +126,26 @@ code, pre{
   color: #c9d1d9;
 }
 
+.epg-container{
+  font-size:16px;
+}
+
+.progress-bar {
+    width: 50%;
+    background-color: #444;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 3px;
+    margin-top: 4px;
+  }
+
+  .progress {
+    height: 100%;
+    background-color: #f9c855;
+    transition: width 0.5s;
+  }
+
+
 .quality{
   font-size:14px;
   font-family: "Ubuntu Mono", monospace;
@@ -202,10 +222,10 @@ code, pre{
 
 .panel-box {
   width: 100%;
-  max-width: 1100px;
+  max-width: 960px;
   margin: 10px auto;
-  padding: 0px; 
-  background: #161b22;
+  padding: 2px 0px 0px 30px; 
+  background: ;
 }
 
 .container-box {
@@ -327,6 +347,12 @@ code, pre{
   color: #c9d1d9;
 }
 
+.channelCurrent {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+
 .channelCurrent img{
  width: 60px;
  height: auto;
@@ -392,7 +418,7 @@ code, pre{
 
 #player {
   width: 100%;
-  max-width: 1100px;
+  max-width: 960px;
  
 }
 
@@ -402,5 +428,62 @@ code, pre{
   #player {
     max-width: 2200px;
   }
+}
+
+
+
+#epg-container {
+  font-family: "Ubuntu Mono", monospace;
+  background: ;
+  color: #f0f0f0;
+  padding: 2px;
+  border-radius: 8px;
+  margin-top: 1px;
+}
+.program {
+  padding:5px;
+  
+}
+
+
+
+
+
+.channel-epg-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  flex-shrink: 0;
+  gap: 10px;
+  padding-right:50px;
+}
+
+.channel-info img {
+  width: 40px;
+  height: auto;
+}
+
+.epg-info {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.epg-info .program {
+  padding: 2px 0;
+}
+
+.progress-bar {
+  height: 2px;
+  margin-top: 2px;
 }
 

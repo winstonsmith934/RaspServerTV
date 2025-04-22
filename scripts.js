@@ -1,4 +1,7 @@
 
+
+//------------------------------------------------------------------------------------
+
   document.getElementById("year").textContent = new Date().getFullYear();
 
   const m3uUrls = [
@@ -270,6 +273,8 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
     channelTitle.innerHTML = `
       <img src="${logo}" alt="" ><p> ${name}<p/>
       `;
+      // Carica l'EPG per il canale attuale
+  loadEPG(name); // <-- Passa il nome del canale
  }
 
   function createChannelElement(name, logo, url) {
@@ -464,7 +469,7 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
     });
     
 
-// testing -----------------------------------------------------------
+// visits -----------------------------------------------------------
 
 fetch("https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/contatore.txt")
   .then(res => res.text())
@@ -483,4 +488,102 @@ function formatNumber(n) {
   if (n >= 1_000) return (n / 1_000).toFixed(1).replace(/\.0$/, '') + 'K';
   return n.toString();
 }
+
+
+// testing -----------------------------------------------------------
+
+
+async function loadEPG(channelName) {
+  const guideFiles = ['https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/public/guide.xml']; // metti qui il path al tuo XML
+  const container = document.getElementById('epg-container');
+
+  const normalize = str =>
+    str.toLowerCase()
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, '') // rimuove accenti
+      .replace(/(rete\s*4|retequattro)/g, 'rete4')
+      .replace(/canale\s*5/g, 'canale5')
+      .replace(/italia\s*1/g, 'italia1')
+      .replace(/tv\s*8/g, 'tv8')
+      .replace(/hd|plus|\+.*|[^a-z0-9]/g, '')
+      .trim();
+
+  const target = normalize(channelName);
+  const now = new Date();
+  container.innerHTML = ``;
+
+  for (const guideFile of guideFiles) {
+    try {
+      const res = await fetch(guideFile);
+      if (!res.ok) {
+        console.warn(`Non trovato: ${guideFile}`);
+        continue;
+      }
+
+      const xmlText = await res.text();
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(xmlText, "application/xml");
+
+      const programmes = Array.from(xml.querySelectorAll('programme')).filter(p => {
+        const ch = normalize(p.getAttribute('channel') || '');
+        return ch === target;
+      });
+
+      if (programmes.length === 0) continue;
+
+      let html = '';
+      const nowProgram = programmes.find(p => {
+        const start = parseEPGDate(p.getAttribute('start'));
+        const stop = parseEPGDate(p.getAttribute('stop'));
+        return now >= start && now <= stop;
+      });
+
+      const nextProgram = programmes.find(p => {
+        const start = parseEPGDate(p.getAttribute('start'));
+        return start > now;
+      });
+
+      if (nowProgram) {
+  const start = parseEPGDate(nowProgram.getAttribute('start'));
+  const stop = parseEPGDate(nowProgram.getAttribute('stop'));
+  const title = nowProgram.querySelector('title')?.textContent || 'Nessun titolo';
+
+  const progress = Math.min(100, ((now - start) / (stop - start)) * 100).toFixed(1);
+
+  html += `
+    <div class="program">
+      <strong style="color:#f9c855;">Now:</strong> ${title}<br>
+      ${start.toLocaleTimeString()} - ${stop.toLocaleTimeString()}
+      <div class="progress-bar">
+        <div class="progress" style="width: ${progress}%"></div>
+      </div>
+    </div>`;
+}
+
+
+      if (nextProgram) {
+        const start = parseEPGDate(nextProgram.getAttribute('start'));
+        const stop = parseEPGDate(nextProgram.getAttribute('stop'));
+        const title = nextProgram.querySelector('title')?.textContent || 'Nessun titolo';
+        html += `<div class="program"><strong style="color:#f95572;">Next:</strong> ${title}<br>${start.toLocaleTimeString()} - ${stop.toLocaleTimeString()}</div>`;
+      }
+
+      container.innerHTML += html || `<p>Nessun programma disponibile.</p>`;
+      return;
+
+    } catch (err) {
+      console.error(`Errore caricamento ${guideFile}:`, err);
+    }
+  }
+
+  container.innerHTML += `<p>EPG non trovato per questo canale.</p>`;
+}
+
+function parseEPGDate(str) {
+  if (!str) return new Date(0);
+  const match = str.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})/);
+  return match
+    ? new Date(`${match[1]}-${match[2]}-${match[3]}T${match[4]}:${match[5]}`)
+    : new Date(0);
+}
+
 
