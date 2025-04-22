@@ -2,7 +2,7 @@ name: Testing EPG Updater
 
 on:
   schedule:
-    - cron: '0 */1 * * *'  # ogni 1 ora
+   # - cron: '0 */1 * * *'  # ogni 1 ora
 
   workflow_dispatch:
 
