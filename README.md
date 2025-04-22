@@ -23,33 +23,32 @@
 - Everything runs directly in the browser — no installation needed.
 
 ---
+🎞️ **HLS Stream Resolution Support**
 
-📺 Video Resolution Detection
-
-This feature detects the **video resolution** based on its height and returns a user-friendly label and a corresponding color code, ideal for UI indicators (e.g. badges, overlays, or labels).
+This feature detects and lists the **video resolutions available** in an HLS (HTTP Live Streaming) stream. Useful for quality selectors, player overlays, or simply displaying what your player is currently handling.
 
 ### 🔍 Supported Resolutions
 
-| Height (px) | Label              | Color Code |
-|-------------|-------------------|------------|
-| ≥ 8640      | 16K Experimental  | `#FF44CC`  |
-| ≥ 4320      | 8K Ultra HD       | `#A144FF`  |
-| ≥ 2880      | 5K UltraWide      | `#A166FF`  |
-| ≥ 2160      | 4K Ultra HD       | `#A144FF`  |
-| ≥ 1600      | WQXGA+ 1600p      | `#33FFC1`  |
-| ≥ 1440      | 2K QHD            | `#00FFC3`  |
-| ≥ 1280      | HD+ 1280p         | `#33FFDD`  |
-| ≥ 1080      | Full HD           | `#00FFCC`  |
-| ≥ 1024      | XGA+ 1024p        | `#66FFCC`  |
-| ≥ 720       | HD Ready          | `#5AC8FA`  |
-| ≥ 576       | PAL SD 576p       | `#F7CE3C`  |
-| ≥ 480       | SD 480p           | `#FADA5A`  |
-| ≥ 360       | SD 360p           | `#FAAC5A`  |
-| ≥ 240       | Low 240p          | `#D87B7B`  |
-| ≥ 144       | Very Low 144p     | `#E05252`  |
-| ≥ 120       | Low 120p          | `#B0413E`  |
-| ≥ 96        | Retro 96p         | `#964B00`  |
-| < 96        | Potato Mode 🥔    | `#C0392B`  |
+| Height (px) | Label                |
+|-------------|----------------------|
+| ≥ 8640      | 16K Experimental     |
+| ≥ 4320      | 8K Ultra HD          |
+| ≥ 2880      | 5K UltraWide         |
+| ≥ 2160      | 4K Ultra HD          |
+| ≥ 1600      | WQXGA+ 1600p         |
+| ≥ 1440      | 2K QHD               |
+| ≥ 1280      | HD+ 1280p            |
+| ≥ 1080      | Full HD              |
+| ≥ 1024      | XGA+ 1024p           |
+| ≥ 720       | HD Ready             |
+| ≥ 576       | PAL SD 576p          |
+| ≥ 480       | SD 480p              |
+| ≥ 360       | SD 360p              |
+| ≥ 240       | Low 240p             |
+| ≥ 144       | Very Low 144p        |
+| ≥ 120       | Low 120p             |
+| ≥ 96        | Retro 96p            |
+| < 96        | Potato Mode 🥔        |
 
 ---
 
