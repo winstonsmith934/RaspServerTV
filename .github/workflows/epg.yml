@@ -1,0 +1,29 @@
+name: Update EPG Italia
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  
+  workflow_dispatch:
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and extract EPG
+        run: |
+          curl -L "http://rebrand.ly/epgitalia" -o it_wltv_full.gz
+          gunzip -f it_wltv_full.gz
+          mkdir -p backend/epg
+          mv it_wltv_full backend/epg/guide-it.xml
+
+      - name: Commit if guide-it.xml has changed
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add backend/epg/guide-it.xml
+          git diff --cached --quiet || git commit -m " Update guide-it.xml EPG"
+          git push
