@@ -37,6 +37,6 @@ jobs:
           echo "Nessuna modifica, skip commit."
         else
           git add backend/info/visits.json
-          git commit -m "🔄 Update visits.json: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git commit -m "Update visits.json: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
         fi
