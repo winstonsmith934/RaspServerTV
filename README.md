@@ -52,15 +52,6 @@ This feature detects and lists the **video resolutions available** in an HLS (HT
 
 ---
 
-## ⚠️ Technical Note
-
-Some streams may **not work properly in VLC or other external IPTV players**, as they require loading through a browser that supports **HLS (HTTP Live Streaming)**.
-
-The website uses `hls.js` to ensure proper playback of these streams in a compatible environment.  
-**For best results, use the website interface.**
-
----
-
 ## 📄 Channel Policy
 
 **Only free channels**  
@@ -75,22 +66,6 @@ This project aims to be accessible to a wide audience. Therefore:
 - ❌ No adult content  
 - ❌ No channels tied to specific religions or political parties  
 - ❌ No state-funded foreign propaganda channels
-
----
-
-### 🔍 Channel Legend
-
-- Ⓢ = Not in HD (Standard Definition)  
-- Ⓖ = Geo-blocked (only viewable from specific countries)  
-- Ⓨ = YouTube live stream
-
----
-
-## 🔗 Useful Links
-
-- 🌍 **Live Site**: [https://jonathansanfilippo.github.io/RaspServerTV/](https://jonathansanfilippo.github.io/RaspServerTV/)
-- 📄 **Clean M3U Playlist**:  
-  [https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/original/original.m3u](https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/original/original.m3u)
 
 ---
 
