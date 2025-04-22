@@ -5,9 +5,9 @@ on:
     - cron: '0 */6 * * *'  # ogni 6 ore
 
   workflow_dispatch:
-  
+
 permissions:
-         contents: write
+    contents: write
 
 jobs:
   update:
@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0  # Necessario per usare git pull
 
       - name: Ensure list.sh is executable
-        run: chmod +x list.sh
+        run: chmod +x backend/scripts/list.sh
 
       - name: Run M3U processing script
         run: ./backend/scripts/list.sh
