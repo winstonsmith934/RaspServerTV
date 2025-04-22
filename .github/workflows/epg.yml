@@ -1,31 +1,41 @@
-name: Update EPG Italia
+name: EPG Updater
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  
+    - cron: '0 */1 * * *'  # ogni 1 ora
+
   workflow_dispatch:
-  
+
 permissions:
-        contents: write
+    contents: write
+
 jobs:
-  update-epg:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Necessario per usare git pull
 
-      - name: Download and extract EPG
-        run: |
-          curl -L "http://rebrand.ly/epgitalia" -o it_wltv_full.gz
-          gunzip -f it_wltv_full.gz
-          mkdir -p backend/epg
-          mv it_wltv_full backend/epg/guide-it.xml
+      - name: Ensure epg.sh is executable
+        run: chmod +x backend/scripts/epg.sh
 
-      - name: Commit if guide-it.xml has changed
+      - name: Run M3U processing script
+        run: ./backend/scripts/epg.sh
+
+      - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add backend/epg/guide-it.xml
-          git diff --cached --quiet || git commit -m " Update guide-it.xml EPG"
-          git push
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update M3U processed epgs"
+            git pull --rebase
+            git push
+          fi
