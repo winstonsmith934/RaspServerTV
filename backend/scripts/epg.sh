@@ -3,7 +3,7 @@
 # URL della lista globale
 M3U_URL="https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
 REPO_DIR="$GITHUB_WORKSPACE"
-OUTPUT_FILE="$REPO_DIR/backend/epg/epg-sources.json"
+OUTPUT_FILE="$REPO_DIR/backend/epg/test.json"
 
 # Scarica la lista
 echo "Downloading playlist..."
