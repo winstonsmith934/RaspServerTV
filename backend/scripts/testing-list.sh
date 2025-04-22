@@ -2,11 +2,11 @@
 
 CHECK_STREAMS=true
 REPO_DIR="$GITHUB_WORKSPACE"
-COUNTRIES_DIR="$REPO_DIR/backend/lists/countries/testing/"
+COUNTRIES_DIR="$REPO_DIR/backend/lists/countries"
 ORIGINAL_DIR="$REPO_DIR/backend/lists"
-INFO_DIR="$REPO_DIR/backend/info/testing/"
-SKIPPED_FILE="$REPO_DIR/backend/lists/testing-skipped.m3u"
-OUTPUT_FILE="$ORIGINAL_DIR/list-testing.m3u"
+INFO_DIR="$REPO_DIR/backend/info"
+SKIPPED_FILE="$REPO_DIR/backend/lists/skipped.m3u"
+OUTPUT_FILE="$ORIGINAL_DIR/list.m3u"
 
 mkdir -p "$ORIGINAL_DIR" "$INFO_DIR"
 echo "#EXTM3U" > "$OUTPUT_FILE"
