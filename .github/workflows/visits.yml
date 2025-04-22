@@ -5,6 +5,9 @@ on:
     - cron: '*/30 * * * *'  
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -22,7 +25,6 @@ jobs:
         total=$(echo "$html" | grep -o "Total: [0-9]*" | cut -d':' -f2 | xargs)
 
         echo "Numero estratto: $total"
-
         mkdir -p backend/info
         echo "{ \"visits\": $total }" > backend/info/visits.json
 
