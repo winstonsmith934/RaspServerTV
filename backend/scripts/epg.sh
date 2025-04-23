@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPO_DIR="$GITHUB_WORKSPACE"
-INPUT_FILE="$REPO_DIR/backend/epg/guide"
+INPUT_FILE="$REPO_DIR/backend/epg/guide.txt"
 DEST_DIR="$REPO_DIR/backend/epg"
 
 
