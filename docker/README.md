@@ -1,5 +1,7 @@
 # Docker container for RaspberryTV
 
+This is a containerization of the RaspberryTV project. Cron tasks were added to sync the channels list and the EPG(s).
+
 ## Build process
 
 1. Clone the repo `git clone repo-url`

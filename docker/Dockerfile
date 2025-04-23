@@ -17,10 +17,10 @@ RUN (crontab -l ; echo "GITHUB_WORKSPACE=/usr/share/nginx/html") | crontab -
 RUN mkdir -p /etc/crontabs/app/
 # Add cron task to update EPG
 RUN chmod +x /usr/share/nginx/html/backend/scripts/epg.sh
-RUN (crontab -l ; echo "* * * * * cd /usr/share/nginx/html && ./backend/scripts/epg.sh > /tmp/epg.txt 2>&1") | crontab -
+RUN (crontab -l ; echo "0 * * * * cd /usr/share/nginx/html && ./backend/scripts/epg.sh > /tmp/epg.txt 2>&1") | crontab -
 # Add cron task to update lists
 RUN chmod +x /usr/share/nginx/html/backend/scripts/list.sh
-RUN (crontab -l ; echo "* * * * * cd /usr/share/nginx/html && ./backend/scripts/list.sh > /tmp/list.txt 2>&1") | crontab -
+RUN (crontab -l ; echo "0 * * * * cd /usr/share/nginx/html && ./backend/scripts/list.sh > /tmp/list.txt 2>&1") | crontab -
 # Configure cron
 ENTRYPOINT ["/entrypoint-wrapper.sh"]
 # Have to reset CMD since it gets cleared when we set ENTRYPOINT
