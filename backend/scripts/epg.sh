@@ -1,7 +1,7 @@
 #!/bin/bash
-
-INPUT_FILE="backend/epg/guide"
-DEST_DIR="backend/epg"
+REPO_DIR="$GITHUB_WORKSPACE"
+INPUT_FILE="$REPO_DIR/backend/epg/guide"
+DEST_DIR="$REPO_DIR/backend/epg"
 
 mkdir -p "$DEST_DIR"
 
