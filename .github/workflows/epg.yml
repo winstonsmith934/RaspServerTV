@@ -2,7 +2,7 @@ name: Update EPG Files
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Ogni ora, al minuto 0
+    - cron: '0 * * * *'  # Ogni ora
   workflow_dispatch:
 
 permissions:
@@ -25,6 +25,6 @@ jobs:
           git config user.email "actions@github.com"
           git pull --rebase origin main
           ./backend/scripts/epg.sh
-          git add backend/epg/xml/*.xml backend/epg/epg-sources.json
-          git diff --cached --quiet || git commit -m "Update EPG files"
-          git push
+          git add -A
+          git commit -m "Update EPG files" || echo "ℹ️ Nessun cambiamento da committare"
+          git push || echo "ℹ️ Nessun push necessario"
