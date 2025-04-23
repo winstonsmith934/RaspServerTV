@@ -17,9 +17,9 @@ while IFS= read -r url; do
   [[ -z "$url" || "$url" == \#* ]] && continue
 
   filename=$(basename "$url")
-  base="${filename%.xml.gz}"  # epg_ripper_UK1
-  country="${base##*_}"       # UK1
-  country_code=$(echo "$country" | sed 's/[0-9]*$//')  # UK
+  base="${filename%.xml.gz}"  
+  country="${base##*_}"       
+  country_code=$(echo "$country" | sed 's/[0-9]*$//')  
 
   temp_file="temp_${base}.xml.gz"
   output_file="guide-${base}.xml"
