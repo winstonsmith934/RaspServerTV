@@ -24,13 +24,11 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git pull --rebase origin main
-          
           ./backend/scripts/epg.sh
 
-          # ❌ Escludi file troppo grandi prima del commit
-          find backend/epg/xml -type f \( -name "*US_LOCALS2.xml" -o -name "*ALL_SOURCES1.xml" \) -exec rm -f {} \;
+          # ❌ Rimuove file sopra i 100MB (GitHub limita a 100MB per file)
+          find backend/epg/xml -type f -size +100M -exec echo "File troppo grande rimosso:" {} \; -exec rm -f {} \;
 
-          # ✅ Commit e push solo se ci sono cambiamenti
           git add backend/epg/xml/*.xml backend/epg/epg-sources.json
           git diff --cached --quiet || git commit -m "Update EPG files"
-          git push || echo "ℹ️ Nessun push necessario"
+          git push
