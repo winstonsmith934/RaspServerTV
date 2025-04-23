@@ -38,7 +38,7 @@ async function loadEPG(channelName) {
 
   let epgMap = {};
   try {
-    const res = await fetch('https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/epg-sources.json');
+    const res = await fetch('https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/stable-epg-sources.json');
     if (!res.ok) throw new Error('Errore nel fetch epg-sources');
     epgMap = await res.json();
   } catch (err) {
