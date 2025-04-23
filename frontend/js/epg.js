@@ -84,7 +84,7 @@ async function loadEPG(channelName) {
   html += `
     <div class="program" style="background:#1c212869; padding:10px;">
       <span style="font-size:17px;">
-        <span style="color:#f9c855; font-size:12px;">Now: </span>${title}
+        <span style="color:#f9c855; ">Now: </span>${title}
         <a href="${googleSearchURL}" target="_blank" title="Cerca guida ${channelName}" style="color:#f9c855; font-size:12px; text-decoration:none; margin-left:5px;">
           <i class="fa-duotone fa-solid fa-arrow-up-right-from-square fa-fade"></i>
         </a>
