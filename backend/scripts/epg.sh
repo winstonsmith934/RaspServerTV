@@ -1,6 +1,8 @@
 #!/bin/bash
 
-REPO_DIR="$GITHUB_WORKSPACE"
+set -e  # Interrompe lo script in caso di errore
+
+REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"  # fallback se non in GitHub Actions
 INPUT_FILE="$REPO_DIR/backend/epg/guide.txt"
 DEST_DIR="$REPO_DIR/backend/epg/xml"
 JSON_FILE="$REPO_DIR/backend/epg/epg-sources.json"
@@ -10,8 +12,8 @@ mkdir -p "$DEST_DIR"
 
 # Inizializza JSON
 echo '{' > "$JSON_FILE"
-
 first=1
+
 while IFS= read -r url; do
   [[ -z "$url" || "$url" == \#* ]] && continue
 
@@ -21,16 +23,22 @@ while IFS= read -r url; do
   output_file="guide-${base}.xml"
 
   echo "⬇️ Scarico: $url"
-  curl -L "$url" -o "$temp_file"
+  if curl -fsSL "$url" -o "$temp_file"; then
+    echo "📦 Scompatto GZ: $temp_file"
+    if gunzip -c "$temp_file" > "$DEST_DIR/$output_file"; then
+      echo "📂 Creato: $DEST_DIR/$output_file"
+    else
+      echo "❌ Errore nello scompattare: $temp_file"
+      continue
+    fi
+    rm -f "$temp_file"
+  else
+    echo "❌ Errore nel download: $url"
+    continue
+  fi
 
-  echo "📦 Scompatto GZ: $temp_file"
-  gunzip -c "$temp_file" > "$DEST_DIR/$output_file"
-  rm -f "$temp_file"
-
-  echo "📂 Creato: $DEST_DIR/$output_file"
-
-  # Aggiunge al JSON
-  [ $first -eq 0 ] && echo ',' >> "$JSON_FILE"
+  # Scrive l'entry nel JSON
+  [[ $first -eq 0 ]] && echo ',' >> "$JSON_FILE"
   first=0
   echo "  \"${base}\": [\"$RAW_BASE_URL/$output_file\"]" >> "$JSON_FILE"
 
