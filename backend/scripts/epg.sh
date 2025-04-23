@@ -1,68 +1,63 @@
 #!/bin/bash
-set -e  # Interrompe lo script in caso di errore
+set -e
 
 REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"
-INPUT_FILE="$REPO_DIR/backend/epg/urls/link.txt"
+INPUT_JSON="$REPO_DIR/backend/epg/urls/link.json"
 DEST_DIR="$REPO_DIR/backend/epg/xml-testing"
-JSON_FILE="$REPO_DIR/backend/epg/testing-epg-sources.json"
+OUTPUT_JSON="$REPO_DIR/backend/epg/testing-epg-sources.json"
 RAW_BASE_URL="https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/xml-testing"
 
 mkdir -p "$DEST_DIR"
 
+echo "📥 Inizio download EPG..."
+
 declare -A country_links
 
-echo "📥 Inizio download e decompressione EPG..."
+# Usa jq per leggere le chiavi (paesi) e i link associati
+mapfile -t countries < <(jq -r 'keys[]' "$INPUT_JSON")
 
-while IFS= read -r url; do
-  [[ -z "$url" || "$url" == \#* ]] && continue
+for country in "${countries[@]}"; do
+  mapfile -t urls < <(jq -r --arg c "$country" '.[$c][]' "$INPUT_JSON")
+  for url in "${urls[@]}"; do
+    filename=$(basename "$url")
+    base="${filename%.xml.gz}"
+    base="${base%.xml}"
+    output_file="guide-${base}.xml"
+    temp_file="temp_${base}.xml.gz"
 
-  filename=$(basename "$url")
-  base="${filename%.xml.gz}"
-  base="${base%.xml}"
-  country="${base##*_}"
-  country_code=$(echo "$country" | sed 's/[0-9]*$//')
-
-  temp_file="temp_${base}.xml.gz"
-  output_file="guide-${base}.xml"
-
-  echo "⬇️ Scarico: $url"
-  if curl -fsSL "$url" -o "$temp_file"; then
-    mime_type=$(file --mime-type "$temp_file" | cut -d ' ' -f2)
-    if [[ "$mime_type" == "application/gzip" ]]; then
-      echo "📦 Scompatto GZ: $temp_file"
-      if gunzip -c "$temp_file" > "$DEST_DIR/$output_file"; then
-        echo "📂 Creato: $DEST_DIR/$output_file"
+    echo "⬇️ Scarico: $url"
+    if curl -fsSL "$url" -o "$temp_file"; then
+      mime_type=$(file --mime-type "$temp_file" | cut -d ' ' -f2)
+      if [[ "$mime_type" == "application/gzip" ]]; then
+        echo "📦 Scompatto GZ: $temp_file"
+        gunzip -c "$temp_file" > "$DEST_DIR/$output_file"
       else
-        echo "❌ Errore nello scompattare: $temp_file"
-        continue
+        echo "📁 File XML non compresso: Copio $temp_file"
+        mv "$temp_file" "$DEST_DIR/$output_file"
       fi
+      rm -f "$temp_file"
+      country_links["$country"]+="$RAW_BASE_URL/$output_file "
     else
-      echo "📁 File XML non compresso: Copio $temp_file"
-      mv "$temp_file" "$DEST_DIR/$output_file"
+      echo "❌ Errore nel download: $url"
     fi
-    rm -f "$temp_file"
-  else
-    echo "❌ Errore nel download: $url"
-    continue
-  fi
+  done
+done
 
-  country_links["$country_code"]="${country_links[$country_code]} $RAW_BASE_URL/$output_file"
-done < "$INPUT_FILE"
-
-echo "📄 Creo JSON: $JSON_FILE"
-echo '{' > "$JSON_FILE"
+# Scrittura JSON finale
+echo "📄 Creo JSON: $OUTPUT_JSON"
+echo '{' > "$OUTPUT_JSON"
 first=1
 for country in "${!country_links[@]}"; do
-  [[ $first -eq 0 ]] && echo ',' >> "$JSON_FILE"
+  [[ $first -eq 0 ]] && echo ',' >> "$OUTPUT_JSON"
   first=0
-  echo -n "  \"$country\": [" >> "$JSON_FILE"
+  echo -n "  \"$country\": [" >> "$OUTPUT_JSON"
   IFS=' ' read -r -a urls <<< "${country_links[$country]}"
   for i in "${!urls[@]}"; do
-    [[ $i -gt 0 ]] && echo -n ', ' >> "$JSON_FILE"
-    echo -n "\"${urls[$i]}\"" >> "$JSON_FILE"
+    [[ $i -gt 0 ]] && echo -n ', ' >> "$OUTPUT_JSON"
+    echo -n "\"${urls[$i]}\"" >> "$OUTPUT_JSON"
   done
-  echo "]" >> "$JSON_FILE"
+  echo "]" >> "$OUTPUT_JSON"
 done
-echo '}' >> "$JSON_FILE"
+echo '}' >> "$OUTPUT_JSON"
 
-echo "✅ JSON creato: $JSON_FILE"
+echo "✅ JSON creato: $OUTPUT_JSON"
