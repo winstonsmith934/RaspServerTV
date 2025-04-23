@@ -2,10 +2,10 @@
 set -e  # Stop in caso di errore
 
 REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"
-INPUT_FILE="$REPO_DIR/backend/epg/guide.txt"
-DEST_DIR="$REPO_DIR/backend/epg/xml"
-JSON_FILE="$REPO_DIR/backend/epg/epg-sources.json"
-RAW_BASE_URL="https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/xml"
+INPUT_FILE="$REPO_DIR/backend/epg/urls/link.txt"
+DEST_DIR="$REPO_DIR/backend/epg/xml-testing"
+JSON_FILE="$REPO_DIR/backend/epg/testing-epg-sources.json"
+RAW_BASE_URL="https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/xml-testing"
 
 mkdir -p "$DEST_DIR"
 
