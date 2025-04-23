@@ -1,5 +1,3 @@
-let currentChannel = '';
-
 function normalizeEPGName(str) {
   return str.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, '')
@@ -13,8 +11,10 @@ function normalizeEPGName(str) {
     .trim();
 }
 
-function formatHourMinutes(date) {
-  return `${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
+function isSimilarName(a, b) {
+  const na = normalizeEPGName(a);
+  const nb = normalizeEPGName(b);
+  return na.includes(nb) || nb.includes(na);
 }
 
 function parseEPGDate(str) {
@@ -26,11 +26,15 @@ function parseEPGDate(str) {
   return new Date(dateStr);
 }
 
+function formatHourMinutes(date) {
+  return `${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
+}
+
 async function loadEPG(channelName) {
   const container = document.getElementById('epg-container');
   container.innerHTML = '';
   const now = new Date();
-  const target = normalizeEPGName(channelName);
+  const googleSearchURL = `https://www.google.com/search?q=tv+guide+${encodeURIComponent(channelName)}`;
 
   let epgMap = {};
   try {
@@ -43,18 +47,20 @@ async function loadEPG(channelName) {
     return;
   }
 
-  const guideFiles = [].concat(...Object.values(epgMap));
+  const currentGroup = window.currentGroup || 'Italy';
+  const primaryList = epgMap[currentGroup] || [];
+  const fallbackList = Object.values(epgMap).flat().filter(url => !primaryList.includes(url));
+  const guideFiles = [...primaryList, ...fallbackList];
 
   for (const guideFile of guideFiles) {
     try {
       const res = await fetch(guideFile);
       if (!res.ok) continue;
-
       const xml = new DOMParser().parseFromString(await res.text(), "application/xml");
 
       const programmes = Array.from(xml.querySelectorAll('programme')).filter(p => {
-        const ch = normalizeEPGName(p.getAttribute('channel') || '');
-        return ch === target;
+        const ch = p.getAttribute('channel') || '';
+        return isSimilarName(ch, channelName);
       });
 
       if (programmes.length === 0) continue;
@@ -72,7 +78,7 @@ async function loadEPG(channelName) {
 
       let html = '';
 
-     if (nowProgram) {
+          if (nowProgram) {
   const start = parseEPGDate(nowProgram.getAttribute('start'));
   const stop = parseEPGDate(nowProgram.getAttribute('stop'));
   const title = nowProgram.querySelector('title')?.textContent || 'Nessun titolo';
