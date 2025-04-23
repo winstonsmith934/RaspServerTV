@@ -10,13 +10,15 @@ mkdir -p "$DEST_DIR"
 while IFS= read -r url; do
   [[ -z "$url" || "$url" == \#* ]] && continue
 
-  filename=$(basename "$url")                
-  extension="${filename##*.}"                # gz, xz, zip
-  base="${filename%%_*}"                     
-  temp_file="temp_${base}.${extension}"      
+  raw_filename=$(basename "$url")
+  [[ "$raw_filename" != *.* ]] && raw_filename="${raw_filename}.gz"  # default se manca estensione
+
+  extension="${raw_filename##*.}"
+  base="${raw_filename%%_*}"  # prende il codice paese (es. it, uk)
+  temp_file="temp_${base}.${extension}"
   output_xml="guide-${base}.xml"
 
-  echo "⬇️ Scarico: $url"
+  echo "Scarico: $url"
   curl -L "$url" -o "$temp_file"
 
   case "$extension" in
@@ -38,6 +40,7 @@ while IFS= read -r url; do
       ;;
     *)
       echo "⚠️ Formato non supportato: $extension"
+      rm -f "$temp_file"
       continue
       ;;
   esac
