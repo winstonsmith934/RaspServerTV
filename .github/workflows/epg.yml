@@ -28,6 +28,6 @@ jobs:
           # ❌ Rimuove file sopra i 100MB (GitHub limita a 100MB per file)
           find backend/epg/xml -type f -size +100M -exec echo "File troppo grande rimosso:" {} \; -exec rm -f {} \;
 
-          git add backend/epg/xml/*.xml backend/epg/epg-sources.json
+          git add backend/epg/xml-testing/*.xml backend/epg/testing-epg-sources.json
           git diff --cached --quiet || git commit -m "Update EPG files"
           git push
