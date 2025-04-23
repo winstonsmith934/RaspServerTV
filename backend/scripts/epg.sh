@@ -37,9 +37,32 @@ while IFS= read -r url; do
         continue
       fi
     else
-      echo "📁 File normale XML: Copio $temp_file"
+      echo "📁 File XML non compresso: Copio $temp_file"
       mv "$temp_file" "$DEST_DIR/$output_file"
     fi
     rm -f "$temp_file"
   else
     echo "❌ Errore nel download: $url"
+    continue
+  fi
+
+  country_links["$country_code"]="${country_links[$country_code]} $RAW_BASE_URL/$output_file"
+done < "$INPUT_FILE"
+
+echo "📄 Creo JSON: $JSON_FILE"
+echo '{' > "$JSON_FILE"
+first=1
+for country in "${!country_links[@]}"; do
+  [[ $first -eq 0 ]] && echo ',' >> "$JSON_FILE"
+  first=0
+  echo -n "  \"$country\": [" >> "$JSON_FILE"
+  IFS=' ' read -r -a urls <<< "${country_links[$country]}"
+  for i in "${!urls[@]}"; do
+    [[ $i -gt 0 ]] && echo -n ', ' >> "$JSON_FILE"
+    echo -n "\"${urls[$i]}\"" >> "$JSON_FILE"
+  done
+  echo "]" >> "$JSON_FILE"
+done
+echo '}' >> "$JSON_FILE"
+
+echo "✅ JSON creato: $JSON_FILE"
