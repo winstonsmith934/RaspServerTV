@@ -27,7 +27,12 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git pull --rebase origin main
+          curl -L "http://rebrand.ly/epgitalia" -o it_wltv_full.gz
+          gunzip -f it_wltv_full.gz
+          mkdir -p backend/epg
+          mv it_wltv_full backend/epg/guide-it.xml
           git add backend/epg/guide-it.xml
           git diff --cached --quiet || git commit -m "Update guide-it.xml EPG"
           git push
+
 
