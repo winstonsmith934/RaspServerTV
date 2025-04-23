@@ -19,12 +19,12 @@ jobs:
       - name: Make script executable
         run: chmod +x backend/scripts/epg.sh
 
-      - name: Run EPG update script
+      - name: Run EPG update script and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git pull --rebase origin main
           ./backend/scripts/epg.sh
-          git add backend/epg/*.xml
+          git add backend/epg/xml/*.xml backend/epg/epg-sources.json
           git diff --cached --quiet || git commit -m "Update EPG files"
           git push
