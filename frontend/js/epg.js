@@ -1,3 +1,5 @@
+let currentChannel = '';
+
 function normalizeEPGName(str) {
   return str.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, '')
@@ -41,7 +43,6 @@ async function loadEPG(channelName) {
     return;
   }
 
-  // Unifica tutte le URL da tutti i gruppi
   const guideFiles = [].concat(...Object.values(epgMap));
 
   for (const guideFile of guideFiles) {
@@ -71,32 +72,39 @@ async function loadEPG(channelName) {
 
       let html = '';
 
-      if (nowProgram) {
-        const start = parseEPGDate(nowProgram.getAttribute('start'));
-        const stop = parseEPGDate(nowProgram.getAttribute('stop'));
-        const title = nowProgram.querySelector('title')?.textContent || 'Nessun titolo';
-        const progress = Math.min(100, ((now - start) / (stop - start)) * 100).toFixed(1);
-        html += `
-          <div class="program" style="background:#1c212869; padding:10px;">
-            <span style=" font-size:17px;">${title}</span> 
-           
-           <div style="display:flex; justify-content:space-between; font-size:12px; padding-top:10px;">
-               <div><span style="color:#f9c855"><i class="fa-duotone fa-solid fa-timer"></i></span> ${formatHourMinutes(start)}</div>
-               <div>${formatHourMinutes(stop)}</div>
-          </div>
+     if (nowProgram) {
+  const start = parseEPGDate(nowProgram.getAttribute('start'));
+  const stop = parseEPGDate(nowProgram.getAttribute('stop'));
+  const title = nowProgram.querySelector('title')?.textContent || 'Nessun titolo';
+  const progress = Math.min(100, ((now - start) / (stop - start)) * 100).toFixed(1);
 
-            <div class="progress-bar">
-              <div class="progress" style="width: ${progress}%"></div>
-            </div>
-          </div>`;
-      }
+  // 🔎 Link a Google: TV Guide + nome canale
+  const googleSearchURL = `https://www.google.com/search?q=tv+guide+${encodeURIComponent(channelName)}`;
 
+  html += `
+    <div class="program" style="background:#1c212869; padding:10px;">
+      <span style="font-size:17px;">
+        <span style="color:#f9c855; font-size:12px;">Now: </span>${title}
+        <a href="${googleSearchURL}" target="_blank" title="Cerca guida ${channelName}" style="color:#f9c855; font-size:12px; text-decoration:none; margin-left:5px;">
+          <i class="fa-duotone fa-solid fa-arrow-up-right-from-square fa-fade"></i>
+        </a>
+      </span>
+      <div style="display:flex; justify-content:space-between; font-size:12px; padding-top:10px;">
+        <div><span style="color:#f9c855"><i class="fa-duotone fa-solid fa-timer"></i></span> ${formatHourMinutes(start)}</div>
+        <div>${formatHourMinutes(stop)}</div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress" style="width: ${progress}%"></div>
+      </div>
+    </div>`;
+}
 
 
       if (nextProgram) {
         const start = parseEPGDate(nextProgram.getAttribute('start'));
         const title = nextProgram.querySelector('title')?.textContent || 'Nessun titolo';
-        html += `<div class="program" style="background:#1c2128; padding:10px;"><span style="color:#ff6cb8;">${formatHourMinutes(start)} <i class="fa-duotone fa-solid fa-chevrons-right"></i> </span> ${title}<br><span style="font-size:12px;"></span></div>`;
+        html += `<div class="program" style="background:#1c2128; padding:10px;">
+          <span style="color:#ff6cb8;">${formatHourMinutes(start)} <i class="fa-duotone fa-solid fa-chevrons-right"></i> </span> ${title}</div>`;
       }
 
       container.innerHTML = html || `<p>Nessun programma disponibile.</p>`;
@@ -108,9 +116,6 @@ async function loadEPG(channelName) {
     }
   }
 
-  container.innerHTML = ` <div class="">
-                               <div class="" style="text-align:center;"><i class="fa-duotone fa-solid fa-circle-info"></i> EPG not found for this channel.</div>
-                        </div>`;
+  container.innerHTML = `<div style="text-align:center;"><i class="fa-duotone fa-solid fa-circle-info"></i> EPG not found for this channel.</div>`;
 }
-
 
