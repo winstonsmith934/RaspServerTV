@@ -1,8 +1,7 @@
 #!/bin/bash
+set -e  # Stop in caso di errore
 
-set -e  # Interrompe lo script in caso di errore
-
-REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"  # fallback se non in GitHub Actions
+REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"
 INPUT_FILE="$REPO_DIR/backend/epg/guide.txt"
 DEST_DIR="$REPO_DIR/backend/epg/xml"
 JSON_FILE="$REPO_DIR/backend/epg/epg-sources.json"
@@ -10,7 +9,6 @@ RAW_BASE_URL="https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/
 
 mkdir -p "$DEST_DIR"
 
-# Inizializza JSON
 echo '{' > "$JSON_FILE"
 first=1
 
@@ -37,14 +35,11 @@ while IFS= read -r url; do
     continue
   fi
 
-  # Scrive l'entry nel JSON
   [[ $first -eq 0 ]] && echo ',' >> "$JSON_FILE"
   first=0
   echo "  \"${base}\": [\"$RAW_BASE_URL/$output_file\"]" >> "$JSON_FILE"
 
 done < "$INPUT_FILE"
 
-# Chiude JSON
 echo '}' >> "$JSON_FILE"
-
 echo "✅ JSON creato: $JSON_FILE"
