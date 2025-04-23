@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e  # Stop in caso di errore
+set -e  # Interrompe lo script in caso di errore
 
 REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"
 INPUT_FILE="$REPO_DIR/backend/epg/urls/link.txt"
@@ -17,50 +17,29 @@ while IFS= read -r url; do
   [[ -z "$url" || "$url" == \#* ]] && continue
 
   filename=$(basename "$url")
-  base="${filename%.xml.gz}"  
-  country="${base##*_}"       
-  country_code=$(echo "$country" | sed 's/[0-9]*$//')  
+  base="${filename%.xml.gz}"
+  base="${base%.xml}"
+  country="${base##*_}"
+  country_code=$(echo "$country" | sed 's/[0-9]*$//')
 
   temp_file="temp_${base}.xml.gz"
   output_file="guide-${base}.xml"
 
   echo "⬇️ Scarico: $url"
   if curl -fsSL "$url" -o "$temp_file"; then
-    echo "📦 Scompatto GZ: $temp_file"
-    if gunzip -c "$temp_file" > "$DEST_DIR/$output_file"; then
-      echo "📂 Creato: $DEST_DIR/$output_file"
+    mime_type=$(file --mime-type "$temp_file" | cut -d ' ' -f2)
+    if [[ "$mime_type" == "application/gzip" ]]; then
+      echo "📦 Scompatto GZ: $temp_file"
+      if gunzip -c "$temp_file" > "$DEST_DIR/$output_file"; then
+        echo "📂 Creato: $DEST_DIR/$output_file"
+      else
+        echo "❌ Errore nello scompattare: $temp_file"
+        continue
+      fi
     else
-      echo "❌ Errore nello scompattare: $temp_file"
-      continue
+      echo "📁 File normale XML: Copio $temp_file"
+      mv "$temp_file" "$DEST_DIR/$output_file"
     fi
     rm -f "$temp_file"
   else
     echo "❌ Errore nel download: $url"
-    continue
-  fi
-
-  # Appendi il link al paese nel dizionario (stringa concatenata)
-  country_links["$country_code"]="${country_links[$country_code]} $RAW_BASE_URL/$output_file"
-
-done < "$INPUT_FILE"
-
-echo "📄 Creo JSON: $JSON_FILE"
-echo '{' > "$JSON_FILE"
-first=1
-for country in "${!country_links[@]}"; do
-  [[ $first -eq 0 ]] && echo ',' >> "$JSON_FILE"
-  first=0
-
-  echo -n "  \"$country\": [" >> "$JSON_FILE"
-
-  IFS=' ' read -r -a urls <<< "${country_links[$country]}"
-  for i in "${!urls[@]}"; do
-    [[ $i -gt 0 ]] && echo -n ', ' >> "$JSON_FILE"
-    echo -n "\"${urls[$i]}\"" >> "$JSON_FILE"
-  done
-
-  echo "]" >> "$JSON_FILE"
-done
-echo '}' >> "$JSON_FILE"
-
-echo "✅ JSON creato: $JSON_FILE"
