@@ -2,23 +2,26 @@
 
 REPO_DIR="$GITHUB_WORKSPACE"
 INPUT_FILE="$REPO_DIR/backend/epg/guide.txt"
-DEST_DIR="$REPO_DIR/backend/epg"
-
+DEST_DIR="$REPO_DIR/backend/epg/xml"
 
 mkdir -p "$DEST_DIR"
 
 while IFS= read -r url; do
   [[ -z "$url" || "$url" == \#* ]] && continue
 
-  raw_filename=$(basename "$url")
-  [[ "$raw_filename" != *.* ]] && raw_filename="${raw_filename}.gz"  # default se manca estensione
+  # Nome base senza estensione
+  base_name=$(basename "$url" .xml.gz)
 
-  extension="${raw_filename##*.}"
-  base="${raw_filename%%_*}"  # prende il codice paese (es. it, uk)
-  temp_file="temp_${base}.${extension}"
-  output_xml="guide-${base}.xml"
+  # Estrai estensione (gz, zip, xz, ecc.)
+  extension="${url##*.}"
 
-  echo "Scarico: $url"
+  # File temporaneo scaricato
+  temp_file="temp_${base_name}.${extension}"
+
+  # Output finale XML
+  output_xml="guide-${base_name}.xml"
+
+  echo "⬇️ Scarico: $url"
   curl -L "$url" -o "$temp_file"
 
   case "$extension" in
