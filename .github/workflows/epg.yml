@@ -2,7 +2,7 @@ name: Update EPG Files
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Ogni ora
+    - cron: '0 * * * *'  # Ogni ora, al minuto 0
   workflow_dispatch:
 
 permissions:
@@ -24,7 +24,13 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git pull --rebase origin main
+          
           ./backend/scripts/epg.sh
-          git add -A
-          git commit -m "Update EPG files" || echo "ℹ️ Nessun cambiamento da committare"
+
+          # ❌ Escludi file troppo grandi prima del commit
+          find backend/epg/xml -type f \( -name "*US_LOCALS2.xml" -o -name "*ALL_SOURCES1.xml" \) -exec rm -f {} \;
+
+          # ✅ Commit e push solo se ci sono cambiamenti
+          git add backend/epg/xml/*.xml backend/epg/epg-sources.json
+          git diff --cached --quiet || git commit -m "Update EPG files"
           git push || echo "ℹ️ Nessun push necessario"
