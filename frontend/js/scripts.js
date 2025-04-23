@@ -1,7 +1,7 @@
 
   const m3uUrls = [
     'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/list.m3u',
-    ''
+    'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/rai.m3u'
   ];
 
   let hls, allChannels = {}, currentGroup = 'UK';
