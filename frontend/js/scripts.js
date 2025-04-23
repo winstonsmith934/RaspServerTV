@@ -465,7 +465,9 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
     
 
 
-
-
-
+fetch("https://api.github.com/repos/JonathanSanfilippo/RaspServerTV")
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("gh-stars").innerHTML = ` ${data.stargazers_count} stars`;
+    });
 
