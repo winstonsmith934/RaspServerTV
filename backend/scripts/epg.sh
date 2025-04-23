@@ -8,6 +8,8 @@ OUTPUT_JSON="$REPO_DIR/backend/epg/testing-epg-sources.json"
 RAW_BASE_URL="https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/xml-testing"
 
 mkdir -p "$DEST_DIR"
+rm -f "$DEST_DIR"/*.xml
+
 
 echo "📥 Inizio download EPG..."
 
