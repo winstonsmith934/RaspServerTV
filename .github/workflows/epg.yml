@@ -16,20 +16,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Ensure clean working tree
+        run: |
+          git fetch origin
+          git reset --hard origin/main
+
       - name: Make script executable
         run: chmod +x backend/scripts/epg.sh
 
-      - name: Pull latest and run script
+      - name: Run EPG update script and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-          # ✅ Spostato PRIMA di modificare i file
-          git pull --rebase origin main
-
           ./backend/scripts/epg.sh
 
-          # ❌ Rimuove file sopra i 100MB (limite GitHub)
+          # Rimuove file oltre 100MB (limite GitHub)
           find backend/epg/xml -type f -size +100M -exec echo "File troppo grande rimosso:" {} \; -exec rm -f {} \;
 
           git add backend/epg/xml/*.xml backend/epg/stable-epg-sources.json
