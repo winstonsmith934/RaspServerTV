@@ -1,8 +1,7 @@
 name: Update EPG Files
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # Ogni ora, al minuto 0
+  
   workflow_dispatch:
 
 permissions:
