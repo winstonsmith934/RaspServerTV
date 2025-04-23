@@ -2,7 +2,7 @@
 set -e
 
 REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"
-INPUT_JSON="$REPO_DIR/backend/epg/urls/link.json"
+INPUT_JSON="$REPO_DIR/backend/epg/urls/testing-link.json"
 DEST_DIR="$REPO_DIR/backend/epg/xml-testing"
 OUTPUT_JSON="$REPO_DIR/backend/epg/testing-epg-sources.json"
 RAW_BASE_URL="https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/xml-testing"
