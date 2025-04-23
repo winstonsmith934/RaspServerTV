@@ -23,12 +23,16 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+
+          # Pull PRIMA di tutto per evitare conflitti
           git pull --rebase origin main
+
           ./backend/scripts/epg.sh
 
-          # ❌ Rimuove file sopra i 100MB (GitHub limita a 100MB per file)
+          # ❌ Rimuove file sopra i 100MB
           find backend/epg/xml -type f -size +100M -exec echo "File troppo grande rimosso:" {} \; -exec rm -f {} \;
 
           git add backend/epg/xml/*.xml backend/epg/stable-epg-sources.json
           git diff --cached --quiet || git commit -m "Update EPG files"
           git push
+
