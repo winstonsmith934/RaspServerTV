@@ -24,7 +24,7 @@
 
 ---
 🎞️ **HLS Stream Resolution Support**
-
+**HLS.js**:[https://github.com/video-dev/hls.js]
 This feature detects and lists the **video resolutions available** in an HLS (HTTP Live Streaming) stream. Useful for quality selectors, player overlays, or simply displaying what your player is currently handling.
 
 ### 🔍 Supported Resolutions
