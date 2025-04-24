@@ -1,33 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Tears of Steel" tvg-logo="" tvg-id="" group-title="1-video-test",Tears of Steel
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-
-#EXTINF:-1 tvg-name="Apple fMP4 Example" tvg-logo="" tvg-id="" group-title="1-video-test",Apple fMP4 Example
-https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
-
-#EXTINF:-1 tvg-name="Tears of Steel MP4 HLS" tvg-logo="" tvg-id="" group-title="1-video-test",Tears of Steel MP4 HLS
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.mp4/.m3u8
-
-#EXTINF:-1 tvg-name="Live Akamai 1" tvg-logo="" tvg-id="" group-title="1-video-test",Live Akamai 1
-https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
-
-#EXTINF:-1 tvg-name="Live Akamai 2" tvg-logo="" tvg-id="" group-title="1-video-test",Live Akamai 2
-https://moctobpltc-i.akamaihd.net/hls/live/571329/eight/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Dolby VOD Stereo" tvg-logo="" tvg-id="" group-title="1-video-test",Dolby VOD Stereo
-http://d3rlna7iyyu8wu.cloudfront.net/skip_armstrong/skip_armstrong_stereo_subs.m3u8
-
-#EXTINF:-1 tvg-name="Dolby Multichannel" tvg-logo="" tvg-id="" group-title="1-video-test",Dolby Multichannel
-http://d3rlna7iyyu8wu.cloudfront.net/skip_armstrong/skip_armstrong_multichannel_subs.m3u8
-
-#EXTINF:-1 tvg-name="Dolby Multilanguage" tvg-logo="" tvg-id="" group-title="1-video-test",Dolby Multilanguage
-http://d3rlna7iyyu8wu.cloudfront.net/skip_armstrong/skip_armstrong_multi_language_subs.m3u8
-
-#EXTINF:-1 tvg-name="Azure Promo HLSv4" tvg-logo="" tvg-id="" group-title="1-video-test",Azure Promo HLSv4
-http://amssamples.streaming.mediaservices.windows.net/91492735-c523-432b-ba01-faba6c2206a2/AzureMediaServicesPromo.ism/manifest(format=m3u8-aapl)
-
-#EXTINF:-1 tvg-name="Azure Promo 2 HLSv4" tvg-logo="" tvg-id="" group-title="1-video-test",Azure Promo 2 HLSv4
-http://amssamples.streaming.mediaservices.windows.net/69fbaeba-8e92-4740-aedc-ce09ae945073/AzurePromo.ism/manifest(format=m3u8-aapl)
-
-#EXTINF:-1 tvg-name="Azure 4K Llama Drama" tvg-logo="" tvg-id="" group-title="1-video-test",Azure 4K Llama Drama
-http://amssamples.streaming.mediaservices.windows.net/634cd01c-6822-4630-8444-8dd6279f94c6/CaminandesLlamaDrama4K.ism/manifest(format=m3u8-aapl)
+#EXTINF:-1 tvg-name="4K HDR Apple Demo" tvg-logo="" tvg-id="" group-title="1-video-test",4K HDR Apple Demo
+https://devstreaming-cdn.apple.com/videos/streaming/examples/adv_dv_atmos/main.m3u8
