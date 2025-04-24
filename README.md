@@ -1,6 +1,7 @@
 # 🛰️ RaspServerTV
 
 🌍 **Live site**: [https://jonathansanfilippo.github.io/RaspServerTV/](https://jonathansanfilippo.github.io/RaspServerTV/)
+all supported browsers (Chrome/Firefox/IE11/Edge/Safari)
 
 **RaspServerTV** is a personal project created to collect and display IPTV channels in a clean and organized way, directly from the browser. It provides an updated and filtered list of streaming channels from around the world, accessible anywhere.
 
