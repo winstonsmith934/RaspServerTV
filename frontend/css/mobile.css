@@ -1,48 +1,33 @@
-html,body {
+html, body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background:#0e1117;
+  background: #0e1117;
   color: #c9d1d9;
-  height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
 }
 
-code, pre{
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-  background:#1c2128;
-  color:#58a6ff;
-}
-
 .main-header {
-  background:#161b22;
-  padding: 10px 20px;
+  background: #161b22;
+  padding: 0px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-.logomobile{
-  color:#58a6ff;
-  font-size:17px;
-  font-family: "Ubuntu Mono", monospace;
-  background:#1c2128;
-  padding:2px 8px;
-  border-radius:6px;
-  margin-right:10px;
-}
-
 .logo-area {
   display: flex;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .site-logo {
@@ -55,49 +40,91 @@ code, pre{
   font-weight: 600;
 }
 
-.layout-container {
-  flex: 1;
-  display: flex;
-  overflow: hidden;
-}
-
-.sidebar {
-  float: left;
-  width: 50%;
-  height: 50%;
-  overflow-y: auto;
-  box-sizing: border-box; 
-  background-color: #1c2128;
-  scrollbar-gutter: stable;
-  padding: 0;
-}
-
-.left-sidebar {
-  
-}
-
-.flag-sidebar {
+.logomobile {
+  color: #58a6ff;
+  font-size: 17px;
+  font-family: "Ubuntu Mono", monospace;
   background: #1c2128;
-  overflow-y: auto;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin-right: 10px;
 }
 
 .main-content {
   flex: 1;
-  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
   box-sizing: border-box;
 }
 
-/* Footer */
+.player-container {
+  width: 100%;
+  background-color: black;
+}
+
+#player {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  background: #161b22;
+}
+
+.panel-box {
+  width: 100%;
+  background: #161b22;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.search-container {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.search {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  background: #1c2128;
+  color: #c9d1d9;
+  border: none;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.search:focus {
+  outline: none;
+  background: #2c313a;
+}
+
+.split-container {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  gap: 10px;
+}
+
+.sidebar {
+  flex: 1;
+  background: #1c2128;
+  border-radius: 8px;
+  overflow-y: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: 0;
+}
+
+.flag-sidebar {
+  background: #1c2128;
+}
+
 .main-footer {
   background: #161b22;
   color: #8b949e;
   text-align: center;
   padding: 15px;
   font-size: 14px;
-  margin-top: auto;
 }
 
 .main-footer a {
@@ -109,36 +136,25 @@ code, pre{
   text-decoration: underline;
 }
 
-#player {
-  width: 100%;
-  max-width: 450px;
-  margin: 0px auto;
-  display: block;
-  background:#161b22;
+.channelCurrent {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color: #c9d1d9;
+  justify-content: left;
+  padding-left:20px;
 }
 
-.panel-box {
-  width: 100%;
-  
-  background: #161b22;
-  margin 0;
+.channelCurrent img{
+ width: 25px;
+ height: auto;
+ margin-right: 20px;
 }
 
-.container-box {
- padding-left: 20px; 
- font-size:14px;
- color: #c9d1d9;
+.statusMessage {
+  margin-left: 10px;
 }
 
-.repo-language-color {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius:50%;
-  background-color: #89e051;
-}
 
 .flag {
   width: 36px;
@@ -239,24 +255,5 @@ code, pre{
  width: 25px;
  height: auto;
  margin-right: 20px;
-}
-
-.firefox-style {
-  background: #1c2128;
-  color: #c9d1d9;
-  border: none;
-  padding: 10px 16px;
-  width: 100%;
-  font-family: "Ubuntu Mono", monospace;
-  font-size: 17px;
-  margin-top: 0px; 
-  margin-bottom: 0px;
-  transition: box-shadow 0.2s, background 0.2s;
-}
-
-.firefox-style:focus {
-  outline: none;
-  background: #2c313a;
- 
 }
 
