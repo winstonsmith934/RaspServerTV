@@ -18,15 +18,11 @@ jobs:
         with:
           fetch-depth: 0  # Necessario per usare git pull
 
-      - name: Install aria2 and Node.js
+      - name: Install dependencies (aria2c, Node.js, npm packages)
         run: |
           sudo apt-get update
-          sudo apt-get install -y aria2
-          sudo apt-get install -y nodejs npm
-
-      - name: Install Node.js dependencies
-        run: |
-          npm install node-fetch
+          sudo apt-get install -y aria2 nodejs npm
+          npm install node-fetch jsdom
 
       - name: Ensure list.sh is executable
         run: chmod +x backend/scripts/list.sh
