@@ -1,22 +1,55 @@
-// resolve-rai.js
+// resolve-rai-pro.js
 const fetch = require('node-fetch');
+const { JSDOM } = require('jsdom');
 
 async function resolve(url) {
   try {
-    const response = await fetch(url, { redirect: 'follow' });
+    const res = await fetch(url, {
+      redirect: 'follow',
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36'
+      }
+    });
 
-    if (!response.url.endsWith('.m3u8')) {
-      console.error('ERROR: URL finale non è .m3u8');
-      process.exit(1);
+    let finalUrl = res.url;
+
+    // Se il redirect porta già a .m3u8
+    if (finalUrl.endsWith('.m3u8')) {
+      console.log(finalUrl);
+      return;
     }
 
-    const test = await fetch(response.url, { method: 'HEAD' });
-    if (!test.ok) {
-      console.error('ERROR: Il file .m3u8 non è raggiungibile');
-      process.exit(1);
+    // Altrimenti leggiamo l'HTML
+    const html = await res.text();
+    const dom = new JSDOM(html);
+
+    // Cerca <meta http-equiv="refresh" content="5; url=xyz.m3u8">
+    const metas = dom.window.document.querySelectorAll('meta[http-equiv="refresh"]');
+    for (let meta of metas) {
+      const content = meta.getAttribute('content');
+      const match = content.match(/url=(.*)/i);
+      if (match) {
+        const redirectedUrl = match[1].trim();
+        if (redirectedUrl.endsWith('.m3u8')) {
+          console.log(redirectedUrl);
+          return;
+        }
+      }
     }
 
-    console.log(response.url);
+    // Cerca direttamente link .m3u8 nei <a> o src
+    const links = dom.window.document.querySelectorAll('a[href], source[src]');
+    for (let link of links) {
+      const href = link.getAttribute('href') || link.getAttribute('src');
+      if (href && href.endsWith('.m3u8')) {
+        console.log(href);
+        return;
+      }
+    }
+
+    console.error('ERROR: Non trovato link .m3u8 finale');
+    process.exit(1);
+
   } catch (error) {
     console.error('ERROR:', error.message);
     process.exit(1);
