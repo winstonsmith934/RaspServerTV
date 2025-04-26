@@ -7,11 +7,22 @@ ORIGINAL_DIR="$REPO_DIR/backend/lists"
 INFO_DIR="$REPO_DIR/backend/info"
 SKIPPED_FILE="$REPO_DIR/backend/lists/skipped.m3u"
 OUTPUT_FILE="$ORIGINAL_DIR/list.m3u"
-FORCED_CHANNELS=("La7") # Canali da forzare anche se offline
+BACKUP_FILE="$ORIGINAL_DIR/bak_list.m3u"  # <--- aggiunto backup file
+FORCED_CHANNELS=("La7")
 
 mkdir -p "$ORIGINAL_DIR" "$INFO_DIR"
+
+# Backup prima di sovrascrivere
+if [ -f "$OUTPUT_FILE" ]; then
+    echo "🔄 Backup della lista precedente in bak_list.m3u..."
+    cp "$OUTPUT_FILE" "$BACKUP_FILE"
+fi
+
 echo "#EXTM3U" > "$OUTPUT_FILE"
 echo "#EXTM3U" > "$SKIPPED_FILE"
+
+# (segue tutto il tuo codice identico...)
+
 
 total_entries=0
 valid_entries=0
