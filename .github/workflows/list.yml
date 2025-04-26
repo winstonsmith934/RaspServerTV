@@ -1,0 +1,50 @@
+name: List Updater
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # ogni 6 ore
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Necessario per usare git pull
+
+      - name: Install aria2 and Node.js
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y aria2
+          sudo apt-get install -y nodejs npm
+
+      - name: Install Node.js dependencies
+        run: |
+          npm install node-fetch
+
+      - name: Ensure list.sh is executable
+        run: chmod +x backend/scripts/list.sh
+
+      - name: Run M3U processing script
+        run: ./backend/scripts/list.sh
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update M3U processed lists"
+            git pull --rebase
+            git push
+          fi
