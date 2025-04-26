@@ -32,28 +32,15 @@ normalize_name() {
 for file in "$COUNTRIES_DIR"/*.txt; do
   country_raw="$(basename "$file" .txt)"
   country="$(tr '[:lower:]' '[:upper:]' <<< "${country_raw:0:1}")${country_raw:1}"
-  echo "📦 Processing $country..."
+  echo "\ud83d\udce6 Processing $country..."
 
   temp_file="/tmp/temp_$country_raw.m3u"
   > "$temp_file"
 
-  urls=()
   while read -r url; do
     [[ -z "$url" ]] && continue
-    urls+=("$url")
+    curl -s "$url" >> "$temp_file"
   done < "$file"
-
-  if command -v aria2c >/dev/null 2>&1; then
-    echo "🚀 Scaricamento con aria2c..."
-    for url in "${urls[@]}"; do
-      echo "$url"
-    done | aria2c --allow-overwrite=true --max-connection-per-server=4 --split=4 --timeout=10 --connect-timeout=5 --max-tries=1 --min-split-size=1M --dir=/tmp --out="temp_$country_raw.m3u" --input-file=/dev/stdin
-  else
-    echo "⚠️ aria2c non trovato, fallback a curl..."
-    for url in "${urls[@]}"; do
-      curl -s --max-time 10 "$url" >> "$temp_file"
-    done
-  fi
 
   while IFS= read -r line; do
     if [[ $line == \#EXTINF* ]]; then
@@ -70,27 +57,27 @@ for file in "$COUNTRIES_DIR"/*.txt; do
 
       tvgid=$(normalize_name "$name")
 
-      # Risoluzione RAI
+      # Risoluzione RAI avanzata
       if [[ "$url" == *relinkerServlet* || "$url" == *dispatcher* ]]; then
-        resolved_url=$(node "$REPO_DIR/backend/scripts/resolve-rai.js" "$url")
+        resolved_url=$(node "$REPO_DIR/backend/scripts/resolve-rai-pro.js" "$url")
         if [[ -n "$resolved_url" ]]; then
-          echo "🔄 Link RAI risolto: $name"
+          echo "\ud83d\udd04 Link RAI risolto: $name"
           url="$resolved_url"
         else
-          echo "❌ Fallito risoluzione RAI: $name"
+          echo "\u274c Fallito risoluzione RAI: $name"
           ((skipped_entries++))
           continue
         fi
       fi
 
       if $CHECK_STREAMS; then
-        status=$(curl -s -L -o /dev/null -w "%{http_code}" --max-time 3 "$url")
+        status=$(curl -s -L -o /dev/null -w "%{http_code}" --max-time 5 "$url")
 
         force_channel=false
         for forced in "${FORCED_CHANNELS[@]}"; do
           if [[ "$name" == "$forced" ]]; then
             force_channel=true
-            echo "⚠️  Eccezione forzata: $name (status $status)"
+            echo "\u26a0\ufe0f Eccezione forzata: $name (status $status)"
             break
           fi
         done
@@ -128,4 +115,4 @@ cat <<EOF > "$INFO_DIR/stats.json"
 }
 EOF
 
-echo "✅ Completato. Canali validi: $valid_entries / $total_entries"
+echo "\u2705 Completato. Canali validi: $valid_entries / $total_entries"
