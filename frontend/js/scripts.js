@@ -5,7 +5,7 @@
     'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/video_testing.m3u'
   ];
 
-  let hls, allChannels = {}, currentGroup = 'UK';
+   let hls, allChannels = {}, currentGroup = 'UK';
   const player = document.getElementById('player');
   const channelList = document.getElementById('channelList');
   const countrySelector = document.getElementById('countrySelector');
@@ -534,5 +534,3 @@ setInterval(() => {
   loadStatsInfo();
   loadGitHubStars();
 }, 300000);
-
-
