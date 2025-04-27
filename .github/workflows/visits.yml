@@ -2,7 +2,7 @@ name: Visits
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Ogni 5 minuti
+    - cron: '*/10 * * * *'  # Ogni 10 minuti
   workflow_dispatch:
 
 permissions:
@@ -13,32 +13,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Scarica e genera visits.json con visits + online
-      run: |
-        mkdir -p backend/info
+      - name: Scarica e genera visits.json
+        run: |
+          curl -s https://www.counters-free.net/count/hpvh > raw.txt
 
-        # Scarica il JSON completo da counter.dev
-        curl -s https://counter.dev/api/e100ac04-084d-43b3-a5cc-4081de4392e9.json -o raw_counter.json
+          line=$(grep "document.write" raw.txt | sed -n "s/.*document.write('\(.*\)');.*/\1/p")
+          html=$(echo "$line" | sed 's/&lt;/</g; s/&gt;/>/g; s/&quot;/\"/g; s/&apos;/'"'"'/g; s/&amp;/\&/g')
+          total=$(echo "$html" | grep -o "Total: [0-9]*" | cut -d':' -f2 | xargs)
 
-        # Estrai i campi "total" e "current"
-        total=$(jq '.total' raw_counter.json)
-        current=$(jq '.current' raw_counter.json)
+          echo "Numero estratto: $total"
+          mkdir -p backend/info
+          echo "{ \"visits\": $total }" > backend/info/visits.json
 
-        # Scrivi il file unico
-        echo "{ \"visits\": $total, \"online\": $current }" > backend/info/visits.json
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-    - name: Commit and push if changed
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-
-        if git diff --quiet backend/info/visits.json; then
-          echo "Nessuna modifica, skip commit."
-        else
-          git add backend/info/visits.json
-          git commit -m "Update visits.json: $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
-        fi
+          if git diff --quiet backend/info/visits.json; then
+            echo "Nessuna modifica, skip commit."
+          else
+            git add backend/info/visits.json
+            git commit -m "Update visits.json: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
