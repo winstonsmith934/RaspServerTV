@@ -450,7 +450,8 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
 
 // Funzione per caricare stats.json
 function loadStatsInfo() {
-  fetch('https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/main/backend/info/stats.json')
+ fetch('https://jonathansanfilippo.github.io/RaspServerTV/backend/info/stats.json')
+
 
     .then(res => res.json())
     .then(stats => {
