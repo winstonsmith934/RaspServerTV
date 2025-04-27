@@ -453,7 +453,7 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
 
   // Funzione per caricare stats.json
 function loadStatsInfo() {
-  fetch('backend/info/stats.json')
+  fetch('../backend/info/stats.json')
     .then(res => res.json())
     .then(stats => {
       animateCount('validCount', stats.valid);
