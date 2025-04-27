@@ -10,7 +10,6 @@ RAW_BASE_URL="https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/
 mkdir -p "$DEST_DIR"
 rm -f "$DEST_DIR"/*.xml
 
-
 echo "📥 Inizio download EPG..."
 
 declare -A country_links
@@ -44,6 +43,10 @@ for country in "${countries[@]}"; do
     fi
   done
 done
+
+# Aggiunta manuale della lista DolbyAtmos
+echo "➕ Aggiungo DolbyAtmos EPG fisso"
+country_links["DolbyAtmos"]="https://raw.githubusercontent.com/JonathanSanfilippo/atmos/refs/heads/main/epg_atmos.xml"
 
 # Scrittura JSON finale
 echo "📄 Creo JSON: $OUTPUT_JSON"
