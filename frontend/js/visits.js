@@ -4,11 +4,9 @@ function loadVisits() {
     .then(res => res.json())
     .then(data => {
       const raw = data.visits;
-      const formatted = formatNumber(raw);
       const el = document.getElementById("contatore");
       if (el) {
-        el.innerText = formatted;
-        pulseAnimation(el); // Effetto animazione e cambio colore Nord
+        animateCount(el, raw); // Fa crescere il numero animato
       }
     })
     .catch(err => {
@@ -27,25 +25,41 @@ function formatNumber(n) {
   return n.toString();
 }
 
-// Funzione per effetto animazione e cambio colore Nord
-function pulseAnimation(element) {
-  element.style.transition = "transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55), color 0.5s ease";
-  element.style.transform = "scale(1.2)";
-  element.style.color = getRandomNordColor();
+// Funzione per animare il conteggio da 0 al numero
+function animateCount(element, target) {
+  const duration = 1000; // Durata 1 secondo
+  const start = 0;
+  const startTime = performance.now();
 
-  setTimeout(() => {
-    element.style.transform = "scale(1)";
-  }, 500);
+  element.style.color = getRandomNordColor(); // Cambia colore subito
+  element.style.transition = "color 0.5s ease";
+
+  function update(currentTime) {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const currentValue = Math.floor(progress * target);
+
+    element.innerText = formatNumber(currentValue);
+
+    if (progress < 1) {
+      requestAnimationFrame(update);
+    }
+  }
+
+  requestAnimationFrame(update);
 }
 
-// Funzione per ottenere un colore Nord casuale
+// Funzione per ottenere un colore Nord casuale + 3 colori in più
 function getRandomNordColor() {
   const colors = [
     "#bf616a", // Red
     "#d08770", // Orange
     "#ebcb8b", // Yellow
     "#a3be8c", // Green
-    "#b48ead"  // Purple
+    "#b48ead", // Purple
+    "#88c0d0", // Azzurro Nord
+    "#5e81ac", // Blu Nord scuro
+    "#81a1c1"  // Blu Nord chiaro
   ];
   return colors[Math.floor(Math.random() * colors.length)];
 }
