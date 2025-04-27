@@ -10,12 +10,12 @@ fetch("https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/he
     document.getElementById("contatore").innerText = "Errore";
   });
 
-// Funzione per caricare utenti online da counter.dev ogni 30 secondi
+// Carica numero di utenti online (dal nuovo online.json)
 function updateOnline() {
-  fetch("https://counter.dev/api/e100ac04-084d-43b3-a5cc-4081de4392e9.json")
+  fetch("https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/info/online.json")
     .then(res => res.json())
     .then(data => {
-      const rawOnline = data.current;
+      const rawOnline = data.online;
       if (typeof rawOnline === 'number') {
         animateCount("online", rawOnline, false); // Numero puro
         pulseAnimation("online"); // Effetto pulse
