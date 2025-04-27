@@ -1,22 +1,38 @@
-// Carica numero di visite (dal tuo visits.json)
-fetch("https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/info/visits.json")
-  .then(res => res.json())
-  .then(data => {
-    const rawVisits = data.visits;
-    animateCount("contatore", rawVisits, true); // Formatta le visite
-  })
-  .catch(err => {
-    console.error("Errore caricamento visite:", err);
-    document.getElementById("contatore").innerText = "Errore";
-  });
+// Funzione per caricare e aggiornare il numero di visite
+function loadVisits() {
+  fetch("https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/main/backend/info/visits.json")
+    .then(res => {
+      if (!res.ok) throw new Error("Errore rete");
+      return res.json();
+    })
+    .then(data => {
+      const visits = parseInt(data.visits, 10);
+      if (!isNaN(visits)) {
+        animateCount("contatore", visits, true);
+      } else {
+        console.error("Valore visite non valido:", data.visits);
+        document.getElementById("contatore").innerText = "Errore";
+      }
+    })
+    .catch(err => {
+      console.error("Errore caricamento visite:", err);
+      document.getElementById("contatore").innerText = "Errore";
+    });
+}
+
+// Primo caricamento immediato
+loadVisits();
+
+// Aggiorna automaticamente ogni 2 minuti (120000 ms)
+setInterval(loadVisits, 120000);
 
 // Funzione per animare il numero delle visite
-function animateCount(id, target, formatNumber) {
+function animateCount(id, target, format) {
   const el = document.getElementById(id);
   if (!el) return;
 
   let start = 0;
-  const duration = 800;
+  const duration = 800; // Durata animazione in ms
   const startTime = performance.now();
 
   function update(currentTime) {
@@ -24,11 +40,7 @@ function animateCount(id, target, formatNumber) {
     const progress = Math.min(elapsed / duration, 1);
     const currentValue = Math.floor(progress * target);
 
-    if (formatNumber) {
-      el.innerText = formatVisitNumber(currentValue);
-    } else {
-      el.innerText = currentValue.toString();
-    }
+    el.innerText = format ? formatVisitNumber(currentValue) : currentValue.toString();
 
     if (progress < 1) {
       requestAnimationFrame(update);
