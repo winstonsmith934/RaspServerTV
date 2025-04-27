@@ -2,7 +2,7 @@ name: Visits
 
 on:
   schedule:
-     - cron: '0 * * * *'  # Ogni ora, al minuto 0
+    - cron: '*/5 * * * *'  # Ogni 5 minuti
   workflow_dispatch:
 
 permissions:
@@ -16,17 +16,19 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Scarica e genera visits.json
+    - name: Scarica e genera visits.json con visits + online
       run: |
-        curl -s https://www.counters-free.net/count/hpvh > raw.txt
-
-        line=$(grep "document.write" raw.txt | sed -n "s/.*document.write('\(.*\)');.*/\1/p")
-        html=$(echo "$line" | sed 's/&lt;/</g; s/&gt;/>/g; s/&quot;/\"/g; s/&apos;/'"'"'/g; s/&amp;/\&/g')
-        total=$(echo "$html" | grep -o "Total: [0-9]*" | cut -d':' -f2 | xargs)
-
-        echo "Numero estratto: $total"
         mkdir -p backend/info
-        echo "{ \"visits\": $total }" > backend/info/visits.json
+
+        # Scarica il JSON completo da counter.dev
+        curl -s https://counter.dev/api/e100ac04-084d-43b3-a5cc-4081de4392e9.json -o raw_counter.json
+
+        # Estrai i campi "total" e "current"
+        total=$(jq '.total' raw_counter.json)
+        current=$(jq '.current' raw_counter.json)
+
+        # Scrivi il file unico
+        echo "{ \"visits\": $total, \"online\": $current }" > backend/info/visits.json
 
     - name: Commit and push if changed
       run: |
