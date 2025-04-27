@@ -20,8 +20,8 @@ jobs:
       run: |
         curl -s "https://counter.dev/dashboard.html?user=jonalinux&token=B8hsBp6xkxU%3D" > raw.html
 
-        # Trova il primo dashboard-number (Visits)
-        line=$(grep '<dashboard-number' raw.html | head -n 1)
+        # Cerca solo il primo dashboard-number
+        line=$(grep '<dashboard-number class="h2 blue"' raw.html | head -n 1)
         extracted=$(echo "$line" | sed -n 's/.*title="\([0-9]\+\)".*/\1/p')
 
         # Se non trova nulla, forza a 0
