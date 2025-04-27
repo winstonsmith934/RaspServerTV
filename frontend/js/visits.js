@@ -10,7 +10,7 @@ fetch("https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/he
     document.getElementById("contatore").innerText = "Errore";
   });
 
-// Funzione per caricare online users direttamente da counter.dev ogni 30s
+// Funzione per caricare utenti online da counter.dev ogni 30 secondi
 function updateOnline() {
   fetch("https://counter.dev/api/e100ac04-084d-43b3-a5cc-4081de4392e9.json")
     .then(res => res.json())
@@ -18,13 +18,14 @@ function updateOnline() {
       const rawOnline = data.current;
       if (typeof rawOnline === 'number') {
         animateCount("online", rawOnline, false); // Numero puro
+        pulseAnimation("online"); // Effetto pulse
       }
     })
     .catch(err => {
       console.error("Errore caricamento online:", err);
       const onlineElement = document.getElementById("online");
       if (onlineElement) {
-        onlineElement.innerText = "Errore";
+        onlineElement.innerText = "0 users online";
       }
     });
 }
@@ -32,7 +33,7 @@ function updateOnline() {
 updateOnline(); // Primo caricamento
 setInterval(updateOnline, 30000); // Aggiorna ogni 30 secondi
 
-// Funzioni di animazione
+// Funzione per animare i numeri (visite e online)
 function animateCount(id, target, formatNumber) {
   const el = document.getElementById(id);
   if (!el) return;
@@ -60,8 +61,22 @@ function animateCount(id, target, formatNumber) {
   requestAnimationFrame(update);
 }
 
+// Formatta le visite (es: 1.2K, 2.5M)
 function formatVisitNumber(n) {
   if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
   if (n >= 1_000) return (n / 1_000).toFixed(1).replace(/\.0$/, '') + 'K';
   return n.toString();
+}
+
+// Aggiunge un piccolo effetto "pulse" quando cambia il numero online
+function pulseAnimation(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  el.style.transition = "transform 0.3s ease-in-out";
+  el.style.transform = "scale(1.1)";
+
+  setTimeout(() => {
+    el.style.transform = "scale(1)";
+  }, 300);
 }
