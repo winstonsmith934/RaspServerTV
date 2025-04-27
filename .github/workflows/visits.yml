@@ -2,7 +2,7 @@ name: Visits
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Ogni 1 minuto
+     - cron: '0 * * * *'  # Ogni ora, al minuto 0
   workflow_dispatch:
 
 permissions:
@@ -16,25 +16,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Scarica e genera visits.json da counter.dev
+    - name: Scarica e genera visits.json
       run: |
-        curl -s "https://counter.dev/dashboard.html?user=jonalinux&token=B8hsBp6xkxU%3D" > raw.html
+        curl -s https://www.counters-free.net/count/hpvh > raw.txt
 
-        # Cerca solo il primo dashboard-number
-        line=$(grep '<dashboard-number class="h2 blue"' raw.html | head -n 1)
-        extracted=$(echo "$line" | sed -n 's/.*title="\([0-9]\+\)".*/\1/p')
+        line=$(grep "document.write" raw.txt | sed -n "s/.*document.write('\(.*\)');.*/\1/p")
+        html=$(echo "$line" | sed 's/&lt;/</g; s/&gt;/>/g; s/&quot;/\"/g; s/&apos;/'"'"'/g; s/&amp;/\&/g')
+        total=$(echo "$html" | grep -o "Total: [0-9]*" | cut -d':' -f2 | xargs)
 
-        # Se non trova nulla, forza a 0
-        if [ -z "$extracted" ]; then
-          echo "⚠️ Nessun numero trovato, imposto a 0"
-          extracted=0
-        fi
-
-        total=$((extracted + 332))
-
-        echo "Numero estratto: $extracted"
-        echo "Numero finale (aggiunto 332): $total"
-
+        echo "Numero estratto: $total"
         mkdir -p backend/info
         echo "{ \"visits\": $total }" > backend/info/visits.json
 
