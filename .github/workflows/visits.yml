@@ -2,7 +2,7 @@ name: Visits
 
 on:
   schedule:
-     - cron: '0 * * * *'  # Ogni ora, al minuto 0
+      - cron: '*/1 * * * *'  # Ogni 1 minuto
   workflow_dispatch:
 
 permissions:
