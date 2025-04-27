@@ -14,6 +14,7 @@ function normalizeEPGName(str) {
 
 // Carica il dizionario epg-name-map.json
 let channelNameMap = {};
+let currentEPGEndTime = null; // 🔥
 
 async function loadChannelNameMap() {
   try {
@@ -22,7 +23,7 @@ async function loadChannelNameMap() {
     channelNameMap = await response.json();
   } catch (error) {
     console.error('Errore nel caricamento del file epg-name-map.json:', error);
-    channelNameMap = {}; // fallback vuoto
+    channelNameMap = {}; 
   }
 }
 
@@ -47,7 +48,6 @@ async function loadEPG(channelName) {
   container.innerHTML = '';
   const now = new Date();
 
-  // Carica il nome normalizzato e mappato
   const normalizedChannelName = normalizeEPGName(channelName);
   const epgTargetName = channelNameMap[normalizedChannelName] || normalizedChannelName;
 
@@ -75,7 +75,7 @@ async function loadEPG(channelName) {
 
       const programmes = Array.from(xml.querySelectorAll('programme')).filter(p => {
         const ch = normalizeEPGName(p.getAttribute('channel') || '');
-        return ch === epgTargetName; // confronto preciso ===
+        return ch === epgTargetName;
       });
 
       if (programmes.length === 0) continue;
@@ -96,6 +96,7 @@ async function loadEPG(channelName) {
       if (nowProgram) {
         const start = parseEPGDate(nowProgram.getAttribute('start'));
         const stop = parseEPGDate(nowProgram.getAttribute('stop'));
+        currentEPGEndTime = stop; // 🔥 Memorizza quando finisce il programma
         const title = nowProgram.querySelector('title')?.textContent || 'Nessun titolo';
         const progress = Math.min(100, ((now - start) / (stop - start)) * 100).toFixed(1);
 
@@ -115,6 +116,8 @@ async function loadEPG(channelName) {
               <div class="progress" style="width: ${progress}%"></div>
             </div>
           </div>`;
+      } else {
+        currentEPGEndTime = null; // Se non trovi programma
       }
 
       if (nextProgram) {
@@ -136,3 +139,18 @@ async function loadEPG(channelName) {
   container.innerHTML = `<div style="text-align:center;"><i class="fa-duotone fa-solid fa-circle-info"></i> EPG not found for this channel.</div>`;
 }
 
+// 🔥 Controlla ogni 30 secondi se il programma è finito
+setInterval(() => {
+  const now = new Date();
+  if (currentEPGEndTime && now > currentEPGEndTime) {
+    console.log("Fine programma raggiunta. Aggiorno EPG...");
+
+    const selectedChannel = document.querySelector('.channel.selected');
+    if (selectedChannel) {
+      const channelName = selectedChannel.dataset.display;
+      if (channelName) {
+        loadEPG(channelName); // Ricarica SOLO la guida
+      }
+    }
+  }
+}, 60000); // Ogni 60 secondi
