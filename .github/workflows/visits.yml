@@ -20,9 +20,15 @@ jobs:
       run: |
         curl -s "https://counter.dev/dashboard.html?user=jonalinux&token=B8hsBp6xkxU%3D" > raw.html
 
-        # Trova la sezione Visits e prendi il title corretto
-        line=$(awk '/<dashboard-counter-visitors/,/<\/dashboard-counter-visitors>/' raw.html | grep '<dashboard-number')
+        # Trova il primo dashboard-number (Visits)
+        line=$(grep '<dashboard-number' raw.html | head -n 1)
         extracted=$(echo "$line" | sed -n 's/.*title="\([0-9]\+\)".*/\1/p')
+
+        # Se non trova nulla, forza a 0
+        if [ -z "$extracted" ]; then
+          echo "⚠️ Nessun numero trovato, imposto a 0"
+          extracted=0
+        fi
 
         total=$((extracted + 332))
 
@@ -38,4 +44,9 @@ jobs:
         git config user.email "github-actions[bot]@users.noreply.github.com"
 
         if git diff --quiet backend/info/visits.json; then
-          echo "Nessuna modifica, skip commit
+          echo "Nessuna modifica, skip commit."
+        else
+          git add backend/info/visits.json
+          git commit -m "Update visits.json: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+        fi
