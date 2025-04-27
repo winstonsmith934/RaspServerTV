@@ -19,12 +19,15 @@ jobs:
     - name: Scarica e genera online.json
       run: |
         curl -s https://www.freevisitorcounters.com/en/home/stats/id/1332953 > raw.html
-        line=$(grep "Online</td>" raw.html | head -1)
-        online=$(echo "$line" | sed -n 's/.*<td>\([0-9]*\)<\/td>.*/\1/p')
+
+        line=$(grep -A1 "Online</td>" raw.html | tail -n 1)
+        online=$(echo "$line" | sed -n 's/.*<td>\([0-9]\+\)<\/td>.*/\1/p')
 
         echo "Utenti online estratti: $online"
         mkdir -p backend/info
+        if [ -z "$online" ]; then online=0; fi
         echo "{ \"online\": $online }" > backend/info/online.json
+
 
     - name: Commit and push if changed
       run: |
