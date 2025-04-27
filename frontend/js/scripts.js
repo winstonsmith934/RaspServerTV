@@ -450,15 +450,14 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
   loadAllPlaylists(m3uUrls);
 
 
-
-  // Funzione per caricare stats.json
+// Funzione per caricare stats.json
 function loadStatsInfo() {
   fetch('../backend/info/stats.json')
     .then(res => res.json())
     .then(stats => {
-      animateCount('validCount', stats.valid);
-      animateCount('skippedCount', stats.skipped);
-      animateCount('totalCount', stats.total);
+      safeAnimate('validCount', stats.valid);
+      safeAnimate('skippedCount', stats.skipped);
+      safeAnimate('totalCount', stats.total);
       updateText('updateDate', `${stats.last_update}`);
     })
     .catch(err => {
@@ -485,13 +484,26 @@ function updateText(id, text) {
   if (el) el.innerText = text;
 }
 
+// Funzione sicura per animare solo numeri
+function safeAnimate(id, value) {
+  const el = document.getElementById(id);
+  const num = parseInt(value, 10);
+  if (!el) return;
+  if (isNaN(num)) {
+    console.warn(`Valore non numerico per ${id}:`, value);
+    el.innerText = value; // fallback
+    return;
+  }
+  animateCount(id, num);
+}
+
 // Funzione per contare da 0 a target
 function animateCount(id, target) {
   const el = document.getElementById(id);
   if (!el) return;
 
   let start = 0;
-  const duration = 800; // durata animazione
+  const duration = 800; // durata animazione in ms
   const startTime = performance.now();
 
   function update(currentTime) {
@@ -516,7 +528,7 @@ function pulseUpdate(id, text) {
 
   el.style.transition = "transform 0.4s ease, color 0.4s ease";
   el.style.transform = "scale(1.2)";
-  el.style.color = "#f9c855"; // Giallo oro durante animazione
+  el.style.color = "#f9c855"; // Giallo oro durante zoom
 
   setTimeout(() => {
     el.innerText = text;
@@ -526,11 +538,13 @@ function pulseUpdate(id, text) {
 }
 
 // 🔥 Caricamento iniziale
-loadStatsInfo();
-loadGitHubStars();
-
-// 🔥 Aggiorna ogni 60 secondi
-setInterval(() => {
+document.addEventListener("DOMContentLoaded", () => {
   loadStatsInfo();
   loadGitHubStars();
-}, 60000);
+
+  // 🔥 Aggiorna ogni 60 secondi
+  setInterval(() => {
+    loadStatsInfo();
+    loadGitHubStars();
+  }, 60000);
+});
