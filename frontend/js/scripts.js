@@ -114,7 +114,7 @@ else if (height >= 240)  label = '240p';
 else if (height >= 144)  label = '144p';
 else if (height >= 120)  label = '120p';
 else if (height >= 96)   label = '96p';
-else label = 'Potato';
+else label = 'Low Bandwidth';
 
 
 
@@ -190,7 +190,7 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
 } else if (height >= 96) {
   label = 'Retro 96p'; color = '#964B00';
 } else {
-  label = 'Potato Mode'; color = '#C0392B'; // Meme mode
+  label = 'Low Bandwidth'; color = '#C0392B'; // Meme mode
 }
 
 
