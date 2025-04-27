@@ -1,0 +1,40 @@
+name: Online Users
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # ogni 5 minuti
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Scarica e genera online.json
+      run: |
+        curl -s https://www.freevisitorcounters.com/en/home/stats/id/1332953 > raw.html
+        line=$(grep "Online</td>" raw.html | head -1)
+        online=$(echo "$line" | sed -n 's/.*<td>\([0-9]*\)<\/td>.*/\1/p')
+
+        echo "Utenti online estratti: $online"
+        mkdir -p backend/info
+        echo "{ \"online\": $online }" > backend/info/online.json
+
+    - name: Commit and push if changed
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        if git diff --quiet backend/info/online.json; then
+          echo "Nessuna modifica, skip commit."
+        else
+          git add backend/info/online.json
+          git commit -m "Update online.json: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+        fi
