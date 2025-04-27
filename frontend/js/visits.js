@@ -1,29 +1,44 @@
+// Carica numero di visite (dal tuo visits.json)
 fetch("https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/info/visits.json")
   .then(res => res.json())
   .then(data => {
     const rawVisits = data.visits;
-    const rawOnline = data.online;
-
-    // Anima i numeri
-    animateCount("contatore", rawVisits, true); // true = formatta con K/M
-    animateCount("online", rawOnline, false);   // false = numero puro + testo
+    animateCount("contatore", rawVisits, true); // Formatta le visite
   })
   .catch(err => {
-    console.error("Errore nel caricamento:", err);
+    console.error("Errore caricamento visite:", err);
     document.getElementById("contatore").innerText = "Errore";
-
-    const onlineElement = document.getElementById("online");
-    if (onlineElement) {
-      onlineElement.innerText = "Errore";
-    }
   });
 
+// Funzione per caricare online users direttamente da counter.dev ogni 30s
+function updateOnline() {
+  fetch("https://counter.dev/api/e100ac04-084d-43b3-a5cc-4081de4392e9.json")
+    .then(res => res.json())
+    .then(data => {
+      const rawOnline = data.current;
+      if (typeof rawOnline === 'number') {
+        animateCount("online", rawOnline, false); // Numero puro
+      }
+    })
+    .catch(err => {
+      console.error("Errore caricamento online:", err);
+      const onlineElement = document.getElementById("online");
+      if (onlineElement) {
+        onlineElement.innerText = "Errore";
+      }
+    });
+}
+
+updateOnline(); // Primo caricamento
+setInterval(updateOnline, 30000); // Aggiorna ogni 30 secondi
+
+// Funzioni di animazione
 function animateCount(id, target, formatNumber) {
   const el = document.getElementById(id);
   if (!el) return;
 
   let start = 0;
-  const duration = 800; // durata animazione in ms
+  const duration = 800;
   const startTime = performance.now();
 
   function update(currentTime) {
