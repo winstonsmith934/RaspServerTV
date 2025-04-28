@@ -454,16 +454,16 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
 //////////////////////////////////////////////////////////////////
 
 
-
-// Funzione per caricare stats.json con animazione numerica
+// Funzione per caricare stats.json (numeri validCount, skippedCount, totalCount)
 function updateStatsInfo() {
   fetch('../backend/info/stats.json')
     .then(res => res.json())
     .then(stats => {
-      animateCount('validCount', stats.valid);
-      animateCount('skippedCount', stats.skipped);
-      animateCount('totalCount', stats.total);
-      document.getElementById('updateDate').textContent = `${stats.last_update}`;
+      // Aggiorno direttamente senza animazione conflittuale
+      animateNumber('validCount', stats.valid);
+      animateNumber('skippedCount', stats.skipped);
+      animateNumber('totalCount', stats.total);
+      document.getElementById('updateDate').textContent = stats.last_update;
     })
     .catch(err => {
       console.warn("Impossibile caricare stats.json:", err);
@@ -471,34 +471,29 @@ function updateStatsInfo() {
     });
 }
 
-// Funzione per caricare le stelle GitHub con animazione zoom
+// Funzione per caricare stelle GitHub (solo gh-stars)
 function updateGitHubStars() {
-  fetch("https://api.github.com/repos/JonathanSanfilippo/RaspServerTV", {
-    headers: {
-      "Accept": "application/vnd.github.v3+json",
-      "User-Agent": "Mozilla/5.0"
-    }
-  })
+  fetch('https://api.github.com/repos/JonathanSanfilippo/RaspServerTV')
     .then(res => res.json())
     .then(data => {
-      pulseUpdate('gh-stars', `${data.stargazers_count} stars`);
+      pulseStars('gh-stars', `${data.stargazers_count} stars`);
     })
     .catch(err => {
       console.warn("Impossibile caricare GitHub stars:", err);
-      document.getElementById("gh-stars").innerHTML = "Unable to load stars.";
+      document.getElementById('gh-stars').innerText = "Unable to load stars.";
     });
 }
 
-// Funzione di animazione conteggio numerico
-function animateCount(id, target) {
+// Animazione numeri da 0 a target
+function animateNumber(id, target) {
   const el = document.getElementById(id);
   if (!el) return;
 
   let start = 0;
-  const duration = 1000; // durata animazione (ms)
+  const duration = 1000;
   const startTime = performance.now();
 
-  function update(currentTime) {
+  function step(currentTime) {
     const elapsed = currentTime - startTime;
     const progress = Math.min(elapsed / duration, 1);
     const value = Math.floor(progress * target);
@@ -506,34 +501,34 @@ function animateCount(id, target) {
     el.innerText = value;
 
     if (progress < 1) {
-      requestAnimationFrame(update);
+      requestAnimationFrame(step);
     }
   }
 
-  requestAnimationFrame(update);
+  requestAnimationFrame(step);
 }
 
-// Funzione di zoom solo sulle stelle
-function pulseUpdate(id, text) {
+// Animazione stelle GitHub: zoom e colore
+function pulseStars(id, text) {
   const el = document.getElementById(id);
   if (!el) return;
 
-  el.style.transition = "transform 0.4s ease, color 0.4s ease";
-  el.style.transform = "scale(1.2)";
-  el.style.color = "#f9c855"; // Giallo temporaneo
+  el.innerText = text;
+  el.style.transition = "transform 0.5s, color 0.5s";
+  el.style.transform = "scale(1.3)";
+  el.style.color = "#f9c855"; // Giallo
 
   setTimeout(() => {
-    el.innerText = text;
     el.style.transform = "scale(1)";
     el.style.color = "#c9d1d9"; // Colore GitHub base
-  }, 400);
+  }, 500);
 }
 
-// 🔥 Caricamento iniziale
+// 🚀 Caricamento iniziale
 updateStatsInfo();
 updateGitHubStars();
 
-// 🔥 Aggiorna ogni 5 minuti (300000 ms)
+// 🔥 Aggiorna ogni 5 minuti
 setInterval(() => {
   updateStatsInfo();
   updateGitHubStars();
