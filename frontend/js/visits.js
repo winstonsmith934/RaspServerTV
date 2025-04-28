@@ -53,10 +53,10 @@ function animateCount(element, target) {
 function getRandomNordColor() {
   const colors = [
     "#D2515E", // Red
-    "#d08770", // Orange
-    "#ebcb8b", // Yellow
-    "#a3be8c", // Green
-    "#b48ead", // Purple
+    "#f4771b", // Orange
+    "#fc3", // Yellow 
+    "#D2515E", // Green
+    "#bd7bf4", // Purple
     "#88c0d0", // Azzurro Nord
     "#5e81ac", // Blu Nord scuro
     "#58a6ff"  // Blu accent
