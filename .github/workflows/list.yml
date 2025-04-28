@@ -2,7 +2,7 @@ name: List Updater
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # ogni 6 ore
+    - cron: '0 */1 * * *'  # ogni 1 ore
   workflow_dispatch:
 
 permissions:
