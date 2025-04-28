@@ -449,15 +449,21 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
   searchBox.addEventListener('input', searchChannels);
   loadAllPlaylists(m3uUrls);
 
-// Funzione per aggiornare stats.json
-function updateStats() {
+
+
+//////////////////////////////////////////////////////////////////
+
+
+
+// Funzione per caricare stats.json con animazione numerica
+function updateStatsInfo() {
   fetch('../backend/info/stats.json')
     .then(res => res.json())
     .then(stats => {
+      animateCount('validCount', stats.valid);
+      animateCount('skippedCount', stats.skipped);
+      animateCount('totalCount', stats.total);
       document.getElementById('updateDate').textContent = `${stats.last_update}`;
-      document.getElementById('validCount').textContent = `${stats.valid}`;
-      document.getElementById('skippedCount').textContent = `${stats.skipped}`;
-      document.getElementById('totalCount').textContent = `${stats.total}`;
     })
     .catch(err => {
       console.warn("Impossibile caricare stats.json:", err);
@@ -465,24 +471,70 @@ function updateStats() {
     });
 }
 
-// Funzione per aggiornare le stelle GitHub
+// Funzione per caricare le stelle GitHub con animazione zoom
 function updateGitHubStars() {
-  fetch("https://api.github.com/repos/JonathanSanfilippo/RaspServerTV")
+  fetch("https://api.github.com/repos/JonathanSanfilippo/RaspServerTV", {
+    headers: {
+      "Accept": "application/vnd.github.v3+json",
+      "User-Agent": "Mozilla/5.0"
+    }
+  })
     .then(res => res.json())
     .then(data => {
-      document.getElementById("gh-stars").innerHTML = ` ${data.stargazers_count} stars`;
+      pulseUpdate('gh-stars', `${data.stargazers_count} stars`);
     })
     .catch(err => {
       console.warn("Impossibile caricare GitHub stars:", err);
+      document.getElementById("gh-stars").innerHTML = "Unable to load stars.";
     });
 }
 
+// Funzione di animazione conteggio numerico
+function animateCount(id, target) {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  let start = 0;
+  const duration = 1000; // durata animazione (ms)
+  const startTime = performance.now();
+
+  function update(currentTime) {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const value = Math.floor(progress * target);
+
+    el.innerText = value;
+
+    if (progress < 1) {
+      requestAnimationFrame(update);
+    }
+  }
+
+  requestAnimationFrame(update);
+}
+
+// Funzione di zoom solo sulle stelle
+function pulseUpdate(id, text) {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  el.style.transition = "transform 0.4s ease, color 0.4s ease";
+  el.style.transform = "scale(1.2)";
+  el.style.color = "#f9c855"; // Giallo temporaneo
+
+  setTimeout(() => {
+    el.innerText = text;
+    el.style.transform = "scale(1)";
+    el.style.color = "#c9d1d9"; // Colore GitHub base
+  }, 400);
+}
+
 // 🔥 Caricamento iniziale
-updateStats();
+updateStatsInfo();
 updateGitHubStars();
 
-// 🔥 Aggiorna ogni 5 minuti
+// 🔥 Aggiorna ogni 5 minuti (300000 ms)
 setInterval(() => {
-  updateStats();
+  updateStatsInfo();
   updateGitHubStars();
-}, 300000); // 5 minuti
+}, 300000);
