@@ -52,14 +52,14 @@ function animateCount(element, target) {
 // Funzione per ottenere un colore Nord casuale + 3 colori in più
 function getRandomNordColor() {
   const colors = [
-    "#bf616a", // Red
+    "#D2515E", // Red
     "#d08770", // Orange
     "#ebcb8b", // Yellow
     "#a3be8c", // Green
     "#b48ead", // Purple
     "#88c0d0", // Azzurro Nord
     "#5e81ac", // Blu Nord scuro
-    "#81a1c1"  // Blu Nord chiaro
+    "#58a6ff"  // Blu accent
   ];
   return colors[Math.floor(Math.random() * colors.length)];
 }
