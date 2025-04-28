@@ -1253,9 +1253,6 @@ https://rbmn-live.akamaized.net/hls/live/2002825/geoSTVATweb/master.m3u8
 #EXTINF:-1 tvg-name="oe24" tvg-logo="https://i.imgur.com/8UTkcPn.png" tvg-id="oe24" group-title="Austria",oe24
 https://varoe24live.sf.apa.at/oe24-live1/oe24.smil/chunklist_b1900000.m3u8
 
-#EXTINF:-1 tvg-name="W24" tvg-logo="https://i.imgur.com/PGb4wYw.png" tvg-id="w24" group-title="Austria",W24
-https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="P3TV" tvg-logo="https://i.imgur.com/1sPhZ57.png" tvg-id="p3tv" group-title="Austria",P3TV
 http://p3-6.mov.at:1935/live/weekstream/playlist.m3u8
 
@@ -1267,9 +1264,6 @@ https://58b42f6c8c9bf.streamlock.net:8080/live/RTS2015/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tirol TV Ⓖ" tvg-logo="https://i.imgur.com/1E7Nflo.jpg" tvg-id="tiroltv" group-title="Austria",Tirol TV Ⓖ
 http://lb.hd-livestream.de:1935/live/TirolTV/playlist.m3u8
-
-#EXTINF:-1 tvg-name="R9" tvg-logo="https://i.imgur.com/2fxVYsL.jpg" tvg-id="r9" group-title="Austria",R9
-https://ms01.w24.at/R9/smil:liveeventR9.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Antenne Kaernten (720p)" tvg-logo="https://i.imgur.com/nUKFDsb.jpeg" tvg-id="antennekaernten" group-title="Austria",Antenne Kaernten (720p)
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
@@ -6022,6 +6016,9 @@ http://stream01.vnet.am/Perec/mono.m3u8
 
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Denmark",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
+
+#EXTINF:-1 tvg-name="Canal RTVD 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/CERTV_4_2015.png" tvg-id="canalrtvd4" group-title="Dominican_republic",Canal RTVD 4
+https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
 
 #EXTINF:-1 tvg-name="002 Radio TV (720p)" tvg-logo="https://i.imgur.com/7oNe8xj.png" tvg-id="002radiotv" group-title="Dominican_republic",002 Radio TV (720p)
 https://cdn.002radio.com:3909/live/radio002live.m3u8
@@ -16358,6 +16355,9 @@ https://hls.telekabel.com.mk:1936/live/11/playlist.m3u8
 #EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
 https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
 
+#EXTINF:-1 tvg-name="Cool TV" tvg-logo="https://i.imgur.com/2tFrjUz.png" tvg-id="cooltv" group-title="North_macedonia",Cool TV
+https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
+
 #EXTINF:-1 tvg-name="Folk TV" tvg-logo="https://i.imgur.com/4b9aZ9P.png" tvg-id="folktv" group-title="North_macedonia",Folk TV
 https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
 
@@ -20887,6 +20887,9 @@ https://www.youtube.com/c/ib3/live
 
 #EXTINF:-1 tvg-name="Canal Extremadura" tvg-logo="https://i.imgur.com/xBeywIA.png" tvg-id="canalextremadura" group-title="Spain",Canal Extremadura
 https://cdnlive.shooowit.net/canalextremaduralive/smil:channel1.smil/chunklist_b1500000.m3u8
+
+#EXTINF:-1 tvg-name="Aragón TV" tvg-logo="https://i.imgur.com/8H3Q07b.png" tvg-id="aragntv" group-title="Spain",Aragón TV
+https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 
 #EXTINF:-1 tvg-name="ETB1" tvg-logo="https://i.imgur.com/VBVu2bu.png" tvg-id="etb1" group-title="Spain",ETB1
 https://multimedia.eitb.eus/live-content/etb1hd-hls/bitrate_4.m3u8
