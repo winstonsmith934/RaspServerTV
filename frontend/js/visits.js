@@ -57,7 +57,7 @@ function getRandomNordColor() {
     "#fc3", // Yellow 
     "#D2515E", // Green
     "#bd7bf4", // Purple
-    "#88c0d0", // Azzurro Nord
+    "#e8268a", // magenta
     "#5e81ac", // Blu Nord scuro
     "#58a6ff"  // Blu accent
   ];
