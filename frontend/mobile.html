@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RaspberryTV Mobile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../frontend/css/mobile.css">
+  <link rel="stylesheet" href="../frontend/css/fonts.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+   <script src="https://cdn.counter.dev/script.js" data-id="e100ac04-084d-43b3-a5cc-4081de4392e9" data-utcoffset="1"></script>  
+  <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=ceb20d55ec97ab1f773b3f095cb125b7ed1cb556'></script>
+  
+</head>
+<body>
+
+<header class="main-header">
+  <a href="../index.html" class="logo-area">
+    <img src="../frontend/img/logo.png" alt="Logo" class="site-logo">
+    <span class="site-title">RaspberryTV</span>
+    <p class="logomobile">Mobile v0.3b</p>
+  </a>
+</header>
+
+<main class="main-content">
+
+  <div class="player-container">
+    <video id="player" controls autoplay></video>
+  </div>
+
+  <div class="panel-box">
+    <span id="channelTitle" class="channelCurrent"><span id="statusMessage" class="statusMessage"></span></span>
+    
+  </div>
+
+  <div class="search-container">
+    <input id="searchBox" class="search firefox-style" type="text" placeholder="Search channel...">
+  </div>
+
+  <div class="split-container">
+    <aside class="sidebar" id="channelList">
+      <!-- Lista canali -->
+    </aside>
+
+    <aside class="sidebar flag-sidebar" id="countrySelector">
+      <!-- Lista paesi -->
+    </aside>
+  </div>
+
+</main>
+
+<footer class="main-footer">
+  <p>
+    Copyright © <span id="year"></span> Jonathan Sanfilippo -
+    <a href="https://github.com/JonathanSanfilippo" target="_blank">GitHub</a> -
+    <a href="https://www.paypal.com/donate/buttons/manage/WTN3XPYNNKRNL" target="_blank" class="donate-link">Donate</a>
+    <span class="visite"><span id="visitCount"></span></span>
+  </p>
+</footer>
+
+<script src="../frontend/js/scripts.js"></script>
+<script src="../frontend/js/epg.js"></script>
+<script src="../frontend/js/visits.js"></script>
+<script src="../frontend/js/footer.js"></script>
+
+</body>
+</html>

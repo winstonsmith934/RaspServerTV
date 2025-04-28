@@ -1,0 +1,39 @@
+name: Update EPG Files
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Ogni ora
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Ensure clean working tree
+        run: |
+          git fetch origin
+          git reset --hard origin/main
+
+      - name: Make script executable
+        run: chmod +x backend/scripts/epg.sh
+
+      - name: Run EPG update script and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+          ./backend/scripts/epg.sh
+
+          # Rimuove file oltre 100MB (limite GitHub)
+          find backend/epg/xml -type f -size +100M -exec echo "File troppo grande rimosso:" {} \; -exec rm -f {} \;
+
+          git add backend/epg/xml/*.xml backend/epg/stable-epg-sources.json
+          git diff --cached --quiet || git commit -m "Update EPG files"
+          git push
