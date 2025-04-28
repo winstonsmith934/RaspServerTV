@@ -59,8 +59,8 @@ function getRandomNordColor() {
   //  "#bd7bf4", // Purple
   //  "#e8268a", // magenta
   //  "#5e81ac", // Blu Nord scuro
-  //  "#58a6ff"  // Blu accent
-    "#58a6ff"
+  "#58a6ff"  // Blu accent
+    
   ];
   return colors[Math.floor(Math.random() * colors.length)];
 }
