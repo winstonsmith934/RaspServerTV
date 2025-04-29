@@ -2036,6 +2036,48 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Belgium",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 
+#EXTINF:-1 tvg-name="Federalna televizija (FTV) Ⓢ" tvg-logo="https://i.imgur.com/Jpvs4u3.png" tvg-id="federalnatelevizija" group-title="Bosnia_and_herzegovina",Federalna televizija (FTV) Ⓢ
+http://94.250.2.6:7374/play/a02s/index.m3u8
+
+#EXTINF:-1 tvg-name="Televizija Republike Srpske (RTRS) Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/RTRS_Logo.svg/640px-RTRS_Logo.svg.png" tvg-id="televizijarepublikesrpske" group-title="Bosnia_and_herzegovina",Televizija Republike Srpske (RTRS) Ⓢ
+https://uzivo.rtrs.tv/tv/live/index.m3u8
+
+#EXTINF:-1 tvg-name="RTRS PLUS Ⓢ" tvg-logo="https://i.imgur.com/k06WvYl.png" tvg-id="rtrs" group-title="Bosnia_and_herzegovina",RTRS PLUS Ⓢ
+https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
+
+#EXTINF:-1 tvg-name="N1 Bosna i Hercegovina" tvg-logo="https://i.imgur.com/72oMSWz.png" tvg-id="n1bosnaihercegovina" group-title="Bosnia_and_herzegovina",N1 Bosna i Hercegovina
+https://best-str.umn.cdn.united.cloud/stream?channel=n1bos&p=n1Sh4redSecre7iNf0&sp=n1info&stream=sp1400&u=n1info
+
+#EXTINF:-1 tvg-name="RTV HB Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/60/Logo_of_TV_Herceg-Bosne.png" tvg-id="rtvhb" group-title="Bosnia_and_herzegovina",RTV HB Ⓢ
+https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
+
+#EXTINF:-1 tvg-name="RTV BN" tvg-logo="https://i.imgur.com/DUBvfWb.png" tvg-id="rtvbn" group-title="Bosnia_and_herzegovina",RTV BN
+https://rtvbn.tv:8080/live/index.m3u8
+
+#EXTINF:-1 tvg-name="RTV Glas Drine" tvg-logo="https://i.imgur.com/9NgxOdb.png" tvg-id="rtvglasdrine" group-title="Bosnia_and_herzegovina",RTV Glas Drine
+http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sevdah Ⓢ" tvg-logo="https://i.imgur.com/V6W3yEp.png" tvg-id="sevdah" group-title="Bosnia_and_herzegovina",Sevdah Ⓢ
+https://restreamer2.tnt.ba/hls/stream.m3u8
+
+#EXTINF:-1 tvg-name="TNT Kids" tvg-logo="https://i.imgur.com/irTDbpn.png" tvg-id="tntkids" group-title="Bosnia_and_herzegovina",TNT Kids
+https://restreamer1.tnt.ba/hls/tntkids.m3u8
+
+#EXTINF:-1 tvg-name="Televizija 5" tvg-logo="https://i.imgur.com/znpvJys.png" tvg-id="televizija5" group-title="Bosnia_and_herzegovina",Televizija 5
+https://balkanmedia.dynu.net/hls/tv5web.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 6" tvg-logo="https://i.imgur.com/GGhvR0l.png" tvg-id="kanal6" group-title="Bosnia_and_herzegovina",Kanal 6
+https://restreamer1.tnt.ba/hls/kanal6.m3u8
+
+#EXTINF:-1 tvg-name="SuperTV" tvg-logo="https://i.imgur.com/XYWgd3E.png" tvg-id="supertv" group-title="Bosnia_and_herzegovina",SuperTV
+https://mirtv.club/live/mirtv/index.m3u8
+
+#EXTINF:-1 tvg-name="Neon TV" tvg-logo="https://i.imgur.com/thC9NFp.png" tvg-id="neontv" group-title="Bosnia_and_herzegovina",Neon TV
+rtsp://185.50.56.16:554/neontelvizija
+
+#EXTINF:-1 tvg-name="RTV ZE Ⓢ" tvg-logo="https://i.imgur.com/TKUaflB.png" tvg-id="rtvze" group-title="Bosnia_and_herzegovina",RTV ZE Ⓢ
+https://stream.rtvze.ba/live/123/123.m3u8
+
 #EXTINF:-1 tvg-name="Al Jazeera Balkans (1080p)" tvg-logo="https://i.imgur.com/vMzCr8O.png" tvg-id="aljazeerabalkans" group-title="Bosnia_and_herzegovina",Al Jazeera Balkans (1080p)
 https://live-hls-apps-ajb-v3-fa.getaj.net/AJB/index.m3u8
 
@@ -8432,6 +8474,9 @@ https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 #EXTINF:-1 tvg-name="ARTE Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/186px-Arte_Logo_2017.svg.png" tvg-id="arte" group-title="Germany",ARTE Ⓖ
 https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
 
+#EXTINF:-1 tvg-name="DELUXE MUSIC" tvg-logo="https://i.imgur.com/E65GQN9.png" tvg-id="deluxemusic" group-title="Germany",DELUXE MUSIC
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
+
 #EXTINF:-1 tvg-name="DELUXE MUSIC DANCE BY KONTOR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/666px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" tvg-id="deluxemusicdancebykontor" group-title="Germany",DELUXE MUSIC DANCE BY KONTOR
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
 
@@ -14708,24 +14753,6 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Luxembourg",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 
-#EXTINF:-1 tvg-name="TDM Ou Mun" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9b/TDM_Ou_Mun.png" tvg-id="tdmoumun" group-title="Macau",TDM Ou Mun
-https://live4.tdm.com.mo/ch1/ch1.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Canal Macau" tvg-logo="https://i.imgur.com/oFPUZ97.png" tvg-id="canalmacau" group-title="Macau",Canal Macau
-https://live4.tdm.com.mo/ch2/ch2.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TDM Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9b/TDM_Ou_Mun.png" tvg-id="tdmsport" group-title="Macau",TDM Sport
-https://live4.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TDM Information" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9b/TDM_Ou_Mun.png" tvg-id="tdminformation" group-title="Macau",TDM Information
-https://live4.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TDM Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/TDM_Entertainment.png" tvg-id="tdmentertainment" group-title="Macau",TDM Entertainment
-https://live4.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TDM Ou Mun-Macau" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/87/TDM_Ou_Mun_Macau_logo.png" tvg-id="tdmoumunmacau" group-title="Macau",TDM Ou Mun-Macau
-https://live4.tdm.com.mo/ch3/ch3.live/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Smash TV" tvg-logo="https://i.imgur.com/ZKF0fG3.png" tvg-id="smashtv" group-title="Malta",Smash TV
 http://a3.smashmalta.com/hls/smash/smash.m3u8
 
@@ -17882,6 +17909,9 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="RTP3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Rtp3.png" tvg-id="rtp3" group-title="Portugal",RTP3
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR=
 
+#EXTINF:-1 tvg-name="ADtv Ⓢ" tvg-logo="https://i.imgur.com/FvlcU3z.png" tvg-id="adtv" group-title="Portugal",ADtv Ⓢ
+https://playout172.livextend.cloud/liveiframe/_definst_/ngrp:liveartvabr_abr/playlist.m3u8
+
 #EXTINF:-1 tvg-name="CNN Portugal" tvg-logo="https://i.imgur.com/NYH39xs.png" tvg-id="cnnportugal" group-title="Portugal",CNN Portugal
 https://sktv-forwarders.7m.pl/get.php?x=CNN_Portugal
 
@@ -19574,6 +19604,9 @@ https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 #EXTINF:-1 tvg-name="Югра" tvg-logo="https://i.imgur.com/561FRwI.png" tvg-id="" group-title="Russia",Югра
 https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="San Marino Rtv Sport" tvg-logo="https://i.imgur.com/PGm944g.png" tvg-id="sanmarinortvsport" group-title="San_marino",San Marino Rtv Sport
+https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/chunklist_b1692000_slita.m3u8
+
 #EXTINF:-1 tvg-name="like Gecko) Mobile/15E148"" tvg-logo="https://i.imgur.com/vSz2WEp.png" tvg-id="likegeckomobile15e148" group-title="San_marino",like Gecko) Mobile/15E148"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
 
@@ -19951,6 +19984,21 @@ http://185.234.111.229:8000/play/a002
 
 #EXTINF:-1 tvg-name="Wanasah (1080p)" tvg-logo="https://i.imgur.com/nLtiXNf.png" tvg-id="wanasah" group-title="Saudi_arabia",Wanasah (1080p)
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
+
+#EXTINF:-1 tvg-name="RTS 1" tvg-logo="https://i.imgur.com/S1pKHSR.png" tvg-id="rts1" group-title="Serbia",RTS 1
+https://webtvstream.bhtelecom.ba/rts1.m3u8
+
+#EXTINF:-1 tvg-name="RTS 2" tvg-logo="https://i.imgur.com/jltAf5h.png" tvg-id="rts2" group-title="Serbia",RTS 2
+https://webtvstream.bhtelecom.ba/rts2.m3u8
+
+#EXTINF:-1 tvg-name="Euronews Serbia" tvg-logo="https://i.imgur.com/b24QKcq.png" tvg-id="euronewsserbia" group-title="Serbia",Euronews Serbia
+https://d1ei8ofhgfmkac.cloudfront.net/app-19518-1306/ngrp:QoZfNjsg_all/playlist.m3u8
+
+#EXTINF:-1 tvg-name="RTV 1" tvg-logo="https://i.imgur.com/CG44YT3.png" tvg-id="rtv1" group-title="Serbia",RTV 1
+rtsp://212.200.255.151/rtv1
+
+#EXTINF:-1 tvg-name="RTV 2" tvg-logo="https://i.imgur.com/skpr66t.png" tvg-id="rtv2" group-title="Serbia",RTV 2
+rtsp://212.200.255.151/rtv2
 
 #EXTINF:-1 tvg-name="Al Jazeera Balkans (1080p)" tvg-logo="https://i.imgur.com/vMzCr8O.png" tvg-id="aljazeerabalkans" group-title="Serbia",Al Jazeera Balkans (1080p)
 https://live-hls-apps-ajb-v3-fa.getaj.net/AJB/index.m3u8
