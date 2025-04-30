@@ -1,8 +1,8 @@
 
   const m3uUrls = [
-    'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/rai.m3u',
     'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/list.m3u',
-    ''
+    //'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/bak_list.m3u',
+    'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/video_testing.m3u'
   ];
 
   let hls, allChannels = {}, currentGroup = 'UK';
@@ -451,24 +451,85 @@ hls.on(Hls.Events.LEVEL_SWITCHED, function (event, data) {
 
 
 
+//////////////////////////////////////////////////////////////////
+
+
+// Funzione per caricare stats.json (numeri validCount, skippedCount, totalCount)
+function updateStatsInfo() {
   fetch('../backend/info/stats.json')
     .then(res => res.json())
     .then(stats => {
-      document.getElementById('updateDate').textContent = `${stats.last_update}`;
-      document.getElementById('validCount').textContent = `${stats.valid}`;
-      document.getElementById('skippedCount').textContent = `${stats.skipped}`;
-      document.getElementById('totalCount').textContent = `${stats.total}`;
+      // Aggiorno direttamente senza animazione conflittuale
+      animateNumber('validCount', stats.valid);
+      animateNumber('skippedCount', stats.skipped);
+      animateNumber('totalCount', stats.total);
+      document.getElementById('updateDate').textContent = stats.last_update;
     })
     .catch(err => {
-      console.warn(" Impossibile caricare stats.json:", err);
-      document.getElementById('updateDate').textContent = " Unable to load stats.";
+      console.warn("Impossibile caricare stats.json:", err);
+      document.getElementById('updateDate').textContent = "Unable to load stats.";
     });
-    
+}
 
-
-fetch("https://api.github.com/repos/JonathanSanfilippo/RaspServerTV")
+// Funzione per caricare stelle GitHub (solo gh-stars)
+function updateGitHubStars() {
+  fetch('https://api.github.com/repos/JonathanSanfilippo/RaspServerTV')
     .then(res => res.json())
     .then(data => {
-      document.getElementById("gh-stars").innerHTML = ` ${data.stargazers_count} stars`;
+      pulseStars('gh-stars', `${data.stargazers_count} stars`);
+    })
+    .catch(err => {
+      console.warn("Impossibile caricare GitHub stars:", err);
+      document.getElementById('gh-stars').innerText = "Unable to load stars.";
     });
+}
 
+// Animazione numeri da 0 a target
+function animateNumber(id, target) {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  let start = 0;
+  const duration = 1000;
+  const startTime = performance.now();
+
+  function step(currentTime) {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const value = Math.floor(progress * target);
+
+    el.innerText = value;
+
+    if (progress < 1) {
+      requestAnimationFrame(step);
+    }
+  }
+
+  requestAnimationFrame(step);
+}
+
+// Animazione stelle GitHub: zoom e colore
+function pulseStars(id, text) {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  el.innerText = text;
+  el.style.transition = "transform 0.5s, color 0.5s";
+  el.style.transform = "scale(1.3)";
+  el.style.color = "#f9c855"; // Giallo
+
+  setTimeout(() => {
+    el.style.transform = "scale(1)";
+    el.style.color = "#c9d1d9"; // Colore GitHub base
+  }, 500);
+}
+
+// 🚀 Caricamento iniziale
+updateStatsInfo();
+updateGitHubStars();
+
+// 🔥 Aggiorna ogni 5 minuti
+setInterval(() => {
+  updateStatsInfo();
+  updateGitHubStars();
+}, 300000);

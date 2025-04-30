@@ -31,7 +31,7 @@ code, pre{
 
 .logodesktop{
   color:#d7fa5a;
-  font-size:17px;
+  font-size:12px;
   font-family: "Ubuntu Mono", monospace;
   background:#1c2128;
   padding:2px 8px;
@@ -48,6 +48,7 @@ code, pre{
 .site-logo {
   height: 32px;
   width: auto;
+  padding:10px;
 }
 
 .site-title {
@@ -232,16 +233,17 @@ code, pre{
 }
 
 .totchan{
-  color:#f0b232;
+  color:#c6f032;
   font-size:14px;
 }
+
 
 .skip{
   color:#ff7b72;
 }
 
 .ip{
- font-weight:bold;
+ font-weight:;
 }
 
 .panel-box {

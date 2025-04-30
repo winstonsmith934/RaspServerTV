@@ -1,6 +1,7 @@
 # 🛰️ RaspServerTV
 
 🌍 **Live site**: [https://jonathansanfilippo.github.io/RaspServerTV/](https://jonathansanfilippo.github.io/RaspServerTV/)
+all supported browsers (Chrome/Firefox/IE11/Edge/Safari)
 
 **RaspServerTV** is a personal project created to collect and display IPTV channels in a clean and organized way, directly from the browser. It provides an updated and filtered list of streaming channels from around the world, accessible anywhere.
 
@@ -24,7 +25,7 @@
 
 ---
 🎞️ **HLS Stream Resolution Support**
-
+**HLS.js**:[https://github.com/video-dev/hls.js]
 This feature detects and lists the **video resolutions available** in an HLS (HTTP Live Streaming) stream. Useful for quality selectors, player overlays, or simply displaying what your player is currently handling.
 
 ### 🔍 Supported Resolutions

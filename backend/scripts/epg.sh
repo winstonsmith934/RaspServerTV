@@ -1,50 +1,68 @@
 #!/bin/bash
+set -e
 
-set -e  # Interrompe lo script in caso di errore
-
-REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"  # fallback se non in GitHub Actions
-INPUT_FILE="$REPO_DIR/backend/epg/guide.txt"
+REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"
+INPUT_JSON="$REPO_DIR/backend/epg/urls/link.json"
 DEST_DIR="$REPO_DIR/backend/epg/xml"
-JSON_FILE="$REPO_DIR/backend/epg/epg-sources.json"
+OUTPUT_JSON="$REPO_DIR/backend/epg/stable-epg-sources.json"
 RAW_BASE_URL="https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/xml"
 
 mkdir -p "$DEST_DIR"
+rm -f "$DEST_DIR"/*.xml
 
-# Inizializza JSON
-echo '{' > "$JSON_FILE"
-first=1
+echo "📥 Inizio download EPG..."
 
-while IFS= read -r url; do
-  [[ -z "$url" || "$url" == \#* ]] && continue
+declare -A country_links
 
-  filename=$(basename "$url")
-  base="${filename%.xml.gz}"
-  temp_file="temp_${base}.xml.gz"
-  output_file="guide-${base}.xml"
+# Usa jq per leggere le chiavi (paesi) e i link associati
+mapfile -t countries < <(jq -r 'keys[]' "$INPUT_JSON")
 
-  echo "⬇️ Scarico: $url"
-  if curl -fsSL "$url" -o "$temp_file"; then
-    echo "📦 Scompatto GZ: $temp_file"
-    if gunzip -c "$temp_file" > "$DEST_DIR/$output_file"; then
-      echo "📂 Creato: $DEST_DIR/$output_file"
+for country in "${countries[@]}"; do
+  mapfile -t urls < <(jq -r --arg c "$country" '.[$c][]' "$INPUT_JSON")
+  for url in "${urls[@]}"; do
+    filename=$(basename "$url")
+    base="${filename%.xml.gz}"
+    base="${base%.xml}"
+    output_file="guide-${base}.xml"
+    temp_file="temp_${base}.xml.gz"
+
+    echo "⬇️ Scarico: $url"
+    if curl -fsSL "$url" -o "$temp_file"; then
+      mime_type=$(file --mime-type "$temp_file" | cut -d ' ' -f2)
+      if [[ "$mime_type" == "application/gzip" ]]; then
+        echo "📦 Scompatto GZ: $temp_file"
+        gunzip -c "$temp_file" > "$DEST_DIR/$output_file"
+      else
+        echo "📁 File XML non compresso: Copio $temp_file"
+        mv "$temp_file" "$DEST_DIR/$output_file"
+      fi
+      rm -f "$temp_file"
+      country_links["$country"]+="$RAW_BASE_URL/$output_file "
     else
-      echo "❌ Errore nello scompattare: $temp_file"
-      continue
+      echo "❌ Errore nel download: $url"
     fi
-    rm -f "$temp_file"
-  else
-    echo "❌ Errore nel download: $url"
-    continue
-  fi
+  done
+done
 
-  # Scrive l'entry nel JSON
-  [[ $first -eq 0 ]] && echo ',' >> "$JSON_FILE"
+# Aggiunta manuale della lista DolbyAtmos
+echo "➕ Aggiungo DolbyAtmos EPG fisso"
+country_links["DolbyAtmos"]="https://raw.githubusercontent.com/JonathanSanfilippo/atmos/refs/heads/main/epg_atmos.xml"
+
+# Scrittura JSON finale
+echo "📄 Creo JSON: $OUTPUT_JSON"
+echo '{' > "$OUTPUT_JSON"
+first=1
+for country in "${!country_links[@]}"; do
+  [[ $first -eq 0 ]] && echo ',' >> "$OUTPUT_JSON"
   first=0
-  echo "  \"${base}\": [\"$RAW_BASE_URL/$output_file\"]" >> "$JSON_FILE"
+  echo -n "  \"$country\": [" >> "$OUTPUT_JSON"
+  IFS=' ' read -r -a urls <<< "${country_links[$country]}"
+  for i in "${!urls[@]}"; do
+    [[ $i -gt 0 ]] && echo -n ', ' >> "$OUTPUT_JSON"
+    echo -n "\"${urls[$i]}\"" >> "$OUTPUT_JSON"
+  done
+  echo "]" >> "$OUTPUT_JSON"
+done
+echo '}' >> "$OUTPUT_JSON"
 
-done < "$INPUT_FILE"
-
-# Chiude JSON
-echo '}' >> "$JSON_FILE"
-
-echo "✅ JSON creato: $JSON_FILE"
+echo "✅ JSON creato: $OUTPUT_JSON"

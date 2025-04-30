@@ -7,10 +7,22 @@ ORIGINAL_DIR="$REPO_DIR/backend/lists"
 INFO_DIR="$REPO_DIR/backend/info"
 SKIPPED_FILE="$REPO_DIR/backend/lists/skipped.m3u"
 OUTPUT_FILE="$ORIGINAL_DIR/list.m3u"
+BACKUP_FILE="$ORIGINAL_DIR/bak_list.m3u"  # <--- aggiunto backup file
+FORCED_CHANNELS=("La7")
 
 mkdir -p "$ORIGINAL_DIR" "$INFO_DIR"
+
+# Backup prima di sovrascrivere
+if [ -f "$OUTPUT_FILE" ]; then
+    echo "🔄 Backup della lista precedente in bak_list.m3u..."
+    cp "$OUTPUT_FILE" "$BACKUP_FILE"
+fi
+
 echo "#EXTM3U" > "$OUTPUT_FILE"
 echo "#EXTM3U" > "$SKIPPED_FILE"
+
+# (segue tutto il tuo codice identico...)
+
 
 total_entries=0
 valid_entries=0
@@ -57,14 +69,26 @@ for file in "$COUNTRIES_DIR"/*.txt; do
       tvgid=$(normalize_name "$name")
 
       if $CHECK_STREAMS; then
-        status=$(curl -s -L -A "Mozilla/5.0" --max-time 5 --head "$url" | grep -i "^HTTP" | head -n 1 | awk '{print $2}')
-        if [[ "$status" =~ ^(404|410|500|502|503|000)$ ]]; then
-          printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"%s\" group-title=\"%s\",%s\n%s\n\n" \
-            "$name" "$logo" "$tvgid" "$country" "$name" "$url" >> "$SKIPPED_FILE"
-          ((skipped_entries++))
-          continue
-        fi
-      fi
+  status=$(curl -s -L -A "Mozilla/5.0" --max-time 5 --head "$url" | grep -i "^HTTP" | head -n 1 | awk '{print $2}')
+
+  # Controlla se il canale è in FORCED_CHANNELS
+  force_channel=false
+  for forced in "${FORCED_CHANNELS[@]}"; do
+    if [[ "$name" == "$forced" ]]; then
+      force_channel=true
+      echo "⚠️  Eccezione: '$name' forzato anche se status HTTP=$status"
+      break
+    fi
+  done
+
+  if [[ "$force_channel" == false && "$status" =~ ^(404|410|500|502|503|000)$ ]]; then
+    printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"%s\" group-title=\"%s\",%s\n%s\n\n" \
+      "$name" "$logo" "$tvgid" "$country" "$name" "$url" >> "$SKIPPED_FILE"
+    ((skipped_entries++))
+    continue
+  fi
+fi
+
 
       printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"%s\" group-title=\"%s\",%s\n%s\n\n" \
         "$name" "$logo" "$tvgid" "$country" "$name" "$url" >> "$OUTPUT_FILE"
