@@ -33,9 +33,10 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: get epository name
+      - name: Get repository name
         run: |
-          echo "REPOSITORY_NAME=${GITHUB_REPOSITORY#*/,,}" >> $GITHUB_ENV
+          echo "REPOSITORY_NAME=$(echo ${GITHUB_REPOSITORY#*/} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+          echo $REPOSITORY_NAME
 
       - name: Build and push
         uses: docker/build-push-action@v4
@@ -44,4 +45,4 @@ jobs:
           file: ./docker/Dockerfile
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           push: true
-          tags: ghcr.io/${{ env.REPOSITORY_NAME }}:${{ steps.get-latest-tag.outputs.tag }},ghcr.io/${{ env.REPOSITORY_NAME }}:latest 
+          tags: ghcr.io/${{ env.REPOSITORY_NAME }}:${{ steps.get-latest-tag.outputs.tag }},ghcr.io/${{ env.REPOSITORY_NAME }}:latest
