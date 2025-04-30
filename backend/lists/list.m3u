@@ -8,9 +8,6 @@ https://www.twitch.tv/abcnewsal
 #EXTINF:-1 tvg-name="AlbKanale Music TV Ⓢ" tvg-logo="https://i.imgur.com/JdKxscs.png" tvg-id="albkanalemusictv" group-title="Albania",AlbKanale Music TV Ⓢ
 https://albportal.net/albkanalemusic.m3u8
 
-#EXTINF:-1 tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" tvg-id="cna" group-title="Albania",CNA
-https://live1.mediadesk.al/cnatvlive.m3u8
-
 #EXTINF:-1 tvg-name="Euronews Albania Ⓨ" tvg-logo="https://i.imgur.com/Skf6vdi.png" tvg-id="euronewsalbania" group-title="Albania",Euronews Albania Ⓨ
 https://www.youtube.com/@EuronewsAlbania/live
 
@@ -13298,6 +13295,9 @@ https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 #EXTINF:-1 tvg-name="News24 City" tvg-logo="https://i.imgur.com/dak9AtV.png" tvg-id="news24city" group-title="Italy",News24 City
 https://dc3.telesveva.com:4433/news24.mp4
 
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
+
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -14315,36 +14315,6 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 #EXTINF:-1 tvg-name="Хочу всё знать (576p)" tvg-logo="https://kabeloperatori.neplpadome.lv/lv/assets/images/Programmu%20logo/hochuvse.png" tvg-id="" group-title="Latvia",Хочу всё знать (576p)
 #EXTVLCOPT:http-referrer=https://void.greenhosting.ru/
 
-#EXTINF:-1 tvg-name="LRT TV" tvg-logo="https://i.imgur.com/FL2ZuGC.png" tvg-id="lrttv" group-title="Lithuania",LRT TV
-https://www.tvkaista.net/stream-forwarder/get.php?x=LRT
-
-#EXTINF:-1 tvg-name="LRT Plius" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/512px-LRT_Plius_Logo_2022.svg.png" tvg-id="lrtplius" group-title="Lithuania",LRT Plius
-https://www.tvkaista.net/stream-forwarder/get.php?x=LRTPlius
-
-#EXTINF:-1 tvg-name="LRT Lituanica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/640px-LRT_Lituanica_Logo_2022.svg.png" tvg-id="lrtlituanica" group-title="Lithuania",LRT Lituanica
-https://stream-live-lrt.ng.teliacdn.com/lituanica/master.m3u8
-
-#EXTINF:-1 tvg-name="LNK" tvg-logo="https://i.imgur.com/arCZ56g.png" tvg-id="lnk" group-title="Lithuania",LNK
-https://www.tvkaista.net/stream-forwarder/get.php?x=LNK
-
-#EXTINF:-1 tvg-name="BTV" tvg-logo="https://i.imgur.com/AeplGsP.png" tvg-id="btv" group-title="Lithuania",BTV
-https://www.tvkaista.net/stream-forwarder/get.php?x=BTV
-
-#EXTINF:-1 tvg-name="2TV" tvg-logo="https://i.imgur.com/sZUIhGc.png" tvg-id="2tv" group-title="Lithuania",2TV
-https://www.tvkaista.net/stream-forwarder/get.php?x=2TV
-
-#EXTINF:-1 tvg-name="Info TV" tvg-logo="https://i.imgur.com/EjQtIpM.png" tvg-id="infotv" group-title="Lithuania",Info TV
-https://www.tvkaista.net/stream-forwarder/get.php?x=InfoTV
-
-#EXTINF:-1 tvg-name="TV1" tvg-logo="https://i.imgur.com/KLWDcFy.png" tvg-id="tv1" group-title="Lithuania",TV1
-https://www.tvkaista.net/stream-forwarder/get.php?x=TV1
-
-#EXTINF:-1 tvg-name="Delfi TV" tvg-logo="https://i.imgur.com/IFoHP5M.png" tvg-id="delfitv" group-title="Lithuania",Delfi TV
-https://s1.dcdn.lt/live/televizija/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TVP Wilno" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/TVP_Wilno_%282019%29.svg/640px-TVP_Wilno_%282019%29.svg.png" tvg-id="tvpwilno" group-title="Lithuania",TVP Wilno
-https://www.tvkaista.net/stream-forwarder/get.php?x=TVPWilno
-
 #EXTINF:-1 tvg-name="like Gecko) Mobile/15E148"" tvg-logo="https://i.imgur.com/vSz2WEp.png" tvg-id="likegeckomobile15e148" group-title="Lithuania",like Gecko) Mobile/15E148"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
 
@@ -14656,24 +14626,6 @@ http://stream01.vnet.am/Perec/mono.m3u8
 
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Luxembourg",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
-
-#EXTINF:-1 tvg-name="TDM Ou Mun" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9b/TDM_Ou_Mun.png" tvg-id="tdmoumun" group-title="Macau",TDM Ou Mun
-https://live4.tdm.com.mo/ch1/ch1.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Canal Macau" tvg-logo="https://i.imgur.com/oFPUZ97.png" tvg-id="canalmacau" group-title="Macau",Canal Macau
-https://live4.tdm.com.mo/ch2/ch2.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TDM Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9b/TDM_Ou_Mun.png" tvg-id="tdmsport" group-title="Macau",TDM Sport
-https://live4.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TDM Information" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9b/TDM_Ou_Mun.png" tvg-id="tdminformation" group-title="Macau",TDM Information
-https://live4.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TDM Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/TDM_Entertainment.png" tvg-id="tdmentertainment" group-title="Macau",TDM Entertainment
-https://live4.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TDM Ou Mun-Macau" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/87/TDM_Ou_Mun_Macau_logo.png" tvg-id="tdmoumunmacau" group-title="Macau",TDM Ou Mun-Macau
-https://live4.tdm.com.mo/ch3/ch3.live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Smash TV" tvg-logo="https://i.imgur.com/ZKF0fG3.png" tvg-id="smashtv" group-title="Malta",Smash TV
 http://a3.smashmalta.com/hls/smash/smash.m3u8
@@ -15529,6 +15481,12 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 
 #EXTINF:-1 tvg-name="РТР Планета СНГ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Moldova",РТР Планета СНГ
 https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f
+
+#EXTINF:-1 tvg-name="TV Monaco" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TVMonaco_2023.svg/320px-TVMonaco_2023.svg.png" tvg-id="tvmonaco" group-title="Monaco",TV Monaco
+https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/2027/media.m3u8
+
+#EXTINF:-1 tvg-name="MonacoInfo" tvg-logo="https://www.lyngsat.com/logo/tv/mm/monaco_info.png" tvg-id="monacoinfo" group-title="Monaco",MonacoInfo
+https://webtvmonacoinfo.mc/live/prod_720/index.m3u8
 
 #EXTINF:-1 tvg-name="like Gecko) Mobile/15E148"" tvg-logo="https://i.imgur.com/vSz2WEp.png" tvg-id="likegeckomobile15e148" group-title="Monaco",like Gecko) Mobile/15E148"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
@@ -16843,15 +16801,6 @@ https://59ce1298bfb98.streamlock.net/villaelisa/villaelisa/playlist.m3u8
 
 #EXTINF:-1 tvg-name="VPItv (1080p)" tvg-logo="https://i.imgur.com/X5hyKU8.png" tvg-id="vpitv" group-title="Paraguay",VPItv (1080p)
 https://ott3.streann.com/loadbalancer/services/public/channels/5d23d5882cdce61dae029fd8/playlist.m3u8
-
-#EXTINF:-1 tvg-name="ATV+ Noticias" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f4/Atv_noticias_logo.png" tvg-id="atvnoticias" group-title="Peru",ATV+ Noticias
-https://dysmuyxh5vstv.cloudfront.net/hls/atv2.m3u8
-
-#EXTINF:-1 tvg-name="Karibeña TV" tvg-logo="https://i.pinimg.com/280x280_RS/11/85/b6/1185b667fe3f80d7072359d7ce7ce52d.jpg" tvg-id="karibeatv" group-title="Peru",Karibeña TV
-https://cu.onliv3.com/livevd/user1.m3u8
-
-#EXTINF:-1 tvg-name="Top Latino TV" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/fTmfsKeREm.png" tvg-id="toplatinotv" group-title="Peru",Top Latino TV
-https://5cefcbf58ba2e.streamlock.net:543/tltvweb/latintv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Agrotendencia TV (1080p)" tvg-logo="https://i.imgur.com/frd60hR.png" tvg-id="agrotendenciatv" group-title="Peru",Agrotendencia TV (1080p)
 https://5fc584f3f19c9.streamlock.net/agrotendencia/videoagrotendencia_hls1/playlist.m3u8
@@ -19835,21 +19784,6 @@ http://185.234.111.229:8000/play/a002
 #EXTINF:-1 tvg-name="Wanasah (1080p)" tvg-logo="https://i.imgur.com/nLtiXNf.png" tvg-id="wanasah" group-title="Saudi_arabia",Wanasah (1080p)
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
 
-#EXTINF:-1 tvg-name="RTS 1" tvg-logo="https://i.imgur.com/S1pKHSR.png" tvg-id="rts1" group-title="Serbia",RTS 1
-https://webtvstream.bhtelecom.ba/rts1.m3u8
-
-#EXTINF:-1 tvg-name="RTS 2" tvg-logo="https://i.imgur.com/jltAf5h.png" tvg-id="rts2" group-title="Serbia",RTS 2
-https://webtvstream.bhtelecom.ba/rts2.m3u8
-
-#EXTINF:-1 tvg-name="Euronews Serbia" tvg-logo="https://i.imgur.com/b24QKcq.png" tvg-id="euronewsserbia" group-title="Serbia",Euronews Serbia
-https://d1ei8ofhgfmkac.cloudfront.net/app-19518-1306/ngrp:QoZfNjsg_all/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTV 1" tvg-logo="https://i.imgur.com/CG44YT3.png" tvg-id="rtv1" group-title="Serbia",RTV 1
-rtsp://212.200.255.151/rtv1
-
-#EXTINF:-1 tvg-name="RTV 2" tvg-logo="https://i.imgur.com/skpr66t.png" tvg-id="rtv2" group-title="Serbia",RTV 2
-rtsp://212.200.255.151/rtv2
-
 #EXTINF:-1 tvg-name="Al Jazeera Balkans (1080p)" tvg-logo="https://i.imgur.com/vMzCr8O.png" tvg-id="aljazeerabalkans" group-title="Serbia",Al Jazeera Balkans (1080p)
 https://live-hls-apps-ajb-v3-fa.getaj.net/AJB/index.m3u8
 
@@ -22231,9 +22165,6 @@ https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT World" tvg-logo="https://i.imgur.com/JEA2xpv.png" tvg-id="trtworld" group-title="Turkey",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
-
-#EXTINF:-1 tvg-name="TRT Türk" tvg-logo="https://i.imgur.com/OSTOQNw.png" tvg-id="trttrk" group-title="Turkey",TRT Türk
-https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT EBA Ilkokul" tvg-logo="https://i.imgur.com/wDvZfk8.png" tvg-id="trtebailkokul" group-title="Turkey",TRT EBA Ilkokul
 https://tv-e-okul00.medya.trt.com.tr/master.m3u8
