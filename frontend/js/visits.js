@@ -25,7 +25,7 @@ function loadVisits() {
   }
 
   // Altrimenti carico dal JSON GitHub
-  fetch("https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/info/visits.json")
+  fetch("https://raw.githubusercontent.com/winstonsmith934/RaspServerTV/refs/heads/main/backend/info/visits.json")
     .then(res => res.json())
     .then(data => {
       const raw = data.visits;

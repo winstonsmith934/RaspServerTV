@@ -5,7 +5,7 @@ REPO_DIR="${GITHUB_WORKSPACE:-$(pwd)}"
 INPUT_JSON="$REPO_DIR/backend/epg/urls/link.json"
 DEST_DIR="$REPO_DIR/backend/epg/xml"
 OUTPUT_JSON="$REPO_DIR/backend/epg/stable-epg-sources.json"
-RAW_BASE_URL="https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/xml"
+RAW_BASE_URL="https://raw.githubusercontent.com/winstonsmith934/RaspServerTV/refs/heads/main/backend/epg/xml"
 
 mkdir -p "$DEST_DIR"
 rm -f "$DEST_DIR"/*.xml
@@ -46,7 +46,7 @@ done
 
 # Aggiunta manuale della lista DolbyAtmos
 echo "➕ Aggiungo DolbyAtmos EPG fisso"
-country_links["DolbyAtmos"]="https://raw.githubusercontent.com/JonathanSanfilippo/atmos/refs/heads/main/epg_atmos.xml"
+country_links["DolbyAtmos"]="https://raw.githubusercontent.com/winstonsmith934/atmos/refs/heads/main/epg_atmos.xml"
 
 # Scrittura JSON finale
 echo "📄 Creo JSON: $OUTPUT_JSON"

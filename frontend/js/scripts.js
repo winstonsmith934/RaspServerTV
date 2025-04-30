@@ -1,8 +1,8 @@
 
   const m3uUrls = [
-    'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/list.m3u',
-    //'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/bak_list.m3u',
-    'https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/lists/video_testing.m3u'
+    'https://raw.githubusercontent.com/winstonsmith934/RaspServerTV/refs/heads/main/backend/lists/list.m3u',
+    //'https://raw.githubusercontent.com/winstonsmith934/RaspServerTV/refs/heads/main/backend/lists/bak_list.m3u',
+    'https://raw.githubusercontent.com/winstonsmith934/RaspServerTV/refs/heads/main/backend/lists/video_testing.m3u'
   ];
 
   let hls, allChannels = {}, currentGroup = 'UK';
@@ -473,7 +473,7 @@ function updateStatsInfo() {
 
 // Funzione per caricare stelle GitHub (solo gh-stars)
 function updateGitHubStars() {
-  fetch('https://api.github.com/repos/JonathanSanfilippo/RaspServerTV')
+  fetch('https://api.github.com/repos/winstonsmith934/RaspServerTV')
     .then(res => res.json())
     .then(data => {
       pulseStars('gh-stars', `${data.stargazers_count} stars`);

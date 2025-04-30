@@ -18,7 +18,7 @@ let currentEPGEndTime = null; // 🔥
 
 async function loadChannelNameMap() {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/main/backend/epg/epg-name-map.json');
+    const response = await fetch('https://raw.githubusercontent.com/winstonsmith934/RaspServerTV/main/backend/epg/epg-name-map.json');
     if (!response.ok) throw new Error('HTTP error! Status: ' + response.status);
     channelNameMap = await response.json();
   } catch (error) {
@@ -53,7 +53,7 @@ async function loadEPG(channelName) {
 
   let epgMap = {};
   try {
-    const res = await fetch('https://raw.githubusercontent.com/JonathanSanfilippo/RaspServerTV/refs/heads/main/backend/epg/stable-epg-sources.json');
+    const res = await fetch('https://raw.githubusercontent.com/winstonsmith934/RaspServerTV/refs/heads/main/backend/epg/stable-epg-sources.json');
     if (!res.ok) throw new Error('Errore nel fetch epg-sources');
     epgMap = await res.json();
   } catch (err) {
