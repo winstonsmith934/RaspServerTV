@@ -1265,6 +1265,9 @@ https://orf3.mdn.ors.at/out/u/orf3/q8c/manifest.m3u8
 #EXTINF:-1 tvg-name="ORF Sport + Ⓖ" tvg-logo="https://i.imgur.com/MVNZ4gf.png" tvg-id="orfsport" group-title="Austria",ORF Sport + Ⓖ
 https://orfs.mdn.ors.at/out/u/orfs/q8c/manifest.m3u8
 
+#EXTINF:-1 tvg-name="Servus TV Ⓖ" tvg-logo="https://i.imgur.com/zDWhSxq.png" tvg-id="servustv" group-title="Austria",Servus TV Ⓖ
+https://rbmn-live.akamaized.net/hls/live/2002825/geoSTVATweb/master.m3u8
+
 #EXTINF:-1 tvg-name="oe24" tvg-logo="https://i.imgur.com/8UTkcPn.png" tvg-id="oe24" group-title="Austria",oe24
 https://varoe24live.sf.apa.at/oe24-live1/oe24.smil/chunklist_b1900000.m3u8
 
@@ -6748,12 +6751,6 @@ https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
 https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
-https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
-https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Kutonen" tvg-logo="https://i.imgur.com/4giVyxb.png" tvg-id="kutonen" group-title="Finland",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
@@ -13331,9 +13328,6 @@ https://stream1.aswifi.it/mediterraneatv/live/index.m3u8
 #EXTINF:-1 tvg-name="Medjugorje Italia Tv" tvg-logo="https://i.imgur.com/hkZScXf.png" tvg-id="medjugorjeitaliatv" group-title="Italy",Medjugorje Italia Tv
 https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Motori Tv" tvg-logo="https://i.imgur.com/NWXQKbl.png" tvg-id="motoritv" group-title="Italy",Motori Tv
-https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8
-
 #EXTINF:-1 tvg-name="NTI Canale 271" tvg-logo="https://i.imgur.com/zlmcUe0.jpg" tvg-id="nticanale271" group-title="Italy",NTI Canale 271
 https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 
@@ -13390,9 +13384,6 @@ https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PrimaFREE" tvg-logo="https://i.imgur.com/YrSSmOL.png" tvg-id="primafree" group-title="Italy",PrimaFREE
 https://5f22d76e220e1.streamlock.net/primafree/primafree/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Primantenna Torino" tvg-logo="https://i.imgur.com/sqEcPFs.gif" tvg-id="primantennatorino" group-title="Italy",Primantenna Torino
-https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Primocanale" tvg-logo="https://i.imgur.com/xWF1A1U.png" tvg-id="primocanale" group-title="Italy",Primocanale
 https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
@@ -13681,12 +13672,6 @@ https://tango.wifi4all.it/telecitta/telecitta.m3u8
 
 #EXTINF:-1 tvg-name="Telecity Lombardia" tvg-logo="https://i.imgur.com/ECvJ3ZD.jpeg" tvg-id="telecitylombardia" group-title="Italy",Telecity Lombardia
 https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Telecity Piemonte" tvg-logo="https://i.imgur.com/CrlzHjv.jpeg" tvg-id="telecitypiemonte" group-title="Italy",Telecity Piemonte
-https://64b16f23efbee.streamlock.net/telecitypiemonte/telecitypiemonte/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Telecity Valle D'Aosta" tvg-logo="https://i.imgur.com/T9EsAOX.jpeg" tvg-id="telecityvalledaosta" group-title="Italy",Telecity Valle D'Aosta
-https://64b16f23efbee.streamlock.net/telecityvda/telecityvda/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TeleCostaSmeralda" tvg-logo="https://i.imgur.com/QLqkbss.png" tvg-id="telecostasmeralda" group-title="Italy",TeleCostaSmeralda
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8
