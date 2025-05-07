@@ -11,9 +11,6 @@ https://5d00db0e0fcd5.streamlock.net/7064/7064/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Apollon Ⓢ" tvg-logo="https://i.imgur.com/gUz2AjM.png" tvg-id="tvapollon" group-title="Albania",TV Apollon Ⓢ
 https://live.apollon.tv/Apollon-WEB/video.m3u8?token=tnt3u76re30d2
 
-#EXTINF:-1 tvg-name="Vizion Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/512px-Vizion_Plus.svg.png" tvg-id="vizion" group-title="Albania",Vizion Plus
-https://fe.tring.al/delta/105/out/u/rdghfhsfhfshs.m3u8
-
 #EXTINF:-1 tvg-name="TVSN" tvg-logo="https://i.imgur.com/p3QCBOo.png" tvg-id="tvsn" group-title="Australia",TVSN
 https://tvsn-i.akamaihd.net/hls/live/261837/tvsn/tvsn_750.m3u8
 
@@ -25,9 +22,6 @@ http://85.132.81.184:8080/arb/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/640px-Baku_TV_%282018%29.png" tvg-id="bakutv" group-title="Azerbaijan",Baku TV
 https://rtmp.baku.tv/live/bakutv_720p.m3u8
-
-#EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
-http://rtmp.one.by:1200
 
 #EXTINF:-1 tvg-name="BHT 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Logo_of_BHT_1_%282003-2012%29.png" tvg-id="bht1" group-title="Bosnia_and_herzegovina",BHT 1 Ⓢ
 https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
@@ -128,6 +122,9 @@ https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 2/Bornholm" tvg-logo="https://i.imgur.com/cEOpXU6.png" tvg-id="tv2bornholm" group-title="Denmark",TV 2/Bornholm
 https://live.tv2bornholm.dk/stream/live/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
+https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
@@ -205,6 +202,9 @@ https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Ofanto Tv" tvg-logo="https://i.imgur.com/UCgATWn.png" tvg-id="ofantotv" group-title="Italy",Ofanto Tv
 https://videostream.isgm.it:3276/live/tvofantolive.m3u8
+
+#EXTINF:-1 tvg-name="Onda Tv Sicilia" tvg-logo="https://i.imgur.com/0c5Y6lr.png" tvg-id="ondatvsicilia" group-title="Italy",Onda Tv Sicilia
+https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Ora Tv" tvg-logo="https://i.imgur.com/clWVrvE.png" tvg-id="oratv" group-title="Italy",Ora Tv
 https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
@@ -404,6 +404,9 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=7
 #EXTINF:-1 tvg-name="BS Nippon TV (BS日テレ)" tvg-logo="https://i.imgur.com/D8lhZCI.png" tvg-id="bsnippontv" group-title="Japan",BS Nippon TV (BS日テレ)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=7
 
+#EXTINF:-1 tvg-name="BS Asahi" tvg-logo="https://i.imgur.com/huXFL3A.png" tvg-id="bsasahi" group-title="Japan",BS Asahi
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=7&bind=0&uin=159413&playseek=0
+
 #EXTINF:-1 tvg-name="BS-TBS" tvg-logo="https://i.imgur.com/h20eGKq.png" tvg-id="bstbs" group-title="Japan",BS-TBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=7
 
@@ -463,6 +466,9 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo2/npo2.i
 
 #EXTINF:-1 tvg-name="NPO 3 Ⓖ" tvg-logo="https://i.imgur.com/dVB4Pqc.png" tvg-id="npo3" group-title="Netherlands",NPO 3 Ⓖ
 http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.isml/.m3u8
+
+#EXTINF:-1 tvg-name="RTV Noord" tvg-logo="https://i.imgur.com/pO5Mexa.png" tvg-id="rtvnoord" group-title="Netherlands",RTV Noord
+https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
 http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8

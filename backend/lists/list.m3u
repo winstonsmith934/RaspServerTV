@@ -35,6 +35,9 @@ https://www.twitch.tv/topnewsal
 #EXTINF:-1 tvg-name="Tropoja" tvg-logo="https://i.imgur.com/D3hNOVS.png" tvg-id="tropoja" group-title="Albania",Tropoja
 https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Vizion Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/512px-Vizion_Plus.svg.png" tvg-id="vizion" group-title="Albania",Vizion Plus
+https://fe.tring.al/delta/105/out/u/rdghfhsfhfshs.m3u8
+
 #EXTINF:-1 tvg-name="3 Plus (1080i)" tvg-logo="https://i.imgur.com/0ZdW9As.png" tvg-id="3" group-title="Albania",3 Plus (1080i)
 http://77.83.120.135:8001/play/a19e
 
@@ -1744,6 +1747,9 @@ http://95.46.208.8:26258/belarus4
 
 #EXTINF:-1 tvg-name="Hawe TV Vitebsk Ⓢ" tvg-logo="https://i.imgur.com/HOb5m5f.jpg" tvg-id="hawetvvitebsk" group-title="Belarus",Hawe TV Vitebsk Ⓢ
 http://95.46.208.8:26259/nashe
+
+#EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
+http://rtmp.one.by:1200
 
 #EXTINF:-1 tvg-name="Planeta RTR Ⓢ" tvg-logo="https://i.imgur.com/yqRuEJd.png" tvg-id="planetartr" group-title="Belarus",Planeta RTR Ⓢ
 https://a3569455801-s26881.cdn.ngenix.net/live/smil:rtrp.smil/chunklist_b1600000.m3u8
@@ -6793,9 +6799,6 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
-https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -13379,9 +13382,6 @@ https://odeon.grupposciscione.knoxstreaming.com/live/masterpl.m3u8
 #EXTINF:-1 tvg-name="Onda Novara Tv" tvg-logo="https://i.imgur.com/Qoh9CFy.png" tvg-id="ondanovaratv" group-title="Italy",Onda Novara Tv
 https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Onda Tv Sicilia" tvg-logo="https://i.imgur.com/0c5Y6lr.png" tvg-id="ondatvsicilia" group-title="Italy",Onda Tv Sicilia
-https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Onda Web Radio" tvg-logo="https://i.imgur.com/3hTvrC8.jpg" tvg-id="ondawebradio" group-title="Italy",Onda Web Radio
 http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8
 
@@ -13912,9 +13912,6 @@ https://stream3.shopch.jp/HLS/master.m3u8
 
 #EXTINF:-1 tvg-name="NHK Kishou-Saigai Ⓢ" tvg-logo="https://i.imgur.com/oWKCBIz.png" tvg-id="nhkkishousaigai" group-title="Japan",NHK Kishou-Saigai Ⓢ
 https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
-
-#EXTINF:-1 tvg-name="BS Asahi" tvg-logo="https://i.imgur.com/huXFL3A.png" tvg-id="bsasahi" group-title="Japan",BS Asahi
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=7&bind=0&uin=159413&playseek=0
 
 #EXTINF:-1 tvg-name="BBC News Asia Pacific (720p)" tvg-logo="https://i.imgur.com/vSz2WEp.png" tvg-id="bbcnewsasiapacific" group-title="Japan",BBC News Asia Pacific (720p)
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
@@ -15766,9 +15763,6 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 
 #EXTINF:-1 tvg-name="Omrop Fryslân" tvg-logo="https://i.imgur.com/0VKJLAK.png" tvg-id="omropfrysln" group-title="Netherlands",Omrop Fryslân
 https://d3pvma9xb2775h.cloudfront.net/live/omropfryslan/f8f68bd5/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTV Noord" tvg-logo="https://i.imgur.com/pO5Mexa.png" tvg-id="rtvnoord" group-title="Netherlands",RTV Noord
-https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/GaGqM4z.png" tvg-id="rtvdrenthe" group-title="Netherlands",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/1080p/prog_index.m3u8
