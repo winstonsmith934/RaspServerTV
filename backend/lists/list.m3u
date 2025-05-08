@@ -13550,9 +13550,6 @@ https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
 #EXTINF:-1 tvg-name="RTC Quarta Rete" tvg-logo="https://i.imgur.com/rFGA6qL.png" tvg-id="rtcquartarete" group-title="Italy",RTC Quarta Rete
 https://msh0232.stream.seeweb.it/live/stream00.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTC Telecalabria" tvg-logo="https://i.imgur.com/tTYLcuh.jpg" tvg-id="rtctelecalabria" group-title="Italy",RTC Telecalabria
-https://w1.mediastreaming.it/calabriachannel/livestream/playlist.m3u8
-
 #EXTINF:-1 tvg-name="RTI Calabria" tvg-logo="https://i.imgur.com/hVzEvmo.jpg" tvg-id="rticalabria" group-title="Italy",RTI Calabria
 https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8
 
@@ -14026,6 +14023,9 @@ https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
 
 #EXTINF:-1 tvg-name="EBS English Ⓢ" tvg-logo="https://i.imgur.com/qceaIf7.png" tvg-id="ebsenglish" group-title="Korea",EBS English Ⓢ
 https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KBS Life" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/512px-KBS_Life.svg.png" tvg-id="kbslife" group-title="Korea",KBS Life
+http://ye23.vip/z7z8/2021/kbs2020.php?id=7
 
 #EXTINF:-1 tvg-name="KBS Korea Ⓨ" tvg-logo="https://kbsworldimage.kbs.co.kr/images/layout/logo/logo_korea_n.png" tvg-id="kbskorea" group-title="Korea",KBS Korea Ⓨ
 https://www.youtube.com/c/kbsworldtv/live
@@ -22945,6 +22945,9 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_
 
 #EXTINF:-1 tvg-name="W Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/W_%28UKTV%29_2022.svg/640px-W_%28UKTV%29_2022.svg.png" tvg-id="w" group-title="Uk",W Ⓢ
 http://92.114.85.81:8000/play/a03x/index.m3u8
+
+#EXTINF:-1 tvg-name="ITV 4" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/640px-ITV4_logo_%282022%29.svg.png" tvg-id="itv4" group-title="Uk",ITV 4
+http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=30530
 
 #EXTINF:-1 tvg-name="E4 Extra Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/E4_Extra_logo_2022.svg/640px-E4_Extra_logo_2022.svg.png" tvg-id="e4" group-title="Uk",E4 Extra Ⓢ
 http://45.153.35.210:8000/play/UK_e4_extra_sd/index.m3u8
