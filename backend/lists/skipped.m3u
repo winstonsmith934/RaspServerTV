@@ -137,9 +137,6 @@ https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
-#EXTINF:-1 tvg-name="TapahtumaTV Eveo" tvg-logo="https://i.imgur.com/sR8nA8w.png" tvg-id="tapahtumatveveo" group-title="Finland",TapahtumaTV Eveo
-https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
@@ -440,6 +437,9 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06&isp=7
 #EXTINF:-1 tvg-name="KBS 1TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png" tvg-id="kbs1tv" group-title="Korea",KBS 1TV
 http://ye23.vip/z7z8/2021/kbs2020.php?id=1
 
+#EXTINF:-1 tvg-name="KBS 2TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/512px-KBS_2_logo.svg.png" tvg-id="kbs2tv" group-title="Korea",KBS 2TV
+http://ye23.vip/z7z8/2021/kbs2020.php?id=2
+
 #EXTINF:-1 tvg-name="KBS News D" tvg-logo="https://i.imgur.com/4qKgvHN.png" tvg-id="kbsnewsd" group-title="Korea",KBS News D
 http://ye23.vip/z7z8/2021/kbs2020.php?id=4
 
@@ -448,6 +448,9 @@ http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="KBS Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/512px-KBS_DRAMA.svg.png" tvg-id="kbsdrama" group-title="Korea",KBS Drama
 http://ye23.vip/z7z8/2021/kbs2020.php?id=5
+
+#EXTINF:-1 tvg-name="KBS Joy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/512px-KBS_JOY.svg.png" tvg-id="kbsjoy" group-title="Korea",KBS Joy
+http://ye23.vip/z7z8/2021/kbs2020.php?id=6
 
 #EXTINF:-1 tvg-name="KBS Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/KBS_kids.svg/512px-KBS_kids.svg.png" tvg-id="kbskids" group-title="Korea",KBS Kids
 http://ye23.vip/z7z8/2021/kbs2020.php?id=9
@@ -481,9 +484,6 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo2/npo2.i
 
 #EXTINF:-1 tvg-name="NPO 3 Ⓖ" tvg-logo="https://i.imgur.com/dVB4Pqc.png" tvg-id="npo3" group-title="Netherlands",NPO 3 Ⓖ
 http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.isml/.m3u8
-
-#EXTINF:-1 tvg-name="RTV Noord" tvg-logo="https://i.imgur.com/pO5Mexa.png" tvg-id="rtvnoord" group-title="Netherlands",RTV Noord
-https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
 http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
