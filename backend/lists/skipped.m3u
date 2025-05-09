@@ -26,6 +26,9 @@ https://rtmp.baku.tv/live/bakutv_720p.m3u8
 #EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
 http://rtmp.one.by:1200
 
+#EXTINF:-1 tvg-name="BHT 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Logo_of_BHT_1_%282003-2012%29.png" tvg-id="bht1" group-title="Bosnia_and_herzegovina",BHT 1 Ⓢ
+https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
+
 #EXTINF:-1 tvg-name="TV BPK Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/Logo_of_RTV_BPK_Gora%C5%BEde.jpg" tvg-id="tvbpk" group-title="Bosnia_and_herzegovina",TV BPK Ⓢ
 http://94.250.2.6:7374/play/a02u/index.m3u8
 
@@ -197,9 +200,6 @@ https://5f22d76e220e1.streamlock.net/GrandeItalia/GrandeItalia/playlist.m3u8
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
 
-#EXTINF:-1 tvg-name="Motori Tv" tvg-logo="https://i.imgur.com/NWXQKbl.png" tvg-id="motoritv" group-title="Italy",Motori Tv
-https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
 
@@ -295,6 +295,9 @@ https://59d7d6f47d7fc.streamlock.net/tva/tva/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Teleiblea" tvg-logo="https://i.imgur.com/n1THygZ.png" tvg-id="teleiblea" group-title="Italy",Teleiblea
 https://5f22d76e220e1.streamlock.net/teleiblea/teleiblea/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TeleRegione Color" tvg-logo="https://i.imgur.com/vi5Nf3S.png" tvg-id="teleregionecolor" group-title="Italy",TeleRegione Color
+https://live.antennasudwebtv.it:9443/hls/vodtele.m3u8
 
 #EXTINF:-1 tvg-name="TeleRegione Live" tvg-logo="https://i.imgur.com/DBrt8L3.png" tvg-id="teleregionelive" group-title="Italy",TeleRegione Live
 https://5f22d76e220e1.streamlock.net/galluralive/galluralive/playlist.m3u8
