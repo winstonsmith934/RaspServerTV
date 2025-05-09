@@ -8,6 +8,9 @@ https://www.twitch.tv/abcnewsal
 #EXTINF:-1 tvg-name="AlbKanale Music TV Ⓢ" tvg-logo="https://i.imgur.com/JdKxscs.png" tvg-id="albkanalemusictv" group-title="Albania",AlbKanale Music TV Ⓢ
 https://albportal.net/albkanalemusic.m3u8
 
+#EXTINF:-1 tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" tvg-id="cna" group-title="Albania",CNA
+https://live1.mediadesk.al/cnatvlive.m3u8
+
 #EXTINF:-1 tvg-name="Euronews Albania Ⓨ" tvg-logo="https://i.imgur.com/Skf6vdi.png" tvg-id="euronewsalbania" group-title="Albania",Euronews Albania Ⓨ
 https://www.youtube.com/@EuronewsAlbania/live
 
@@ -6821,6 +6824,12 @@ https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
 https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
+https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
+https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Kutonen" tvg-logo="https://i.imgur.com/4giVyxb.png" tvg-id="kutonen" group-title="Finland",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
 
@@ -13625,11 +13634,11 @@ https://t9tv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8
 #EXTINF:-1 tvg-name="TRC Santeramo" tvg-logo="https://i.imgur.com/VbYdS8P.jpg" tvg-id="trcsanteramo" group-title="Italy",TRC Santeramo
 https://stream7.livinlive.it/trc/trc/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TRL Tele Radio Leo" tvg-logo="https://i.imgur.com/qAagkJT.png" tvg-id="trlteleradioleo" group-title="Italy",TRL Tele Radio Leo
-https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TSD Tv Arezzo(Tele San Domenico)" tvg-logo="https://i.imgur.com/WQ8eQXc.png" tvg-id="tsdtvarezzo" group-title="Italy",TSD Tv Arezzo(Tele San Domenico)
 https://stream.mariatvcdn.com/tsd/7c59373bfdb38201b9215ff86f0ce6af.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TVL (TV Libera Pistoia)" tvg-logo="https://i.imgur.com/07geF0L.png" tvg-id="tvl" group-title="Italy",TVL (TV Libera Pistoia)
+http://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/mono.m3u8
 
 #EXTINF:-1 tvg-name="Tcf Tv" tvg-logo="https://i.imgur.com/fiylFs2.jpg" tvg-id="tcftv" group-title="Italy",Tcf Tv
 https://stream10.xdevel.com/video1s977294-1864/stream/playlist.m3u8
@@ -13654,6 +13663,9 @@ https://5e73cf528f404.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Bari" tvg-logo="https://i.imgur.com/HYSz4rx.png" tvg-id="telebari" group-title="Italy",Tele Bari
 https://w1.mediastreaming.it/telebari/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Tele Belluno" tvg-logo="https://i.imgur.com/YiM2Z7E.png" tvg-id="telebelluno" group-title="Italy",Tele Belluno
+https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8
 
 #EXTINF:-1 tvg-name="Tele Boario" tvg-logo="https://i.imgur.com/LlLD3L6.png" tvg-id="teleboario" group-title="Italy",Tele Boario
 https://stream7.xdevel.com/video0s976425-1244/stream/playlist_dvr.m3u8
@@ -13718,8 +13730,29 @@ http://1se1.troydesign.eu/np_teleoltre/_definst_/channel1_np_teleoltre/playlist.
 #EXTINF:-1 tvg-name="Tele One" tvg-logo="https://i.imgur.com/9trB6mj.png" tvg-id="teleone" group-title="Italy",Tele One
 https://648026e87a75e.streamlock.net/teleone/teleone/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Tele Pace 1" tvg-logo="https://i.imgur.com/ut0Hg8o.png" tvg-id="telepace1" group-title="Italy",Tele Pace 1
+https://live.mariatvcdn.com/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/mono.m3u8
+
+#EXTINF:-1 tvg-name="Tele Pace 2" tvg-logo="https://i.imgur.com/RqrPraO.png" tvg-id="telepace2" group-title="Italy",Tele Pace 2
+https://live.mariatvcdn.com/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/mono.m3u8
+
+#EXTINF:-1 tvg-name="Tele Pace 3" tvg-logo="https://i.imgur.com/gLsE3mX.png" tvg-id="telepace3" group-title="Italy",Tele Pace 3
+https://live.mariatvcdn.com/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/mono.m3u8
+
+#EXTINF:-1 tvg-name="Tele Pace 4" tvg-logo="https://i.imgur.com/tEQvgpz.png" tvg-id="telepace4" group-title="Italy",Tele Pace 4
+https://live.mariatvcdn.com/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/mono.m3u8
+
+#EXTINF:-1 tvg-name="Tele Pace News" tvg-logo="https://i.imgur.com/AxmgoMT.png" tvg-id="telepacenews" group-title="Italy",Tele Pace News
+https://live.mariatvcdn.com/teleradiopace6/d289fe76f16ad32afec471ea1b941583.sdp/index.m3u8
+
+#EXTINF:-1 tvg-name="Tele Pace Roma" tvg-logo="https://i.imgur.com/54oi0cg.png" tvg-id="telepaceroma" group-title="Italy",Tele Pace Roma
+https://live.mariatvcdn.com/mariatvpoint/d36592901d5429dd7f9ec1e7bbeda8c2.sdp/index.m3u8
+
 #EXTINF:-1 tvg-name="Tele Pace Trento" tvg-logo="https://i.imgur.com/o5sQCpF.png" tvg-id="telepacetrento" group-title="Italy",Tele Pace Trento
 https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Tele Pace Verona" tvg-logo="https://i.imgur.com/su2ipkb.png" tvg-id="telepaceverona" group-title="Italy",Tele Pace Verona
+https://live.mariatvcdn.com/TelepaceVerona/a9027aba28cf4b54d10aedc38b0df192.sdp/index.m3u8
 
 #EXTINF:-1 tvg-name="Tele Pavia" tvg-logo="https://i.imgur.com/YVodo4T.png" tvg-id="telepavia" group-title="Italy",Tele Pavia
 http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8
@@ -14035,6 +14068,9 @@ https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
 
 #EXTINF:-1 tvg-name="EBS English Ⓢ" tvg-logo="https://i.imgur.com/qceaIf7.png" tvg-id="ebsenglish" group-title="Korea",EBS English Ⓢ
 https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KBS Story" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/512px-KBS_Story.svg.png" tvg-id="kbsstory" group-title="Korea",KBS Story
+http://ye23.vip/z7z8/2021/kbs2020.php?id=8
 
 #EXTINF:-1 tvg-name="KBS Korea Ⓨ" tvg-logo="https://kbsworldimage.kbs.co.kr/images/layout/logo/logo_korea_n.png" tvg-id="kbskorea" group-title="Korea",KBS Korea Ⓨ
 https://www.youtube.com/c/kbsworldtv/live
