@@ -4394,11 +4394,29 @@ http://49.113.179.174:4022/udp/238.125.5.102:5140
 #EXTINF:-1 tvg-name="JiaJia Cartoon" tvg-logo="https://i.imgur.com/0TLG3Xk.png" tvg-id="jiajiacartoon" group-title="China",JiaJia Cartoon
 http://49.113.179.174:4022/udp/238.125.0.158:5140
 
+#EXTINF:-1 tvg-name="Jiangxi Children's Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jxtv6.jpg" tvg-id="jiangxichildrenschannel" group-title="China",Jiangxi Children's Channel
+https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
+
+#EXTINF:-1 tvg-name="Jiangxi City Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jxds.jpg" tvg-id="jiangxicitychannel" group-title="China",Jiangxi City Channel
+https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv2.m3u8
+
+#EXTINF:-1 tvg-name="Jiangxi Economy & Life Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jxtv3.jpg" tvg-id="jiangxieconomylifechannel" group-title="China",Jiangxi Economy & Life Channel
+https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv3.m3u8
+
+#EXTINF:-1 tvg-name="Jiangxi Movie Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jiangxi.jpg" tvg-id="jiangximoviechannel" group-title="China",Jiangxi Movie Channel
+https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv4.m3u8
+
+#EXTINF:-1 tvg-name="Jiangxi Public & Agriculture Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jxgg.jpg" tvg-id="jiangxipublicagriculturechannel" group-title="China",Jiangxi Public & Agriculture Channel
+https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv5.m3u8
+
 #EXTINF:-1 tvg-name="Lanzhou Comprehensive News Channel" tvg-logo="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_c2a13a952c0111b21f081d672798c8ed~c5_300x300.jpeg?from=2956013662" tvg-id="lanzhoucomprehensivenewschannel" group-title="China",Lanzhou Comprehensive News Channel
 https://liveplus.lztv.tv/xwzh/HD/live.m3u8
 
 #EXTINF:-1 tvg-name="Laughter Theater" tvg-logo="https://i.imgur.com/CrFesS6.png" tvg-id="laughtertheater" group-title="China",Laughter Theater
 http://49.113.179.174:4022/udp/238.125.2.159:5140
+
+#EXTINF:-1 tvg-name="Nanchang News & Generalist Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/nctv1.jpg" tvg-id="nanchangnewsgeneralistchannel" group-title="China",Nanchang News & Generalist Channel
+https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
 
 #EXTINF:-1 tvg-name="Nei Monggol TV" tvg-logo="https://i.imgur.com/WeugJBE.png" tvg-id="neimonggoltv" group-title="China",Nei Monggol TV
 http://1.183.141.194:8001/hls/55/index.m3u8
@@ -6829,9 +6847,6 @@ https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Alfa Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/fi/9/93/IRR-TV-1.png" tvg-id="alfa" group-title="Finland",Alfa Ⓢ
 https://irrtv2.digitacdn.net/live/ott/irrtv/playlist.m3u8?organizationId=229401409&suiteItemId=230439940
-
-#EXTINF:-1 tvg-name="TapahtumaTV Eveo" tvg-logo="https://i.imgur.com/sR8nA8w.png" tvg-id="tapahtumatveveo" group-title="Finland",TapahtumaTV Eveo
-https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="National Geographic Finland Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-id="nationalgeographicfinland" group-title="Finland",National Geographic Finland Ⓖ
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
@@ -11126,6 +11141,9 @@ https://dr1zhpsuem5f4.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-name="Angel TV India (720p)" tvg-logo="https://i.imgur.com/qKLEGU7.png" tvg-id="angeltvindia" group-title="India",Angel TV India (720p)
 https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelindia_all/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ANN News (720p)" tvg-logo="https://asianewsnetwork.net/wp-content/uploads/2020/03/cropped-LOGO-NEW.png" tvg-id="annnews" group-title="India",ANN News (720p)
+https://cdn.ottlive.co.in/annnews/index.m3u8
+
 #EXTINF:-1 tvg-name="APN (576p)" tvg-logo="https://i.imgur.com/RhkbhZD.png" tvg-id="apn" group-title="India",APN (576p)
 https://cdn.smartstream.video/smartstream-us/apnnews/apnnews/chunks.m3u8
 
@@ -12512,8 +12530,14 @@ https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.
 #EXTINF:-1 tvg-name="DW Arabic (1080p)" tvg-logo="https://i.imgur.com/8MRNFb9.png" tvg-id="dwarabic" group-title="Iraq",DW Arabic (1080p)
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
 
+#EXTINF:-1 tvg-name="EmanTv (1080p)" tvg-logo="https://i.imgur.com/QmgaPSi.png" tvg-id="emantv" group-title="Iraq",EmanTv (1080p)
+https://avr.host247.net/live/emantv/playlist.m3u8
+
 #EXTINF:-1 tvg-name="EWTN Africa Asia (720p)" tvg-logo="https://i.imgur.com/sua70RO.png" tvg-id="ewtnafricaasia" group-title="Iraq",EWTN Africa Asia (720p)
 https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="FarmodaTV (1080p)" tvg-logo="https://i.imgur.com/x4KCQlH.png" tvg-id="farmodatv" group-title="Iraq",FarmodaTV (1080p)
+https://avr.host247.net/live/FarmodaTV/playlist.m3u8
 
 #EXTINF:-1 tvg-name="France 24 Arabic (1080p)" tvg-logo="https://i.imgur.com/u8N6uoj.png" tvg-id="france24arabic" group-title="Iraq",France 24 Arabic (1080p)
 https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
@@ -12593,6 +12617,9 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39c
 #EXTINF:-1 tvg-name="MBC+ Drama (1080p)" tvg-logo="https://i.imgur.com/lxWdjXG.png" tvg-id="mbcdrama" group-title="Iraq",MBC+ Drama (1080p)
 https://mbcplusdrama-prod-dub-enc.edgenextcdn.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
 
+#EXTINF:-1 tvg-name="Mixkurdy (1080p)" tvg-logo="https://i.imgur.com/WHeH5i7.png" tvg-id="mixkurdy" group-title="Iraq",Mixkurdy (1080p)
+https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Movies Action (1080p)" tvg-logo="https://i.imgur.com/NIVhISa.png" tvg-id="moviesaction" group-title="Iraq",Movies Action (1080p)
 https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
 
@@ -12616,6 +12643,9 @@ https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Shams TV (1080p)" tvg-logo="https://www.semakurd.net/sites/default/files/imagecache/400xY/shemis-tv.jpg" tvg-id="shamstv" group-title="Iraq",Shams TV (1080p)
 https://stream.shams.tv/hls/stream.m3u8
+
+#EXTINF:-1 tvg-name="towheedtv (720p)" tvg-logo="https://i.imgur.com/63MqyOt.png" tvg-id="towheedtv" group-title="Iraq",towheedtv (720p)
+https://avr.host247.net/live/towheedtv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TRT Arabi (1080p)" tvg-logo="https://i.imgur.com/dEfI2M9.png" tvg-id="trtarabi" group-title="Iraq",TRT Arabi (1080p)
 http://185.234.111.229:8000/play/a002
