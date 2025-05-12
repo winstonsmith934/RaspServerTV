@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Kanali 7 Ⓢ" tvg-logo="https://i.imgur.com/rL2v9pM.png" tvg-id="kanali7" group-title="Albania",Kanali 7 Ⓢ
-https://fe.tring.al/delta/105/out/u/1200_1.m3u8
-
 #EXTINF:-1 tvg-name="Alpo TV" tvg-logo="https://i.imgur.com/Pr4ixiA.png" tvg-id="alpotv" group-title="Albania",Alpo TV
 https://5d00db0e0fcd5.streamlock.net/7236/7236/playlist.m3u8
 
@@ -124,6 +121,12 @@ https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV 2/Bornholm" tvg-logo="https://i.imgur.com/cEOpXU6.png" tvg-id="tv2bornholm" group-title="Denmark",TV 2/Bornholm
 https://live.tv2bornholm.dk/stream/live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
+https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
+https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="TLC Finland" tvg-logo="https://i.imgur.com/0d5hP3A.png" tvg-id="tlcfinland" group-title="Finland",TLC Finland
 https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
@@ -439,9 +442,6 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06&isp=7
 
 #EXTINF:-1 tvg-name="KBS 1TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png" tvg-id="kbs1tv" group-title="Korea",KBS 1TV
 http://ye23.vip/z7z8/2021/kbs2020.php?id=1
-
-#EXTINF:-1 tvg-name="KBS 2TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/512px-KBS_2_logo.svg.png" tvg-id="kbs2tv" group-title="Korea",KBS 2TV
-http://ye23.vip/z7z8/2021/kbs2020.php?id=2
 
 #EXTINF:-1 tvg-name="KBS News D" tvg-logo="https://i.imgur.com/4qKgvHN.png" tvg-id="kbsnewsd" group-title="Korea",KBS News D
 http://ye23.vip/z7z8/2021/kbs2020.php?id=4
