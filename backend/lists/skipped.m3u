@@ -131,6 +131,9 @@ https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 2/Bornholm" tvg-logo="https://i.imgur.com/cEOpXU6.png" tvg-id="tv2bornholm" group-title="Denmark",TV 2/Bornholm
 https://live.tv2bornholm.dk/stream/live/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
+https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
@@ -437,9 +440,6 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05&isp=7&bi
 #EXTINF:-1 tvg-name="BS Fuji TV (BSフジテレビ)" tvg-logo="https://i.imgur.com/aDdwjjc.png" tvg-id="bsfujitv" group-title="Japan",BS Fuji TV (BSフジテレビ)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06&isp=7
 
-#EXTINF:-1 tvg-name="KBS 1TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png" tvg-id="kbs1tv" group-title="Korea",KBS 1TV
-http://ye23.vip/z7z8/2021/kbs2020.php?id=1
-
 #EXTINF:-1 tvg-name="KBS 2TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/512px-KBS_2_logo.svg.png" tvg-id="kbs2tv" group-title="Korea",KBS 2TV
 http://ye23.vip/z7z8/2021/kbs2020.php?id=2
 
@@ -448,9 +448,6 @@ http://ye23.vip/z7z8/2021/kbs2020.php?id=4
 
 #EXTINF:-1 tvg-name="MBC TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Munhwa_Broadcasting_Company.svg/512px-Munhwa_Broadcasting_Company.svg.png" tvg-id="mbctv" group-title="Korea",MBC TV
 http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="KBS Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/512px-KBS_DRAMA.svg.png" tvg-id="kbsdrama" group-title="Korea",KBS Drama
-http://ye23.vip/z7z8/2021/kbs2020.php?id=5
 
 #EXTINF:-1 tvg-name="KBS Joy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/512px-KBS_JOY.svg.png" tvg-id="kbsjoy" group-title="Korea",KBS Joy
 http://ye23.vip/z7z8/2021/kbs2020.php?id=6
@@ -494,17 +491,11 @@ http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
 #EXTINF:-1 tvg-name="Cool TV" tvg-logo="https://i.imgur.com/2tFrjUz.png" tvg-id="cooltv" group-title="North_macedonia",Cool TV
 https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
 
-#EXTINF:-1 tvg-name="Folk TV" tvg-logo="https://i.imgur.com/4b9aZ9P.png" tvg-id="folktv" group-title="North_macedonia",Folk TV
-https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
-
 #EXTINF:-1 tvg-name="Jazz TV" tvg-logo="https://i.imgur.com/4U6Ju5G.png" tvg-id="jazztv" group-title="North_macedonia",Jazz TV
 https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
 
 #EXTINF:-1 tvg-name="Love TV" tvg-logo="https://i.imgur.com/B8iaejQ.png" tvg-id="lovetv" group-title="North_macedonia",Love TV
 https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
-
-#EXTINF:-1 tvg-name="Rock TV" tvg-logo="https://i.imgur.com/Y9miDQo.png" tvg-id="rocktv" group-title="North_macedonia",Rock TV
-https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
 
 #EXTINF:-1 tvg-name="Kanal 10 Norge" tvg-logo="https://i.imgur.com/2fOcZfK.png" tvg-id="kanal10norge" group-title="Norway",Kanal 10 Norge
 https://player-api.new.livestream.com/accounts/29308686/events/10787545/broadcasts/235454817.secure.m3u8

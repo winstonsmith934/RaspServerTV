@@ -6839,9 +6839,6 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
 
-#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
-https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
 
@@ -14009,6 +14006,9 @@ https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/1
 #EXTINF:-1 tvg-name="РТР Планета Азия" tvg-logo="https://i.imgur.com/DTtK0z7.png" tvg-id="" group-title="Japan",РТР Планета Азия
 https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363
 
+#EXTINF:-1 tvg-name="KBS 1TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png" tvg-id="kbs1tv" group-title="Korea",KBS 1TV
+http://ye23.vip/z7z8/2021/kbs2020.php?id=1
+
 #EXTINF:-1 tvg-name="EBS 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/512px-EBS_1TV_Logo.svg.png" tvg-id="ebs1" group-title="Korea",EBS 1 Ⓢ
 https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
 
@@ -14056,6 +14056,9 @@ https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
 
 #EXTINF:-1 tvg-name="EBS English Ⓢ" tvg-logo="https://i.imgur.com/qceaIf7.png" tvg-id="ebsenglish" group-title="Korea",EBS English Ⓢ
 https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KBS Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/512px-KBS_DRAMA.svg.png" tvg-id="kbsdrama" group-title="Korea",KBS Drama
+http://ye23.vip/z7z8/2021/kbs2020.php?id=5
 
 #EXTINF:-1 tvg-name="KBS Korea Ⓨ" tvg-logo="https://kbsworldimage.kbs.co.kr/images/layout/logo/logo_korea_n.png" tvg-id="kbskorea" group-title="Korea",KBS Korea Ⓨ
 https://www.youtube.com/c/kbsworldtv/live
@@ -16351,6 +16354,12 @@ https://hls.telekabel.com.mk:1936/live/11/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
 https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
+
+#EXTINF:-1 tvg-name="Folk TV" tvg-logo="https://i.imgur.com/4b9aZ9P.png" tvg-id="folktv" group-title="North_macedonia",Folk TV
+https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
+
+#EXTINF:-1 tvg-name="Rock TV" tvg-logo="https://i.imgur.com/Y9miDQo.png" tvg-id="rocktv" group-title="North_macedonia",Rock TV
+https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
 
 #EXTINF:-1 tvg-name="Стар Фолк" tvg-logo="https://i.imgur.com/7RstQYI.png" tvg-id="" group-title="North_macedonia",Стар Фолк
 https://live.muzickatv.mk/live/StarMusic.m3u8
