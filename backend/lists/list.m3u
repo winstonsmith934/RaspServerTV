@@ -4712,9 +4712,6 @@ http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
 #EXTINF:-1 tvg-name="Canal 11" tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2016/06/Canal-11-Costa-Rica-en-vivo-Online.png" tvg-id="canal11" group-title="Costa_rica",Canal 11
 https://d3bgcstab9qhdz.cloudfront.net/hls/canal2.m3u8
 
-#EXTINF:-1 tvg-name="88 Stereo" tvg-logo="http://www.88stereo.com/wp-content/uploads/2017/05/88Stereo-logoweb.png" tvg-id="88stereo" group-title="Costa_rica",88 Stereo
-http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8
-
 #EXTINF:-1 tvg-name="¡OPA! (1080p)" tvg-logo="https://i.imgur.com/300c1ZH.png" tvg-id="opa" group-title="Costa_rica",¡OPA! (1080p)
 https://opa.usastreams.com:3101/live/canalopalive.m3u8
 
@@ -13295,9 +13292,6 @@ http://hbbtv-server.zivoli.it:8080/hls/deltatv/deltatv/index.m3u8
 #EXTINF:-1 tvg-name="Deluxe 139" tvg-logo="https://i.imgur.com/kRexw3w.png" tvg-id="deluxe139" group-title="Italy",Deluxe 139
 https://59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Digital Tv7 Benevento" tvg-logo="https://i.imgur.com/NaQkklP.png" tvg-id="digitaltv7benevento" group-title="Italy",Digital Tv7 Benevento
-http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="E'live Brescia Tv" tvg-logo="https://i.imgur.com/bZ3B7pi.png" tvg-id="elivebresciatv" group-title="Italy",E'live Brescia Tv
 https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8
 
@@ -17863,6 +17857,36 @@ http://stream01.vnet.am/Perec/mono.m3u8
 
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Portugal",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
+
+#EXTINF:-1 tvg-name="Qatar Television" tvg-logo="https://i.imgur.com/N5RB4sp.png" tvg-id="qatartelevision" group-title="Qatar",Qatar Television
+https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8
+
+#EXTINF:-1 tvg-name="Qatar Television 2" tvg-logo="https://i.imgur.com/iWJxDUm.png" tvg-id="qatartelevision2" group-title="Qatar",Qatar Television 2
+https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8
+
+#EXTINF:-1 tvg-name="Al Rayyan" tvg-logo="https://i.imgur.com/Ts3RjTV.png" tvg-id="alrayyan" group-title="Qatar",Al Rayyan
+https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-name="Al Rayyan Old TV" tvg-logo="https://i.imgur.com/4qB5iN0.png" tvg-id="alrayyanoldtv" group-title="Qatar",Al Rayyan Old TV
+https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-name="Al Jazeera Mubasher" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/90/Al_Jazeera_Mubasher_logo.png" tvg-id="aljazeeramubasher" group-title="Qatar",Al Jazeera Mubasher
+https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
+
+#EXTINF:-1 tvg-name="Alkass One" tvg-logo="https://i.imgur.com/10mmlha.png" tvg-id="alkassone" group-title="Qatar",Alkass One
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlkassOne
+
+#EXTINF:-1 tvg-name="Alkass Two" tvg-logo="https://i.imgur.com/8w61kFX.png" tvg-id="alkasstwo" group-title="Qatar",Alkass Two
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlkassTwo
+
+#EXTINF:-1 tvg-name="Alkass Three" tvg-logo="https://i.imgur.com/d57BdFh.png" tvg-id="alkassthree" group-title="Qatar",Alkass Three
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlkassThree
+
+#EXTINF:-1 tvg-name="Alkass Four" tvg-logo="https://i.imgur.com/iDL65Wu.png" tvg-id="alkassfour" group-title="Qatar",Alkass Four
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlkassFour
+
+#EXTINF:-1 tvg-name="Al Araby TV" tvg-logo="https://i.imgur.com/YMqWEe4.png" tvg-id="alarabytv" group-title="Qatar",Al Araby TV
+https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-name="2M Monde" tvg-logo="https://i.imgur.com/MvpntzA.png" tvg-id="2mmonde" group-title="Qatar",2M Monde
 #EXTVLCOPT:http-referrer=https://2m.ma
@@ -22904,6 +22928,9 @@ http://176.65.146.105:8011/play/a07w/index.m3u8
 #EXTINF:-1 tvg-name="S4C Ⓖ" tvg-logo="https://i.imgur.com/vrcbnBv.png" tvg-id="s4c" group-title="Uk",S4C Ⓖ
 https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8
 
+#EXTINF:-1 tvg-name="Channel 5 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Channel_5_%28UK%29_2016.svg/530px-Channel_5_%28UK%29_2016.svg.png" tvg-id="channel5" group-title="Uk",Channel 5 Ⓢ
+http://45.153.35.210:8000/play/UK_channel_5_sd/index.m3u8
+
 #EXTINF:-1 tvg-name="ITV 2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/640px-ITV2_logo_2022.svg.png" tvg-id="itv2" group-title="Uk",ITV 2
 http://198.16.100.90:8278/itv2_antik/playlist.m3u8?tid=ME1E6151053761510537&ct=19249&tsum=1ef927017460bcb40a504bbebc9eecb8
 
@@ -22928,6 +22955,12 @@ http://176.65.146.105:8011/play/FILM4SD/index.m3u8
 #EXTINF:-1 tvg-name="QVC UK Ⓢ" tvg-logo="https://i.imgur.com/6TWUVrh.png" tvg-id="qvcuk" group-title="Uk",QVC UK Ⓢ
 https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8
 
+#EXTINF:-1 tvg-name="More4 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/More4_logo_2018.svg/1023px-More4_logo_2018.svg.png" tvg-id="more4" group-title="Uk",More4 Ⓢ
+http://45.153.35.210:8000/play/UK_more_4_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="5USA Ⓢ" tvg-logo="https://i.imgur.com/Pi7so2l.png" tvg-id="5usa" group-title="Uk",5USA Ⓢ
+http://45.153.35.210:8000/play/UK_5_usa_sd/index.m3u8
+
 #EXTINF:-1 tvg-name="TJC" tvg-logo="https://i.imgur.com/fk5rEje.png" tvg-id="tjc" group-title="Uk",TJC
 https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/index.m3u8
 
@@ -22940,8 +22973,26 @@ http://92.114.85.81:8000/play/a03x/index.m3u8
 #EXTINF:-1 tvg-name="ITV 4" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/640px-ITV4_logo_%282022%29.svg.png" tvg-id="itv4" group-title="Uk",ITV 4
 http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=30530
 
+#EXTINF:-1 tvg-name="E4 Extra Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/E4_Extra_logo_2022.svg/640px-E4_Extra_logo_2022.svg.png" tvg-id="e4" group-title="Uk",E4 Extra Ⓢ
+http://45.153.35.210:8000/play/UK_e4_extra_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="5Star Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/5Star_logo_2019.svg/640px-5Star_logo_2019.svg.png" tvg-id="5star" group-title="Uk",5Star Ⓢ
+http://45.153.35.210:8000/play/UK_5_star_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="5Action Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/5Action_logo.svg/640px-5Action_logo.svg.png" tvg-id="5action" group-title="Uk",5Action Ⓢ
+http://45.153.35.210:8000/play/UK_5_action_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="Great! Movies Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Great%21_Movies_logo_2021.svg/640px-Great%21_Movies_logo_2021.svg.png" tvg-id="greatmovies" group-title="Uk",Great! Movies Ⓢ
+http://45.153.35.210:8000/play/UK_great_movies_sd/index.m3u8
+
 #EXTINF:-1 tvg-name="DMAX Ⓢ" tvg-logo="https://i.imgur.com/CDsoyjN.png" tvg-id="dmax" group-title="Uk",DMAX Ⓢ
 http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=164004
+
+#EXTINF:-1 tvg-name="Legend Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Legend_TV_logo.svg/640px-Legend_TV_logo.svg.png" tvg-id="legend" group-title="Uk",Legend Ⓢ
+http://45.153.35.210:8000/play/UK_legend_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="Great! Action Ⓢ" tvg-logo="https://i.imgur.com/O9eiO0I.png" tvg-id="greataction" group-title="Uk",Great! Action Ⓢ
+http://45.153.35.210:8000/play/UK_great_tv_action_sd/index.m3u8
 
 #EXTINF:-1 tvg-name="Food Network UK Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Food_Network_logo.svg/768px-Food_Network_logo.svg.png" tvg-id="foodnetworkuk" group-title="Uk",Food Network UK Ⓢ
 http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=45275
@@ -22949,17 +23000,41 @@ http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&s
 #EXTINF:-1 tvg-name="GemsTV Ⓢ" tvg-logo="https://i.imgur.com/IR2sTag.png" tvg-id="gemstv" group-title="Uk",GemsTV Ⓢ
 http://57d6b85685bb8.streamlock.net:1935/abrgemporiaukgfx/livestream_360p/index.m3u8
 
+#EXTINF:-1 tvg-name="5Select Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/5Select_logo.svg/1024px-5Select_logo.svg.png" tvg-id="5select" group-title="Uk",5Select Ⓢ
+http://45.153.35.210:8000/play/UK_5_select_sd/index.m3u8
+
 #EXTINF:-1 tvg-name="4seven Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/4seven_logo_2018.svg/568px-4seven_logo_2018.svg.png" tvg-id="4seven" group-title="Uk",4seven Ⓢ
 http://176.65.146.170:8013/play/a06p/index.m3u8
 
+#EXTINF:-1 tvg-name="Great! TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Great%21_TV_logo_2021.svg/640px-Great%21_TV_logo_2021.svg.png" tvg-id="greattv" group-title="Uk",Great! TV Ⓢ
+http://45.153.35.210:8000/play/UK_great_tv_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="Great! Romance Ⓢ" tvg-logo="https://www.freeview.co.uk/sites/default/files/styles/255_wide/public/2023-09/GREAT-Christmas-logo.png" tvg-id="greatromance" group-title="Uk",Great! Romance Ⓢ
+http://45.153.35.210:8000/play/UK_great_romance_sd/index.m3u8
+
 #EXTINF:-1 tvg-name="Blaze Ⓖ" tvg-logo="https://i.imgur.com/6UcPWP9.png" tvg-id="blaze" group-title="Uk",Blaze Ⓖ
 https://live.blaze.tv/live7/blaze/bitrate1.isml/live.m3u8
+
+#EXTINF:-1 tvg-name="True Crime Ⓢ" tvg-logo="https://raw.githubusercontent.com/dp247/mediaportal-uk-logos/master/TV/True-Crime-UK.png" tvg-id="truecrime" group-title="Uk",True Crime Ⓢ
+http://45.153.35.210:8000/play/UK_cbs_reality_sd/index.m3u88
+
+#EXTINF:-1 tvg-name="True Crime Xtra Ⓢ" tvg-logo="https://raw.githubusercontent.com/dp247/mediaportal-uk-logos/master/TV/True-Crime-Xtra.png" tvg-id="truecrimextra" group-title="Uk",True Crime Xtra Ⓢ
+http://45.153.35.210:8000/play/UK_reality_xtra_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="LegendXtra Ⓢ" tvg-logo="https://raw.githubusercontent.com/dp247/mediaportal-uk-logos/master/TV/Legend-Xtra.png" tvg-id="legendxtra" group-title="Uk",LegendXtra Ⓢ
+http://45.153.35.210:8000/play/UK_horror_xtra_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="That's 70s Ⓢ" tvg-logo="https://i.imgur.com/vlJFB21.png" tvg-id="thats70s" group-title="Uk",That's 70s Ⓢ
+http://45.153.35.210:8000/play/MUS_thats_70s_sd/index.m3u8
 
 #EXTINF:-1 tvg-name="Jewellery Maker" tvg-logo="https://i.imgur.com/O7SdkBh.png" tvg-id="jewellerymaker" group-title="Uk",Jewellery Maker
 https://lo2-1.gemporia.com/abrjewellerymaker/smil:livestream.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Hobby Maker" tvg-logo="https://i.imgur.com/VWHp5Tl.png" tvg-id="hobbymaker" group-title="Uk",Hobby Maker
 https://lo2-1.gemporia.com/abrhobbymakerukgfx/smil:livestreamFullHD.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="That's 80s Ⓢ" tvg-logo="https://i.imgur.com/nWbgsfP.png" tvg-id="thats80s" group-title="Uk",That's 80s Ⓢ
+http://45.153.35.210:8000/play/MUS_thats_80s_sd/index.m3u8
 
 #EXTINF:-1 tvg-name="PBS America" tvg-logo="https://i.imgur.com/J4zE5z9.jpg" tvg-id="pbsamerica" group-title="Uk",PBS America
 https://pbs-samsunguk.amagi.tv/playlist.m3u8
@@ -22969,6 +23044,18 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/t=
 
 #EXTINF:-1 tvg-name="CBeebies Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/CBeebies_2023.svg/640px-CBeebies_2023.svg.png" tvg-id="cbeebies" group-title="Uk",CBeebies Ⓖ
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+#EXTINF:-1 tvg-name="Pop Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Pop_UK_TV_Logo_%282015%29.svg/640px-Pop_UK_TV_Logo_%282015%29.svg.png" tvg-id="pop" group-title="Uk",Pop Ⓢ
+http://45.153.35.210:8000/play/UK_pop_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="Tiny Pop Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Tiny_Pop_logo_2018.svg/640px-Tiny_Pop_logo_2018.svg.png" tvg-id="tinypop" group-title="Uk",Tiny Pop Ⓢ
+http://45.153.35.210:8000/play/UK_tiny_pop_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="Pop Max Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Pop_Max_logo_2017.svg/640px-Pop_Max_logo_2017.svg.png" tvg-id="popmax" group-title="Uk",Pop Max Ⓢ
+http://45.153.35.210:8000/play/UK_pop_max_sd/index.m3u8
+
+#EXTINF:-1 tvg-name="BBC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/640px-BBC_News_2022_%28Alt%29.svg.png" tvg-id="bbcnews" group-title="Uk",BBC News
+http://45.153.35.210:8000/play/NEWS_bbc_news_HD/index.m3u8
 
 #EXTINF:-1 tvg-name="BBC Parliament Ⓢ Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/BBC_Parliament_2022.svg/640px-BBC_Parliament_2022.svg.png" tvg-id="bbcparliament" group-title="Uk",BBC Parliament Ⓢ Ⓖ
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/pc_hd_abr_v2.m3u8
