@@ -155,6 +155,9 @@ https://c201-node61-cdn.connectmedia.hu/110102/7184521041cf54cee9c6548e8d0ba377/
 #EXTINF:-1 tvg-name="M4 Sport" tvg-logo="https://nb1.hu/uploads/news/3/31023.jpg" tvg-id="m4sport" group-title="Hungary",M4 Sport
 https://c401-node62-cdn.connectmedia.hu/110110/5dd8dc6d853c9b7f94db85646ed44326/641177e3/index.m3u8
 
+#EXTINF:-1 tvg-name="BeritaSatu" tvg-logo="https://imgur.com/vYJVT07" tvg-id="beritasatu" group-title="Indonesia",BeritaSatu
+https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
+
 #EXTINF:-1 tvg-name="Al-Hurra Iraq" tvg-logo="https://i.imgur.com/mXBZEQP.png" tvg-id="alhurrairaq" group-title="Iraq",Al-Hurra Iraq
 https://mbnvvideoingest-i.akamaihd.net/hls/live/1004674/MBNV_ALHURRA_IRAQ/playlist.m3u8
 
@@ -224,9 +227,6 @@ https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
 #EXTINF:-1 tvg-name="Motori Tv" tvg-logo="https://i.imgur.com/NWXQKbl.png" tvg-id="motoritv" group-title="Italy",Motori Tv
 https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
-
 #EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
 https://nuovatv.net:8443/tv2/stream.m3u8
 
@@ -242,14 +242,8 @@ https://stream1.aswifi.it/poptelevision/live/index.m3u8
 #EXTINF:-1 tvg-name="Prima Tv Napoli" tvg-logo="https://i.imgur.com/yPuQeEy.jpg" tvg-id="primatvnapoli" group-title="Italy",Prima Tv Napoli
 https://57068da1deb21.streamlock.net/primatvnapoli/primatvnapoli/playlist.m3u8
 
-#EXTINF:-1 tvg-name="PrimaFREE" tvg-logo="https://i.imgur.com/YrSSmOL.png" tvg-id="primafree" group-title="Italy",PrimaFREE
-https://5f22d76e220e1.streamlock.net/primafree/primafree/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Primantenna Torino" tvg-logo="https://i.imgur.com/sqEcPFs.gif" tvg-id="primantennatorino" group-title="Italy",Primantenna Torino
 https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Quarto Canale Flegreo" tvg-logo="https://i.imgur.com/8RKY3Du.png" tvg-id="quartocanaleflegreo" group-title="Italy",Quarto Canale Flegreo
-http://live.mariatvcdn.com/dialogos/171e41deedf405f10c7dd6311387fb43.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Radio Roma" tvg-logo="https://i.imgur.com/RKvfStm.png" tvg-id="radioroma" group-title="Italy",Radio Roma
 https://585b674743bbb.streamlock.net/9044/9044/playlist.m3u8
@@ -340,9 +334,6 @@ https://router.xdevel.com/video0s86-21/stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telesud Trapani" tvg-logo="https://i.imgur.com/tpZvU1P.png" tvg-id="telesudtrapani" group-title="Italy",Telesud Trapani
 https://64b16f23efbee.streamlock.net/telesudtrapani/telesudtrapani/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TLT Molise" tvg-logo="https://i.imgur.com/wgwD7gh.png" tvg-id="tltmolise" group-title="Italy",TLT Molise
-https://5f22d76e220e1.streamlock.net/tltmolise/tltmolise/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tvm Palermo" tvg-logo="https://i.imgur.com/uqOdAXB.png" tvg-id="tvmpalermo" group-title="Italy",Tvm Palermo
 https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8
@@ -487,6 +478,9 @@ http://ye23.vip/z7z8/2021/kbs2020.php?id=6
 
 #EXTINF:-1 tvg-name="KBS Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/KBS_kids.svg/512px-KBS_kids.svg.png" tvg-id="kbskids" group-title="Korea",KBS Kids
 http://ye23.vip/z7z8/2021/kbs2020.php?id=9
+
+#EXTINF:-1 tvg-name="KBS Life" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/512px-KBS_Life.svg.png" tvg-id="kbslife" group-title="Korea",KBS Life
+http://ye23.vip/z7z8/2021/kbs2020.php?id=7
 
 #EXTINF:-1 tvg-name="KBS Story" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/512px-KBS_Story.svg.png" tvg-id="kbsstory" group-title="Korea",KBS Story
 http://ye23.vip/z7z8/2021/kbs2020.php?id=8
