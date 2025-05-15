@@ -41,6 +41,9 @@ http://rbc.directradios.com:1935/rbc/rbc/live.m3u8
 #EXTINF:-1 tvg-name="Anime TV" tvg-logo="https://i.imgur.com/fuuv2uP.jpg" tvg-id="animetv" group-title="Brazil",Anime TV
 https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="City TV Ⓢ" tvg-logo="https://i.imgur.com/BjRTbrU.png" tvg-id="citytv" group-title="Bulgaria",City TV Ⓢ
+https://tv.city.bg/play/tshls/citytv/index.m3u8
+
 #EXTINF:-1 tvg-name="CBC Toronto" tvg-logo="https://i.imgur.com/H5yEbxf.png" tvg-id="cbctoronto" group-title="Canada",CBC Toronto
 https://bozztv.com/teleyupp1/teleup-ydcl2V1MVC/playlist.m3u8
 
@@ -205,9 +208,6 @@ https://5f22d76e220e1.streamlock.net/GrandeItalia/GrandeItalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
-
-#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
 https://nuovatv.net:8443/tv2/stream.m3u8
@@ -508,6 +508,9 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Porto Canal Ⓢ" tvg-logo="https://i.imgur.com/wsyvP2H.png" tvg-id="portocanal" group-title="Portugal",Porto Canal Ⓢ
 https://streamer-a01.videos.sapo.pt/live/portocanal/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ADtv Ⓢ" tvg-logo="https://i.imgur.com/FvlcU3z.png" tvg-id="adtv" group-title="Portugal",ADtv Ⓢ
+https://playout172.livextend.cloud/liveiframe/_definst_/ngrp:liveartvabr_abr/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Prima TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Prima_TV_%28Rumaenien%29_Logo.svg/512px-Prima_TV_%28Rumaenien%29_Logo.svg.png" tvg-id="primatv" group-title="Romania",Prima TV
 https://stream1.1616.ro:1945/prima/livestream/playlist.m3u8
