@@ -6821,6 +6821,9 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
+https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
 
@@ -13181,6 +13184,9 @@ https://srvx1.selftv.video/cafe/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Calabria Uno Tv" tvg-logo="https://i.imgur.com/2TK1GQ5.png" tvg-id="calabriaunotv" group-title="Italy",Calabria Uno Tv
 https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
+https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Canale 10" tvg-logo="https://i.imgur.com/KuQcjYV.png" tvg-id="canale10" group-title="Italy",Canale 10
 https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8
 
@@ -13724,6 +13730,9 @@ https://www.telesirio.it/live/stream.m3u8
 #EXTINF:-1 tvg-name="Tele Spazio Messina" tvg-logo="https://i.imgur.com/Io5w6lT.png" tvg-id="telespaziomessina" group-title="Italy",Tele Spazio Messina
 https://rtm.cyberspazio.cloud:5443/LiveApp/streams/049229794390395765037801.m3u8
 
+#EXTINF:-1 tvg-name="Tele Sud Puglia" tvg-logo="https://i.imgur.com/fqTLtvs.png" tvg-id="telesudpuglia" group-title="Italy",Tele Sud Puglia
+https://64b16f23efbee.streamlock.net/telesud/telesud/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Tele Tricolore" tvg-logo="https://i.imgur.com/A2XouAd.png" tvg-id="teletricolore" group-title="Italy",Tele Tricolore
 https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8
 
@@ -13786,6 +13795,9 @@ https://livetr.teleromagna.it/mia/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TeleRomaDue" tvg-logo="https://i.imgur.com/78hA7ma.png" tvg-id="teleromadue" group-title="Italy",TeleRomaDue
 https://57068da1deb21.streamlock.net/teletibur/teletibur/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Telesud Trapani" tvg-logo="https://i.imgur.com/tpZvU1P.png" tvg-id="telesudtrapani" group-title="Italy",Telesud Trapani
+https://64b16f23efbee.streamlock.net/telesudtrapani/telesudtrapani/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telesveva" tvg-logo="https://i.imgur.com/SCDETZC.jpeg" tvg-id="telesveva" group-title="Italy",Telesveva
 https://dc3.telesveva.com:4433/cmaf/livetv/index.mpd
@@ -15557,12 +15569,6 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 #EXTINF:-1 tvg-name="РТР Планета СНГ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Moldova",РТР Планета СНГ
 https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f
 
-#EXTINF:-1 tvg-name="TV Monaco" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TVMonaco_2023.svg/320px-TVMonaco_2023.svg.png" tvg-id="tvmonaco" group-title="Monaco",TV Monaco
-https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/2027/media.m3u8
-
-#EXTINF:-1 tvg-name="MonacoInfo" tvg-logo="https://www.lyngsat.com/logo/tv/mm/monaco_info.png" tvg-id="monacoinfo" group-title="Monaco",MonacoInfo
-https://webtvmonacoinfo.mc/live/prod_720/index.m3u8
-
 #EXTINF:-1 tvg-name="like Gecko) Mobile/15E148"" tvg-logo="https://i.imgur.com/vSz2WEp.png" tvg-id="likegeckomobile15e148" group-title="Monaco",like Gecko) Mobile/15E148"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
 
@@ -15664,18 +15670,6 @@ https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/
 
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Monaco",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
-
-#EXTINF:-1 tvg-name="TVCG 1" tvg-logo="https://i.imgur.com/QORHrXu.png" tvg-id="tvcg1" group-title="Montenegro",TVCG 1
-http://cdn3.bcdn.rs:1935/cg1/smil:cg1.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TVCG 2" tvg-logo="https://i.imgur.com/WECmUKH.png" tvg-id="tvcg2" group-title="Montenegro",TVCG 2
-http://cdn3.bcdn.rs:1935/cg2/smil:cg2.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TVCG 3" tvg-logo="https://i.imgur.com/XC7zVog.png" tvg-id="tvcg3" group-title="Montenegro",TVCG 3
-https://parlament.rtcg.me:1936/pr/smil:parlament.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TVCG MNE" tvg-logo="https://i.imgur.com/pf8VEwf.png" tvg-id="tvcgmne" group-title="Montenegro",TVCG MNE
-http://cdn3.bcdn.rs:1935/cgsat/smil:cgsat.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Al Jazeera Balkans (1080p)" tvg-logo="https://i.imgur.com/vMzCr8O.png" tvg-id="aljazeerabalkans" group-title="Montenegro",Al Jazeera Balkans (1080p)
 https://live-hls-apps-ajb-v3-fa.getaj.net/AJB/index.m3u8
@@ -23723,87 +23717,6 @@ http://46.175.163.130/ks_plus/index.m3u8
 #EXTINF:-1 tvg-name="ЧП Инфо (576p)" tvg-logo="https://i.imgur.com/2cYzroj.png" tvg-id="" group-title="Ukraine",ЧП Инфо (576p)
 http://edge3.iptv.macc.com.ua/life/magnolia_3/index.m3u8
 
-#EXTINF:-1 tvg-name="Cartoon Network Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_Arabic_logo.png" tvg-id="cartoonnetworkarabic" group-title="United_arab_emirates",Cartoon Network Arabic
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
-
-#EXTINF:-1 tvg-name="Al Arabiya Business" tvg-logo="https://i.imgur.com/eEV4r6J.jpg" tvg-id="alarabiyabusiness" group-title="United_arab_emirates",Al Arabiya Business
-https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="MBC 1" tvg-logo="https://i.imgur.com/CiA3plN.png" tvg-id="mbc1" group-title="United_arab_emirates",MBC 1
-https://mbc1-enc.edgenextcdn.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index.m3u8
-
-#EXTINF:-1 tvg-name="MBC 2 Ⓢ" tvg-logo="https://i.imgur.com/n9mSHuP.png" tvg-id="mbc2" group-title="United_arab_emirates",MBC 2 Ⓢ
-http://37.122.156.107:4000/play/a07g/index.m3u8
-
-#EXTINF:-1 tvg-name="MBC 3" tvg-logo="https://i.imgur.com/PVt8OPN.png" tvg-id="mbc3" group-title="United_arab_emirates",MBC 3
-https://shls-mbc3-prod-dub.shahid.net/out/v1/d5bbe570e1514d3d9a142657d33d85e6/index.m3u8
-
-#EXTINF:-1 tvg-name="MBC 4" tvg-logo="https://i.imgur.com/BcXASJp.png" tvg-id="mbc4" group-title="United_arab_emirates",MBC 4
-https://mbc4-prod-dub-ak.akamaized.net/out/v1/c08681f81775496ab4afa2bac7ae7638/index.m3u8
-
-#EXTINF:-1 tvg-name="MBC 5" tvg-logo="https://i.imgur.com/fRWaDyF.png" tvg-id="mbc5" group-title="United_arab_emirates",MBC 5
-https://shls-mbc5-prod-dub.shahid.net/out/v1/2720564b6a4641658fdfb6884b160da2/index.m3u8
-
-#EXTINF:-1 tvg-name="MBC Action Ⓢ" tvg-logo="https://i.imgur.com/OWZAghw.png" tvg-id="mbcaction" group-title="United_arab_emirates",MBC Action Ⓢ
-http://37.122.156.107:4000/play/a07h/index.m3u8
-
-#EXTINF:-1 tvg-name="MBC Bollywood" tvg-logo="https://i.imgur.com/TTAGFHG.png" tvg-id="mbcbollywood" group-title="United_arab_emirates",MBC Bollywood
-https://shls-mbcbollywood-prod-dub.shahid.net/out/v1/a79c9d7ef2a64a54a64d5c4567b3462a/index.m3u8
-
-#EXTINF:-1 tvg-name="MBC Drama" tvg-logo="https://i.imgur.com/g5PWnqp.png" tvg-id="mbcdrama" group-title="United_arab_emirates",MBC Drama
-https://mbc1-enc.edgenextcdn.net/out/v1/b0b3a0e6750d4408bb86d703d5feffd1/index.m3u8
-
-#EXTINF:-1 tvg-name="MBC Max Ⓢ" tvg-logo="https://i.imgur.com/A02CptP.png" tvg-id="mbcmax" group-title="United_arab_emirates",MBC Max Ⓢ
-http://37.122.156.107:4000/play/a07i/index.m3u8
-
-#EXTINF:-1 tvg-name="MBC Persia" tvg-logo="https://i.imgur.com/4FXiyjn.png" tvg-id="mbcpersia" group-title="United_arab_emirates",MBC Persia
-https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8
-
-#EXTINF:-1 tvg-name="Wanasah" tvg-logo="https://i.imgur.com/nLtiXNf.png" tvg-id="wanasah" group-title="United_arab_emirates",Wanasah
-https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
-
-#EXTINF:-1 tvg-name="Sky News Arabia" tvg-logo="https://i.imgur.com/SvjU4h6.png" tvg-id="skynewsarabia" group-title="United_arab_emirates",Sky News Arabia
-https://stream.skynewsarabia.com/hls/sna.m3u8
-
-#EXTINF:-1 tvg-name="Baynounah TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Baynounah_tv_2023.png" tvg-id="baynounahtv" group-title="United_arab_emirates",Baynounah TV
-https://vo-live.cdb.cdn.orange.com/Content/Channel/Baynounah/HLS/index.m3u8
-
-#EXTINF:-1 tvg-name="Ajman TV" tvg-logo="https://pbs.twimg.com/profile_images/1085187553563561990/KRKuK_iW_400x400.jpg" tvg-id="ajmantv" group-title="United_arab_emirates",Ajman TV
-https://dacastmmd.mmdlive.lldns.net/dacastmmd/8eb0e912b49142d7a01d779c9374aba9/index.m3u8
-
-#EXTINF:-1 tvg-name="Al Aan TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/76/Al_Aan_TV_new_Logo.png" tvg-id="alaantv" group-title="United_arab_emirates",Al Aan TV
-https://shls-live-ak.akamaized.net/out/v1/dfbdea4c1bf149629764e58c6ff314c8/index.m3u8
-
-#EXTINF:-1 tvg-name="Abu Dhabi TV" tvg-logo="https://i.imgur.com/7cNke07.png" tvg-id="abudhabitv" group-title="United_arab_emirates",Abu Dhabi TV
-http://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-name="Abu Dhabi Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Abu_Dhabi_Sports_logo_2023.svg/2560px-Abu_Dhabi_Sports_logo_2023.svg.png" tvg-id="abudhabisports1" group-title="United_arab_emirates",Abu Dhabi Sports 1
-https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
-
-#EXTINF:-1 tvg-name="Abu Dhabi Sports 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Abu_Dhabi_Sports_logo_2023.svg/2560px-Abu_Dhabi_Sports_logo_2023.svg.png" tvg-id="abudhabisports2" group-title="United_arab_emirates",Abu Dhabi Sports 2
-https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8
-
-#EXTINF:-1 tvg-name="National Geographic Abu Dhabi" tvg-logo="https://i.imgur.com/fNA00VF.png" tvg-id="nationalgeographicabudhabi" group-title="United_arab_emirates",National Geographic Abu Dhabi
-https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Ajman TV" tvg-logo="https://www.lyngsat.com/logo/tv/aa/ajman-tv-ae.png" tvg-id="ajmantv" group-title="United_arab_emirates",Ajman TV
-https://dacastmmd.mmdlive.lldns.net/dacastmmd/8eb0e912b49142d7a01d779c9374aba9/index.m3u8
-
-#EXTINF:-1 tvg-name="Dubai Sports 2" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dubai-sports-ae.png" tvg-id="dubaisports2" group-title="United_arab_emirates",Dubai Sports 2
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
-
-#EXTINF:-1 tvg-name="Dubai Sports 3" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dubai-sports-ae.png" tvg-id="dubaisports3" group-title="United_arab_emirates",Dubai Sports 3
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
-
-#EXTINF:-1 tvg-name="Sharjah TV" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sharjah-tv-ae.png" tvg-id="sharjahtv" group-title="United_arab_emirates",Sharjah TV
-https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Sharjah Sports" tvg-logo="https://i.imgur.com/IaRaabJ.jpg" tvg-id="sharjahsports" group-title="United_arab_emirates",Sharjah Sports
-https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Al Wousta" tvg-logo="https://i5.satexpat.com/cha/ae/al-wousta-95x90.gif" tvg-id="alwousta" group-title="United_arab_emirates",Al Wousta
-https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="2M Monde" tvg-logo="https://i.imgur.com/MvpntzA.png" tvg-id="2mmonde" group-title="United_arab_emirates",2M Monde
 #EXTVLCOPT:http-referrer=https://2m.ma
 
@@ -28078,87 +27991,6 @@ https://player.smotrim.ru/iframe/stream/live_id/cf22fa5c-e21a-433e-8317-7e8dd315
 
 #EXTINF:-1 tvg-name="like Gecko) Mobile/15E148"" tvg-logo="https://i.imgur.com/AXmXw9X.png" tvg-id="likegeckomobile15e148" group-title="Usa",like Gecko) Mobile/15E148"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
-
-#EXTINF:-1 tvg-name="Bumblebee TV Aurora Live" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvauroralive" group-title="Usa",Bumblebee TV Aurora Live
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV AutoMoto" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvautomoto" group-title="Usa",Bumblebee TV AutoMoto
-https://stitcheraws.unreel.me/wse-node01.powr.com/live/5bf220fad5eeee0f5a40941a/playlist.m3u8
-
-#EXTINF:-1 tvg-name="BumblebeeTV Beaches Live" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvbeacheslive" group-title="Usa",BumblebeeTV Beaches Live
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95396f932c837b49397360/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Classics 2" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvclassics2" group-title="Usa",Bumblebee TV Classics 2
-https://stitcheraws.unreel.me/wse-node05.powr.com/live/60f881602da3a5575eceb854/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV CoronaVirus.Gov" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvcoronavirusgov" group-title="Usa",Bumblebee TV CoronaVirus.Gov
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5e7559e8a46b495a2283c5e8/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Country Boy Kids Video.us" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvcountryboykidsvideous" group-title="Usa",Bumblebee TV Country Boy Kids Video.us
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf225aed5eeee0f5a4094bd/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Cute Zone" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvcutezone" group-title="Usa",Bumblebee TV Cute Zone
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22518d5eeee0f5a409486/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Epic M" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvepicm" group-title="Usa",Bumblebee TV Epic M
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22225d5eeee0f5a40941d/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV FGTV" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvfgtv" group-title="Usa",Bumblebee TV FGTV
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5e2624990145130f25474620/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Forest Live" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvforestlive" group-title="Usa",Bumblebee TV Forest Live
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953836932c837b49397355/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Fun Zone" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvfunzone" group-title="Usa",Bumblebee TV Fun Zone
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5e2625030145130f25474622/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Giggle Zone" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvgigglezone" group-title="Usa",Bumblebee TV Giggle Zone
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22526d5eeee0f5a4094b8/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Lake Live" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvlakelive" group-title="Usa",Bumblebee TV Lake Live
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95385c932c837b49397356/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Lego Toons" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvlegotoons" group-title="Usa",Bumblebee TV Lego Toons
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22549d5eeee0f5a4094ba/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Lets Play Minecraft" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvletsplayminecraft" group-title="Usa",Bumblebee TV Lets Play Minecraft
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5e2625700145130f25474624/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV LifeBae" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvlifebae" group-title="Usa",Bumblebee TV LifeBae
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22681932c8304fc453418/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Master Builder" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvmasterbuilder" group-title="Usa",Bumblebee TV Master Builder
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf2256ed5eeee0f5a4094bb/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Mountain Live" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvmountainlive" group-title="Usa",Bumblebee TV Mountain Live
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95387b932c837b49397357/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Now You Know" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvnowyouknow" group-title="Usa",Bumblebee TV Now You Know
-https://stitcheraws.unreel.me/wse-node01.powr.com/live/5b284f40d5eeee07522b775e/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Recoil TV" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvrecoiltv" group-title="Usa",Bumblebee TV Recoil TV
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c7dff0f932c8368bdbfd5fd/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Rivers Live" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvriverslive" group-title="Usa",Bumblebee TV Rivers Live
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Smosh" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvsmosh" group-title="Usa",Bumblebee TV Smosh
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5e2625af5748670f12a3bee9/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Sunset Live" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvsunsetlive" group-title="Usa",Bumblebee TV Sunset Live
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Thinknoodles" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvthinknoodles" group-title="Usa",Bumblebee TV Thinknoodles
-https://stitcheraws.unreel.me/wse-node04.powr.com/live/5afc8Bumblebee+TV10e932c833522744733/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Toy Zone" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvtoyzone" group-title="Usa",Bumblebee TV Toy Zone
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22491932c8304fc4533e4/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Trinity Beyond" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvtrinitybeyond" group-title="Usa",Bumblebee TV Trinity Beyond
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5e2626030145130f25474626/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bumblebee TV Tropics Live" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bumblebeetvtropicslive" group-title="Usa",Bumblebee TV Tropics Live
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Venevisión" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logotipo_de_Venevisi%C3%B3n.svg/641px-Logotipo_de_Venevisi%C3%B3n.svg.png" tvg-id="venevisin" group-title="Venezuela",Venevisión
 https://venevision.akamaized.net/hls/live/2098814/VENEVISION/master.m3u8
