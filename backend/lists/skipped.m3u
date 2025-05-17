@@ -35,12 +35,6 @@ https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
 #EXTINF:-1 tvg-name="TV BPK Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/Logo_of_RTV_BPK_Gora%C5%BEde.jpg" tvg-id="tvbpk" group-title="Bosnia_and_herzegovina",TV BPK Ⓢ
 http://94.250.2.6:7374/play/a02u/index.m3u8
 
-#EXTINF:-1 tvg-name="RBC" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-id="rbc" group-title="Brazil",RBC
-http://rbc.directradios.com:1935/rbc/rbc/live.m3u8
-
-#EXTINF:-1 tvg-name="Anime TV" tvg-logo="https://i.imgur.com/fuuv2uP.jpg" tvg-id="animetv" group-title="Brazil",Anime TV
-https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="CBC Toronto" tvg-logo="https://i.imgur.com/H5yEbxf.png" tvg-id="cbctoronto" group-title="Canada",CBC Toronto
 https://bozztv.com/teleyupp1/teleup-ydcl2V1MVC/playlist.m3u8
 
@@ -110,14 +104,14 @@ https://player-api.new.livestream.com/accounts/26611954/events/7977299/broadcast
 #EXTINF:-1 tvg-name="Osječka televizija (OSTV) Ⓢ" tvg-logo="https://i.imgur.com/o9JgEyG.png" tvg-id="osjekatelevizija" group-title="Croatia",Osječka televizija (OSTV) Ⓢ
 https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcasts/237202062.secure.m3u8
 
-#EXTINF:-1 tvg-name="Šlágr Muzika Ⓢ" tvg-logo="https://i.imgur.com/J9YHDVS.png" tvg-id="lgrmuzika" group-title="Czech_republic",Šlágr Muzika Ⓢ
-https://stream-33.mazana.tv/slagr2.m3u
+#EXTINF:-1 tvg-name="RIK 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Logo_RIK_1_2017.svg/640px-Logo_RIK_1_2017.svg.png" tvg-id="rik1" group-title="Cyprus",RIK 1 Ⓢ
+http://l6.cloudskep.com/tvb6/rik1-1/mpeg.2ts
 
-#EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
-https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
+#EXTINF:-1 tvg-name="RIK 2 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Logo_RIK_2_2017.svg/640px-Logo_RIK_2_2017.svg.png" tvg-id="rik2" group-title="Cyprus",RIK 2 Ⓢ
+http://l6.cloudskep.com/tvb6/rik2-1/mpeg.2ts
 
-#EXTINF:-1 tvg-name="TV 2/Bornholm" tvg-logo="https://i.imgur.com/cEOpXU6.png" tvg-id="tv2bornholm" group-title="Denmark",TV 2/Bornholm
-https://live.tv2bornholm.dk/stream/live/playlist.m3u8
+#EXTINF:-1 tvg-name="RIK HD" tvg-logo="https://upload.wikimedia.org/wikipedia/el/7/7d/RIKHD2.png" tvg-id="rik" group-title="Cyprus",RIK HD
+http://l6.cloudskep.com/tvb6/rikhd1/mpeg.2ts
 
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
@@ -290,9 +284,6 @@ https://router.xdevel.com/video0s86-21/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Telesud Trapani" tvg-logo="https://i.imgur.com/tpZvU1P.png" tvg-id="telesudtrapani" group-title="Italy",Telesud Trapani
 https://64b16f23efbee.streamlock.net/telesudtrapani/telesudtrapani/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Tv Yes" tvg-logo="https://i.imgur.com/1wsO8U7.png" tvg-id="tvyes" group-title="Italy",Tv Yes
-https://stream1.aswifi.it/radioyes/live/index.m3u8
-
 #EXTINF:-1 tvg-name="Tvm Palermo" tvg-logo="https://i.imgur.com/uqOdAXB.png" tvg-id="tvmpalermo" group-title="Italy",Tvm Palermo
 https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8
 
@@ -445,6 +436,9 @@ http://ye23.vip/z7z8/2021/kbs2020.php?id=3
 
 #EXTINF:-1 tvg-name="Lietuvos Rytas TV Ⓢ" tvg-logo="https://i.imgur.com/5wpxVI0.png" tvg-id="lietuvosrytastv" group-title="Lithuania",Lietuvos Rytas TV Ⓢ
 http://lr-live.cdn.balt.net/live/smil:lrytas.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ONE TV" tvg-logo="https://i.imgur.com/Ym1L7No.png" tvg-id="onetv" group-title="Malta",ONE TV
+https://2-fss-2.streamhoster.com/pl_124/201830-1293592-1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RCG 3 Saltillo" tvg-logo="https://i.imgur.com/NefH5qZ.png" tvg-id="rcg3saltillo" group-title="Mexico",RCG 3 Saltillo
 http://wowzacontrol.com:1936/stream56/stream56/playlist.m3u8
@@ -646,13 +640,4 @@ https://dmieigthvll.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/playl
 
 #EXTINF:-1 tvg-name="Noor Dubai" tvg-logo="https://i.imgur.com/DLe7ZuM.png" tvg-id="noordubai" group-title="United_arab_emirates",Noor Dubai
 https://dmiffthvll.cdn.mangomolo.com/noordubaitv/smil:noordubaitv.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Stadium" tvg-logo="https://i.imgur.com/6ae9E8d.png" tvg-id="stadium" group-title="Usa",Stadium
-https://bcovlive-a.akamaihd.net/e64d564b9275484f85981d8c146fb915/us-east-1/5994000126001/profile_1/976f34cf5a614518b7b539cbf9812080/chunklist_ssaiV.m3u8
-
-#EXTINF:-1 tvg-name="Biz TV" tvg-logo="https://i.imgur.com/cbGvXyF.jpg" tvg-id="biztv" group-title="Usa",Biz TV
-https://thegateway.app/BizTV/BizTV-Tones/chunks.m3u8?nimblesessionid=94690008
-
-#EXTINF:-1 tvg-name="NASA TV Public" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="nasatvpublic" group-title="Usa",NASA TV Public
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 
