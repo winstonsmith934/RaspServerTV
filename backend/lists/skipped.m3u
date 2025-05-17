@@ -20,20 +20,17 @@ https://tvsn-i.akamaihd.net/hls/live/261837/tvsn/tvsn_750.m3u8
 #EXTINF:-1 tvg-name="Racing.com" tvg-logo="https://i.imgur.com/pma0OCf.png" tvg-id="racingcom" group-title="Australia",Racing.com
 https://racingvic-i.akamaized.net/hls/live/598695/racingvic/1500.m3u8
 
-#EXTINF:-1 tvg-name="ARB 24" tvg-logo="https://i.imgur.com/mtvIFyq.png" tvg-id="arb24" group-title="Azerbaijan",ARB 24
-http://85.132.81.184:8080/arb/live/index.m3u8
-
-#EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/640px-Baku_TV_%282018%29.png" tvg-id="bakutv" group-title="Azerbaijan",Baku TV
-https://rtmp.baku.tv/live/bakutv_720p.m3u8
-
-#EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
-http://rtmp.one.by:1200
-
 #EXTINF:-1 tvg-name="BHT 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Logo_of_BHT_1_%282003-2012%29.png" tvg-id="bht1" group-title="Bosnia_and_herzegovina",BHT 1 Ⓢ
 https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
 
 #EXTINF:-1 tvg-name="TV BPK Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/Logo_of_RTV_BPK_Gora%C5%BEde.jpg" tvg-id="tvbpk" group-title="Bosnia_and_herzegovina",TV BPK Ⓢ
 http://94.250.2.6:7374/play/a02u/index.m3u8
+
+#EXTINF:-1 tvg-name="RBC" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-id="rbc" group-title="Brazil",RBC
+http://rbc.directradios.com:1935/rbc/rbc/live.m3u8
+
+#EXTINF:-1 tvg-name="Anime TV" tvg-logo="https://i.imgur.com/fuuv2uP.jpg" tvg-id="animetv" group-title="Brazil",Anime TV
+https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBC Toronto" tvg-logo="https://i.imgur.com/H5yEbxf.png" tvg-id="cbctoronto" group-title="Canada",CBC Toronto
 https://bozztv.com/teleyupp1/teleup-ydcl2V1MVC/playlist.m3u8
@@ -112,6 +109,15 @@ http://l6.cloudskep.com/tvb6/rik2-1/mpeg.2ts
 
 #EXTINF:-1 tvg-name="RIK HD" tvg-logo="https://upload.wikimedia.org/wikipedia/el/7/7d/RIKHD2.png" tvg-id="rik" group-title="Cyprus",RIK HD
 http://l6.cloudskep.com/tvb6/rikhd1/mpeg.2ts
+
+#EXTINF:-1 tvg-name="Šlágr Muzika Ⓢ" tvg-logo="https://i.imgur.com/J9YHDVS.png" tvg-id="lgrmuzika" group-title="Czech_republic",Šlágr Muzika Ⓢ
+https://stream-33.mazana.tv/slagr2.m3u
+
+#EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
+https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TV 2/Bornholm" tvg-logo="https://i.imgur.com/cEOpXU6.png" tvg-id="tv2bornholm" group-title="Denmark",TV 2/Bornholm
+https://live.tv2bornholm.dk/stream/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
@@ -533,9 +539,6 @@ https://player.smotrim.ru/iframe/stream/live_id/63338
 #EXTINF:-1 tvg-name="Ю Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/a/ac/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%AE%C2%BB_%28%D1%81_3_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2018_%D0%B3%D0%BE%D0%B4%D0%B0%29.png" tvg-id="" group-title="Russia",Ю Ⓢ
 https://strm.yandex.ru/kal/utv/utv0.m3u8
 
-#EXTINF:-1 tvg-name="San Marino Rtv" tvg-logo="https://i.imgur.com/lJpOlLv.png" tvg-id="sanmarinortv" group-title="San_marino",San Marino Rtv
-https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/chunklist_b2192000_slita.m3u8
-
 #EXTINF:-1 tvg-name="Dacwa TV Ⓢ" tvg-logo="https://i.imgur.com/rMqrLzV.png" tvg-id="dacwatv" group-title="Somalia",Dacwa TV Ⓢ
 https://ap02.iqplay.tv:8082/iqb8002/d13w1/playlist.m3u8
 
@@ -550,24 +553,6 @@ https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 
 #EXTINF:-1 tvg-name="7 Región de Murcia" tvg-logo="https://i.imgur.com/TCL7M8r.png" tvg-id="7regindemurcia" group-title="Spain",7 Región de Murcia
 https://rtv-murcia-live.globalmest.com/stream/abr/first_1080.m3u8
-
-#EXTINF:-1 tvg-name="SVT 1 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SVT1_logo_2016.svg/800px-SVT1_logo_2016.svg.png" tvg-id="svt1" group-title="Sweden",SVT 1 Ⓖ
-https://ed2.cdn.svt.se/ed7/d1/c/se/svt1/manifest.mpd?defaultSubLang=1
-
-#EXTINF:-1 tvg-name="SVT 2 Ⓖ" tvg-logo="https://i.imgur.com/iB3veGx.png" tvg-id="svt2" group-title="Sweden",SVT 2 Ⓖ
-https://ed2.cdn.svt.se/ed7/d1/c/se/svt2/manifest.mpd?defaultSubLang=1
-
-#EXTINF:-1 tvg-name="ATG Live Ⓢ" tvg-logo="https://i.imgur.com/bPWFXkL.png" tvg-id="atglive" group-title="Sweden",ATG Live Ⓢ
-https://httpcache0-00688-cacheliveedge0.dna.qbrick.com/00688-cacheliveedge0/out/u/atg_sdi_1_free.m3u8
-
-#EXTINF:-1 tvg-name="SVT 24 Ⓖ" tvg-logo="https://i.imgur.com/o9M7Tiq.png" tvg-id="svt24" group-title="Sweden",SVT 24 Ⓖ
-https://ed2.cdn.svt.se/ed7/d1/c/se/svtb/manifest.mpd?defaultSubLang=1
-
-#EXTINF:-1 tvg-name="Kunskapskanalen Ⓖ" tvg-logo="https://i.imgur.com/9YBxoGc.png" tvg-id="kunskapskanalen" group-title="Sweden",Kunskapskanalen Ⓖ
-https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
-
-#EXTINF:-1 tvg-name="Suryoyo Sat" tvg-logo="https://i.imgur.com/naCNjaB.png" tvg-id="suryoyosat" group-title="Sweden",Suryoyo Sat
-https://player-api.new.livestream.com/accounts/10187302/events/6785118/broadcasts/237816618.secure.m3u8
 
 #EXTINF:-1 tvg-name="Ideal World" tvg-logo="https://i.imgur.com/su6GH7i.png" tvg-id="idealworld" group-title="Uk",Ideal World
 https://ythls.armelin.one/channel/UCJbgGTpBWuC87VFIKTTO4RQ.m3u8
@@ -640,4 +625,13 @@ https://dmieigthvll.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/playl
 
 #EXTINF:-1 tvg-name="Noor Dubai" tvg-logo="https://i.imgur.com/DLe7ZuM.png" tvg-id="noordubai" group-title="United_arab_emirates",Noor Dubai
 https://dmiffthvll.cdn.mangomolo.com/noordubaitv/smil:noordubaitv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Stadium" tvg-logo="https://i.imgur.com/6ae9E8d.png" tvg-id="stadium" group-title="Usa",Stadium
+https://bcovlive-a.akamaihd.net/e64d564b9275484f85981d8c146fb915/us-east-1/5994000126001/profile_1/976f34cf5a614518b7b539cbf9812080/chunklist_ssaiV.m3u8
+
+#EXTINF:-1 tvg-name="Biz TV" tvg-logo="https://i.imgur.com/cbGvXyF.jpg" tvg-id="biztv" group-title="Usa",Biz TV
+https://thegateway.app/BizTV/BizTV-Tones/chunks.m3u8?nimblesessionid=94690008
+
+#EXTINF:-1 tvg-name="NASA TV Public" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="nasatvpublic" group-title="Usa",NASA TV Public
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 
