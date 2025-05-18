@@ -116,12 +116,6 @@ http://l6.cloudskep.com/tvb6/rik2-1/mpeg.2ts
 #EXTINF:-1 tvg-name="RIK HD" tvg-logo="https://upload.wikimedia.org/wikipedia/el/7/7d/RIKHD2.png" tvg-id="rik" group-title="Cyprus",RIK HD
 http://l6.cloudskep.com/tvb6/rikhd1/mpeg.2ts
 
-#EXTINF:-1 tvg-name="Šlágr Muzika Ⓢ" tvg-logo="https://i.imgur.com/J9YHDVS.png" tvg-id="lgrmuzika" group-title="Czech_republic",Šlágr Muzika Ⓢ
-https://stream-33.mazana.tv/slagr2.m3u
-
-#EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
-https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TV 2/Bornholm" tvg-logo="https://i.imgur.com/cEOpXU6.png" tvg-id="tv2bornholm" group-title="Denmark",TV 2/Bornholm
 https://live.tv2bornholm.dk/stream/live/playlist.m3u8
 
@@ -152,9 +146,6 @@ https://c201-node61-cdn.connectmedia.hu/110102/7184521041cf54cee9c6548e8d0ba377/
 #EXTINF:-1 tvg-name="M4 Sport" tvg-logo="https://nb1.hu/uploads/news/3/31023.jpg" tvg-id="m4sport" group-title="Hungary",M4 Sport
 https://c401-node62-cdn.connectmedia.hu/110110/5dd8dc6d853c9b7f94db85646ed44326/641177e3/index.m3u8
 
-#EXTINF:-1 tvg-name="BeritaSatu" tvg-logo="https://imgur.com/vYJVT07" tvg-id="beritasatu" group-title="Indonesia",BeritaSatu
-https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
-
 #EXTINF:-1 tvg-name="Al-Hurra Iraq" tvg-logo="https://i.imgur.com/mXBZEQP.png" tvg-id="alhurrairaq" group-title="Iraq",Al-Hurra Iraq
 https://mbnvvideoingest-i.akamaihd.net/hls/live/1004674/MBNV_ALHURRA_IRAQ/playlist.m3u8
 
@@ -175,6 +166,9 @@ https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="abctv" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
+
+#EXTINF:-1 tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" tvg-id="aristanissupertv" group-title="Italy",Aristanis SuperTv
+https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="basilicata1tv" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
