@@ -2300,6 +2300,9 @@ https://www.youtube.com/watch?v=ABVQXgr2LW4
 #EXTINF:-1 tvg-name="Futura" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/d9/Logo-futura-horizontal.png" tvg-id="futura" group-title="Brazil",Futura
 https://tv.unisc.br/hls/test.m3u8
 
+#EXTINF:-1 tvg-name="Anime TV" tvg-logo="https://i.imgur.com/fuuv2uP.jpg" tvg-id="animetv" group-title="Brazil",Anime TV
+https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Record News" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/c/c7/Logotipo_da_Record_News_%282016%29.png" tvg-id="recordnews" group-title="Brazil",Record News
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116
 
@@ -6865,6 +6868,9 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
+https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -13388,9 +13394,6 @@ https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8
 #EXTINF:-1 tvg-name="Di.Tv 92" tvg-logo="https://i.imgur.com/g3SI08H.png" tvg-id="ditv92" group-title="Italy",Di.Tv 92
 https://media2021.rtvweb.com/di_tv_92/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Digital Tv7 Benevento" tvg-logo="https://i.imgur.com/NaQkklP.png" tvg-id="digitaltv7benevento" group-title="Italy",Digital Tv7 Benevento
-http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="E'live Brescia Tv" tvg-logo="https://i.imgur.com/bZ3B7pi.png" tvg-id="elivebresciatv" group-title="Italy",E'live Brescia Tv
 https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8
 
@@ -13858,6 +13861,9 @@ http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Radio Ercolano" tvg-logo="https://i.imgur.com/YPuoy8N.jpg" tvg-id="teleradioercolano" group-title="Italy",Tele Radio Ercolano
 https://rst.saiuzwebnetwork.it:19360/teleradioercolano-1/teleradioercolano-1.m3u8
+
+#EXTINF:-1 tvg-name="Tele Radio Orte" tvg-logo="https://i.imgur.com/uX2uxvN.png" tvg-id="teleradioorte" group-title="Italy",Tele Radio Orte
+https://flash2.xdevel.com/ortetv/ortetv/index.m3u8
 
 #EXTINF:-1 tvg-name="Tele Sirio" tvg-logo="https://i.imgur.com/mDN6QX1.png" tvg-id="telesirio" group-title="Italy",Tele Sirio
 https://www.telesirio.it/live/stream.m3u8
@@ -17050,6 +17056,15 @@ https://thema-vivekanald-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="VPItv (1080p)" tvg-logo="https://i.imgur.com/X5hyKU8.png" tvg-id="vpitv" group-title="Paraguay",VPItv (1080p)
 https://ott3.streann.com/loadbalancer/services/public/channels/5d23d5882cdce61dae029fd8/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ATV+ Noticias" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f4/Atv_noticias_logo.png" tvg-id="atvnoticias" group-title="Peru",ATV+ Noticias
+https://dysmuyxh5vstv.cloudfront.net/hls/atv2.m3u8
+
+#EXTINF:-1 tvg-name="Karibeña TV" tvg-logo="https://i.pinimg.com/280x280_RS/11/85/b6/1185b667fe3f80d7072359d7ce7ce52d.jpg" tvg-id="karibeatv" group-title="Peru",Karibeña TV
+https://cu.onliv3.com/livevd/user1.m3u8
+
+#EXTINF:-1 tvg-name="Top Latino TV" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/fTmfsKeREm.png" tvg-id="toplatinotv" group-title="Peru",Top Latino TV
+https://5cefcbf58ba2e.streamlock.net:543/tltvweb/latintv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Agrotendencia TV (1080p)" tvg-logo="https://i.imgur.com/frd60hR.png" tvg-id="agrotendenciatv" group-title="Peru",Agrotendencia TV (1080p)
 https://5fc584f3f19c9.streamlock.net/agrotendencia/videoagrotendencia_hls1/playlist.m3u8
@@ -20501,6 +20516,24 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Slovenia",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 
+#EXTINF:-1 tvg-name="MM Somali TV Ⓢ" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mm-somali-tv-so.png" tvg-id="mmsomalitv" group-title="Somalia",MM Somali TV Ⓢ
+https://cdn.mediavisionuk.com:9000/MMTV/index.m3u8
+
+#EXTINF:-1 tvg-name="Puntland TV Ⓢ" tvg-logo="https://i.imgur.com/C8EvQUo.png" tvg-id="puntlandtv" group-title="Somalia",Puntland TV Ⓢ
+http://cdn.mediavisionuae.com:1935/live/putlandtv2.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Saab TV Ⓢ" tvg-logo="https://i.imgur.com/JEC1J89.png" tvg-id="saabtv" group-title="Somalia",Saab TV Ⓢ
+https://ap02.iqplay.tv:8082/iqb8002/s03btv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="SBC Somalia Ⓢ" tvg-logo="https://i.imgur.com/VLhgTIA.png" tvg-id="sbcsomalia" group-title="Somalia",SBC Somalia Ⓢ
+http://cdn.mediavisionuae.com:1935/live/sbctv.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="SNTV Daljir Ⓢ" tvg-logo="https://i.imgur.com/Re3ur88.png" tvg-id="sntvdaljir" group-title="Somalia",SNTV Daljir Ⓢ
+https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Somali National TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/SNTV_REBRANDED_LOGO.png" tvg-id="somalinationaltv" group-title="Somalia",Somali National TV Ⓢ
+https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8
+
 #EXTINF:-1 tvg-name="2M Monde" tvg-logo="https://i.imgur.com/MvpntzA.png" tvg-id="2mmonde" group-title="Somalia",2M Monde
 #EXTVLCOPT:http-referrer=https://2m.ma
 
@@ -20683,6 +20716,63 @@ https://cdn.freevisiontv.co.za/sttv/smil:brics.stream.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Wanasah (1080p)" tvg-logo="https://i.imgur.com/nLtiXNf.png" tvg-id="wanasah" group-title="Somalia",Wanasah (1080p)
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
+
+#EXTINF:-1 tvg-name="La 1" tvg-logo="https://i.imgur.com/NbesiPn.png" tvg-id="la1" group-title="Spain",La 1
+https://rtvelivestream-clnx.rtve.es/rtvesec/la1/la1_main_720.m3u8
+
+#EXTINF:-1 tvg-name="La 2" tvg-logo="https://i.imgur.com/DmuTwDw.png" tvg-id="la2" group-title="Spain",La 2
+https://rtvelivestream-clnx.rtve.es/rtvesec/la2/la2_main_1080.m3u8
+
+#EXTINF:-1 tvg-name="24h" tvg-logo="https://i.imgur.com/ZKR2jKr.png" tvg-id="24h" group-title="Spain",24h
+https://rtvelivestream-clnx.rtve.es/rtvesec/24h/24h_main_720.m3u8
+
+#EXTINF:-1 tvg-name="tdp" tvg-logo="https://i.imgur.com/HliegRJ.png" tvg-id="tdp" group-title="Spain",tdp
+https://rtvelivestream-clnx.rtve.es/rtvesec/tdp/tdp_main_1080.m3u8
+
+#EXTINF:-1 tvg-name="clan" tvg-logo="https://i.imgur.com/38xIfQ3.png" tvg-id="clan" group-title="Spain",clan
+https://rtvelivestream-clnx.rtve.es/rtvesec/clan/clan_main_720.m3u8
+
+#EXTINF:-1 tvg-name="Telemadrid" tvg-logo="https://i.imgur.com/VSDsSTZ.png" tvg-id="telemadrid" group-title="Spain",Telemadrid
+https://telemadridhls2-live-hls.secure2.footprint.net/egress/chandler/telemadrid/telemadrid_1/bitrate_1.m3u8
+
+#EXTINF:-1 tvg-name="La Otra" tvg-logo="https://i.imgur.com/W1UZyXH.png" tvg-id="laotra" group-title="Spain",La Otra
+https://laotrahls2-live-hls.secure2.footprint.net/egress/chandler/telemadrid/laotra_1/bitrate_1.m3u8
+
+#EXTINF:-1 tvg-name="La 7 CYLTV" tvg-logo="https://i.imgur.com/o2FlMXP.png" tvg-id="la7cyltv" group-title="Spain",La 7 CYLTV
+https://cdnlive.shooowit.net/la7live/smil:channel1.smil/chunklist_b2200000.m3u8
+
+#EXTINF:-1 tvg-name="La 8 León" tvg-logo="https://i.imgur.com/mhK7EWO.png" tvg-id="la8len" group-title="Spain",La 8 León
+https://cdnlive.shooowit.net/la8leonlive/smil:streamswitchingchannel.smil/chunklist_b2200000.m3u8
+
+#EXTINF:-1 tvg-name="Televisión Canaria Ⓨ" tvg-logo="https://i.imgur.com/68LNS8e.png" tvg-id="televisincanaria" group-title="Spain",Televisión Canaria Ⓨ
+https://www.youtube.com/user/TelevisionCanaria/live
+
+#EXTINF:-1 tvg-name="IB3 Global Ⓨ" tvg-logo="https://i.imgur.com/b59MxgM.png" tvg-id="ib3global" group-title="Spain",IB3 Global Ⓨ
+https://www.youtube.com/c/ib3/live
+
+#EXTINF:-1 tvg-name="Canal Extremadura" tvg-logo="https://i.imgur.com/xBeywIA.png" tvg-id="canalextremadura" group-title="Spain",Canal Extremadura
+https://cdnlive.shooowit.net/canalextremaduralive/smil:channel1.smil/chunklist_b1500000.m3u8
+
+#EXTINF:-1 tvg-name="ETB1" tvg-logo="https://i.imgur.com/VBVu2bu.png" tvg-id="etb1" group-title="Spain",ETB1
+https://multimedia.eitb.eus/live-content/etb1hd-hls/bitrate_4.m3u8
+
+#EXTINF:-1 tvg-name="ETB2" tvg-logo="https://i.imgur.com/NZx7U6t.png" tvg-id="etb2" group-title="Spain",ETB2
+https://multimedia.eitb.eus/live-content/etb2hd-hls/bitrate_4.m3u8
+
+#EXTINF:-1 tvg-name="TV3 Cat" tvg-logo="https://i.imgur.com/rNQYHmx.png" tvg-id="tv3cat" group-title="Spain",TV3 Cat
+https://directes-tv-es.ccma.cat/live-origin/tvc-hls/bitrate_3.m3u8
+
+#EXTINF:-1 tvg-name="3/24" tvg-logo="https://i.imgur.com/b59MxgM.png" tvg-id="324" group-title="Spain",3/24
+https://directes-tv-int.ccma.cat/live-content/canal324-hls/master.m3u8
+
+#EXTINF:-1 tvg-name="Bon Dia" tvg-logo="https://i.imgur.com/XaiP3nJ.png" tvg-id="bondia" group-title="Spain",Bon Dia
+https://directes-tv-int.ccma.cat/live-content/bondia-hls/bitrate_3.m3u8
+
+#EXTINF:-1 tvg-name="Super3" tvg-logo="https://i.imgur.com/X9CLS4m.jpg" tvg-id="super3" group-title="Spain",Super3
+https://directes-tv-es.ccma.cat/live-origin/c33-super3-hls/bitrate_3.m3u8
+
+#EXTINF:-1 tvg-name="À Punt TV" tvg-logo="https://i.imgur.com/M88LoNl.png" tvg-id="punttv" group-title="Spain",À Punt TV
+https://bcovlive-a.akamaihd.net/469e448f034b4d46afa4bcac53297d60/eu-central-1/6057955885001/profile_0/chunklist_dvr.m3u8
 
 #EXTINF:-1 tvg-name="HQM Arabic" tvg-logo="https://hqm.es/wp-content/uploads/arabic-hqm-logo.png" tvg-id="hqmarabic" group-title="Spain",HQM Arabic
 https://livelist01.yowi.tv/lista/39596c72840d27b213caf4e58c39599a6f2ed203/master.m3u8
