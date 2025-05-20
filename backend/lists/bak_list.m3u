@@ -5780,6 +5780,9 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Denmark",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 
+#EXTINF:-1 tvg-name="Canal RTVD 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/CERTV_4_2015.png" tvg-id="canalrtvd4" group-title="Dominican_republic",Canal RTVD 4
+https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
+
 #EXTINF:-1 tvg-name="002 Radio TV (720p)" tvg-logo="https://i.imgur.com/7oNe8xj.png" tvg-id="002radiotv" group-title="Dominican_republic",002 Radio TV (720p)
 https://cdn.002radio.com:3909/live/radio002live.m3u8
 
@@ -6388,6 +6391,30 @@ https://ss9.domint.net:3002/xtr_str/xtremochannel/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Yunavisión (720p)" tvg-logo="https://i.imgur.com/YjceEv5.png" tvg-id="yunavisin" group-title="Dominican_republic",Yunavisión (720p)
 https://ss9.domint.net:3036/yv_str/yunavision/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ETV Ⓖ" tvg-logo="https://i.imgur.com/5URjPgG.png" tvg-id="etv" group-title="Estonia",ETV Ⓖ
+http://sb.err.ee/live/etv.m3u8
+
+#EXTINF:-1 tvg-name="ETV2 Ⓖ" tvg-logo="https://i.imgur.com/fUjGHDa.png" tvg-id="etv2" group-title="Estonia",ETV2 Ⓖ
+http://sb.err.ee/live/etv2.m3u8
+
+#EXTINF:-1 tvg-name="ETV+ Ⓖ" tvg-logo="https://i.imgur.com/YAubPlU.png" tvg-id="etv" group-title="Estonia",ETV+ Ⓖ
+http://sb.err.ee/live/etvpluss.m3u8
+
+#EXTINF:-1 tvg-name="Riigikogu" tvg-logo="https://i.imgur.com/7uWaZLF.png" tvg-id="riigikogu" group-title="Estonia",Riigikogu
+https://riigikogu.babahhcdn.com/bb1027/smil:riigikogu_ch1.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Taevas TV7" tvg-logo="https://i.imgur.com/usXedIj.png" tvg-id="taevastv7" group-title="Estonia",Taevas TV7
+https://vod.tv7.fi/tv7-ee/_definst_/smil:tv7-ee.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Life TV Estonia" tvg-logo="https://i.imgur.com/JhrTB82.png" tvg-id="lifetvestonia" group-title="Estonia",Life TV Estonia
+https://lifetv.bitflip.ee/live/stream2.m3u8
+
+#EXTINF:-1 tvg-name="Life TV Europe" tvg-logo="https://i.imgur.com/JhrTB82.png" tvg-id="lifetveurope" group-title="Estonia",Life TV Europe
+https://lifetv.bitflip.ee/live/stream1.m3u8
+
+#EXTINF:-1 tvg-name="TBN Baltia" tvg-logo="https://i.imgur.com/rKBaK56.png" tvg-id="tbnbaltia" group-title="Estonia",TBN Baltia
+http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
 
 #EXTINF:-1 tvg-name="7D7 (1080p)" tvg-logo="https://i.imgur.com/WrQI2EN.png" tvg-id="7d7" group-title="Estonia",7D7 (1080p)
 https://d7tv.pp.ua/hls/d7tv.m3u8
@@ -10856,6 +10883,33 @@ https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Iceland",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 
+#EXTINF:-1 tvg-name="NDTV India" tvg-logo="https://i.imgur.com/QjJYohG.png" tvg-id="ndtvindia" group-title="India",NDTV India
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
+
+#EXTINF:-1 tvg-name="ABP News" tvg-logo="https://i.imgur.com/DKHUFVQ.png" tvg-id="abpnews" group-title="India",ABP News
+https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8
+
+#EXTINF:-1 tvg-name="DD National Ⓨ" tvg-logo="https://i.imgur.com/MohlE5B.png" tvg-id="ddnational" group-title="India",DD National Ⓨ
+https://www.youtube.com/doordarshan/live
+
+#EXTINF:-1 tvg-name="DD News Ⓨ" tvg-logo="https://i.imgur.com/znnVCEf.png" tvg-id="ddnews" group-title="India",DD News Ⓨ
+https://www.youtube.com/c/ddnews/live
+
+#EXTINF:-1 tvg-name="DD India Ⓨ" tvg-logo="https://i.imgur.com/45uptR8.png" tvg-id="ddindia" group-title="India",DD India Ⓨ
+https://www.youtube.com/DDIndia/live
+
+#EXTINF:-1 tvg-name="DD Bharati Ⓨ" tvg-logo="https://i.imgur.com/4tfUIEo.png" tvg-id="ddbharati" group-title="India",DD Bharati Ⓨ
+https://www.youtube.com/@ddbharati/live
+
+#EXTINF:-1 tvg-name="DD Kisan Ⓨ" tvg-logo="https://i.imgur.com/x56WJEa.png" tvg-id="ddkisan" group-title="India",DD Kisan Ⓨ
+https://www.youtube.com/@DDKisan/live
+
+#EXTINF:-1 tvg-name="DD Urdu Ⓨ" tvg-logo="https://i.imgur.com/OiQPS34.png" tvg-id="ddurdu" group-title="India",DD Urdu Ⓨ
+https://www.youtube.com/@DDUrdu/live
+
+#EXTINF:-1 tvg-name="India Today Ⓨ" tvg-logo="https://i.imgur.com/C7KK3Fd.png" tvg-id="indiatoday" group-title="India",India Today Ⓨ
+https://www.youtube.com/watch?v=sYZtOFzM78M
+
 #EXTINF:-1 tvg-name="9x Jhakaas" tvg-logo="https://i.imgur.com/aZ0f85I.png" tvg-id="9xjhakaas" group-title="India",9x Jhakaas
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 
@@ -13723,6 +13777,9 @@ https://59d7d6f47d7fc.streamlock.net/tv12/tv12/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tv Campi Flegrei" tvg-logo="https://i.imgur.com/9d2K1nX.png" tvg-id="tvcampiflegrei" group-title="Italy",Tv Campi Flegrei
 https://tv.radiosaiuz.com:3836/live/campiflegreilive.m3u8
+
+#EXTINF:-1 tvg-name="Tv Luna Napoli" tvg-logo="https://i.imgur.com/jxhuoyE.png" tvg-id="tvlunanapoli" group-title="Italy",Tv Luna Napoli
+https://diretta.arcapuglia.it:8080/live/teleluna/index.m3u8
 
 #EXTINF:-1 tvg-name="Tv Prato" tvg-logo="https://i.imgur.com/zDeVpZd.png" tvg-id="tvprato" group-title="Italy",Tv Prato
 https://live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/mono.m3u8
@@ -22816,9 +22873,6 @@ http://45.153.35.210:8000/play/UK_legend_sd/index.m3u8
 
 #EXTINF:-1 tvg-name="Great! Action Ⓢ" tvg-logo="https://i.imgur.com/O9eiO0I.png" tvg-id="greataction" group-title="Uk",Great! Action Ⓢ
 http://45.153.35.210:8000/play/UK_great_tv_action_sd/index.m3u8
-
-#EXTINF:-1 tvg-name="Food Network UK Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Food_Network_logo.svg/768px-Food_Network_logo.svg.png" tvg-id="foodnetworkuk" group-title="Uk",Food Network UK Ⓢ
-http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=45275
 
 #EXTINF:-1 tvg-name="GemsTV Ⓢ" tvg-logo="https://i.imgur.com/IR2sTag.png" tvg-id="gemstv" group-title="Uk",GemsTV Ⓢ
 http://57d6b85685bb8.streamlock.net:1935/abrgemporiaukgfx/livestream_360p/index.m3u8
