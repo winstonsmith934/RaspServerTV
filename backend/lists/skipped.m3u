@@ -203,6 +203,9 @@ https://5f22d76e220e1.streamlock.net/GrandeItalia/GrandeItalia/playlist.m3u8
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
 
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
+
 #EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
 https://nuovatv.net:8443/tv2/stream.m3u8
 
@@ -410,9 +413,6 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=7
 #EXTINF:-1 tvg-name="BS Nippon TV (BS日テレ)" tvg-logo="https://i.imgur.com/D8lhZCI.png" tvg-id="bsnippontv" group-title="Japan",BS Nippon TV (BS日テレ)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=7
 
-#EXTINF:-1 tvg-name="BS Asahi" tvg-logo="https://i.imgur.com/huXFL3A.png" tvg-id="bsasahi" group-title="Japan",BS Asahi
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=7&bind=0&uin=159413&playseek=0
-
 #EXTINF:-1 tvg-name="BS-TBS" tvg-logo="https://i.imgur.com/h20eGKq.png" tvg-id="bstbs" group-title="Japan",BS-TBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=7
 
@@ -472,6 +472,9 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo2/npo2.i
 
 #EXTINF:-1 tvg-name="NPO 3 Ⓖ" tvg-logo="https://i.imgur.com/dVB4Pqc.png" tvg-id="npo3" group-title="Netherlands",NPO 3 Ⓖ
 http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.isml/.m3u8
+
+#EXTINF:-1 tvg-name="Omroep Gelderland" tvg-logo="https://i.imgur.com/TPlyvUQ.png" tvg-id="omroepgelderland" group-title="Netherlands",Omroep Gelderland
+https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8
 
 #EXTINF:-1 tvg-name="Cool TV" tvg-logo="https://i.imgur.com/2tFrjUz.png" tvg-id="cooltv" group-title="North_macedonia",Cool TV
 https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
@@ -587,12 +590,6 @@ https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
 #EXTINF:-1 tvg-name="Suryoyo Sat" tvg-logo="https://i.imgur.com/naCNjaB.png" tvg-id="suryoyosat" group-title="Sweden",Suryoyo Sat
 https://player-api.new.livestream.com/accounts/10187302/events/6785118/broadcasts/237816618.secure.m3u8
 
-#EXTINF:-1 tvg-name="TRT Avaz" tvg-logo="https://i.imgur.com/VhTwXu5.png" tvg-id="trtavaz" group-title="Turkey",TRT Avaz
-https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-
-#EXTINF:-1 tvg-name="ITV 4" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/640px-ITV4_logo_%282022%29.svg.png" tvg-id="itv4" group-title="Uk",ITV 4
-http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=30530
-
 #EXTINF:-1 tvg-name="Ideal World" tvg-logo="https://i.imgur.com/su6GH7i.png" tvg-id="idealworld" group-title="Uk",Ideal World
 https://ythls.armelin.one/channel/UCJbgGTpBWuC87VFIKTTO4RQ.m3u8
 
@@ -637,9 +634,6 @@ http://as-hls-uk-live.akamaized.net/pool_904/live/uk/bbc_radio_five_live_sports_
 
 #EXTINF:-1 tvg-name="BBC Asian Network" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcasiannet-epg.png" tvg-id="bbcasiannetwork" group-title="Uk",BBC Asian Network
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d96000.norewind.m3u8
-
-#EXTINF:-1 tvg-name="TV7+" tvg-logo="https://i.imgur.com/PcTDZ8e.png" tvg-id="tv7" group-title="Ukraine",TV7+
-https://tv7plus.com/hls/tv7_site.m3u8
 
 #EXTINF:-1 tvg-name="Dubai TV" tvg-logo="https://i.imgur.com/wZMkKF7.png" tvg-id="dubaitv" group-title="United_arab_emirates",Dubai TV
 https://dmisxthvll.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/playlist.m3u8
