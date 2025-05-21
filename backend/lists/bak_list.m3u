@@ -13346,9 +13346,6 @@ https://dc3.telesveva.com:4433/news24.mp4
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
-
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -13888,6 +13885,9 @@ https://stream3.shopch.jp/HLS/master.m3u8
 
 #EXTINF:-1 tvg-name="NHK Kishou-Saigai Ⓢ" tvg-logo="https://i.imgur.com/oWKCBIz.png" tvg-id="nhkkishousaigai" group-title="Japan",NHK Kishou-Saigai Ⓢ
 https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
+
+#EXTINF:-1 tvg-name="BS Asahi" tvg-logo="https://i.imgur.com/huXFL3A.png" tvg-id="bsasahi" group-title="Japan",BS Asahi
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=7&bind=0&uin=159413&playseek=0
 
 #EXTINF:-1 tvg-name="BBC News Asia Pacific (720p)" tvg-logo="https://i.imgur.com/vSz2WEp.png" tvg-id="bbcnewsasiapacific" group-title="Japan",BBC News Asia Pacific (720p)
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
@@ -15748,9 +15748,6 @@ https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/1080p/prog_index.m3u8
 
 #EXTINF:-1 tvg-name="RTV Oost" tvg-logo="https://i.imgur.com/8ropV29.png" tvg-id="rtvoost" group-title="Netherlands",RTV Oost
 https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
-
-#EXTINF:-1 tvg-name="Omroep Gelderland" tvg-logo="https://i.imgur.com/TPlyvUQ.png" tvg-id="omroepgelderland" group-title="Netherlands",Omroep Gelderland
-https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8
 
 #EXTINF:-1 tvg-name="RTV Utrecht" tvg-logo="https://i.imgur.com/c0I24N6.png" tvg-id="rtvutrecht" group-title="Netherlands",RTV Utrecht
 http://media.rtvutrecht.nl/live/rtvutrecht/rtvutrecht/index.m3u8
@@ -22100,6 +22097,9 @@ https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT Belgesel" tvg-logo="https://i.imgur.com/MGO87pe.png" tvg-id="trtbelgesel" group-title="Turkey",TRT Belgesel
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
+#EXTINF:-1 tvg-name="TRT Avaz" tvg-logo="https://i.imgur.com/VhTwXu5.png" tvg-id="trtavaz" group-title="Turkey",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+
 #EXTINF:-1 tvg-name="TRT Kurdî" tvg-logo="https://i.imgur.com/6BpymfB.png" tvg-id="trtkurd" group-title="Turkey",TRT Kurdî
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 
@@ -22844,6 +22844,9 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_
 #EXTINF:-1 tvg-name="W Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/W_%28UKTV%29_2022.svg/640px-W_%28UKTV%29_2022.svg.png" tvg-id="w" group-title="Uk",W Ⓢ
 http://92.114.85.81:8000/play/a03x/index.m3u8
 
+#EXTINF:-1 tvg-name="ITV 4" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/640px-ITV4_logo_%282022%29.svg.png" tvg-id="itv4" group-title="Uk",ITV 4
+http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=30530
+
 #EXTINF:-1 tvg-name="E4 Extra Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/E4_Extra_logo_2022.svg/640px-E4_Extra_logo_2022.svg.png" tvg-id="e4" group-title="Uk",E4 Extra Ⓢ
 http://45.153.35.210:8000/play/UK_e4_extra_sd/index.m3u8
 
@@ -23152,6 +23155,9 @@ http://stream.ntktv.ua/s/ntk/ntk.m3u8
 
 #EXTINF:-1 tvg-name="TVA" tvg-logo="https://i.imgur.com/PtTQ5lv.png" tvg-id="tva" group-title="Ukraine",TVA
 https://hls.cdn.ua/tva.ua_live/livestream/chunklist_.m3u8
+
+#EXTINF:-1 tvg-name="TV7+" tvg-logo="https://i.imgur.com/PcTDZ8e.png" tvg-id="tv7" group-title="Ukraine",TV7+
+https://tv7plus.com/hls/tv7_site.m3u8
 
 #EXTINF:-1 tvg-name="11 Kanal (720p)" tvg-logo="https://i.imgur.com/y78saaG.png" tvg-id="11kanal" group-title="Ukraine",11 Kanal (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
