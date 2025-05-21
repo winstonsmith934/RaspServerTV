@@ -41,6 +41,9 @@ http://rbc.directradios.com:1935/rbc/rbc/live.m3u8
 #EXTINF:-1 tvg-name="Anime TV" tvg-logo="https://i.imgur.com/fuuv2uP.jpg" tvg-id="animetv" group-title="Brazil",Anime TV
 https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Rede Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Marca_rede_brasil_rgb-color.png" tvg-id="redebrasil" group-title="Brazil",Rede Brasil
+https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
+
 #EXTINF:-1 tvg-name="CBC Toronto" tvg-logo="https://i.imgur.com/H5yEbxf.png" tvg-id="cbctoronto" group-title="Canada",CBC Toronto
 https://bozztv.com/teleyupp1/teleup-ydcl2V1MVC/playlist.m3u8
 
@@ -137,9 +140,6 @@ https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
-#EXTINF:-1 tvg-name="TapahtumaTV Eveo" tvg-logo="https://i.imgur.com/sR8nA8w.png" tvg-id="tapahtumatveveo" group-title="Finland",TapahtumaTV Eveo
-https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
@@ -185,9 +185,6 @@ https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="abctv" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
-#EXTINF:-1 tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" tvg-id="aristanissupertv" group-title="Italy",Aristanis SuperTv
-https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="basilicata1tv" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
 
@@ -217,9 +214,6 @@ https://cdn15.streamshow.it/cloud-lucaniatv/lucaniatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Matrix Tv" tvg-logo="https://i.imgur.com/m1HeXrn.png" tvg-id="matrixtv" group-title="Italy",Matrix Tv
 https://5f22d76e220e1.streamlock.net/GrandeItalia/GrandeItalia/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Mediterranea Tv" tvg-logo="https://i.imgur.com/GUTOqRt.png" tvg-id="mediterraneatv" group-title="Italy",Mediterranea Tv
-https://stream1.aswifi.it/mediterraneatv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Medjugorje Italia Tv" tvg-logo="https://i.imgur.com/hkZScXf.png" tvg-id="medjugorjeitaliatv" group-title="Italy",Medjugorje Italia Tv
 https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
@@ -479,6 +473,9 @@ http://ye23.vip/z7z8/2021/kbs2020.php?id=9
 #EXTINF:-1 tvg-name="KBS Life" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/512px-KBS_Life.svg.png" tvg-id="kbslife" group-title="Korea",KBS Life
 http://ye23.vip/z7z8/2021/kbs2020.php?id=7
 
+#EXTINF:-1 tvg-name="KBS Story" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/512px-KBS_Story.svg.png" tvg-id="kbsstory" group-title="Korea",KBS Story
+http://ye23.vip/z7z8/2021/kbs2020.php?id=8
+
 #EXTINF:-1 tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" tvg-id="kbsworld" group-title="Korea",KBS World
 http://ye23.vip/z7z8/2021/kbs2020.php?id=3
 
@@ -550,6 +547,9 @@ https://player.smotrim.ru/iframe/stream/live_id/19201
 
 #EXTINF:-1 tvg-name="Россия-24 Ⓢ" tvg-logo="https://i.imgur.com/tpqsFzm.png" tvg-id="24" group-title="Russia",Россия-24 Ⓢ
 https://player.smotrim.ru/iframe/stream/live_id/21
+
+#EXTINF:-1 tvg-name="RT Д Русский Ⓖ" tvg-logo="https://i.imgur.com/v5fpEBo.png" tvg-id="rt" group-title="Russia",RT Д Русский Ⓖ
+https://hls.rt.com/hls/rtdru.m3u8
 
 #EXTINF:-1 tvg-name="РТР-Планета Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/RTR_Planeta_Europe.png" tvg-id="" group-title="Russia",РТР-Планета Ⓢ
 https://player.smotrim.ru/iframe/stream/live_id/63251
