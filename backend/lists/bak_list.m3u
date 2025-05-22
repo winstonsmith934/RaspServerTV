@@ -12809,6 +12809,9 @@ https://makan.media.kan.org.il/hls/live/2024680/2024680/master.m3u8
 #EXTINF:-1 tvg-name="כאן חינוכית" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/640px-KanHinuchit.svg.png" tvg-id="" group-title="Israel",כאן חינוכית
 https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8
 
+#EXTINF:-1 tvg-name="Knesset" tvg-logo="https://i.imgur.com/PEdXHSE.png" tvg-id="knesset" group-title="Israel",Knesset
+https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Alforat TV (1080p)" tvg-logo="https://i.imgur.com/f6PQzKd.png" tvg-id="alforattv" group-title="Israel",Alforat TV (1080p)
 http://95.216.180.111:1935/live/10/playlist.m3u8
 
@@ -13460,9 +13463,6 @@ https://live1.giocabet.tv/stream/6/index.m3u8
 #EXTINF:-1 tvg-name="Rete 8" tvg-logo="https://i.imgur.com/bGsjPRh.png" tvg-id="rete8" group-title="Italy",Rete 8
 https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Rete 8 Sport" tvg-logo="https://i.imgur.com/uUAjWlF.png" tvg-id="rete8sport" group-title="Italy",Rete 8 Sport
-https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Rete Biella Tv" tvg-logo="https://i.imgur.com/e2ryHx7.png" tvg-id="retebiellatv" group-title="Italy",Rete Biella Tv
 https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
 
@@ -13733,6 +13733,9 @@ https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Teleromagna 24" tvg-logo="https://i.imgur.com/Bpml478.png" tvg-id="teleromagna24" group-title="Italy",Teleromagna 24
 https://livetr.teleromagna.it/mia/live/playlist.m3u8
 
+#EXTINF:-1 tvg-name="TeleRomaDue" tvg-logo="https://i.imgur.com/78hA7ma.png" tvg-id="teleromadue" group-title="Italy",TeleRomaDue
+https://57068da1deb21.streamlock.net/teletibur/teletibur/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Telesveva" tvg-logo="https://i.imgur.com/SCDETZC.jpeg" tvg-id="telesveva" group-title="Italy",Telesveva
 https://dc3.telesveva.com:4433/cmaf/livetv/index.mpd
 
@@ -13798,9 +13801,6 @@ https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Uno4 Tv" tvg-logo="https://i.imgur.com/wfPPpBA.png" tvg-id="uno4tv" group-title="Italy",Uno4 Tv
 https://cdn.uno4.it/index.m3u8
-
-#EXTINF:-1 tvg-name="VB33" tvg-logo="https://i.imgur.com/ygDuIxU.png" tvg-id="vb33" group-title="Italy",VB33
-https://live.ipstream.it/vb33/vb33.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Video Calabria" tvg-logo="https://i.imgur.com/Bc2AvIm.png" tvg-id="videocalabria" group-title="Italy",Video Calabria
 https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/playlist.m3u8
@@ -20119,6 +20119,12 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 
 #EXTINF:-1 tvg-name="TV SLO 1" tvg-logo="https://i.imgur.com/YIZOtcm.png" tvg-id="tvslo1" group-title="Slovenia",TV SLO 1
 https://www.tvkaista.net/stream-forwarder/get.php?x=TVSLO1
+
+#EXTINF:-1 tvg-name="TV SLO 2" tvg-logo="https://i.imgur.com/mQe9U2h.png" tvg-id="tvslo2" group-title="Slovenia",TV SLO 2
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVSLO2
+
+#EXTINF:-1 tvg-name="TV SLO 3" tvg-logo="https://i.imgur.com/WGUyj7r.png" tvg-id="tvslo3" group-title="Slovenia",TV SLO 3
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVSLO3
 
 #EXTINF:-1 tvg-name="TV Koper/Capodistria" tvg-logo="https://i.imgur.com/NQvOJNh.png" tvg-id="tvkopercapodistria" group-title="Slovenia",TV Koper/Capodistria
 https://www.tvkaista.net/stream-forwarder/get.php?x=TVKC
