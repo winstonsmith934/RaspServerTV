@@ -1136,9 +1136,6 @@ https://amtv1.livestreamingcdn.com/am2abr/index.m3u8
 #EXTINF:-1 tvg-name="ABC" tvg-logo="https://i.imgur.com/5CVl5EF.png" tvg-id="abc" group-title="Australia",ABC
 https://c.mjh.nz/101002210221/
 
-#EXTINF:-1 tvg-name="TVSN" tvg-logo="https://i.imgur.com/p3QCBOo.png" tvg-id="tvsn" group-title="Australia",TVSN
-https://tvsn-i.akamaihd.net/hls/live/261837/tvsn/tvsn_750.m3u8
-
 #EXTINF:-1 tvg-name="ABC Me" tvg-logo="https://i.imgur.com/gBh54wY.png" tvg-id="abcme" group-title="Australia",ABC Me
 https://c.mjh.nz/101002210224/
 
@@ -13397,6 +13394,9 @@ https://tsw.streamingwebtv24.it:1936/paradisetv/paradisetv/playlist.m3u8
 #EXTINF:-1 tvg-name="Parole di Vita" tvg-logo="https://i.imgur.com/M9mIiZD.png" tvg-id="paroledivita" group-title="Italy",Parole di Vita
 https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Partenope Tv" tvg-logo="https://i.imgur.com/FtuWkj1.png" tvg-id="partenopetv" group-title="Italy",Partenope Tv
+https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8
+
 #EXTINF:-1 tvg-name="Peer Tv Alto Adige" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png" tvg-id="peertvaltoadige" group-title="Italy",Peer Tv Alto Adige
 https://iptv.peer.biz/live/peertv-it.m3u8
 
@@ -17555,9 +17555,6 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="RTP3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Rtp3.png" tvg-id="rtp3" group-title="Portugal",RTP3
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR=
 
-#EXTINF:-1 tvg-name="Porto Canal Ⓢ" tvg-logo="https://i.imgur.com/wsyvP2H.png" tvg-id="portocanal" group-title="Portugal",Porto Canal Ⓢ
-https://streamer-a01.videos.sapo.pt/live/portocanal/playlist.m3u8
-
 #EXTINF:-1 tvg-name="CNN Portugal" tvg-logo="https://i.imgur.com/NYH39xs.png" tvg-id="cnnportugal" group-title="Portugal",CNN Portugal
 https://sktv-forwarders.7m.pl/get.php?x=CNN_Portugal
 
@@ -20815,9 +20812,6 @@ https://www.youtube.com/user/TelevisionCanaria/live
 
 #EXTINF:-1 tvg-name="IB3 Global Ⓨ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/ib3-es.png" tvg-id="ib3global" group-title="Spain",IB3 Global Ⓨ
 https://www.youtube.com/c/ib3/live
-
-#EXTINF:-1 tvg-name="Canal Extremadura" tvg-logo="https://i.imgur.com/xBeywIA.png" tvg-id="canalextremadura" group-title="Spain",Canal Extremadura
-https://cdnapisec.kaltura.com/p/5581662/sp/558166200/playManifest/entryId/1_1u7ssdy3/protocol/https/format/applehttp/flavorIds/1_8xbndriw/a.m3u8
 
 #EXTINF:-1 tvg-name="ETB1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ETB1_2022_logo.svg/512px-ETB1_2022_logo.svg.png" tvg-id="etb1" group-title="Spain",ETB1
 https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
