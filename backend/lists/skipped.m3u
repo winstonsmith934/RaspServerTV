@@ -140,26 +140,8 @@ https://live.tv2bornholm.dk/stream/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ERT 2" tvg-logo="https://i.imgur.com/pcusPFl.png" tvg-id="ert2" group-title="Greece",ERT 2
-http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT 3" tvg-logo="https://i.imgur.com/KyhzDRm.png" tvg-id="ert3" group-title="Greece",ERT 3
-http://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3medium.m3u8
-
 #EXTINF:-1 tvg-name="Star Ⓖ" tvg-logo="https://i.imgur.com/CJOtJlL.png" tvg-id="star" group-title="Greece",Star Ⓖ
 https://livestar.siliconweb.com/media/star1/star1mediumhd.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 3" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports3" group-title="Greece",ERT Sports 3
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 4" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports4" group-title="Greece",ERT Sports 4
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 5" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports5" group-title="Greece",ERT Sports 5
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 6" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports6" group-title="Greece",ERT Sports 6
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_6/ert_sports_6medium.m3u8
 
 #EXTINF:-1 tvg-name="Dance TV" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="dancetv" group-title="Hungary",Dance TV
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
@@ -260,6 +242,9 @@ http://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/mono.
 #EXTINF:-1 tvg-name="Tele Belluno" tvg-logo="https://i.imgur.com/YiM2Z7E.png" tvg-id="telebelluno" group-title="Italy",Tele Belluno
 https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8
 
+#EXTINF:-1 tvg-name="Tele Mia" tvg-logo="https://i.imgur.com/SdXpCwL.png" tvg-id="telemia" group-title="Italy",Tele Mia
+https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
+
 #EXTINF:-1 tvg-name="Tele Occidente" tvg-logo="https://i.imgur.com/3aOiWKa.png" tvg-id="teleoccidente" group-title="Italy",Tele Occidente
 https://stream9.xdevel.com/video0s976532-1292/stream/playlist.m3u8
 
@@ -337,6 +322,9 @@ http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="VB33" tvg-logo="https://i.imgur.com/ygDuIxU.png" tvg-id="vb33" group-title="Italy",VB33
 https://live.ipstream.it/vb33/vb33.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Video Touring Tv" tvg-logo="https://i.imgur.com/E2Feao5.jpg" tvg-id="videotouringtv" group-title="Italy",Video Touring Tv
+https://streamingvideo.auranex.cloud/memfs/70baacad-47c6-41a6-aee0-86530c31e080.m3u8
 
 #EXTINF:-1 tvg-name="Vuemme Tv" tvg-logo="https://i.imgur.com/x5A0xU6.png" tvg-id="vuemmetv" group-title="Italy",Vuemme Tv
 https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8
@@ -581,6 +569,12 @@ https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 #EXTINF:-1 tvg-name="La 2" tvg-logo="https://i.imgur.com/DmuTwDw.png" tvg-id="la2" group-title="Spain",La 2
 https://di2qeq48iv8ps.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o8u23e6v7vptv/La_2_ES.m3u8
 
+#EXTINF:-1 tvg-name="Antena 3" tvg-logo="https://i.imgur.com/j3SP4BS.png" tvg-id="antena3" group-title="Spain",Antena 3
+http://185.189.225.150:85/Antena3HD/index.m3u8
+
+#EXTINF:-1 tvg-name="Telecinco" tvg-logo="https://i.imgur.com/JECsKdk.png" tvg-id="telecinco" group-title="Spain",Telecinco
+http://185.189.225.150:85/TeleCincoHD/index.m3u8
+
 #EXTINF:-1 tvg-name="24h" tvg-logo="https://i.imgur.com/ZKR2jKr.png" tvg-id="24h" group-title="Spain",24h
 https://d3pfmk89wc0vm9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-nlow3qkp9tmdm/24H_ES.m3u8
 
@@ -592,6 +586,9 @@ https://d2xqbi89ghm9hh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 tvg-name="Canal Sur Andalucía" tvg-logo="https://i.imgur.com/WcVOXPr.png" tvg-id="canalsurandaluca" group-title="Spain",Canal Sur Andalucía
 https://d35x6iaiw8f75z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kbwsl0jk1bvoo/canal_sur_andalucia_es.m3u8
+
+#EXTINF:-1 tvg-name="Canal Extremadura" tvg-logo="https://i.imgur.com/xBeywIA.png" tvg-id="canalextremadura" group-title="Spain",Canal Extremadura
+https://cdnapisec.kaltura.com/p/5581662/sp/558166200/playManifest/entryId/1_1u7ssdy3/protocol/https/format/applehttp/flavorIds/1_8xbndriw/a.m3u8
 
 #EXTINF:-1 tvg-name="Aragón TV Ⓢ" tvg-logo="https://i.imgur.com/8H3Q07b.png" tvg-id="aragntv" group-title="Spain",Aragón TV Ⓢ
 https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
