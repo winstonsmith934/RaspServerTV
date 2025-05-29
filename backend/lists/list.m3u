@@ -692,6 +692,9 @@ https://dacastmmd.mmdlive.lldns.net/dacastmmd/1b6bbade53634f5a847b953c9adfd102/i
 #EXTINF:-1 tvg-name="UCL (720p)" tvg-logo="https://i.imgur.com/BzQphbw.png" tvg-id="ucl" group-title="Argentina",UCL (720p)
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
 
+#EXTINF:-1 tvg-name="Unife TV" tvg-logo="https://i.imgur.com/TLM592m.png" tvg-id="unifetv" group-title="Argentina",Unife TV
+https://cdn.mycloudstream.io/hls/live/broadcast/xundwjvp/index.m3u8
+
 #EXTINF:-1 tvg-name="USA Network Latin America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/512px-USA_Network_logo_%282016%29.svg.png" tvg-id="usanetworklatinamerica" group-title="Argentina",USA Network Latin America
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/SYFY/index.m3u8
 
@@ -1261,6 +1264,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63
 
 #EXTINF:-1 tvg-name="Steiermark TV (1080p)" tvg-logo="https://i.imgur.com/AJrUPze.png" tvg-id="steiermarktv" group-title="Austria",Steiermark TV (1080p)
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=
+
+#EXTINF:-1 tvg-name="Stimmungsgarten TV" tvg-logo="https://www.lyngsat.com/logo/tv/ss/stimmungsgarten-tv-de.png" tvg-id="stimmungsgartentv" group-title="Austria",Stimmungsgarten TV
+https://live20.bozztv.com/akamaissh101/ssh101/stimmungsgarten/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Strongman Champions League" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/30ccc088-dca7-4458-ad5a-328fef06e1ca-width200-quality90.png" tvg-id="strongmanchampionsleague" group-title="Austria",Strongman Champions League
 https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
@@ -4013,9 +4019,6 @@ http://49.113.179.174:4022/udp/238.125.3.94:5140
 #EXTINF:-1 tvg-name="Yanbian Cinese Comprehensive Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/ybtv2.jpg" tvg-id="yanbiancinesecomprehensivechannel" group-title="China",Yanbian Cinese Comprehensive Channel
 https://live.ybtvyun.com/video/s10016-6d4fe23a90b3/index.m3u8
 
-#EXTINF:-1 tvg-name="Yanbian TV 1" tvg-logo="https://i.imgur.com/gBUlAfX.png" tvg-id="yanbiantv1" group-title="China",Yanbian TV 1
-https://live.ybtvyun.com/video/s10016-ca5bdbc3f06d/index.m3u8
-
 #EXTINF:-1 tvg-name="Yicai TV" tvg-logo="https://i.imgur.com/OLj4mKK.png" tvg-id="yicaitv" group-title="China",Yicai TV
 http://49.113.179.174:4022/udp/238.125.0.165:5140
 
@@ -6242,6 +6245,12 @@ https://w1.kringvarp.fo/uttanlands/smil:uttanlands.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Tingvarp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_-_L%C3%B8gting.png" tvg-id="tingvarp" group-title="Faroe_islands",Tingvarp
 https://play.kringvarp.fo/redirect/tingvarp/_definst_/smil:tingvarp.smil?type=m3u8
 
+#EXTINF:-1 tvg-name="KVF Sjonvarp" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kvf-sjonvarp-fo.png" tvg-id="kvfsjonvarp" group-title="Faroe_islands",KVF Sjonvarp
+https://live.kringvarp.fo/uttanlands/720/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KVF Tingvarp" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kvf-sjonvarp-fo.png" tvg-id="kvftingvarp" group-title="Faroe_islands",KVF Tingvarp
+https://live.kringvarp.fo/kvf-2_utland/720/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Yle TV1 Ⓖ" tvg-logo="https://i.imgur.com/6yXZwUL.png" tvg-id="yletv1" group-title="Finland",Yle TV1 Ⓖ
 https://yletv.akamaized.net/hls/live/622365/yletv1fin/index.m3u8
 
@@ -6286,9 +6295,6 @@ https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Alfa Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/fi/9/93/IRR-TV-1.png" tvg-id="alfa" group-title="Finland",Alfa Ⓢ
 https://irrtv2.digitacdn.net/live/ott/irrtv/playlist.m3u8?organizationId=229401409&suiteItemId=230439940
-
-#EXTINF:-1 tvg-name="TapahtumaTV Eveo" tvg-logo="https://i.imgur.com/sR8nA8w.png" tvg-id="tapahtumatveveo" group-title="Finland",TapahtumaTV Eveo
-https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="National Geographic Finland Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-id="nationalgeographicfinland" group-title="Finland",National Geographic Finland Ⓖ
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
@@ -8579,6 +8585,9 @@ https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
 #EXTINF:-1 tvg-name="SRF (1080p)" tvg-logo="https://i.imgur.com/92XNBmr.png" tvg-id="srf" group-title="Germany",SRF (1080p)
 https://58de7a369a9c4.streamlock.net/srf/stream_720p/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Stimmungsgarten TV" tvg-logo="https://www.lyngsat.com/logo/tv/ss/stimmungsgarten-tv-de.png" tvg-id="stimmungsgartentv" group-title="Germany",Stimmungsgarten TV
+https://live20.bozztv.com/akamaissh101/ssh101/stimmungsgarten/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Strongman" tvg-logo="https://i.imgur.com/bVQBF6R.png" tvg-id="strongman" group-title="Germany",Strongman
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e1452156c07b50009d0230e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84af8ae0-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c0be139f-be68-4d55-940e-e5aae0d99e04
 
@@ -9307,6 +9316,9 @@ https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
 
 #EXTINF:-1 tvg-name="SRF (1080p)" tvg-logo="https://i.imgur.com/92XNBmr.png" tvg-id="srf" group-title="Germany",SRF (1080p)
 https://58de7a369a9c4.streamlock.net/srf/stream_720p/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Stimmungsgarten TV" tvg-logo="https://www.lyngsat.com/logo/tv/ss/stimmungsgarten-tv-de.png" tvg-id="stimmungsgartentv" group-title="Germany",Stimmungsgarten TV
+https://live20.bozztv.com/akamaissh101/ssh101/stimmungsgarten/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Strongman" tvg-logo="https://i.imgur.com/bVQBF6R.png" tvg-id="strongman" group-title="Germany",Strongman
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e1452156c07b50009d0230e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84af8ae0-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c0be139f-be68-4d55-940e-e5aae0d99e04
@@ -11276,6 +11288,9 @@ http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
 #EXTINF:-1 tvg-name="BBC News Asia Pacific (720p)" tvg-logo="https://i.imgur.com/vSz2WEp.png" tvg-id="bbcnewsasiapacific" group-title="Indonesia",BBC News Asia Pacific (720p)
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 
+#EXTINF:-1 tvg-name="BeritaSatu English" tvg-logo="https://i.postimg.cc/SRDWxRGs/13092012142252.jpg" tvg-id="beritasatuenglish" group-title="Indonesia",BeritaSatu English
+https://beritasatu.secureswiftcontent.com/han/beritasatu/bsatu10008/srtoutput/manifest.m3u8
+
 #EXTINF:-1 tvg-name="Biznet Adventure (720p)" tvg-logo="https://i.imgur.com/ZREy4zM.png" tvg-id="biznetadventure" group-title="Indonesia",Biznet Adventure (720p)
 http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
 
@@ -11309,6 +11324,12 @@ https://dacastmmd.mmdlive.lldns.net/dacastmmd/683cc426c19442a4ba31c53be5c963bb/i
 #EXTINF:-1 tvg-name="Dhoho TV (720p)" tvg-logo="https://i.imgur.com/4Khyyfh.png" tvg-id="dhohotv" group-title="Indonesia",Dhoho TV (720p)
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
 
+#EXTINF:-1 tvg-name="DM TV Malang" tvg-logo="https://i.imgur.com/3iC41QX.png" tvg-id="dmtvmalang" group-title="Indonesia",DM TV Malang
+https://e.siar.us/live/dmtv.m3u8
+
+#EXTINF:-1 tvg-name="dTVi" tvg-logo="https://i.ibb.co/pXzFC5k/IMG-20230629-152623.jpg" tvg-id="dtvi" group-title="Indonesia",dTVi
+https://e.siar.us/live/dtvi.m3u8
+
 #EXTINF:-1 tvg-name="Efarina TV" tvg-logo="https://i.imgur.com/iYTimXh.png" tvg-id="efarinatv" group-title="Indonesia",Efarina TV
 https://live.efarinatv.net/hls/stream.m3u8
 
@@ -11341,6 +11362,9 @@ http://210.210.155.37/uq2663/h/h08/index.m3u8
 
 #EXTINF:-1 tvg-name="Kanal 10 Asia (540p)" tvg-logo="https://i.imgur.com/tY7IJva.png" tvg-id="kanal10asia" group-title="Indonesia",Kanal 10 Asia (540p)
 http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kawanua TV" tvg-logo="https://i.imgur.com/xFaoLIX.png" tvg-id="kawanuatv" group-title="Indonesia",Kawanua TV
+https://63b2dc7196c38.streamlock.net/KAWANUATV/_definst_/myStream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Kids TV" tvg-logo="https://i.imgur.com/B5YiUIP.png" tvg-id="kidstv" group-title="Indonesia",Kids TV
 http://origin5.mediacdn.ru/live/kidstv/index.m3u8
@@ -16697,8 +16721,17 @@ https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8
 #EXTINF:-1 tvg-name="UCL (720p)" tvg-logo="https://i.imgur.com/BzQphbw.png" tvg-id="ucl" group-title="Peru",UCL (720p)
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
 
+#EXTINF:-1 tvg-name="Unife TV" tvg-logo="https://i.imgur.com/lVpDLVU.png" tvg-id="unifetv" group-title="Peru",Unife TV
+https://cdn.mycloudstream.io/hls/live/broadcast/ic1frrzz/index.m3u8
+
+#EXTINF:-1 tvg-name="Unitel" tvg-logo="https://i.imgur.com/F0PWpyc.png" tvg-id="unitel" group-title="Peru",Unitel
+https://play.agenciastreaming.com:8081/uniteltv/index.m3u8
+
 #EXTINF:-1 tvg-name="USA Network Latin America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/512px-USA_Network_logo_%282016%29.svg.png" tvg-id="usanetworklatinamerica" group-title="Peru",USA Network Latin America
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/SYFY/index.m3u8
+
+#EXTINF:-1 tvg-name="USMPTV" tvg-logo="https://i.imgur.com/9cmIv3q.png" tvg-id="usmptv" group-title="Peru",USMPTV
+https://live-evg1.tv360.bitel.com.pe/bitel/usmp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Vamisa TV (480p)" tvg-logo="https://i.imgur.com/qaR3aqn.png" tvg-id="vamisatv" group-title="Peru",Vamisa TV (480p)
 https://inliveserver.com:1936/10044/10044/playlist.m3u8
@@ -24194,6 +24227,9 @@ http://107.167.7.162:8081/playlist/amhor/playlist.m3u8
 #EXTINF:-1 tvg-name="AMG TV (1080p)" tvg-logo="https://i.imgur.com/m5Anun9.png" tvg-id="amgtv" group-title="Usa",AMG TV (1080p)
 https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Amu TV" tvg-logo="https://i.imgur.com/KXdvPum.png" tvg-id="amutv" group-title="Usa",Amu TV
+https://live20.bozztv.com/gin-36bay4/gin-amutv/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-name="Angel TV America (720p)" tvg-logo="https://i.imgur.com/qKLEGU7.png" tvg-id="angeltvamerica" group-title="Usa",Angel TV America (720p)
 https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelamerica_all/playlist.m3u8
 
@@ -24211,6 +24247,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63
 
 #EXTINF:-1 tvg-name="Apple68 TV (1080p)" tvg-logo="https://i.imgur.com/xQct5s2.jpg" tvg-id="apple68tv" group-title="Usa",Apple68 TV (1080p)
 http://doxatv.flashmediacast.com:1935/doxatv/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Apple Valley Channel 180" tvg-logo="https://i.imgur.com/3h9RkFA.png" tvg-id="applevalleychannel180" group-title="Usa",Apple Valley Channel 180
+https://reflect-applevalley.cablecast.tv/live-3/live/live.m3u8
 
 #EXTINF:-1 tvg-name="Are We There Yet?" tvg-logo="https://i.imgur.com/3BJQiHP.png" tvg-id="arewethereyet" group-title="Usa",Are We There Yet?
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65cf8b9328730900087c5324/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c791c25-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=fd1975a1-4578-4dba-893b-1a552eb054bc
@@ -24278,8 +24317,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65
 #EXTINF:-1 tvg-name="Baywatch" tvg-logo="https://i.imgur.com/c2esKHg.png" tvg-id="baywatch" group-title="Usa",Baywatch
 https://d22ljxpuae2sin.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-name="BBC America East" tvg-logo="https://i.imgur.com/pTiiPz0.png" tvg-id="bbcamericaeast" group-title="Usa",BBC America East
-https://fl3.moveonjoy.com/BBC_AMERICA/index.m3u8
+#EXTINF:-1 tvg-name="BBC America" tvg-logo="https://i.imgur.com/pTiiPz0.png" tvg-id="bbcamerica" group-title="Usa",BBC America
+https://dvrfl04.tulix.tv/teleup-bbca/index.m3u8
 
 #EXTINF:-1 tvg-name="BBC Food" tvg-logo="https://i.imgur.com/kcmHcSx.png" tvg-id="bbcfood" group-title="Usa",BBC Food
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a0-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c628f2e9-ff30-4bd0-9ff6-99fb1649f628
