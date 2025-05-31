@@ -20,6 +20,9 @@ https://tv.balkanweb.com/news24/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name="Ora News" tvg-logo="https://i.imgur.com/ILZY5bJ.png" tvg-id="oranews" group-title="Albania",Ora News
 https://live1.mediadesk.al/oranews.m3u8
 
+#EXTINF:-1 tvg-name="Panorama TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/512px-Panorama_logo.svg.png" tvg-id="panoramatv" group-title="Albania",Panorama TV Ⓢ
+http://198.244.188.94/panorama/livestream/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Report TV" tvg-logo="https://i.imgur.com/yuRDJYY.png" tvg-id="reporttv" group-title="Albania",Report TV
 https://deb10stream.duckdns.org/hls/stream.m3u8
 
@@ -12833,9 +12836,6 @@ https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
 #EXTINF:-1 tvg-name="Extra Tv" tvg-logo="https://i.imgur.com/KCBurST.png" tvg-id="tv" group-title="Italy",Extra Tv
 https://rst2.saiuzwebnetwork.it:8081/extratvlive/index.m3u8
 
-#EXTINF:-1 tvg-name="FM Tv Marche" tvg-logo="https://i.imgur.com/yY01NhL.jpg" tvg-id="fmtvmarche" group-title="Italy",FM Tv Marche
-https://bbtv.intvstream.net:3988/hybrid/play.m3u8
-
 #EXTINF:-1 tvg-name="Fano Tv" tvg-logo="https://i.imgur.com/orqEzJ6.png" tvg-id="fanotv" group-title="Italy",Fano Tv
 https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8
 
@@ -13087,9 +13087,6 @@ http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
-
-#EXTINF:-1 tvg-name="RTC Quarta Rete" tvg-logo="https://i.imgur.com/rFGA6qL.png" tvg-id="rtcquartarete" group-title="Italy",RTC Quarta Rete
-https://msh0232.stream.seeweb.it/live/stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RTC Telecalabria" tvg-logo="https://i.imgur.com/tTYLcuh.jpg" tvg-id="rtctelecalabria" group-title="Italy",RTC Telecalabria
 https://w1.mediastreaming.it/calabriachannel/livestream/playlist.m3u8
@@ -15926,9 +15923,6 @@ http://151.236.247.171:8080/nova/index.m3u8
 #EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
 https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
 
-#EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
-https://zonam1.ddns.net/hls/stream1.m3u8
-
 #EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
 https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
 
@@ -15947,6 +15941,9 @@ https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
 #EXTINF:-1 tvg-name="Rock TV" tvg-logo="https://i.imgur.com/Y9miDQo.png" tvg-id="rocktv" group-title="North_macedonia",Rock TV
 https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
 
+#EXTINF:-1 tvg-name="Стар Фолк" tvg-logo="https://i.imgur.com/7RstQYI.png" tvg-id="" group-title="North_macedonia",Стар Фолк
+https://live.muzickatv.mk/live/StarMusic.m3u8
+
 #EXTINF:-1 tvg-name="Sky Folk" tvg-logo="https://i.imgur.com/xRw4Hmu.png" tvg-id="skyfolk" group-title="North_macedonia",Sky Folk
 https://skyfolk.mk/live.m3u8
 
@@ -15964,6 +15961,9 @@ https://giganet.mk/hls/macdoc.m3u8
 
 #EXTINF:-1 tvg-name="Вистел" tvg-logo="https://i.imgur.com/MbM0E6L.png" tvg-id="" group-title="North_macedonia",Вистел
 https://live.vtv.mk/live/vtv/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Стар Плус" tvg-logo="https://i.imgur.com/01yz22a.png" tvg-id="" group-title="North_macedonia",Стар Плус
+https://live.muzickatv.mk/live/StarMusic2.m3u8
 
 #EXTINF:-1 tvg-name="Al Jazeera Balkans (1080p)" tvg-logo="https://i.imgur.com/vMzCr8O.png" tvg-id="aljazeerabalkans" group-title="North_macedonia",Al Jazeera Balkans (1080p)
 https://live-hls-apps-ajb-v3-fa.getaj.net/AJB/index.m3u8
