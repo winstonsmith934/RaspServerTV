@@ -188,9 +188,6 @@ http://77.68.40.210:8888/hls/basilicata1.m3u8
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Digital Tv7 Benevento" tvg-logo="https://i.imgur.com/NaQkklP.png" tvg-id="digitaltv7benevento" group-title="Italy",Digital Tv7 Benevento
-http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
 
@@ -223,6 +220,9 @@ https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
 https://nuovatv.net:8443/tv2/stream.m3u8
@@ -574,6 +574,9 @@ https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3
 
 #EXTINF:-1 tvg-name="Canal 4 Tenerife" tvg-logo="https://i.imgur.com/Egymir4.png" tvg-id="canal4tenerife" group-title="Spain",Canal 4 Tenerife
 https://videoserver.tmcreativos.com:19360/ccxwhsfcnq/ccxwhsfcnq.m3u8
+
+#EXTINF:-1 tvg-name="Televisión Melilla" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/television-melilla-es.png" tvg-id="televisinmelilla" group-title="Spain",Televisión Melilla
+https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8
 
 #EXTINF:-1 tvg-name="SVT 1 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SVT1_logo_2016.svg/800px-SVT1_logo_2016.svg.png" tvg-id="svt1" group-title="Sweden",SVT 1 Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svt1/manifest.mpd?defaultSubLang=1
