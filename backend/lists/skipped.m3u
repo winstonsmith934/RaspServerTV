@@ -182,9 +182,6 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="abctv" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
-#EXTINF:-1 tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" tvg-id="aristanissupertv" group-title="Italy",Aristanis SuperTv
-https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="basilicata1tv" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
 
@@ -241,9 +238,6 @@ https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
 https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTC Telecalabria" tvg-logo="https://i.imgur.com/tTYLcuh.jpg" tvg-id="rtctelecalabria" group-title="Italy",RTC Telecalabria
-https://w1.mediastreaming.it/calabriachannel/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sicilia Tv" tvg-logo="https://i.imgur.com/I5FoThW.png" tvg-id="siciliatv" group-title="Italy",Sicilia Tv
 https://stream9.xdevel.com/video0s976441-1226/stream/playlist.m3u8
@@ -460,6 +454,12 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.i
 
 #EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
 http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
+
+#EXTINF:-1 tvg-name="Стар Фолк" tvg-logo="https://i.imgur.com/7RstQYI.png" tvg-id="" group-title="North_macedonia",Стар Фолк
+https://live.muzickatv.mk/live/StarMusic.m3u8
+
+#EXTINF:-1 tvg-name="Стар Плус" tvg-logo="https://i.imgur.com/01yz22a.png" tvg-id="" group-title="North_macedonia",Стар Плус
+https://live.muzickatv.mk/live/StarMusic2.m3u8
 
 #EXTINF:-1 tvg-name="Kanal 10 Norge" tvg-logo="https://i.imgur.com/2fOcZfK.png" tvg-id="kanal10norge" group-title="Norway",Kanal 10 Norge
 https://player-api.new.livestream.com/accounts/29308686/events/10787545/broadcasts/235454817.secure.m3u8
