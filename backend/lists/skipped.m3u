@@ -26,9 +26,6 @@ https://tvsn-i.akamaihd.net/hls/live/261837/tvsn/tvsn_750.m3u8
 #EXTINF:-1 tvg-name="Racing.com" tvg-logo="https://i.imgur.com/pma0OCf.png" tvg-id="racingcom" group-title="Australia",Racing.com
 https://racingvic-i.akamaized.net/hls/live/598695/racingvic/1500.m3u8
 
-#EXTINF:-1 tvg-name="RTV" tvg-logo="https://i.imgur.com/oD7GQxT.png" tvg-id="rtv" group-title="Austria",RTV
-http://iptv.rtv-ooe.at/stream.m3u8
-
 #EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/640px-Baku_TV_%282018%29.png" tvg-id="bakutv" group-title="Azerbaijan",Baku TV
 https://rtmp.baku.tv/live/bakutv_720p.m3u8
 
@@ -452,9 +449,6 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo2/npo2.i
 #EXTINF:-1 tvg-name="NPO 3 Ⓖ" tvg-logo="https://i.imgur.com/dVB4Pqc.png" tvg-id="npo3" group-title="Netherlands",NPO 3 Ⓖ
 http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.isml/.m3u8
 
-#EXTINF:-1 tvg-name="Omroep Flevoland Ⓢ" tvg-logo="https://i.imgur.com/d1CmTcI.png" tvg-id="omroepflevoland" group-title="Netherlands",Omroep Flevoland Ⓢ
-https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
-
 #EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
 http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
 
@@ -505,6 +499,9 @@ https://hls.rt.com/hls/rtdru.m3u8
 
 #EXTINF:-1 tvg-name="РТР-Планета Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/RTR_Planeta_Europe.png" tvg-id="" group-title="Russia",РТР-Планета Ⓢ
 https://player.smotrim.ru/iframe/stream/live_id/63251
+
+#EXTINF:-1 tvg-name="Башкортостан 24" tvg-logo="https://i.imgur.com/FQhWs1M.png" tvg-id="24" group-title="Russia",Башкортостан 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/russia1-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="Луганск 24" tvg-logo="https://i.imgur.com/YnLFQnt.png" tvg-id="24" group-title="Russia",Луганск 24
 https://tv.gtrklnr.ru/hls/Lugansk24.m3u8

@@ -1103,6 +1103,9 @@ https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="P3TV" tvg-logo="https://i.imgur.com/1sPhZ57.png" tvg-id="p3tv" group-title="Austria",P3TV
 http://p3-6.mov.at:1935/live/weekstream/playlist.m3u8
 
+#EXTINF:-1 tvg-name="RTV" tvg-logo="https://i.imgur.com/oD7GQxT.png" tvg-id="rtv" group-title="Austria",RTV
+http://iptv.rtv-ooe.at/stream.m3u8
+
 #EXTINF:-1 tvg-name="RTS Ⓖ" tvg-logo="https://i.imgur.com/Bhv7lvy.png" tvg-id="rts" group-title="Austria",RTS Ⓖ
 https://58b42f6c8c9bf.streamlock.net:8080/live/RTS2015/playlist.m3u8
 
@@ -15446,6 +15449,9 @@ https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/ind
 #EXTINF:-1 tvg-name="RTV Utrecht" tvg-logo="https://i.imgur.com/c0I24N6.png" tvg-id="rtvutrecht" group-title="Netherlands",RTV Utrecht
 http://media.rtvutrecht.nl/live/rtvutrecht/rtvutrecht/index.m3u8
 
+#EXTINF:-1 tvg-name="Omroep Flevoland Ⓢ" tvg-logo="https://i.imgur.com/d1CmTcI.png" tvg-id="omroepflevoland" group-title="Netherlands",Omroep Flevoland Ⓢ
+https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
+
 #EXTINF:-1 tvg-name="NH Nieuws" tvg-logo="https://i.imgur.com/SQPVOwn.png" tvg-id="nhnieuws" group-title="Netherlands",NH Nieuws
 https://rrr.sz.xlcdn.com/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8
 
@@ -18256,9 +18262,6 @@ https://live.mediacdn.ru/sr1/arhis24/playlist_hdhigh.m3u8
 
 #EXTINF:-1 tvg-name="Астрахан 24" tvg-logo="https://i.imgur.com/9WcnjQN.png" tvg-id="24" group-title="Russia",Астрахан 24
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Башкортостан 24" tvg-logo="https://i.imgur.com/FQhWs1M.png" tvg-id="24" group-title="Russia",Башкортостан 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/russia1-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="Белгород 24" tvg-logo="https://i.imgur.com/EEirvyx.png" tvg-id="24" group-title="Russia",Белгород 24
 http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
