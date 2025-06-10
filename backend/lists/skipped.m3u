@@ -44,9 +44,6 @@ http://rbc.directradios.com:1935/rbc/rbc/live.m3u8
 #EXTINF:-1 tvg-name="Anime TV" tvg-logo="https://i.imgur.com/fuuv2uP.jpg" tvg-id="animetv" group-title="Brazil",Anime TV
 https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" tvg-id="istv" group-title="Brazil",ISTV
-https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
-
 #EXTINF:-1 tvg-name="CBC Toronto" tvg-logo="https://i.imgur.com/H5yEbxf.png" tvg-id="cbctoronto" group-title="Canada",CBC Toronto
 https://bozztv.com/teleyupp1/teleup-ydcl2V1MVC/playlist.m3u8
 
@@ -188,8 +185,14 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="abctv" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
+#EXTINF:-1 tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" tvg-id="aristanissupertv" group-title="Italy",Aristanis SuperTv
+https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="basilicata1tv" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
+
+#EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
+https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
@@ -574,6 +577,9 @@ https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 
 #EXTINF:-1 tvg-name="7 Región de Murcia Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/150px-La_7_logo.svg.png" tvg-id="7regindemurcia" group-title="Spain",7 Región de Murcia Ⓢ
 https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Canal 4 Tenerife" tvg-logo="https://i.imgur.com/Egymir4.png" tvg-id="canal4tenerife" group-title="Spain",Canal 4 Tenerife
+https://videoserver.tmcreativos.com:19360/ccxwhsfcnq/ccxwhsfcnq.m3u8
 
 #EXTINF:-1 tvg-name="SVT 1 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SVT1_logo_2016.svg/800px-SVT1_logo_2016.svg.png" tvg-id="svt1" group-title="Sweden",SVT 1 Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svt1/manifest.mpd?defaultSubLang=1
