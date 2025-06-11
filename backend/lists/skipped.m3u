@@ -131,6 +131,9 @@ https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
 https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
+https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
 https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 
@@ -191,9 +194,6 @@ http://77.68.40.210:8888/hls/basilicata1.m3u8
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
 
@@ -218,9 +218,6 @@ https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
-
 #EXTINF:-1 tvg-name="Ora Tv" tvg-logo="https://i.imgur.com/clWVrvE.png" tvg-id="oratv" group-title="Italy",Ora Tv
 https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
 
@@ -229,6 +226,9 @@ https://stream1.aswifi.it/poptelevision/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Promovideo Tv" tvg-logo="https://i.imgur.com/MwK9HVG.png" tvg-id="promovideotv" group-title="Italy",Promovideo Tv
 https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Quarto Canale Flegreo" tvg-logo="https://i.imgur.com/8RKY3Du.png" tvg-id="quartocanaleflegreo" group-title="Italy",Quarto Canale Flegreo
+http://live.mariatvcdn.com/dialogos/171e41deedf405f10c7dd6311387fb43.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Radio 3M InBlu" tvg-logo="https://i.imgur.com/d7O7Uqa.png" tvg-id="radio3minblu" group-title="Italy",Radio 3M InBlu
 https://stream.mariatvcdn.com/telemistrettaradio/900bfcc0f9012ea272584fd5ff5281b8.sdp/playlist.m3u8
@@ -295,9 +295,6 @@ https://flash2.xdevel.com/ortetv/ortetv/index.m3u8
 
 #EXTINF:-1 tvg-name="Tele Radio Sciacca" tvg-logo="https://i.imgur.com/suhz5mE.png" tvg-id="teleradiosciacca" group-title="Italy",Tele Radio Sciacca
 https://5db313b643fd8.streamlock.net/teleradiosciaccatv/teleradiosciaccatv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Tele Spazio Messina" tvg-logo="https://i.imgur.com/Io5w6lT.png" tvg-id="telespaziomessina" group-title="Italy",Tele Spazio Messina
-https://rtm.cyberspazio.cloud:5443/LiveApp/streams/049229794390395765037801.m3u8
 
 #EXTINF:-1 tvg-name="Tele Sud Puglia" tvg-logo="https://i.imgur.com/fqTLtvs.png" tvg-id="telesudpuglia" group-title="Italy",Tele Sud Puglia
 https://64b16f23efbee.streamlock.net/telesud/telesud/playlist.m3u8
@@ -484,6 +481,12 @@ https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
 
 #EXTINF:-1 tvg-name="Love TV" tvg-logo="https://i.imgur.com/B8iaejQ.png" tvg-id="lovetv" group-title="North_macedonia",Love TV
 https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
+
+#EXTINF:-1 tvg-name="Folk Club TV" tvg-logo="https://i.imgur.com/vkGFSl8.png" tvg-id="folkclubtv" group-title="North_macedonia",Folk Club TV
+http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
+
+#EXTINF:-1 tvg-name="INTV" tvg-logo="https://i.imgur.com/K7BSjqY.png" tvg-id="intv" group-title="North_macedonia",INTV
+http://tv1.intv.mk:1935/live/intv/index.m3u8
 
 #EXTINF:-1 tvg-name="Unicanal" tvg-logo="https://i.imgur.com/brlepuX.png" tvg-id="unicanal" group-title="Paraguay",Unicanal
 http://45.55.127.106/live/unicanal.m3u8
