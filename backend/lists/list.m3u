@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Kanali 7 Ⓢ" tvg-logo="https://i.imgur.com/rL2v9pM.png" tvg-id="kanali7" group-title="Albania",Kanali 7 Ⓢ
+https://fe.tring.al/delta/105/out/u/1200_1.m3u8
+
 #EXTINF:-1 tvg-name="A2 CNN Albania" tvg-logo="https://i.imgur.com/TgO3Lzi.png" tvg-id="a2cnnalbania" group-title="Albania",A2 CNN Albania
 https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8
 
@@ -13115,6 +13118,12 @@ https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 #EXTINF:-1 tvg-name="News24 City" tvg-logo="https://i.imgur.com/dak9AtV.png" tvg-id="news24city" group-title="Italy",News24 City
 https://dc3.telesveva.com:4433/news24.mp4
 
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
+
+#EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
+https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
+
 #EXTINF:-1 tvg-name="Odeon 24" tvg-logo="https://i.imgur.com/M1tVBuH.png" tvg-id="odeon24" group-title="Italy",Odeon 24
 https://odeon.grupposciscione.knoxstreaming.com/live/masterpl.m3u8
 
@@ -16060,9 +16069,6 @@ https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
 
 #EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
 https://zonam1.ddns.net/hls/stream1.m3u8
-
-#EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
-https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
 
 #EXTINF:-1 tvg-name="Jazz TV" tvg-logo="https://i.imgur.com/4U6Ju5G.png" tvg-id="jazztv" group-title="North_macedonia",Jazz TV
 https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
@@ -20545,9 +20551,6 @@ https://ingest1-video.streaming-pro.com/esportsteABR/etestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="À Punt TV" tvg-logo="https://i.imgur.com/M88LoNl.png" tvg-id="punttv" group-title="Spain",À Punt TV
 https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Canal 4 Tenerife" tvg-logo="https://i.imgur.com/Egymir4.png" tvg-id="canal4tenerife" group-title="Spain",Canal 4 Tenerife
-https://videoserver.tmcreativos.com:19360/ccxwhsfcnq/ccxwhsfcnq.m3u8
 
 #EXTINF:-1 tvg-name="Televisión Melilla" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/television-melilla-es.png" tvg-id="televisinmelilla" group-title="Spain",Televisión Melilla
 https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8
