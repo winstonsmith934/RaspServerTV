@@ -12599,9 +12599,6 @@ https://makan.media.kan.org.il/hls/live/2024680/2024680/master.m3u8
 #EXTINF:-1 tvg-name="כאן חינוכית" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/640px-KanHinuchit.svg.png" tvg-id="" group-title="Israel",כאן חינוכית
 https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8
 
-#EXTINF:-1 tvg-name="Knesset" tvg-logo="https://i.imgur.com/PEdXHSE.png" tvg-id="knesset" group-title="Israel",Knesset
-https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Al Hayat TV (720p)" tvg-logo="https://i.imgur.com/M8ZuzeB.png" tvg-id="alhayattv" group-title="Israel",Al Hayat TV (720p)
 https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8
 
@@ -13252,6 +13249,9 @@ https://live1.giocabet.tv/stream/6/index.m3u8
 
 #EXTINF:-1 tvg-name="Rete 8" tvg-logo="https://i.imgur.com/bGsjPRh.png" tvg-id="rete8" group-title="Italy",Rete 8
 https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Rete 8 Sport" tvg-logo="https://i.imgur.com/uUAjWlF.png" tvg-id="rete8sport" group-title="Italy",Rete 8 Sport
+https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Biella Tv" tvg-logo="https://i.imgur.com/e2ryHx7.png" tvg-id="retebiellatv" group-title="Italy",Rete Biella Tv
 https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
@@ -16085,6 +16085,9 @@ https://hls.telekabel.com.mk:1936/live/11/playlist.m3u8
 #EXTINF:-1 tvg-name="ТВ НОВА 12" tvg-logo="https://i.imgur.com/Qo3Hj3t.png" tvg-id="12" group-title="North_macedonia",ТВ НОВА 12
 http://151.236.247.171:8080/nova/index.m3u8
 
+#EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
+https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
+
 #EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
 https://zonam1.ddns.net/hls/stream1.m3u8
 
@@ -18316,9 +18319,6 @@ https://live.mediacdn.ru/sr1/arhis24/playlist_hdhigh.m3u8
 
 #EXTINF:-1 tvg-name="Астрахан 24" tvg-logo="https://i.imgur.com/9WcnjQN.png" tvg-id="24" group-title="Russia",Астрахан 24
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Башкортостан 24" tvg-logo="https://i.imgur.com/FQhWs1M.png" tvg-id="24" group-title="Russia",Башкортостан 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/russia1-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="Белгород 24" tvg-logo="https://i.imgur.com/EEirvyx.png" tvg-id="24" group-title="Russia",Белгород 24
 http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
