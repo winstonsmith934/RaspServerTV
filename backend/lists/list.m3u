@@ -8,6 +8,9 @@ https://www.twitch.tv/abcnewsal
 #EXTINF:-1 tvg-name="AlbKanale Music TV Ⓢ" tvg-logo="https://i.imgur.com/JdKxscs.png" tvg-id="albkanalemusictv" group-title="Albania",AlbKanale Music TV Ⓢ
 https://albportal.net/albkanalemusic.m3u8
 
+#EXTINF:-1 tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" tvg-id="cna" group-title="Albania",CNA
+https://live1.mediadesk.al/cnatvlive.m3u8
+
 #EXTINF:-1 tvg-name="Euronews Albania Ⓨ" tvg-logo="https://i.imgur.com/Skf6vdi.png" tvg-id="euronewsalbania" group-title="Albania",Euronews Albania Ⓨ
 https://www.youtube.com/@EuronewsAlbania/live
 
@@ -4519,6 +4522,9 @@ https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
 
 #EXTINF:-1 tvg-name="Libertas TV" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/8/8a/LibertasTV.png" tvg-id="libertastv" group-title="Croatia",Libertas TV
 https://stream.luci.xyz/hls/LTV.m3u8
+
+#EXTINF:-1 tvg-name="Trend TV" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/2/22/TrendTV.jpg" tvg-id="trendtv" group-title="Croatia",Trend TV
+http://185.62.75.22:1935/trend/myStream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Televizija Zapad" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/97/TVZ-2018.png" tvg-id="televizijazapad" group-title="Croatia",Televizija Zapad
 http://webtv.zapad.tv:8080/memfs/1ad23803-84c3-41c7-aa91-fce4c7eac52e.m3u8
@@ -13124,6 +13130,12 @@ https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 #EXTINF:-1 tvg-name="News24 City" tvg-logo="https://i.imgur.com/dak9AtV.png" tvg-id="news24city" group-title="Italy",News24 City
 https://dc3.telesveva.com:4433/news24.mp4
 
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
+
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -13228,6 +13240,9 @@ https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Reggio Tv" tvg-logo="https://i.imgur.com/merrg2C.png" tvg-id="reggiotv" group-title="Italy",Reggio Tv
 https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Rei Tv" tvg-logo="https://i.imgur.com/YNRWFOo.png" tvg-id="reitv" group-title="Italy",Rei Tv
+https://5f22d76e220e1.streamlock.net/reitv/reitv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete 55" tvg-logo="https://i.imgur.com/EsZn2cj.png" tvg-id="rete55" group-title="Italy",Rete 55
 https://live1.giocabet.tv/stream/6/index.m3u8
@@ -15121,9 +15136,6 @@ https://www.tvkaista.net/stream-forwarder/get.php?x=Moldova2
 
 #EXTINF:-1 tvg-name="Publika TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Publika_logo_%282017%29.png" tvg-id="publikatv" group-title="Moldova",Publika TV
 https://livebeta.publika.md/LIVE/P/6810.m3u8
-
-#EXTINF:-1 tvg-name="Vocea Basarabiei" tvg-logo="https://i.imgur.com/irP8QLs.png" tvg-id="voceabasarabiei" group-title="Moldova",Vocea Basarabiei
-https://storage.voceabasarabiei.md/hls/vocea_basarabiei.m3u8
 
 #EXTINF:-1 tvg-name="Canal 2 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/ro/7/7f/Logo_Canal_2.png" tvg-id="canal2" group-title="Moldova",Canal 2 Ⓖ
 https://livebeta.publika.md/LIVE/2/index.m3u8

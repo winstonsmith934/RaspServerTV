@@ -3767,9 +3767,6 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
-
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
 
@@ -16082,9 +16079,6 @@ http://151.236.247.171:8080/nova/index.m3u8
 #EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
 https://zonam1.ddns.net/hls/stream1.m3u8
 
-#EXTINF:-1 tvg-name="Cool TV" tvg-logo="https://i.imgur.com/2tFrjUz.png" tvg-id="cooltv" group-title="North_macedonia",Cool TV
-https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
-
 #EXTINF:-1 tvg-name="Jazz TV" tvg-logo="https://i.imgur.com/4U6Ju5G.png" tvg-id="jazztv" group-title="North_macedonia",Jazz TV
 https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
 
@@ -21487,9 +21481,6 @@ https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/
 
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Spain",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
-
-#EXTINF:-1 tvg-name="SVT 1 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SVT1_logo_2016.svg/800px-SVT1_logo_2016.svg.png" tvg-id="svt1" group-title="Sweden",SVT 1 Ⓖ
-https://ed2.cdn.svt.se/ed7/d1/c/se/svt1/manifest.mpd?defaultSubLang=1
 
 #EXTINF:-1 tvg-name="Expressen TV" tvg-logo="https://i.imgur.com/8EjMSr7.png" tvg-id="expressentv" group-title="Sweden",Expressen TV
 https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8
@@ -28102,6 +28093,9 @@ https://www.dailymotion.com/embed/video/x828i6j
 
 #EXTINF:-1 tvg-name="Televen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Televen_logo.PNG" tvg-id="televen" group-title="Venezuela",Televen
 https://setp-televen-ssai-mslv4-open.akamaized.net/hls/live/2107128/televen/index.m3u8
+
+#EXTINF:-1 tvg-name="Vale TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/98/Logo_de_VALE_TV.png" tvg-id="valetv" group-title="Venezuela",Vale TV Ⓢ
+https://vcp2.myplaytv.com/valetv/valetv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telesur" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/TeleSUR.png" tvg-id="telesur" group-title="Venezuela",Telesur
 https://raw.githubusercontent.com/BellezaEmporium/IPTV_Exception/master/channels/ve/telesur.m3u8
