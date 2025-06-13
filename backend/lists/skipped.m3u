@@ -5,6 +5,9 @@ https://fe.tring.al/delta/105/out/u/1200_1.m3u8
 #EXTINF:-1 tvg-name="Alpo TV" tvg-logo="https://i.imgur.com/Pr4ixiA.png" tvg-id="alpotv" group-title="Albania",Alpo TV
 https://5d00db0e0fcd5.streamlock.net/7236/7236/playlist.m3u8
 
+#EXTINF:-1 tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" tvg-id="cna" group-title="Albania",CNA
+https://live1.mediadesk.al/cnatvlive.m3u8
+
 #EXTINF:-1 tvg-name="TV 7 Albania" tvg-logo="https://i.imgur.com/k9WqPLZ.png" tvg-id="tv7albania" group-title="Albania",TV 7 Albania
 https://5d00db0e0fcd5.streamlock.net/7064/7064/playlist.m3u8
 
@@ -94,9 +97,6 @@ https://bcsecurelivehls-i.akamaihd.net/hls/live/680604/1242843915001_3/master.m3
 
 #EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
 https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
-
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 
 #EXTINF:-1 tvg-name="HRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" tvg-id="hrt1" group-title="Croatia",HRT 1
 https://webtvstream.bhtelecom.ba/hls9/hrt1_1200.m3u8
@@ -485,9 +485,6 @@ https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
 #EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
 https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
 
-#EXTINF:-1 tvg-name="Cool TV" tvg-logo="https://i.imgur.com/2tFrjUz.png" tvg-id="cooltv" group-title="North_macedonia",Cool TV
-https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
-
 #EXTINF:-1 tvg-name="Folk TV" tvg-logo="https://i.imgur.com/4b9aZ9P.png" tvg-id="folktv" group-title="North_macedonia",Folk TV
 https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
 
@@ -590,9 +587,6 @@ https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 #EXTINF:-1 tvg-name="7 Región de Murcia Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/150px-La_7_logo.svg.png" tvg-id="7regindemurcia" group-title="Spain",7 Región de Murcia Ⓢ
 https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="SVT 1 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SVT1_logo_2016.svg/800px-SVT1_logo_2016.svg.png" tvg-id="svt1" group-title="Sweden",SVT 1 Ⓖ
-https://ed2.cdn.svt.se/ed7/d1/c/se/svt1/manifest.mpd?defaultSubLang=1
-
 #EXTINF:-1 tvg-name="SVT 2 Ⓖ" tvg-logo="https://i.imgur.com/iB3veGx.png" tvg-id="svt2" group-title="Sweden",SVT 2 Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svt2/manifest.mpd?defaultSubLang=1
 
@@ -691,4 +685,7 @@ https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 
 #EXTINF:-1 tvg-name="Globovisión" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/47/Globovisi%C3%B3n_logo_2013.png" tvg-id="globovisin" group-title="Venezuela",Globovisión
 https://vcp5.myplaytv.com/globovision/globovision/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Vale TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/98/Logo_de_VALE_TV.png" tvg-id="valetv" group-title="Venezuela",Vale TV Ⓢ
+https://vcp2.myplaytv.com/valetv/valetv/playlist.m3u8
 
