@@ -5,9 +5,6 @@ https://fe.tring.al/delta/105/out/u/1200_1.m3u8
 #EXTINF:-1 tvg-name="Alpo TV" tvg-logo="https://i.imgur.com/Pr4ixiA.png" tvg-id="alpotv" group-title="Albania",Alpo TV
 https://5d00db0e0fcd5.streamlock.net/7236/7236/playlist.m3u8
 
-#EXTINF:-1 tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" tvg-id="cna" group-title="Albania",CNA
-https://live1.mediadesk.al/cnatvlive.m3u8
-
 #EXTINF:-1 tvg-name="TV 7 Albania" tvg-logo="https://i.imgur.com/k9WqPLZ.png" tvg-id="tv7albania" group-title="Albania",TV 7 Albania
 https://5d00db0e0fcd5.streamlock.net/7064/7064/playlist.m3u8
 
@@ -128,12 +125,6 @@ https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 2/Bornholm" tvg-logo="https://i.imgur.com/cEOpXU6.png" tvg-id="tv2bornholm" group-title="Denmark",TV 2/Bornholm
 https://live.tv2bornholm.dk/stream/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
-https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
-https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
@@ -166,9 +157,6 @@ https://media1.livaat.com/AL-RASHEED-HD/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Turkmeneli TV" tvg-logo="https://i.imgur.com/iUhhg4B.png" tvg-id="turkmenelitv" group-title="Iraq",Turkmeneli TV
 https://137840.global.ssl.fastly.net/edge/live_6b7c6e205afb11ebb010f5a331abaf98/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Sunshine 106.8" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/97/Sunshine_106.8_logo.png" tvg-id="sunshine1068" group-title="Ireland",Sunshine 106.8
-https://live-bauerie.sharp-stream.com/SUN
 
 #EXTINF:-1 tvg-name="ערוץ 14" tvg-logo="https://i.imgur.com/Iq2Kb69.png" tvg-id="14" group-title="Israel",ערוץ 14
 https://now14.g-mana.live/media/91517161-44ab-4e46-af70-e9fe26117d2e/mainManifest.m3u8
@@ -220,9 +208,6 @@ https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
 https://nuovatv.net:8443/tv2/stream.m3u8
@@ -574,6 +559,9 @@ https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 
 #EXTINF:-1 tvg-name="7 Región de Murcia Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/150px-La_7_logo.svg.png" tvg-id="7regindemurcia" group-title="Spain",7 Región de Murcia Ⓢ
 https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Canal 4 Tenerife" tvg-logo="https://i.imgur.com/Egymir4.png" tvg-id="canal4tenerife" group-title="Spain",Canal 4 Tenerife
+https://videoserver.tmcreativos.com:19360/ccxwhsfcnq/ccxwhsfcnq.m3u8
 
 #EXTINF:-1 tvg-name="SVT 1 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SVT1_logo_2016.svg/800px-SVT1_logo_2016.svg.png" tvg-id="svt1" group-title="Sweden",SVT 1 Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svt1/manifest.mpd?defaultSubLang=1
