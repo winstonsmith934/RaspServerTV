@@ -182,9 +182,6 @@ https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Etna Espresso Channel" tvg-logo="https://i.imgur.com/hMUxytZ.png" tvg-id="etnaespressochannel" group-title="Italy",Etna Espresso Channel
-https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Fascino Tv" tvg-logo="https://i.imgur.com/4XYYY5B.png" tvg-id="fascinotv" group-title="Italy",Fascino Tv
 https://5f22d76e220e1.streamlock.net/canale157/canale157/playlist.m3u8
 
@@ -211,9 +208,6 @@ https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
 
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Ora Tv" tvg-logo="https://i.imgur.com/clWVrvE.png" tvg-id="oratv" group-title="Italy",Ora Tv
 https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
@@ -455,6 +449,9 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.i
 #EXTINF:-1 tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/GaGqM4z.png" tvg-id="rtvdrenthe" group-title="Netherlands",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/1080p/prog_index.m3u8
 
+#EXTINF:-1 tvg-name="Телевизија Здравкин" tvg-logo="https://i.imgur.com/kSmcAER.png" tvg-id="" group-title="North_macedonia",Телевизија Здравкин
+http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
 http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
 
@@ -628,9 +625,6 @@ http://as-hls-uk-live.akamaized.net/pool_904/live/uk/bbc_radio_five_live_sports_
 
 #EXTINF:-1 tvg-name="BBC Asian Network" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcasiannet-epg.png" tvg-id="bbcasiannetwork" group-title="Uk",BBC Asian Network
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d96000.norewind.m3u8
-
-#EXTINF:-1 tvg-name="ITV" tvg-logo="https://i.imgur.com/NZdT9yJ.png" tvg-id="itv" group-title="Ukraine",ITV
-http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Dubai TV" tvg-logo="https://i.imgur.com/wZMkKF7.png" tvg-id="dubaitv" group-title="United_arab_emirates",Dubai TV
 https://dmisxthvll.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/playlist.m3u8
