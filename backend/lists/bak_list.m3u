@@ -9491,9 +9491,6 @@ https://cdne.folxplay.tv/folx-trz/streams/ch-2/master.m3u8
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Germany",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 
-#EXTINF:-1 tvg-name="ERT 1" tvg-logo="https://i.imgur.com/WWMe8IY.png" tvg-id="ert1" group-title="Greece",ERT 1
-http://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1medium.m3u8
-
 #EXTINF:-1 tvg-name="ERT 2" tvg-logo="https://i.imgur.com/pcusPFl.png" tvg-id="ert2" group-title="Greece",ERT 2
 http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2medium.m3u8
 
@@ -13151,6 +13148,9 @@ https://dc3.telesveva.com:4433/news24.mp4
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
 
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
+
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -13457,6 +13457,9 @@ https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8
 #EXTINF:-1 tvg-name="Tele Pavia" tvg-logo="https://i.imgur.com/YVodo4T.png" tvg-id="telepavia" group-title="Italy",Tele Pavia
 http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8
 
+#EXTINF:-1 tvg-name="Tele Pegaso" tvg-logo="https://i.imgur.com/FQkM8Vd.png" tvg-id="telepegaso" group-title="Italy",Tele Pegaso
+https://flash2.xdevel.com/telepegasocanale812/telepegasocanale812/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Tele Piadena" tvg-logo="https://i.imgur.com/VqaPuQN.png" tvg-id="telepiadena" group-title="Italy",Tele Piadena
 https://stream3.xdevel.com/video0s975441-151/stream/playlist_dvr.m3u8
 
@@ -13480,6 +13483,9 @@ https://932y4273djv8-hls-live.mariatvcdn.it/teleradiopace3/d2274c22e9ee09eb2eda0
 
 #EXTINF:-1 tvg-name="Tele Radio Pace 4" tvg-logo="https://i.imgur.com/KPHHsN5.png" tvg-id="teleradiopace4" group-title="Italy",Tele Radio Pace 4
 https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Tele Radio Orte" tvg-logo="https://i.imgur.com/uX2uxvN.png" tvg-id="teleradioorte" group-title="Italy",Tele Radio Orte
+https://flash2.xdevel.com/ortetv/ortetv/index.m3u8
 
 #EXTINF:-1 tvg-name="Tele Sirio" tvg-logo="https://i.imgur.com/mDN6QX1.png" tvg-id="telesirio" group-title="Italy",Tele Sirio
 https://www.telesirio.it/live/stream.m3u8
@@ -18304,6 +18310,9 @@ https://streaming102.interskytech.com/live/618.m3u8
 
 #EXTINF:-1 tvg-name="РБК" tvg-logo="https://i.imgur.com/P2Qii5B.png" tvg-id="" group-title="Russia",РБК
 http://92.50.128.180/utv/1358/index.m3u8
+
+#EXTINF:-1 tvg-name="RT Д Русский Ⓖ" tvg-logo="https://i.imgur.com/v5fpEBo.png" tvg-id="rt" group-title="Russia",RT Д Русский Ⓖ
+https://hls.rt.com/hls/rtdru.m3u8
 
 #EXTINF:-1 tvg-name="CGTN Pусский" tvg-logo="https://i.imgur.com/fMsJYzl.png" tvg-id="cgtnp" group-title="Russia",CGTN Pусский
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
