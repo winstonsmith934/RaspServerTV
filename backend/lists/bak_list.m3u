@@ -119,6 +119,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Albania",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Albania",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="RTSH 3 (576i)" tvg-logo="https://i.imgur.com/kyhHTx3.png" tvg-id="rtsh3" group-title="Albania",RTSH 3 (576i)
 http://77.83.120.135:8001/play/a0qo
 
@@ -253,6 +256,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Andorra",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Andorra",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Andorra",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -494,8 +500,8 @@ https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8V
 #EXTINF:-1 tvg-name="Chilecito TV (480p)" tvg-logo="https://i.imgur.com/zGubmgZ.png" tvg-id="chilecitotv" group-title="Argentina",Chilecito TV (480p)
 https://vivo.solumedia.com:19360/grupoemail/grupoemail.m3u8
 
-#EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Argentina",Cine Adrenalina
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4d042878-a4ee-480d-8f14-ebbfb96388e9
+#EXTINF:-1 tvg-name="Cine Adrenalina (720p)" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Argentina",Cine Adrenalina (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Cine Clásico" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="cineclsico" group-title="Argentina",Cine Clásico
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
@@ -601,9 +607,6 @@ https://vivo.solumedia.com:19360/playtv/playtv.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Argentina",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Pluto TV Cine Accion (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Argentina",Pluto TV Cine Accion (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Pluto TV Telefe Clásico (720p)" tvg-logo="https://i.imgur.com/3fuWMmy.png" tvg-id="plutotvtelefeclsico" group-title="Argentina",Pluto TV Telefe Clásico (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de91cf02fc07c0009910465/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
@@ -829,6 +832,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Armenia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Armenia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Armenia",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -1130,6 +1136,9 @@ https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u
 #EXTINF:-1 tvg-name="Antenne Steiermark (720p)" tvg-logo="https://i.imgur.com/qnappvd.jpeg" tvg-id="antennesteiermark" group-title="Austria",Antenne Steiermark (720p)
 https://60efd7a2b4d02.streamlock.net/a_steiermark/ngrp:livestream_all/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ATV2 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logo_ATV2.svg/512px-Logo_ATV2.svg.png" tvg-id="atv2" group-title="Austria",ATV2 HD
+https://cachehsi1a.netplus.ch/live/eds/atv/browser-dash/atv.mpd
+
 #EXTINF:-1 tvg-name="ATV (576p)" tvg-logo="https://i.imgur.com/1pA0Tid.png" tvg-id="atv" group-title="Austria",ATV (576p)
 https://strm.hdtvizlecanli.com/live/atv.m3u8
 
@@ -1211,6 +1220,12 @@ https://s6.hopslan.com/orfx11/index.m3u8
 #EXTINF:-1 tvg-name="ORF 2 (720p)" tvg-logo="https://i.imgur.com/svgv2q5.png" tvg-id="orf2" group-title="Austria",ORF 2 (720p)
 https://strm.hdtvizlecanli.com/live/orf2.m3u8
 
+#EXTINF:-1 tvg-name="ORF 2 Tirol HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/512px-ORF2_logo_n.svg.png" tvg-id="orf2tirol" group-title="Austria",ORF 2 Tirol HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/orf2/browser-dash/orf2.mpd
+
+#EXTINF:-1 tvg-name="ORF III HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/512px-ORF_III_Logo_Monochrom.svg.png" tvg-id="orfiii" group-title="Austria",ORF III HD (720p)
+https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
+
 #EXTINF:-1 tvg-name="Peer TV Alto Adige (1280p)" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png" tvg-id="peertvaltoadige" group-title="Austria",Peer TV Alto Adige (1280p)
 https://iptv.peer.biz/live/peertv-it.m3u8
 
@@ -1261,6 +1276,9 @@ http://178.219.128.68:64888/SUPERTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Austria",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Austria",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Schladming-Dachstein TV (720p)" tvg-logo="https://i.ibb.co/VjnzhMM/Logo-Schl-Dachstein-TV-HP-JPG.jpg" tvg-id="schladmingdachsteintv" group-title="Austria",Schladming-Dachstein TV (720p)
 https://m317.video-stream-hosting.de/gzSoftware-live/_definst_/smil:livestream.smil/playlist.m3u8
@@ -1490,6 +1508,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Azerbaijan",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Azerbaijan",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Azerbaijan",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -1657,6 +1678,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Belarus",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Belarus",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Belarus",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -1895,6 +1919,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Belgium",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Belgium",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Belgium",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -2009,6 +2036,9 @@ https://live-hls-apps-ajb-v3-fa.getaj.net/AJB/index.m3u8
 #EXTINF:-1 tvg-name="like Gecko) Mobile/15E148"" tvg-logo="https://i.imgur.com/vSz2WEp.png" tvg-id="likegeckomobile15e148" group-title="Bosnia_and_herzegovina",like Gecko) Mobile/15E148"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
 
+#EXTINF:-1 tvg-name=" like Gecko) Version/17.10 Safari/605.1.1"" tvg-logo="https://i.imgur.com/LEwlEEE.png" tvg-id="likegeckoversion1710safari60511" group-title="Bosnia_and_herzegovina", like Gecko) Version/17.10 Safari/605.1.1"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.1
+
 #EXTINF:-1 tvg-name="Bloomberg Adria (1080p)" tvg-logo="https://i.imgur.com/A5ui53C.png" tvg-id="bloombergadria" group-title="Bosnia_and_herzegovina",Bloomberg Adria (1080p)
 https://d3ojytvj4doga3.cloudfront.net/app-23764-1566/ngrp:Jq3SvH9h_all/playlist.m3u8
 
@@ -2077,6 +2107,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Bosnia_and_herzegovina",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Bosnia_and_herzegovina",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="RTV Zenica (720p)" tvg-logo="https://i.imgur.com/TKUaflB.png" tvg-id="rtvzenica" group-title="Bosnia_and_herzegovina",RTV Zenica (720p)
 https://stream.rtvze.ba/live/123/123.m3u8
@@ -2816,6 +2849,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Bulgaria",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Bulgaria",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Bulgaria",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -3070,9 +3106,6 @@ https://temp3.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Legislative Assembly TV Nunavut" tvg-logo="https://i.imgur.com/wY9WhYS.png" tvg-id="legislativeassemblytvnunavut" group-title="Canada",Legislative Assembly TV Nunavut
 http://temp2.isilive.ca/live/nunavut/live-eng/index.m3u8
-
-#EXTINF:-1 tvg-name="Love Nature 4K (2160p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/512px-Love_Nature_TV.png" tvg-id="lovenature4k" group-title="Canada",Love Nature 4K (2160p)
-https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Love Nature HD (1080i)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/512px-Love_Nature_TV.png" tvg-id="lovenature" group-title="Canada",Love Nature HD (1080i)
 http://78.130.250.2:8023/play/a02m/index.m3u8
@@ -3494,8 +3527,8 @@ https://v2.tustreaming.cl/chilechannel/index.m3u8
 #EXTINF:-1 tvg-name="Chiloe Red 25" tvg-logo="https://i.imgur.com/3tqrImm.png" tvg-id="chiloered25" group-title="Chile",Chiloe Red 25
 https://v2.tustreaming.cl/chiloered/index.m3u8
 
-#EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Chile",Cine Adrenalina
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4d042878-a4ee-480d-8f14-ebbfb96388e9
+#EXTINF:-1 tvg-name="Cine Adrenalina (720p)" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Chile",Cine Adrenalina (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Cine Clásico" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="cineclsico" group-title="Chile",Cine Clásico
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
@@ -3610,9 +3643,6 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Chile",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Pluto TV Cine Accion (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Chile",Pluto TV Cine Accion (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Chile",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
@@ -4265,8 +4295,8 @@ https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #EXTINF:-1 tvg-name="CGTN Español (1080p)" tvg-logo="https://i.imgur.com/Poz3xfi.png" tvg-id="cgtnespaol" group-title="Costa_rica",CGTN Español (1080p)
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Costa_rica",Cine Adrenalina
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4d042878-a4ee-480d-8f14-ebbfb96388e9
+#EXTINF:-1 tvg-name="Cine Adrenalina (720p)" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Costa_rica",Cine Adrenalina (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Cine Clásico" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="cineclsico" group-title="Costa_rica",Cine Clásico
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
@@ -4378,9 +4408,6 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Costa_rica",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Pluto TV Cine Accion (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Costa_rica",Pluto TV Cine Accion (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Costa_rica",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
@@ -4604,11 +4631,23 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83da
 #EXTINF:-1 tvg-name=" like Gecko) Chrome/81.0.4044.138 Safari/537.36"" tvg-logo="https://i.imgur.com/lDSctzX.png" tvg-id="likegeckochrome8104044138safari53736" group-title="Croatia", like Gecko) Chrome/81.0.4044.138 Safari/537.36"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 
+#EXTINF:-1 tvg-name="HRT 1 HD (1080p)" tvg-logo="https://i.imgur.com/lDSctzX.png" tvg-id="hrt1" group-title="Croatia",HRT 1 HD (1080p)
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT1/default/index.mpd
+
 #EXTINF:-1 tvg-name=" like Gecko) Chrome/81.0.4044.138 Safari/537.36"" tvg-logo="https://i.imgur.com/yyePcl1.png" tvg-id="likegeckochrome8104044138safari53736" group-title="Croatia", like Gecko) Chrome/81.0.4044.138 Safari/537.36"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 
+#EXTINF:-1 tvg-name="HRT 2 HD (1080p)" tvg-logo="https://i.imgur.com/yyePcl1.png" tvg-id="hrt2" group-title="Croatia",HRT 2 HD (1080p)
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT2/default/index.mpd
+
 #EXTINF:-1 tvg-name=" like Gecko) Chrome/81.0.4044.138 Safari/537.36"" tvg-logo="https://i.imgur.com/4OrOJRx.png" tvg-id="likegeckochrome8104044138safari53736" group-title="Croatia", like Gecko) Chrome/81.0.4044.138 Safari/537.36"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+
+#EXTINF:-1 tvg-name="HRT 3 HD (720p)" tvg-logo="https://i.imgur.com/4OrOJRx.png" tvg-id="hrt3" group-title="Croatia",HRT 3 HD (720p)
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT3/default/index.mpd
+
+#EXTINF:-1 tvg-name="HRT 4 HD (720p)" tvg-logo="https://i.imgur.com/VcNrY0m.png" tvg-id="hrt4" group-title="Croatia",HRT 4 HD (720p)
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT4/default/index.mpd
 
 #EXTINF:-1 tvg-name="Klape i Tambure TV (1080p)" tvg-logo="https://i.imgur.com/sKj3dgc.png" tvg-id="klapeitamburetv" group-title="Croatia",Klape i Tambure TV (1080p)
 https://stream.cmctv.hr:49998/kit/live.m3u8
@@ -4669,6 +4708,9 @@ https://d1rzyyum8t0q1e.cloudfront.net/rtl-kockica/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Croatia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Croatia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Croatia",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -4882,6 +4924,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Cyprus",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Cyprus",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Sat 7 Arabic (240p)" tvg-logo="https://i.imgur.com/BzDjQeQ.png" tvg-id="sat7arabic" group-title="Cyprus",Sat 7 Arabic (240p)
 https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8
@@ -5189,6 +5234,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Czech_republic",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Czech_republic",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Czech_republic",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -5390,6 +5438,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Denmark",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Denmark",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Denmark",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -5579,8 +5630,8 @@ https://streamunoapp.com:3958/live/cibaenatvlive.m3u8
 #EXTINF:-1 tvg-name="Cielo TV (1080p)" tvg-logo="https://i.imgur.com/2PNw6BA.png" tvg-id="cielotv" group-title="Dominican_republic",Cielo TV (1080p)
 https://streaming.servervideo.net:1936/cielotv/cielotv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Dominican_republic",Cine Adrenalina
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4d042878-a4ee-480d-8f14-ebbfb96388e9
+#EXTINF:-1 tvg-name="Cine Adrenalina (720p)" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Dominican_republic",Cine Adrenalina (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Cine Clásico" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="cineclsico" group-title="Dominican_republic",Cine Clásico
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
@@ -5815,9 +5866,6 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Dominican_republic",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Pluto TV Cine Accion (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Dominican_republic",Pluto TV Cine Accion (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Dominican_republic",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
@@ -6215,6 +6263,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Estonia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Estonia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Estonia",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -6512,6 +6563,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Finland",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Finland",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Finland",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -6773,8 +6827,20 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="France 2 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png" tvg-id="france2" group-title="France",France 2 (1080p)
 http://69.64.57.208/france2/mono.m3u8
 
+#EXTINF:-1 tvg-name="France 2 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png" tvg-id="france2" group-title="France",France 2 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd
+
+#EXTINF:-1 tvg-name="France 3 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png" tvg-id="france3" group-title="France",France 3 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd
+
+#EXTINF:-1 tvg-name="France 4 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/512px-France_4_2018.svg.png" tvg-id="france4" group-title="France",France 4 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
+
 #EXTINF:-1 tvg-name="France 5 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" tvg-id="france5" group-title="France",France 5 (1080p)
 http://69.64.57.208/france5/mono.m3u8
+
+#EXTINF:-1 tvg-name="France 5 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" tvg-id="france5" group-title="France",France 5 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 
 #EXTINF:-1 tvg-name="France 24 French (1080p)" tvg-logo="https://i.imgur.com/u8N6uoj.png" tvg-id="france24french" group-title="France",France 24 French (1080p)
 https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
@@ -7022,6 +7088,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="France",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="France",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Sabrina la série animée" tvg-logo="https://i.imgur.com/ggvEShB.png" tvg-id="sabrinalasrieanime" group-title="France",Sabrina la série animée
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/611e78c4954f250007ef7b84/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e063bd5-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d91f8235-755b-4e9c-8062-05d444de314d
 
@@ -7054,6 +7123,9 @@ https://videas.agglo-lenslievin.fr/index.m3u8
 
 #EXTINF:-1 tvg-name="Télénantes (480p)" tvg-logo="https://i.imgur.com/G1SCqNI.png" tvg-id="tlnantes" group-title="France",Télénantes (480p)
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Telenantes.m3u8
+
+#EXTINF:-1 tvg-name="TF1 HD (720p)" tvg-logo="https://i.imgur.com/QxHt9NC.png" tvg-id="tf1" group-title="France",TF1 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd
 
 #EXTINF:-1 tvg-name="TGRT Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" tvg-id="tgrteurope" group-title="France",TGRT Europe (1080p)
 https://canli.tgrteu.com/tgrteu.m3u8
@@ -7322,8 +7394,20 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="France 2 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png" tvg-id="france2" group-title="France",France 2 (1080p)
 http://69.64.57.208/france2/mono.m3u8
 
+#EXTINF:-1 tvg-name="France 2 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png" tvg-id="france2" group-title="France",France 2 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd
+
+#EXTINF:-1 tvg-name="France 3 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png" tvg-id="france3" group-title="France",France 3 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd
+
+#EXTINF:-1 tvg-name="France 4 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/512px-France_4_2018.svg.png" tvg-id="france4" group-title="France",France 4 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
+
 #EXTINF:-1 tvg-name="France 5 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" tvg-id="france5" group-title="France",France 5 (1080p)
 http://69.64.57.208/france5/mono.m3u8
+
+#EXTINF:-1 tvg-name="France 5 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" tvg-id="france5" group-title="France",France 5 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 
 #EXTINF:-1 tvg-name="France 24 French (1080p)" tvg-logo="https://i.imgur.com/u8N6uoj.png" tvg-id="france24french" group-title="France",France 24 French (1080p)
 https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
@@ -7571,6 +7655,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="France",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="France",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Sabrina la série animée" tvg-logo="https://i.imgur.com/ggvEShB.png" tvg-id="sabrinalasrieanime" group-title="France",Sabrina la série animée
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/611e78c4954f250007ef7b84/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e063bd5-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d91f8235-755b-4e9c-8062-05d444de314d
 
@@ -7603,6 +7690,9 @@ https://videas.agglo-lenslievin.fr/index.m3u8
 
 #EXTINF:-1 tvg-name="Télénantes (480p)" tvg-logo="https://i.imgur.com/G1SCqNI.png" tvg-id="tlnantes" group-title="France",Télénantes (480p)
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Telenantes.m3u8
+
+#EXTINF:-1 tvg-name="TF1 HD (720p)" tvg-logo="https://i.imgur.com/QxHt9NC.png" tvg-id="tf1" group-title="France",TF1 HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd
 
 #EXTINF:-1 tvg-name="TGRT Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" tvg-id="tgrteurope" group-title="France",TGRT Europe (1080p)
 https://canli.tgrteu.com/tgrteu.m3u8
@@ -7837,6 +7927,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Georgia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Georgia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Rustavi 2" tvg-logo="https://i.imgur.com/rPqd1Cx.png" tvg-id="rustavi2" group-title="Georgia",Rustavi 2
 http://31.146.5.178:8087/play/a008/index.m3u8
@@ -8465,6 +8558,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61
 #EXTINF:-1 tvg-name="ProSieben (576p)" tvg-logo="https://i.imgur.com/zZOk3nh.png" tvg-id="prosieben" group-title="Germany",ProSieben (576p)
 #EXTVLCOPT:http-referrer=http://85.187.13.40:18000/
 
+#EXTINF:-1 tvg-name="ProSieben Maxx HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/512px-ProSieben_MAXX_Logo.svg.png" tvg-id="prosiebenmaxx" group-title="Germany",ProSieben Maxx HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/1753487641?profile=pass
+
 #EXTINF:-1 tvg-name="QVC 2 Germany (540p)" tvg-logo="https://i.imgur.com/f94kPed.png" tvg-id="qvc2germany" group-title="Germany",QVC 2 Germany (540p)
 https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8
 
@@ -8543,6 +8639,12 @@ http://178.219.128.68:64888/SUPERTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Germany",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Germany",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
+#EXTINF:-1 tvg-name="RTLup HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/512px-RTLup_Logo_2021.svg.png" tvg-id="rtlup" group-title="Germany",RTLup HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/124681379?profile=pass
+
 #EXTINF:-1 tvg-name="Saarland Fernsehen 1 (1080p)" tvg-logo="https://i.imgur.com/OodehFV.png" tvg-id="saarlandfernsehen1" group-title="Germany",Saarland Fernsehen 1 (1080p)
 https://saarland1.iptv-playoutcenter.de/saarland1/saarland1.stream_1/playlist.m3u8
 
@@ -8572,6 +8674,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63
 
 #EXTINF:-1 tvg-name="Simsalabim Sabrina" tvg-logo="https://i.imgur.com/N4tdmjE.png" tvg-id="simsalabimsabrina" group-title="Germany",Simsalabim Sabrina
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5dbc327d0451770009ed7577/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84af3cc7-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d22fc39b-64c4-41a9-a5a0-18b370793329
+
+#EXTINF:-1 tvg-name="sixx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/512px-Sixx_Logo.svg.png" tvg-id="sixx" group-title="Germany",sixx
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/197699361?profile=pass
 
 #EXTINF:-1 tvg-name="Sonnenklar TV (1080p)" tvg-logo="https://i.imgur.com/g4QeXwF.png" tvg-id="sonnenklartv" group-title="Germany",Sonnenklar TV (1080p)
 http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8
@@ -8675,6 +8780,9 @@ https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
 #EXTINF:-1 tvg-name="VOX (576p)" tvg-logo="https://i.imgur.com/QPcmfZb.png" tvg-id="vox" group-title="Germany",VOX (576p)
 https://s6.hopslan.com/voxx1/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-name="Voxup" tvg-logo="https://i.imgur.com/tUTspbW.png" tvg-id="voxup" group-title="Germany",Voxup
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/1205817593?profile=pass
+
 #EXTINF:-1 tvg-name="WDR 1 Live (720p)" tvg-logo="https://i.imgur.com/RbqDMYx.png" tvg-id="wdr1live" group-title="Germany",WDR 1 Live (720p)
 https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
 
@@ -8707,6 +8815,15 @@ https://stream.yol.tv:9443/medialive/yol.m3u8
 
 #EXTINF:-1 tvg-name="Z Nation (720p)" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/dff3a92e-c4aa-49c4-b1b6-4a847428b8d5-width200-quality90.png" tvg-id="znation" group-title="Germany",Z Nation (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098
+
+#EXTINF:-1 tvg-name="ZDF HD (720p)" tvg-logo="https://i.imgur.com/rtLb6m9.png" tvg-id="zdf" group-title="Germany",ZDF HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
+
+#EXTINF:-1 tvg-name="ZDFinfo HD (720p)" tvg-logo="https://i.imgur.com/vtq1IWp.png" tvg-id="zdfinfo" group-title="Germany",ZDFinfo HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/zdfinfohd/browser-dash/zdfinfohd.mpd
+
+#EXTINF:-1 tvg-name="ZDFneo HD (720p)" tvg-logo="https://i.imgur.com/1JIIGgL.png" tvg-id="zdfneo" group-title="Germany",ZDFneo HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/zdfneohd/browser-dash/zdfneohd.mpd
 
 #EXTINF:-1 tvg-name="Zee One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Zee_One_present_logo.png/512px-Zee_One_present_logo.png" tvg-id="zeeone" group-title="Germany",Zee One
 https://ef56ef401101403a8b06f1dec29ef1eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-de_ZeeOne/playlist.m3u8
@@ -9197,6 +9314,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61
 #EXTINF:-1 tvg-name="ProSieben (576p)" tvg-logo="https://i.imgur.com/zZOk3nh.png" tvg-id="prosieben" group-title="Germany",ProSieben (576p)
 #EXTVLCOPT:http-referrer=http://85.187.13.40:18000/
 
+#EXTINF:-1 tvg-name="ProSieben Maxx HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/512px-ProSieben_MAXX_Logo.svg.png" tvg-id="prosiebenmaxx" group-title="Germany",ProSieben Maxx HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/1753487641?profile=pass
+
 #EXTINF:-1 tvg-name="QVC 2 Germany (540p)" tvg-logo="https://i.imgur.com/f94kPed.png" tvg-id="qvc2germany" group-title="Germany",QVC 2 Germany (540p)
 https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8
 
@@ -9275,6 +9395,12 @@ http://178.219.128.68:64888/SUPERTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Germany",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Germany",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
+#EXTINF:-1 tvg-name="RTLup HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/512px-RTLup_Logo_2021.svg.png" tvg-id="rtlup" group-title="Germany",RTLup HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/124681379?profile=pass
+
 #EXTINF:-1 tvg-name="Saarland Fernsehen 1 (1080p)" tvg-logo="https://i.imgur.com/OodehFV.png" tvg-id="saarlandfernsehen1" group-title="Germany",Saarland Fernsehen 1 (1080p)
 https://saarland1.iptv-playoutcenter.de/saarland1/saarland1.stream_1/playlist.m3u8
 
@@ -9304,6 +9430,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63
 
 #EXTINF:-1 tvg-name="Simsalabim Sabrina" tvg-logo="https://i.imgur.com/N4tdmjE.png" tvg-id="simsalabimsabrina" group-title="Germany",Simsalabim Sabrina
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5dbc327d0451770009ed7577/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84af3cc7-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d22fc39b-64c4-41a9-a5a0-18b370793329
+
+#EXTINF:-1 tvg-name="sixx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/512px-Sixx_Logo.svg.png" tvg-id="sixx" group-title="Germany",sixx
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/197699361?profile=pass
 
 #EXTINF:-1 tvg-name="Sonnenklar TV (1080p)" tvg-logo="https://i.imgur.com/g4QeXwF.png" tvg-id="sonnenklartv" group-title="Germany",Sonnenklar TV (1080p)
 http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8
@@ -9407,6 +9536,9 @@ https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
 #EXTINF:-1 tvg-name="VOX (576p)" tvg-logo="https://i.imgur.com/QPcmfZb.png" tvg-id="vox" group-title="Germany",VOX (576p)
 https://s6.hopslan.com/voxx1/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-name="Voxup" tvg-logo="https://i.imgur.com/tUTspbW.png" tvg-id="voxup" group-title="Germany",Voxup
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/1205817593?profile=pass
+
 #EXTINF:-1 tvg-name="WDR 1 Live (720p)" tvg-logo="https://i.imgur.com/RbqDMYx.png" tvg-id="wdr1live" group-title="Germany",WDR 1 Live (720p)
 https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
 
@@ -9439,6 +9571,15 @@ https://stream.yol.tv:9443/medialive/yol.m3u8
 
 #EXTINF:-1 tvg-name="Z Nation (720p)" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/dff3a92e-c4aa-49c4-b1b6-4a847428b8d5-width200-quality90.png" tvg-id="znation" group-title="Germany",Z Nation (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098
+
+#EXTINF:-1 tvg-name="ZDF HD (720p)" tvg-logo="https://i.imgur.com/rtLb6m9.png" tvg-id="zdf" group-title="Germany",ZDF HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
+
+#EXTINF:-1 tvg-name="ZDFinfo HD (720p)" tvg-logo="https://i.imgur.com/vtq1IWp.png" tvg-id="zdfinfo" group-title="Germany",ZDFinfo HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/zdfinfohd/browser-dash/zdfinfohd.mpd
+
+#EXTINF:-1 tvg-name="ZDFneo HD (720p)" tvg-logo="https://i.imgur.com/1JIIGgL.png" tvg-id="zdfneo" group-title="Germany",ZDFneo HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/zdfneohd/browser-dash/zdfneohd.mpd
 
 #EXTINF:-1 tvg-name="Zee One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Zee_One_present_logo.png/512px-Zee_One_present_logo.png" tvg-id="zeeone" group-title="Germany",Zee One
 https://ef56ef401101403a8b06f1dec29ef1eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-de_ZeeOne/playlist.m3u8
@@ -9748,6 +9889,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Greece",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Greece",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Greece",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -10295,6 +10439,9 @@ http://194.76.186.33:8000/play/a01z/index.m3u8
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Hungary",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Hungary",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Hungary",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -10477,6 +10624,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Iceland",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Iceland",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="RÚV 2 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/R%C3%9AV_2_2019_logo.svg/512px-R%C3%9AV_2_2019_logo.svg.png" tvg-id="rv2" group-title="Iceland",RÚV 2 (1080p)
 https://ruvlive.akamaized.net/out/v1/2ff7673de40f419fa5164498fae89089/index.m3u8
@@ -12536,6 +12686,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Ireland",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Ireland",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Ireland",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -13976,6 +14129,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Latvia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Latvia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Latvia",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -14161,6 +14317,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Lithuania",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Lithuania",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Lithuania",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -14354,6 +14513,9 @@ https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Luxembourg",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Luxembourg",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Luxembourg",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -14509,6 +14671,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Malta",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Malta",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Malta",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -14669,8 +14834,8 @@ https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #EXTINF:-1 tvg-name="CGTN Español (1080p)" tvg-logo="https://i.imgur.com/Poz3xfi.png" tvg-id="cgtnespaol" group-title="Mexico",CGTN Español (1080p)
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Mexico",Cine Adrenalina
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4d042878-a4ee-480d-8f14-ebbfb96388e9
+#EXTINF:-1 tvg-name="Cine Adrenalina (720p)" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Mexico",Cine Adrenalina (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Cine Clásico" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="cineclsico" group-title="Mexico",Cine Clásico
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
@@ -14884,9 +15049,6 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Mexico",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Pluto TV Cine Accion (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Mexico",Pluto TV Cine Accion (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Presumiendo México (720p)" tvg-logo="https://i.imgur.com/bFG4Rqz.png" tvg-id="presumiendomxico" group-title="Mexico",Presumiendo México (720p)
 https://5ca39be538307.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8
@@ -15239,6 +15401,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Moldova",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Moldova",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Moldova",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -15371,6 +15536,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Monaco",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Monaco",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Monaco",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -15484,6 +15652,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Montenegro",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Montenegro",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Montenegro",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -15842,6 +16013,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Netherlands",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Netherlands",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="RTV 1 (720p)" tvg-logo="https://i.imgur.com/lRCsPWT.png" tvg-id="rtv1" group-title="Netherlands",RTV 1 (720p)
 https://dy7fxpkq4ggk8.cloudfront.net/nlpo/clr-nlpo/rtv1/index.m3u8
 
@@ -16175,6 +16349,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="North_macedonia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="North_macedonia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="North_macedonia",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -16331,6 +16508,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Norway",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Norway",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Norway",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -16415,8 +16595,8 @@ https://rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN Español (1080p)" tvg-logo="https://i.imgur.com/Poz3xfi.png" tvg-id="cgtnespaol" group-title="Paraguay",CGTN Español (1080p)
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Paraguay",Cine Adrenalina
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4d042878-a4ee-480d-8f14-ebbfb96388e9
+#EXTINF:-1 tvg-name="Cine Adrenalina (720p)" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Paraguay",Cine Adrenalina (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Cine Clásico" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="cineclsico" group-title="Paraguay",Cine Clásico
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
@@ -16504,9 +16684,6 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Paraguay",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Pluto TV Cine Accion (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Paraguay",Pluto TV Cine Accion (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Paraguay",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
@@ -16625,8 +16802,8 @@ https://cdnhd.iblups.com/hls/3f2cb1658d114f2693eff18d83199e67.m3u8
 #EXTINF:-1 tvg-name="CGTN Español (1080p)" tvg-logo="https://i.imgur.com/Poz3xfi.png" tvg-id="cgtnespaol" group-title="Peru",CGTN Español (1080p)
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Peru",Cine Adrenalina
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4d042878-a4ee-480d-8f14-ebbfb96388e9
+#EXTINF:-1 tvg-name="Cine Adrenalina (720p)" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Peru",Cine Adrenalina (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Cine Clásico" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="cineclsico" group-title="Peru",Cine Clásico
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
@@ -16738,9 +16915,6 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Peru",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Pluto TV Cine Accion (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Peru",Pluto TV Cine Accion (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Peru",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
@@ -17048,6 +17222,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Poland",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Poland",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="SAYHi (1080i)" tvg-logo="https://i.imgur.com/xR151dE.png" tvg-id="sayhi" group-title="Poland",SAYHi (1080i)
 https://s-pl-01.mediatool.tv/playout/shpl-abr/index.m3u8
 
@@ -17269,6 +17446,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Portugal",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Portugal",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Portugal",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -17825,6 +18005,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Romania",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Romania",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Romania",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -18152,6 +18335,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Romania",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Romania",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Romania",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -18358,6 +18544,9 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-07.smil/playlist
 
 #EXTINF:-1 tvg-name="Смотрим - Честный Детектив" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/r/444/241/8.png" tvg-id="" group-title="Russia",Смотрим - Честный Детектив
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Ю Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/a/ac/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%AE%C2%BB_%28%D1%81_3_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2018_%D0%B3%D0%BE%D0%B4%D0%B0%29.png" tvg-id="" group-title="Russia",Ю Ⓢ
+https://strm.yandex.ru/kal/utv/utv0.m3u8
 
 #EXTINF:-1 tvg-name="Матч! Планета Ⓢ" tvg-logo="https://i.imgur.com/vhyMb9D.png" tvg-id="" group-title="Russia",Матч! Планета Ⓢ
 http://212.0.211.102:9999/play/a00b/index.m3u8
@@ -18649,6 +18838,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Russia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Russia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="RTД" tvg-logo="https://i.imgur.com/aeu5zIC.png" tvg-id="rt" group-title="Russia",RTД
 https://cdn-01.bonus-tv.ru/rtdoc/playlist.m3u8
@@ -19184,6 +19376,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="San_marino",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="San_marino",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="San Marino RTV (720p)" tvg-logo="https://i.imgur.com/ZJSWusT.png" tvg-id="sanmarinortv" group-title="San_marino",San Marino RTV (720p)
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8
 
@@ -19640,6 +19835,12 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Serbia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Serbia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
+#EXTINF:-1 tvg-name="RTS Svet HD (720p)" tvg-logo="https://i.imgur.com/LjunOdy.png" tvg-id="rtssvet" group-title="Serbia",RTS Svet HD (720p)
+https://cachehsi1a.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd
+
 #EXTINF:-1 tvg-name="RTV AS (576p)" tvg-logo="https://i.imgur.com/LIUtEgD.png" tvg-id="rtvas" group-title="Serbia",RTV AS (576p)
 https://srv1.adriatelekom.com/TVAS/index.m3u8
 
@@ -19919,6 +20120,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Slovakia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Slovakia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Senzi (720p)" tvg-logo="https://i.imgur.com/1qJMmBu.png" tvg-id="senzi" group-title="Slovakia",Senzi (720p)
 http://lb.streaming.sk/senzi/stream/playlist.m3u8
 
@@ -20161,6 +20365,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Slovenia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Slovenia",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Sehara TV (720p)" tvg-logo="https://i.imgur.com/189FW4H.png" tvg-id="seharatv" group-title="Slovenia",Sehara TV (720p)
 http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
@@ -20918,6 +21125,9 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83da
 #EXTINF:-1 tvg-name="Hit Tv" tvg-logo="https://i0.wp.com/audiovisual451.com/wp-content/uploads/HIT-TV.jpg?resize=300%2C236&ssl=1" tvg-id="hittv" group-title="Spain",Hit Tv
 http://185.189.225.149/HitTV/index.m3u8
 
+#EXTINF:-1 tvg-name="HOLA! Play (1080p)" tvg-logo="https://m.media-amazon.com/images/I/5194tl8duqL.png" tvg-id="holaplay" group-title="Spain",HOLA! Play (1080p)
+https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8
+
 #EXTINF:-1 tvg-name="Huelva TV (720p)" tvg-logo="https://i.imgur.com/hEnpvKj.png" tvg-id="huelvatv" group-title="Spain",Huelva TV (720p)
 https://5d8d85cf2c308.streamlock.net:1936/huelvatv/htvdirecto/playlist.m3u8
 
@@ -21084,13 +21294,13 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca831
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Acción (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccin" group-title="Spain",Pluto TV Cine Acción (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac2591dd8880007bb7d6d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Clásico (720p)" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="plutotvcineclsico" group-title="Spain",Pluto TV Cine Clásico (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61373bb45168fe000773eecd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Estelar (720p)" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Spain",Pluto TV Cine Estelar (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac1f1b66c76000790ef27/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cocina (720p)" tvg-logo="https://i.imgur.com/LRtfQla.png" tvg-id="plutotvcocina" group-title="Spain",Pluto TV Cocina (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8d0fbaa8742fa3093899da/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
@@ -21208,6 +21418,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Spain",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Spain",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/x9CgczD.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
@@ -21596,6 +21809,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Sweden",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Sweden",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Sweden",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -21649,6 +21865,9 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 
 #EXTINF:-1 tvg-name="SRF 1" tvg-logo="https://i.imgur.com/KCPHba2.png" tvg-id="srf1" group-title="Switzerland",SRF 1
 http://51.91.73.99:25461/sweden/PM66f7Y43H/25849
+
+#EXTINF:-1 tvg-name="TVO" tvg-logo="https://i.imgur.com/5QFZ05B.png" tvg-id="tvo" group-title="Switzerland",TVO
+https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8
 
 #EXTINF:-1 tvg-name="RTS Un" tvg-logo="https://i.imgur.com/gWuuBZc.png" tvg-id="rtsun" group-title="Switzerland",RTS Un
 http://hotiptv.site:8080/zkby2013/1d469e6d9e42/67585
@@ -21808,6 +22027,12 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Switzerland",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Switzerland",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
+#EXTINF:-1 tvg-name="RTLup HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/512px-RTLup_Logo_2021.svg.png" tvg-id="rtlup" group-title="Switzerland",RTLup HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/124681379?profile=pass
 
 #EXTINF:-1 tvg-name="RTV Islam (1080p)" tvg-logo="https://i.ibb.co/LSJqLJw/RTV-LOGO.png" tvg-id="rtvislam" group-title="Switzerland",RTV Islam (1080p)
 https://protokolldns.xyz/rtvislamweb554/index.m3u8
@@ -22088,14 +22313,14 @@ https://tv-e-okul02.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="4U TV (720p)" tvg-logo="https://i.imgur.com/PexhKwp.png" tvg-id="4utv" group-title="Turkey",4U TV (720p)
 https://hls.4utv.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-name="24 TV" tvg-logo="https://i.imgur.com/8FO41es.png" tvg-id="24tv" group-title="Turkey",24 TV
-https://kanal24.blutv.com/blutv_kanal24_live/live.m3u8
+#EXTINF:-1 tvg-name="24 TV (1080p)" tvg-logo="https://i.imgur.com/8FO41es.png" tvg-id="24tv" group-title="Turkey",24 TV (1080p)
+http://185.234.111.229:8000/play/a059
 
 #EXTINF:-1 tvg-name="360 (1080p)" tvg-logo="https://i.imgur.com/agn47sQ.png" tvg-id="360" group-title="Turkey",360 (1080p)
 http://185.234.111.229:8000/play/a05a
 
 #EXTINF:-1 tvg-name="A2TV" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" tvg-id="a2tv" group-title="Turkey",A2TV
-https://c.fulltvizle.com/a2/index.m3u8
+https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8
 
 #EXTINF:-1 tvg-name="A Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" tvg-id="ahaber" group-title="Turkey",A Haber
 https://c.fulltvizle.com/ahaber/index.m3u8
@@ -22430,9 +22655,6 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xi
 #EXTINF:-1 tvg-name="National Geographic Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" tvg-id="nationalgeographicwild" group-title="Turkey",National Geographic Wild
 https://tv.arectv13.sbs/live/natgeowild.m3u8
 
-#EXTINF:-1 tvg-name="Nora TV (1080p)" tvg-logo="https://noratelevizyonu.com/wp-content/uploads/2023/11/nora-tv-logo-1.png" tvg-id="noratv" group-title="Turkey",Nora TV (1080p)
-https://live.artidijitalmedya.com/artidijital_noratv/noratv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="NOW TV" tvg-logo="https://i.imgur.com/5EYjWK7.png" tvg-id="nowtv" group-title="Turkey",NOW TV
 http://116.202.238.88/FOXTV_TR/index.m3u8
 
@@ -22525,6 +22747,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Turkey",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Turkey",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Rumeli TV (576p)" tvg-logo="https://i.imgur.com/xpRPX3a.png" tvg-id="rumelitv" group-title="Turkey",Rumeli TV (576p)
 http://185.234.111.229:8000/play/a023
@@ -23177,6 +23402,9 @@ http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Ukraine",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Ukraine",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
+
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Ukraine",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -23443,6 +23671,9 @@ http://178.219.128.68:64888/RTL
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Ukraine",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTL Zwei HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Ukraine",RTL Zwei HD
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/518354068?profile=pass
 
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Ukraine",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
@@ -24803,14 +25034,14 @@ https://linear-11.frequency.stream/dist/glewedtv/11/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-name="Christian Youth Channel (CYC) (1080p)" tvg-logo="https://i.imgur.com/61eV77C.png" tvg-id="christianyouthchannel" group-title="Usa",Christian Youth Channel (CYC) (1080p)
 http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Usa",Cine Adrenalina
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4d042878-a4ee-480d-8f14-ebbfb96388e9
+#EXTINF:-1 tvg-name="Cine Adrenalina (720p)" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Usa",Cine Adrenalina (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Cine Clásico" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="cineclsico" group-title="Usa",Cine Clásico
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
 
-#EXTINF:-1 tvg-name="Cine Premiere" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Usa",Cine Premiere
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e000-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a7f04239-fee6-40d2-9e5e-6893a6d330ec
+#EXTINF:-1 tvg-name="Cine Premiere (720p)" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Usa",Cine Premiere (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Cine Romantico" tvg-logo="https://i.imgur.com/FUrrDrb.png" tvg-id="cineromantico" group-title="Usa",Cine Romantico
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=656
@@ -26600,9 +26831,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 #EXTINF:-1 tvg-name="Pluto TV Ciencia (720p)" tvg-logo="https://i.imgur.com/MJQTxZT.png" tvg-id="plutotvciencia" group-title="Usa",Pluto TV Ciencia (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd8364ea1d6780009929902/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 
-#EXTINF:-1 tvg-name="Pluto TV Cine Accion (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Usa",Pluto TV Cine Accion (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
-
 #EXTINF:-1 tvg-name="Pluto TV Cine Suspenso (720p)" tvg-logo="https://i.imgur.com/g9LkLOY.png" tvg-id="plutotvcinesuspenso" group-title="Usa",Pluto TV Cine Suspenso (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 
@@ -28091,8 +28319,8 @@ https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8V
 #EXTINF:-1 tvg-name="Chivacoa TV Internacional (1080p)" tvg-logo="https://i.imgur.com/9rbwZFY.png" tvg-id="chivacoatvinternacional" group-title="Venezuela",Chivacoa TV Internacional (1080p)
 https://live20.bozztv.com/akamaissh101/ssh101/1234chivacoa/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Venezuela",Cine Adrenalina
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4d042878-a4ee-480d-8f14-ebbfb96388e9
+#EXTINF:-1 tvg-name="Cine Adrenalina (720p)" tvg-logo="https://i.imgur.com/njCKaMv.png" tvg-id="cineadrenalina" group-title="Venezuela",Cine Adrenalina (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="Cine Clásico" tvg-logo="https://i.imgur.com/hCA5BRr.png" tvg-id="cineclsico" group-title="Venezuela",Cine Clásico
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
@@ -28195,9 +28423,6 @@ https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PLTV (614p)" tvg-logo="https://i.imgur.com/ftblZ6f.jpg" tvg-id="pltv" group-title="Venezuela",PLTV (614p)
 https://vcp2.myplaytv.com/pltv/pltv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Pluto TV Cine Accion (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Venezuela",Pluto TV Cine Accion (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Venezuela",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
