@@ -11,9 +11,6 @@ https://live1.mediadesk.al/cnatvlive.m3u8
 #EXTINF:-1 tvg-name="TV 7 Albania" tvg-logo="https://i.imgur.com/k9WqPLZ.png" tvg-id="tv7albania" group-title="Albania",TV 7 Albania
 https://5d00db0e0fcd5.streamlock.net/7064/7064/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TV Apollon Ⓢ" tvg-logo="https://i.imgur.com/gUz2AjM.png" tvg-id="tvapollon" group-title="Albania",TV Apollon Ⓢ
-https://live.apollon.tv/Apollon-WEB/video.m3u8?token=tnt3u76re30d2
-
 #EXTINF:-1 tvg-name="Vizion Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/512px-Vizion_Plus.svg.png" tvg-id="vizion" group-title="Albania",Vizion Plus
 https://fe.tring.al/delta/105/out/u/rdghfhsfhfshs.m3u8
 
@@ -104,9 +101,6 @@ https://webtvstream.bhtelecom.ba/hls9/hrt2_1200.m3u8
 #EXTINF:-1 tvg-name="HRT 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/HRT3_Logo_aktuell.png" tvg-id="hrt3" group-title="Croatia",HRT 3
 https://webtvstream.bhtelecom.ba/hls9/hrt3_1200.m3u8
 
-#EXTINF:-1 tvg-name="TV Jadran" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/9a/Tv_jadran_logo.png" tvg-id="tvjadran" group-title="Croatia",TV Jadran
-https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
-
 #EXTINF:-1 tvg-name="RIK 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Logo_RIK_1_2017.svg/640px-Logo_RIK_1_2017.svg.png" tvg-id="rik1" group-title="Cyprus",RIK 1 Ⓢ
 http://l6.cloudskep.com/tvb6/rik1-1/mpeg.2ts
 
@@ -127,12 +121,6 @@ https://vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8
 
 #EXTINF:-1 tvg-name="TV 2/Bornholm" tvg-logo="https://i.imgur.com/cEOpXU6.png" tvg-id="tv2bornholm" group-title="Denmark",TV 2/Bornholm
 https://live.tv2bornholm.dk/stream/live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
-https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
-https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
@@ -283,6 +271,9 @@ https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sicilia Tv" tvg-logo="https://i.imgur.com/I5FoThW.png" tvg-id="siciliatv" group-title="Italy",Sicilia Tv
 https://stream9.xdevel.com/video0s976441-1226/stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Super J Tv" tvg-logo="https://i.imgur.com/5oy5Nuu.png" tvg-id="superjtv" group-title="Italy",Super J Tv
+https://59d39900ebfb8.streamlock.net/SuperJtv/SuperJtv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TVL (TV Libera Pistoia)" tvg-logo="https://i.imgur.com/07geF0L.png" tvg-id="tvl" group-title="Italy",TVL (TV Libera Pistoia)
 http://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/mono.m3u8
@@ -481,6 +472,9 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.i
 
 #EXTINF:-1 tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/GaGqM4z.png" tvg-id="rtvdrenthe" group-title="Netherlands",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/1080p/prog_index.m3u8
+
+#EXTINF:-1 tvg-name="Телевизија Здравкин" tvg-logo="https://i.imgur.com/kSmcAER.png" tvg-id="" group-title="North_macedonia",Телевизија Здравкин
+http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
 http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
