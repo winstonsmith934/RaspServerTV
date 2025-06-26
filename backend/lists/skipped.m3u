@@ -233,9 +233,6 @@ https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
-
 #EXTINF:-1 tvg-name="Ora Tv" tvg-logo="https://i.imgur.com/clWVrvE.png" tvg-id="oratv" group-title="Italy",Ora Tv
 https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
 
@@ -268,6 +265,9 @@ http://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/mono.
 
 #EXTINF:-1 tvg-name="Tele Belluno" tvg-logo="https://i.imgur.com/YiM2Z7E.png" tvg-id="telebelluno" group-title="Italy",Tele Belluno
 https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8
+
+#EXTINF:-1 tvg-name="Tele Liguria Sud" tvg-logo="https://i.imgur.com/BeLAYJ6.jpg" tvg-id="teleliguriasud" group-title="Italy",Tele Liguria Sud
+https://64b16f23efbee.streamlock.net/teleliguriasud/teleliguriasud/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Occidente" tvg-logo="https://i.imgur.com/3aOiWKa.png" tvg-id="teleoccidente" group-title="Italy",Tele Occidente
 https://stream9.xdevel.com/video0s976532-1292/stream/playlist.m3u8
@@ -461,6 +461,9 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.i
 #EXTINF:-1 tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/GaGqM4z.png" tvg-id="rtvdrenthe" group-title="Netherlands",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/1080p/prog_index.m3u8
 
+#EXTINF:-1 tvg-name="NH Nieuws" tvg-logo="https://i.imgur.com/SQPVOwn.png" tvg-id="nhnieuws" group-title="Netherlands",NH Nieuws
+https://rrr.sz.xlcdn.com/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8
+
 #EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
 http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
 
@@ -541,6 +544,9 @@ https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/chunk
 
 #EXTINF:-1 tvg-name="Dacwa TV Ⓢ" tvg-logo="https://i.imgur.com/rMqrLzV.png" tvg-id="dacwatv" group-title="Somalia",Dacwa TV Ⓢ
 https://ap02.iqplay.tv:8082/iqb8002/d13w1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Somali Cable TV Ⓢ" tvg-logo="https://i.imgur.com/iPkaCts.png" tvg-id="somalicabletv" group-title="Somalia",Somali Cable TV Ⓢ
+https://ap02.iqplay.tv:8082/iqb8002/somc131/playlist.m3u8
 
 #EXTINF:-1 tvg-name="La 1" tvg-logo="https://i.imgur.com/NbesiPn.png" tvg-id="la1" group-title="Spain",La 1
 https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x3gcl32l5ffq2/La_1_ES.m3u8
