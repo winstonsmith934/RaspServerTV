@@ -509,6 +509,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64
 #EXTINF:-1 tvg-name="Cine Premiere (720p)" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Argentina",Cine Premiere (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Cine XOXO" tvg-logo="https://i.imgur.com/eAS86qH.png" tvg-id="cinexoxo" group-title="Argentina",Cine XOXO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7
+
 #EXTINF:-1 tvg-name="Clan TVE Internacional (1080p)" tvg-logo="https://i.imgur.com/03jFV68.png" tvg-id="clantveinternacional" group-title="Argentina",Clan TVE Internacional (1080p)
 https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
 
@@ -517,6 +520,9 @@ https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 
 #EXTINF:-1 tvg-name="CPEtv (720p)" tvg-logo="https://i.imgur.com/zFgbobO.png" tvg-id="cpetv" group-title="Argentina",CPEtv (720p)
 https://stream.arcast.live/cpe/ngrp:cpe_all/playlist.m3u8
+
+#EXTINF:-1 tvg-name="CSI en Español" tvg-logo="https://i.imgur.com/ifarQil.png" tvg-id="csienespaol" group-title="Argentina",CSI en Español
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285532-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ec065848-4bdc-45cb-ad2c-0ef96c23d424
 
 #EXTINF:-1 tvg-name="De Película (576p)" tvg-logo="https://i.imgur.com/aksM8pa.png" tvg-id="depelcula" group-title="Argentina",De Película (576p)
 https://linear-354.frequency.stream/mt/studio/354/hls/master/playlist.m3u8
@@ -566,6 +572,9 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HISTORY2/index.m3u8
 #EXTINF:-1 tvg-name="HTV" tvg-logo="https://i.imgur.com/NlKFNHS.png" tvg-id="htv" group-title="Argentina",HTV
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
 
+#EXTINF:-1 tvg-name="Investiga" tvg-logo="https://i.imgur.com/Sb5adD7.png" tvg-id="investiga" group-title="Argentina",Investiga
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126
+
 #EXTINF:-1 tvg-name="Kanade (1080p)" tvg-logo="https://static.kanade.cl/assets/img/profilepic_512px.png" tvg-id="kanade" group-title="Argentina",Kanade (1080p)
 https://streaming-cl.sh1ny.space/memfs/0e41fc31-9f44-46d4-8712-0446e2f3dcaa.m3u8
 
@@ -611,6 +620,12 @@ https://vivo.solumedia.com:19360/playtv/playtv.m3u8
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Argentina",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Argentina",Pluto TV Cine Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
+
+#EXTINF:-1 tvg-name="Pluto TV Cine Estelar" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Argentina",Pluto TV Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=false
+
 #EXTINF:-1 tvg-name="Pluto TV Telefe Clásico (720p)" tvg-logo="https://i.imgur.com/3fuWMmy.png" tvg-id="plutotvtelefeclsico" group-title="Argentina",Pluto TV Telefe Clásico (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de91cf02fc07c0009910465/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 
@@ -652,6 +667,9 @@ https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Argentina",RT en Español (1080p)
 #EXTVLCOPT:http-referrer=https://odysee.com/
+
+#EXTINF:-1 tvg-name="Series con Ñ" tvg-logo="https://i.imgur.com/uQfzebn.png" tvg-id="seriescon" group-title="Argentina",Series con Ñ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb3087fbbc120007fc46be/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b8988-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8d10604b-577d-49d0-a6bc-03b028c6758f
 
 #EXTINF:-1 tvg-name="Sicardi TV (720p)" tvg-logo="https://i.imgur.com/W2EUIL2.png" tvg-id="sicarditv" group-title="Argentina",Sicardi TV (720p)
 https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
@@ -2429,9 +2447,6 @@ https://linear-181.frequency.stream/mt/brightcove/181/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-name="RIT TV (1080p)" tvg-logo="https://i.imgur.com/Unjs1wi.png" tvg-id="rittv" group-title="Brazil",RIT TV (1080p)
 https://acesso.ecast.site:3648/live/ritlive.m3u8
 
-#EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Brazil",RT en Español (1080p)
-#EXTVLCOPT:http-referrer=https://odysee.com/
-
 #EXTINF:-1 tvg-name="SBT Interior (720p)" tvg-logo="https://i.imgur.com/IkZfa4j.png" tvg-id="sbtinterior" group-title="Brazil",SBT Interior (720p)
 https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 
@@ -3545,6 +3560,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64
 #EXTINF:-1 tvg-name="Cine Premiere (720p)" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Chile",Cine Premiere (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Cine XOXO" tvg-logo="https://i.imgur.com/eAS86qH.png" tvg-id="cinexoxo" group-title="Chile",Cine XOXO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7
+
 #EXTINF:-1 tvg-name="Clan TVE Internacional (1080p)" tvg-logo="https://i.imgur.com/03jFV68.png" tvg-id="clantveinternacional" group-title="Chile",Clan TVE Internacional (1080p)
 https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
 
@@ -3553,6 +3571,9 @@ https://v2.tustreaming.cl/clicktv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Contivision (720p)" tvg-logo="https://i.imgur.com/Lz2OlKf.png" tvg-id="contivision" group-title="Chile",Contivision (720p)
 https://unlimited6-cl.dps.live/cm/cm.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="CSI en Español" tvg-logo="https://i.imgur.com/ifarQil.png" tvg-id="csienespaol" group-title="Chile",CSI en Español
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285532-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ec065848-4bdc-45cb-ad2c-0ef96c23d424
 
 #EXTINF:-1 tvg-name="Dance FM (720p)" tvg-logo="https://i2.paste.pics/ff3e1e1045a1968dcdbcda3824a94eb3.png" tvg-id="dancefm" group-title="Chile",Dance FM (720p)
 https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8
@@ -3614,6 +3635,9 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
 #EXTINF:-1 tvg-name="Huasco Televisión (360p)" tvg-logo="https://i.imgur.com/Fo2DV70.png" tvg-id="huascotelevisin" group-title="Chile",Huasco Televisión (360p)
 https://paneltv.online:1936/8024/8024/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Investiga" tvg-logo="https://i.imgur.com/Sb5adD7.png" tvg-id="investiga" group-title="Chile",Investiga
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126
+
 #EXTINF:-1 tvg-name="ITV Patagonia (720p)" tvg-logo="https://i.postimg.cc/tJ8F8XJL/339934625-6637234786303842-283053087769760685-n-removebg-preview.png" tvg-id="itvpatagonia" group-title="Chile",ITV Patagonia (720p)
 https://unlimited1-cl.dps.live/itv/itv.smil/playlist.m3u8
 
@@ -3656,6 +3680,12 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Chile",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Chile",Pluto TV Cine Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
+
+#EXTINF:-1 tvg-name="Pluto TV Cine Estelar" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Chile",Pluto TV Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=false
+
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Chile",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
 
@@ -3676,6 +3706,9 @@ https://marine2.miplay.cl/rec/index.m3u8
 
 #EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Chile",RT en Español (1080p)
 #EXTVLCOPT:http-referrer=https://odysee.com/
+
+#EXTINF:-1 tvg-name="Series con Ñ" tvg-logo="https://i.imgur.com/uQfzebn.png" tvg-id="seriescon" group-title="Chile",Series con Ñ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb3087fbbc120007fc46be/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b8988-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8d10604b-577d-49d0-a6bc-03b028c6758f
 
 #EXTINF:-1 tvg-name="Sextavisión (720p)" tvg-logo="https://i.imgur.com/mwUZBU9.png" tvg-id="sextavisin" group-title="Chile",Sextavisión (720p)
 https://5ff3d9babae13.streamlock.net/8020/8020/playlist.m3u8
@@ -3964,6 +3997,9 @@ http://49.113.179.174:4022/udp/238.125.1.36:5140
 
 #EXTINF:-1 tvg-name="Guangzhou TV" tvg-logo="https://i.imgur.com/ff3KQXp.png" tvg-id="guangzhoutv" group-title="China",Guangzhou TV
 https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
+
+#EXTINF:-1 tvg-name="Harbin Movie Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/haerbin.jpg" tvg-id="harbinmoviechannel" group-title="China",Harbin Movie Channel
+https://stream.hrbtv.net/yspd/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Hunan Entertainment Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/hnyl.jpg" tvg-id="hunanentertainmentchannel" group-title="China",Hunan Entertainment Channel
 http://1732e975z9.zicp.fun:8082/hls/20/index.m3u8
@@ -4340,6 +4376,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64
 #EXTINF:-1 tvg-name="Cine Premiere (720p)" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Costa_rica",Cine Premiere (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Cine XOXO" tvg-logo="https://i.imgur.com/eAS86qH.png" tvg-id="cinexoxo" group-title="Costa_rica",Cine XOXO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7
+
 #EXTINF:-1 tvg-name="Cinecanal" tvg-logo="https://comteco.com.bo/img/upload/canales/qvJQXi.png" tvg-id="cinecanal" group-title="Costa_rica",Cinecanal
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 
@@ -4351,6 +4390,9 @@ https://panel2.streamingtv-mediacp.online:1936/rudcmzwtnh/rudcmzwtnh/playlist.m3
 
 #EXTINF:-1 tvg-name="Coto Brus TV (720p)" tvg-logo="https://i.ibb.co/vJZqrFY/a4ed367c69c23110d458a332af95be0be64566f288ccb5f261689344e6ba5e0d.png" tvg-id="cotobrustv" group-title="Costa_rica",Coto Brus TV (720p)
 https://cloudvideo.servers10.com:8081/8030/index.m3u8
+
+#EXTINF:-1 tvg-name="CSI en Español" tvg-logo="https://i.imgur.com/ifarQil.png" tvg-id="csienespaol" group-title="Costa_rica",CSI en Español
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285532-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ec065848-4bdc-45cb-ad2c-0ef96c23d424
 
 #EXTINF:-1 tvg-name="De Película (576p)" tvg-logo="https://i.imgur.com/aksM8pa.png" tvg-id="depelcula" group-title="Costa_rica",De Película (576p)
 https://linear-354.frequency.stream/mt/studio/354/hls/master/playlist.m3u8
@@ -4412,6 +4454,9 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HISTORY2/index.m3u8
 #EXTINF:-1 tvg-name="HTV" tvg-logo="https://i.imgur.com/NlKFNHS.png" tvg-id="htv" group-title="Costa_rica",HTV
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
 
+#EXTINF:-1 tvg-name="Investiga" tvg-logo="https://i.imgur.com/Sb5adD7.png" tvg-id="investiga" group-title="Costa_rica",Investiga
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126
+
 #EXTINF:-1 tvg-name="IQ Channel (720p)" tvg-logo="https://i.imgur.com/hwuaomt.png" tvg-id="iqchannel" group-title="Costa_rica",IQ Channel (720p)
 https://rtmp.info/iqtv/envivo/playlist.m3u8
 
@@ -4448,6 +4493,12 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Costa_rica",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Costa_rica",Pluto TV Cine Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
+
+#EXTINF:-1 tvg-name="Pluto TV Cine Estelar" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Costa_rica",Pluto TV Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=false
+
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Costa_rica",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
 
@@ -4466,6 +4517,9 @@ https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Retrox TV (720p)" tvg-logo="https://i.imgur.com/viJBL6f.png" tvg-id="retroxtv" group-title="Costa_rica",Retrox TV (720p)
 https://acceso.radiosportstv.online:3259/live/retroxtvlive.m3u8
 
+#EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Costa_rica",RT en Español (1080p)
+#EXTVLCOPT:http-referrer=https://odysee.com/
+
 #EXTINF:-1 tvg-name="RTV Chirripó (720p)" tvg-logo="https://i.imgur.com/XWmwwbj.jpg" tvg-id="rtvchirrip" group-title="Costa_rica",RTV Chirripó (720p)
 https://lstv.duckdns.org:449/hls/rtchirripo.m3u8
 
@@ -4474,6 +4528,9 @@ https://rtmp.info/sanjosetv/envivo/playlist.m3u8
 
 #EXTINF:-1 tvg-name="San Vito Televisión (720p)" tvg-logo="https://i.imgur.com/Yd7JOxr.png" tvg-id="sanvitotelevisin" group-title="Costa_rica",San Vito Televisión (720p)
 https://stmv.streamingvip.click/sanvitotv/sanvitotv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Series con Ñ" tvg-logo="https://i.imgur.com/uQfzebn.png" tvg-id="seriescon" group-title="Costa_rica",Series con Ñ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb3087fbbc120007fc46be/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b8988-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8d10604b-577d-49d0-a6bc-03b028c6758f
 
 #EXTINF:-1 tvg-name="Somos Cultura TV (720p)" tvg-logo="https://i.imgur.com/kWR3END.png" tvg-id="somosculturatv" group-title="Costa_rica",Somos Cultura TV (720p)
 https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8
@@ -5678,6 +5735,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64
 #EXTINF:-1 tvg-name="Cine Premiere (720p)" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Dominican_republic",Cine Premiere (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Cine XOXO" tvg-logo="https://i.imgur.com/eAS86qH.png" tvg-id="cinexoxo" group-title="Dominican_republic",Cine XOXO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7
+
 #EXTINF:-1 tvg-name="Cinecanal" tvg-logo="https://comteco.com.bo/img/upload/canales/qvJQXi.png" tvg-id="cinecanal" group-title="Dominican_republic",Cinecanal
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 
@@ -5716,6 +5776,9 @@ https://cloudflare.streamgato.us:3490/live/cotuitvlive.m3u8
 
 #EXTINF:-1 tvg-name="CromTV (480p)" tvg-logo="https://i.imgur.com/jk1lkOV.png" tvg-id="cromtv" group-title="Dominican_republic",CromTV (480p)
 https://cnn.essastream.com:3333/live/cromtvlive.m3u8
+
+#EXTINF:-1 tvg-name="CSI en Español" tvg-logo="https://i.imgur.com/ifarQil.png" tvg-id="csienespaol" group-title="Dominican_republic",CSI en Español
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285532-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ec065848-4bdc-45cb-ad2c-0ef96c23d424
 
 #EXTINF:-1 tvg-name="CTV Canal 76 (720p)" tvg-logo="https://i.imgur.com/nLRLsPn.png" tvg-id="ctvcanal76" group-title="Dominican_republic",CTV Canal 76 (720p)
 https://vdo2.streamgato.us:3978/live/ctvlive.m3u8
@@ -5837,6 +5900,9 @@ https://vdo1.streamgato.us:3833/live/canalhtvlivelive.m3u8
 #EXTINF:-1 tvg-name="Imagen Universal TV" tvg-logo="https://i.imgur.com/DP6HmDV.png" tvg-id="imagenuniversaltv" group-title="Dominican_republic",Imagen Universal TV
 https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
 
+#EXTINF:-1 tvg-name="Investiga" tvg-logo="https://i.imgur.com/Sb5adD7.png" tvg-id="investiga" group-title="Dominican_republic",Investiga
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126
+
 #EXTINF:-1 tvg-name="Jazmín TV (360p)" tvg-logo="https://i.imgur.com/pbrzEgA.png" tvg-id="jazmntv" group-title="Dominican_republic",Jazmín TV (360p)
 https://tvdatta.com:3957/hybrid/play.m3u8
 
@@ -5909,6 +5975,12 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Dominican_republic",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Dominican_republic",Pluto TV Cine Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
+
+#EXTINF:-1 tvg-name="Pluto TV Cine Estelar" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Dominican_republic",Pluto TV Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=false
+
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Dominican_republic",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
 
@@ -5936,6 +6008,9 @@ https://ss2.domint.net:3100/rtv_str/rvision/playlist.m3u8
 #EXTINF:-1 tvg-name="Romana TV Canal 42 (480p)" tvg-logo="https://i.imgur.com/EXnsmhx.png" tvg-id="romanatvcanal42" group-title="Dominican_republic",Romana TV Canal 42 (480p)
 https://videoserver.tmcreativos.com:19360/cvmhbyrcat/cvmhbyrcat.m3u8
 
+#EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Dominican_republic",RT en Español (1080p)
+#EXTVLCOPT:http-referrer=https://odysee.com/
+
 #EXTINF:-1 tvg-name="Rumba 98.5 FM (720p)" tvg-logo="https://i.imgur.com/snbcCWi.png" tvg-id="rumba985fm" group-title="Dominican_republic",Rumba 98.5 FM (720p)
 https://ss5.domint.net:3038/rum_str/rumba985fm/playlist.m3u8
 
@@ -5947,6 +6022,9 @@ https://vdo1.streamgato.us:3677/live/telemileniolive.m3u8
 
 #EXTINF:-1 tvg-name="Sensación TV (360p)" tvg-logo="https://domintapi.com/images/station/domint1563img07-28-20211627493874.jpeg" tvg-id="sensacintv" group-title="Dominican_republic",Sensación TV (360p)
 https://ss5.domint.net:3002/stv_str/sensaciontv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Series con Ñ" tvg-logo="https://i.imgur.com/uQfzebn.png" tvg-id="seriescon" group-title="Dominican_republic",Series con Ñ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb3087fbbc120007fc46be/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b8988-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8d10604b-577d-49d0-a6bc-03b028c6758f
 
 #EXTINF:-1 tvg-name="Siembra TV (720p)" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3226-294x165-FFFFFF.jpg" tvg-id="siembratv" group-title="Dominican_republic",Siembra TV (720p)
 https://streamunoapp.com:3809/live/siembratvlive.m3u8
@@ -6427,9 +6505,6 @@ https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Alfa Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/fi/9/93/IRR-TV-1.png" tvg-id="alfa" group-title="Finland",Alfa Ⓢ
 https://irrtv2.digitacdn.net/live/ott/irrtv/playlist.m3u8?organizationId=229401409&suiteItemId=230439940
-
-#EXTINF:-1 tvg-name="TapahtumaTV Eveo" tvg-logo="https://i.imgur.com/sR8nA8w.png" tvg-id="tapahtumatveveo" group-title="Finland",TapahtumaTV Eveo
-https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="National Geographic Finland Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-id="nationalgeographicfinland" group-title="Finland",National Geographic Finland Ⓖ
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
@@ -8366,8 +8441,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 #EXTINF:-1 tvg-name="Juwelo (720p)" tvg-logo="https://i.imgur.com/vmX8Qin.png" tvg-id="juwelo" group-title="Germany",Juwelo (720p)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
 
-#EXTINF:-1 tvg-name="kabel eins (576p)" tvg-logo="https://i.imgur.com/6pulSHZ.png" tvg-id="kabeleins" group-title="Germany",kabel eins (576p)
-https://s6.hopslan.com/kabel1x1/index.m3u8
+#EXTINF:-1 tvg-name="kabel eins" tvg-logo="https://i.imgur.com/6pulSHZ.png" tvg-id="kabeleins" group-title="Germany",kabel eins
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/192391842?profile=pass
 
 #EXTINF:-1 tvg-name="Kanal Avrupa (1080p)" tvg-logo="https://i.imgur.com/dJocxUQ.png" tvg-id="kanalavrupa" group-title="Germany",Kanal Avrupa (1080p)
 https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8
@@ -9122,8 +9197,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 #EXTINF:-1 tvg-name="Juwelo (720p)" tvg-logo="https://i.imgur.com/vmX8Qin.png" tvg-id="juwelo" group-title="Germany",Juwelo (720p)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
 
-#EXTINF:-1 tvg-name="kabel eins (576p)" tvg-logo="https://i.imgur.com/6pulSHZ.png" tvg-id="kabeleins" group-title="Germany",kabel eins (576p)
-https://s6.hopslan.com/kabel1x1/index.m3u8
+#EXTINF:-1 tvg-name="kabel eins" tvg-logo="https://i.imgur.com/6pulSHZ.png" tvg-id="kabeleins" group-title="Germany",kabel eins
+http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/192391842?profile=pass
 
 #EXTINF:-1 tvg-name="Kanal Avrupa (1080p)" tvg-logo="https://i.imgur.com/dJocxUQ.png" tvg-id="kanalavrupa" group-title="Germany",Kanal Avrupa (1080p)
 https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8
@@ -14906,6 +14981,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64
 #EXTINF:-1 tvg-name="Cine Premiere (720p)" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Mexico",Cine Premiere (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Cine XOXO" tvg-logo="https://i.imgur.com/eAS86qH.png" tvg-id="cinexoxo" group-title="Mexico",Cine XOXO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7
+
 #EXTINF:-1 tvg-name="Clan TVE Internacional (1080p)" tvg-logo="https://i.imgur.com/03jFV68.png" tvg-id="clantveinternacional" group-title="Mexico",Clan TVE Internacional (1080p)
 https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
 
@@ -14917,6 +14995,9 @@ https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
 
 #EXTINF:-1 tvg-name="CorTV (800p)" tvg-logo="https://i.imgur.com/NLO7HO4.png" tvg-id="cortv" group-title="Mexico",CorTV (800p)
 https://stream.oursnetworktv.com/latin/encoder29/playlist.m3u8
+
+#EXTINF:-1 tvg-name="CSI en Español" tvg-logo="https://i.imgur.com/ifarQil.png" tvg-id="csienespaol" group-title="Mexico",CSI en Español
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285532-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ec065848-4bdc-45cb-ad2c-0ef96c23d424
 
 #EXTINF:-1 tvg-name="De Película (576p)" tvg-logo="https://i.imgur.com/aksM8pa.png" tvg-id="depelcula" group-title="Mexico",De Película (576p)
 https://linear-354.frequency.stream/mt/studio/354/hls/master/playlist.m3u8
@@ -15004,6 +15085,9 @@ https://stream8.mexiserver.com:1936/morelostv/morelostv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Info TV 9 (720p)" tvg-logo="https://i.imgur.com/Rgu6Hzo.png" tvg-id="infotv9" group-title="Mexico",Info TV 9 (720p)
 https://stream.oursnetworktv.com/latin/encoder25/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Investiga" tvg-logo="https://i.imgur.com/Sb5adD7.png" tvg-id="investiga" group-title="Mexico",Investiga
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126
 
 #EXTINF:-1 tvg-name="ITV Deportes" tvg-logo="https://iili.io/J1kV1Bn.png" tvg-id="itvdeportes" group-title="Mexico",ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
@@ -15116,6 +15200,12 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Mexico",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Mexico",Pluto TV Cine Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
+
+#EXTINF:-1 tvg-name="Pluto TV Cine Estelar" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Mexico",Pluto TV Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=false
+
 #EXTINF:-1 tvg-name="Presumiendo México (720p)" tvg-logo="https://i.imgur.com/bFG4Rqz.png" tvg-id="presumiendomxico" group-title="Mexico",Presumiendo México (720p)
 https://5ca39be538307.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8
 
@@ -15146,6 +15236,9 @@ https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
 #EXTINF:-1 tvg-name="RCN Más (1080p)" tvg-logo="https://i.imgur.com/MJzuRAN.png" tvg-id="rcnms" group-title="Mexico",RCN Más (1080p)
 https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Mexico",RT en Español (1080p)
+#EXTVLCOPT:http-referrer=https://odysee.com/
+
 #EXTINF:-1 tvg-name="RTG (720p)" tvg-logo="https://i.imgur.com/k9M2MOT.png" tvg-id="rtg" group-title="Mexico",RTG (720p)
 https://5e50264bd6766.streamlock.net/rtg/videortg/playlist.m3u8
 
@@ -15154,6 +15247,9 @@ https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
 
 #EXTINF:-1 tvg-name="Señal España (XHUNES-TDT) (720p)" tvg-logo="https://i.imgur.com/LbZkdca.png" tvg-id="sealespaa" group-title="Mexico",Señal España (XHUNES-TDT) (720p)
 https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8
+
+#EXTINF:-1 tvg-name="Series con Ñ" tvg-logo="https://i.imgur.com/uQfzebn.png" tvg-id="seriescon" group-title="Mexico",Series con Ñ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb3087fbbc120007fc46be/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b8988-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8d10604b-577d-49d0-a6bc-03b028c6758f
 
 #EXTINF:-1 tvg-name="Síntesis TV (480p)" tvg-logo="https://i.imgur.com/1g9mbqi.png" tvg-id="sntesistv" group-title="Mexico",Síntesis TV (480p)
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/sintesis_tv.m3u8
@@ -16286,6 +16382,9 @@ http://151.236.247.171:8080/nova/index.m3u8
 #EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
 https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
 
+#EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
+https://zonam1.ddns.net/hls/stream1.m3u8
+
 #EXTINF:-1 tvg-name="Cool TV" tvg-logo="https://i.imgur.com/2tFrjUz.png" tvg-id="cooltv" group-title="North_macedonia",Cool TV
 https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
 
@@ -16670,8 +16769,14 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64
 #EXTINF:-1 tvg-name="Cine Premiere (720p)" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Paraguay",Cine Premiere (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Cine XOXO" tvg-logo="https://i.imgur.com/eAS86qH.png" tvg-id="cinexoxo" group-title="Paraguay",Cine XOXO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7
+
 #EXTINF:-1 tvg-name="Clan TVE Internacional (1080p)" tvg-logo="https://i.imgur.com/03jFV68.png" tvg-id="clantveinternacional" group-title="Paraguay",Clan TVE Internacional (1080p)
 https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
+
+#EXTINF:-1 tvg-name="CSI en Español" tvg-logo="https://i.imgur.com/ifarQil.png" tvg-id="csienespaol" group-title="Paraguay",CSI en Español
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285532-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ec065848-4bdc-45cb-ad2c-0ef96c23d424
 
 #EXTINF:-1 tvg-name="De Película (576p)" tvg-logo="https://i.imgur.com/aksM8pa.png" tvg-id="depelcula" group-title="Paraguay",De Película (576p)
 https://linear-354.frequency.stream/mt/studio/354/hls/master/playlist.m3u8
@@ -16724,6 +16829,9 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HISTORY2/index.m3u8
 #EXTINF:-1 tvg-name="HTV" tvg-logo="https://i.imgur.com/NlKFNHS.png" tvg-id="htv" group-title="Paraguay",HTV
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
 
+#EXTINF:-1 tvg-name="Investiga" tvg-logo="https://i.imgur.com/Sb5adD7.png" tvg-id="investiga" group-title="Paraguay",Investiga
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126
+
 #EXTINF:-1 tvg-name="Kanade (1080p)" tvg-logo="https://static.kanade.cl/assets/img/profilepic_512px.png" tvg-id="kanade" group-title="Paraguay",Kanade (1080p)
 https://streaming-cl.sh1ny.space/memfs/0e41fc31-9f44-46d4-8712-0446e2f3dcaa.m3u8
 
@@ -16754,6 +16862,12 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Paraguay",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Paraguay",Pluto TV Cine Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
+
+#EXTINF:-1 tvg-name="Pluto TV Cine Estelar" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Paraguay",Pluto TV Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=false
+
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Paraguay",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
 
@@ -16771,6 +16885,9 @@ https://rds3.desdeparaguay.net/republicatv/republicatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Paraguay",RT en Español (1080p)
 #EXTVLCOPT:http-referrer=https://odysee.com/
+
+#EXTINF:-1 tvg-name="Series con Ñ" tvg-logo="https://i.imgur.com/uQfzebn.png" tvg-id="seriescon" group-title="Paraguay",Series con Ñ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb3087fbbc120007fc46be/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b8988-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8d10604b-577d-49d0-a6bc-03b028c6758f
 
 #EXTINF:-1 tvg-name="SNT (480p)" tvg-logo="https://i.imgur.com/HNlWRiF.png" tvg-id="snt" group-title="Paraguay",SNT (480p)
 https://alba-py-snt-snt.stream.mediatiquestream.com/tracks-v2a1/mono.m3u8
@@ -16880,8 +16997,14 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64
 #EXTINF:-1 tvg-name="Cine Premiere (720p)" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Peru",Cine Premiere (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Cine XOXO" tvg-logo="https://i.imgur.com/eAS86qH.png" tvg-id="cinexoxo" group-title="Peru",Cine XOXO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7
+
 #EXTINF:-1 tvg-name="Clan TVE Internacional (1080p)" tvg-logo="https://i.imgur.com/03jFV68.png" tvg-id="clantveinternacional" group-title="Peru",Clan TVE Internacional (1080p)
 https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
+
+#EXTINF:-1 tvg-name="CSI en Español" tvg-logo="https://i.imgur.com/ifarQil.png" tvg-id="csienespaol" group-title="Peru",CSI en Español
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285532-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ec065848-4bdc-45cb-ad2c-0ef96c23d424
 
 #EXTINF:-1 tvg-name="De Película (576p)" tvg-logo="https://i.imgur.com/aksM8pa.png" tvg-id="depelcula" group-title="Peru",De Película (576p)
 https://linear-354.frequency.stream/mt/studio/354/hls/master/playlist.m3u8
@@ -16940,6 +17063,9 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
 #EXTINF:-1 tvg-name="Intuitiva TV (720p)" tvg-logo="https://i.imgur.com/zcehR4M.png" tvg-id="intuitivatv" group-title="Peru",Intuitiva TV (720p)
 https://video2.lhdserver.es/cableperu/live.m3u8
 
+#EXTINF:-1 tvg-name="Investiga" tvg-logo="https://i.imgur.com/Sb5adD7.png" tvg-id="investiga" group-title="Peru",Investiga
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126
+
 #EXTINF:-1 tvg-name="JNE TV" tvg-logo="https://i.imgur.com/b25XfCj.png" tvg-id="jnetv" group-title="Peru",JNE TV
 https://live20.bozztv.com/akamaissh101/ssh101/jnetv/playlist.m3u8
 
@@ -16988,6 +17114,12 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Peru",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Peru",Pluto TV Cine Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
+
+#EXTINF:-1 tvg-name="Pluto TV Cine Estelar" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Peru",Pluto TV Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=false
+
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Peru",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
 
@@ -17017,6 +17149,9 @@ https://live.obslivestream.com/selvatv/index.m3u8
 
 #EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Peru",RT en Español (1080p)
 #EXTVLCOPT:http-referrer=https://odysee.com/
+
+#EXTINF:-1 tvg-name="Series con Ñ" tvg-logo="https://i.imgur.com/uQfzebn.png" tvg-id="seriescon" group-title="Peru",Series con Ñ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb3087fbbc120007fc46be/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b8988-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8d10604b-577d-49d0-a6bc-03b028c6758f
 
 #EXTINF:-1 tvg-name="Sol Televisión (720p)" tvg-logo="https://i.imgur.com/GtNkuAc.png" tvg-id="soltelevisin" group-title="Peru",Sol Televisión (720p)
 https://video03.logicahost.com.br/soltv/soltv/playlist.m3u8
@@ -21407,11 +21542,17 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/611b87946
 #EXTINF:-1 tvg-name="Pluto TV Mutante X (720p)" tvg-logo="https://i.imgur.com/qbkSI6S.png" tvg-id="plutotvmutantex" group-title="Spain",Pluto TV Mutante X (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1acc91cc9e1b000711ff21/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Pluto TV Series Comedia (360p)" tvg-logo="https://i.imgur.com/INcTSkj.png" tvg-id="plutotvseriescomedia" group-title="Spain",Pluto TV Series Comedia (360p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f9853138d19af0007104a8d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+
 #EXTINF:-1 tvg-name="Pluto TV Teen Stars (720p)" tvg-logo="https://i.imgur.com/f0FXTXJ.png" tvg-id="plutotvteenstars" group-title="Spain",Pluto TV Teen Stars (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60016a60a8e3520008e0d331/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Telenovelas (720p)" tvg-logo="https://i.imgur.com/GrtNJki.png" tvg-id="plutotvtelenovelas" group-title="Spain",Pluto TV Telenovelas (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60b4c06717da110007ee1af6/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+
+#EXTINF:-1 tvg-name="Pluto TV Thrillers Spain" tvg-logo="https://i.imgur.com/ULKvDN7.png" tvg-id="plutotvthrillersspain" group-title="Spain",Pluto TV Thrillers Spain
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1ac8a87cd38d000745d7cf/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=b44a3bb2-778d-11eb-9fe3-3bf7f4412392&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=bec2cd61-c8bf-4269-8475-9b5cdf24d1f0&userId=&serverSideAds=false
 
 #EXTINF:-1 tvg-name="Pluto TV Toons Clásico (720p)" tvg-logo="https://i.imgur.com/gQcuJSE.png" tvg-id="plutotvtoonsclsico" group-title="Spain",Pluto TV Toons Clásico (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/609e7e423e9173000706a681/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
@@ -22412,9 +22553,6 @@ https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 #EXTINF:-1 tvg-name="A Türk Izmir (360p)" tvg-logo="https://i.imgur.com/je5wQ3G.png" tvg-id="atrkizmir" group-title="Turkey",A Türk Izmir (360p)
 https://vdo.digitalbox.xyz:3807/stream/play.m3u8
 
-#EXTINF:-1 tvg-name="Afyon Türk TV (720p)" tvg-logo="https://i.ibb.co/tXbD8Sz/8A1HOMZ.png" tvg-id="afyontrktv" group-title="Turkey",Afyon Türk TV (720p)
-https://tv.digitalbox.xyz:19360/afyonturktv/afyonturktv.m3u8
-
 #EXTINF:-1 tvg-name="Agro TV (1080p)" tvg-logo="https://i.imgur.com/ls9NLa4.png" tvg-id="agrotv" group-title="Turkey",Agro TV (1080p)
 http://185.234.111.229:8000/play/a011
 
@@ -22850,8 +22988,8 @@ https://canlitvulusal.xyz/live/showmax/index.m3u8
 #EXTINF:-1 tvg-name="Show Turk" tvg-logo="https://i.imgur.com/fdZpGDj.png" tvg-id="showturk" group-title="Turkey",Show Turk
 https://canlitvulusal.xyz/live/showturk/index.m3u8
 
-#EXTINF:-1 tvg-name="Show TV" tvg-logo="https://i.imgur.com/1l7SCCu.png" tvg-id="showtv" group-title="Turkey",Show TV
-http://nimplus3.bozztv.com/showtvturk/showtvturk/playlist.m3u8
+#EXTINF:-1 tvg-name="Show TV (1080p)" tvg-logo="https://i.imgur.com/1l7SCCu.png" tvg-id="showtv" group-title="Turkey",Show TV (1080p)
+https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 
 #EXTINF:-1 tvg-name="Sinop Yildiz TV (360p)" tvg-logo="https://i.imgur.com/CjgbQTk.png" tvg-id="sinopyildiztv" group-title="Turkey",Sinop Yildiz TV (360p)
 https://s01.vpis.io/sinopyildiz/sinopyildiz.m3u8
@@ -26903,6 +27041,12 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 #EXTINF:-1 tvg-name="Pluto TV Ciencia (720p)" tvg-logo="https://i.imgur.com/MJQTxZT.png" tvg-id="plutotvciencia" group-title="Usa",Pluto TV Ciencia (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd8364ea1d6780009929902/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 
+#EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Usa",Pluto TV Cine Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
+
+#EXTINF:-1 tvg-name="Pluto TV Cine Estelar" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Usa",Pluto TV Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=false
+
 #EXTINF:-1 tvg-name="Pluto TV Cine Suspenso (720p)" tvg-logo="https://i.imgur.com/g9LkLOY.png" tvg-id="plutotvcinesuspenso" group-title="Usa",Pluto TV Cine Suspenso (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 
@@ -27052,9 +27196,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5b
 
 #EXTINF:-1 tvg-name="Pluto TV Science" tvg-logo="https://i.imgur.com/uhunRoU.png" tvg-id="plutotvscience" group-title="Usa",Pluto TV Science
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/563a970aa1a1f7fe7c9daad7/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b3b61-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=31adb772-adc8-4202-ad66-25e3c1a49df7
-
-#EXTINF:-1 tvg-name="Pluto TV Series Comedia (360p)" tvg-logo="https://i.imgur.com/INcTSkj.png" tvg-id="plutotvseriescomedia" group-title="Usa",Pluto TV Series Comedia (360p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f9853138d19af0007104a8d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Series Retro (720p)" tvg-logo="https://i.imgur.com/UpgGZJ1.png" tvg-id="plutotvseriesretro" group-title="Usa",Pluto TV Series Retro (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de802659167b10009e7deba/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
@@ -28412,11 +28553,17 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64
 #EXTINF:-1 tvg-name="Cine Premiere (720p)" tvg-logo="https://i.imgur.com/PdhWTO6.png" tvg-id="cinepremiere" group-title="Venezuela",Cine Premiere (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Cine XOXO" tvg-logo="https://i.imgur.com/eAS86qH.png" tvg-id="cinexoxo" group-title="Venezuela",Cine XOXO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7
+
 #EXTINF:-1 tvg-name="Cinecanal" tvg-logo="https://comteco.com.bo/img/upload/canales/qvJQXi.png" tvg-id="cinecanal" group-title="Venezuela",Cinecanal
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 
 #EXTINF:-1 tvg-name="Clan TVE Internacional (1080p)" tvg-logo="https://i.imgur.com/03jFV68.png" tvg-id="clantveinternacional" group-title="Venezuela",Clan TVE Internacional (1080p)
 https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
+
+#EXTINF:-1 tvg-name="CSI en Español" tvg-logo="https://i.imgur.com/ifarQil.png" tvg-id="csienespaol" group-title="Venezuela",CSI en Español
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285532-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ec065848-4bdc-45cb-ad2c-0ef96c23d424
 
 #EXTINF:-1 tvg-name="De Película (576p)" tvg-logo="https://i.imgur.com/aksM8pa.png" tvg-id="depelcula" group-title="Venezuela",De Película (576p)
 https://linear-354.frequency.stream/mt/studio/354/hls/master/playlist.m3u8
@@ -28469,6 +28616,9 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
 #EXTINF:-1 tvg-name="interTV (1080p)" tvg-logo="https://i.ibb.co/HG2DM8G/IMG-20230705-153952.jpg" tvg-id="intertv" group-title="Venezuela",interTV (1080p)
 https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
 
+#EXTINF:-1 tvg-name="Investiga" tvg-logo="https://i.imgur.com/Sb5adD7.png" tvg-id="investiga" group-title="Venezuela",Investiga
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126
+
 #EXTINF:-1 tvg-name="Isla TV (480p)" tvg-logo="https://i.imgur.com/l11Ixhi.jpeg" tvg-id="islatv" group-title="Venezuela",Isla TV (480p)
 https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8
 
@@ -28511,6 +28661,12 @@ https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 #EXTINF:-1 tvg-name="PLTV (614p)" tvg-logo="https://i.imgur.com/ftblZ6f.jpg" tvg-id="pltv" group-title="Venezuela",PLTV (614p)
 https://vcp2.myplaytv.com/pltv/pltv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Venezuela",Pluto TV Cine Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
+
+#EXTINF:-1 tvg-name="Pluto TV Cine Estelar" tvg-logo="https://i.imgur.com/v3BO4nW.png" tvg-id="plutotvcineestelar" group-title="Venezuela",Pluto TV Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=false
+
 #EXTINF:-1 tvg-name="PRIDEtv LATAM (720p)" tvg-logo="https://neotv.cl/img/pridetv-512.png" tvg-id="pridetvlatam" group-title="Venezuela",PRIDEtv LATAM (720p)
 https://panel.miplay.cl:8082/spectrumchannel/index.m3u8
 
@@ -28528,6 +28684,9 @@ https://5bf8041cb3fed.streamlock.net/ReformaTV/ReformaTV/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Venezuela",RT en Español (1080p)
 #EXTVLCOPT:http-referrer=https://odysee.com/
+
+#EXTINF:-1 tvg-name="Series con Ñ" tvg-logo="https://i.imgur.com/uQfzebn.png" tvg-id="seriescon" group-title="Venezuela",Series con Ñ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb3087fbbc120007fc46be/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b8988-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8d10604b-577d-49d0-a6bc-03b028c6758f
 
 #EXTINF:-1 tvg-name="Somos Cultura TV (720p)" tvg-logo="https://i.imgur.com/kWR3END.png" tvg-id="somosculturatv" group-title="Venezuela",Somos Cultura TV (720p)
 https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8
