@@ -6539,6 +6539,9 @@ https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="Kutonen" tvg-logo="https://i.imgur.com/4giVyxb.png" tvg-id="kutonen" group-title="Finland",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="TLC Finland" tvg-logo="https://i.imgur.com/0d5hP3A.png" tvg-id="tlcfinland" group-title="Finland",TLC Finland
+https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Star Channel Finland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/640px-Star_Channel_2020.svg.png" tvg-id="starchannelfinland" group-title="Finland",Star Channel Finland
 https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 
@@ -13343,6 +13346,9 @@ https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
 #EXTINF:-1 tvg-name="Extra Tv" tvg-logo="https://i.imgur.com/KCBurST.png" tvg-id="tv" group-title="Italy",Extra Tv
 https://rst2.saiuzwebnetwork.it:8081/extratvlive/index.m3u8
 
+#EXTINF:-1 tvg-name="FM Tv Marche" tvg-logo="https://i.imgur.com/yY01NhL.jpg" tvg-id="fmtvmarche" group-title="Italy",FM Tv Marche
+https://bbtv.intvstream.net:3988/hybrid/play.m3u8
+
 #EXTINF:-1 tvg-name="Fano Tv" tvg-logo="https://i.imgur.com/orqEzJ6.png" tvg-id="fanotv" group-title="Italy",Fano Tv
 https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8
 
@@ -13576,9 +13582,6 @@ https://5db313b643fd8.streamlock.net/rete/rete/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Oro Tv" tvg-logo="https://i.imgur.com/OCxGtwA.png" tvg-id="reteorotv" group-title="Italy",Rete Oro Tv
 https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Rete Sole" tvg-logo="https://i.imgur.com/u0ezKgE.png" tvg-id="retesole" group-title="Italy",Rete Sole
-https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Tv Italia" tvg-logo="https://i.imgur.com/lXGWoV9.png" tvg-id="retetvitalia" group-title="Italy",Rete Tv Italia
 https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
@@ -22024,6 +22027,9 @@ https://edg01-prd-de-ixn.solidtango.com/edge/_c6697zkv_/c6697zkv/manifest.m3u8
 
 #EXTINF:-1 tvg-name="Lokal-TV Uddevalla / Fyrbodal-TV Ⓨ" tvg-logo="https://i.imgur.com/cnLkbOT.png" tvg-id="lokaltvuddevallafyrbodaltv" group-title="Sweden",Lokal-TV Uddevalla / Fyrbodal-TV Ⓨ
 https://www.youtube.com/@LtvuSeTube/live
+
+#EXTINF:-1 tvg-name="Aryen TV" tvg-logo="https://i.imgur.com/qUg7edz.png" tvg-id="aryentv" group-title="Sweden",Aryen TV
+https://aryen.tv/live/tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Suryoyo Sat" tvg-logo="https://i.imgur.com/naCNjaB.png" tvg-id="suryoyosat" group-title="Sweden",Suryoyo Sat
 https://player-api.new.livestream.com/accounts/10187302/events/6785118/broadcasts/237816618.secure.m3u8
