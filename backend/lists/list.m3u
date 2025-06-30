@@ -8,6 +8,9 @@ https://www.twitch.tv/abcnewsal
 #EXTINF:-1 tvg-name="AlbKanale Music TV Ⓢ" tvg-logo="https://i.imgur.com/JdKxscs.png" tvg-id="albkanalemusictv" group-title="Albania",AlbKanale Music TV Ⓢ
 https://albportal.net/albkanalemusic.m3u8
 
+#EXTINF:-1 tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" tvg-id="cna" group-title="Albania",CNA
+https://live1.mediadesk.al/cnatvlive.m3u8
+
 #EXTINF:-1 tvg-name="Euronews Albania Ⓨ" tvg-logo="https://i.imgur.com/Skf6vdi.png" tvg-id="euronewsalbania" group-title="Albania",Euronews Albania Ⓨ
 https://www.youtube.com/@EuronewsAlbania/live
 
@@ -1402,9 +1405,6 @@ http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="AZTV Ⓢ" tvg-logo="https://i.imgur.com/snBMMeH.png" tvg-id="aztv" group-title="Azerbaijan",AZTV Ⓢ
 https://www.tvkaista.net/stream-forwarder/get.php?x=AZTV
-
-#EXTINF:-1 tvg-name="CBC" tvg-logo="https://i.imgur.com/wVT0dwO.png" tvg-id="cbc" group-title="Azerbaijan",CBC
-https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8
 
 #EXTINF:-1 tvg-name="CBC Sport Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/az/0/04/CBC_Sport_TV_loqo.png" tvg-id="cbcsport" group-title="Azerbaijan",CBC Sport Ⓖ
 https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
@@ -6526,6 +6526,12 @@ https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
 https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
+https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
+https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Kutonen" tvg-logo="https://i.imgur.com/4giVyxb.png" tvg-id="kutonen" group-title="Finland",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
@@ -21019,9 +21025,6 @@ https://telemadrid-23-secure2.akamaized.net/master.m3u8
 
 #EXTINF:-1 tvg-name="La Otra" tvg-logo="https://i.imgur.com/W1UZyXH.png" tvg-id="laotra" group-title="Spain",La Otra
 https://laotra-1-23-secure2.akamaized.net/master.m3u8
-
-#EXTINF:-1 tvg-name="La 8 Mediterráneo" tvg-logo="https://graph.facebook.com/la8mediterraneo/picture?width=200&height=200" tvg-id="la8mediterrneo" group-title="Spain",La 8 Mediterráneo
-https://streaming004.gestec-video.com/hls/8TV.m3u8
 
 #EXTINF:-1 tvg-name="Televisión Canaria Ⓨ" tvg-logo="https://i.imgur.com/68LNS8e.png" tvg-id="televisincanaria" group-title="Spain",Televisión Canaria Ⓨ
 https://www.youtube.com/user/TelevisionCanaria/live
