@@ -4706,9 +4706,6 @@ https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcast
 #EXTINF:-1 tvg-name="TV Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png" tvg-id="tvnova" group-title="Croatia",TV Nova
 https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 
-#EXTINF:-1 tvg-name="TV Jadran" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/9a/Tv_jadran_logo.png" tvg-id="tvjadran" group-title="Croatia",TV Jadran
-https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
-
 #EXTINF:-1 tvg-name="Libertas TV" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/8/8a/LibertasTV.png" tvg-id="libertastv" group-title="Croatia",Libertas TV
 https://stream.luci.xyz/hls/LTV.m3u8
 
@@ -13274,9 +13271,6 @@ https://59d7d6f47d7fc.streamlock.net/azzurratv/azzurratv/playlist.m3u8
 #EXTINF:-1 tvg-name="Bergamo Tv" tvg-logo="https://i.imgur.com/1doR6Vl.png" tvg-id="bergamotv" group-title="Italy",Bergamo Tv
 https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist.m3u8?DVR
 
-#EXTINF:-1 tvg-name="BOM Channel" tvg-logo="https://i.imgur.com/hISoOK3.png" tvg-id="bomchannel" group-title="Italy",BOM Channel
-https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
-
 #EXTINF:-1 tvg-name="ByoBlu" tvg-logo="https://i.imgur.com/1xaHGtU.png" tvg-id="byoblu" group-title="Italy",ByoBlu
 https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/playlist.m3u8
 
@@ -14045,11 +14039,38 @@ https://www.twitch.tv/teleroma_56
 #EXTINF:-1 tvg-name="TeleRadioStereo Ⓣ" tvg-logo="https://i.imgur.com/eRNgqnA.png" tvg-id="teleradiostereo" group-title="Italy",TeleRadioStereo Ⓣ
 https://www.twitch.tv/teleradiostereo
 
+#EXTINF:-1 tvg-name="NHK G (Tokyo) Ⓢ" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" tvg-id="nhkg" group-title="Japan",NHK G (Tokyo) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=7
+
+#EXTINF:-1 tvg-name="NHK G (Osaka) Ⓢ" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" tvg-id="nhkg" group-title="Japan",NHK G (Osaka) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=7
+
+#EXTINF:-1 tvg-name="NHK E Ⓢ" tvg-logo="https://i.imgur.com/WxtftlO.png" tvg-id="nhke" group-title="Japan",NHK E Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02&isp=7
+
 #EXTINF:-1 tvg-name="NHK World-Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" tvg-id="nhkworldjapan" group-title="Japan",NHK World-Japan
 https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
 
+#EXTINF:-1 tvg-name="Nippon TV (日テレ) Ⓢ" tvg-logo="https://i.imgur.com/IxD8V5X.png" tvg-id="nippontv" group-title="Japan",Nippon TV (日テレ) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03&isp=7
+
 #EXTINF:-1 tvg-name="日テレNEWS24 Ⓢ" tvg-logo="https://i.imgur.com/Wfu61ZU.png" tvg-id="news24" group-title="Japan",日テレNEWS24 Ⓢ
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
+
+#EXTINF:-1 tvg-name="TV Asahi Ⓢ" tvg-logo="https://i.imgur.com/rls8NVc.png" tvg-id="tvasahi" group-title="Japan",TV Asahi Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06&isp=7
+
+#EXTINF:-1 tvg-name="TBS Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/1200px-Tokyo_Broadcasting_System_logo_2020.svg.png" tvg-id="tbs" group-title="Japan",TBS Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=7
+
+#EXTINF:-1 tvg-name="TV Tokyo Ⓢ" tvg-logo="https://i.imgur.com/tDyxk0Y.png" tvg-id="tvtokyo" group-title="Japan",TV Tokyo Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07&isp=7
+
+#EXTINF:-1 tvg-name="Fuji TV (フジテレビ) Ⓢ" tvg-logo="https://i.imgur.com/sEWDmMD.png" tvg-id="fujitv" group-title="Japan",Fuji TV (フジテレビ) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05&isp=7
+
+#EXTINF:-1 tvg-name="Tokyo MX1 Ⓢ" tvg-logo="https://i.imgur.com/igia8OX.png" tvg-id="tokyomx1" group-title="Japan",Tokyo MX1 Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08&isp=7
 
 #EXTINF:-1 tvg-name="GSTV" tvg-logo="https://i.imgur.com/ECnVG5I.png" tvg-id="gstv" group-title="Japan",GSTV
 https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
@@ -14060,8 +14081,47 @@ https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
 #EXTINF:-1 tvg-name="Shop Channel" tvg-logo="https://i.imgur.com/GTyQhBF.png" tvg-id="shopchannel" group-title="Japan",Shop Channel
 https://stream3.shopch.jp/HLS/master.m3u8
 
+#EXTINF:-1 tvg-name="MBS TV (MBSテレビ) Ⓢ" tvg-logo="https://i.imgur.com/RfrkGrd.png" tvg-id="mbstv" group-title="Japan",MBS TV (MBSテレビ) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01&isp=7
+
+#EXTINF:-1 tvg-name="ABC TV (ABCテレビ) Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Asahi_Broadcasting_Corporation_Logo.svg/1920px-Asahi_Broadcasting_Corporation_Logo.svg.png" tvg-id="abctv" group-title="Japan",ABC TV (ABCテレビ) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02&isp=7
+
+#EXTINF:-1 tvg-name="Kansai TV (カンテレ) Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Ktv_logo.svg/1920px-Ktv_logo.svg.png" tvg-id="kansaitv" group-title="Japan",Kansai TV (カンテレ) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03&isp=7
+
+#EXTINF:-1 tvg-name="Yomiuri TV (読売テレビ) Ⓢ" tvg-logo="https://i.imgur.com/ONbuWvo.png" tvg-id="yomiuritv" group-title="Japan",Yomiuri TV (読売テレビ) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04&isp=7
+
+#EXTINF:-1 tvg-name="TV Osaka (テレビ大阪) Ⓢ" tvg-logo="https://i.imgur.com/rUmrruq.png" tvg-id="tvosaka" group-title="Japan",TV Osaka (テレビ大阪) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05&isp=7
+
+#EXTINF:-1 tvg-name="Sun TV (サンテレビ) Ⓢ" tvg-logo="https://i.imgur.com/0qtXIRM.png" tvg-id="suntv" group-title="Japan",Sun TV (サンテレビ) Ⓢ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07&isp=7
+
 #EXTINF:-1 tvg-name="NHK Kishou-Saigai Ⓢ" tvg-logo="https://i.imgur.com/oWKCBIz.png" tvg-id="nhkkishousaigai" group-title="Japan",NHK Kishou-Saigai Ⓢ
 https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
+
+#EXTINF:-1 tvg-name="NHK BS" tvg-logo="https://i.imgur.com/t0uZcSR.png" tvg-id="nhkbs" group-title="Japan",NHK BS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11&isp=7
+
+#EXTINF:-1 tvg-name="NHK BSP4K" tvg-logo="https://i.imgur.com/uvPpFo5.png" tvg-id="nhkbsp4k" group-title="Japan",NHK BSP4K
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=7
+
+#EXTINF:-1 tvg-name="BS Nippon TV (BS日テレ)" tvg-logo="https://i.imgur.com/D8lhZCI.png" tvg-id="bsnippontv" group-title="Japan",BS Nippon TV (BS日テレ)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=7
+
+#EXTINF:-1 tvg-name="BS Asahi" tvg-logo="https://i.imgur.com/huXFL3A.png" tvg-id="bsasahi" group-title="Japan",BS Asahi
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=7&bind=0&uin=159413&playseek=0
+
+#EXTINF:-1 tvg-name="BS-TBS" tvg-logo="https://i.imgur.com/h20eGKq.png" tvg-id="bstbs" group-title="Japan",BS-TBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=7
+
+#EXTINF:-1 tvg-name="BS TV Tokyo" tvg-logo="https://i.imgur.com/yJfA6ak.png" tvg-id="bstvtokyo" group-title="Japan",BS TV Tokyo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05&isp=7&bind=0&uin=159413&playseek=0
+
+#EXTINF:-1 tvg-name="BS Fuji TV (BSフジテレビ)" tvg-logo="https://i.imgur.com/aDdwjjc.png" tvg-id="bsfujitv" group-title="Japan",BS Fuji TV (BSフジテレビ)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06&isp=7
 
 #EXTINF:-1 tvg-name="Bloomberg TV Asia (720p)" tvg-logo="https://i.imgur.com/OuogLHx.png" tvg-id="bloombergtvasia" group-title="Japan",Bloomberg TV Asia (720p)
 https://bloomberg.com/media-manifest/streams/asia.m3u8
