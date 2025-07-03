@@ -341,9 +341,6 @@ https://www.youtube.com/c/c5n/live
 #EXTINF:-1 tvg-name="LN+ Ⓨ" tvg-logo="https://i.imgur.com/vJYzGt1.png" tvg-id="ln" group-title="Argentina",LN+ Ⓨ
 https://www.youtube.com/c/LaNacionMas/live
 
-#EXTINF:-1 tvg-name="Canal E" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" tvg-id="canale" group-title="Argentina",Canal E
-https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8
-
 #EXTINF:-1 tvg-name="Telemax" tvg-logo="https://i.imgur.com/gfX0hdB.png" tvg-id="telemax" group-title="Argentina",Telemax
 https://live-edge01.telecentro.net.ar/live/smil:tlx.smil/playlist.m3u8
 
@@ -4702,6 +4699,9 @@ http://89.201.163.244:8080/hls/hdmi.m3u8
 
 #EXTINF:-1 tvg-name="Osječka televizija (OSTV) Ⓢ" tvg-logo="https://i.imgur.com/o9JgEyG.png" tvg-id="osjekatelevizija" group-title="Croatia",Osječka televizija (OSTV) Ⓢ
 https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcasts/237202062.secure.m3u8
+
+#EXTINF:-1 tvg-name="TV Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png" tvg-id="tvnova" group-title="Croatia",TV Nova
+https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 
 #EXTINF:-1 tvg-name="TV Jadran" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/9a/Tv_jadran_logo.png" tvg-id="tvjadran" group-title="Croatia",TV Jadran
 https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
@@ -13498,6 +13498,9 @@ https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
