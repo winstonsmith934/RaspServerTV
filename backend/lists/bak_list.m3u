@@ -4688,6 +4688,9 @@ https://player-api.new.livestream.com/accounts/26611954/events/7977299/broadcast
 #EXTINF:-1 tvg-name="Televizija Slavonije i Baranje (STV)" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/0/04/STV.PNG" tvg-id="televizijaslavonijeibaranje" group-title="Croatia",Televizija Slavonije i Baranje (STV)
 http://89.201.163.244:8080/hls/hdmi.m3u8
 
+#EXTINF:-1 tvg-name="Osječka televizija (OSTV) Ⓢ" tvg-logo="https://i.imgur.com/o9JgEyG.png" tvg-id="osjekatelevizija" group-title="Croatia",Osječka televizija (OSTV) Ⓢ
+https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcasts/237202062.secure.m3u8
+
 #EXTINF:-1 tvg-name="TV Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png" tvg-id="tvnova" group-title="Croatia",TV Nova
 https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 
@@ -16534,6 +16537,9 @@ http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8
 
 #EXTINF:-1 tvg-name="M»Net" tvg-logo="https://i.imgur.com/JWHcGMX.png" tvg-id="mnet" group-title="North_macedonia",M»Net
 http://ares.mnet.mk/hls/mnet.m3u8
+
+#EXTINF:-1 tvg-name="Канал 8" tvg-logo="https://i.imgur.com/5skC7be.png" tvg-id="8" group-title="North_macedonia",Канал 8
+http://kanal8.hugo.mk:1935/live/kanal8/index.m3u8
 
 #EXTINF:-1 tvg-name="ТВ СВЕТ" tvg-logo="https://i.imgur.com/R79xT60.png" tvg-id="" group-title="North_macedonia",ТВ СВЕТ
 http://tvsvet.hugo.mk:1936/live/tvsvet/stream/3.m3u8
