@@ -1433,9 +1433,6 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -13790,9 +13787,6 @@ https://13574-8.b.cdn12.com/hls/f099fa8883.ulive/_c/master.m3u8
 #EXTINF:-1 tvg-name="Tele Oltre" tvg-logo="https://i.imgur.com/PxtJAxs.png" tvg-id="teleoltre" group-title="Italy",Tele Oltre
 http://1se1.troydesign.eu/np_teleoltre/_definst_/channel1_np_teleoltre/playlist.m3u8?ext=.m3u8
 
-#EXTINF:-1 tvg-name="Tele One" tvg-logo="https://i.imgur.com/9trB6mj.png" tvg-id="teleone" group-title="Italy",Tele One
-https://648026e87a75e.streamlock.net/teleone/teleone/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Tele Pace Trento" tvg-logo="https://i.imgur.com/o5sQCpF.png" tvg-id="telepacetrento" group-title="Italy",Tele Pace Trento
 https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8
 
@@ -16568,6 +16562,9 @@ https://hls.telekabel.com.mk:1936/live/11/playlist.m3u8
 #EXTINF:-1 tvg-name="ТВ НОВА 12" tvg-logo="https://i.imgur.com/Qo3Hj3t.png" tvg-id="12" group-title="North_macedonia",ТВ НОВА 12
 http://151.236.247.171:8080/nova/index.m3u8
 
+#EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
+https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
+
 #EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
 https://zonam1.ddns.net/hls/stream1.m3u8
 
@@ -17713,6 +17710,9 @@ https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/
 
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Poland",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
+
+#EXTINF:-1 tvg-name="RTP1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/RTP1_-_Logo_2016.svg/640px-RTP1_-_Logo_2016.svg.png" tvg-id="rtp1" group-title="Portugal",RTP1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RTP2 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4d/Rtp2_2016_logo.png" tvg-id="rtp2" group-title="Portugal",RTP2 Ⓖ
 https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
