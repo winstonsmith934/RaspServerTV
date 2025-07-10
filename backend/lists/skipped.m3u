@@ -26,9 +26,6 @@ https://racingvic-i.akamaized.net/hls/live/598695/racingvic/1500.m3u8
 #EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/640px-Baku_TV_%282018%29.png" tvg-id="bakutv" group-title="Azerbaijan",Baku TV
 https://rtmp.baku.tv/live/bakutv_720p.m3u8
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
 http://rtmp.one.by:1200
 
@@ -116,6 +113,9 @@ https://stream-33.mazana.tv/slagr2.m3u
 #EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
 https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Canal RTVD 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/CERTV_4_2015.png" tvg-id="canalrtvd4" group-title="Dominican_republic",Canal RTVD 4
+https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
@@ -202,6 +202,9 @@ http://77.68.40.210:8888/hls/basilicata1.m3u8
 
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
+http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
