@@ -3755,9 +3755,6 @@ https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8
 #EXTINF:-1 tvg-name="RCN Más (1080p)" tvg-logo="https://i.imgur.com/MJzuRAN.png" tvg-id="rcnms" group-title="Chile",RCN Más (1080p)
 https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Rec TV" tvg-logo="https://i.imgur.com/kKfbjnj.png" tvg-id="rectv" group-title="Chile",Rec TV
-https://marine2.miplay.cl/rec/index.m3u8
-
 #EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Chile",RT en Español (1080p)
 #EXTVLCOPT:http-referrer=https://odysee.com/
 
@@ -5627,24 +5624,6 @@ https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/a
 #EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="topmoviespolska" group-title="Denmark",Top Movies Polska (1080i)
 https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
-#EXTINF:-1 tvg-name="TV2/Østjylland (720p)" tvg-logo="https://i.imgur.com/qEUXjHp.png" tvg-id="tv2stjylland" group-title="Denmark",TV2/Østjylland (720p)
-https://cdnapi.kaltura.com/p/2102081/sp/2102081/playManifest/entryId/0_x4p3licd/flavorIds/0_pcvatr5k,0_aezqkdsi,0_dkeq429y,0_99pivdxs/deliveryProfileId/10552/protocol/https/format/applehttp/a.m3u8
-
-#EXTINF:-1 tvg-name="TV 2 Kosmopol (720p)" tvg-logo="https://i.imgur.com/oVmCoKY.png" tvg-id="tv2kosmopol" group-title="Denmark",TV 2 Kosmopol (720p)
-https://cdnapi.kaltura.com/p/2045321/sp/204532100/playManifest/entryId/1_2kojfk4m/format/applehttp/protocol/https/uiConfId/32599481/a.m3u8
-
-#EXTINF:-1 tvg-name="TV2 Nord (1080p)" tvg-logo="https://i.imgur.com/tEJ22UW.png" tvg-id="tv2nord" group-title="Denmark",TV2 Nord (1080p)
-https://cdnapi.kaltura.com/p/1956931/sp/195693100/playManifest/entryId/1_h9yfe7h2/protocol/https/format/applehttp/a.m3u8
-
-#EXTINF:-1 tvg-name="TV2 Øst (1080p)" tvg-logo="https://i.imgur.com/H9l6Ulw.png" tvg-id="tv2st" group-title="Denmark",TV2 Øst (1080p)
-https://cdnapi.kaltura.com/p/1953381/sp/195338100/playManifest/entryId/0_zphj9q61/protocol/https/format/applehttp/a.m3u8
-
-#EXTINF:-1 tvg-name="TV Midtvest (1080p)" tvg-logo="https://i.imgur.com/OU7xIVa.png" tvg-id="tvmidtvest" group-title="Denmark",TV Midtvest (1080p)
-https://cdnapi.kaltura.com/p/1953371/sp/195337100/playManifest/entryId/1_qwqu2d0z/protocol/https/format/applehttp/a.m3u8
-
-#EXTINF:-1 tvg-name="TV SYD (1080p)" tvg-logo="https://i.imgur.com/k2jf591.png" tvg-id="tvsyd" group-title="Denmark",TV SYD (1080p)
-https://cdnapi.kaltura.com/p/1956351/sp/195635100/playManifest/entryId/0_e9slj9wh/protocol/https/format/applehttp/a.m3u8
-
 #EXTINF:-1 tvg-name="TVMarineret (1080p)" tvg-logo="https://i.imgur.com/r1Caske.jpg" tvg-id="tvmarineret" group-title="Denmark",TVMarineret (1080p)
 http://sdream.info:8080/hls/livestream/index.m3u8
 
@@ -6719,16 +6698,16 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65
 #EXTINF:-1 tvg-name="Rai Italia" tvg-logo="https://i.imgur.com/1nN4rEP.png" tvg-id="raiitalia" group-title="Finland",Rai Italia
 https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8
 
-#EXTINF:-1 tvg-name="Rakuten TV Action Movies (1080p)" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-id="rakutentvactionmovies" group-title="Finland",Rakuten TV Action Movies (1080p)
+#EXTINF:-1 tvg-name="Rakuten TV Action Movies Finland (1080p)" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-id="rakutentvactionmoviesfinland" group-title="Finland",Rakuten TV Action Movies Finland (1080p)
 https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8
 
-#EXTINF:-1 tvg-name="Rakuten TV Comedy Movies (1080p)" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-id="rakutentvcomedymovies" group-title="Finland",Rakuten TV Comedy Movies (1080p)
+#EXTINF:-1 tvg-name="Rakuten TV Comedy Movies Finland (1080p)" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-id="rakutentvcomedymoviesfinland" group-title="Finland",Rakuten TV Comedy Movies Finland (1080p)
 https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8
 
-#EXTINF:-1 tvg-name="Rakuten TV Drama Movies (1080p)" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-id="rakutentvdramamovies" group-title="Finland",Rakuten TV Drama Movies (1080p)
+#EXTINF:-1 tvg-name="Rakuten TV Drama Movies Finland (1080p)" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-id="rakutentvdramamoviesfinland" group-title="Finland",Rakuten TV Drama Movies Finland (1080p)
 https://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8
 
-#EXTINF:-1 tvg-name="Rakuten TV Family Movies (1080p)" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-id="rakutentvfamilymovies" group-title="Finland",Rakuten TV Family Movies (1080p)
+#EXTINF:-1 tvg-name="Rakuten TV Family Movies Finland (1080p)" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-id="rakutentvfamilymoviesfinland" group-title="Finland",Rakuten TV Family Movies Finland (1080p)
 https://758ee983d61e400381dea6fa8154f4e0.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6227/master.m3u8
 
 #EXTINF:-1 tvg-name="Rakuten TV Nordic Films (1080p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/ff79e878-3eea-45fc-b0cd-55d6acce9b18-width200-quality90.jpeg" tvg-id="rakutentvnordicfilms" group-title="Finland",Rakuten TV Nordic Films (1080p)
@@ -8339,9 +8318,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e
 #EXTINF:-1 tvg-name="BR Fernsehen Nord (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_Bayerischer_Rundfunk_2024.svg/512px-Logo_Bayerischer_Rundfunk_2024.svg.png" tvg-id="brfernsehennord" group-title="Germany",BR Fernsehen Nord (720p)
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 
-#EXTINF:-1 tvg-name="BR Fernsehen Süd (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_Bayerischer_Rundfunk_2024.svg/512px-Logo_Bayerischer_Rundfunk_2024.svg.png" tvg-id="brfernsehensd" group-title="Germany",BR Fernsehen Süd (720p)
-https://brcdn.vo.llnwd.net/br/fs/bfs_sued/hls/de/master.m3u8
-
 #EXTINF:-1 tvg-name="Bubble Guppies" tvg-logo="https://i.imgur.com/xNaAbUE.png" tvg-id="bubbleguppies" group-title="Germany",Bubble Guppies
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e8b5a4bb7da5c0007e5c9e9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aca4b0-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d9f332f4-cf88-4dfa-b110-d5810536c437
 
@@ -8395,9 +8371,6 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.
 
 #EXTINF:-1 tvg-name="like Gecko) Mobile/15E148"" tvg-logo="https://i.imgur.com/8MRNFb9.png" tvg-id="likegeckomobile15e148" group-title="Germany",like Gecko) Mobile/15E148"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
-
-#EXTINF:-1 tvg-name="DF1 (720p)" tvg-logo="https://i.imgur.com/IOZICW5.png" tvg-id="df1" group-title="Germany",DF1 (720p)
-https://dbjwcot8t7nyd.cloudfront.net/out/v1/9d068a9428444b458324ad77b5a0a4b8/index.m3u8
 
 #EXTINF:-1 tvg-name="Die Neue Zeit (576p)" tvg-logo="https://i.imgur.com/K3lvrog.png" tvg-id="dieneuezeit" group-title="Germany",Die Neue Zeit (576p)
 https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/playlist.m3u8
@@ -8465,9 +8438,6 @@ http://148.251.76.72:8081/goodsound/goodsound.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name="Grjngo (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/22c730ab-2e9f-47dc-b35a-ad8c081fec40-width200-quality90.jpeg" tvg-id="grjngo" group-title="Germany",Grjngo (720p)
 https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/playlist.m3u8
 
-#EXTINF:-1 tvg-name="H1 Fernsehen (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/H1-logo.svg/512px-H1-logo.svg.png" tvg-id="h1fernsehen" group-title="Germany",H1 Fernsehen (1080p)
-https://5857499ee635b.streamlock.net/heinstv-live/_definst_/smil:livestream.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Hamburg 1 (1080p)" tvg-logo="https://i.imgur.com/df3yY8W.png" tvg-id="hamburg1" group-title="Germany",Hamburg 1 (1080p)
 https://stream.hamburg1.de/live_abr/hamburg1_abr/playlist.m3u8
 
@@ -8507,9 +8477,6 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3
 #EXTINF:-1 tvg-name="kabel eins" tvg-logo="https://i.imgur.com/6pulSHZ.png" tvg-id="kabeleins" group-title="Germany",kabel eins
 http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/192391842?profile=pass
 
-#EXTINF:-1 tvg-name="Kanal Avrupa (1080p)" tvg-logo="https://i.imgur.com/dJocxUQ.png" tvg-id="kanalavrupa" group-title="Germany",Kanal Avrupa (1080p)
-https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8
-
 #EXTINF:-1 tvg-name="KaufBei TV (576p)" tvg-logo="https://i.imgur.com/CVJWiM0.png" tvg-id="kaufbeitv" group-title="Germany",KaufBei TV (576p)
 https://api.alpaca.t62a.com/hls/9103/index.m3u8
 
@@ -8539,9 +8506,6 @@ https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=
 
 #EXTINF:-1 tvg-name="MDF.1 (1080p)" tvg-logo="https://i.imgur.com/IFGXK6u.png" tvg-id="mdf1" group-title="Germany",MDF.1 (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/mdf1_high/playlist.m3u8
-
-#EXTINF:-1 tvg-name="MeieTV (720p)" tvg-logo="https://i.imgur.com/SqG9fbV.png" tvg-id="meietv" group-title="Germany",MeieTV (720p)
-https://stream.meietv.de/live/meietv.m3u8
 
 #EXTINF:-1 tvg-name="Moconomy (1080p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/9da0ec4d-85ea-45f4-b3f9-ae917d1714f9-width200-quality90.jpeg" tvg-id="moconomy" group-title="Germany",Moconomy (1080p)
 https://3ee905090d464be5a51478fd9c642e93.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_Moconomy/playlist.m3u8
@@ -8584,9 +8548,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 
 #EXTINF:-1 tvg-name="Museum TV English (1080p)" tvg-logo="https://i.imgur.com/WbjURLo.png" tvg-id="museumtvenglish" group-title="Germany",Museum TV English (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
-
-#EXTINF:-1 tvg-name="MyTVplus (Dresden) (576p)" tvg-logo="https://i.imgur.com/zA22TQH.png" tvg-id="mytvplus" group-title="Germany",MyTVplus (Dresden) (576p)
-https://mytvplus.iptv-playoutcenter.de/mytvplus/mytvplus.stream_1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="N24 Doku" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/512px-N24Doku.svg.png" tvg-id="n24doku" group-title="Germany",N24 Doku
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae2b55-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=39199e43-689e-4f83-9f74-b89605373bf0
@@ -8915,9 +8876,6 @@ https://h057.video-stream-hosting.de/studio47-live/_definst_/mp4:livestream/play
 #EXTINF:-1 tvg-name="SWR 3 Visual Radio (720p)" tvg-logo="https://i.imgur.com/PxSgxRO.jpg" tvg-id="swr3visualradio" group-title="Germany",SWR 3 Visual Radio (720p)
 https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
 
-#EXTINF:-1 tvg-name="Sylt1 (404p)" tvg-logo="https://i.imgur.com/2Wh8OS5.png" tvg-id="sylt1" group-title="Germany",Sylt1 (404p)
-https://5f7f7503aa549.streamlock.net/Sylt1_Channel_1_PGM/sylt1_high/Playlist.m3u8
-
 #EXTINF:-1 tvg-name="Tagesschau 24 (720p)" tvg-logo="https://i.imgur.com/LH0Gctv.png" tvg-id="tagesschau24" group-title="Germany",Tagesschau 24 (720p)
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 
@@ -8960,9 +8918,6 @@ https://live2.telvi.de/hls/tvberlin.m3u8
 #EXTINF:-1 tvg-name="TV Ingolstadt (1080p)" tvg-logo="https://i.imgur.com/Ymh11VV.png" tvg-id="tvingolstadt" group-title="Germany",TV Ingolstadt (1080p)
 https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TV Mittelrhein (720p)" tvg-logo="https://i.imgur.com/3Zic2AR.png" tvg-id="tvmittelrhein" group-title="Germany",TV Mittelrhein (720p)
-https://live2.telvi.de/hls/tvm_hd720.m3u8
-
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="viasatexploreclassic" group-title="Germany",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
 
@@ -8975,8 +8930,8 @@ https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
 #EXTINF:-1 tvg-name="VOX" tvg-logo="https://i.imgur.com/QPcmfZb.png" tvg-id="vox" group-title="Germany",VOX
 http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/44434500?profile=pass
 
-#EXTINF:-1 tvg-name="VOX (576p)" tvg-logo="https://i.imgur.com/QPcmfZb.png" tvg-id="vox" group-title="Germany",VOX (576p)
-https://s6.hopslan.com/voxx1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="VOX (Germany) (576p)" tvg-logo="https://i.imgur.com/QPcmfZb.png" tvg-id="vox" group-title="Germany",VOX (Germany) (576p)
+http://178.219.128.68:64888/VOX
 
 #EXTINF:-1 tvg-name="Voxup" tvg-logo="https://i.imgur.com/tUTspbW.png" tvg-id="voxup" group-title="Germany",Voxup
 http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/1205817593?profile=pass
@@ -9004,9 +8959,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a
 
 #EXTINF:-1 tvg-name="World Poker Tour (1080p)" tvg-logo="https://i.imgur.com/98kLMjj.png" tvg-id="worldpokertour" group-title="Germany",World Poker Tour (1080p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/15d59f2f-80da-4448-9bce-775cc9f470f7/1.m3u8
-
-#EXTINF:-1 tvg-name="WW TV (720p)" tvg-logo="https://i.imgur.com/MefGKaz.png" tvg-id="wwtv" group-title="Germany",WW TV (720p)
-https://live2.telvi.de/hls/wwtv_hd720.m3u8
 
 #EXTINF:-1 tvg-name="Yol TV (720p)" tvg-logo="https://i.imgur.com/rTBX6lS.png" tvg-id="yoltv" group-title="Germany",Yol TV (720p)
 https://stream.yol.tv:9443/medialive/yol.m3u8
@@ -9116,9 +9068,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e
 #EXTINF:-1 tvg-name="BR Fernsehen Nord (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_Bayerischer_Rundfunk_2024.svg/512px-Logo_Bayerischer_Rundfunk_2024.svg.png" tvg-id="brfernsehennord" group-title="Germany",BR Fernsehen Nord (720p)
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 
-#EXTINF:-1 tvg-name="BR Fernsehen Süd (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_Bayerischer_Rundfunk_2024.svg/512px-Logo_Bayerischer_Rundfunk_2024.svg.png" tvg-id="brfernsehensd" group-title="Germany",BR Fernsehen Süd (720p)
-https://brcdn.vo.llnwd.net/br/fs/bfs_sued/hls/de/master.m3u8
-
 #EXTINF:-1 tvg-name="Bubble Guppies" tvg-logo="https://i.imgur.com/xNaAbUE.png" tvg-id="bubbleguppies" group-title="Germany",Bubble Guppies
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e8b5a4bb7da5c0007e5c9e9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aca4b0-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d9f332f4-cf88-4dfa-b110-d5810536c437
 
@@ -9172,9 +9121,6 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.
 
 #EXTINF:-1 tvg-name="like Gecko) Mobile/15E148"" tvg-logo="https://i.imgur.com/8MRNFb9.png" tvg-id="likegeckomobile15e148" group-title="Germany",like Gecko) Mobile/15E148"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
-
-#EXTINF:-1 tvg-name="DF1 (720p)" tvg-logo="https://i.imgur.com/IOZICW5.png" tvg-id="df1" group-title="Germany",DF1 (720p)
-https://dbjwcot8t7nyd.cloudfront.net/out/v1/9d068a9428444b458324ad77b5a0a4b8/index.m3u8
 
 #EXTINF:-1 tvg-name="Die Neue Zeit (576p)" tvg-logo="https://i.imgur.com/K3lvrog.png" tvg-id="dieneuezeit" group-title="Germany",Die Neue Zeit (576p)
 https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/playlist.m3u8
@@ -9242,9 +9188,6 @@ http://148.251.76.72:8081/goodsound/goodsound.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name="Grjngo (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/22c730ab-2e9f-47dc-b35a-ad8c081fec40-width200-quality90.jpeg" tvg-id="grjngo" group-title="Germany",Grjngo (720p)
 https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/playlist.m3u8
 
-#EXTINF:-1 tvg-name="H1 Fernsehen (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/H1-logo.svg/512px-H1-logo.svg.png" tvg-id="h1fernsehen" group-title="Germany",H1 Fernsehen (1080p)
-https://5857499ee635b.streamlock.net/heinstv-live/_definst_/smil:livestream.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Hamburg 1 (1080p)" tvg-logo="https://i.imgur.com/df3yY8W.png" tvg-id="hamburg1" group-title="Germany",Hamburg 1 (1080p)
 https://stream.hamburg1.de/live_abr/hamburg1_abr/playlist.m3u8
 
@@ -9284,9 +9227,6 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3
 #EXTINF:-1 tvg-name="kabel eins" tvg-logo="https://i.imgur.com/6pulSHZ.png" tvg-id="kabeleins" group-title="Germany",kabel eins
 http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/192391842?profile=pass
 
-#EXTINF:-1 tvg-name="Kanal Avrupa (1080p)" tvg-logo="https://i.imgur.com/dJocxUQ.png" tvg-id="kanalavrupa" group-title="Germany",Kanal Avrupa (1080p)
-https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8
-
 #EXTINF:-1 tvg-name="KaufBei TV (576p)" tvg-logo="https://i.imgur.com/CVJWiM0.png" tvg-id="kaufbeitv" group-title="Germany",KaufBei TV (576p)
 https://api.alpaca.t62a.com/hls/9103/index.m3u8
 
@@ -9316,9 +9256,6 @@ https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=
 
 #EXTINF:-1 tvg-name="MDF.1 (1080p)" tvg-logo="https://i.imgur.com/IFGXK6u.png" tvg-id="mdf1" group-title="Germany",MDF.1 (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/mdf1_high/playlist.m3u8
-
-#EXTINF:-1 tvg-name="MeieTV (720p)" tvg-logo="https://i.imgur.com/SqG9fbV.png" tvg-id="meietv" group-title="Germany",MeieTV (720p)
-https://stream.meietv.de/live/meietv.m3u8
 
 #EXTINF:-1 tvg-name="Moconomy (1080p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/9da0ec4d-85ea-45f4-b3f9-ae917d1714f9-width200-quality90.jpeg" tvg-id="moconomy" group-title="Germany",Moconomy (1080p)
 https://3ee905090d464be5a51478fd9c642e93.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_Moconomy/playlist.m3u8
@@ -9361,9 +9298,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 
 #EXTINF:-1 tvg-name="Museum TV English (1080p)" tvg-logo="https://i.imgur.com/WbjURLo.png" tvg-id="museumtvenglish" group-title="Germany",Museum TV English (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
-
-#EXTINF:-1 tvg-name="MyTVplus (Dresden) (576p)" tvg-logo="https://i.imgur.com/zA22TQH.png" tvg-id="mytvplus" group-title="Germany",MyTVplus (Dresden) (576p)
-https://mytvplus.iptv-playoutcenter.de/mytvplus/mytvplus.stream_1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="N24 Doku" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/512px-N24Doku.svg.png" tvg-id="n24doku" group-title="Germany",N24 Doku
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae2b55-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=39199e43-689e-4f83-9f74-b89605373bf0
@@ -9692,9 +9626,6 @@ https://h057.video-stream-hosting.de/studio47-live/_definst_/mp4:livestream/play
 #EXTINF:-1 tvg-name="SWR 3 Visual Radio (720p)" tvg-logo="https://i.imgur.com/PxSgxRO.jpg" tvg-id="swr3visualradio" group-title="Germany",SWR 3 Visual Radio (720p)
 https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
 
-#EXTINF:-1 tvg-name="Sylt1 (404p)" tvg-logo="https://i.imgur.com/2Wh8OS5.png" tvg-id="sylt1" group-title="Germany",Sylt1 (404p)
-https://5f7f7503aa549.streamlock.net/Sylt1_Channel_1_PGM/sylt1_high/Playlist.m3u8
-
 #EXTINF:-1 tvg-name="Tagesschau 24 (720p)" tvg-logo="https://i.imgur.com/LH0Gctv.png" tvg-id="tagesschau24" group-title="Germany",Tagesschau 24 (720p)
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 
@@ -9737,9 +9668,6 @@ https://live2.telvi.de/hls/tvberlin.m3u8
 #EXTINF:-1 tvg-name="TV Ingolstadt (1080p)" tvg-logo="https://i.imgur.com/Ymh11VV.png" tvg-id="tvingolstadt" group-title="Germany",TV Ingolstadt (1080p)
 https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TV Mittelrhein (720p)" tvg-logo="https://i.imgur.com/3Zic2AR.png" tvg-id="tvmittelrhein" group-title="Germany",TV Mittelrhein (720p)
-https://live2.telvi.de/hls/tvm_hd720.m3u8
-
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="viasatexploreclassic" group-title="Germany",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
 
@@ -9752,8 +9680,8 @@ https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
 #EXTINF:-1 tvg-name="VOX" tvg-logo="https://i.imgur.com/QPcmfZb.png" tvg-id="vox" group-title="Germany",VOX
 http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/44434500?profile=pass
 
-#EXTINF:-1 tvg-name="VOX (576p)" tvg-logo="https://i.imgur.com/QPcmfZb.png" tvg-id="vox" group-title="Germany",VOX (576p)
-https://s6.hopslan.com/voxx1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="VOX (Germany) (576p)" tvg-logo="https://i.imgur.com/QPcmfZb.png" tvg-id="vox" group-title="Germany",VOX (Germany) (576p)
+http://178.219.128.68:64888/VOX
 
 #EXTINF:-1 tvg-name="Voxup" tvg-logo="https://i.imgur.com/tUTspbW.png" tvg-id="voxup" group-title="Germany",Voxup
 http://lafamilia2024.direct.quickconnect.to:9981/stream/channelid/1205817593?profile=pass
@@ -9781,9 +9709,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a
 
 #EXTINF:-1 tvg-name="World Poker Tour (1080p)" tvg-logo="https://i.imgur.com/98kLMjj.png" tvg-id="worldpokertour" group-title="Germany",World Poker Tour (1080p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/15d59f2f-80da-4448-9bce-775cc9f470f7/1.m3u8
-
-#EXTINF:-1 tvg-name="WW TV (720p)" tvg-logo="https://i.imgur.com/MefGKaz.png" tvg-id="wwtv" group-title="Germany",WW TV (720p)
-https://live2.telvi.de/hls/wwtv_hd720.m3u8
 
 #EXTINF:-1 tvg-name="Yol TV (720p)" tvg-logo="https://i.imgur.com/rTBX6lS.png" tvg-id="yoltv" group-title="Germany",Yol TV (720p)
 https://stream.yol.tv:9443/medialive/yol.m3u8
@@ -9815,15 +9740,6 @@ https://cdne.folxplay.tv/folx-trz/streams/ch-2/master.m3u8
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Germany",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 
-#EXTINF:-1 tvg-name="ERT 1" tvg-logo="https://i.imgur.com/WWMe8IY.png" tvg-id="ert1" group-title="Greece",ERT 1
-http://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT 2" tvg-logo="https://i.imgur.com/pcusPFl.png" tvg-id="ert2" group-title="Greece",ERT 2
-http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT 3" tvg-logo="https://i.imgur.com/KyhzDRm.png" tvg-id="ert3" group-title="Greece",ERT 3
-http://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3medium.m3u8
-
 #EXTINF:-1 tvg-name="ANT1" tvg-logo="https://i.imgur.com/np0s1FN.png" tvg-id="ant1" group-title="Greece",ANT1
 https://antennalivesp-lh.akamaihd.net/i/live_1@715138/index_800_av-p.m3u8
 
@@ -9847,18 +9763,6 @@ http://ert-live-bcbs15228.siliconweb.com/media/ert_sports/ert_sports.m3u8
 
 #EXTINF:-1 tvg-name="ERT Sports 2" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports2" group-title="Greece",ERT Sports 2
 http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_2/ert_sports_2medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 3" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports3" group-title="Greece",ERT Sports 3
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 4" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports4" group-title="Greece",ERT Sports 4
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 5" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports5" group-title="Greece",ERT Sports 5
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 6" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports6" group-title="Greece",ERT Sports 6
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_6/ert_sports_6medium.m3u8
 
 #EXTINF:-1 tvg-name="Euronews Greek Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsgreek" group-title="Greece",Euronews Greek Ⓨ
 https://www.youtube.com/c/euronewsGreek/live
@@ -12690,7 +12594,7 @@ https://mn-nl.mncdn.com/utviraqi2/64c80359/index.m3u8
 https://ca-rt.onetv.app/Waar/index-0.m3u8
 
 #EXTINF:-1 tvg-name="Wanasah (1080p)" tvg-logo="https://i.imgur.com/nLtiXNf.png" tvg-id="wanasah" group-title="Iraq",Wanasah (1080p)
-https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8
 
 #EXTINF:-1 tvg-name="TG4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/TG4_logo.svg/1024px-TG4_logo.svg.png" tvg-id="tg4" group-title="Ireland",TG4
 https://dx4452e0qv6r9.cloudfront.net/tg4_vod_national.m3u8
@@ -13400,9 +13304,6 @@ https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Made in BO" tvg-logo="https://i.imgur.com/WFnrMS0.png" tvg-id="madeinbo" group-title="Italy",Made in BO
 https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Maria Vision" tvg-logo="https://i.imgur.com/fdx5YXi.png" tvg-id="mariavision" group-title="Italy",Maria Vision
-https://1601580044.rsc.cdn77.org/live/_jcn_/amls:CHANNEL_2/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Medjugorje Italia Tv" tvg-logo="https://i.imgur.com/hkZScXf.png" tvg-id="medjugorjeitaliatv" group-title="Italy",Medjugorje Italia Tv
 https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
 
@@ -13639,6 +13540,9 @@ https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TSD Tv Arezzo(Tele San Domenico)" tvg-logo="https://i.imgur.com/WQ8eQXc.png" tvg-id="tsdtvarezzo" group-title="Italy",TSD Tv Arezzo(Tele San Domenico)
 https://stream.mariatvcdn.com/tsd/7c59373bfdb38201b9215ff86f0ce6af.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TVL (TV Libera Pistoia)" tvg-logo="https://i.imgur.com/07geF0L.png" tvg-id="tvl" group-title="Italy",TVL (TV Libera Pistoia)
+http://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/mono.m3u8
 
 #EXTINF:-1 tvg-name="Tcf Tv" tvg-logo="https://i.imgur.com/fiylFs2.jpg" tvg-id="tcftv" group-title="Italy",Tcf Tv
 https://stream10.xdevel.com/video1s977294-1864/stream/playlist.m3u8
