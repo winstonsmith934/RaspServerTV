@@ -2078,6 +2078,9 @@ https://balkanmedia.dynu.net/hls/tv5web.m3u8
 #EXTINF:-1 tvg-name="Kanal 6" tvg-logo="https://i.imgur.com/GGhvR0l.png" tvg-id="kanal6" group-title="Bosnia_and_herzegovina",Kanal 6
 https://restreamer1.tnt.ba/hls/kanal6.m3u8
 
+#EXTINF:-1 tvg-name="SuperTV" tvg-logo="https://i.imgur.com/XYWgd3E.png" tvg-id="supertv" group-title="Bosnia_and_herzegovina",SuperTV
+https://mirtv.club/live/mirtv/index.m3u8
+
 #EXTINF:-1 tvg-name="Neon TV" tvg-logo="https://i.imgur.com/thC9NFp.png" tvg-id="neontv" group-title="Bosnia_and_herzegovina",Neon TV
 rtsp://185.50.56.16:554/neontelvizija
 
@@ -9662,6 +9665,12 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 #EXTINF:-1 tvg-name="ERT 1" tvg-logo="https://i.imgur.com/WWMe8IY.png" tvg-id="ert1" group-title="Greece",ERT 1
 http://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1medium.m3u8
 
+#EXTINF:-1 tvg-name="ERT 2" tvg-logo="https://i.imgur.com/pcusPFl.png" tvg-id="ert2" group-title="Greece",ERT 2
+http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT 3" tvg-logo="https://i.imgur.com/KyhzDRm.png" tvg-id="ert3" group-title="Greece",ERT 3
+http://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3medium.m3u8
+
 #EXTINF:-1 tvg-name="ANT1" tvg-logo="https://i.imgur.com/np0s1FN.png" tvg-id="ant1" group-title="Greece",ANT1
 https://antennalivesp-lh.akamaihd.net/i/live_1@715138/index_800_av-p.m3u8
 
@@ -9685,6 +9694,18 @@ http://ert-live-bcbs15228.siliconweb.com/media/ert_sports/ert_sports.m3u8
 
 #EXTINF:-1 tvg-name="ERT Sports 2" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports2" group-title="Greece",ERT Sports 2
 http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_2/ert_sports_2medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT Sports 3" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports3" group-title="Greece",ERT Sports 3
+http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT Sports 4" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports4" group-title="Greece",ERT Sports 4
+http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT Sports 5" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports5" group-title="Greece",ERT Sports 5
+http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT Sports 6" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports6" group-title="Greece",ERT Sports 6
+http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_6/ert_sports_6medium.m3u8
 
 #EXTINF:-1 tvg-name="Euronews Greek Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsgreek" group-title="Greece",Euronews Greek Ⓨ
 https://www.youtube.com/c/euronewsGreek/live
@@ -11485,6 +11506,9 @@ https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-name="CNN Indonesia" tvg-logo="https://imgur.com/MpxTMiP" tvg-id="cnnindonesia" group-title="Indonesia",CNN Indonesia
 http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="BeritaSatu" tvg-logo="https://imgur.com/vYJVT07" tvg-id="beritasatu" group-title="Indonesia",BeritaSatu
+https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 
 #EXTINF:-1 tvg-name="AKTV (720p)" tvg-logo="https://i.imgur.com/DUY5WXf.png" tvg-id="aktv" group-title="Indonesia",AKTV (720p)
 https://e.siar.us/live/aktv.m3u8
@@ -20935,9 +20959,6 @@ https://ingest1-video.streaming-pro.com/esportsteABR/etestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="À Punt TV" tvg-logo="https://i.imgur.com/M88LoNl.png" tvg-id="punttv" group-title="Spain",À Punt TV
 https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="7 Región de Murcia Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/150px-La_7_logo.svg.png" tvg-id="7regindemurcia" group-title="Spain",7 Región de Murcia Ⓢ
-https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Canal 4 Tenerife" tvg-logo="https://i.imgur.com/Egymir4.png" tvg-id="canal4tenerife" group-title="Spain",Canal 4 Tenerife
 https://videoserver.tmcreativos.com:19360/ccxwhsfcnq/ccxwhsfcnq.m3u8
