@@ -410,9 +410,6 @@ https://streaming02.gbasat.com.ar:19360/bayrestv/bayrestv.m3u8
 #EXTINF:-1 tvg-name="Beats Radio (480p)" tvg-logo="https://i.imgur.com/zkNUO5p.png" tvg-id="beatsradio" group-title="Argentina",Beats Radio (480p)
 https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8
 
-#EXTINF:-1 tvg-name="Bob Esponja LATAM" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="bobesponjalatam" group-title="Argentina",Bob Esponja LATAM
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false
-
 #EXTINF:-1 tvg-name="Canal 2 de Ushuaia (1080p)" tvg-logo="https://i.ibb.co/q5NPdK2/canal2-logo.png" tvg-id="canal2deushuaia" group-title="Argentina",Canal 2 de Ushuaia (1080p)
 https://nd106.republicaservers.com:4433/hls/c6611/index.m3u8
 
@@ -626,6 +623,9 @@ https://vivo.solumedia.com:19360/playtv/playtv.m3u8
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Argentina",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Argentina",Pluto TV Bob Esponja (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+
 #EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Argentina",Pluto TV Cine Accion
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
 
@@ -689,7 +689,7 @@ https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 #EXTINF:-1 tvg-name="Somos Cultura TV (720p)" tvg-logo="https://i.imgur.com/kWR3END.png" tvg-id="somosculturatv" group-title="Argentina",Somos Cultura TV (720p)
 https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Somos La Pampa (1080p)" tvg-logo="https://i2.paste.pics/91920f8c1ac64beaaf70f7fbc09982c8.png" tvg-id="somoslapampa" group-title="Argentina",Somos La Pampa (1080p)
+#EXTINF:-1 tvg-name="Somos La Pampa (1080p)" tvg-logo="https://i.imgur.com/BUNvyTY.png" tvg-id="somoslapampa" group-title="Argentina",Somos La Pampa (1080p)
 https://stream.arcast.com.ar/somosnoticias/somosnoticias/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Suyai TV (1080p)" tvg-logo="https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png" tvg-id="suyaitv" group-title="Argentina",Suyai TV (1080p)
@@ -2531,6 +2531,9 @@ https://cdn.jmvstream.com/w/LVW-8379/LVW8379_rIq6ZYiIiA/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Assembléia Ceará (720p)" tvg-logo="https://i.imgur.com/UPa1tjs.png" tvg-id="tvassembliacear" group-title="Brazil",TV Assembléia Ceará (720p)
 https://jjn5dkk9bd.zoeweb.tv/z404-live/stream/playlist.m3u8
 
+#EXTINF:-1 tvg-name=" like Gecko) Chrome/129.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/sJOrvHg.png" tvg-id="likegeckochrome129000safari53736" group-title="Brazil", like Gecko) Chrome/129.0.0.0 Safari/537.36"
+http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+
 #EXTINF:-1 tvg-name="TV Beltrão (1080p)" tvg-logo="https://i.imgur.com/JxsyXCD.png" tvg-id="tvbeltro" group-title="Brazil",TV Beltrão (1080p)
 https://5cf4a2c2512a2.streamlock.net/tvbeltrao/tvbeltrao/playlist.m3u8
 
@@ -3410,8 +3413,8 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-name="Africa 24 Sport (1080p)" tvg-logo="https://i.imgur.com/YWIJdai.png" tvg-id="africa24sport" group-title="Chad",Africa 24 Sport (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
-#EXTINF:-1 tvg-name="Africanews" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanews" group-title="Chad",Africanews
-https://rakuten-africanews-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
+#EXTINF:-1 tvg-name="Africanews English" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsenglish" group-title="Chad",Africanews English
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
 
 #EXTINF:-1 tvg-name="Africanews French (720p)" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsfrench" group-title="Chad",Africanews French (720p)
 https://2767164d5ee04887b96812a9eea74d32.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6573/44d3df93-4a3e-43e0-990f-a5d196bbe3aa/5.m3u8
@@ -3581,9 +3584,6 @@ https://v1.tustreaming.cl/aysentv/index.m3u8
 #EXTINF:-1 tvg-name="BabyFirst Spanish" tvg-logo="https://i.imgur.com/WxLHBwu.png" tvg-id="babyfirstspanish" group-title="Chile",BabyFirst Spanish
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/be6f9eac-280e-4748-b866-2eb2463c1844/manifest.m3u8
 
-#EXTINF:-1 tvg-name="Bob Esponja LATAM" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="bobesponjalatam" group-title="Chile",Bob Esponja LATAM
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false
-
 #EXTINF:-1 tvg-name="Canal 21" tvg-logo="https://i.imgur.com/znmWqhW.png" tvg-id="canal21" group-title="Chile",Canal 21
 https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
 
@@ -3733,6 +3733,9 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Chile",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Chile",Pluto TV Bob Esponja (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Chile",Pluto TV Cine Accion
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
@@ -4418,9 +4421,6 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/be
 #EXTINF:-1 tvg-name="BBC News (North America) (1080p)" tvg-logo="https://i.imgur.com/vSz2WEp.png" tvg-id="bbcnews" group-title="Costa_rica",BBC News (North America) (1080p)
 https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Bob Esponja LATAM" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="bobesponjalatam" group-title="Costa_rica",Bob Esponja LATAM
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false
-
 #EXTINF:-1 tvg-name="Canal 1 (720p)" tvg-logo="https://i.ibb.co/KhNS8Dy/cropped-logoo-1.png" tvg-id="canal1" group-title="Costa_rica",Canal 1 (720p)
 https://59ef525c24caa.streamlock.net/canal1cr/canal1cr/playlist.m3u8
 
@@ -4561,6 +4561,9 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Costa_rica",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Costa_rica",Pluto TV Bob Esponja (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Costa_rica",Pluto TV Cine Accion
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
@@ -5726,9 +5729,6 @@ https://ss2.tvrdomi.com:1936/colometv/colometv/playlist.m3u8
 #EXTINF:-1 tvg-name="Bellavisión (1080p)" tvg-logo="https://i.imgur.com/XqQ3kCs.png" tvg-id="bellavisin" group-title="Dominican_republic",Bellavisión (1080p)
 https://rdn.essastream.com:3110/live/bellavision8hdlive.m3u8
 
-#EXTINF:-1 tvg-name="Bob Esponja LATAM" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="bobesponjalatam" group-title="Dominican_republic",Bob Esponja LATAM
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false
-
 #EXTINF:-1 tvg-name="Bonao TV (720p)" tvg-logo="https://i.imgur.com/en1vCZB.png" tvg-id="bonaotv" group-title="Dominican_republic",Bonao TV (720p)
 https://bonaotv.com/stream2/index.m3u8
 
@@ -6037,6 +6037,9 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Dominican_republic",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Dominican_republic",Pluto TV Bob Esponja (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Dominican_republic",Pluto TV Cine Accion
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
@@ -6944,6 +6947,9 @@ https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8
 #EXTINF:-1 tvg-name="Car City Adventures (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/bd356b80-79d9-46ff-9674-e69aaf10022f-width200-quality90.jpeg" tvg-id="carcityadventures" group-title="France",Car City Adventures (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/b6397b24-18b0-49c2-80bf-0333ae568e37/5.m3u8
 
+#EXTINF:-1 tvg-name="Cherie 25" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_Ch%C3%A9rie_25.svg/512px-Logo_Ch%C3%A9rie_25.svg.png" tvg-id="cherie25" group-title="France",Cherie 25
+https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
+
 #EXTINF:-1 tvg-name="DBM TV (1080p)" tvg-logo="https://i.imgur.com/ab6p2SW.png" tvg-id="dbmtv" group-title="France",DBM TV (1080p)
 https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
 
@@ -7486,6 +7492,9 @@ https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8
 
 #EXTINF:-1 tvg-name="Car City Adventures (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/bd356b80-79d9-46ff-9674-e69aaf10022f-width200-quality90.jpeg" tvg-id="carcityadventures" group-title="France",Car City Adventures (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/b6397b24-18b0-49c2-80bf-0333ae568e37/5.m3u8
+
+#EXTINF:-1 tvg-name="Cherie 25" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_Ch%C3%A9rie_25.svg/512px-Logo_Ch%C3%A9rie_25.svg.png" tvg-id="cherie25" group-title="France",Cherie 25
+https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
 
 #EXTINF:-1 tvg-name="DBM TV (1080p)" tvg-logo="https://i.imgur.com/ab6p2SW.png" tvg-id="dbmtv" group-title="France",DBM TV (1080p)
 https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
@@ -11654,12 +11663,6 @@ https://saktitv.siar.us/saktitv/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Semarang TV (720p)" tvg-logo="https://i.imgur.com/KFC2WSB.png" tvg-id="semarangtv" group-title="Indonesia",Semarang TV (720p)
 http://116.254.112.74/hls/cakralive.m3u8
 
-#EXTINF:-1 tvg-name="SPOTV 2 (Indonesia)" tvg-logo="https://i.imgur.com/YD8fbTH.png" tvg-id="spotv2" group-title="Indonesia",SPOTV 2 (Indonesia)
-https://cdn09jtedge.indihometv.com/joss/133/beib2/index.m3u8
-
-#EXTINF:-1 tvg-name="SPOTV (Indonesia)" tvg-logo="https://i.imgur.com/HaoVsm5.png" tvg-id="spotv" group-title="Indonesia",SPOTV (Indonesia)
-https://cdn09jtedge.indihometv.com/joss/133/beib1/index.m3u8
-
 #EXTINF:-1 tvg-name="Tawaf TV (720p)" tvg-logo="https://i.postimg.cc/VvVgb6dN/logo-tawaf.png" tvg-id="tawaftv" group-title="Indonesia",Tawaf TV (720p)
 https://streamtawaf.asfatv.com/hls/tawaftv.m3u8
 
@@ -12244,9 +12247,6 @@ https://streaming.viewmedia.tv/viewsatstream40/viewsatstream40.smil/playlist.m3u
 
 #EXTINF:-1 tvg-name="Zagros TV" tvg-logo="https://i.imgur.com/UjIuIQX.png" tvg-id="zagrostv" group-title="Iraq",Zagros TV
 https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="2M Monde" tvg-logo="https://i.imgur.com/MvpntzA.png" tvg-id="2mmonde" group-title="Iraq",2M Monde
-#EXTVLCOPT:http-referrer=https://2m.ma
 
 #EXTINF:-1 tvg-name="Abalfadhl TV" tvg-logo="https://i.ibb.co/cCmjqtQ/logo-2.png" tvg-id="abalfadhltv" group-title="Iraq",Abalfadhl TV
 https://t.northtelecom.org/ABALFADHLTV.m3u8
@@ -13385,6 +13385,12 @@ https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8
 #EXTINF:-1 tvg-name="Rei Tv" tvg-logo="https://i.imgur.com/YNRWFOo.png" tvg-id="reitv" group-title="Italy",Rei Tv
 https://5f22d76e220e1.streamlock.net/reitv/reitv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Rete 55" tvg-logo="https://i.imgur.com/EsZn2cj.png" tvg-id="rete55" group-title="Italy",Rete 55
+https://live1.giocabet.tv/stream/6/index.m3u8
+
+#EXTINF:-1 tvg-name="Rete 8 Vga" tvg-logo="https://i.imgur.com/3wF2AJX.jpg" tvg-id="rete8vga" group-title="Italy",Rete 8 Vga
+https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Rete 8" tvg-logo="https://i.imgur.com/bGsjPRh.png" tvg-id="rete8" group-title="Italy",Rete 8
 https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8
 
@@ -13426,6 +13432,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S12772175/FmIo5I5kmwTy/p
 
 #EXTINF:-1 tvg-name="RTM Manduria" tvg-logo="https://i.imgur.com/WwzU0EP.png" tvg-id="rtmmanduria" group-title="Italy",RTM Manduria
 https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8
+
+#EXTINF:-1 tvg-name="RTR99 Tv" tvg-logo="https://i.imgur.com/mkO95pD.png" tvg-id="rtr99tv" group-title="Italy",RTR99 Tv
+https://5e73cf528f404.streamlock.net/RTR99TV/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rtp Tv" tvg-logo="https://i.imgur.com/I1hYI0C.png" tvg-id="rtptv" group-title="Italy",Rtp Tv
 http://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8
@@ -13597,9 +13606,6 @@ https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6
 
 #EXTINF:-1 tvg-name="Tele Radio Pace 3" tvg-logo="https://i.imgur.com/pTqIxFD.png" tvg-id="teleradiopace3" group-title="Italy",Tele Radio Pace 3
 https://932y4273djv8-hls-live.mariatvcdn.it/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Tele Radio Pace 4" tvg-logo="https://i.imgur.com/KPHHsN5.png" tvg-id="teleradiopace4" group-title="Italy",Tele Radio Pace 4
-https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Sirio" tvg-logo="https://i.imgur.com/mDN6QX1.png" tvg-id="telesirio" group-title="Italy",Tele Sirio
 https://www.telesirio.it/live/stream.m3u8
@@ -14879,9 +14885,6 @@ https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
 #EXTINF:-1 tvg-name="bitMe (576p)" tvg-logo="https://i.imgur.com/79hrcx8.png" tvg-id="bitme" group-title="Mexico",bitMe (576p)
 https://linear-401.frequency.stream/mt/studio/401/hls/master/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Bob Esponja LATAM" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="bobesponjalatam" group-title="Mexico",Bob Esponja LATAM
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false
-
 #EXTINF:-1 tvg-name="California Medios TV (720p)" tvg-logo="https://i.imgur.com/IDvpRNI.png" tvg-id="californiamediostv" group-title="Mexico",California Medios TV (720p)
 https://s5.mexside.net:1936/medios/medios/playlist.m3u8
 
@@ -15154,6 +15157,9 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Mexico",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Mexico",Pluto TV Bob Esponja (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Mexico",Pluto TV Cine Accion
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
@@ -16700,9 +16706,6 @@ http://animezonetv.net/hls/stream.m3u8
 #EXTINF:-1 tvg-name="BabyFirst Spanish" tvg-logo="https://i.imgur.com/WxLHBwu.png" tvg-id="babyfirstspanish" group-title="Paraguay",BabyFirst Spanish
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/be6f9eac-280e-4748-b866-2eb2463c1844/manifest.m3u8
 
-#EXTINF:-1 tvg-name="Bob Esponja LATAM" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="bobesponjalatam" group-title="Paraguay",Bob Esponja LATAM
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false
-
 #EXTINF:-1 tvg-name="Bruno Masi TV (720p)" tvg-logo="https://i.ibb.co/QFmyjZN/unnamed-1.png" tvg-id="brunomasitv" group-title="Paraguay",Bruno Masi TV (720p)
 https://rds3.desdeparaguay.net/brunomasitv/brunomasitv/playlist.m3u8
 
@@ -16816,6 +16819,9 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Paraguay",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Paraguay",Pluto TV Bob Esponja (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Paraguay",Pluto TV Cine Accion
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
@@ -16945,9 +16951,6 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/be
 
 #EXTINF:-1 tvg-name="Bethel TV" tvg-logo="https://i.imgur.com/zCVh765.png" tvg-id="betheltv" group-title="Peru",Bethel TV
 https://alfa.betheltv.tv/srt/3_abr/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bob Esponja LATAM" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="bobesponjalatam" group-title="Peru",Bob Esponja LATAM
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false
 
 #EXTINF:-1 tvg-name="Cajamarca TV" tvg-logo="https://i.imgur.com/pC57NYv.png" tvg-id="cajamarcatv" group-title="Peru",Cajamarca TV
 https://live-evg1.tv360.bitel.com.pe/bitel/cajamarcatv/playlist.m3u8
@@ -17083,6 +17086,9 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 
 #EXTINF:-1 tvg-name="Plous TV (1080p)" tvg-logo="https://i.imgur.com/OSet4en.png" tvg-id="ploustv" group-title="Peru",Plous TV (1080p)
 https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Peru",Pluto TV Bob Esponja (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Peru",Pluto TV Cine Accion
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
@@ -17749,9 +17755,6 @@ https://www.tvkaista.net/stream-forwarder/get.php?x=AlkassFour
 
 #EXTINF:-1 tvg-name="Al Araby TV" tvg-logo="https://i.imgur.com/YMqWEe4.png" tvg-id="alarabytv" group-title="Qatar",Al Araby TV
 https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-name="2M Monde" tvg-logo="https://i.imgur.com/MvpntzA.png" tvg-id="2mmonde" group-title="Qatar",2M Monde
-#EXTVLCOPT:http-referrer=https://2m.ma
 
 #EXTINF:-1 tvg-name="Abu Dhabi Sports 1 (1080p)" tvg-logo="https://i.imgur.com/6BVWk8z.png" tvg-id="abudhabisports1" group-title="Qatar",Abu Dhabi Sports 1 (1080p)
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
@@ -19628,9 +19631,6 @@ https://bcovlive-a.akamaihd.net/9527a892aeaf43019fd9eeb77ad1516e/eu-central-1/60
 #EXTINF:-1 tvg-name="Rotana Classic" tvg-logo="https://i.imgur.com/pMMUvkt.png" tvg-id="rotanaclassic" group-title="Saudi_arabia",Rotana Classic
 https://bcovlive-a.akamaihd.net/0debf5648e584e5fb795c3611c5c0252/eu-central-1/6057955906001/playlist.m3u8
 
-#EXTINF:-1 tvg-name="2M Monde" tvg-logo="https://i.imgur.com/MvpntzA.png" tvg-id="2mmonde" group-title="Saudi_arabia",2M Monde
-#EXTVLCOPT:http-referrer=https://2m.ma
-
 #EXTINF:-1 tvg-name="Abdulmajeed Abdullah (1080p)" tvg-logo="https://assets.mbcmood.com/channels/1720184087Abdullah%20Majeed%20Abdullah%20banner.png" tvg-id="abdulmajeedabdullah" group-title="Saudi_arabia",Abdulmajeed Abdullah (1080p)
 https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8
 
@@ -19766,7 +19766,7 @@ https://live20.bozztv.com/gin-36bay3/ga-ksaports1/index.m3u8
 #EXTINF:-1 tvg-name="M+ (1080p)" tvg-logo="https://i.imgur.com/Ho8N310.png" tvg-id="m" group-title="Saudi_arabia",M+ (1080p)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8
 
-#EXTINF:-1 tvg-name="Majid Al Mohandis (1080p)" tvg-logo="https://assets.mbcmood.com/channels/1738059852MAJED_LOGO.png" tvg-id="majidalmohandis" group-title="Saudi_arabia",Majid Al Mohandis (1080p)
+#EXTINF:-1 tvg-name="Majid Al Mohandis (1080p)" tvg-logo="https://i.discogs.com/Fk9Bm8gTYJYeVXIJKX-EOGmYQ90sVQPtkIW5ZK4fydo/rs:fit/g:sm/q:90/h:372/w:412/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2OTY4/MzMtMTU2ODk0NjI5/MC01Njk2LmpwZWc.jpeg" tvg-id="majidalmohandis" group-title="Saudi_arabia",Majid Al Mohandis (1080p)
 https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8
 
 #EXTINF:-1 tvg-name="Makkah TV (576p)" tvg-logo="https://i.imgur.com/PRPcOi0.png" tvg-id="makkahtv" group-title="Saudi_arabia",Makkah TV (576p)
@@ -19838,7 +19838,7 @@ https://shls-live-enc.edgenextcdn.net/out/v1/ea4275b6dc0840c198c17f6dc6f1ec49/in
 #EXTINF:-1 tvg-name="Ramez (1080p)" tvg-logo="https://i.imgur.com/aCJeVSr.png" tvg-id="ramez" group-title="Saudi_arabia",Ramez (1080p)
 https://shls-live-enc.edgenextcdn.net/out/v1/0ef83323c0374a1187c182645db2a45f/index.m3u8
 
-#EXTINF:-1 tvg-name="Rashid AlMajed (1080p)" tvg-logo="https://assets.mbcmood.com/channels/1720184087Abdullah%20Majeed%20Abdullah%20banner.png" tvg-id="rashidalmajed" group-title="Saudi_arabia",Rashid AlMajed (1080p)
+#EXTINF:-1 tvg-name="Rashid AlMajed (1080p)" tvg-logo="https://assets.mbcmood.com/channels/1720177618Rashid%20AlMajed.webp" tvg-id="rashidalmajed" group-title="Saudi_arabia",Rashid AlMajed (1080p)
 https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8
 
 #EXTINF:-1 tvg-name="Rotana Aflam+ (1080p)" tvg-logo="https://i.imgur.com/DLDfFpu.png" tvg-id="rotanaaflam" group-title="Saudi_arabia",Rotana Aflam+ (1080p)
@@ -19865,7 +19865,7 @@ rtmp://live.restream.io/pull/play_320121_94512612fd0e084bd284
 #EXTINF:-1 tvg-name="Rotana Khalijia (1080p)" tvg-logo="https://i.imgur.com/6HMluzv.png" tvg-id="rotanakhalijia" group-title="Saudi_arabia",Rotana Khalijia (1080p)
 #EXTVLCOPT:http-referrer=https://rotana.net/
 
-#EXTINF:-1 tvg-name="Saudi Thaqafiya TV (1080p)" tvg-logo="https://i.imgur.com/juM3k8B.jpg" tvg-id="saudithaqafiyatv" group-title="Saudi_arabia",Saudi Thaqafiya TV (1080p)
+#EXTINF:-1 tvg-name="Saudi Thaqafiya TV (1080p)" tvg-logo="https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=512&croppingPoint=&version=1&type=jpeg" tvg-id="saudithaqafiyatv" group-title="Saudi_arabia",Saudi Thaqafiya TV (1080p)
 https://thaqafeyyah-ak.akamaized.net/out/v1/f6851f68ada94f82ae6b64a441eb5ab1/index.m3u8
 
 #EXTINF:-1 tvg-name="Saudia Radio (1080p)" tvg-logo="https://i.imgur.com/CvrR7wW.png" tvg-id="saudiaradio" group-title="Saudi_arabia",Saudia Radio (1080p)
@@ -20639,9 +20639,6 @@ https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
 #EXTINF:-1 tvg-name="Somali National TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/SNTV_REBRANDED_LOGO.png" tvg-id="somalinationaltv" group-title="Somalia",Somali National TV Ⓢ
 https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8
 
-#EXTINF:-1 tvg-name="2M Monde" tvg-logo="https://i.imgur.com/MvpntzA.png" tvg-id="2mmonde" group-title="Somalia",2M Monde
-#EXTVLCOPT:http-referrer=https://2m.ma
-
 #EXTINF:-1 tvg-name="ABN Africa (480p)" tvg-logo="https://i.imgur.com/SLrX8Ef.png" tvg-id="abnafrica" group-title="Somalia",ABN Africa (480p)
 https://mediaserver.abnvideos.com/streams/abnafrica.m3u8
 
@@ -20657,8 +20654,8 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-name="Africa 24 Sport (1080p)" tvg-logo="https://i.imgur.com/YWIJdai.png" tvg-id="africa24sport" group-title="Somalia",Africa 24 Sport (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
-#EXTINF:-1 tvg-name="Africanews" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanews" group-title="Somalia",Africanews
-https://rakuten-africanews-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
+#EXTINF:-1 tvg-name="Africanews English" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsenglish" group-title="Somalia",Africanews English
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
 
 #EXTINF:-1 tvg-name="Africanews French (720p)" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsfrench" group-title="Somalia",Africanews French (720p)
 https://2767164d5ee04887b96812a9eea74d32.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6573/44d3df93-4a3e-43e0-990f-a5d196bbe3aa/5.m3u8
@@ -21481,9 +21478,6 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f984f4a0
 
 #EXTINF:-1 tvg-name="Pluto TV Asesinatos de Midsomer (720p)" tvg-logo="https://i.imgur.com/JIbupT1.png" tvg-id="plutotvasesinatosdemidsomer" group-title="Spain",Pluto TV Asesinatos de Midsomer (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca8310a30e00074fab92/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
-
-#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Spain",Pluto TV Bob Esponja (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Acción (720p)" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccin" group-title="Spain",Pluto TV Cine Acción (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac2591dd8880007bb7d6d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
@@ -24077,9 +24071,6 @@ https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Al Wousta" tvg-logo="https://i5.satexpat.com/cha/ae/al-wousta-95x90.gif" tvg-id="alwousta" group-title="United_arab_emirates",Al Wousta
 https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="2M Monde" tvg-logo="https://i.imgur.com/MvpntzA.png" tvg-id="2mmonde" group-title="United_arab_emirates",2M Monde
-#EXTVLCOPT:http-referrer=https://2m.ma
-
 #EXTINF:-1 tvg-name="Abu Dhabi Aloula (1080p)" tvg-logo="https://i.imgur.com/g7IRorO.jpeg" tvg-id="abudhabialoula" group-title="United_arab_emirates",Abu Dhabi Aloula (1080p)
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiChannel/HLS/index.m3u8
 
@@ -24986,9 +24977,6 @@ https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
 #EXTINF:-1 tvg-name="BMC-HD TV" tvg-logo="https://i.imgur.com/c9LiTz0.png" tvg-id="bmctv" group-title="Usa",BMC-HD TV
 https://livestream.telvue.com/belmontmedia4/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Bob Esponja LATAM" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="bobesponjalatam" group-title="Usa",Bob Esponja LATAM
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false
-
 #EXTINF:-1 tvg-name="Bolton Community Voice Channel (CVC) Education (Bolton CT) (480p)" tvg-logo="https://i.imgur.com/tUgEAUJ.png" tvg-id="boltoncommunityvoicechannel" group-title="Usa",Bolton Community Voice Channel (CVC) Education (Bolton CT) (480p)
 https://s3-us-west-2.amazonaws.com/bolton.castus-vod/live/ch2/video.m3u8
 
@@ -25376,7 +25364,7 @@ https://reflect-creatv.cablecast.tv/live-16/live/live.m3u8
 #EXTINF:-1 tvg-name="Crime 360 (720p)" tvg-logo="https://i.imgur.com/IjtaG1m.png" tvg-id="crime360" group-title="Usa",Crime 360 (720p)
 https://94a3e237.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0NyaW1lMzYwX0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Crime + Investigation (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/C%26I_logo.svg/512px-C%26I_logo.svg.png" tvg-id="crimeinvestigation" group-title="Usa",Crime + Investigation (720p)
+#EXTINF:-1 tvg-name="Crime + Investigation (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" tvg-id="crimeinvestigation" group-title="Usa",Crime + Investigation (720p)
 https://tvpass.org/live/CrimePlusInvestigation/hd
 
 #EXTINF:-1 tvg-name="Crímenes Imperfectos" tvg-logo="https://i.imgur.com/kzUrWR5.png" tvg-id="crmenesimperfectos" group-title="Usa",Crímenes Imperfectos
@@ -26132,7 +26120,7 @@ https://cvtv.cvalley.net/hls/KMIZMeTV/KMIZMeTV.m3u8
 #EXTINF:-1 tvg-name="KMIZ-DT3 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/MyZouTV_logo.png/200px-MyZouTV_logo.png" tvg-id="kmizdt3" group-title="Usa",KMIZ-DT3 (720p)
 https://cvtv.cvalley.net/hls/KZOUMYZOU/KZOUMYZOU.m3u8
 
-#EXTINF:-1 tvg-name="KMOS-DT1 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/PBS_logo.svg/512px-PBS_logo.svg.png" tvg-id="kmosdt1" group-title="Usa",KMOS-DT1 (720p)
+#EXTINF:-1 tvg-name="KMOS-DT1 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg" tvg-id="kmosdt1" group-title="Usa",KMOS-DT1 (720p)
 https://cvtv.cvalley.net/hls/KMOSPBS/KMOSPBS.m3u8
 
 #EXTINF:-1 tvg-name="KNBC-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="knbcdt1" group-title="Usa",KNBC-DT1 (1080p)
@@ -26948,10 +26936,10 @@ https://iptv.tapesh.tv/tapesh/playlist.m3u8
 #EXTINF:-1 tvg-name="PBR RidePass" tvg-logo="https://i.imgur.com/gUxH97E.png" tvg-id="pbrridepass" group-title="Usa",PBR RidePass
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60d39387706fe50007fda8e8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f21-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f7275d4e-aa8e-4e8d-9d5e-6a5665bf8190
 
-#EXTINF:-1 tvg-name="PBS KET2 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/PBS_logo.svg/512px-PBS_logo.svg.png" tvg-id="pbsket2" group-title="Usa",PBS KET2 (720p)
+#EXTINF:-1 tvg-name="PBS KET2 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg" tvg-id="pbsket2" group-title="Usa",PBS KET2 (720p)
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1315484/playlist.m3u8
 
-#EXTINF:-1 tvg-name="PBS KET KY (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/PBS_logo.svg/512px-PBS_logo.svg.png" tvg-id="pbsketky" group-title="Usa",PBS KET KY (480p)
+#EXTINF:-1 tvg-name="PBS KET KY (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg" tvg-id="pbsketky" group-title="Usa",PBS KET KY (480p)
 https://2-fss-2.streamhoster.com/pl_132/amlst:200914-1315486/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PBS KET Louisville KY (WKMJ-TV) (720p)" tvg-logo="https://i.imgur.com/U9HFzJk.png" tvg-id="pbsketlouisvilleky" group-title="Usa",PBS KET Louisville KY (WKMJ-TV) (720p)
@@ -26975,7 +26963,7 @@ https://livestream.pbskids.org/out/v1/00a3b9014fa54c40bee6ca68a104a8a4/mst.m3u8
 #EXTINF:-1 tvg-name="PBS Kids Pacific (1080p)" tvg-logo="https://i.imgur.com/ambc9le.png" tvg-id="pbskidspacific" group-title="Usa",PBS Kids Pacific (1080p)
 https://livestream.pbskids.org/out/v1/c707b9310f2848de849b336f9914adbc/pst.m3u8
 
-#EXTINF:-1 tvg-name="PBS MPT Baltimore MD (WMPB) (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/PBS_logo.svg/512px-PBS_logo.svg.png" tvg-id="pbsmptbaltimoremd" group-title="Usa",PBS MPT Baltimore MD (WMPB) (1080p)
+#EXTINF:-1 tvg-name="PBS MPT Baltimore MD (WMPB) (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg" tvg-id="pbsmptbaltimoremd" group-title="Usa",PBS MPT Baltimore MD (WMPB) (1080p)
 https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Pelis y Popcorn" tvg-logo="https://i.imgur.com/jP19sGt.png" tvg-id="pelisypopcorn" group-title="Usa",Pelis y Popcorn
@@ -27022,6 +27010,9 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc266f80e3550009
 
 #EXTINF:-1 tvg-name="Pluto TV Backcountry" tvg-logo="https://i.imgur.com/KnlQzs7.png" tvg-id="plutotvbackcountry" group-title="Usa",Pluto TV Backcountry
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cabdf1437b88b26947346b2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2ac634-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4bbab6d6-61db-4795-bbab-9325b47792ec
+
+#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Usa",Pluto TV Bob Esponja (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV British TV (720p)" tvg-logo="https://i.imgur.com/KuIVlD1.png" tvg-id="plutotvbritishtv" group-title="Usa",Pluto TV British TV (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b68a18823ecb93393cba2f1/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5b68a18823ecb93393cba2f1&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=154&terminate=false&userId=
@@ -28151,7 +28142,7 @@ https://waypoint-waypointtv-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="WBBJ (Jackson TN) (432p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wbbj" group-title="Usa",WBBJ (Jackson TN) (432p)
 https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8
 
-#EXTINF:-1 tvg-name="WBRA PBS Kids (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/76/PBS_Kids_Logo.svg/512px-PBS_Kids_Logo.svg.png" tvg-id="wbrapbskids" group-title="Usa",WBRA PBS Kids (1080p)
+#EXTINF:-1 tvg-name="WBRA PBS Kids (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" tvg-id="wbrapbskids" group-title="Usa",WBRA PBS Kids (1080p)
 https://livestream.pbskids.org/out/v1/1e3d77b418ad4a819b3f4c80ac0373b5/est_124.m3u8
 
 #EXTINF:-1 tvg-name="WBZ-DT1 (720p)" tvg-logo="https://i.imgur.com/NC5qL8u.png" tvg-id="wbzdt1" group-title="Usa",WBZ-DT1 (720p)
@@ -28265,7 +28256,7 @@ https://dvrfl03.bozztv.com/hondu-lxnews/index.m3u8
 #EXTINF:-1 tvg-name="WKMG-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="wkmgdt1" group-title="Usa",WKMG-DT1
 https://dvrfl03.bozztv.com/hondu-cbsorlando/index.m3u8
 
-#EXTINF:-1 tvg-name="WKOH-DT4" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/76/PBS_Kids_Logo.svg/512px-PBS_Kids_Logo.svg.png" tvg-id="wkohdt4" group-title="Usa",WKOH-DT4
+#EXTINF:-1 tvg-name="WKOH-DT4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" tvg-id="wkohdt4" group-title="Usa",WKOH-DT4
 https://dvrfl03.bozztv.com/hondu/hondu-pbs-kids/index.m3u8
 
 #EXTINF:-1 tvg-name="WLMB" tvg-logo="https://i.imgur.com/KeELZ1Y.png" tvg-id="wlmb" group-title="Usa",WLMB
@@ -28523,9 +28514,6 @@ http://animezonetv.net/hls/stream.m3u8
 #EXTINF:-1 tvg-name="BabyFirst Spanish" tvg-logo="https://i.imgur.com/WxLHBwu.png" tvg-id="babyfirstspanish" group-title="Venezuela",BabyFirst Spanish
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/be6f9eac-280e-4748-b866-2eb2463c1844/manifest.m3u8
 
-#EXTINF:-1 tvg-name="Bob Esponja LATAM" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="bobesponjalatam" group-title="Venezuela",Bob Esponja LATAM
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false
-
 #EXTINF:-1 tvg-name="BTA TV (720p)" tvg-logo="https://i.imgur.com/vygOosC.png" tvg-id="btatv" group-title="Venezuela",BTA TV (720p)
 https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
 
@@ -28666,6 +28654,9 @@ https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PLTV (614p)" tvg-logo="https://i.imgur.com/ftblZ6f.jpg" tvg-id="pltv" group-title="Venezuela",PLTV (614p)
 https://vcp2.myplaytv.com/pltv/pltv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pluto TV Bob Esponja (720p)" tvg-logo="https://i.imgur.com/nmZ2nId.png" tvg-id="plutotvbobesponja" group-title="Venezuela",Pluto TV Bob Esponja (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 tvg-name="Pluto TV Cine Accion" tvg-logo="https://i.imgur.com/PXhCzXn.png" tvg-id="plutotvcineaccion" group-title="Venezuela",Pluto TV Cine Accion
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false
