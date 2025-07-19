@@ -4703,9 +4703,6 @@ https://acceso.radiosportstv.online:3022/stream/play.m3u8
 #EXTINF:-1 tvg-name="Zurquí TV (720p)" tvg-logo="https://i.imgur.com/XvktUBB.jpg" tvg-id="zurqutv" group-title="Costa_rica",Zurquí TV (720p)
 https://videoserver.tmcreativos.com:19360/gesfnvpamn/gesfnvpamn.m3u8
 
-#EXTINF:-1 tvg-name="HRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" tvg-id="hrt1" group-title="Croatia",HRT 1
-https://webtvstream.bhtelecom.ba/hls9/hrt1_1200.m3u8
-
 #EXTINF:-1 tvg-name="RTL" tvg-logo="https://i.imgur.com/zAjr6pO.png" tvg-id="rtl" group-title="Croatia",RTL
 https://d1cs5tlhj75jxe.cloudfront.net/rtl/playlist.m3u8
 
@@ -16349,6 +16346,9 @@ https://tv.nknews.org/tvdash/stream.mpd
 #EXTINF:-1 tvg-name="Телевизија Здравкин" tvg-logo="https://i.imgur.com/kSmcAER.png" tvg-id="" group-title="North_macedonia",Телевизија Здравкин
 http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
+http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
+
 #EXTINF:-1 tvg-name="M»Net" tvg-logo="https://i.imgur.com/JWHcGMX.png" tvg-id="mnet" group-title="North_macedonia",M»Net
 http://ares.mnet.mk/hls/mnet.m3u8
 
@@ -17959,9 +17959,6 @@ https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?of
 
 #EXTINF:-1 tvg-name="România TV Ⓖ" tvg-logo="https://i.imgur.com/ZIfEp5I.png" tvg-id="romniatv" group-title="Romania",România TV Ⓖ
 https://livestream.romaniatv.net/clients/romaniatv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Telestar1" tvg-logo="https://i.imgur.com/UZQjEsd.png" tvg-id="telestar1" group-title="Romania",Telestar1
-http://89.47.97.15/telestar/telestar.m3u8
 
 #EXTINF:-1 tvg-name="Euronews România Ⓨ" tvg-logo="https://i.imgur.com/jUOVUXt.png" tvg-id="euronewsromnia" group-title="Romania",Euronews România Ⓨ
 https://www.youtube.com/euronewsro/live
