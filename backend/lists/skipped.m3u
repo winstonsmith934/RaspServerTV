@@ -92,6 +92,9 @@ https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
 #EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
 https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 
+#EXTINF:-1 tvg-name="HRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" tvg-id="hrt1" group-title="Croatia",HRT 1
+https://webtvstream.bhtelecom.ba/hls9/hrt1_1200.m3u8
+
 #EXTINF:-1 tvg-name="HRT 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Htv2-logo.png" tvg-id="hrt2" group-title="Croatia",HRT 2
 https://webtvstream.bhtelecom.ba/hls9/hrt2_1200.m3u8
 
@@ -353,9 +356,6 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.i
 #EXTINF:-1 tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/GaGqM4z.png" tvg-id="rtvdrenthe" group-title="Netherlands",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/1080p/prog_index.m3u8
 
-#EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
-http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
-
 #EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
 https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
 
@@ -385,6 +385,9 @@ https://streamer-a01.videos.sapo.pt/live/portocanal/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Prima TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Prima_TV_%28Rumaenien%29_Logo.svg/512px-Prima_TV_%28Rumaenien%29_Logo.svg.png" tvg-id="primatv" group-title="Romania",Prima TV
 https://stream1.1616.ro:1945/prima/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Telestar1" tvg-logo="https://i.imgur.com/UZQjEsd.png" tvg-id="telestar1" group-title="Romania",Telestar1
+http://89.47.97.15/telestar/telestar.m3u8
 
 #EXTINF:-1 tvg-name="Россия 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Russia-1.svg/1024px-Russia-1.svg.png" tvg-id="1" group-title="Russia",Россия 1
 https://player.smotrim.ru/iframe/stream/live_id/2961
