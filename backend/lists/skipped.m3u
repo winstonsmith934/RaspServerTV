@@ -32,9 +32,6 @@ http://rtmp.one.by:1200
 #EXTINF:-1 tvg-name="BHT 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Logo_of_BHT_1_%282003-2012%29.png" tvg-id="bht1" group-title="Bosnia_and_herzegovina",BHT 1 Ⓢ
 https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
 
-#EXTINF:-1 tvg-name="SuperTV" tvg-logo="https://i.imgur.com/XYWgd3E.png" tvg-id="supertv" group-title="Bosnia_and_herzegovina",SuperTV
-https://mirtv.club/live/mirtv/index.m3u8
-
 #EXTINF:-1 tvg-name="TV BPK Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/Logo_of_RTV_BPK_Gora%C5%BEde.jpg" tvg-id="tvbpk" group-title="Bosnia_and_herzegovina",TV BPK Ⓢ
 http://94.250.2.6:7374/play/a02u/index.m3u8
 
@@ -119,8 +116,29 @@ https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ERT 1" tvg-logo="https://i.imgur.com/WWMe8IY.png" tvg-id="ert1" group-title="Greece",ERT 1
+http://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT 2" tvg-logo="https://i.imgur.com/pcusPFl.png" tvg-id="ert2" group-title="Greece",ERT 2
+http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT 3" tvg-logo="https://i.imgur.com/KyhzDRm.png" tvg-id="ert3" group-title="Greece",ERT 3
+http://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3medium.m3u8
+
 #EXTINF:-1 tvg-name="Open TV" tvg-logo="https://i.imgur.com/T99OSnk.png" tvg-id="opentv" group-title="Greece",Open TV
 https://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ERT Sports 3" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports3" group-title="Greece",ERT Sports 3
+http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT Sports 4" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports4" group-title="Greece",ERT Sports 4
+http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT Sports 5" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports5" group-title="Greece",ERT Sports 5
+http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5medium.m3u8
+
+#EXTINF:-1 tvg-name="ERT Sports 6" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports6" group-title="Greece",ERT Sports 6
+http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_6/ert_sports_6medium.m3u8
 
 #EXTINF:-1 tvg-name="Dance TV" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="dancetv" group-title="Hungary",Dance TV
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
@@ -350,6 +368,9 @@ https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/1080p/prog_index.m3u8
 #EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
 http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
 
+#EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
+https://zonam1.ddns.net/hls/stream1.m3u8
+
 #EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
 https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
 
@@ -490,9 +511,6 @@ https://live-talktv-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12
 
 #EXTINF:-1 tvg-name="France 24" tvg-logo="https://i.imgur.com/61MSiq9.png" tvg-id="france24" group-title="Uk",France 24
 https://ythls.armelin.one/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg.m3u8
-
-#EXTINF:-1 tvg-name="SportyStuff TV" tvg-logo="https://i.imgur.com/uIgxHSY.png" tvg-id="sportystufftv" group-title="Uk",SportyStuff TV
-https://cdn.rtmp1.vodhosting.com/hls/SportyStuffTV.m3u8
 
 #EXTINF:-1 tvg-name="BBC Radio 1" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1-epg.png" tvg-id="bbcradio1" group-title="Uk",BBC Radio 1
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8
