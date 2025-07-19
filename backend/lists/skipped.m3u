@@ -146,6 +146,9 @@ https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 #EXTINF:-1 tvg-name="Al-Hurra Iraq" tvg-logo="https://i.imgur.com/mXBZEQP.png" tvg-id="alhurrairaq" group-title="Iraq",Al-Hurra Iraq
 https://mbnvvideoingest-i.akamaihd.net/hls/live/1004674/MBNV_ALHURRA_IRAQ/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Al-Hurra" tvg-logo="https://i.imgur.com/0izeu5z.png" tvg-id="alhurra" group-title="Iraq",Al-Hurra
+https://mbnvvideoingest-i.akamaihd.net/hls/live/1004673/MBNV_ALHURRA_MAIN/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Al-Rasheed" tvg-logo="https://i.imgur.com/SU9HbXY.png" tvg-id="alrasheed" group-title="Iraq",Al-Rasheed
 https://media1.livaat.com/AL-RASHEED-HD/tracks-v1a1/playlist.m3u8
 
@@ -200,9 +203,6 @@ http://77.68.40.210:8888/hls/basilicata1.m3u8
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Di.Tv 92" tvg-logo="https://i.imgur.com/g3SI08H.png" tvg-id="ditv92" group-title="Italy",Di.Tv 92
 https://media2021.rtvweb.com/di_tv_92/live/playlist.m3u8
 
@@ -241,9 +241,6 @@ https://5926fc9c7c5b2.streamlock.net/rtfeunawfu/rtfeunawfu/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RDE Tv" tvg-logo="https://i.imgur.com/NiwPlrr.png" tvg-id="rdetv" group-title="Italy",RDE Tv
 https://rst2.saiuzwebnetwork.it:8081/rdetrieste/index.m3u8
-
-#EXTINF:-1 tvg-name="Rete 55" tvg-logo="https://i.imgur.com/EsZn2cj.png" tvg-id="rete55" group-title="Italy",Rete 55
-https://live1.giocabet.tv/stream/6/index.m3u8
 
 #EXTINF:-1 tvg-name="Rete 8 Vga" tvg-logo="https://i.imgur.com/3wF2AJX.jpg" tvg-id="rete8vga" group-title="Italy",Rete 8 Vga
 https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8
@@ -349,6 +346,9 @@ http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.i
 
 #EXTINF:-1 tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/GaGqM4z.png" tvg-id="rtvdrenthe" group-title="Netherlands",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/1080p/prog_index.m3u8
+
+#EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
+http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
 
 #EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
 https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
