@@ -113,9 +113,6 @@ https://deb10stream.duckdns.org/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Albania",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Albania",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Albania",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -250,9 +247,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Andorra",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Andorra",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Andorra",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -866,9 +860,6 @@ https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Armenia",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Armenia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Armenia",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -1175,6 +1166,9 @@ https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u
 #EXTINF:-1 tvg-name="Antenne Steiermark (720p)" tvg-logo="https://i.imgur.com/qnappvd.jpeg" tvg-id="antennesteiermark" group-title="Austria",Antenne Steiermark (720p)
 https://60efd7a2b4d02.streamlock.net/a_steiermark/ngrp:livestream_all/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ATV2 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logo_ATV2.svg/512px-Logo_ATV2.svg.png" tvg-id="atv2" group-title="Austria",ATV2 HD
+https://viamotionhsi.netplus.ch/live/eds/atv/browser-dash/atv.mpd
+
 #EXTINF:-1 tvg-name="ATV (576p)" tvg-logo="https://i.imgur.com/1pA0Tid.png" tvg-id="atv" group-title="Austria",ATV (576p)
 https://strm.hdtvizlecanli.com/live/atv.m3u8
 
@@ -1259,6 +1253,9 @@ https://strm.hdtvizlecanli.com/live/orf2.m3u8
 #EXTINF:-1 tvg-name="ORF 2 NO HD (720p)" tvg-logo="https://i.imgur.com/92yKTOD.png" tvg-id="orf2no" group-title="Austria",ORF 2 NO HD (720p)
 http://80.108.23.68:9999/stream/channelid/39599149?profile=pass
 
+#EXTINF:-1 tvg-name="ORF 2 Tirol HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/512px-ORF2_logo_n.svg.png" tvg-id="orf2tirol" group-title="Austria",ORF 2 Tirol HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/orf2/browser-dash/orf2.mpd
+
 #EXTINF:-1 tvg-name="ORF III HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/512px-ORF_III_Logo_Monochrom.svg.png" tvg-id="orfiii" group-title="Austria",ORF III HD (720p)
 https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
 
@@ -1310,7 +1307,7 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Austria",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Austria",RTL (720p)
+#EXTINF:-1 tvg-name="RTL Austria (576p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtlaustria" group-title="Austria",RTL Austria (576p)
 http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Austria",RTL HD
@@ -1544,9 +1541,6 @@ https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Azerbaijan",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Azerbaijan",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Azerbaijan",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -1714,9 +1708,6 @@ https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Belarus",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Belarus",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Belarus",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -1958,9 +1949,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Belgium",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Belgium",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Belgium",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -2164,9 +2152,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Bosnia_and_herzegovina",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Bosnia_and_herzegovina",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Bosnia_and_herzegovina",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -2906,9 +2891,6 @@ https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="RMTV (288p)" tvg-logo="https://rmtv.bg/img/logo.png" tvg-id="rmtv" group-title="Bulgaria",RMTV (288p)
 https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Bulgaria",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Bulgaria",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -3417,10 +3399,10 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
 #EXTINF:-1 tvg-name="Africanews English" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsenglish" group-title="Chad",Africanews English
-https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8
 
-#EXTINF:-1 tvg-name="Africanews French (720p)" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsfrench" group-title="Chad",Africanews French (720p)
-https://2767164d5ee04887b96812a9eea74d32.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6573/44d3df93-4a3e-43e0-990f-a5d196bbe3aa/5.m3u8
+#EXTINF:-1 tvg-name="Africanews French" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsfrench" group-title="Chad",Africanews French
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
 
 #EXTINF:-1 tvg-name="Afroturk TV (1080p)" tvg-logo="https://i.imgur.com/fWlLvRA.png" tvg-id="afroturktv" group-title="Chad",Afroturk TV (1080p)
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
@@ -4880,9 +4862,6 @@ https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="RTL 2 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/RTL_2_Logo.svg/512px-RTL_2_Logo.svg.png" tvg-id="rtl2" group-title="Croatia",RTL 2 (1080p)
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/RTL2/default/index.mpd
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Croatia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL (1080p)" tvg-logo="https://i.imgur.com/akAa45j.png" tvg-id="rtl" group-title="Croatia",RTL (1080p)
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/RTL/default/index.mpd
 
@@ -5092,9 +5071,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Cyprus",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Cyprus",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Cyprus",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -5372,9 +5348,6 @@ https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Czech_republic",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Czech_republic",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Czech_republic",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -5578,9 +5551,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Denmark",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Denmark",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Denmark",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -6422,9 +6392,6 @@ https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="Riigikogu (720p)" tvg-logo="https://i.imgur.com/dJRGDt2.png" tvg-id="riigikogu" group-title="Estonia",Riigikogu (720p)
 https://le02.euddn.net/6487956abb8faf0706d8c4c2465f54cb3625b812fec8e13d11668907ff00f44b004ea22691a9216c71ebda22b7e6e57c8b923aeee9e1e6aa447947c014b7a3babd73ab865562f4ae463ce0c617da65805296ed52a0af64d7d881781d282ea970de7a1ab524c1ea73e271a8df71d43212f4850e2d81241308886184db1abf516f2d6d0b9965402fc7c960e27fa968eabb077474e7493c278ebae58d614923fb2f5c76c2865cb681763ffd765a39a629ce/smil:rk_live_1.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Estonia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Estonia",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -6710,9 +6677,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Finland",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Finland",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Finland",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -6983,8 +6947,20 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="France 2 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png" tvg-id="france2" group-title="France",France 2 (1080p)
 http://69.64.57.208/france2/mono.m3u8
 
+#EXTINF:-1 tvg-name="France 2 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png" tvg-id="france2" group-title="France",France 2 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd
+
+#EXTINF:-1 tvg-name="France 3 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png" tvg-id="france3" group-title="France",France 3 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd
+
+#EXTINF:-1 tvg-name="France 4 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/512px-France_4_2018.svg.png" tvg-id="france4" group-title="France",France 4 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
+
 #EXTINF:-1 tvg-name="France 5 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" tvg-id="france5" group-title="France",France 5 (1080p)
 http://69.64.57.208/france5/mono.m3u8
+
+#EXTINF:-1 tvg-name="France 5 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" tvg-id="france5" group-title="France",France 5 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 
 #EXTINF:-1 tvg-name="France 24 French (1080p)" tvg-logo="https://i.imgur.com/u8N6uoj.png" tvg-id="france24french" group-title="France",France 24 French (1080p)
 https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
@@ -7232,9 +7208,6 @@ https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-name="RMC Story (1080p)" tvg-logo="https://i.imgur.com/h53nsyJ.png" tvg-id="rmcstory" group-title="France",RMC Story (1080p)
 https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="France",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="France",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -7273,6 +7246,9 @@ https://videas.agglo-lenslievin.fr/index.m3u8
 
 #EXTINF:-1 tvg-name="Télénantes (480p)" tvg-logo="https://i.imgur.com/G1SCqNI.png" tvg-id="tlnantes" group-title="France",Télénantes (480p)
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Telenantes.m3u8
+
+#EXTINF:-1 tvg-name="TF1 HD (720p)" tvg-logo="https://i.imgur.com/QxHt9NC.png" tvg-id="tf1" group-title="France",TF1 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd
 
 #EXTINF:-1 tvg-name="TGRT Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" tvg-id="tgrteurope" group-title="France",TGRT Europe (1080p)
 https://canli.tgrteu.com/tgrteu.m3u8
@@ -7541,8 +7517,20 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="France 2 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png" tvg-id="france2" group-title="France",France 2 (1080p)
 http://69.64.57.208/france2/mono.m3u8
 
+#EXTINF:-1 tvg-name="France 2 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png" tvg-id="france2" group-title="France",France 2 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd
+
+#EXTINF:-1 tvg-name="France 3 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png" tvg-id="france3" group-title="France",France 3 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd
+
+#EXTINF:-1 tvg-name="France 4 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/512px-France_4_2018.svg.png" tvg-id="france4" group-title="France",France 4 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
+
 #EXTINF:-1 tvg-name="France 5 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" tvg-id="france5" group-title="France",France 5 (1080p)
 http://69.64.57.208/france5/mono.m3u8
+
+#EXTINF:-1 tvg-name="France 5 HD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" tvg-id="france5" group-title="France",France 5 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 
 #EXTINF:-1 tvg-name="France 24 French (1080p)" tvg-logo="https://i.imgur.com/u8N6uoj.png" tvg-id="france24french" group-title="France",France 24 French (1080p)
 https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
@@ -7790,9 +7778,6 @@ https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-name="RMC Story (1080p)" tvg-logo="https://i.imgur.com/h53nsyJ.png" tvg-id="rmcstory" group-title="France",RMC Story (1080p)
 https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="France",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="France",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -7831,6 +7816,9 @@ https://videas.agglo-lenslievin.fr/index.m3u8
 
 #EXTINF:-1 tvg-name="Télénantes (480p)" tvg-logo="https://i.imgur.com/G1SCqNI.png" tvg-id="tlnantes" group-title="France",Télénantes (480p)
 https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Telenantes.m3u8
+
+#EXTINF:-1 tvg-name="TF1 HD (720p)" tvg-logo="https://i.imgur.com/QxHt9NC.png" tvg-id="tf1" group-title="France",TF1 HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd
 
 #EXTINF:-1 tvg-name="TGRT Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" tvg-id="tgrteurope" group-title="France",TGRT Europe (1080p)
 https://canli.tgrteu.com/tgrteu.m3u8
@@ -8056,9 +8044,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Georgia",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Georgia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Georgia",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -8459,6 +8444,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 #EXTINF:-1 tvg-name="Juwelo (720p)" tvg-logo="https://i.imgur.com/vmX8Qin.png" tvg-id="juwelo" group-title="Germany",Juwelo (720p)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
 
+#EXTINF:-1 tvg-name="kabel eins (576p)" tvg-logo="https://i.imgur.com/6pulSHZ.png" tvg-id="kabeleins" group-title="Germany",kabel eins (576p)
+https://strm.hdtvizlecanli.com/live/kabel1.m3u8
+
 #EXTINF:-1 tvg-name="KaufBei TV (576p)" tvg-logo="https://i.imgur.com/CVJWiM0.png" tvg-id="kaufbeitv" group-title="Germany",KaufBei TV (576p)
 https://api.alpaca.t62a.com/hls/9103/index.m3u8
 
@@ -8765,9 +8753,6 @@ https://stream01.stream.welocal.world/stream/fhd-rfo_66876/ngrp:stream_all/playl
 #EXTINF:-1 tvg-name="RNF (1080p)" tvg-logo="https://i.imgur.com/CRk9usN.png" tvg-id="rnf" group-title="Germany",RNF (1080p)
 https://rnf.iptv-playoutcenter.de/rnf/rnf.stream_1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Germany",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Germany",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -8932,6 +8917,15 @@ https://stream.yol.tv:9443/medialive/yol.m3u8
 
 #EXTINF:-1 tvg-name="Z Nation (720p)" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/dff3a92e-c4aa-49c4-b1b6-4a847428b8d5-width200-quality90.png" tvg-id="znation" group-title="Germany",Z Nation (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098
+
+#EXTINF:-1 tvg-name="ZDF HD (720p)" tvg-logo="https://i.imgur.com/rtLb6m9.png" tvg-id="zdf" group-title="Germany",ZDF HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
+
+#EXTINF:-1 tvg-name="ZDFinfo HD (720p)" tvg-logo="https://i.imgur.com/vtq1IWp.png" tvg-id="zdfinfo" group-title="Germany",ZDFinfo HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/zdfinfohd/browser-dash/zdfinfohd.mpd
+
+#EXTINF:-1 tvg-name="ZDFneo HD (720p)" tvg-logo="https://i.imgur.com/1JIIGgL.png" tvg-id="zdfneo" group-title="Germany",ZDFneo HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-dash/zdfneohd.mpd
 
 #EXTINF:-1 tvg-name="Zee One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Zee_One_present_logo.png/512px-Zee_One_present_logo.png" tvg-id="zeeone" group-title="Germany",Zee One
 https://ef56ef401101403a8b06f1dec29ef1eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-de_ZeeOne/playlist.m3u8
@@ -9182,6 +9176,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 #EXTINF:-1 tvg-name="Juwelo (720p)" tvg-logo="https://i.imgur.com/vmX8Qin.png" tvg-id="juwelo" group-title="Germany",Juwelo (720p)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
 
+#EXTINF:-1 tvg-name="kabel eins (576p)" tvg-logo="https://i.imgur.com/6pulSHZ.png" tvg-id="kabeleins" group-title="Germany",kabel eins (576p)
+https://strm.hdtvizlecanli.com/live/kabel1.m3u8
+
 #EXTINF:-1 tvg-name="KaufBei TV (576p)" tvg-logo="https://i.imgur.com/CVJWiM0.png" tvg-id="kaufbeitv" group-title="Germany",KaufBei TV (576p)
 https://api.alpaca.t62a.com/hls/9103/index.m3u8
 
@@ -9488,9 +9485,6 @@ https://stream01.stream.welocal.world/stream/fhd-rfo_66876/ngrp:stream_all/playl
 #EXTINF:-1 tvg-name="RNF (1080p)" tvg-logo="https://i.imgur.com/CRk9usN.png" tvg-id="rnf" group-title="Germany",RNF (1080p)
 https://rnf.iptv-playoutcenter.de/rnf/rnf.stream_1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Germany",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Germany",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -9656,6 +9650,15 @@ https://stream.yol.tv:9443/medialive/yol.m3u8
 #EXTINF:-1 tvg-name="Z Nation (720p)" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/dff3a92e-c4aa-49c4-b1b6-4a847428b8d5-width200-quality90.png" tvg-id="znation" group-title="Germany",Z Nation (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098
 
+#EXTINF:-1 tvg-name="ZDF HD (720p)" tvg-logo="https://i.imgur.com/rtLb6m9.png" tvg-id="zdf" group-title="Germany",ZDF HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
+
+#EXTINF:-1 tvg-name="ZDFinfo HD (720p)" tvg-logo="https://i.imgur.com/vtq1IWp.png" tvg-id="zdfinfo" group-title="Germany",ZDFinfo HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/zdfinfohd/browser-dash/zdfinfohd.mpd
+
+#EXTINF:-1 tvg-name="ZDFneo HD (720p)" tvg-logo="https://i.imgur.com/1JIIGgL.png" tvg-id="zdfneo" group-title="Germany",ZDFneo HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-dash/zdfneohd.mpd
+
 #EXTINF:-1 tvg-name="Zee One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Zee_One_present_logo.png/512px-Zee_One_present_logo.png" tvg-id="zeeone" group-title="Germany",Zee One
 https://ef56ef401101403a8b06f1dec29ef1eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-de_ZeeOne/playlist.m3u8
 
@@ -9670,9 +9673,6 @@ https://cdne.folxplay.tv/folx-trz/streams/ch-2/master.m3u8
 
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Germany",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
-
-#EXTINF:-1 tvg-name="ERT 1" tvg-logo="https://i.imgur.com/WWMe8IY.png" tvg-id="ert1" group-title="Greece",ERT 1
-http://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1medium.m3u8
 
 #EXTINF:-1 tvg-name="ERT 2" tvg-logo="https://i.imgur.com/pcusPFl.png" tvg-id="ert2" group-title="Greece",ERT 2
 http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2medium.m3u8
@@ -9967,9 +9967,6 @@ https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 
 #EXTINF:-1 tvg-name="Rise TV (240p)" tvg-logo="https://i.ibb.co/1ZbXtD1/480px-RISE-FINAL-LOGO-1.png" tvg-id="risetv" group-title="Greece",Rise TV (240p)
 http://ovh-edge-h.evrideo.com:8080/23e234f2-aec8-4804-b694-4cdd71d2d48d_MONITORING_HLS/video_240p_WEBRTC_MONITORING.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Greece",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Greece",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -10508,9 +10505,6 @@ http://tv.geniusnet.sk:8081/regiotv/pl.m3u8
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Hungary",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Hungary",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL Gold (576p)" tvg-logo="https://i.imgur.com/PwbLDUQ.png" tvg-id="rtlgold" group-title="Hungary",RTL Gold (576p)
 http://194.76.186.33:8000/play/a05h/index.m3u8
 
@@ -10702,9 +10696,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Iceland",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Iceland",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Iceland",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -12489,7 +12480,7 @@ https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/ind
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
 
 #EXTINF:-1 tvg-name="MBC+ Drama (1080p)" tvg-logo="https://i.imgur.com/lxWdjXG.png" tvg-id="mbcdrama" group-title="Iraq",MBC+ Drama (1080p)
-https://mbcplusdrama-prod-dub-enc.edgenextcdn.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
+https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
 
 #EXTINF:-1 tvg-name="Mixkurdy (1080p)" tvg-logo="https://i.imgur.com/WHeH5i7.png" tvg-id="mixkurdy" group-title="Iraq",Mixkurdy (1080p)
 https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
@@ -12688,9 +12679,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Ireland",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Ireland",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Ireland",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -14210,9 +14198,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Latvia",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Latvia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Latvia",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -14399,9 +14384,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Lithuania",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Lithuania",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Lithuania",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -14579,9 +14561,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Luxembourg",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Luxembourg",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL Gold (1080p)" tvg-logo="https://i.imgur.com/LzHQoUv.png" tvg-id="rtlgold" group-title="Luxembourg",RTL Gold (1080p)
 https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
 
@@ -14752,9 +14731,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Malta",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Malta",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Malta",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -15518,9 +15494,6 @@ https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="Rlive TV (406p)" tvg-logo="https://i.imgur.com/Ul4IIfX.png" tvg-id="rlivetv" group-title="Moldova",Rlive TV (406p)
 https://realitatealive.md/tv/rlive.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Moldova",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Moldova",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -15650,9 +15623,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Monaco",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Monaco",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Monaco",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -15766,9 +15736,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Montenegro",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Montenegro",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Montenegro",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -16127,9 +16094,6 @@ https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="RPL TV Woerden (720p)" tvg-logo="https://i.imgur.com/UdYMXWQ.png" tvg-id="rpltvwoerden" group-title="Netherlands",RPL TV Woerden (720p)
 https://d1893oi5c6e5u0.cloudfront.net/nlpo/clr-nlpo/rpltvwoerden/index.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Netherlands",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Netherlands",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -16340,9 +16304,6 @@ http://151.236.247.171:8080/nova/index.m3u8
 #EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
 https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
 
-#EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
-https://zonam1.ddns.net/hls/stream1.m3u8
-
 #EXTINF:-1 tvg-name="Cool TV" tvg-logo="https://i.imgur.com/2tFrjUz.png" tvg-id="cooltv" group-title="North_macedonia",Cool TV
 https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
 
@@ -16459,9 +16420,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="North_macedonia",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="North_macedonia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="North_macedonia",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -16618,9 +16576,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Norway",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Norway",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Norway",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -17399,9 +17354,6 @@ https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="Royalworld (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39438460-99ba-412e-ac19-9342249384af-width200-quality90.jpeg" tvg-id="royalworld" group-title="Poland",Royalworld (720p)
 https://ac76260b1102416c93f3d20958bfeb4b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_Royalworld/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Poland",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Poland",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -17620,9 +17572,6 @@ https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 
 #EXTINF:-1 tvg-name="RFPtv (360p)" tvg-logo="https://i.imgur.com/I60nQuR.png" tvg-id="rfptv" group-title="Portugal",RFPtv (360p)
 https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Portugal",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Portugal",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -17871,7 +17820,7 @@ https://mbc1-enc.edgenextcdn.net/out/v1/b0b3a0e6750d4408bb86d703d5feffd1/index.m
 https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
 
 #EXTINF:-1 tvg-name="MBC+ Drama (1080p)" tvg-logo="https://i.imgur.com/lxWdjXG.png" tvg-id="mbcdrama" group-title="Qatar",MBC+ Drama (1080p)
-https://mbcplusdrama-prod-dub-enc.edgenextcdn.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
+https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
 
 #EXTINF:-1 tvg-name="Movies Action (1080p)" tvg-logo="https://i.imgur.com/NIVhISa.png" tvg-id="moviesaction" group-title="Qatar",Movies Action (1080p)
 https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
@@ -18184,9 +18133,6 @@ https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
 
 #EXTINF:-1 tvg-name="ROTV Valencia (720p)" tvg-logo="https://i.imgur.com/0TDnVQ4.png" tvg-id="rotvvalencia" group-title="Romania",ROTV Valencia (720p)
 https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Romania",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Romania",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -18514,9 +18460,6 @@ https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
 
 #EXTINF:-1 tvg-name="ROTV Valencia (720p)" tvg-logo="https://i.imgur.com/0TDnVQ4.png" tvg-id="rotvvalencia" group-title="Romania",ROTV Valencia (720p)
 https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Romania",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Romania",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -19015,9 +18958,6 @@ https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 
 #EXTINF:-1 tvg-name="RTG TV" tvg-logo="https://i.imgur.com/ZMKPAho.png" tvg-id="rtgtv" group-title="Russia",RTG TV
 http://194.143.148.28:8080/RTG_HD/index.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Russia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Russia",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -19550,9 +19490,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="San_marino",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="San_marino",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="San_marino",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -19800,7 +19737,7 @@ https://d2lfa0y84k5bwn.cloudfront.net/out/v1/86dd4506a70c4d7fb35e2ab50296d9a3/in
 https://shls-live-enc.edgenextcdn.net/out/v1/08eca926a78a41339b8010c882410307/index.m3u8
 
 #EXTINF:-1 tvg-name="MBC+ Drama (1080p)" tvg-logo="https://i.imgur.com/lxWdjXG.png" tvg-id="mbcdrama" group-title="Saudi_arabia",MBC+ Drama (1080p)
-https://mbcplusdrama-prod-dub-enc.edgenextcdn.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
+https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
 
 #EXTINF:-1 tvg-name="Mohammed Abdo (1080p)" tvg-logo="https://assets.mbcmood.com/channels/1720184012Mohammed%20Abdo%20banner.png" tvg-id="mohammedabdo" group-title="Saudi_arabia",Mohammed Abdo (1080p)
 https://d2ow8h651gs7dx.cloudfront.net/out/v1/371fb663da604e659a2fb99bf89d92d4/index.m3u8
@@ -20018,14 +19955,14 @@ https://live.rednet.rs/providus/redtv_multi.m3u8
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Serbia",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Serbia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Serbia",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Serbia",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTS Svet HD (720p)" tvg-logo="https://i.imgur.com/LjunOdy.png" tvg-id="rtssvet" group-title="Serbia",RTS Svet HD (720p)
+https://viamotionhsi.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd
 
 #EXTINF:-1 tvg-name="RTV AS (576p)" tvg-logo="https://i.imgur.com/LIUtEgD.png" tvg-id="rtvas" group-title="Serbia",RTV AS (576p)
 https://srv1.adriatelekom.com/TVAS/index.m3u8
@@ -20276,9 +20213,6 @@ https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Slovakia",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Slovakia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Slovakia",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -20522,9 +20456,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Slovenia",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Slovenia",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Slovenia",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -20631,10 +20562,10 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
 #EXTINF:-1 tvg-name="Africanews English" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsenglish" group-title="Somalia",Africanews English
-https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8
 
-#EXTINF:-1 tvg-name="Africanews French (720p)" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsfrench" group-title="Somalia",Africanews French (720p)
-https://2767164d5ee04887b96812a9eea74d32.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6573/44d3df93-4a3e-43e0-990f-a5d196bbe3aa/5.m3u8
+#EXTINF:-1 tvg-name="Africanews French" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-id="africanewsfrench" group-title="Somalia",Africanews French
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
 
 #EXTINF:-1 tvg-name="Afroturk TV (1080p)" tvg-logo="https://i.imgur.com/fWlLvRA.png" tvg-id="afroturktv" group-title="Somalia",Afroturk TV (1080p)
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
@@ -20754,7 +20685,7 @@ https://mbc1-enc.edgenextcdn.net/out/v1/b0b3a0e6750d4408bb86d703d5feffd1/index.m
 https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
 
 #EXTINF:-1 tvg-name="MBC+ Drama (1080p)" tvg-logo="https://i.imgur.com/lxWdjXG.png" tvg-id="mbcdrama" group-title="Somalia",MBC+ Drama (1080p)
-https://mbcplusdrama-prod-dub-enc.edgenextcdn.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
+https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
 
 #EXTINF:-1 tvg-name="MM Somali TV (720p)" tvg-logo="https://i.imgur.com/k8nz8Q2.jpg" tvg-id="mmsomalitv" group-title="Somalia",MM Somali TV (720p)
 https://cdn.mediavisionuk.com:9000/MMTV/index.m3u8
@@ -21590,9 +21521,6 @@ https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
 #EXTINF:-1 tvg-name="RT en Español (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" tvg-id="rtenespaol" group-title="Spain",RT en Español (1080p)
 #EXTVLCOPT:http-referrer=https://odysee.com/
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Spain",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Spain",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -21986,9 +21914,6 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Sweden",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Sweden",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Sweden",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -22202,14 +22127,17 @@ https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8
 #EXTINF:-1 tvg-name="RSI La 2 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/512px-RSI_La_2_2012.svg.png" tvg-id="rsila2" group-title="Switzerland",RSI La 2 (720p)
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Switzerland",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Switzerland",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Switzerland",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
+
+#EXTINF:-1 tvg-name="RTS 1 (1080p)" tvg-logo="https://i.imgur.com/OP5lHv9.png" tvg-id="rts1" group-title="Switzerland",RTS 1 (1080p)
+https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-dash/rts1hd.mpd
+
+#EXTINF:-1 tvg-name="RTS 2 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/RTS_2_logo_2019.svg/512px-RTS_2_logo_2019.svg.png" tvg-id="rts2" group-title="Switzerland",RTS 2 (1080p)
+https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-dash/rts2hd.mpd
 
 #EXTINF:-1 tvg-name="RTV Islam (1080p)" tvg-logo="https://i.ibb.co/LSJqLJw/RTV-LOGO.png" tvg-id="rtvislam" group-title="Switzerland",RTV Islam (1080p)
 https://protokolldns.xyz/rtvislamweb554/index.m3u8
@@ -22232,8 +22160,8 @@ https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Tele 1 (1080p)" tvg-logo="https://i.imgur.com/WIfBbLj.png" tvg-id="tele1" group-title="Switzerland",Tele 1 (1080p)
 https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_xias5bqq/format/applehttp/protocol/https/a.m3u8
 
-#EXTINF:-1 tvg-name="TeleBärn (720p)" tvg-logo="https://i.imgur.com/YwUbbKA.png" tvg-id="telebrn" group-title="Switzerland",TeleBärn (720p)
-https://klive.kaltura.com/env/cluster-1-d.live.nvp1/live/hls/p/1719221/e/1_obr1n222/tl/main/st/0/t/V5aB4vl7IdB41mCbZmUxNA/index-s32.m3u8
+#EXTINF:-1 tvg-name="TeleBarn" tvg-logo="https://i.imgur.com/YwUbbKA.png" tvg-id="telebarn" group-title="Switzerland",TeleBarn
+https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_obr1n222/protocol/https/format/applehttp/flavorIds/1_ilmyd94i,1_ndclh5za,1_y4atcpo4/a.m3u8
 
 #EXTINF:-1 tvg-name="TeleBielingue (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/TeleBielingue_Logo.svg/512px-TeleBielingue_Logo.svg.png" tvg-id="telebielingue" group-title="Switzerland",TeleBielingue (720p)
 https://edge20.vedge.infomaniak.com/livecast/ik:telebielinguech/manifest.m3u8
@@ -22916,9 +22844,6 @@ https://yayin30.haber100.com/live/rehbertv/playlist.m3u8
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Turkey",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Turkey",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Turkey",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -23573,9 +23498,6 @@ http://85.238.112.40:8810/hls_sec/online/list-renome.m3u8
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Ukraine",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Ukraine",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
-
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Ukraine",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
 
@@ -23845,9 +23767,6 @@ http://85.238.112.40:8810/hls_sec/online/list-renome.m3u8
 
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="revry" group-title="Ukraine",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RTL (720p)" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Ukraine",RTL (720p)
-http://185.189.225.150:85/RTL/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL HD" tvg-logo="https://i.imgur.com/94K94k2.png" tvg-id="rtl" group-title="Ukraine",RTL HD
 https://strm.hdtvizlecanli.com/live/rtl.m3u8
@@ -24216,7 +24135,7 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39c
 https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8
 
 #EXTINF:-1 tvg-name="MBC+ Drama (1080p)" tvg-logo="https://i.imgur.com/lxWdjXG.png" tvg-id="mbcdrama" group-title="United_arab_emirates",MBC+ Drama (1080p)
-https://mbcplusdrama-prod-dub-enc.edgenextcdn.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
+https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
 
 #EXTINF:-1 tvg-name="Movies Action (1080p)" tvg-logo="https://i.imgur.com/NIVhISa.png" tvg-id="moviesaction" group-title="United_arab_emirates",Movies Action (1080p)
 https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
@@ -27875,9 +27794,6 @@ https://tstv-stream.tsm.utexas.edu/hls/livestream_hi/index.m3u8
 #EXTINF:-1 tvg-name="TUDN" tvg-logo="https://i.imgur.com/oT5CAvd.png" tvg-id="tudn" group-title="Usa",TUDN
 https://dai.google.com/linear/hls/event/LKaz-eTgQvawHshATl-Qdw/master.m3u8
 
-#EXTINF:-1 tvg-name="Turismo HD (720p)" tvg-logo="https://gia.tv/streams/pstream/208343.jpg?1751121896" tvg-id="turismo" group-title="Usa",Turismo HD (720p)
-https://live20.bozztv.com/giatvplayout7/giatv-208343/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TUTV" tvg-logo="https://i.imgur.com/At0BPeA.png" tvg-id="tutv" group-title="Usa",TUTV
 https://livestream.telvue.com/templeuni1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 
@@ -28048,6 +27964,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 
 #EXTINF:-1 tvg-name="Vevo Country" tvg-logo="https://images.pluto.tv/channels/5da0d75e84830900098a1ea0/featuredImage.jpg" tvg-id="vevocountry" group-title="Usa",Vevo Country
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5da0d75e84830900098a1ea0/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc209-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0e6e85b0-154a-4a57-b91f-09965c300dbe
+
+#EXTINF:-1 tvg-name="Vevo Hip Hop" tvg-logo="https://i.imgur.com/Lbc9cYw.png" tvg-id="vevohiphop" group-title="Usa",Vevo Hip Hop
+https://d3mzlmrngyf08j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-55k4m9whplndi/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Vevo Latino (1080p)" tvg-logo="https://i.imgur.com/D7SwmuB.png" tvg-id="vevolatino" group-title="Usa",Vevo Latino (1080p)
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
