@@ -1412,9 +1412,6 @@ http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="AZTV Ⓢ" tvg-logo="https://i.imgur.com/snBMMeH.png" tvg-id="aztv" group-title="Azerbaijan",AZTV Ⓢ
 https://www.tvkaista.net/stream-forwarder/get.php?x=AZTV
 
-#EXTINF:-1 tvg-name="CBC" tvg-logo="https://i.imgur.com/wVT0dwO.png" tvg-id="cbc" group-title="Azerbaijan",CBC
-https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8
-
 #EXTINF:-1 tvg-name="CBC Sport Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/az/0/04/CBC_Sport_TV_loqo.png" tvg-id="cbcsport" group-title="Azerbaijan",CBC Sport Ⓖ
 https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
 
@@ -2038,9 +2035,6 @@ https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/
 
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Belgium",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
-
-#EXTINF:-1 tvg-name="BHT 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Logo_of_BHT_1_%282003-2012%29.png" tvg-id="bht1" group-title="Bosnia_and_herzegovina",BHT 1 Ⓢ
-https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
 
 #EXTINF:-1 tvg-name="Federalna televizija (FTV) Ⓢ" tvg-logo="https://i.imgur.com/Jpvs4u3.png" tvg-id="federalnatelevizija" group-title="Bosnia_and_herzegovina",Federalna televizija (FTV) Ⓢ
 http://94.250.2.6:7374/play/a02s/index.m3u8
@@ -13783,6 +13777,9 @@ https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/p
 
 #EXTINF:-1 tvg-name="Video Star Tv Sicilia" tvg-logo="https://i.imgur.com/1ddJVZ7.jpg" tvg-id="videostartvsicilia" group-title="Italy",Video Star Tv Sicilia
 https://stream9.xdevel.com/video0s976556-1321/stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Video Touring Tv" tvg-logo="https://i.imgur.com/E2Feao5.jpg" tvg-id="videotouringtv" group-title="Italy",Video Touring Tv
+https://streamingvideo.auranex.cloud/memfs/70baacad-47c6-41a6-aee0-86530c31e080.m3u8
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://i.imgur.com/bnDZJwd.gif" tvg-id="videolina" group-title="Italy",Videolina
 http://livestreaming.videolina.it/live/Videolina/playlist.m3u8
