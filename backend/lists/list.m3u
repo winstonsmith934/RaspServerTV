@@ -3422,6 +3422,9 @@ https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_c
 #EXTINF:-1 tvg-name="Bloomberg TV EMEA Live Event (720p)" tvg-logo="https://i.imgur.com/OuogLHx.png" tvg-id="bloombergtvemealiveevent" group-title="Chad",Bloomberg TV EMEA Live Event (720p)
 https://bloomberg.com/media-manifest/streams/eu-event.m3u8
 
+#EXTINF:-1 tvg-name="Canaf54 TV" tvg-logo="https://i.imgur.com/viB0FS2.png" tvg-id="canaf54tv" group-title="Chad",Canaf54 TV
+https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Canal 2 International" tvg-logo="https://i.imgur.com/BzA2z7m.png" tvg-id="canal2international" group-title="Chad",Canal 2 International
 http://69.64.57.208/canal2international/playlist.m3u8
 
@@ -6251,9 +6254,6 @@ https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
 #EXTINF:-1 tvg-name="VillaAltagracia TV" tvg-logo="https://i.imgur.com/uQAeKKa.png" tvg-id="villaaltagraciatv" group-title="Dominican_republic",VillaAltagracia TV
 https://inliveserver.com:1936/10016/10016/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Vision Global TV (720p)" tvg-logo="https://i.imgur.com/3FaNbYD.png" tvg-id="visionglobaltv" group-title="Dominican_republic",Vision Global TV (720p)
-https://ss5.domint.net:3012/vgtv_str/visionglobaltv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="VisionNDV TV" tvg-logo="https://i.imgur.com/4gj5NMa.png" tvg-id="visionndvtv" group-title="Dominican_republic",VisionNDV TV
 https://cloudflare.streamgato.us:3820/live/visionndvlive.m3u8
 
@@ -6824,11 +6824,11 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/index.m3u8
 #EXTINF:-1 tvg-name="RT France Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/512px-RT-France-logo.svg.png" tvg-id="rtfrance" group-title="France",RT France Ⓖ
 https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
 
-#EXTINF:-1 tvg-name="6ter" tvg-logo="https://i.imgur.com/2nd5Cox.png" tvg-id="6ter" group-title="France",6ter
-https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/29c7a579af3348b48230f76cd75699a5/dash_short_cenc10_6ter_hd_index.mpd
-
 #EXTINF:-1 tvg-name="20 Minutes TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/320px-20_Minutes_TV_IDF_logo_%282023%29.png" tvg-id="20minutestv" group-title="France",20 Minutes TV (1080p)
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+
+#EXTINF:-1 tvg-name="ADN TV+" tvg-logo="https://i.imgur.com/HQZQyWt.png" tvg-id="adntv" group-title="France",ADN TV+
+https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
 
 #EXTINF:-1 tvg-name="Africa 24 (1080p)" tvg-logo="https://i.imgur.com/YWIJdai.png" tvg-id="africa24" group-title="France",Africa 24 (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
@@ -6856,6 +6856,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 #EXTINF:-1 tvg-name="BET CLASSICS Pluto TV" tvg-logo="https://i.imgur.com/pyqZgU7.png" tvg-id="betclassicsplutotv" group-title="France",BET CLASSICS Pluto TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f92b5ba040eaa0007074d0a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e059f90-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f90dc5f8-5a4a-4bbd-bb99-e092a9625269
+
+#EXTINF:-1 tvg-name="BFM2" tvg-logo="https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg" tvg-id="bfm2" group-title="France",BFM2
+https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
 
 #EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/iRsbEpg.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -6917,6 +6920,9 @@ https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
 #EXTINF:-1 tvg-name="Bubble Guppies" tvg-logo="https://i.imgur.com/xNaAbUE.png" tvg-id="bubbleguppies" group-title="France",Bubble Guppies
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/618e3c1106d23b0007366723/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0662e5-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7d78b066-1897-473b-a861-c3b256c623ae
 
+#EXTINF:-1 tvg-name="Caillou" tvg-logo="https://i.imgur.com/RgKaoe4.png" tvg-id="caillou" group-title="France",Caillou
+https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
+
 #EXTINF:-1 tvg-name="Canal 32 (1080p)" tvg-logo="https://i.imgur.com/lAsE6kN.png" tvg-id="canal32" group-title="France",Canal 32 (1080p)
 https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
 
@@ -6928,6 +6934,9 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83da
 
 #EXTINF:-1 tvg-name="Cherie 25" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_Ch%C3%A9rie_25.svg/512px-Logo_Ch%C3%A9rie_25.svg.png" tvg-id="cherie25" group-title="France",Cherie 25
 https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
+
+#EXTINF:-1 tvg-name="Clubbing TV France" tvg-logo="https://i.imgur.com/MyiA92q.png" tvg-id="clubbingtvfrance" group-title="France",Clubbing TV France
+https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8
 
 #EXTINF:-1 tvg-name="DBM TV (1080p)" tvg-logo="https://i.imgur.com/ab6p2SW.png" tvg-id="dbmtv" group-title="France",DBM TV (1080p)
 https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
@@ -7020,7 +7029,7 @@ https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Gulli" tvg-logo="https://i.imgur.com/kqYssbW.png" tvg-id="gulli" group-title="France",Gulli
-https://origin2-6play.live.6cloud.fr/pool_rnpls9by/gulli/sixplaysd/hls_short_q2hyb21h_gulli/index.m3u8
+https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/c65696b42ca34e97a9b5f54758d6dd50/cmaf/hlsfmp4_short_q2hyb21h_gulli_sd_index.m3u8
 
 #EXTINF:-1 tvg-name="HANDICAP TV France" tvg-logo="https://i.imgur.com/vXbAeD0.png" tvg-id="handicaptvfrance" group-title="France",HANDICAP TV France
 https://srv.webtvmanager.fr:3697/stream/play.m3u8
@@ -7323,13 +7332,13 @@ https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV3V (720p)" tvg-logo="https://i.ibb.co/X2yd0zL/logo-tv3v.jpg" tvg-id="tv3v" group-title="France",TV3V (720p)
-https://tv3v.hdr-tv.com/live/tv3v/livestream/master.m3u8
+https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8
 
 #EXTINF:-1 tvg-name="TV7 Bordeaux (720p)" tvg-logo="https://i.imgur.com/lJdlu2r.png" tvg-id="tv7bordeaux" group-title="France",TV7 Bordeaux (720p)
 https://live.digiteka.com/1/RVNZMmJtUURmd09I/U0dNU0tk/hls/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV7 Colmar (576p)" tvg-logo="https://i.imgur.com/kSdGi43.png" tvg-id="tv7colmar" group-title="France",TV7 Colmar (576p)
-https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
+https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV78 (720p)" tvg-logo="https://i.imgur.com/stzE1Ij.png" tvg-id="tv78" group-title="France",TV78 (720p)
 https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
@@ -7338,7 +7347,7 @@ https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
 https://strhlslb01.streamakaci.tv/str_tvfinance_tvfinance/str_tvfinance_multi/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV Monaco (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_de_la_cha%C3%AEne_TV_Monaco.jpg" tvg-id="tvmonaco" group-title="France",TV Monaco (1080p)
-https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/2024/media.m3u8
+https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8
 
 #EXTINF:-1 tvg-name="TV Tarn (720p)" tvg-logo="https://i.imgur.com/MJdY1m3.png" tvg-id="tvtarn" group-title="France",TV Tarn (720p)
 https://live.creacast.com/albi-tv-ch1/stream/playlist.m3u8
@@ -7394,11 +7403,11 @@ https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="РТР Планета Евро" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="France",РТР Планета Евро
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 
-#EXTINF:-1 tvg-name="6ter" tvg-logo="https://i.imgur.com/2nd5Cox.png" tvg-id="6ter" group-title="France",6ter
-https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/29c7a579af3348b48230f76cd75699a5/dash_short_cenc10_6ter_hd_index.mpd
-
 #EXTINF:-1 tvg-name="20 Minutes TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/320px-20_Minutes_TV_IDF_logo_%282023%29.png" tvg-id="20minutestv" group-title="France",20 Minutes TV (1080p)
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+
+#EXTINF:-1 tvg-name="ADN TV+" tvg-logo="https://i.imgur.com/HQZQyWt.png" tvg-id="adntv" group-title="France",ADN TV+
+https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
 
 #EXTINF:-1 tvg-name="Africa 24 (1080p)" tvg-logo="https://i.imgur.com/YWIJdai.png" tvg-id="africa24" group-title="France",Africa 24 (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
@@ -7426,6 +7435,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 #EXTINF:-1 tvg-name="BET CLASSICS Pluto TV" tvg-logo="https://i.imgur.com/pyqZgU7.png" tvg-id="betclassicsplutotv" group-title="France",BET CLASSICS Pluto TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f92b5ba040eaa0007074d0a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e059f90-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f90dc5f8-5a4a-4bbd-bb99-e092a9625269
+
+#EXTINF:-1 tvg-name="BFM2" tvg-logo="https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg" tvg-id="bfm2" group-title="France",BFM2
+https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
 
 #EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/iRsbEpg.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -7487,6 +7499,9 @@ https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
 #EXTINF:-1 tvg-name="Bubble Guppies" tvg-logo="https://i.imgur.com/xNaAbUE.png" tvg-id="bubbleguppies" group-title="France",Bubble Guppies
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/618e3c1106d23b0007366723/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0662e5-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7d78b066-1897-473b-a861-c3b256c623ae
 
+#EXTINF:-1 tvg-name="Caillou" tvg-logo="https://i.imgur.com/RgKaoe4.png" tvg-id="caillou" group-title="France",Caillou
+https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
+
 #EXTINF:-1 tvg-name="Canal 32 (1080p)" tvg-logo="https://i.imgur.com/lAsE6kN.png" tvg-id="canal32" group-title="France",Canal 32 (1080p)
 https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
 
@@ -7498,6 +7513,9 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83da
 
 #EXTINF:-1 tvg-name="Cherie 25" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_Ch%C3%A9rie_25.svg/512px-Logo_Ch%C3%A9rie_25.svg.png" tvg-id="cherie25" group-title="France",Cherie 25
 https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
+
+#EXTINF:-1 tvg-name="Clubbing TV France" tvg-logo="https://i.imgur.com/MyiA92q.png" tvg-id="clubbingtvfrance" group-title="France",Clubbing TV France
+https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8
 
 #EXTINF:-1 tvg-name="DBM TV (1080p)" tvg-logo="https://i.imgur.com/ab6p2SW.png" tvg-id="dbmtv" group-title="France",DBM TV (1080p)
 https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
@@ -7590,7 +7608,7 @@ https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Gulli" tvg-logo="https://i.imgur.com/kqYssbW.png" tvg-id="gulli" group-title="France",Gulli
-https://origin2-6play.live.6cloud.fr/pool_rnpls9by/gulli/sixplaysd/hls_short_q2hyb21h_gulli/index.m3u8
+https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/c65696b42ca34e97a9b5f54758d6dd50/cmaf/hlsfmp4_short_q2hyb21h_gulli_sd_index.m3u8
 
 #EXTINF:-1 tvg-name="HANDICAP TV France" tvg-logo="https://i.imgur.com/vXbAeD0.png" tvg-id="handicaptvfrance" group-title="France",HANDICAP TV France
 https://srv.webtvmanager.fr:3697/stream/play.m3u8
@@ -7893,13 +7911,13 @@ https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV3V (720p)" tvg-logo="https://i.ibb.co/X2yd0zL/logo-tv3v.jpg" tvg-id="tv3v" group-title="France",TV3V (720p)
-https://tv3v.hdr-tv.com/live/tv3v/livestream/master.m3u8
+https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8
 
 #EXTINF:-1 tvg-name="TV7 Bordeaux (720p)" tvg-logo="https://i.imgur.com/lJdlu2r.png" tvg-id="tv7bordeaux" group-title="France",TV7 Bordeaux (720p)
 https://live.digiteka.com/1/RVNZMmJtUURmd09I/U0dNU0tk/hls/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV7 Colmar (576p)" tvg-logo="https://i.imgur.com/kSdGi43.png" tvg-id="tv7colmar" group-title="France",TV7 Colmar (576p)
-https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
+https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV78 (720p)" tvg-logo="https://i.imgur.com/stzE1Ij.png" tvg-id="tv78" group-title="France",TV78 (720p)
 https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
@@ -7908,7 +7926,7 @@ https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
 https://strhlslb01.streamakaci.tv/str_tvfinance_tvfinance/str_tvfinance_multi/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV Monaco (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_de_la_cha%C3%AEne_TV_Monaco.jpg" tvg-id="tvmonaco" group-title="France",TV Monaco (1080p)
-https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/2024/media.m3u8
+https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8
 
 #EXTINF:-1 tvg-name="TV Tarn (720p)" tvg-logo="https://i.imgur.com/MJdY1m3.png" tvg-id="tvtarn" group-title="France",TV Tarn (720p)
 https://live.creacast.com/albi-tv-ch1/stream/playlist.m3u8
@@ -13127,9 +13145,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -13174,9 +13189,6 @@ https://srvx1.selftv.video/espansione/smil:live.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Esperia Tv" tvg-logo="https://patbuweb.com/tivustream/chanlogoz/ita/esperiatv.png" tvg-id="esperiatv" group-title="Italy",Esperia Tv
 https://59d7d6f47d7fc.streamlock.net/esperiatv/esperiatv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Etna Espresso Channel" tvg-logo="https://i.imgur.com/hMUxytZ.png" tvg-id="etnaespressochannel" group-title="Italy",Etna Espresso Channel
-https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8
 
 #EXTINF:-1 tvg-name="è Tv Marche" tvg-logo="https://i.imgur.com/vxgbFnR.png" tvg-id="tvmarche" group-title="Italy",è Tv Marche
 https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8
@@ -15687,7 +15699,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV Monaco (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_de_la_cha%C3%AEne_TV_Monaco.jpg" tvg-id="tvmonaco" group-title="Monaco",TV Monaco (1080p)
-https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/2024/media.m3u8
+https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8
 
 #EXTINF:-1 tvg-name="World Billiards (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png" tvg-id="worldbilliards" group-title="Monaco",World Billiards (720p)
 https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8
@@ -19847,6 +19859,9 @@ rtmp://live.restream.io/pull/play_320121_94512612fd0e084bd284
 #EXTINF:-1 tvg-name="Rotana Khalijia (1080p)" tvg-logo="https://i.imgur.com/6HMluzv.png" tvg-id="rotanakhalijia" group-title="Saudi_arabia",Rotana Khalijia (1080p)
 #EXTVLCOPT:http-referrer=https://rotana.net/
 
+#EXTINF:-1 tvg-name="Rotana Music (1080p)" tvg-logo="https://i.imgur.com/2zFQbQi.png" tvg-id="rotanamusic" group-title="Saudi_arabia",Rotana Music (1080p)
+https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Roya Kids" tvg-logo="https://i.imgur.com/acuCGF8.png" tvg-id="royakids" group-title="Saudi_arabia",Roya Kids
 https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids/playlist.m3u8
 
@@ -20677,6 +20692,9 @@ https://bloomberg.com/media-manifest/streams/eu-event.m3u8
 
 #EXTINF:-1 tvg-name="Bulsho TV" tvg-logo="https://i.imgur.com/7qo4rb7.png" tvg-id="bulshotv" group-title="Somalia",Bulsho TV
 https://cdn.mediavisionuk.com:9000/bulshotv/index.m3u8
+
+#EXTINF:-1 tvg-name="Canaf54 TV" tvg-logo="https://i.imgur.com/viB0FS2.png" tvg-id="canaf54tv" group-title="Somalia",Canaf54 TV
+https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Canal 2 International" tvg-logo="https://i.imgur.com/BzA2z7m.png" tvg-id="canal2international" group-title="Somalia",Canal 2 International
 http://69.64.57.208/canal2international/playlist.m3u8
@@ -22069,6 +22087,9 @@ https://lfmhd.vedge.infomaniak.com/livecast/lfmhd/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Carac 4 (1080p)" tvg-logo="https://www.bejart.ch/wp-content/uploads//carac-400x304.png" tvg-id="carac4" group-title="Switzerland",Carac 4 (1080p)
 https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Clubbing TV France" tvg-logo="https://i.imgur.com/MyiA92q.png" tvg-id="clubbingtvfrance" group-title="Switzerland",Clubbing TV France
+https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8
 
 #EXTINF:-1 tvg-name="Couleur 3 (720p)" tvg-logo="https://i.imgur.com/VOIwYYd.png" tvg-id="couleur3" group-title="Switzerland",Couleur 3 (720p)
 https://rtsc3video.akamaized.net/hls/live/2042837/c3video/3/playlist.m3u8
@@ -28060,9 +28081,6 @@ https://vicetv-vicefast2-firetv.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Village of Hastings-On-Hudson NY (WHOH-TV) (360p)" tvg-logo="https://i.imgur.com/jTD9nLE.png" tvg-id="villageofhastingsonhudsonny" group-title="Usa",Village of Hastings-On-Hudson NY (WHOH-TV) (360p)
 https://stream.swagit.com/live-edge/hastingsonhudsonny/smil:std-4x3-1-a/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Vision Global TV (720p)" tvg-logo="https://i.imgur.com/3FaNbYD.png" tvg-id="visionglobaltv" group-title="Usa",Vision Global TV (720p)
-https://ss5.domint.net:3012/vgtv_str/visionglobaltv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="VOA Persian" tvg-logo="https://i.imgur.com/TmqComb.png" tvg-id="voapersian" group-title="Usa",VOA Persian
 https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
