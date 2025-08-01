@@ -35,12 +35,6 @@ https://www.twitch.tv/topnewsal
 #EXTINF:-1 tvg-name="Tropoja" tvg-logo="https://i.imgur.com/D3hNOVS.png" tvg-id="tropoja" group-title="Albania",Tropoja
 https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="3 Plus (1080i)" tvg-logo="https://i.imgur.com/0ZdW9As.png" tvg-id="3" group-title="Albania",3 Plus (1080i)
-http://77.83.120.135:8001/play/a19e
-
-#EXTINF:-1 tvg-name="ABC News (1080i)" tvg-logo="https://i.imgur.com/q5pjJ2m.png" tvg-id="abcnews" group-title="Albania",ABC News (1080i)
-http://77.83.120.135:8001/play/a00c
-
 #EXTINF:-1 tvg-name="AlbKanale Music TV (720p)" tvg-logo="https://i.imgur.com/JdKxscs.png" tvg-id="albkanalemusictv" group-title="Albania",AlbKanale Music TV (720p)
 https://albportal.net/albkanalemusic.m3u8
 
@@ -68,17 +62,14 @@ https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="FashionTV Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" tvg-id="fashiontveurope" group-title="Albania",FashionTV Europe (1080p)
 https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Fax News (576i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Fax_News_%28Albania%29.svg/512px-Fax_News_%28Albania%29.svg.png" tvg-id="faxnews" group-title="Albania",Fax News (576i)
-http://77.83.120.135:8001/play/FaxNews
-
 #EXTINF:-1 tvg-name="FIFA+ (720p)" tvg-logo="https://i.imgur.com/l5iax42.png" tvg-id="fifa" group-title="Albania",FIFA+ (720p)
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Hard Knocks Fighting Championship (720p)" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/13b0a6c7-4307-4c8d-9fc4-df2a4f8e8b38-hard-knocks-fighting-1602077398-width200-quality90.jpeg" tvg-id="hardknocksfightingchampionship" group-title="Albania",Hard Knocks Fighting Championship (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/2ee2b8d4-acc4-4296-9dc8-66f1ffd0fff8/5.m3u8
 
-#EXTINF:-1 tvg-name="Klan Plus (1080i)" tvg-logo="https://i.imgur.com/l2nZM5h.png" tvg-id="klan" group-title="Albania",Klan Plus (1080i)
-http://77.83.120.135:8001/play/a0w9
+#EXTINF:-1 tvg-name="MCN TV (720p)" tvg-logo="https://i.imgur.com/bcAMVVk.png" tvg-id="mcntv" group-title="Albania",MCN TV (720p)
+#EXTVLCOPT:http-referrer=https://mcn24.tv/hls/
 
 #EXTINF:-1 tvg-name="Monster Jam" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg" tvg-id="monsterjam" group-title="Albania",Monster Jam
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c33f833ef47d00084f47ad/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1e7521-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8a8e6e9e-1da8-4436-9538-aa678b671447
@@ -91,6 +82,9 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xi
 
 #EXTINF:-1 tvg-name="Ora News (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ora_News_%28Albania%29.svg/512px-Ora_News_%28Albania%29.svg.png" tvg-id="oranews" group-title="Albania",Ora News (720p)
 https://live1.mediadesk.al/oranews.m3u8
+
+#EXTINF:-1 tvg-name="Panorama TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/512px-Panorama_logo.svg.png" tvg-id="panoramatv" group-title="Albania",Panorama TV (720p)
+https://tv.panorama.com.al/panorama/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="People Are Awesome (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/1cc9ab7e-8283-4c32-a3f3-e2a4d0e1d33f-width200-quality90.jpeg" tvg-id="peopleareawesome" group-title="Albania",People Are Awesome (720p)
 https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8
@@ -119,18 +113,6 @@ https://strm.hdtvizlecanli.com/live/rtl.m3u8
 #EXTINF:-1 tvg-name="RTL Zwei (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" tvg-id="rtlzwei" group-title="Albania",RTL Zwei (1080p)
 http://178.219.128.68:64888/RTL2
 
-#EXTINF:-1 tvg-name="RTSH 3 (576i)" tvg-logo="https://i.imgur.com/kyhHTx3.png" tvg-id="rtsh3" group-title="Albania",RTSH 3 (576i)
-http://77.83.120.135:8001/play/a0qo
-
-#EXTINF:-1 tvg-name="RTSH 24 (1080i)" tvg-logo="https://i.imgur.com/H6tCoGW.png" tvg-id="rtsh24" group-title="Albania",RTSH 24 (1080i)
-http://77.83.120.135:8001/play/RTSH24
-
-#EXTINF:-1 tvg-name="RTSH Muzike (576i)" tvg-logo="https://i.imgur.com/7fMS5Hl.png" tvg-id="rtshmuzike" group-title="Albania",RTSH Muzike (576i)
-http://77.83.120.135:8001/play/a1a0
-
-#EXTINF:-1 tvg-name="RTSH Shqip (576i)" tvg-logo="https://i.imgur.com/88kRsW3.png" tvg-id="rtshshqip" group-title="Albania",RTSH Shqip (576i)
-http://77.83.120.135:8001/play/a19y
-
 #EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg" tvg-id="shadesofblack" group-title="Albania",Shades of Black
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 
@@ -149,17 +131,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 #EXTINF:-1 tvg-name="TOP Barca (1080p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/7c59e962-086b-4d64-afb3-7f83ca8c3377-width200-quality90.jpeg" tvg-id="topbarca" group-title="Albania",TOP Barca (1080p)
 https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Top News (720p)" tvg-logo="https://i.imgur.com/oKix35b.png" tvg-id="topnews" group-title="Albania",Top News (720p)
-https://trueodin.serv00.net/?t=topnewsal
-
-#EXTINF:-1 tvg-name="Tropoja TV (1080p)" tvg-logo="https://i.imgur.com/D3hNOVS.png" tvg-id="tropojatv" group-title="Albania",Tropoja TV (1080p)
-https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TV Klan (1080i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/TV_Klan.svg/512px-TV_Klan.svg.png" tvg-id="tvklan" group-title="Albania",TV Klan (1080i)
-http://77.83.120.135:8001/play/a16b
-
 #EXTINF:-1 tvg-name="Vizion Plus (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/512px-Vizion_Plus.svg.png" tvg-id="vizion" group-title="Albania",Vizion Plus (1080p)
-https://fe.tring.al/delta/105/out/u/rdghfhsfhfshs.m3u8
+https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8
 
 #EXTINF:-1 tvg-name="World Billiards (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png" tvg-id="worldbilliards" group-title="Albania",World Billiards (720p)
 https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8
@@ -175,6 +148,9 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 
 #EXTINF:-1 tvg-name="Zee One (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/b2b4d09d-3471-4dbf-a831-3191cfc66bec-width200-quality90.jpeg" tvg-id="zeeone" group-title="Albania",Zee One (720p)
 https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Zjarr TV (360p)" tvg-logo="https://i.imgur.com/hNuWZWe.png" tvg-id="zjarrtv" group-title="Albania",Zjarr TV (360p)
+https://zjarr.future.al/hls/playlist.m3u8
 
 #EXTINF:-1 tvg-name="like Gecko) Mobile/15E148"" tvg-logo="https://i.imgur.com/pUcV46F.png" tvg-id="likegeckomobile15e148" group-title="Albania",like Gecko) Mobile/15E148"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
@@ -6257,14 +6233,14 @@ https://host.streamingnation.live/p/3780/live/tvluzlive.m3u8
 #EXTINF:-1 tvg-name="TV Montaña Canal 10 (1080p)" tvg-logo="https://i.imgur.com/DHyRWc0.png" tvg-id="tvmontaacanal10" group-title="Dominican_republic",TV Montaña Canal 10 (1080p)
 https://ss5.domint.net:3064/tvm_str/montanatv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TV N24 (720p)" tvg-logo="https://i.imgur.com/bu6bQMa.png" tvg-id="tvn24" group-title="Dominican_republic",TV N24 (720p)
-https://ss5.domint.net:3032/vozz_str/vozzmedia/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TV QUISQUEYA (720p)" tvg-logo="https://i.imgur.com/G7X4LQI.png" tvg-id="tvquisqueya" group-title="Dominican_republic",TV QUISQUEYA (720p)
 https://cloud5.livescast.com:19360/canaltvquisqueya/canaltvquisqueya.m3u8
 
 #EXTINF:-1 tvg-name="TVE Internacional America (720p)" tvg-logo="https://i.imgur.com/iODADvi.png" tvg-id="tveinternacionalamerica" group-title="Dominican_republic",TVE Internacional America (720p)
 http://190.11.225.124:5000/live/tve_hd/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TVN24 (720p)" tvg-logo="https://i.imgur.com/bu6bQMa.png" tvg-id="tvn24" group-title="Dominican_republic",TVN24 (720p)
+https://ss2.tvrdomi.com:1936/vozzmedianetwork/vozzmedianetwork/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TVO (720p)" tvg-logo="https://i.imgur.com/MhloaFB.png" tvg-id="tvo" group-title="Dominican_republic",TVO (720p)
 https://cdn.mycloudstream.io/hls/live/broadcast/aa5i1jfn/index.m3u8
@@ -25643,10 +25619,10 @@ https://fl5.moveonjoy.com/DISNEY/index.m3u8
 #EXTINF:-1 tvg-name="Disney Junior East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg" tvg-id="disneyjunioreast" group-title="Usa",Disney Junior East
 https://fl3.moveonjoy.com/DISNEY_JR/index.m3u8
 
-#EXTINF:-1 tvg-name="Disney XD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png" tvg-id="disneyxd" group-title="Usa",Disney XD (720p)
+#EXTINF:-1 tvg-name="Disney XD (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg" tvg-id="disneyxd" group-title="Usa",Disney XD (720p)
 http://fl3.moveonjoy.com/DISNEY_XD/index.m3u8
 
-#EXTINF:-1 tvg-name="Disney XD West (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png" tvg-id="disneyxdwest" group-title="Usa",Disney XD West (720p)
+#EXTINF:-1 tvg-name="Disney XD West (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg" tvg-id="disneyxdwest" group-title="Usa",Disney XD West (720p)
 https://fl3.moveonjoy.com/DISNEY_XD/index.m3u8
 
 #EXTINF:-1 tvg-name="District of Columbia Network (DCN) (1080p)" tvg-logo="https://i.imgur.com/GGZ8BQ8.png" tvg-id="districtofcolumbianetwork" group-title="Usa",District of Columbia Network (DCN) (1080p)
