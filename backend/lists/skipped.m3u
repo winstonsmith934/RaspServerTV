@@ -152,9 +152,6 @@ https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:-1 tvg-name="Izaura TV" tvg-logo="https://onlinestream.live/logos/6141.png" tvg-id="izauratv" group-title="Hungary",Izaura TV
 http://78.109.104.240:8000/play/a0ch/index.m3u8?HasBahCa.m3u8
 
-#EXTINF:-1 tvg-name="Komlos TV" tvg-logo="https://i.imgur.com/MDYb5yz.png" tvg-id="komlostv" group-title="Hungary",Komlos TV
-https://stream.streaming4u.hu/KomlosTV/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 tvg-name="Tisza TV" tvg-logo="https://www.tiszatv.hu/style/tiszatv_logo.png" tvg-id="tiszatv" group-title="Hungary",Tisza TV
 https://www.tiszatv.hu/onlinetv/tiszatv_1.m3u8
 
@@ -163,6 +160,9 @@ https://c201-node61-cdn.connectmedia.hu/110102/7184521041cf54cee9c6548e8d0ba377/
 
 #EXTINF:-1 tvg-name="M4 Sport" tvg-logo="https://nb1.hu/uploads/news/3/31023.jpg" tvg-id="m4sport" group-title="Hungary",M4 Sport
 https://c401-node62-cdn.connectmedia.hu/110110/5dd8dc6d853c9b7f94db85646ed44326/641177e3/index.m3u8
+
+#EXTINF:-1 tvg-name="BeritaSatu" tvg-logo="https://imgur.com/vYJVT07" tvg-id="beritasatu" group-title="Indonesia",BeritaSatu
+https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 
 #EXTINF:-1 tvg-name="Al-Hurra Iraq" tvg-logo="https://i.imgur.com/mXBZEQP.png" tvg-id="alhurrairaq" group-title="Iraq",Al-Hurra Iraq
 https://mbnvvideoingest-i.akamaihd.net/hls/live/1004674/MBNV_ALHURRA_IRAQ/playlist.m3u8
@@ -226,9 +226,6 @@ http://77.68.40.210:8888/hls/basilicata1.m3u8
 
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
@@ -499,6 +496,9 @@ https://cdnapisec.kaltura.com/p/5581662/sp/558166200/playManifest/entryId/1_1u7s
 
 #EXTINF:-1 tvg-name="Aragón TV Ⓢ" tvg-logo="https://i.imgur.com/8H3Q07b.png" tvg-id="aragntv" group-title="Spain",Aragón TV Ⓢ
 https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
+
+#EXTINF:-1 tvg-name="7 Región de Murcia Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/150px-La_7_logo.svg.png" tvg-id="7regindemurcia" group-title="Spain",7 Región de Murcia Ⓢ
+https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="SVT 1 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SVT1_logo_2016.svg/800px-SVT1_logo_2016.svg.png" tvg-id="svt1" group-title="Sweden",SVT 1 Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svt1/manifest.mpd?defaultSubLang=1
