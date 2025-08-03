@@ -2526,7 +2526,7 @@ https://serv2.videovox.pw/cnagitos/cnagitos/playlist.m3u8
 https://srv1.zcast.com.br/tvcomsantos/tvcomsantos/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV Cultura" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" tvg-id="tvcultura" group-title="Brazil",TV Cultura
-https://cdn-1.nxplay.com.br/TV_CULTURA/index.m3u8
+https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 
 #EXTINF:-1 tvg-name="TV Curuça (360p)" tvg-logo="https://i.imgur.com/JdCKNZ4.png" tvg-id="tvcurua" group-title="Brazil",TV Curuça (360p)
 https://stmv1.srvif.com/tvcurucasp/tvcurucasp/playlist.m3u8
@@ -3087,7 +3087,7 @@ http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8
 https://stream.bozztv.com/tvstat-tamar/tvstat-tamar/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Golf Channel" tvg-logo="https://i.imgur.com/Lgux6Ik.png" tvg-id="golfchannel" group-title="Canada",Golf Channel
-https://fl3.moveonjoy.com/GOLF_CHANNEL/index.m3u8
+https://fl3.moveonjoy.com/GOLF/index.m3u8
 
 #EXTINF:-1 tvg-name="Hamdard TV (1080p)" tvg-logo="https://i.ibb.co/JcD2xck/logo-hamda.png" tvg-id="hamdardtv" group-title="Canada",Hamdard TV (1080p)
 https://tv.hamdardtv.com/hamdard/index.m3u8
@@ -3729,7 +3729,7 @@ https://jireh-2-hls-video-us-isp.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc76
 https://unlimited1-us.dps.live/inet2/inet2.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telecanal (720p)" tvg-logo="https://i.imgur.com/3g6SbSt.png" tvg-id="telecanal" group-title="Chile",Telecanal (720p)
-http://190.110.160.210:8000/play/a07s/index.m3u8
+http://45.232.210.1:8029/play/a00s/index.m3u8
 
 #EXTINF:-1 tvg-name="Telehit (1080p)" tvg-logo="https://i.imgur.com/NVxHxJn.png" tvg-id="telehit" group-title="Chile",Telehit (1080p)
 http://45.175.139.194:8000/play/62
@@ -9716,9 +9716,6 @@ http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
 #EXTINF:-1 tvg-name="Aeolos TV (1080p)" tvg-logo="https://i.imgur.com/4G9VvUg.png" tvg-id="aeolostv" group-title="Greece",Aeolos TV (1080p)
 https://cdn.istoikona.com/aeolostv/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Aigaio TV (360p)" tvg-logo="https://i.imgur.com/7LfuDJi.png" tvg-id="aigaiotv" group-title="Greece",Aigaio TV (360p)
-https://250weu.bozztv.com/ssh101/ssh101/aigaiotv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="ANT1 HD (1080p)" tvg-logo="https://i.imgur.com/ItxKvVS.png" tvg-id="ant1" group-title="Greece",ANT1 HD (1080p)
 http://31.121.110.30:4000/play/a028/index.m3u8
 
@@ -10821,7 +10818,7 @@ https://abplivetv.akamaized.net/hls/live/2043011/manjha/master.m3u8
 https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8
 
 #EXTINF:-1 tvg-name="ABP Sanjha (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ABP_Sanjha_logo.svg/512px-ABP_Sanjha_logo.svg.png" tvg-id="abpsanjha" group-title="India",ABP Sanjha (720p)
-https://d316coox0if60r.cloudfront.net/out/v1/7723f2221c3449c3910aaa8f91592bf0/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/master.m3u8
 
 #EXTINF:-1 tvg-name="Abzy Dhakad (480p)" tvg-logo="https://i.imgur.com/5ORC4tn.png" tvg-id="abzydhakad" group-title="India",Abzy Dhakad (480p)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8
@@ -11407,6 +11404,9 @@ https://cdn-4.pishow.tv/live/1499/master.m3u8
 
 #EXTINF:-1 tvg-name="Oscar Movies Bhojpuri (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e7/Oscar-Movies_Bhojpuri.jpg" tvg-id="oscarmoviesbhojpuri" group-title="India",Oscar Movies Bhojpuri (720p)
 https://cdn-4.pishow.tv/live/233/master.m3u8
+
+#EXTINF:-1 tvg-name="Pasand TV (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Pasand-TV.png" tvg-id="pasandtv" group-title="India",Pasand TV (576p)
+https://yuppftalive.akamaized.net/080823/pasand/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Peace TV Bangla (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/34/Peacetvbanglalogo2.jpeg" tvg-id="peacetvbangla" group-title="India",Peace TV Bangla (1080p)
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
@@ -13388,9 +13388,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -13609,6 +13606,9 @@ https://iptv.peer.biz/live/peertv-it.m3u8
 
 #EXTINF:-1 tvg-name="Peer TV Südtirol" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png" tvg-id="peertvsdtirol" group-title="Italy",Peer TV Südtirol
 https://iptv.peer.biz/live/peertv.m3u8
+
+#EXTINF:-1 tvg-name="Pop Tv" tvg-logo="https://i.imgur.com/TeolCu9.png" tvg-id="poptv" group-title="Italy",Pop Tv
+https://stream1.aswifi.it/poptelevision/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Prima Tv Napoli" tvg-logo="https://i.imgur.com/yPuQeEy.jpg" tvg-id="primatvnapoli" group-title="Italy",Prima Tv Napoli
 https://57068da1deb21.streamlock.net/primatvnapoli/primatvnapoli/playlist.m3u8
@@ -19044,7 +19044,7 @@ https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXM
 http://178.217.72.66:8080/5_Kanal/index.m3u8
 
 #EXTINF:-1 tvg-name="Che!" tvg-logo="https://i.imgur.com/ZOcDGpB.png" tvg-id="che" group-title="Russia",Che!
-https://vs6.cdn.mrf.tvime.ru/che/index.m3u8
+http://31.148.48.15/Che/index.m3u8
 
 #EXTINF:-1 tvg-name="Cinema" tvg-logo="https://i.imgur.com/b5e9qUA.png" tvg-id="cinema" group-title="Russia",Cinema
 http://catchup.videoline.ru/cinema/tracks-v1a1/mono.m3u8
@@ -25908,7 +25908,7 @@ https://2-fss-1.streamhoster.com/pl_122/200562-1176456-1/playlist.m3u8
 https://reflect-golden-co.cablecast.tv/live-3/live/live.m3u8
 
 #EXTINF:-1 tvg-name="Golf Channel" tvg-logo="https://i.imgur.com/Lgux6Ik.png" tvg-id="golfchannel" group-title="Usa",Golf Channel
-https://fl3.moveonjoy.com/GOLF_CHANNEL/index.m3u8
+https://fl3.moveonjoy.com/GOLF/index.m3u8
 
 #EXTINF:-1 tvg-name="Gordon Ramsay's Hell's Kitchen" tvg-logo="https://i.imgur.com/WgN4T18.png" tvg-id="gordonramsayshellskitchen" group-title="Usa",Gordon Ramsay's Hell's Kitchen
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62ea45010d0611000839868c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c1-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e3a17d6f-f38c-4a08-9e69-00d8a53906ec
@@ -27875,11 +27875,11 @@ https://cdn20.liveonlineservices.com/hls/tv84.m3u8
 #EXTINF:-1 tvg-name="TV Daja (1080p)" tvg-logo="https://dajatv.com/wp-content/uploads/2021/09/logo_daja_2.png" tvg-id="tvdaja" group-title="Usa",TV Daja (1080p)
 https://rdn.essastream.com:3388/live/dajatvlive.m3u8
 
+#EXTINF:-1 tvg-name="TV Land" tvg-logo="https://i.imgur.com/VNNS4mF.png" tvg-id="tvland" group-title="Usa",TV Land
+https://fl3.moveonjoy.com/TV_LAND/index.m3u8
+
 #EXTINF:-1 tvg-name="TV Land Drama" tvg-logo="https://i.imgur.com/y1rXIAS.png" tvg-id="tvlanddrama" group-title="Usa",TV Land Drama
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d40bebc5e3d2750a2239d7e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2c9af3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5e762bb7-572b-4470-87fd-b3b4bb48462e
-
-#EXTINF:-1 tvg-name="TV Land East" tvg-logo="https://i.imgur.com/VNNS4mF.png" tvg-id="tvlandeast" group-title="Usa",TV Land East
-https://fl3.moveonjoy.com/TV_Land/index.m3u8
 
 #EXTINF:-1 tvg-name="TV Land Sitcoms" tvg-logo="https://i.imgur.com/phHHs7l.png" tvg-id="tvlandsitcoms" group-title="Usa",TV Land Sitcoms
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c2d64ffbdf11b71587184b8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2c9af5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b42011ce-d42f-4692-bb1d-2fe02741437a
