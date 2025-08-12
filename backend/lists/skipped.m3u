@@ -107,6 +107,12 @@ http://l6.cloudskep.com/tvb6/rik2-1/mpeg.2ts
 #EXTINF:-1 tvg-name="RIK HD" tvg-logo="https://upload.wikimedia.org/wikipedia/el/7/7d/RIKHD2.png" tvg-id="rik" group-title="Cyprus",RIK HD
 http://l6.cloudskep.com/tvb6/rikhd1/mpeg.2ts
 
+#EXTINF:-1 tvg-name="ČT1 Ⓖ" tvg-logo="https://i.imgur.com/qBlEbN3.png" tvg-id="t1" group-title="Czech_republic",ČT1 Ⓖ
+https://sktv.plainrock127.xyz/get.php?x=CT1
+
+#EXTINF:-1 tvg-name="ČT2 Ⓖ" tvg-logo="https://i.imgur.com/HpnGC6A.png" tvg-id="t2" group-title="Czech_republic",ČT2 Ⓖ
+https://sktv.plainrock127.xyz/get.php?x=CT2
+
 #EXTINF:-1 tvg-name="ČT24" tvg-logo="https://i.imgur.com/pUMRFs1.png" tvg-id="t24" group-title="Czech_republic",ČT24
 https://sktv.plainrock127.xyz/get.php?x=CT24
 
@@ -137,29 +143,8 @@ https://sktv.plainrock127.xyz/get.php?x=Nova
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ERT 1" tvg-logo="https://i.imgur.com/WWMe8IY.png" tvg-id="ert1" group-title="Greece",ERT 1
-http://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT 2" tvg-logo="https://i.imgur.com/pcusPFl.png" tvg-id="ert2" group-title="Greece",ERT 2
-http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT 3" tvg-logo="https://i.imgur.com/KyhzDRm.png" tvg-id="ert3" group-title="Greece",ERT 3
-http://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3medium.m3u8
-
 #EXTINF:-1 tvg-name="Open TV" tvg-logo="https://i.imgur.com/T99OSnk.png" tvg-id="opentv" group-title="Greece",Open TV
 https://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 3" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports3" group-title="Greece",ERT Sports 3
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 4" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports4" group-title="Greece",ERT Sports 4
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 5" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports5" group-title="Greece",ERT Sports 5
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5medium.m3u8
-
-#EXTINF:-1 tvg-name="ERT Sports 6" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports6" group-title="Greece",ERT Sports 6
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_6/ert_sports_6medium.m3u8
 
 #EXTINF:-1 tvg-name="Dance TV" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="dancetv" group-title="Hungary",Dance TV
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
@@ -193,6 +178,9 @@ https://media1.livaat.com/AL-RASHEED-HD/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Turkmeneli TV" tvg-logo="https://i.imgur.com/iUhhg4B.png" tvg-id="turkmenelitv" group-title="Iraq",Turkmeneli TV
 https://137840.global.ssl.fastly.net/edge/live_6b7c6e205afb11ebb010f5a331abaf98/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ערוץ 14" tvg-logo="https://i.imgur.com/Iq2Kb69.png" tvg-id="14" group-title="Israel",ערוץ 14
+https://now14.g-mana.live/media/91517161-44ab-4e46-af70-e9fe26117d2e/mainManifest.m3u8
 
 #EXTINF:-1 tvg-name="Knesset" tvg-logo="https://i.imgur.com/PEdXHSE.png" tvg-id="knesset" group-title="Israel",Knesset
 https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8
@@ -232,9 +220,6 @@ https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
 #EXTINF:-1 tvg-name="AB Channel" tvg-logo="https://i.imgur.com/k8EPLB9.png" tvg-id="abchannel" group-title="Italy",AB Channel
 https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" tvg-id="aristanissupertv" group-title="Italy",Aristanis SuperTv
-https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="basilicata1tv" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
