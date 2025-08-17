@@ -9290,6 +9290,9 @@ https://alphalive-i.akamaihd.net/hls/live/682300/live/master.m3u8
 #EXTINF:-1 tvg-name="Skai TV" tvg-logo="https://i.imgur.com/TSg7B8X.png" tvg-id="skaitv" group-title="Greece",Skai TV
 https://skai-live.siliconweb.com/media/cambria4/index.m3u8
 
+#EXTINF:-1 tvg-name="Open TV" tvg-logo="https://i.imgur.com/T99OSnk.png" tvg-id="opentv" group-title="Greece",Open TV
+https://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Kontra" tvg-logo="https://i.imgur.com/zMgczHY.png" tvg-id="kontra" group-title="Greece",Kontra
 http://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
 
@@ -15992,9 +15995,6 @@ http://151.236.247.171:8080/nova/index.m3u8
 #EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
 https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
 
-#EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
-https://zonam1.ddns.net/hls/stream1.m3u8
-
 #EXTINF:-1 tvg-name="Стар Фолк" tvg-logo="https://i.imgur.com/7RstQYI.png" tvg-id="" group-title="North_macedonia",Стар Фолк
 https://live.muzickatv.mk/live/StarMusic.m3u8
 
@@ -18041,23 +18041,14 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 #EXTINF:-1 tvg-name="Первый канал" tvg-logo="https://i.imgur.com/1IqCGe9.png" tvg-id="" group-title="Russia",Первый канал
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
-#EXTINF:-1 tvg-name="Матч ТВ Ⓢ" tvg-logo="https://i.imgur.com/kFdooR4.png" tvg-id="" group-title="Russia",Матч ТВ Ⓢ
-https://streaming.televizor-24-tochka.ru/live/6.m3u8
-
 #EXTINF:-1 tvg-name="НТВ Ⓢ" tvg-logo="https://i.imgur.com/DtQX5P2.png" tvg-id="" group-title="Russia",НТВ Ⓢ
 http://ott-cdn.ucom.am/s17/index.m3u8
-
-#EXTINF:-1 tvg-name="Пятый канал Ⓢ" tvg-logo="https://i.imgur.com/u8Q69D9.png" tvg-id="" group-title="Russia",Пятый канал Ⓢ
-https://streaming.televizor-24-tochka.ru/live/8.m3u8
 
 #EXTINF:-1 tvg-name="Карусель Ⓢ" tvg-logo="https://i.imgur.com/4fFMlVq.png" tvg-id="" group-title="Russia",Карусель Ⓢ
 https://streaming102.interskytech.com/live/232.m3u8
 
 #EXTINF:-1 tvg-name="ТВ Центр Ⓢ" tvg-logo="https://i.imgur.com/ZP0D6Rd.png" tvg-id="" group-title="Russia",ТВ Центр Ⓢ
 http://ott-cdn.ucom.am/s54/index.m3u8
-
-#EXTINF:-1 tvg-name="Рен ТВ Ⓢ" tvg-logo="https://i.imgur.com/18TAzYV.png" tvg-id="" group-title="Russia",Рен ТВ Ⓢ
-https://streaming.televizor-24-tochka.ru/live/14.m3u8
 
 #EXTINF:-1 tvg-name="Спас Ⓢ" tvg-logo="https://i.imgur.com/A6Cqsom.jpeg" tvg-id="" group-title="Russia",Спас Ⓢ
 https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
@@ -18070,6 +18061,9 @@ http://ott-cdn.ucom.am/s88/index.m3u8
 
 #EXTINF:-1 tvg-name="ТВ-3 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%D0%A2V3_logo_2023.svg/556px-%D0%A2V3_logo_2023.svg.png" tvg-id="3" group-title="Russia",ТВ-3 Ⓢ
 https://streaming.televizor-24-tochka.ru/live/18.m3u8
+
+#EXTINF:-1 tvg-name="Пятница! Ⓢ" tvg-logo="https://i.imgur.com/rS11zVB.png" tvg-id="" group-title="Russia",Пятница! Ⓢ
+https://streaming.televizor-24-tochka.ru/live/19.m3u8
 
 #EXTINF:-1 tvg-name="Звезда" tvg-logo="https://i.imgur.com/c0L0ncA.png" tvg-id="" group-title="Russia",Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
@@ -20179,9 +20173,6 @@ https://ingest1-video.streaming-pro.com/esportsteABR/etestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="À Punt TV" tvg-logo="https://i.imgur.com/M88LoNl.png" tvg-id="punttv" group-title="Spain",À Punt TV
 https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="7 Región de Murcia Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/150px-La_7_logo.svg.png" tvg-id="7regindemurcia" group-title="Spain",7 Región de Murcia Ⓢ
-https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Canal 4 Tenerife" tvg-logo="https://i.imgur.com/Egymir4.png" tvg-id="canal4tenerife" group-title="Spain",Canal 4 Tenerife
 https://videoserver.tmcreativos.com:19360/ccxwhsfcnq/ccxwhsfcnq.m3u8
