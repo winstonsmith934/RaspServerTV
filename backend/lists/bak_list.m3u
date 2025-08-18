@@ -9725,6 +9725,9 @@ https://www.youtube.com/watch?v=uH-R3i4vvWI
 #EXTINF:-1 tvg-name="Oxygen Music" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="oxygenmusic" group-title="Hungary",Oxygen Music
 https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
 
+#EXTINF:-1 tvg-name="Izaura TV" tvg-logo="https://onlinestream.live/logos/6141.png" tvg-id="izauratv" group-title="Hungary",Izaura TV
+http://78.109.104.240:8000/play/a0ch/index.m3u8?HasBahCa.m3u8
+
 #EXTINF:-1 tvg-name="Euronews Hungarian Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewshungarian" group-title="Hungary",Euronews Hungarian Ⓨ
 https://www.youtube.com/channel/UC4Ct8gIf9f0n4mdyGsFiZRA/live
 
@@ -12155,6 +12158,9 @@ https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
 #EXTINF:-1 tvg-name="Dijlah Tarab" tvg-logo="https://i.imgur.com/2SBjjBQ.png" tvg-id="dijlahtarab" group-title="Iraq",Dijlah Tarab
 https://ghaasiflu.online/tarab/tracks-v1a1/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Dijlah TV" tvg-logo="https://i.imgur.com/FJEeYiz.png" tvg-id="dijlahtv" group-title="Iraq",Dijlah TV
+https://ghaasiflu.online/Dijlah/tracks-v1a1/playlist.m3u8
+
 #EXTINF:-1 tvg-name="iNEWS" tvg-logo="https://i.imgur.com/PeuBkaH.png" tvg-id="inews" group-title="Iraq",iNEWS
 https://svs.itworkscdn.net/inewsiqlive/inewsiq.smil/playlist.m3u8
 
@@ -13160,9 +13166,6 @@ https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
 
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
-
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -13294,6 +13297,9 @@ https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
 
 #EXTINF:-1 tvg-name="RTC Quarta Rete" tvg-logo="https://i.imgur.com/rFGA6qL.png" tvg-id="rtcquartarete" group-title="Italy",RTC Quarta Rete
 https://msh0232.stream.seeweb.it/live/stream00.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-name="RTC Telecalabria" tvg-logo="https://i.imgur.com/tTYLcuh.jpg" tvg-id="rtctelecalabria" group-title="Italy",RTC Telecalabria
+https://w1.mediastreaming.it/calabriachannel/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RTI Calabria" tvg-logo="https://i.imgur.com/hVzEvmo.jpg" tvg-id="rticalabria" group-title="Italy",RTI Calabria
 https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8
@@ -21119,9 +21125,6 @@ https://www.youtube.com/@LtvuSeTube/live
 #EXTINF:-1 tvg-name="Aryen TV" tvg-logo="https://i.imgur.com/qUg7edz.png" tvg-id="aryentv" group-title="Sweden",Aryen TV
 https://aryen.tv/live/tv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Suryoyo Sat" tvg-logo="https://i.imgur.com/naCNjaB.png" tvg-id="suryoyosat" group-title="Sweden",Suryoyo Sat
-https://player-api.new.livestream.com/accounts/10187302/events/6785118/broadcasts/237816618.secure.m3u8
-
 #EXTINF:-1 tvg-name="ATG (432p)" tvg-logo="https://i.imgur.com/5CdW62M.png" tvg-id="atg" group-title="Sweden",ATG (432p)
 https://httpcache0-00688-cacheliveedge0.dna.qbrick.com/00688-cacheliveedge0/out/u/atg_sdi_1_free.m3u8
 
@@ -22423,9 +22426,6 @@ http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklis
 
 #EXTINF:-1 tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" tvg-id="trtworld" group-title="Uk",TRT World
 https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8
-
-#EXTINF:-1 tvg-name="SportyStuff TV" tvg-logo="https://i.imgur.com/uIgxHSY.png" tvg-id="sportystufftv" group-title="Uk",SportyStuff TV
-https://cdn.rtmp1.vodhosting.com/hls/SportyStuffTV.m3u8
 
 #EXTINF:-1 tvg-name="4Music Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/49/4Music_logo_2018.svg/512px-4Music_logo_2018.svg.png" tvg-id="4music" group-title="Uk",4Music Ⓖ
 https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?spotxc1=195996&spotxc2=190878&yo.up=https://boxtv.secure.footprint.net/boxhits/
