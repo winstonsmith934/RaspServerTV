@@ -200,6 +200,9 @@ https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Fano Tv" tvg-logo="https://i.imgur.com/orqEzJ6.png" tvg-id="fanotv" group-title="Italy",Fano Tv
+https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8
+
 #EXTINF:-1 tvg-name="Fascino Tv" tvg-logo="https://i.imgur.com/4XYYY5B.png" tvg-id="fascinotv" group-title="Italy",Fascino Tv
 https://5f22d76e220e1.streamlock.net/canale157/canale157/playlist.m3u8
 
@@ -322,9 +325,6 @@ https://64b16f23efbee.streamlock.net/telesudtrapani/telesudtrapani/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tuscia Sabina 2000Tv" tvg-logo="https://i.imgur.com/Tq5nEAy.png" tvg-id="tusciasabina2000tv" group-title="Italy",Tuscia Sabina 2000Tv
 http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8
-
-#EXTINF:-1 tvg-name="Tv Luna Napoli" tvg-logo="https://i.imgur.com/jxhuoyE.png" tvg-id="tvlunanapoli" group-title="Italy",Tv Luna Napoli
-https://diretta.arcapuglia.it:8080/live/teleluna/index.m3u8
 
 #EXTINF:-1 tvg-name="Tvm Palermo" tvg-logo="https://i.imgur.com/uqOdAXB.png" tvg-id="tvmpalermo" group-title="Italy",Tvm Palermo
 https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8
@@ -541,6 +541,9 @@ http://as-hls-uk-live.akamaized.net/pool_904/live/uk/bbc_radio_five_live_sports_
 
 #EXTINF:-1 tvg-name="BBC Asian Network" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcasiannet-epg.png" tvg-id="bbcasiannetwork" group-title="Uk",BBC Asian Network
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d96000.norewind.m3u8
+
+#EXTINF:-1 tvg-name="Telekanal RAI" tvg-logo="https://i.imgur.com/Ouv51WB.png" tvg-id="telekanalrai" group-title="Ukraine",Telekanal RAI
+https://stream.rai.ua/rai/stream.m3u8
 
 #EXTINF:-1 tvg-name="TV7+" tvg-logo="https://i.imgur.com/PcTDZ8e.png" tvg-id="tv7" group-title="Ukraine",TV7+
 https://tv7plus.com/hls/tv7_site.m3u8
