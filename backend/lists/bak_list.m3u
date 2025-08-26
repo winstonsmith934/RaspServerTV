@@ -1718,9 +1718,6 @@ http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="AZTV Ⓢ" tvg-logo="https://i.imgur.com/snBMMeH.png" tvg-id="aztv" group-title="Azerbaijan",AZTV Ⓢ
 https://www.tvkaista.net/stream-forwarder/get.php?x=AZTV
 
-#EXTINF:-1 tvg-name="CBC" tvg-logo="https://i.imgur.com/wVT0dwO.png" tvg-id="cbc" group-title="Azerbaijan",CBC
-https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8
-
 #EXTINF:-1 tvg-name="CBC Sport Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/az/0/04/CBC_Sport_TV_loqo.png" tvg-id="cbcsport" group-title="Azerbaijan",CBC Sport Ⓖ
 https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
 
@@ -4264,6 +4261,9 @@ https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 tvg-name="Canal 13" tvg-logo="https://i.imgur.com/JIo1HBs.png" tvg-id="canal13" group-title="Chile",Canal 13
 https://sktv-forwarders.7m.pl/get.php?x=Canal13
+
+#EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
+https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
 
 #EXTINF:-1 tvg-name="Chilevisión Ⓖ" tvg-logo="https://i.imgur.com/2Pu8yXf.png" tvg-id="chilevisin" group-title="Chile",Chilevisión Ⓖ
 https://sktv-forwarders.7m.pl/get.php?x=Chilevision
@@ -14870,6 +14870,9 @@ https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="СТС International" tvg-logo="https://i.imgur.com/mwiC0RG.png" tvg-id="international" group-title="Iran",СТС International
 https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
 
+#EXTINF:-1 tvg-name="Al-Iraqiya" tvg-logo="https://i.imgur.com/imdV6kL.png" tvg-id="aliraqiya" group-title="Iraq",Al-Iraqiya
+https://cdn.catiacast.video/abr/8d2ffb0aba244e8d9101a9488a7daa05/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Al-Rafidain" tvg-logo="https://i.imgur.com/D78qG91.png" tvg-id="alrafidain" group-title="Iraq",Al-Rafidain
 https://cdg8.edge.technocdn.com/arrafidaintv/abr_live/playlist.m3u8
 
@@ -22579,9 +22582,6 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/russia1-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="Тольятти 24" tvg-logo="https://i.imgur.com/5jVKopE.png" tvg-id="24" group-title="Russia",Тольятти 24
 https://tvtogliatti24.ru/hls/live1080/index.m3u8
-
-#EXTINF:-1 tvg-name="Якутия 24" tvg-logo="https://i.imgur.com/2BAQklm.png" tvg-id="24" group-title="Russia",Якутия 24
-https://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="360 Новости" tvg-logo="https://i.imgur.com/YXDeX8q.png" tvg-id="360" group-title="Russia",360 Новости
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
