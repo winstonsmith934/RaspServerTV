@@ -5636,6 +5636,9 @@ https://stream.cmctv.hr:49998/cmc/live.m3u8
 #EXTINF:-1 tvg-name="Plava Vinkovačka" tvg-logo="https://i.imgur.com/WJJNtQ3.jpg" tvg-id="plavavinkovaka" group-title="Croatia",Plava Vinkovačka
 https://player-api.new.livestream.com/accounts/26611954/events/7977299/broadcasts/237205435.secure.m3u8
 
+#EXTINF:-1 tvg-name="Televizija Slavonije i Baranje (STV)" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/0/04/STV.PNG" tvg-id="televizijaslavonijeibaranje" group-title="Croatia",Televizija Slavonije i Baranje (STV)
+http://89.201.163.244:8080/hls/hdmi.m3u8
+
 #EXTINF:-1 tvg-name="Osječka televizija (OSTV) Ⓢ" tvg-logo="https://i.imgur.com/o9JgEyG.png" tvg-id="osjekatelevizija" group-title="Croatia",Osječka televizija (OSTV) Ⓢ
 https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcasts/237202062.secure.m3u8
 
@@ -11438,50 +11441,98 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 #EXTINF:-1 tvg-name="СТС International" tvg-logo="https://i.imgur.com/mwiC0RG.png" tvg-id="international" group-title="Germany",СТС International
 https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
 
-#EXTINF:-1 tvg-name="ERT 1" tvg-logo="https://i.imgur.com/WWMe8IY.png" tvg-id="ert1" group-title="Greece",ERT 1
-http://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1medium.m3u8
+#EXTINF:-1 tvg-name="ERT 1 Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/ert1-gr.png" tvg-id="ert1" group-title="Greece",ERT 1 Ⓖ
+https://ertflix.akamaized.net/ertlive/ert1/clrdef24723b/index.m3u8
 
-#EXTINF:-1 tvg-name="ERT 2" tvg-logo="https://i.imgur.com/pcusPFl.png" tvg-id="ert2" group-title="Greece",ERT 2
-http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2medium.m3u8
+#EXTINF:-1 tvg-name="ERT 2 Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/ert2-gr.png" tvg-id="ert2" group-title="Greece",ERT 2 Ⓖ
+https://ertflix-greece.siliconweb.com/mpegts/618618_2341557/master_mpegts.m3u8
 
-#EXTINF:-1 tvg-name="ERT 3" tvg-logo="https://i.imgur.com/KyhzDRm.png" tvg-id="ert3" group-title="Greece",ERT 3
-http://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3medium.m3u8
+#EXTINF:-1 tvg-name="ERT 3 Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/ert3-gr.png" tvg-id="ert3" group-title="Greece",ERT 3 Ⓖ
+https://ertflix-greece.siliconweb.com/mpegts/618618_2341560/master_mpegts.m3u8
 
-#EXTINF:-1 tvg-name="ANT1" tvg-logo="https://i.imgur.com/np0s1FN.png" tvg-id="ant1" group-title="Greece",ANT1
-https://antennalivesp-lh.akamaihd.net/i/live_1@715138/index_800_av-p.m3u8
+#EXTINF:-1 tvg-name="ERT World Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/512px-ChannelLogo-ERTWORLD1.png" tvg-id="ertworld" group-title="Greece",ERT World Ⓖ
+https://ertflix.akamaized.net/ertlive/ertworld/default/index.m3u8
 
-#EXTINF:-1 tvg-name="Star Ⓖ" tvg-logo="https://i.imgur.com/CJOtJlL.png" tvg-id="star" group-title="Greece",Star Ⓖ
-https://livestar.siliconweb.com/media/star1/star1mediumhd.m3u8
+#EXTINF:-1 tvg-name="ANT1 Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/ant1-gr.png" tvg-id="ant1" group-title="Greece",ANT1 Ⓖ
+https://mcdn.antennaplus.gr/live/media0/Ant1/HLS/Ant1.m3u8
+
+#EXTINF:-1 tvg-name="Star Channel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/star-channel-gr.png" tvg-id="starchannel" group-title="Greece",Star Channel
+https://livestar.siliconweb.com/starvod/star4/star4newhd.m3u8
+
+#EXTINF:-1 tvg-name="Star Channel International" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/star-channel-gr.png" tvg-id="starchannelinternational" group-title="Greece",Star Channel International
+https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8
 
 #EXTINF:-1 tvg-name="AlphaTV" tvg-logo="https://i.imgur.com/bAVGX0l.png" tvg-id="alphatv" group-title="Greece",AlphaTV
-https://alphalive-i.akamaihd.net/hls/live/682300/live/master.m3u8
+https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Skai TV" tvg-logo="https://i.imgur.com/TSg7B8X.png" tvg-id="skaitv" group-title="Greece",Skai TV
+#EXTINF:-1 tvg-name="Skai TV Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/skai-tv-gr.png" tvg-id="skaitv" group-title="Greece",Skai TV Ⓖ
 https://skai-live.siliconweb.com/media/cambria4/index.m3u8
 
-#EXTINF:-1 tvg-name="Kontra" tvg-logo="https://i.imgur.com/zMgczHY.png" tvg-id="kontra" group-title="Greece",Kontra
-http://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
+#EXTINF:-1 tvg-name="Open TV Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/open-tv-gr.png" tvg-id="opentv" group-title="Greece",Open TV Ⓖ
+https://liveopen.siliconweb.com/openTvLive/liveopen/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ERT World" tvg-logo="https://i.imgur.com/RwrQKns.png" tvg-id="ertworld" group-title="Greece",ERT World
-http://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_worldmedium.m3u8
+#EXTINF:-1 tvg-name="Makedonia TV Ⓖ" tvg-logo="https://i.imgur.com/6Ir6wcR.png" tvg-id="makedoniatv" group-title="Greece",Makedonia TV Ⓖ
+https://mcdn.antennaplus.gr/live/media0/MAK/HLS/MAK.m3u8
 
-#EXTINF:-1 tvg-name="ERT Sports 1" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports1" group-title="Greece",ERT Sports 1
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports/ert_sports.m3u8
+#EXTINF:-1 tvg-name="Mega" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/mega-channel-gr.png" tvg-id="mega" group-title="Greece",Mega
+http://85.11.144.9:6651/tet
 
-#EXTINF:-1 tvg-name="ERT Sports 2" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports2" group-title="Greece",ERT Sports 2
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_2/ert_sports_2medium.m3u8
+#EXTINF:-1 tvg-name="Mega News" tvg-logo="https://i.imgur.com/Z3k7iA0.png" tvg-id="meganews" group-title="Greece",Mega News
+https://c98db5952cb54b358365984178fb898a.msvdn.net/live/S99841657/NU0xOarAMJ5X/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ERT Sports 3" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports3" group-title="Greece",ERT Sports 3
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3medium.m3u8
+#EXTINF:-1 tvg-name="Vouli Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/vouli-tv-gr.png" tvg-id="vouli" group-title="Greece",Vouli Ⓖ
+https://ertflix.akamaized.net/ertlive/vouli/default/index.m3u8
 
-#EXTINF:-1 tvg-name="ERT Sports 4" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports4" group-title="Greece",ERT Sports 4
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4medium.m3u8
+#EXTINF:-1 tvg-name="PANIK TV Ⓖ" tvg-logo="https://i.imgur.com/13C3CPr.png" tvg-id="paniktv" group-title="Greece",PANIK TV Ⓖ
+https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ERT Sports 5" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports5" group-title="Greece",ERT Sports 5
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5medium.m3u8
+#EXTINF:-1 tvg-name="Kontra Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/kontra-channel-gr.png" tvg-id="kontra" group-title="Greece",Kontra Ⓖ
+https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ERT Sports 6" tvg-logo="https://i.imgur.com/gebWmAB.png" tvg-id="ertsports6" group-title="Greece",ERT Sports 6
-http://ert-live-bcbs15228.siliconweb.com/media/ert_sports_6/ert_sports_6medium.m3u8
+#EXTINF:-1 tvg-name="Action 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/Action24-logo-small.png" tvg-id="action24" group-title="Greece",Action 24
+https://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="One Channel Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/37/One_Channel_Logo_2019.png" tvg-id="onechannel" group-title="Greece",One Channel Ⓖ
+https://onechannel.siliconweb.com/one/live_abr/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-name="ATTICA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/attica-tv-gr.png" tvg-id="attica" group-title="Greece",ATTICA
+https://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Blue Sky Ⓖ" tvg-logo="https://i.imgur.com/C9CormG.png" tvg-id="bluesky" group-title="Greece",Blue Sky Ⓖ
+https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Asti Radio Television Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/art-tv_1-gr.png" tvg-id="astiradiotelevision" group-title="Greece",Asti Radio Television Ⓖ
+https://rumble.com/live-hls-dvr/6vluby/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Center TV" tvg-logo="https://i.imgur.com/52JW71Q.png" tvg-id="centertv" group-title="Greece",Center TV
+https://eu1.streams.gr:8081/centertv/index.m3u8
+
+#EXTINF:-1 tvg-name="DION" tvg-logo="https://i.imgur.com/13MverN.png" tvg-id="dion" group-title="Greece",DION
+https://rtmp.win:3650/live/diontvlive.m3u8
+
+#EXTINF:-1 tvg-name="ENA Channel" tvg-logo="https://i.imgur.com/3g3yjAq.png" tvg-id="enachannel" group-title="Greece",ENA Channel
+https://cdn5.smart-tv-data.com/local/ena_channel/playlist.m3u8
+
+#EXTINF:-1 tvg-name="NEA" tvg-logo="https://i.imgur.com/nvNW8G7.png" tvg-id="nea" group-title="Greece",NEA
+https://live.neatv.gr:8888/hls/neatv_high/index.m3u8
+
+#EXTINF:-1 tvg-name="Naftemporiki TV" tvg-logo="https://i.imgur.com/9OFdMud.png" tvg-id="naftemporikitv" group-title="Greece",Naftemporiki TV
+https://stream-188125.castr.net/631af9c016e5eace19ff9a5b/live_048998706a2311ee83b33fe7fbad252d/index.fmp4.m3u8
+
+#EXTINF:-1 tvg-name="Netmax TV" tvg-logo="https://i.imgur.com/dLvRD4k.png" tvg-id="netmaxtv" group-title="Greece",Netmax TV
+https://live.netmaxtv.com:1936/live/live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ERT News Ⓖ" tvg-logo="https://i.imgur.com/pr5anZ1.png" tvg-id="ertnews" group-title="Greece",ERT News Ⓖ
+https://ertflix.akamaized.net/ertlive/ertnews/hls8test/index.m3u8
+
+#EXTINF:-1 tvg-name="ERT Sports 1 Ⓖ" tvg-logo="https://i.imgur.com/EsczO2H.png" tvg-id="ertsports1" group-title="Greece",ERT Sports 1 Ⓖ
+https://ertflix.akamaized.net/ertlive/ertsports1/clrdef24724a/index.m3u8
+
+#EXTINF:-1 tvg-name="ERT Kids Ⓖ" tvg-logo="https://i.imgur.com/XkSR66q.png" tvg-id="ertkids" group-title="Greece",ERT Kids Ⓖ
+https://ertflix.akamaized.net/ertlive/kids/default/index.m3u8
+
+#EXTINF:-1 tvg-name="ERT Music Ⓖ" tvg-logo="https://i.imgur.com/VrKgtfY.png" tvg-id="ertmusic" group-title="Greece",ERT Music Ⓖ
+https://ertflix.akamaized.net/ertlive/music/default/index.m3u8
 
 #EXTINF:-1 tvg-name="Euronews Greek Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsgreek" group-title="Greece",Euronews Greek Ⓨ
 https://www.youtube.com/c/euronewsGreek/live
@@ -15203,7 +15254,7 @@ https://d33zah5htxvoxb.cloudfront.net/el/live/oirtv/hls.m3u8
 #EXTINF:-1 tvg-name="Today FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bf/Today_FM_Logo_2017.jpg" tvg-id="todayfm" group-title="Ireland",Today FM
 https://stream.audioxi.com/TDAAC
 
-#EXTINF:-1 tvg-name="98FM" tvg-logo=" height=" tvg-id="98fm" group-title="Ireland",98FM
+#EXTINF:-1 tvg-name="98FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/98FM_2022.svg/1920px-98FM_2022.svg.png" tvg-id="98fm" group-title="Ireland",98FM
 https://stream.audioxi.com/98
 
 #EXTINF:-1 tvg-name="FM104" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/FM104_logo_tile.png" tvg-id="fm104" group-title="Ireland",FM104
@@ -15713,6 +15764,9 @@ https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 #EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
 https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Euronews Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsitalian" group-title="Italy",Euronews Italian
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b86ea479a4390007c6d5fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -15980,8 +16034,8 @@ https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Maria Vision" tvg-logo="https://i.imgur.com/fdx5YXi.png" tvg-id="mariavision" group-title="Italy",Maria Vision
 https://1601580044.rsc.cdn77.org/live/_jcn_/amls:CHANNEL_2/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
-https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
+#EXTINF:-1 tvg-name="Medjugorje Italia Tv" tvg-logo="https://i.imgur.com/hkZScXf.png" tvg-id="medjugorjeitaliatv" group-title="Italy",Medjugorje Italia Tv
+https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Minformo Tv" tvg-logo="https://i.imgur.com/VJNtnZM.jpg" tvg-id="minformotv" group-title="Italy",Minformo Tv
 https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8
@@ -16140,7 +16194,7 @@ https://w1.mediastreaming.it/calabriachannel/livestream/playlist.m3u8
 https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8
 
 #EXTINF:-1 tvg-name="RTL 102.5 + Plus" tvg-logo="https://i.imgur.com/mPqDtCO.png" tvg-id="rtl1025" group-title="Italy",RTL 102.5 + Plus
-https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S12772175/FmIo5I5kmwTy/playlist_video.m3u8
+https://streamcdng14-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S82929343/cAcsSu4Wecc5/chunklist_b5256000.m3u8
 
 #EXTINF:-1 tvg-name="RTM Manduria" tvg-logo="https://i.imgur.com/WwzU0EP.png" tvg-id="rtmmanduria" group-title="Italy",RTM Manduria
 https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8
@@ -16315,9 +16369,6 @@ https://932y4273djv8-hls-live.mariatvcdn.it/teleradiopace3/d2274c22e9ee09eb2eda0
 
 #EXTINF:-1 tvg-name="Tele Radio Pace 4" tvg-logo="https://i.imgur.com/KPHHsN5.png" tvg-id="teleradiopace4" group-title="Italy",Tele Radio Pace 4
 https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Tele Radio Sciacca" tvg-logo="https://i.imgur.com/suhz5mE.png" tvg-id="teleradiosciacca" group-title="Italy",Tele Radio Sciacca
-https://5db313b643fd8.streamlock.net/teleradiosciaccatv/teleradiosciaccatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Sirio" tvg-logo="https://i.imgur.com/mDN6QX1.png" tvg-id="telesirio" group-title="Italy",Tele Sirio
 https://www.telesirio.it/live/stream.m3u8
@@ -16508,9 +16559,6 @@ https://5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Colonna Tv Ⓨ" tvg-logo="https://i.imgur.com/EcQvDfq.png" tvg-id="radiocolonnatv" group-title="Italy",Radio Colonna Tv Ⓨ
 https://www.youtube.com/radiocolonna/live
 
-#EXTINF:-1 tvg-name="Euronews Italian Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsitalian" group-title="Italy",Euronews Italian Ⓨ
-https://www.youtube.com/user/euronewsit/live
-
 #EXTINF:-1 tvg-name="TRM h24 Ⓨ" tvg-logo="https://i.imgur.com/d47CdYU.png" tvg-id="trmh24" group-title="Italy",TRM h24 Ⓨ
 https://www.youtube.com/user/trmh24/live
 
@@ -16529,22 +16577,22 @@ https://www.twitch.tv/teleradiostereo
 #EXTINF:-1 tvg-name="NHK総合 (東京)" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" tvg-id="nhk" group-title="Japan",NHK総合 (東京)
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS291&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="NHK Eテレ　（東京）" tvg-logo="https://i.imgur.com/WxtftlO.png" tvg-id="nhke" group-title="Japan",NHK Eテレ　（東京）
+#EXTINF:-1 tvg-name="NHK Eテレ（東京）" tvg-logo="https://i.imgur.com/WxtftlO.png" tvg-id="nhke" group-title="Japan",NHK Eテレ（東京）
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS292&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="日本テレビ" tvg-logo="https://i.imgur.com/IxD8V5X.png" tvg-id="" group-title="Japan",日本テレビ
+#EXTINF:-1 tvg-name="日本テレビ" tvg-logo="https://i.imgur.com/ecbM7QS.png" tvg-id="" group-title="Japan",日本テレビ
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS294&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="テレビ朝日" tvg-logo="https://i.imgur.com/rls8NVc.png" tvg-id="" group-title="Japan",テレビ朝日
+#EXTINF:-1 tvg-name="テレビ朝日" tvg-logo="https://i.imgur.com/5XnMfcR.png" tvg-id="" group-title="Japan",テレビ朝日
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS295&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="TBSテレビ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/1200px-Tokyo_Broadcasting_System_logo_2020.svg.png" tvg-id="tbs" group-title="Japan",TBSテレビ
+#EXTINF:-1 tvg-name="TBSテレビ" tvg-logo="https://i.imgur.com/jIZ9TlO.png" tvg-id="tbs" group-title="Japan",TBSテレビ
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS296&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="テレビ東京" tvg-logo="https://i.imgur.com/tDyxk0Y.png" tvg-id="" group-title="Japan",テレビ東京
+#EXTINF:-1 tvg-name="テレビ東京" tvg-logo="https://i.imgur.com/U8jBxEi.png" tvg-id="" group-title="Japan",テレビ東京
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS297&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="フジテレビ" tvg-logo="https://i.imgur.com/sEWDmMD.png" tvg-id="" group-title="Japan",フジテレビ
+#EXTINF:-1 tvg-name="フジテレビ" tvg-logo="https://i.imgur.com/epJYc7P.png" tvg-id="" group-title="Japan",フジテレビ
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS298&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
 #EXTINF:-1 tvg-name="NHK BS" tvg-logo="https://i.imgur.com/t0uZcSR.png" tvg-id="nhkbs" group-title="Japan",NHK BS
@@ -16553,19 +16601,19 @@ https://stream01.willfonk.com/live_playlist.m3u8?cid=BS101&r=FHD&ccode=JP&m=d0:2
 #EXTINF:-1 tvg-name="NHK BSP4K" tvg-logo="https://i.imgur.com/uvPpFo5.png" tvg-id="nhkbsp4k" group-title="Japan",NHK BSP4K
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS103&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="BS日テレ" tvg-logo="https://i.imgur.com/D8lhZCI.png" tvg-id="bs" group-title="Japan",BS日テレ
+#EXTINF:-1 tvg-name="BS日テレ" tvg-logo="https://i.imgur.com/26ATUNc.png" tvg-id="bs" group-title="Japan",BS日テレ
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS141&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="BS朝日" tvg-logo="https://i.imgur.com/huXFL3A.png" tvg-id="bs" group-title="Japan",BS朝日
+#EXTINF:-1 tvg-name="BS朝日" tvg-logo="https://i.imgur.com/Cl68ZMA.png" tvg-id="bs" group-title="Japan",BS朝日
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS151&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="BS-TBS" tvg-logo="https://i.imgur.com/h20eGKq.png" tvg-id="bstbs" group-title="Japan",BS-TBS
+#EXTINF:-1 tvg-name="BS-TBS" tvg-logo="https://i.imgur.com/BSt9UG2.png" tvg-id="bstbs" group-title="Japan",BS-TBS
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS161&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="BSテレ東" tvg-logo="https://i.imgur.com/yJfA6ak.png" tvg-id="bs" group-title="Japan",BSテレ東
+#EXTINF:-1 tvg-name="BSテレ東" tvg-logo="https://i.imgur.com/LsQlNcz.png" tvg-id="bs" group-title="Japan",BSテレ東
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS171&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="BSフジ" tvg-logo="https://i.imgur.com/aDdwjjc.png" tvg-id="bs" group-title="Japan",BSフジ
+#EXTINF:-1 tvg-name="BSフジ" tvg-logo="https://i.imgur.com/N4xeDxJ.png" tvg-id="bs" group-title="Japan",BSフジ
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS181&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
 #EXTINF:-1 tvg-name="WOWOWプライム" tvg-logo="https://www.lyngsat.com/logo/tv/ww/wowow_prime.png" tvg-id="wowow" group-title="Japan",WOWOWプライム
@@ -16574,13 +16622,16 @@ https://stream01.willfonk.com/live_playlist.m3u8?cid=BS191&r=FHD&ccode=JP&m=d0:2
 #EXTINF:-1 tvg-name="WOWOWライブ" tvg-logo="https://www.lyngsat.com/logo/tv/ww/wowow_live.png" tvg-id="wowow" group-title="Japan",WOWOWライブ
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS192&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="BS10" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Japan_BS10_logo.svg/250px-Japan_BS10_logo.svg.png" tvg-id="bs10" group-title="Japan",BS10
+#EXTINF:-1 tvg-name="WOWOWシネマ" tvg-logo="https://www.lyngsat.com/logo/tv/ww/wowow_cinema.png" tvg-id="wowow" group-title="Japan",WOWOWシネマ
+https://stream01.willfonk.com/live_playlist.m3u8?cid=BS193&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="BS10" tvg-logo="https://i.imgur.com/KPZiuHl.png" tvg-id="bs10" group-title="Japan",BS10
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS263&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
 #EXTINF:-1 tvg-name="BS10スターチャンネル" tvg-logo="https://i.imgur.com/SN0ED0U.png" tvg-id="bs10" group-title="Japan",BS10スターチャンネル
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS200&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="アニマックス" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Animax.svg/1920px-Animax.svg.png" tvg-id="" group-title="Japan",アニマックス
+#EXTINF:-1 tvg-name="アニマックス" tvg-logo="https://i.imgur.com/jO0qUvj.png" tvg-id="" group-title="Japan",アニマックス
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS236&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
 #EXTINF:-1 tvg-name="J SPORTS 1" tvg-logo="https://www.starcat.co.jp/ch/upload/channel/69/jsports1_logo.jpg" tvg-id="jsports1" group-title="Japan",J SPORTS 1
@@ -16595,26 +16646,89 @@ https://stream01.willfonk.com/live_playlist.m3u8?cid=BS244&r=FHD&ccode=JP&m=d0:2
 #EXTINF:-1 tvg-name="J SPORTS 4" tvg-logo="https://www.starcat.co.jp/ch/upload/channel/74/jsports4_logo.jpg" tvg-id="jsports4" group-title="Japan",J SPORTS 4
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS245&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="釣りビジョン" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/tsuri_vision.png" tvg-id="" group-title="Japan",釣りビジョン
+#EXTINF:-1 tvg-name="釣りビジョン" tvg-logo="https://i.imgur.com/Yc7JvSK.png" tvg-id="" group-title="Japan",釣りビジョン
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS251&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="日本映画専門チャンネル" tvg-logo="https://i.imgur.com/wTJ1yQk.png" tvg-id="" group-title="Japan",日本映画専門チャンネル
+#EXTINF:-1 tvg-name="日本映画専門チャンネル" tvg-logo="https://i.imgur.com/HdC3Hdc.png" tvg-id="" group-title="Japan",日本映画専門チャンネル
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS255&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-#EXTINF:-1 tvg-name="ショップチャンネル" tvg-logo="https://i.imgur.com/GTyQhBF.png" tvg-id="" group-title="Japan",ショップチャンネル
+#EXTINF:-1 tvg-name="ショップチャンネル" tvg-logo="https://i.imgur.com/CCMAF7W.png" tvg-id="" group-title="Japan",ショップチャンネル
 https://stream3.shopch.jp/HLS/master.m3u8
 
-#EXTINF:-1 tvg-name="QVC" tvg-logo="https://i.imgur.com/xWSzQ34.png" tvg-id="qvc" group-title="Japan",QVC
+#EXTINF:-1 tvg-name="QVC" tvg-logo="https://i.imgur.com/FznYA39.png" tvg-id="qvc" group-title="Japan",QVC
 https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
 
-#EXTINF:-1 tvg-name="日テレNEWS24" tvg-logo="https://i.imgur.com/Wfu61ZU.png" tvg-id="news24" group-title="Japan",日テレNEWS24
+#EXTINF:-1 tvg-name="東映チャンネル" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/toei_channel.png" tvg-id="" group-title="Japan",東映チャンネル
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS218&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="チャンネルNECO" tvg-logo="https://www.lyngsat-logo.com/logo/tv/cc/channel-neco-jp.png" tvg-id="neco" group-title="Japan",チャンネルNECO
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS223&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="ムービープラス" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/movie_plus_jp.png" tvg-id="" group-title="Japan",ムービープラス
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS240&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="GAORA" tvg-logo="https://i.imgur.com/Myh0PWD.png" tvg-id="gaora" group-title="Japan",GAORA
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS254&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="日テレジータス" tvg-logo="https://i.imgur.com/xq1VG0E.png" tvg-id="" group-title="Japan",日テレジータス
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS257&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="ゴルフネットワーク" tvg-logo="https://i.imgur.com/EVd8Vvp.png" tvg-id="" group-title="Japan",ゴルフネットワーク
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS262&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="時代劇専門チャンネル" tvg-logo="https://www.lyngsat-logo.com/logo/tv/jj/jidaigeki.png" tvg-id="" group-title="Japan",時代劇専門チャンネル
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS292&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="ファミリー劇場" tvg-logo="https://i.postimg.cc/k5fXKzj3/o023302751417597653027.jpg" tvg-id="" group-title="Japan",ファミリー劇場
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS293&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="ホームドラマチャンネル" tvg-logo="https://www.lyngsat-logo.com/logo/tv/hh/home-drama-channelpng-jp.png" tvg-id="" group-title="Japan",ホームドラマチャンネル
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS294&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="チャンネル銀河" tvg-logo="https://www.lyngsat-logo.com/logo/tv/cc/channel_ginga.png" tvg-id="" group-title="Japan",チャンネル銀河
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS305&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="スーパー！ドラマTV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/super_drama_tv.png" tvg-id="tv" group-title="Japan",スーパー！ドラマTV
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS310&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="アクションチャンネル" tvg-logo="https://i.imgur.com/K0YyPwC.png" tvg-id="" group-title="Japan",アクションチャンネル
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS311&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="Dlife" tvg-logo="https://i.imgur.com/6gJZHPv.png" tvg-id="dlife" group-title="Japan",Dlife
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS312&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="LaLa TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/lala_tv.png" tvg-id="lalatv" group-title="Japan",LaLa TV
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS314&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="Mnet" tvg-logo="https://www.lyngsat.com/logo/tv/mm/m_net_jp.png" tvg-id="mnet" group-title="Japan",Mnet
+https://stream01.willfonk.com/live_playlist.m3u8?cid=BS241&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="Music ON TV!（エムオン）" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/music_on_tv.png" tvg-id="musicontv" group-title="Japan",Music ON TV!（エムオン）
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS325&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="歌謡ポップスチャンネル" tvg-logo="https://www.lyngsat-logo.com/logo/tv/kk/kayo-pops-jp.png" tvg-id="" group-title="Japan",歌謡ポップスチャンネル
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS329&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="キッズステーション" tvg-logo="https://www.lyngsat-logo.com/logo/tv/kk/kidsstation.png" tvg-id="" group-title="Japan",キッズステーション
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS330&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="日テレNEWS24" tvg-logo="https://i.imgur.com/jtSYegn.png" tvg-id="news24" group-title="Japan",日テレNEWS24
 https://stream01.willfonk.com/live_playlist.m3u8?cid=CS349&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1 tvg-name="囲碁・将棋チャンネル" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ii/igoshogi.png" tvg-id="" group-title="Japan",囲碁・将棋チャンネル
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS363&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
 #EXTINF:-1 tvg-name="GSTV" tvg-logo="https://i.imgur.com/ECnVG5I.png" tvg-id="gstv" group-title="Japan",GSTV
 https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
 
-#EXTINF:-1 tvg-name="NHK WORLD JAPAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" tvg-id="nhkworldjapan" group-title="Japan",NHK WORLD JAPAN
+#EXTINF:-1 tvg-name="NHK WORLD JAPAN" tvg-logo="https://i.imgur.com/Mhw1Ihk.png" tvg-id="nhkworldjapan" group-title="Japan",NHK WORLD JAPAN
 https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
+
+#EXTINF:-1 tvg-name="ウェザーニュースLiVE" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/106_whethernews.png" tvg-id="live" group-title="Japan",ウェザーニュースLiVE
+https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
+
+#EXTINF:-1 tvg-name="TOKYO MX チャンネル" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/108_mx.png" tvg-id="tokyomx" group-title="Japan",TOKYO MX チャンネル
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-tokyomx-cmaf-rakutenjp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="3ABN International" tvg-logo="https://i.imgur.com/8YMLPA3.png" tvg-id="3abninternational" group-title="Japan",3ABN International
 https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8
@@ -25094,9 +25208,6 @@ https://ingest1-video.streaming-pro.com/esportsteABR/etestream/playlist.m3u8
 #EXTINF:-1 tvg-name="À Punt TV" tvg-logo="https://i.imgur.com/M88LoNl.png" tvg-id="punttv" group-title="Spain",À Punt TV
 https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="7 Región de Murcia Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/150px-La_7_logo.svg.png" tvg-id="7regindemurcia" group-title="Spain",7 Región de Murcia Ⓢ
-https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Televisión Melilla" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/television-melilla-es.png" tvg-id="televisinmelilla" group-title="Spain",Televisión Melilla
 https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8
 
@@ -28920,7 +29031,7 @@ https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
 
 #EXTINF:-1 tvg-name="Buzzr Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/768px-Buzzr_logo.svg.png" tvg-id="buzzr" group-title="Usa",Buzzr Ⓖ
-https://buzzrota-web.amagi.tv/playlist480.m3u8
+https://buzzrota-ono.amagi.tv/playlist1080.m3u8
 
 #EXTINF:-1 tvg-name="Retro TV" tvg-logo="https://i.imgur.com/PNTYOgg.png" tvg-id="retrotv" group-title="Usa",Retro TV
 https://bcovlive-a.akamaihd.net/5e531be3ed6c41229b2af2d9bffba88d/us-east-1/6183977686001/profile_1/chunklist.m3u8
@@ -33025,6 +33136,9 @@ https://setp-televen-ssai-mslv4-open.akamaized.net/hls/live/2107128/televen/inde
 
 #EXTINF:-1 tvg-name="Telesur" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/TeleSUR.png" tvg-id="telesur" group-title="Venezuela",Telesur
 https://raw.githubusercontent.com/BellezaEmporium/IPTV_Exception/master/channels/ve/telesur.m3u8
+
+#EXTINF:-1 tvg-name="Latina TV" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="latinatv" group-title="Venezuela",Latina TV
+https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 
 #EXTINF:-1 tvg-name="3ABN International" tvg-logo="https://i.imgur.com/8YMLPA3.png" tvg-id="3abninternational" group-title="Venezuela",3ABN International
 https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8
