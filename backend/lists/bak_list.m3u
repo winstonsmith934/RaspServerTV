@@ -5978,6 +5978,9 @@ https://eu1.streams.gr:8081/centertv/index.m3u8
 #EXTINF:-1 tvg-name="DION" tvg-logo="https://i.imgur.com/13MverN.png" tvg-id="dion" group-title="Greece",DION
 https://rtmp.win:3650/live/diontvlive.m3u8
 
+#EXTINF:-1 tvg-name="ENA Channel" tvg-logo="https://i.imgur.com/3g3yjAq.png" tvg-id="enachannel" group-title="Greece",ENA Channel
+https://cdn5.smart-tv-data.com/local/ena_channel/playlist.m3u8
+
 #EXTINF:-1 tvg-name="NEA" tvg-logo="https://i.imgur.com/nvNW8G7.png" tvg-id="nea" group-title="Greece",NEA
 https://live.neatv.gr:8888/hls/neatv_high/index.m3u8
 
@@ -9035,9 +9038,6 @@ https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name="Giovanni Paolo Tv" tvg-logo="https://i.imgur.com/GH5eJE6.png" tvg-id="giovannipaolotv" group-title="Italy",Giovanni Paolo Tv
 https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8
 
-#EXTINF:-1 tvg-name="Globus Television" tvg-logo="https://i.imgur.com/yUTYqCv.png" tvg-id="globustelevision" group-title="Italy",Globus Television
-https://cdn.cubws.com/live/globus.m3u8
-
 #EXTINF:-1 tvg-name="Gold Tv" tvg-logo="https://i.imgur.com/3rVi4kD.png" tvg-id="goldtv" group-title="Italy",Gold Tv
 https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8
 
@@ -9523,6 +9523,9 @@ https://57068da1deb21.streamlock.net/teletibur/teletibur/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telesveva" tvg-logo="https://i.imgur.com/SCDETZC.jpeg" tvg-id="telesveva" group-title="Italy",Telesveva
 https://dc3.telesveva.com:4433/cmaf/livetv/index.mpd
+
+#EXTINF:-1 tvg-name="Teleuniverso" tvg-logo="https://i.imgur.com/u8E9wBb.png" tvg-id="teleuniverso" group-title="Italy",Teleuniverso
+https://stream.ets-sistemi.it:19360/teleuniverso/teleuniverso.m3u8
 
 #EXTINF:-1 tvg-name="Televallo Trapani" tvg-logo="https://i.imgur.com/P6zuiRH.png" tvg-id="televallotrapani" group-title="Italy",Televallo Trapani
 https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8
@@ -11011,9 +11014,6 @@ http://151.236.247.171:8080/nova/index.m3u8
 
 #EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
 https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
-
-#EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
-https://zonam1.ddns.net/hls/stream1.m3u8
 
 #EXTINF:-1 tvg-name="Love TV" tvg-logo="https://i.imgur.com/B8iaejQ.png" tvg-id="lovetv" group-title="North_macedonia",Love TV
 https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
