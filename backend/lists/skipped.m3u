@@ -107,6 +107,9 @@ http://l6.cloudskep.com/tvb6/rik2-1/mpeg.2ts
 #EXTINF:-1 tvg-name="RIK HD" tvg-logo="https://upload.wikimedia.org/wikipedia/el/7/7d/RIKHD2.png" tvg-id="rik" group-title="Cyprus",RIK HD
 http://l6.cloudskep.com/tvb6/rikhd1/mpeg.2ts
 
+#EXTINF:-1 tvg-name="RIK Sat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Logo_RIK_Sat_2017.svg/640px-Logo_RIK_Sat_2017.svg.png" tvg-id="riksat" group-title="Cyprus",RIK Sat
+https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Šlágr Originál Ⓢ" tvg-logo="https://i.imgur.com/fQcx9S2.png" tvg-id="lgroriginl" group-title="Czech_republic",Šlágr Originál Ⓢ
 https://stream-6.mazana.tv/slagr.m3u
 
@@ -121,9 +124,6 @@ https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Asti Radio Television Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/art-tv_1-gr.png" tvg-id="astiradiotelevision" group-title="Greece",Asti Radio Television Ⓖ
 https://rumble.com/live-hls-dvr/6vluby/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Netmax TV" tvg-logo="https://i.imgur.com/dLvRD4k.png" tvg-id="netmaxtv" group-title="Greece",Netmax TV
-https://live.netmaxtv.com:1936/live/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Dance TV" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="dancetv" group-title="Hungary",Dance TV
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
@@ -335,9 +335,6 @@ https://64b16f23efbee.streamlock.net/telesudtrapani/telesudtrapani/playlist.m3u8
 #EXTINF:-1 tvg-name="Tvm Palermo" tvg-logo="https://i.imgur.com/uqOdAXB.png" tvg-id="tvmpalermo" group-title="Italy",Tvm Palermo
 https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Umbria Tv" tvg-logo="https://i.imgur.com/XKCVEmK.png" tvg-id="umbriatv" group-title="Italy",Umbria Tv
-https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Uno Tv" tvg-logo="https://i.imgur.com/4PNbqqL.png" tvg-id="unotv" group-title="Italy",Uno Tv
 https://stream1.aswifi.it/unotv/live/index.m3u8
 
@@ -400,12 +397,6 @@ https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
 
 #EXTINF:-1 tvg-name="Rock TV" tvg-logo="https://i.imgur.com/Y9miDQo.png" tvg-id="rocktv" group-title="North_macedonia",Rock TV
 https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
-
-#EXTINF:-1 tvg-name="Folk Club TV" tvg-logo="https://i.imgur.com/vkGFSl8.png" tvg-id="folkclubtv" group-title="North_macedonia",Folk Club TV
-http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
-
-#EXTINF:-1 tvg-name="INTV" tvg-logo="https://i.imgur.com/K7BSjqY.png" tvg-id="intv" group-title="North_macedonia",INTV
-http://tv1.intv.mk:1935/live/intv/index.m3u8
 
 #EXTINF:-1 tvg-name="Unicanal" tvg-logo="https://i.imgur.com/brlepuX.png" tvg-id="unicanal" group-title="Paraguay",Unicanal
 http://45.55.127.106/live/unicanal.m3u8
