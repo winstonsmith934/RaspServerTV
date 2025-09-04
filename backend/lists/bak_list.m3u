@@ -3008,9 +3008,6 @@ http://185.62.75.22:1935/trend/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Nova (720p)" tvg-logo="https://i.imgur.com/gFjJ7YB.png" tvg-id="tvnova" group-title="Croatia",TV Nova (720p)
 https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 
-#EXTINF:-1 tvg-name="RIK Sat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Logo_RIK_Sat_2017.svg/640px-Logo_RIK_Sat_2017.svg.png" tvg-id="riksat" group-title="Cyprus",RIK Sat
-https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
-
 #EXTINF:-1 tvg-name="BRT 1" tvg-logo="https://i.imgur.com/gOPAi2c.png" tvg-id="brt1" group-title="Cyprus",BRT 1
 https://sc-kuzeykibrissmarttv.ercdn.net/brt1hd/bant1/playlist.m3u8
 
@@ -6499,6 +6496,9 @@ https://stream-188125.castr.net/631af9c016e5eace19ff9a5b/live_048998706a2311ee83
 
 #EXTINF:-1 tvg-name="TV 100" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/tv-100-gr.png" tvg-id="tv100" group-title="Greece",TV 100
 https://panel.gwebstream.eu:19360/tv100skg/tv100skg.m3u8
+
+#EXTINF:-1 tvg-name="Netmax TV" tvg-logo="https://i.imgur.com/dLvRD4k.png" tvg-id="netmaxtv" group-title="Greece",Netmax TV
+https://live.netmaxtv.com:1936/live/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ERT News Ⓖ" tvg-logo="https://i.imgur.com/pr5anZ1.png" tvg-id="ertnews" group-title="Greece",ERT News Ⓖ
 https://ertflix.akamaized.net/ertlive/ertnews/hls8test/index.m3u8
@@ -10334,6 +10334,9 @@ https://cdn8.streamshow.it/cloud-tvrs/tvrs/playlist.m3u8
 #EXTINF:-1 tvg-name="Umbria+ TRT" tvg-logo="https://i.imgur.com/CU6BBgs.png" tvg-id="umbriatrt" group-title="Italy",Umbria+ TRT
 https://diretta.teleterni.it:8080//show/show.m3u8
 
+#EXTINF:-1 tvg-name="Umbria Tv" tvg-logo="https://i.imgur.com/XKCVEmK.png" tvg-id="umbriatv" group-title="Italy",Umbria Tv
+https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Uno4 Tv" tvg-logo="https://i.imgur.com/wfPPpBA.png" tvg-id="uno4tv" group-title="Italy",Uno4 Tv
 https://cdn.uno4.it/index.m3u8
 
@@ -11818,6 +11821,12 @@ https://skyfolk.mk/live.m3u8
 
 #EXTINF:-1 tvg-name="Хуго 2" tvg-logo="https://i.imgur.com/yb3xjOZ.png" tvg-id="2" group-title="North_macedonia",Хуго 2
 http://fta.hugo.mk:1935/live/tvhugo/stream/2.m3u8
+
+#EXTINF:-1 tvg-name="Folk Club TV" tvg-logo="https://i.imgur.com/vkGFSl8.png" tvg-id="folkclubtv" group-title="North_macedonia",Folk Club TV
+http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
+
+#EXTINF:-1 tvg-name="INTV" tvg-logo="https://i.imgur.com/K7BSjqY.png" tvg-id="intv" group-title="North_macedonia",INTV
+http://tv1.intv.mk:1935/live/intv/index.m3u8
 
 #EXTINF:-1 tvg-name="Macedonian Documentary Channel" tvg-logo="https://i.imgur.com/uYyG2oA.png" tvg-id="macedoniandocumentarychannel" group-title="North_macedonia",Macedonian Documentary Channel
 https://giganet.mk/hls/macdoc.m3u8
