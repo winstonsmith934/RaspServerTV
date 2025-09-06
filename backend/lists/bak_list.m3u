@@ -1079,7 +1079,7 @@ https://stream.rtvze.ba/live/123/123.m3u8
 #EXTINF:-1 tvg-name="Sehara TV (720p)" tvg-logo="https://i.imgur.com/189FW4H.png" tvg-id="seharatv" group-title="Bosnia_and_herzegovina",Sehara TV (720p)
 http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Super TV Media (720p)" tvg-logo="https://i.postimg.cc/7P791Q0M/supertv.png" tvg-id="supertvmedia" group-title="Bosnia_and_herzegovina",Super TV Media (720p)
+#EXTINF:-1 tvg-name="Super TV Media (720p)" tvg-logo="https://i.imgur.com/XYWgd3E.png" tvg-id="supertvmedia" group-title="Bosnia_and_herzegovina",Super TV Media (720p)
 https://mirtv.club/live/mirtv/index.m3u8
 
 #EXTINF:-1 tvg-name="Televizija 5 (576p)" tvg-logo="https://i.imgur.com/znpvJys.png" tvg-id="televizija5" group-title="Bosnia_and_herzegovina",Televizija 5 (576p)
@@ -1277,6 +1277,9 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f997e449
 #EXTINF:-1 tvg-name="Pluto TV Vida Real (720p)" tvg-logo="https://i.imgur.com/dRbBbxP.png" tvg-id="plutotvvidareal" group-title="Brazil",Pluto TV Vida Real (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32d4d9ec194100070c7449/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1 tvg-name="Premiere Clubes" tvg-logo="https://i.imgur.com/3FyVsJz.png" tvg-id="premiereclubes" group-title="Brazil",Premiere Clubes
+http://187.120.222.37:721/
+
 #EXTINF:-1 tvg-name="Primer TV (1080p)" tvg-logo="https://i.imgur.com/PMptSP3.png" tvg-id="primertv" group-title="Brazil",Primer TV (1080p)
 http://200.194.238.229:8383/live/primer/playlist.m3u8
 
@@ -1288,6 +1291,9 @@ https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 
 #EXTINF:-1 tvg-name="RecordTV" tvg-logo="https://i.imgur.com/sz9gTTr.png" tvg-id="recordtv" group-title="Brazil",RecordTV
 https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
+
+#EXTINF:-1 tvg-name="RecordTV Interior SP" tvg-logo="https://i.imgur.com/VcHy0fu.png" tvg-id="recordtvinteriorsp" group-title="Brazil",RecordTV Interior SP
+http://200.77.176.130:8000/udp/224.0.0.4:49152
 
 #EXTINF:-1 tvg-name="Rede CNT Salvador (576i)" tvg-logo="https://i.imgur.com/jcasAmw.png" tvg-id="redecntsalvador" group-title="Brazil",Rede CNT Salvador (576i)
 http://168.205.87.198:8555/live/1368/123456/150.m3u8
@@ -2933,6 +2939,9 @@ http://89.201.163.244:8080/hls/hdmi.m3u8
 #EXTINF:-1 tvg-name="Osječka televizija (OSTV) Ⓢ" tvg-logo="https://i.imgur.com/o9JgEyG.png" tvg-id="osjekatelevizija" group-title="Croatia",Osječka televizija (OSTV) Ⓢ
 https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcasts/237202062.secure.m3u8
 
+#EXTINF:-1 tvg-name="TV Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png" tvg-id="tvnova" group-title="Croatia",TV Nova
+https://stream.agatin.hr:3727/live/tvnovalive.m3u8
+
 #EXTINF:-1 tvg-name="TV Jadran" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/9a/Tv_jadran_logo.png" tvg-id="tvjadran" group-title="Croatia",TV Jadran
 https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
 
@@ -3487,6 +3496,9 @@ https://cnn.livestreaminggroup.info:3050/live/gettvlive.m3u8
 
 #EXTINF:-1 tvg-name="GH Television (1080p)" tvg-logo="https://i.imgur.com/xhkiiO3.png" tvg-id="ghtelevision" group-title="Dominican_republic",GH Television (1080p)
 https://tv.ghtelevision.com:3018/live/ghtelevisionlive.m3u8
+
+#EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://imgur.com/sGN1NbR.png" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
+https://stream.castr.com/6809124f3f3e7e594c63cf15/live_8e5d0b50206a11f08690576446b3c082/index.fmp4.m3u8
 
 #EXTINF:-1 tvg-name="Global TV (720p)" tvg-logo="https://i.imgur.com/1rQaROm.png" tvg-id="globaltv" group-title="Dominican_republic",Global TV (720p)
 https://stmv4.voxtvhd.com.br/globaltv/globaltv/playlist.m3u8
@@ -8718,7 +8730,7 @@ https://dathls.wns.live/hls/stream.m3u8
 https://ncdn.telewebion.com/dena/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Ekran Movies" tvg-logo="https://i.ibb.co/WNyssx28/Screenshot-2025-05-18-211143.png" tvg-id="ekranmovies" group-title="Iran",Ekran Movies
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/EkranMovies/index-0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/EkranMovies/index-0.m3u8
 
 #EXTINF:-1 tvg-name="Energy" tvg-logo="https://i.postimg.cc/259RSYsd/energy.png" tvg-id="energy" group-title="Iran",Energy
 https://ncdn.telewebion.com/baenergy/live/playlist.m3u8
@@ -8742,76 +8754,73 @@ https://fxtvhls.wns.live/hls/stream.m3u8
 https://toonixhls.wns.live/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="GEM Bollywood" tvg-logo="https://i.imgur.com/2XASeBk.png" tvg-id="gembollywood" group-title="Iran",GEM Bollywood
-https://hls-proxy.awsvps.workers.dev?url=https://gem2-website.aparatlive.online/live/xBKAprIb5Rwjd2aKzapSvQ__/stream_0.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gembollywood/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Classic" tvg-logo="https://i.imgur.com/25BhuOf.png" tvg-id="gemclassic" group-title="Iran",GEM Classic
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemclassic/index-0.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemclassic/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Comedy" tvg-logo="https://i.imgur.com/FuscfJW.png" tvg-id="gemcomedy" group-title="Iran",GEM Comedy
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemcomedy/index-0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemcomedy/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Drama" tvg-logo="https://i.imgur.com/k2pGyRH.png" tvg-id="gemdrama" group-title="Iran",GEM Drama
-https://hls-proxy.awsvps.workers.dev?url=https://gem2.tamashaland.com/live/MlE5EAZG_io5ieP9C1f81g__/stream_0.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemdrama/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Drama Plus" tvg-logo="https://i.imgur.com/5zPeOJM.png" tvg-id="gemdrama" group-title="Iran",GEM Drama Plus
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemdramaplus/index-0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemdramaplus/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Film" tvg-logo="https://i.imgur.com/nrFz3LU.png" tvg-id="gemfilm" group-title="Iran",GEM Film
-https://hls-proxy.awsvps.workers.dev?url=https://m3u.iranvids.com/gem-film/output.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemfilm/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Fit" tvg-logo="https://i.imgur.com/7FQxaII.png" tvg-id="gemfit" group-title="Iran",GEM Fit
-https://hls-proxy.awsvps.workers.dev?url=https://gem2-website.aparatlive.online/live/t8CPNktgIZLZGXYznSWLnA__/stream_0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemfit/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Food" tvg-logo="https://i.imgur.com/SMtSinK.png" tvg-id="gemfood" group-title="Iran",GEM Food
-https://hls-proxy.awsvps.workers.dev?url=https://gem2-website.aparatlive.online/live/glfb3gnppgdxtI_ebQl41A__/stream_0.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemfood/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Junior" tvg-logo="https://i.imgur.com/jK8yzj2.png" tvg-id="gemjunior" group-title="Iran",GEM Junior
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemjunior/index-0.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemjunior/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Kids" tvg-logo="https://i.imgur.com/ArkjaFk.png" tvg-id="gemkids" group-title="Iran",GEM Kids
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemkids/index-0.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemkids/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Life" tvg-logo="https://i.imgur.com/gI8qePa.png" tvg-id="gemlife" group-title="Iran",GEM Life
-https://hls-proxy.awsvps.workers.dev?url=https://glserver1.tamashaland.com/live/1HswF8gkNmYF_kCcq99gpg__/stream_0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemlife/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Mifa" tvg-logo="https://i.imgur.com/qlI7o7V.png" tvg-id="gemmifa" group-title="Iran",GEM Mifa
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemmifa/index-0.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemmifa/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Mifa Plus" tvg-logo="https://i.imgur.com/8FIAqR5.png" tvg-id="gemmifa" group-title="Iran",GEM Mifa Plus
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemmifaplus/index-0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemmifaplus/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Nature" tvg-logo="https://i.imgur.com/ENvOMDQ.png" tvg-id="gemnature" group-title="Iran",GEM Nature
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemnature/index-0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemnature/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Onyx" tvg-logo="https://i.imgur.com/gXRIAw4.png" tvg-id="gemonyx" group-title="Iran",GEM Onyx
-https://hls-proxy.awsvps.workers.dev?url=https://m3u.iranvids.com/gem-onyx/output.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemonyx/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Pixel" tvg-logo="https://i.ibb.co/Q3tkbPrn/icon-27.png" tvg-id="gempixel" group-title="Iran",GEM Pixel
-https://hls-proxy.awsvps.workers.dev?url=https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
+https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
 
 #EXTINF:-1 tvg-name="GEM River" tvg-logo="https://i.imgur.com/yJ6f1B6.png" tvg-id="gemriver" group-title="Iran",GEM River
-https://hls-proxy.awsvps.workers.dev?url=https://m3u.iranvids.com/gem-river/output.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemriver/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM River Plus" tvg-logo="https://i.imgur.com/zYii6aZ.png" tvg-id="gemriver" group-title="Iran",GEM River Plus
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemriverplus/index-0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemriverplus/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Rubix" tvg-logo="https://i.imgur.com/cDjOj58.png" tvg-id="gemrubix" group-title="Iran",GEM Rubix
-https://hls-proxy.awsvps.workers.dev?url=https://m3u.iranvids.com/gem-rubix/output.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemrubix/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Rubix Plus" tvg-logo="https://i.imgur.com/vpqgHrf.png" tvg-id="gemrubix" group-title="Iran",GEM Rubix Plus
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Series" tvg-logo="https://i.imgur.com/M0WMDXm.png" tvg-id="gemseries" group-title="Iran",GEM Series
-https://hls-proxy.awsvps.workers.dev?url=https://m3u.iranvids.com/gem-series/output.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemseries/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM Series Plus" tvg-logo="https://i.imgur.com/uboNGDS.png" tvg-id="gemseries" group-title="Iran",GEM Series Plus
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/gemseriesplus/index-0.m3u8
-
-#EXTINF:-1 tvg-name="GEM Travel" tvg-logo="https://i.imgur.com/eQkBb4G.png" tvg-id="gemtravel" group-title="Iran",GEM Travel
-https://hls-proxy.awsvps.workers.dev?url=https://gem2-website.aparatlive.online/live/BrLWIo91SQ_odTfw6uNl_A__/stream_0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemseriesplus/index-0.m3u8
 
 #EXTINF:-1 tvg-name="GEM TV" tvg-logo="https://i.postimg.cc/DZtrrCJJ/gemtv.png" tvg-id="gemtv" group-title="Iran",GEM TV
-https://hls-proxy.awsvps.workers.dev?url=https://m3u.iranvids.com/gem-tv/output.m3u8
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemb/index-0.m3u8
 
 #EXTINF:-1 tvg-name="Gold Star" tvg-logo="https://i.postimg.cc/KvsfL3sM/goldstar.jpg" tvg-id="goldstar" group-title="Iran",Gold Star
 https://moviethls.wns.live/hls/stream.m3u8
@@ -8964,7 +8973,7 @@ https://hls.maahtv.live/hls/stream.m3u8
 https://ncdn.telewebion.com/mahabad/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Manoto TV" tvg-logo="https://i.imgur.com/8wE1Lbp.png" tvg-id="manototv" group-title="Iran",Manoto TV
-https://hls-proxy.awsvps.workers.dev?url=https://m3u.iranvids.com/manoto/output.m3u8
+https://olderkors.cfpass1.workers.dev/?url=https://m3u.iranvids.com/manoto/output.m3u8
 
 #EXTINF:-1 tvg-name="Mazandaran TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/240px-IRIB_Mazandaran_Last_Orange_Logo.png" tvg-id="mazandarantv" group-title="Iran",Mazandaran TV
 https://lenz.splus.ir/PLTV/88888888/224/3221226786/index.m3u8
@@ -9156,7 +9165,7 @@ https://slonehls.wns.live/hls/stream.m3u8
 https://sltwohls.wns.live/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="T2 Movies" tvg-logo="https://i.postimg.cc/gJ0pG0jK/t2movies.png" tvg-id="t2movies" group-title="Iran",T2 Movies
-https://hls-proxy.awsvps.workers.dev/?url=https://ca-rt.onetv.app/T2Movies/index-0.m3u8
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/T2Movies/index-0.m3u8
 
 #EXTINF:-1 tvg-name="T2 TV" tvg-logo="https://i.imgur.com/Wu8MBb7.png" tvg-id="t2tv" group-title="Iran",T2 TV
 https://t2hls.wns.live/hls/stream.m3u8
@@ -9174,13 +9183,13 @@ https://ncdn.telewebion.com/tekyemadahi/live/playlist.m3u8
 https://ncdn.telewebion.com/tekyesokhanrani/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telewebion Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png/240px-%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png" tvg-id="telewebionsport" group-title="Iran",Telewebion Sport
-https://hls-proxy.awsvps.workers.dev/?url=https://live-azd1109.telewebion.com/ek/sport1/live/1080p/index.m3u8
+https://hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev/?url=https://live-azd1109.telewebion.com/ek/sport1/live/1080p/index.m3u8
 
 #EXTINF:-1 tvg-name="Telewebion Sport 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png/240px-%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png" tvg-id="telewebionsport2" group-title="Iran",Telewebion Sport 2
-https://hls-proxy.awsvps.workers.dev/?url=https://live-azd1109.telewebion.com/ek/sport2/live/1080p/index.m3u8
+https://hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev/?url=https://live-azd1109.telewebion.com/ek/sport2/live/1080p/index.m3u8
 
 #EXTINF:-1 tvg-name="Telewebion Sport 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png/240px-%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png" tvg-id="telewebionsport3" group-title="Iran",Telewebion Sport 3
-https://hls-proxy.awsvps.workers.dev/?url=https://live-azd1103.telewebion.com/ek/sport3/live/1080p/index.m3u8
+https://hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev/?url=https://live-azd1103.telewebion.com/ek/sport3/live/1080p/index.m3u8
 
 #EXTINF:-1 tvg-name="TM TV (720p)" tvg-logo="https://tmlive.tv/wp-content/uploads/2018/07/immigration-consultants-network-en-.png" tvg-id="tmtv" group-title="Iran",TM TV (720p)
 https://hls.tmtv.live/hls/stream.m3u8
@@ -9694,9 +9703,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
-
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Euronews Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsitalian" group-title="Italy",Euronews Italian
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b86ea479a4390007c6d5fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
@@ -13499,7 +13505,7 @@ https://cdn.ntv.ru/th_style/playlist.m3u8
 #EXTINF:-1 tvg-name="НТВ Хит" tvg-logo="https://i.imgur.com/FfKBvz5.png" tvg-id="" group-title="Russia",НТВ Хит
 https://cdn.ntv.ru/th_hit/playlist.m3u8
 
-#EXTINF:-1 tvg-name="о2тв" tvg-logo="https://i.postimg.cc/Wp5SzP7z/o2tv.png" tvg-id="2" group-title="Russia",о2тв
+#EXTINF:-1 tvg-name="о2тв" tvg-logo="https://i.imgur.com/CM6z7fA.png" tvg-id="2" group-title="Russia",о2тв
 http://31.148.48.15/O2_HD/index.m3u8
 
 #EXTINF:-1 tvg-name="О!" tvg-logo="https://i.imgur.com/pDc665V.png" tvg-id="" group-title="Russia",О!
@@ -13508,7 +13514,7 @@ http://178.217.72.66:8080/O/index.m3u8
 #EXTINF:-1 tvg-name="Осетия Ирыстон" tvg-logo="https://i.imgur.com/N0Zn4zU.png" tvg-id="" group-title="Russia",Осетия Ирыстон
 https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ОСН" tvg-logo="https://i.postimg.cc/prr1ccq2/osn.png" tvg-id="" group-title="Russia",ОСН
+#EXTINF:-1 tvg-name="ОСН" tvg-logo="https://www.osnmedia.ru/wp-content/uploads/2024/11/osn-logo-header.png" tvg-id="" group-title="Russia",ОСН
 http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Открытый мир. Здоровье" tvg-logo="https://i.imgur.com/7orZOJA.png" tvg-id="" group-title="Russia",Открытый мир. Здоровье
@@ -13607,7 +13613,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8
 #EXTINF:-1 tvg-name="Сибирь 24 (Новосибирск)" tvg-logo="https://i.imgur.com/jgwQPl0.png" tvg-id="24" group-title="Russia",Сибирь 24 (Новосибирск)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8
 
-#EXTINF:-1 tvg-name="Смайл ТВ" tvg-logo="https://i.postimg.cc/ydD4dxX7/smiletv.png" tvg-id="" group-title="Russia",Смайл ТВ
+#EXTINF:-1 tvg-name="Смайл ТВ" tvg-logo="https://static.tildacdn.com/tild3936-3138-4234-b536-326531343933/-_13x.png" tvg-id="" group-title="Russia",Смайл ТВ
 https://5f05e059699ae.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Смотрим Честный Детектив" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/svg/444/241/8.svg" tvg-id="" group-title="Russia",Смотрим Честный Детектив
@@ -13866,7 +13872,7 @@ https://bcovlive-a.akamaihd.net/0debf5648e584e5fb795c3611c5c0252/eu-central-1/60
 rtmp://live.restream.io/pull/play_320121_94512612fd0e084bd284
 
 #EXTINF:-1 tvg-name="Saudi Thaqafiya TV (1080p)" tvg-logo="https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=512&croppingPoint=&version=1&type=jpeg" tvg-id="saudithaqafiyatv" group-title="Saudi_arabia",Saudi Thaqafiya TV (1080p)
-https://thaqafeyyah-ak.akamaized.net/out/v1/f6851f68ada94f82ae6b64a441eb5ab1/index.m3u8
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
 
 #EXTINF:-1 tvg-name="Saudia Radio (1080p)" tvg-logo="https://i.imgur.com/CvrR7wW.png" tvg-id="saudiaradio" group-title="Saudi_arabia",Saudia Radio (1080p)
 https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8
@@ -18742,9 +18748,6 @@ https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Lawndale City TV (720p)" tvg-logo="https://i.imgur.com/vFWUTyj.png" tvg-id="lawndalecitytv" group-title="Usa",Lawndale City TV (720p)
 https://reflect-live-lawndale.cablecast.tv/live-4/live/live.m3u8
-
-#EXTINF:-1 tvg-name="LBC International" tvg-logo="https://i.imgur.com/h26xtUv.png" tvg-id="lbcinternational" group-title="Usa",LBC International
-https://samaflix.com:12103/channel2/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-name="Leesburg Lakefront TV (Leesburg FL) (720p)" tvg-logo="https://i.imgur.com/ROb1BNG.png" tvg-id="leesburglakefronttv" group-title="Usa",Leesburg Lakefront TV (Leesburg FL) (720p)
 https://reflect-lakefront-leesburgflorida.cablecast.tv/live-6/live/live.m3u8
