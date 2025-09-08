@@ -3494,8 +3494,8 @@ https://cnn.livestreaminggroup.info:3050/live/gettvlive.m3u8
 #EXTINF:-1 tvg-name="GH Television (1080p)" tvg-logo="https://i.imgur.com/xhkiiO3.png" tvg-id="ghtelevision" group-title="Dominican_republic",GH Television (1080p)
 https://tv.ghtelevision.com:3018/live/ghtelevisionlive.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://imgur.com/sGN1NbR.png" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
-https://stream.castr.com/6809124f3f3e7e594c63cf15/live_8e5d0b50206a11f08690576446b3c082/index.fmp4.m3u8
+#EXTINF:-1 tvg-name=" like Gecko) Chrome/113.0.0.0 Safari/537.36"" tvg-logo="https://imgur.com/sGN1NbR.png" tvg-id="likegeckochrome113000safari53736" group-title="Dominican_republic", like Gecko) Chrome/113.0.0.0 Safari/537.36"
+#EXTVLCOPT:http-referrer=https://player.castr.com/
 
 #EXTINF:-1 tvg-name="Global TV (720p)" tvg-logo="https://i.imgur.com/1rQaROm.png" tvg-id="globaltv" group-title="Dominican_republic",Global TV (720p)
 https://stmv4.voxtvhd.com.br/globaltv/globaltv/playlist.m3u8
@@ -3526,6 +3526,9 @@ https://live20.bozztv.com/giatvplayout7/giatv-208429/playlist.m3u8
 
 #EXTINF:-1 tvg-name="La Voz de Maria (720p)" tvg-logo="https://i.imgur.com/Zv8CxZX.png" tvg-id="lavozdemaria" group-title="Dominican_republic",La Voz de Maria (720p)
 https://live.lavozdemaria.com:3436/live/lavozdemarialive.m3u8
+
+#EXTINF:-1 tvg-name="Latin Zone TV (720p)" tvg-logo="https://i.imgur.com/duEDsne.png" tvg-id="latinzonetv" group-title="Dominican_republic",Latin Zone TV (720p)
+https://cdn.streamingcpanel.com:3784/live/latinzonetvlive.m3u8
 
 #EXTINF:-1 tvg-name="Latina TV Internacional (720p)" tvg-logo="https://i.imgur.com/UAfyeYT.png" tvg-id="latinatvinternacional" group-title="Dominican_republic",Latina TV Internacional (720p)
 https://5790d294af2dc.streamlock.net/latinatv/latinatv/chunklist.m3u8
@@ -3673,6 +3676,9 @@ https://vdo2.streamgato.us:3632/live/televisiondelestelive.m3u8
 
 #EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://i.imgur.com/rSIB579.jpeg" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
 #EXTVLCOPT:http-referrer=https://player.castr.com/
+
+#EXTINF:-1 tvg-name="Tom And Jerry" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" tvg-id="tomandjerry" group-title="Dominican_republic",Tom And Jerry
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TRA 2 (576p)" tvg-logo="https://i.imgur.com/iwJ42rD.png" tvg-id="tra2" group-title="Dominican_republic",TRA 2 (576p)
 https://live20.bozztv.com/akamaissh101/ssh101/rctvhdtra/playlist.m3u8
@@ -7232,8 +7238,8 @@ https://cdn-1.pishow.tv/live/391/master.m3u8
 #EXTINF:-1 tvg-name="99TV (720p)" tvg-logo="https://i.imgur.com/dZA4gel.png" tvg-id="99tv" group-title="India",99TV (720p)
 https://cdn-1.pishow.tv/live/1211/master.m3u8
 
-#EXTINF:-1 tvg-name="&flix (360p)" tvg-logo="https://i.imgur.com/WOyfzjC.png" tvg-id="flix" group-title="India",&flix (360p)
-https://edge3-moblive.yuppcdn.net/drm/smil:nflixdrm.smil/chunklist_b996000.m3u8
+#EXTINF:-1 tvg-name="&flix (480p)" tvg-logo="https://i.imgur.com/WOyfzjC.png" tvg-id="flix" group-title="India",&flix (480p)
+https://edge3-moblive.yuppcdn.net/drm/smil:nflixdrm.smil/index.m3u8
 
 #EXTINF:-1 tvg-name="&xplor HD (1080p)" tvg-logo="https://i.imgur.com/9mK6dgM.png" tvg-id="xplor" group-title="India",&xplor HD (1080p)
 #EXTVLCOPT:http-referrer="https://onezoo.net"
@@ -7959,7 +7965,7 @@ https://cdn-1.pishow.tv/live/449/master.m3u8
 https://streaming.ptcplay.com/ptcdholtvINOne/smil:Live.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PTC Music (720p)" tvg-logo="https://i.imgur.com/8PHk66Q.png" tvg-id="ptcmusic" group-title="India",PTC Music (720p)
-https://streaming.ptcplay.com/ptcMusicINOne/smil:Live.smil/playlist.m3u8
+https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
 
 #EXTINF:-1 tvg-name="PTC News (720p)" tvg-logo="https://i.imgur.com/8BHV6Gr.png" tvg-id="ptcnews" group-title="India",PTC News (720p)
 https://streaming.ptcplay.com/PTCNEWSINONE/smil:Live.smil/playlist.m3u8
@@ -9704,9 +9710,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Euronews Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsitalian" group-title="Italy",Euronews Italian
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b86ea479a4390007c6d5fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 
@@ -10252,9 +10255,6 @@ https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Mia" tvg-logo="https://i.imgur.com/SdXpCwL.png" tvg-id="telemia" group-title="Italy",Tele Mia
 https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
-
-#EXTINF:-1 tvg-name="Tele Mia Extra" tvg-logo="https://i.imgur.com/upzBG32.png" tvg-id="telemia" group-title="Italy",Tele Mia Extra
-https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8
 
 #EXTINF:-1 tvg-name="Tele Mistretta" tvg-logo="https://i.imgur.com/OJ3zUS0.png" tvg-id="telemistretta" group-title="Italy",Tele Mistretta
 https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8
@@ -13823,9 +13823,6 @@ https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1 tvg-name="Maraya (1080p)" tvg-logo="https://shahid.mbc.net/mediaObject/d089a559-4f41-4def-a786-f98fcfbf0464?height=auto&width=288&croppingPoint=&version=1&type=png" tvg-id="maraya" group-title="Saudi_arabia",Maraya (1080p)
 https://shls-live-enc.edgenextcdn.net/out/v1/a4a39d8e92e34b0780ca602270a59512/index.m3u8
 
-#EXTINF:-1 tvg-name="MBC Gaming (1080p)" tvg-logo="https://shahid.mbc.net/mediaObject/ebd1455f-1669-4734-ba19-eb3140c1dba0?height=auto&width=288&croppingPoint=&version=1&type=png" tvg-id="mbcgaming" group-title="Saudi_arabia",MBC Gaming (1080p)
-https://shls-live-enc.edgenextcdn.net/out/v1/8ae5c35ffc5247a58e71a5c86dd31ad6/index.m3u8
-
 #EXTINF:-1 tvg-name="MBC Loud (1080p)" tvg-logo="https://i.postimg.cc/YShSztw0/mbcloud.png" tvg-id="mbcloud" group-title="Saudi_arabia",MBC Loud (1080p)
 https://d2lfa0y84k5bwn.cloudfront.net/out/v1/86dd4506a70c4d7fb35e2ab50296d9a3/index.m3u8
 
@@ -17096,9 +17093,6 @@ https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8
 #EXTINF:-1 tvg-name="ABC 25 West Palm Beach FL (WPBF) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc25westpalmbeachfl" group-title="Usa",ABC 25 West Palm Beach FL (WPBF) (720p)
 https://apollo.production-public.tubi.io/live/ac-wpbf.m3u8
 
-#EXTINF:-1 tvg-name="ABC 28 Tampa Bay FL (WFTS) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc28tampabayfl" group-title="Usa",ABC 28 Tampa Bay FL (WFTS) (720p)
-https://apollo.production-public.tubi.io/live/ac-wfts2.m3u8
-
 #EXTINF:-1 tvg-name="ABC 30 Fresno and Central Valley News (KFSN-DT1) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc30fresnoandcentralvalleynews" group-title="Usa",ABC 30 Fresno and Central Valley News (KFSN-DT1) (720p)
 https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8
 
@@ -20246,6 +20240,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 #EXTINF:-1 tvg-name="TokuSHOUTsu" tvg-logo="https://i.imgur.com/Ol0BBiV.png" tvg-id="tokushoutsu" group-title="Usa",TokuSHOUTsu
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c3f8f12a93c2d61b9990a4e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2c73e3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8a88f013-2601-41bd-9070-75701edcf852
 
+#EXTINF:-1 tvg-name="Tom And Jerry" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" tvg-id="tomandjerry" group-title="Usa",Tom And Jerry
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Toon Goggles (720p)" tvg-logo="https://i.imgur.com/JMnxswq.png" tvg-id="toongoggles" group-title="Usa",Toon Goggles (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37
 
@@ -20594,8 +20591,17 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e
 #EXTINF:-1 tvg-name="Westminster WTV Channel (Westminster CA) (360p)" tvg-logo="https://i.imgur.com/RG8bjL7.png" tvg-id="westminsterwtvchannel" group-title="Usa",Westminster WTV Channel (Westminster CA) (360p)
 https://cdn3.wowza.com/5/R09KQXpaMWlrRjly/westminsterca/G0571_001/playlist.m3u8
 
+#EXTINF:-1 tvg-name="WFLA-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="wfladt1" group-title="Usa",WFLA-DT1
+https://fl1.moveonjoy.com/FL_Tampa_NBC/index.m3u8
+
+#EXTINF:-1 tvg-name="WFLX-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="wflxdt1" group-title="Usa",WFLX-DT1
+https://fl1.moveonjoy.com/FL_West_Palm_Beach_FOX/index.m3u8
+
 #EXTINF:-1 tvg-name="WFMZ-TV Channel 69" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1f/WFMZ.png" tvg-id="wfmztvchannel69" group-title="Usa",WFMZ-TV Channel 69
 https://cdn.jaybirdtv.com/wfmz/channel/1/master.m3u8
+
+#EXTINF:-1 tvg-name="WFTS-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wftsdt1" group-title="Usa",WFTS-DT1
+https://fl1.moveonjoy.com/FL_Tampa_ABC/index.m3u8
 
 #EXTINF:-1 tvg-name="WFTX News Fort Myers FL (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="wftxnewsfortmyersfl" group-title="Usa",WFTX News Fort Myers FL (720p)
 https://content.uplynk.com/channel/8975f81e6efd4e609873c3e8e25c7756.m3u8
@@ -20708,6 +20714,9 @@ http://212.102.60.231/WORLD_FISHING_NETWORK/index.m3u8
 #EXTINF:-1 tvg-name="World Harvest TV (360p)" tvg-logo="https://i.imgur.com/xtbkDDN.png" tvg-id="worldharvesttv" group-title="Usa",World Harvest TV (360p)
 https://597865f6e4114.streamlock.net/live/leseaorigin.stream/playlist.m3u8
 
+#EXTINF:-1 tvg-name="WPEC-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="wpecdt1" group-title="Usa",WPEC-DT1
+https://fl1.moveonjoy.com/FL_West_Palm_Beach_CBS/index.m3u8
+
 #EXTINF:-1 tvg-name="WPS TV (360p)" tvg-logo="https://i.imgur.com/zwzmwse.jpg" tvg-id="wpstv" group-title="Usa",WPS TV (360p)
 https://2-fss-2.streamhoster.com/pl_120/amlst:203530-1426406/playlist.m3u8
 
@@ -20734,6 +20743,9 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-on
 
 #EXTINF:-1 tvg-name="WTMO-CD1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png" tvg-id="wtmocd1" group-title="Usa",WTMO-CD1
 https://dvrfl03.bozztv.com/hondu-telexitos/index.m3u8
+
+#EXTINF:-1 tvg-name="WTOG-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WTOG_Tampa_Bay_44_2023.svg/1024px-WTOG_Tampa_Bay_44_2023.svg.png" tvg-id="wtogdt1" group-title="Usa",WTOG-DT1
+https://fl1.moveonjoy.com/FL_Tampa_CW44/index.m3u8
 
 #EXTINF:-1 tvg-name="WTVD ABC 11 News (Raleigh-Durham NC) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wtvdabc11news" group-title="Usa",WTVD ABC 11 News (Raleigh-Durham NC) (720p)
 https://content.uplynk.com/channel/ext/f05837c508c44712aa7129d531f7dbe6/wtvd_24x7_news.m3u8
