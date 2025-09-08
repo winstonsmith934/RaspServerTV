@@ -209,6 +209,9 @@ http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Fano Tv" tvg-logo="https://i.imgur.com/orqEzJ6.png" tvg-id="fanotv" group-title="Italy",Fano Tv
+https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8
+
 #EXTINF:-1 tvg-name="Fascino Tv" tvg-logo="https://i.imgur.com/4XYYY5B.png" tvg-id="fascinotv" group-title="Italy",Fascino Tv
 https://5f22d76e220e1.streamlock.net/canale157/canale157/playlist.m3u8
 
@@ -262,6 +265,9 @@ https://rst2.saiuzwebnetwork.it:8081/rdetrieste/index.m3u8
 
 #EXTINF:-1 tvg-name="Rete 8 Vga" tvg-logo="https://i.imgur.com/3wF2AJX.jpg" tvg-id="rete8vga" group-title="Italy",Rete 8 Vga
 https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Rete 8 Sport" tvg-logo="https://i.imgur.com/uUAjWlF.png" tvg-id="rete8sport" group-title="Italy",Rete 8 Sport
+https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Sole" tvg-logo="https://i.imgur.com/u0ezKgE.png" tvg-id="retesole" group-title="Italy",Rete Sole
 https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8
@@ -464,6 +470,9 @@ https://cdnapisec.kaltura.com/p/5581662/sp/558166200/playManifest/entryId/1_1u7s
 #EXTINF:-1 tvg-name="Aragón TV Ⓢ" tvg-logo="https://i.imgur.com/8H3Q07b.png" tvg-id="aragntv" group-title="Spain",Aragón TV Ⓢ
 https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 
+#EXTINF:-1 tvg-name="7 Región de Murcia Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/150px-La_7_logo.svg.png" tvg-id="7regindemurcia" group-title="Spain",7 Región de Murcia Ⓢ
+https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Canal 4 Tenerife" tvg-logo="https://i.imgur.com/Egymir4.png" tvg-id="canal4tenerife" group-title="Spain",Canal 4 Tenerife
 https://videoserver.tmcreativos.com:19360/ccxwhsfcnq/ccxwhsfcnq.m3u8
 
@@ -524,9 +533,6 @@ http://as-hls-uk-live.akamaized.net/pool_904/live/uk/bbc_radio_five_live_sports_
 #EXTINF:-1 tvg-name="BBC Asian Network" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcasiannet-epg.png" tvg-id="bbcasiannetwork" group-title="Uk",BBC Asian Network
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d96000.norewind.m3u8
 
-#EXTINF:-1 tvg-name="Telekanal RAI" tvg-logo="https://i.imgur.com/Ouv51WB.png" tvg-id="telekanalrai" group-title="Ukraine",Telekanal RAI
-https://stream.rai.ua/rai/stream.m3u8
-
 #EXTINF:-1 tvg-name="TV7+" tvg-logo="https://i.imgur.com/PcTDZ8e.png" tvg-id="tv7" group-title="Ukraine",TV7+
 https://tv7plus.com/hls/tv7_site.m3u8
 
@@ -556,9 +562,6 @@ https://dmieigthvll.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/playl
 
 #EXTINF:-1 tvg-name="Noor Dubai" tvg-logo="https://i.imgur.com/DLe7ZuM.png" tvg-id="noordubai" group-title="United_arab_emirates",Noor Dubai
 https://dmiffthvll.cdn.mangomolo.com/noordubaitv/smil:noordubaitv.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Al Wousta" tvg-logo="https://i5.satexpat.com/cha/ae/al-wousta-95x90.gif" tvg-id="alwousta" group-title="United_arab_emirates",Al Wousta
-https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Stadium" tvg-logo="https://i.imgur.com/6ae9E8d.png" tvg-id="stadium" group-title="Usa",Stadium
 https://bcovlive-a.akamaihd.net/e64d564b9275484f85981d8c146fb915/us-east-1/5994000126001/profile_1/976f34cf5a614518b7b539cbf9812080/chunklist_ssaiV.m3u8
