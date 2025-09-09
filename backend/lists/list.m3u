@@ -2939,9 +2939,6 @@ http://89.201.163.244:8080/hls/hdmi.m3u8
 #EXTINF:-1 tvg-name="Osječka televizija (OSTV) Ⓢ" tvg-logo="https://i.imgur.com/o9JgEyG.png" tvg-id="osjekatelevizija" group-title="Croatia",Osječka televizija (OSTV) Ⓢ
 https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcasts/237202062.secure.m3u8
 
-#EXTINF:-1 tvg-name="TV Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png" tvg-id="tvnova" group-title="Croatia",TV Nova
-https://stream.agatin.hr:3727/live/tvnovalive.m3u8
-
 #EXTINF:-1 tvg-name="TV Jadran" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/9a/Tv_jadran_logo.png" tvg-id="tvjadran" group-title="Croatia",TV Jadran
 https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
 
@@ -8408,8 +8405,11 @@ http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/chunklist_w41736285
 #EXTINF:-1 tvg-name="Biznet Lifestyle (480p)" tvg-logo="https://i.imgur.com/XqUfQKA.png" tvg-id="biznetlifestyle" group-title="Indonesia",Biznet Lifestyle (480p)
 http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/chunklist_w109806785_b2256000_slen_tkYml6a2V5bGl2ZXN0YXJ0dGltZT0wJmJpemtleWxpdmVlbmR0aW1lPTAmYml6a2V5bGl2ZUN1c3RvbVBhcmFtZXRlcj1teVBhcmFtZXRlciZiaXprZXlsaXZlaGFzaD1qZ0RLUGNsY0dkWmZ2cklEeGZNZHBUN3Zfc3JNV0NidWJudEdvOWNDWVdwY0JCUWFsTWxMUXhIc3dtNDNQYlZS.m3u8
 
+#EXTINF:-1 tvg-name="BRTV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/1/1f/Logo_BRTV.png" tvg-id="brtv" group-title="Indonesia",BRTV (720p)
+https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
+
 #EXTINF:-1 tvg-name="BTV (720p)" tvg-logo="https://i.imgur.com/fdygcVx.png" tvg-id="btv" group-title="Indonesia",BTV (720p)
-https://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8
+https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8
 
 #EXTINF:-1 tvg-name="CNBC Indonesia (720p)" tvg-logo="https://i.imgur.com/bUfeG7Y.png" tvg-id="cnbcindonesia" group-title="Indonesia",CNBC Indonesia (720p)
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
@@ -8426,8 +8426,8 @@ https://e.siar.us/live/dmtv.m3u8
 #EXTINF:-1 tvg-name="dTVi" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="dtvi" group-title="Indonesia",dTVi
 https://e.siar.us/live/dtvi.m3u8
 
-#EXTINF:-1 tvg-name="Efarina TV" tvg-logo="https://i.imgur.com/iYTimXh.png" tvg-id="efarinatv" group-title="Indonesia",Efarina TV
-https://live.efarinatv.net/hls/stream.m3u8
+#EXTINF:-1 tvg-name="Efarina TV (720p)" tvg-logo="https://i.imgur.com/iYTimXh.png" tvg-id="efarinatv" group-title="Indonesia",Efarina TV (720p)
+https://live.efarinatv.net/hls/stream123/index.m3u8
 
 #EXTINF:-1 tvg-name="Elshinta TV" tvg-logo="https://i.imgur.com/x5uoy2H.png" tvg-id="elshintatv" group-title="Indonesia",Elshinta TV
 https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
@@ -9926,9 +9926,6 @@ https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8
 #EXTINF:-1 tvg-name="GO-TV Channel" tvg-logo="https://i.imgur.com/xgjrAAn.png" tvg-id="gotvchannel" group-title="Italy",GO-TV Channel
 https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-name="GS Channel" tvg-logo="https://i.imgur.com/ExfxCRv.png" tvg-id="gschannel" group-title="Italy",GS Channel
-https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8
-
 #EXTINF:-1 tvg-name="Icaro Tv Rimini" tvg-logo="https://i.imgur.com/z05VSSN.png" tvg-id="icarotvrimini" group-title="Italy",Icaro Tv Rimini
 https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
 
@@ -10243,9 +10240,6 @@ https://59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Friuli" tvg-logo="https://i.imgur.com/AoQxZxD.png" tvg-id="telefriuli" group-title="Italy",Tele Friuli
 https://5757bf2aa08e42248fb9b9d620f5d900.msvdn.net/live/S11646715/pE3ax0lT0rBd/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Tele Ischia" tvg-logo="https://i.imgur.com/vihHVQn.jpg" tvg-id="teleischia" group-title="Italy",Tele Ischia
-https://rst.saiuzwebnetwork.it:8081/teleischia/index.m3u8
 
 #EXTINF:-1 tvg-name="Tele Jonio" tvg-logo="https://i.imgur.com/qJeDV8R.png" tvg-id="telejonio" group-title="Italy",Tele Jonio
 http://59d7d6f47d7fc.streamlock.net/telejonio/telejonio/playlist.m3u8
@@ -12356,6 +12350,9 @@ https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="PFL MMA" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/f4058a54-67b9-432c-b80e-3bfcf8d2d6d1-width200-quality90.jpeg" tvg-id="pflmma" group-title="Poland",PFL MMA
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/654a620d53fc9700083b2e21/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e074d40-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8f8fcc86-3a94-4ce2-9955-c103e94fd2b9
 
+#EXTINF:-1 tvg-name="Polsat Viasat Nature (1080p)" tvg-logo="https://i.imgur.com/TUcM0oS.png" tvg-id="polsatviasatnature" group-title="Poland",Polsat Viasat Nature (1080p)
+https://liveovh010.cda.pl/enc104/polsatviasatnaturehdraw/polsatviasatnaturehdraw.mpd
+
 #EXTINF:-1 tvg-name="Poradnik Zdrowie TV (1080i)" tvg-logo="https://i.imgur.com/EZP2KWS.png" tvg-id="poradnikzdrowietv" group-title="Poland",Poradnik Zdrowie TV (1080i)
 https://s-pl-01.mediatool.tv/playout/pzpl-abr/index.m3u8
 
@@ -14356,9 +14353,6 @@ http://185.189.225.150:85/Paramount/index.m3u8
 
 #EXTINF:-1 tvg-name="RNE para todos" tvg-logo="https://graph.facebook.com/radionacionalrne/picture?width=200&height=200" tvg-id="rneparatodos" group-title="Spain",RNE para todos
 https://rtvelivestream.akamaized.net/rtvesec/rne/rne_para_todos_main.m3u8
-
-#EXTINF:-1 tvg-name="Negocios" tvg-logo="https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg" tvg-id="negocios" group-title="Spain",Negocios
-https://streaming013.gestec-video.com/hls/negociostv.m3u8
 
 #EXTINF:-1 tvg-name="Squirrel" tvg-logo="https://i.imgur.com/urF0kYA.png" tvg-id="squirrel" group-title="Spain",Squirrel
 https://tsw.streamingwebtv24.it:1936/inteccdn1/inteccdn1/playlist.m3u8
@@ -17022,73 +17016,73 @@ https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8
 http://41.205.93.154/ABC/index.m3u8
 
 #EXTINF:-1 tvg-name="ABC 2 Baltimore MD (WMAR) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/2_ABC_WMAR_Baltimore.png" tvg-id="abc2baltimoremd" group-title="Usa",ABC 2 Baltimore MD (WMAR) (720p)
-https://apollo.production-public.tubi.io/live/ac-wmar.m3u8
+https://livetv-fa.tubi.video/wmar/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 3 Lafayette LA (KATC) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc3lafayettela" group-title="Usa",ABC 3 Lafayette LA (KATC) (720p)
-https://aegis-cloudfront-1.tubi.video/28467730-4b65-4c85-8151-4c7d162c0896/playlist.m3u8
+https://livetv-fa.tubi.video/katc/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 4 Pittsburg PA (WTAE) (720p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="abc4pittsburgpa" group-title="Usa",ABC 4 Pittsburg PA (WTAE) (720p)
-https://apollo.production-public.tubi.io/live/ac-wtae.m3u8
+https://livetv-fa.tubi.video/wtae/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc5" group-title="Usa",ABC 5
 https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 5 Boston MA (WCVB) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/WCVB-TV_%282021%29.svg/512px-WCVB-TV_%282021%29.svg.png" tvg-id="abc5bostonma" group-title="Usa",ABC 5 Boston MA (WCVB) (720p)
-https://apollo.production-public.tubi.io/live/ac-wcvb.m3u8
+https://livetv-fa.tubi.video/wcvb/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 5 Cleveland OH (WEWS) (720p)" tvg-logo="https://i.imgur.com/sUonBr6.png" tvg-id="abc5clevelandoh" group-title="Usa",ABC 5 Cleveland OH (WEWS) (720p)
-https://apollo.production-public.tubi.io/live/ac-wews2.m3u8
+https://livetv-fa.tubi.video/wews2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 5 Oklahoma City OK (KOCO) (720p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="abc5oklahomacityok" group-title="Usa",ABC 5 Oklahoma City OK (KOCO) (720p)
-https://apollo.production-public.tubi.io/live/ac-koco.m3u8
+https://livetv-fa.tubi.video/koco/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 6 Boise ID (KIVI) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e5/KIVI-TV_Idaho_News_6_logo.png" tvg-id="abc6boiseid" group-title="Usa",ABC 6 Boise ID (KIVI) (720p)
-https://apollo.production-public.tubi.io/live/ac-kivi.m3u8
+https://livetv-fa.tubi.video/kivi/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 6 Indianapolis IN (WRTV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc6indianapolisin" group-title="Usa",ABC 6 Indianapolis IN (WRTV) (720p)
-https://apollo.production-public.tubi.io/live/ac-wrtv.m3u8
+https://livetv-fa.tubi.video/wrtv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 7 Albuquerque NM (KOAT) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc7albuquerquenm" group-title="Usa",ABC 7 Albuquerque NM (KOAT) (720p)
-https://apollo.production-public.tubi.io/live/ac-koat.m3u8
+https://livetv-fa.tubi.video/koat/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 7 Bay Area and San Francisco News (KGO-DT1) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc7bayareaandsanfrancisconews" group-title="Usa",ABC 7 Bay Area and San Francisco News (KGO-DT1) (720p)
 https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8
 
 #EXTINF:-1 tvg-name="ABC 7 Buffalo NY (WKBW) (720p)" tvg-logo="https://i.imgur.com/dtzR3Y1.png" tvg-id="abc7buffalony" group-title="Usa",ABC 7 Buffalo NY (WKBW) (720p)
-https://apollo.production-public.tubi.io/live/ac-wkbw.m3u8
+https://livetv-fa.tubi.video/wkbw/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 7 Denver CO (KMGH) (720p)" tvg-logo="https://i.imgur.com/MWvoICD.png" tvg-id="abc7denverco" group-title="Usa",ABC 7 Denver CO (KMGH) (720p)
 https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
 
 #EXTINF:-1 tvg-name="ABC 7 Detroit MI (WXYZ) (720p)" tvg-logo="https://ewscripps.brightspotcdn.com/f7/ba/53c4c0b14d649fb08d19e76d3fc2/main-logo.png" tvg-id="abc7detroitmi" group-title="Usa",ABC 7 Detroit MI (WXYZ) (720p)
-https://apollo.production-public.tubi.io/live/ac-wxyz2.m3u8
+https://livetv-fa.tubi.video/wxyz2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 7 Los Angeles CA (KABC-TV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/KABC-TV-Logo-2021.png/512px-KABC-TV-Logo-2021.png" tvg-id="abc7losangelesca" group-title="Usa",ABC 7 Los Angeles CA (KABC-TV) (720p)
 https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
 
 #EXTINF:-1 tvg-name="ABC 7 Omaha NE (KETV) (720p)" tvg-logo="https://i.imgur.com/CWZtYNi.png" tvg-id="abc7omahane" group-title="Usa",ABC 7 Omaha NE (KETV) (720p)
-https://apollo.production-public.tubi.io/live/ac-ketv.m3u8
+https://livetv-fa.tubi.video/ketv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 8 Portland ME (WMTW) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc8portlandme" group-title="Usa",ABC 8 Portland ME (WMTW) (720p)
-https://apollo.production-public.tubi.io/live/ac-wmtw.m3u8
+https://livetv-fa.tubi.video/wmtw/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 9 Cincinnati OH (WCPO) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/WCPO-TV_logo_2020.png/512px-WCPO-TV_logo_2020.png" tvg-id="abc9cincinnatioh" group-title="Usa",ABC 9 Cincinnati OH (WCPO) (720p)
-https://apollo.production-public.tubi.io/live/ac-wcpo.m3u8
+https://livetv-fa.tubi.video/wcpo/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 9 Manchester NH (WMUR-TV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/72/WMURCurrentLogo.png" tvg-id="abc9manchesternh" group-title="Usa",ABC 9 Manchester NH (WMUR-TV) (720p)
-https://apollo.production-public.tubi.io/live/ac-wmur.m3u8
+https://livetv-fa.tubi.video/wmur/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 9 Orlando FL (WFTV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc9orlandofl" group-title="Usa",ABC 9 Orlando FL (WFTV) (720p)
 https://amg00327-coxmediagroup-wftvbreaking-ono-hec7b.amagi.tv/playlist/amg00327-coxmediagroup-wftvbreaking-ono/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 9 Tucson AZ (KGUN) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc9tucsonaz" group-title="Usa",ABC 9 Tucson AZ (KGUN) (720p)
-https://apollo.production-public.tubi.io/live/ac-kgun.m3u8
+https://livetv-fa.tubi.video/kgun/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 10 San Diego CA (KGTV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc10sandiegoca" group-title="Usa",ABC 10 San Diego CA (KGTV) (720p)
-https://apollo.production-public.tubi.io/live/ac-kgtv2.m3u8
+https://livetv-fa.tubi.video/kgtv2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 12 Milwaukee WI (WISN) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc12milwaukeewi" group-title="Usa",ABC 12 Milwaukee WI (WISN) (720p)
-https://apollo.production-public.tubi.io/live/ac-wisn.m3u8
+https://livetv-fa.tubi.video/wisn/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 13 Las Vegas NV (KTNV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/KTNV_2023.svg/512px-KTNV_2023.svg.png" tvg-id="abc13lasvegasnv" group-title="Usa",ABC 13 Las Vegas NV (KTNV) (720p)
 https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8
@@ -17097,22 +17091,22 @@ https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8
 https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8
 
 #EXTINF:-1 tvg-name="ABC 16 Jackson MS (WAPT) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc16jacksonms" group-title="Usa",ABC 16 Jackson MS (WAPT) (720p)
-https://apollo.production-public.tubi.io/live/ac-wapt.m3u8
+https://livetv-fa.tubi.video/wapt/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 22 Savannah GA (WJCL) (720p)" tvg-logo="https://i.imgur.com/Q4B9h5L.png" tvg-id="abc22savannahga" group-title="Usa",ABC 22 Savannah GA (WJCL) (720p)
-https://apollo.production-public.tubi.io/live/ac-wjcl.m3u8
+https://livetv-fa.tubi.video/wjcl/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 25 News Central Texas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc25newscentraltexas" group-title="Usa",ABC 25 News Central Texas
 https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8
 
 #EXTINF:-1 tvg-name="ABC 25 West Palm Beach FL (WPBF) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc25westpalmbeachfl" group-title="Usa",ABC 25 West Palm Beach FL (WPBF) (720p)
-https://apollo.production-public.tubi.io/live/ac-wpbf.m3u8
+https://livetv-fa.tubi.video/wpbf/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC 30 Fresno and Central Valley News (KFSN-DT1) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc30fresnoandcentralvalleynews" group-title="Usa",ABC 30 Fresno and Central Valley News (KFSN-DT1) (720p)
 https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8
 
 #EXTINF:-1 tvg-name="ABC 40/29 Fort Smith AR (KHBS) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="abc4029fortsmithar" group-title="Usa",ABC 40/29 Fort Smith AR (KHBS) (720p)
-https://apollo.production-public.tubi.io/live/ac-khbs.m3u8
+https://livetv-fa.tubi.video/khbs/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABC (WPLG-DT1) Miami FL (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg/884px-WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg.png" tvg-id="abc" group-title="Usa",ABC (WPLG-DT1) Miami FL (720p)
 https://pubads.g.doubleclick.net/ssai/event/tQD6w9OJQVOobcyV3Dammw/master.m3u8
@@ -17667,34 +17661,34 @@ https://bcovlive-a.akamaihd.net/r602a47f47fee47bb83239eb1b1e1ac83/us-east-1/7345
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 2 Billings MT (KTVQ) (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs2billingsmt" group-title="Usa",CBS 2 Billings MT (KTVQ) (1080p)
-https://aegis-cloudfront-1.tubi.video/16dca551-7e18-4599-b235-395d5044099b/playlist.m3u8
+https://livetv-fa.tubi.video/ktvq/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 3 Great Falls MT (KRTV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs3greatfallsmt" group-title="Usa",CBS 3 Great Falls MT (KRTV) (720p)
-https://apollo.production-public.tubi.io/live/ac-krtv.m3u8
+https://livetv-fa.tubi.video/krtv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 3 Norfolk VA (WTKR) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs3norfolkva" group-title="Usa",CBS 3 Norfolk VA (WTKR) (720p)
-https://apollo.production-public.tubi.io/live/ac-wtkr.m3u8
+https://livetv-fa.tubi.video/wtkr/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 3 Omaha NE (KMTV-TV) (720p)" tvg-logo="https://i.imgur.com/E4PkyqN.png" tvg-id="cbs3omahane" group-title="Usa",CBS 3 Omaha NE (KMTV-TV) (720p)
 https://content.uplynk.com/channel/328d1434fb51476cb6567c74d5b2cc70.m3u8
 
 #EXTINF:-1 tvg-name="CBS 5 Nashville TN (WTVF) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs5nashvilletn" group-title="Usa",CBS 5 Nashville TN (WTVF) (720p)
-https://apollo.production-public.tubi.io/live/ac-wtvf2.m3u8
+https://livetv-fa.tubi.video/wtvf2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 6 Richmond VA (WTVR) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs6richmondva" group-title="Usa",CBS 6 Richmond VA (WTVR) (720p)
-https://apollo.production-public.tubi.io/live/ac-wtvr.m3u8
+https://livetv-fa.tubi.video/wtvr/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 7 Bozeman MT (KBZK) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs7bozemanmt" group-title="Usa",CBS 7 Bozeman MT (KBZK) (720p)
-https://apollo.production-public.tubi.io/live/ac-kbzk.m3u8
+https://livetv-fa.tubi.video/kbzk/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 8 Des Moines IA (KCCI) (720p)" tvg-logo="https://i.imgur.com/6xjshQj.png" tvg-id="cbs8desmoinesia" group-title="Usa",CBS 8 Des Moines IA (KCCI) (720p)
-https://apollo.production-public.tubi.io/live/ac-kcci.m3u8
+https://livetv-fa.tubi.video/kcci/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 8 Missoula MT (KPAX) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs8missoulamt" group-title="Usa",CBS 8 Missoula MT (KPAX) (720p)
-https://apollo.production-public.tubi.io/live/ac-kpax.m3u8
+https://livetv-fa.tubi.video/kpax/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 32 Louisville KY (WLKY) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs32louisvilleky" group-title="Usa",CBS 32 Louisville KY (WLKY) (720p)
-https://apollo.production-public.tubi.io/live/ac-wlky.m3u8
+https://livetv-fa.tubi.video/wlky/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS East (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbseast" group-title="Usa",CBS East (720p)
 https://fl3.moveonjoy.com/CBS_News/index.m3u8
@@ -17856,7 +17850,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 https://fl3.moveonjoy.com/CNBC/index.m3u8
 
 #EXTINF:-1 tvg-name="Cold Case Files (1080p)" tvg-logo="https://i.imgur.com/mowSfj6.png" tvg-id="coldcasefiles" group-title="Usa",Cold Case Files (1080p)
-https://apollo.production-public.tubi.io/live/ac-cold-case-files.m3u8
+https://livetv-fa.tubi.video/cold-case-files/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Collier County Public Schools CCPS Education Channel (Naples FL) (480p)" tvg-logo="https://i.imgur.com/62S7dI8.png" tvg-id="colliercountypublicschoolsccpseducationchannel" group-title="Usa",Collier County Public Schools CCPS Education Channel (Naples FL) (480p)
 https://watch.collierschools.com/EducationChannel/educhannel.stream/playlist.m3u8
@@ -18101,6 +18095,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 #EXTINF:-1 tvg-name="Family Time (1080p)" tvg-logo="https://i.imgur.com/TCKJT2x.png" tvg-id="familytime" group-title="Usa",Family Time (1080p)
 https://amg09501-questar-amg09501c3-stirr-us-3096.playouts.now.amagi.tv/amg09501/AMG09501C3/segmented_playlist/0/35-89-3096.m3u8
 
+#EXTINF:-1 tvg-name="FanDuel Racing" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="fanduelracing" group-title="Usa",FanDuel Racing
+https://d3ehq1uaxory6w.cloudfront.net/out/v1/35c05f080f4e49a4b4eb031b5a14e505/TVG2index_2.m3u8
+
 #EXTINF:-1 tvg-name="FanDuel Sports Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" tvg-id="fanduelsportsnetwork" group-title="Usa",FanDuel Sports Network
 https://fl3.moveonjoy.com/PAC_12/index.m3u8
 
@@ -18132,10 +18129,10 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/58
 https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
 
 #EXTINF:-1 tvg-name="Filmrise Forensic Files (720p)" tvg-logo="https://i.imgur.com/8j2npVc.png" tvg-id="filmriseforensicfiles" group-title="Usa",Filmrise Forensic Files (720p)
-https://apollo.production-public.tubi.io/live/ac-forensic-files.m3u8
+https://livetv-fa.tubi.video/forensic-files/index.m3u8
 
 #EXTINF:-1 tvg-name="Filmrise True Crime (720p)" tvg-logo="https://i.imgur.com/8j2npVc.png" tvg-id="filmrisetruecrime" group-title="Usa",Filmrise True Crime (720p)
-https://apollo.production-public.tubi.io/live/ac-filmrise-true-crime.m3u8
+https://livetv-fa.tubi.video/filmrise-true-crime/index.m3u8
 
 #EXTINF:-1 tvg-name="Find Out Why" tvg-logo="https://i.imgur.com/QVYPNkI.png" tvg-id="findoutwhy" group-title="Usa",Find Out Why
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60faf9368c7ad900082bc9a8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28ca65-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c2ce01d7-85f1-42ac-a875-774effb460a0
@@ -18174,58 +18171,58 @@ https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/fortlauderdale/G1118_002/playlist.m3u8
 https://edge-f.swagit.com/live/fortpiercefl/live-1-a/playlist.m3u8
 
 #EXTINF:-1 tvg-name="FOX 2 Detroit MI (WJBK) (720p)" tvg-logo="https://i.imgur.com/EL9Bwtf.png" tvg-id="fox2detroitmi" group-title="Usa",FOX 2 Detroit MI (WJBK) (720p)
-https://apollo.production-public.tubi.io/live/ac-wjbk.m3u8
+https://livetv-fa.tubi.video/wjbk/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 2 San Francisco CA (KTVU) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox2sanfranciscoca" group-title="Usa",FOX 2 San Francisco CA (KTVU) (720p)
-https://apollo.production-public.tubi.io/live/ac-ktvu.m3u8
+https://livetv-fa.tubi.video/ktvu/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 4 Dallas / Fort Worth TX (KDFW) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox4dallasfortworthtx" group-title="Usa",FOX 4 Dallas / Fort Worth TX (KDFW) (720p)
-https://apollo.production-public.tubi.io/live/ac-kdfw.m3u8
+https://livetv-fa.tubi.video/kdfw/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 5 Washington DC (WTTG) (720p)" tvg-logo="https://i.imgur.com/ktLKla7.png" tvg-id="fox5washingtondc" group-title="Usa",FOX 5 Washington DC (WTTG) (720p)
-https://apollo.production-public.tubi.io/live/ac-wttg.m3u8
+https://livetv-fa.tubi.video/wttg/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 6 Milwaukee WI (WITI) (720p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="fox6milwaukeewi" group-title="Usa",FOX 6 Milwaukee WI (WITI) (720p)
-https://apollo.production-public.tubi.io/live/ac-witi.m3u8
+https://livetv-fa.tubi.video/witi/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 7 Austin TX (KTBC) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox7austintx" group-title="Usa",FOX 7 Austin TX (KTBC) (720p)
-https://apollo.production-public.tubi.io/live/ac-ktbc.m3u8
+https://livetv-fa.tubi.video/ktbc/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 9 ST Paul Minneapolis MN (KMSP) (720p)" tvg-logo="https://i.imgur.com/HCfd9BV.png" tvg-id="fox9stpaulminneapolismn" group-title="Usa",FOX 9 ST Paul Minneapolis MN (KMSP) (720p)
-https://apollo.production-public.tubi.io/live/ac-kmsp.m3u8
+https://livetv-fa.tubi.video/kmsp/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 10 Phoenix AZ (KSAZ) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox10phoenixaz" group-title="Usa",FOX 10 Phoenix AZ (KSAZ) (720p)
-https://apollo.production-public.tubi.io/live/ac-ksaz.m3u8
+https://livetv-fa.tubi.video/ksaz/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 11 Los Angeles CA (KTTV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox11losangelesca" group-title="Usa",FOX 11 Los Angeles CA (KTTV) (720p)
-https://apollo.production-public.tubi.io/live/ac-kttv.m3u8
+https://livetv-fa.tubi.video/kttv/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 13 Salt Lake City UT (KSTU) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox13saltlakecityut" group-title="Usa",FOX 13 Salt Lake City UT (KSTU) (720p)
-https://apollo.production-public.tubi.io/live/ac-kstu2.m3u8
+https://livetv-fa.tubi.video/kstu2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="FOX 13 Seattle WA (KCPQ) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/512px-FOX_wordmark-red.svg.png" tvg-id="fox13seattlewa" group-title="Usa",FOX 13 Seattle WA (KCPQ) (720p)
-https://apollo.production-public.tubi.io/live/ac-kcpq.m3u8
+https://livetv-fa.tubi.video/kcpq/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 13 Tampa Bay FL (WTVT) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox13tampabayfl" group-title="Usa",FOX 13 Tampa Bay FL (WTVT) (720p)
-https://apollo.production-public.tubi.io/live/ac-wtvt.m3u8
+https://livetv-fa.tubi.video/wtvt/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 17 Grand Rapids MI (WXMI) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox17grandrapidsmi" group-title="Usa",FOX 17 Grand Rapids MI (WXMI) (720p)
-https://apollo.production-public.tubi.io/live/ac-wxmi.m3u8
+https://livetv-fa.tubi.video/wxmi/playlist.m3u8
 
 #EXTINF:-1 tvg-name="FOX 26 Houston TX (KRIV) (720p)" tvg-logo="https://i.imgur.com/AZ8MWRp.jpg" tvg-id="fox26houstontx" group-title="Usa",FOX 26 Houston TX (KRIV) (720p)
-https://apollo.production-public.tubi.io/live/ac-kriv.m3u8
+https://livetv-fa.tubi.video/kriv/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 29 Philadelphia PA (WTXF-TV) (720p)" tvg-logo="https://i.imgur.com/fRjmk5r.png" tvg-id="fox29philadelphiapa" group-title="Usa",FOX 29 Philadelphia PA (WTXF-TV) (720p)
-https://apollo.production-public.tubi.io/live/ac-wtxf.m3u8
+https://livetv-fa.tubi.video/wtxf/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 32 Chicago IL (WFLD) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox32chicagoil" group-title="Usa",FOX 32 Chicago IL (WFLD) (720p)
-https://apollo.production-public.tubi.io/live/ac-wfld.m3u8
+https://livetv-fa.tubi.video/wfld/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 35 Orlando FL (WOFL) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox35orlandofl" group-title="Usa",FOX 35 Orlando FL (WOFL) (720p)
-https://apollo.production-public.tubi.io/live/ac-wofl.m3u8
+https://livetv-fa.tubi.video/wofl/index.m3u8
 
 #EXTINF:-1 tvg-name="FOX 47 Lansing MI (WSYM) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="fox47lansingmi" group-title="Usa",FOX 47 Lansing MI (WSYM) (720p)
-https://apollo.production-public.tubi.io/live/ac-wsym.m3u8
+https://livetv-fa.tubi.video/wsym/playlist.m3u8
 
 #EXTINF:-1 tvg-name="FOX Business (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/512px-Fox_Business.svg.png" tvg-id="foxbusiness" group-title="Usa",FOX Business (1080p)
 http://41.205.93.154/FOXBUSINESS/index.m3u8
@@ -18243,7 +18240,7 @@ https://fl1.moveonjoy.com/FOX_SOUL/index.m3u8
 http://23.237.104.106:8080/USA_FS2/index.m3u8
 
 #EXTINF:-1 tvg-name="Fox Sports en Espanol (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/512px-FOX_Deportes_logo.png" tvg-id="foxsportsenespanol" group-title="Usa",Fox Sports en Espanol (720p)
-https://apollo.production-public.tubi.io/live/fox-sports-espanol.m3u8
+https://livetv-fa.tubi.video/fox-sports-espanol2/index.m3u8
 
 #EXTINF:-1 tvg-name="Fox Weather (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/512px-Fox_Weather_logo.svg.png" tvg-id="foxweather" group-title="Usa",Fox Weather (720p)
 https://247wlive.foxweather.com/stream/index.m3u8
@@ -18659,6 +18656,9 @@ https://cvtv.cvalley.net/hls/KOMUCW/KOMUCW.m3u8
 #EXTINF:-1 tvg-name="KPXE-DT1 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/512px-Ion_logo.svg.png" tvg-id="kpxedt1" group-title="Usa",KPXE-DT1 (720p)
 https://cvtv.cvalley.net/hls/KPXEION/KPXEION.m3u8
 
+#EXTINF:-1 tvg-name="KQED-DT2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg" tvg-id="kqeddt2" group-title="Usa",KQED-DT2
+https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8
+
 #EXTINF:-1 tvg-name="KQFX-LD1 (720p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="kqfxld1" group-title="Usa",KQFX-LD1 (720p)
 https://cvtv.cvalley.net/hls/KQFXFOX/KQFXFOX.m3u8
 
@@ -18715,6 +18715,9 @@ https://cvtv.cvalley.net/hls/KTVOCBS/KTVOCBS.m3u8
 
 #EXTINF:-1 tvg-name="KTVO-DT3 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/512px-Comet_logo.svg.png" tvg-id="ktvodt3" group-title="Usa",KTVO-DT3 (720p)
 https://cvtv.cvalley.net/hls/KTVOComet/KTVOComet.m3u8
+
+#EXTINF:-1 tvg-name="KVIE-DT2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg" tvg-id="kviedt2" group-title="Usa",KVIE-DT2
+https://kviedt2.lls.pbs.org/kviedt2-hls.m3u8
 
 #EXTINF:-1 tvg-name="Kweli TV (1080p)" tvg-logo="https://i.imgur.com/LXMlbda.png" tvg-id="kwelitv" group-title="Usa",Kweli TV (1080p)
 https://amg00562-amg00562c1-kwelitv-worldwide-3293.playouts.now.amagi.tv/playlist.m3u8
@@ -18846,16 +18849,13 @@ http://80tv.lincoln.ne.gov/live/live.m3u8
 http://10tv.lincoln.ne.gov/live/live.m3u8
 
 #EXTINF:-1 tvg-name="Localish (720p)" tvg-logo="https://i.imgur.com/ACEbGD5.png" tvg-id="localish" group-title="Usa",Localish (720p)
-https://apollo.production-public.tubi.io/live/ac-localish.m3u8
+https://livetv-fa.tubi.video/localish/index.m3u8
 
 #EXTINF:-1 tvg-name="Logo East (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_TV_2015.svg/512px-Logo_TV_2015.svg.png" tvg-id="logoeast" group-title="Usa",Logo East (720p)
 https://tvpass.org/live/LogoEast/hd
 
 #EXTINF:-1 tvg-name="Logo Pluto TV" tvg-logo="https://i.imgur.com/GtNgJ28.png" tvg-id="logoplutotv" group-title="Usa",Logo Pluto TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ce5a8954311f992edbe1da2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c298db6-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=df156d8e-abc9-4542-8940-17058c09347c
-
-#EXTINF:-1 tvg-name="LOL Standup (1080p)" tvg-logo="https://i.imgur.com/qgsyzW4.png" tvg-id="lolstandup" group-title="Usa",LOL Standup (1080p)
-https://apollo.production-public.tubi.io/live/lol-stand-up2.m3u8
 
 #EXTINF:-1 tvg-name="LOL! Network" tvg-logo="https://i.imgur.com/Tiy3Ur2.png" tvg-id="lolnetwork" group-title="Usa",LOL! Network
 https://lol-lolnetwork-2-nl.samsung.wurl.tv/playlist.m3u8
@@ -19122,55 +19122,55 @@ https://tvpass.org/live/NationalGeographicWildEast/hd
 https://cors-proxy.cooks.fyi/https://streamer2.nexgen.bz/NBC/index.m3u8
 
 #EXTINF:-1 tvg-name="NBC 2 Orlando FL (WESH) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc2orlandofl" group-title="Usa",NBC 2 Orlando FL (WESH) (720p)
-https://apollo.production-public.tubi.io/live/ac-wesh.m3u8
+https://livetv-fa.tubi.video/wesh/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 2 Tulsa OK (KJRH) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc2tulsaok" group-title="Usa",NBC 2 Tulsa OK (KJRH) (720p)
-https://apollo.production-public.tubi.io/live/ac-kjrh.m3u8
+https://livetv-fa.tubi.video/kjrh/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 3 Sacramento CA (KCRA) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc3sacramentoca" group-title="Usa",NBC 3 Sacramento CA (KCRA) (720p)
-https://apollo.production-public.tubi.io/live/ac-kcra.m3u8
+https://livetv-fa.tubi.video/kcra/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 4 Greenville SC (WYFF) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc4greenvillesc" group-title="Usa",NBC 4 Greenville SC (WYFF) (720p)
-https://apollo.production-public.tubi.io/live/ac-wyff.m3u8
+https://livetv-fa.tubi.video/wyff/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 4 Milwaukee WI (WTMJ) (720p)" tvg-logo="https://i.imgur.com/HC85eBq.png" tvg-id="nbc4milwaukeewi" group-title="Usa",NBC 4 Milwaukee WI (WTMJ) (720p)
-https://aegis-cloudfront-1.tubi.video/558113f6-9f55-41d3-83e0-8d6102a9f0ea/playlist.m3u8
+https://livetv-fa.tubi.video/wtmj/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 5 Cincinnati OH (WLWT) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc5cincinnatioh" group-title="Usa",NBC 5 Cincinnati OH (WLWT) (720p)
-https://apollo.production-public.tubi.io/live/ac-wlwt.m3u8
+https://livetv-fa.tubi.video/wlwt/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 5 Colorado Springs CO (KOAA) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc5coloradospringsco" group-title="Usa",NBC 5 Colorado Springs CO (KOAA) (720p)
-https://apollo.production-public.tubi.io/live/ac-koaa.m3u8
+https://livetv-fa.tubi.video/koaa/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 5 Plattsburgh NY (WPTZ) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc5plattsburghny" group-title="Usa",NBC 5 Plattsburgh NY (WPTZ) (720p)
-https://apollo.production-public.tubi.io/live/ac-wptz.m3u8
+https://livetv-fa.tubi.video/wptz/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 6 New Orleans LA (WDSU) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc6neworleansla" group-title="Usa",NBC 6 New Orleans LA (WDSU) (720p)
-https://apollo.production-public.tubi.io/live/ac-wdsu.m3u8
+https://livetv-fa.tubi.video/wdsu/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 8 Lancaster PA (WGAL) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc8lancasterpa" group-title="Usa",NBC 8 Lancaster PA (WGAL) (720p)
-https://apollo.production-public.tubi.io/live/ac-wgal.m3u8
+https://livetv-fa.tubi.video/wgal/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 8 Salinas CA (KSBW) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc8salinasca" group-title="Usa",NBC 8 Salinas CA (KSBW) (720p)
-https://apollo.production-public.tubi.io/live/ac-ksbw.m3u8
+https://livetv-fa.tubi.video/ksbw/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 10 Providence MA (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/WJAR_LOGO_NBC10_Solid_Calls_vert_blu.png/512px-WJAR_LOGO_NBC10_Solid_Calls_vert_blu.png" tvg-id="nbc10providencema" group-title="Usa",NBC 10 Providence MA (1080p)
 https://pubads.g.doubleclick.net/ssai/event/kpannrCBQ5KwdV3Hag3Wog/master.m3u8
 
 #EXTINF:-1 tvg-name="NBC 11 Baltimore MD (WBAL) (720p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="nbc11baltimoremd" group-title="Usa",NBC 11 Baltimore MD (WBAL) (720p)
-https://apollo.production-public.tubi.io/live/ac-wbal.m3u8
+https://livetv-fa.tubi.video/wbal/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 12 Helena MT (KTVH) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc12helenamt" group-title="Usa",NBC 12 Helena MT (KTVH) (720p)
-https://apollo.production-public.tubi.io/live/ac-ktvh.m3u8
+https://livetv-fa.tubi.video/ktvh/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 12 Winston-Salem NC (WXII) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc12winstonsalemnc" group-title="Usa",NBC 12 Winston-Salem NC (WXII) (720p)
-https://apollo.production-public.tubi.io/live/ac-wxii.m3u8
+https://livetv-fa.tubi.video/wxii/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 13 Birmingham Al (WVTM) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc13birminghamal" group-title="Usa",NBC 13 Birmingham Al (WVTM) (720p)
-https://apollo.production-public.tubi.io/live/ac-wvtm.m3u8
+https://livetv-fa.tubi.video/wvtm/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 18 Lexington KY (WLEX) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc18lexingtonky" group-title="Usa",NBC 18 Lexington KY (WLEX) (720p)
-https://apollo.production-public.tubi.io/live/ac-wlex.m3u8
+https://livetv-fa.tubi.video/wlex/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC 26 Green Bay WI (WGBA-DT1) (720p)" tvg-logo="https://i.imgur.com/bzgfmRL.png" tvg-id="nbc26greenbaywi" group-title="Usa",NBC 26 Green Bay WI (WGBA-DT1) (720p)
 https://content.uplynk.com/channel/1fbfb28ae5044f619f75ae0adb011989.m3u8
@@ -19239,7 +19239,7 @@ https://fl1.moveonjoy.com/NFL_RedZone/index.m3u8
 https://nhl-firetv.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NHRA TV (720p)" tvg-logo="https://i.imgur.com/jZgcm4k.png" tvg-id="nhratv" group-title="Usa",NHRA TV (720p)
-https://apollo.production-public.tubi.io/live/ac-nhra.m3u8
+https://livetv-fa.tubi.video/nhra/nh.m3u8
 
 #EXTINF:-1 tvg-name="Nick Jr East" tvg-logo="https://i.imgur.com/KT4tdQs.png" tvg-id="nickjreast" group-title="Usa",Nick Jr East
 https://fl3.moveonjoy.com/NICK_JR/index.m3u8
@@ -20004,7 +20004,7 @@ https://edge-f.swagit.com/live/stjohnscountyfl/live-2-a/playlist.m3u8
 https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/stpete/G0187_003/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Stadium (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/512px-Stadium_%28sports_network%29_logo.svg.png" tvg-id="stadium" group-title="Usa",Stadium (720p)
-https://apollo.production-public.tubi.io/live/ac-stadium2.m3u8
+https://aegis-cloudfront-1.tubi.video/74681dcc-e6d0-4add-ad67-a22ad9c152e6/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Stand-Up TV" tvg-logo="https://i.imgur.com/I6qHx25.png" tvg-id="standuptv" group-title="Usa",Stand-Up TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5637d31f319573e26b64040b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bd7a0-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=33a4d320-29a2-4c88-9bcb-84a407b88251
@@ -20247,7 +20247,7 @@ https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6540ff4f7312a40008297b59/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c7787-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b64828a6-e38b-42b5-a91a-566c504d921c
 
 #EXTINF:-1 tvg-name="TMZ (720p)" tvg-logo="https://i.imgur.com/eLIe7Va.png" tvg-id="tmz" group-title="Usa",TMZ (720p)
-https://apollo.production-public.tubi.io/live/ac-tmz.m3u8
+https://livetv-fa.tubi.video/tmz/index.m3u8
 
 #EXTINF:-1 tvg-name="TODAY All Day" tvg-logo="https://i.imgur.com/LhbQ8Mr.png" tvg-id="todayallday" group-title="Usa",TODAY All Day
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d695f7db53adf96b78e7ce3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2c73e2-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4b9a9385-79d0-48ba-8524-7334c82add93
@@ -20597,6 +20597,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61
 #EXTINF:-1 tvg-name="WeatherSpy (720p)" tvg-logo="https://i.imgur.com/yHUUIIz.png" tvg-id="weatherspy" group-title="Usa",WeatherSpy (720p)
 https://beaece44.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1dlYXRoZXJTcHlfSExT/playlist.m3u8
 
+#EXTINF:-1 tvg-name="WEDQ-DT4" tvg-logo="https://i.imgur.com/FfEebzW.png" tvg-id="wedqdt4" group-title="Usa",WEDQ-DT4
+https://wedqdt4.lls.pbs.org/wedqdt4-hls.m3u8
+
 #EXTINF:-1 tvg-name="West Hollywood WeHoTV (West Hollywood CA) (360p)" tvg-logo="https://i.imgur.com/p3L2vSL.png" tvg-id="westhollywoodwehotv" group-title="Usa",West Hollywood WeHoTV (West Hollywood CA) (360p)
 https://cdn3.wowza.com/5/M0lyamVmM2JWcjhQ/weho/G0161_004/playlist.m3u8
 
@@ -20623,6 +20626,9 @@ https://content.uplynk.com/channel/8975f81e6efd4e609873c3e8e25c7756.m3u8
 
 #EXTINF:-1 tvg-name="WGN Chicago IL (WGN-TV1) (720p)" tvg-logo="https://i.imgur.com/gvHrpnf.png" tvg-id="wgnchicagoil" group-title="Usa",WGN Chicago IL (WGN-TV1) (720p)
 https://cdn1-8p.teleuptv.net/3773db6d-881b-4096-b9cc-b4fe99ab68ac/index.m3u8
+
+#EXTINF:-1 tvg-name="WGTV-DT3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg" tvg-id="wgtvdt3" group-title="Usa",WGTV-DT3
+https://wgtvdt3.lls.pbs.org/wgtvdt3-cmaf-hls.m3u8
 
 #EXTINF:-1 tvg-name="WHBQ-DT1 (1080p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="whbqdt1" group-title="Usa",WHBQ-DT1 (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-whbqbreaking-ono/playlist.m3u8
@@ -20664,7 +20670,7 @@ https://frontdoor.wcat-tv.org/live-13/live/live.m3u8
 https://frontdoor.wcat-tv.org/live-9/live/live.m3u8
 
 #EXTINF:-1 tvg-name="Wipeout Xtra (720p)" tvg-logo="https://i.imgur.com/UDeCRW1.png" tvg-id="wipeoutxtra" group-title="Usa",Wipeout Xtra (720p)
-https://apollo.production-public.tubi.io/live/ac-wipeout-xtra.m3u8
+https://livetv-fa.tubi.video/wipeout-xtra/playlist.m3u8
 
 #EXTINF:-1 tvg-name="WIS-DT2 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/512px-The_CW_2024.svg.png" tvg-id="wisdt2" group-title="Usa",WIS-DT2 (720p)
 https://tvpass.org/live/cw-wdcw-district-of-columbia/hd
@@ -20697,7 +20703,7 @@ https://dvrfl03.bozztv.com/hondu/hondu-gbp-pbs/index.m3u8
 https://townnews.g-mana.live/media/e6909128-cd42-4690-8340-4b8a49455666/main.m3u8
 
 #EXTINF:-1 tvg-name="WMOR-TV News Lakeland FL (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/WMOR.svg/512px-WMOR.svg.png" tvg-id="wmortvnewslakelandfl" group-title="Usa",WMOR-TV News Lakeland FL (720p)
-https://apollo.production-public.tubi.io/live/ac-wmor.m3u8
+https://livetv-fa.tubi.video/wmor/playlist.m3u8
 
 #EXTINF:-1 tvg-name="WMPT-DT2 (PBS Create)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Create_TV_network_logo.svg/512px-Create_TV_network_logo.svg.png" tvg-id="wmptdt2" group-title="Usa",WMPT-DT2 (PBS Create)
 https://2-fss-1.streamhoster.com/pl_122/amlst:201814-2122456/playlist.m3u8
@@ -20718,7 +20724,7 @@ https://5a5c57d042315.streamlock.net/live11704001/ngrp:government_all/playlist.m
 http://143.244.60.30/ABC_EAST/index.m3u8
 
 #EXTINF:-1 tvg-name="Women's Sports Network (720p)" tvg-logo="https://i.imgur.com/rhIwUcQ.png" tvg-id="womenssportsnetwork" group-title="Usa",Women's Sports Network (720p)
-https://apollo.production-public.tubi.io/live/ac-fast-studios-womens-sports.m3u8
+https://livetv-fa.tubi.video/fast-studios-womens-sports/playlist.m3u8
 
 #EXTINF:-1 tvg-name="World Channel (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg" tvg-id="worldchannel" group-title="Usa",World Channel (1080p)
 https://world.lls.pbs.org/index.m3u8
