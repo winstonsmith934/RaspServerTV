@@ -254,6 +254,9 @@ https://streamconex.com:19360/santaclara-1/santaclara-1.m3u8
 #EXTINF:-1 tvg-name="Canal E (720p)" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" tvg-id="canale" group-title="Argentina",Canal E (720p)
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Canal Orbe 21" tvg-logo="https://i.postimg.cc/gjgm8h55/canalorbe21.png" tvg-id="canalorbe21" group-title="Argentina",Canal Orbe 21
+https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Canal Provincial (360p)" tvg-logo="https://i.imgur.com/bXHHtcb.png" tvg-id="canalprovincial" group-title="Argentina",Canal Provincial (360p)
 https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
 
@@ -728,9 +731,6 @@ http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="AZTV Ⓢ" tvg-logo="https://i.imgur.com/snBMMeH.png" tvg-id="aztv" group-title="Azerbaijan",AZTV Ⓢ
 https://www.tvkaista.net/stream-forwarder/get.php?x=AZTV
 
-#EXTINF:-1 tvg-name="CBC" tvg-logo="https://i.imgur.com/wVT0dwO.png" tvg-id="cbc" group-title="Azerbaijan",CBC
-https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8
-
 #EXTINF:-1 tvg-name="CBC Sport Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/az/0/04/CBC_Sport_TV_loqo.png" tvg-id="cbcsport" group-title="Azerbaijan",CBC Sport Ⓖ
 https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
 
@@ -793,6 +793,9 @@ https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-
 
 #EXTINF:-1 tvg-name="Dunya TV" tvg-logo="https://i.postimg.cc/25h8qVxd/dunyatv.png" tvg-id="dunyatv" group-title="Azerbaijan",Dunya TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/dunya-tv.m3u8
+
+#EXTINF:-1 tvg-name="Ictimai TV" tvg-logo="https://i.imgur.com/HzY4VMo.png" tvg-id="ictimaitv" group-title="Azerbaijan",Ictimai TV
+https://live.itv.az/itv.m3u8
 
 #EXTINF:-1 tvg-name="Medeniyyet TV (406p)" tvg-logo="https://i.imgur.com/PlvaDIa.png" tvg-id="medeniyyettv" group-title="Azerbaijan",Medeniyyet TV (406p)
 https://str.yodacdn.net/medeniyyet/index.m3u8
@@ -6521,9 +6524,6 @@ https://cdn5.smart-tv-data.com/local/ena_channel/playlist.m3u8
 #EXTINF:-1 tvg-name="NEA" tvg-logo="https://i.imgur.com/nvNW8G7.png" tvg-id="nea" group-title="Greece",NEA
 https://live.neatv.gr:8888/hls/neatv_high/index.m3u8
 
-#EXTINF:-1 tvg-name="Naftemporiki TV" tvg-logo="https://i.imgur.com/9OFdMud.png" tvg-id="naftemporikitv" group-title="Greece",Naftemporiki TV
-https://stream-188125.castr.net/631af9c016e5eace19ff9a5b/live_048998706a2311ee83b33fe7fbad252d/index.fmp4.m3u8
-
 #EXTINF:-1 tvg-name="TV 100" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/tv-100-gr.png" tvg-id="tv100" group-title="Greece",TV 100
 https://panel.gwebstream.eu:19360/tv100skg/tv100skg.m3u8
 
@@ -9836,9 +9836,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -10079,9 +10076,6 @@ https://stream.mariatvcdn.com/telemistrettaradio/900bfcc0f9012ea272584fd5ff5281b
 #EXTINF:-1 tvg-name="Radio 51 Tv" tvg-logo="https://uaznao.com/wp-content/uploads/2023/03/radio51.png" tvg-id="radio51tv" group-title="Italy",Radio 51 Tv
 https://59d7d6f47d7fc.streamlock.net/canale51/canale51/chunklist_w1193883900.m3u8
 
-#EXTINF:-1 tvg-name="Radio Birikina Tv" tvg-logo="https://uaznao.com/wp-content/uploads/2023/03/radiobirikina.png" tvg-id="radiobirikinatv" group-title="Italy",Radio Birikina Tv
-https://tvd-bk.fluid.stream/RadioBirikinaTV/livestream/chunklist_w84398277.m3u8
-
 #EXTINF:-1 tvg-name="Radio Bruno Tv" tvg-logo="https://i.imgur.com/y4vKE83.png" tvg-id="radiobrunotv" group-title="Italy",Radio Bruno Tv
 https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8
 
@@ -10160,9 +10154,6 @@ https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8
 #EXTINF:-1 tvg-name="RTL 102.5 + Plus" tvg-logo="https://i.imgur.com/mPqDtCO.png" tvg-id="rtl1025" group-title="Italy",RTL 102.5 + Plus
 https://streamcdng14-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S82929343/cAcsSu4Wecc5/chunklist_b5256000.m3u8
 
-#EXTINF:-1 tvg-name="RTM Manduria" tvg-logo="https://i.imgur.com/WwzU0EP.png" tvg-id="rtmmanduria" group-title="Italy",RTM Manduria
-https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8
-
 #EXTINF:-1 tvg-name="RTR99 Tv" tvg-logo="https://i.imgur.com/mkO95pD.png" tvg-id="rtr99tv" group-title="Italy",RTR99 Tv
 https://5e73cf528f404.streamlock.net/RTR99TV/livestream/playlist.m3u8
 
@@ -10183,9 +10174,6 @@ https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" tvg-id="sardegna1" group-title="Italy",Sardegna 1
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Set Tv Cilento" tvg-logo="https://i.imgur.com/qN5D1jD.png" tvg-id="settvcilento" group-title="Italy",Set Tv Cilento
-https://stream1.aswifi.it/settv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Sesta Rete" tvg-logo="https://i.imgur.com/0B0S2gI.png" tvg-id="sestarete" group-title="Italy",Sesta Rete
 https://stream10.xdevel.com/video0s977089-1792/stream/playlist.m3u8
@@ -12165,7 +12153,7 @@ https://live-evg1.tv360.bitel.com.pe/bitel/karibeñatv/playlist.m3u8
 https://live-evg1.tv360.bitel.com.pe/bitel/latele/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Latina (720p)" tvg-logo="https://i.imgur.com/MOsWriY.png" tvg-id="latina" group-title="Peru",Latina (720p)
-https://live-evg25.tv360.bitel.com.pe/bitel/latina/playlist.m3u8
+https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Latina Clasicos" tvg-logo="https://i.imgur.com/q0dAWyj.png" tvg-id="latinaclasicos" group-title="Peru",Latina Clasicos
 https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8
@@ -12496,9 +12484,6 @@ https://customer-dxeagripmkqbhyeq.cloudflarestream.com/580c36d77be200bf5c7d3efc0
 
 #EXTINF:-1 tvg-name="Angel TV Portuguese (720p)" tvg-logo="https://i.imgur.com/qKLEGU7.png" tvg-id="angeltvportuguese" group-title="Portugal",Angel TV Portuguese (720p)
 https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelportuguese_all/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Euronews Português (1080p)" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronewsportugus" group-title="Portugal",Euronews Português (1080p)
-https://euronews-live-por-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/bitok/eyJzdGlkIjoiOWE0ZWZmNzItMmE0ZC00NmFjLWIzZjgtNzJiNjIzODU3N2I5IiwibWt0IjoicHQiLCJjaCI6NjU3MiwicHRmIjo1fQ==/26035/euronews-pt.m3u8
 
 #EXTINF:-1 tvg-name="FUEL TV (1080p)" tvg-logo="https://i.imgur.com/I8mviBy.png" tvg-id="fueltv" group-title="Portugal",FUEL TV (1080p)
 https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
@@ -15969,7 +15954,7 @@ https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-tv.m
 https://live.artidijitalmedya.com/artidijital_trakyaturk/trakyaturk/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" tvg-id="trt1" group-title="Turkey",TRT 1 (1080p)
-http://185.234.111.229:8000/play/a00c
+https://trt.daioncdn.net/trt-1/master.m3u8?app=web
 
 #EXTINF:-1 tvg-name="TRT 2 (720p)" tvg-logo="https://i.imgur.com/iOCQdyD.png" tvg-id="trt2" group-title="Turkey",TRT 2 (720p)
 https://tv-trt2.medya.trt.com.tr/master.m3u8
@@ -15995,8 +15980,8 @@ https://tv-e-okul00.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT EBA Lise (720p)" tvg-logo="https://i.imgur.com/vj2L2L2.png" tvg-id="trtebalise" group-title="Turkey",TRT EBA Lise (720p)
 https://tv-e-okul02.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-name="TRT Haber (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/512px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png" tvg-id="trthaber" group-title="Turkey",TRT Haber (1080p)
-http://185.234.111.229:8000/play/a00d
+#EXTINF:-1 tvg-name="TRT Haber (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/512px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png" tvg-id="trthaber" group-title="Turkey",TRT Haber (720p)
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT Kurdi (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/512px-TRT_Kurd%C3%AE_logo.svg.png" tvg-id="trtkurdi" group-title="Turkey",TRT Kurdi (1080p)
 http://185.234.111.229:8000/play/a00j
@@ -17903,8 +17888,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-comedydynamic
 #EXTINF:-1 tvg-name="Comedy TV" tvg-logo="https://i.imgur.com/KLfXnba.png" tvg-id="comedytv" group-title="Usa",Comedy TV
 https://fl3.moveonjoy.com/Comedy_TV/index.m3u8
 
-#EXTINF:-1 tvg-name="Comet (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/512px-Comet_logo.svg.png" tvg-id="comet" group-title="Usa",Comet (720p)
-https://fl3.moveonjoy.com/COMET/index.m3u8
+#EXTINF:-1 tvg-name="Comet (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/512px-Comet_logo.svg.png" tvg-id="comet" group-title="Usa",Comet (1080p)
+https://fast-channels.sinclairstoryline.com/COMET/index.m3u8
 
 #EXTINF:-1 tvg-name="Concord TV (Concord CA) (720p)" tvg-logo="https://i.imgur.com/1vh2a3H.png" tvg-id="concordtv" group-title="Usa",Concord TV (Concord CA) (720p)
 https://concordca.cablecast.tv/live/stream-2/live.m3u8
@@ -18095,8 +18080,8 @@ https://cpcdn.azureedge.net/ESCAMBIACOFLLIVE1/ESCAMBIACOFLLIVE1/playlist.m3u8
 #EXTINF:-1 tvg-name="ESPN U (720p)" tvg-logo="https://i.imgur.com/HiBrysh.png" tvg-id="espnu" group-title="Usa",ESPN U (720p)
 https://fl3.moveonjoy.com/ESPN_U/index.m3u8
 
-#EXTINF:-1 tvg-name="ESPNews (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/512px-ESPNews.svg.png" tvg-id="espnews" group-title="Usa",ESPNews (720p)
-https://fl3.moveonjoy.com/ESPN_NEWS/index.m3u8
+#EXTINF:-1 tvg-name="ESPNews" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/512px-ESPNews.svg.png" tvg-id="espnews" group-title="Usa",ESPNews
+https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8
 
 #EXTINF:-1 tvg-name="Estrella Games (1080p)" tvg-logo="https://i.imgur.com/Z52nEnH.png" tvg-id="estrellagames" group-title="Usa",Estrella Games (1080p)
 https://estrella-games-oando.amagi.tv/playlist.m3u8
@@ -20710,6 +20695,9 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wjaxbreaking-on
 
 #EXTINF:-1 tvg-name="WJXT News4JAX (Jacksonville FL) (720p)" tvg-logo="https://i.imgur.com/mrWo0P1.png" tvg-id="wjxtnews4jax" group-title="Usa",WJXT News4JAX (Jacksonville FL) (720p)
 https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8
+
+#EXTINF:-1 tvg-name="WKCF-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/512px-The_CW_2024.svg.png" tvg-id="wkcfdt1" group-title="Usa",WKCF-DT1
+https://fl1.moveonjoy.com/CW_ORLANDO/index.m3u8
 
 #EXTINF:-1 tvg-name="WKCF-DT2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/True_Crime_Network_logo.svg/512px-True_Crime_Network_logo.svg.png" tvg-id="wkcfdt2" group-title="Usa",WKCF-DT2
 https://dvrfl03.bozztv.com/hondu-lxnews/index.m3u8
