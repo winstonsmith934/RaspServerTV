@@ -11957,9 +11957,6 @@ https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
 #EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
 https://zonam1.ddns.net/hls/stream1.m3u8
 
-#EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
-https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
-
 #EXTINF:-1 tvg-name="Стар Фолк" tvg-logo="https://i.imgur.com/7RstQYI.png" tvg-id="" group-title="North_macedonia",Стар Фолк
 https://live.muzickatv.mk/live/StarMusic.m3u8
 
@@ -16351,6 +16348,9 @@ http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ГІТ" tvg-logo="https://i.imgur.com/b5K5Uwh.png" tvg-id="" group-title="Ukraine",ГІТ
 https://stream.uagit.tv/gittv.m3u8
+
+#EXTINF:-1 tvg-name="Telekanal RAI" tvg-logo="https://i.imgur.com/Ouv51WB.png" tvg-id="telekanalrai" group-title="Ukraine",Telekanal RAI
+https://stream.rai.ua/rai/stream.m3u8
 
 #EXTINF:-1 tvg-name="Тернопіль 1" tvg-logo="https://i.imgur.com/f5EtIzV.png" tvg-id="1" group-title="Ukraine",Тернопіль 1
 https://ott.columbus.te.ua/ternopil1/index.m3u8
