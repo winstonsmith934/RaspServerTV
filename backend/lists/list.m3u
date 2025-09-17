@@ -2075,9 +2075,6 @@ https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-name="TV Punjab (720p)" tvg-logo="https://en.tvpunjab.com/storage/2022/03/logo-2022.png" tvg-id="tvpunjab" group-title="Canada",TV Punjab (720p)
 https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TVE Internacional America (720p)" tvg-logo="https://i.imgur.com/iODADvi.png" tvg-id="tveinternacionalamerica" group-title="Canada",TVE Internacional America (720p)
-http://190.11.225.124:5000/live/tve_hd/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TVOKids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tvokids-logo.svg/512px-Tvokids-logo.svg.png" tvg-id="tvokids" group-title="Canada",TVOKids
 https://bcovlive-a.akamaihd.net/rf86f817779524249abf842af6d16f55f/us-east-1/15364602001/playlist.m3u8
 
@@ -2846,8 +2843,8 @@ https://cloudvideo.servers10.com:8081/8030/index.m3u8
 #EXTINF:-1 tvg-name="Extrema TV (720p)" tvg-logo="https://i.imgur.com/E9AuhOU.png" tvg-id="extrematv" group-title="Costa_rica",Extrema TV (720p)
 https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/playlist.m3u8
 
-#EXTINF:-1 tvg-name="FUTV Costa Rica (720p)" tvg-logo="https://i.imgur.com/f8BkLql.png" tvg-id="futvcostarica" group-title="Costa_rica",FUTV Costa Rica (720p)
-#EXTVLCOPT:http-referrer=https://www.futvcr.com/
+#EXTINF:-1 tvg-name="FUTV (1080p)" tvg-logo="https://i.imgur.com/f8BkLql.png" tvg-id="futv" group-title="Costa_rica",FUTV (1080p)
+https://live20.bozztv.com/akamaissh101/ssh101/livefutvcr/playlist.m3u8
 
 #EXTINF:-1 tvg-name="GAMTV.cr (720p)" tvg-logo="https://i.ibb.co/xFCS7wM/GAMTVCR.png" tvg-id="gamtvcr" group-title="Costa_rica",GAMTV.cr (720p)
 https://v2.azulstream.com:8081/gamtv/gamtv/index.m3u8
@@ -7610,6 +7607,9 @@ http://103.199.161.254/Content/flowers/Live/Channel(Flowers)/index.m3u8
 #EXTINF:-1 tvg-name="Gaunda Punjab TV" tvg-logo="https://i.imgur.com/ArRZRM3.png" tvg-id="gaundapunjabtv" group-title="India",Gaunda Punjab TV
 http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Gemini TV (1080p)" tvg-logo="https://i.imgur.com/yWaacuI.png" tvg-id="geminitv" group-title="India",Gemini TV (1080p)
+https://livestream10.sunnxt.com/DolbyVision/GeminiTV_HDR/GeminiTV_HDR_Endpoints/GeminiTV-HDR10-IN-index.m3u8
+
 #EXTINF:-1 tvg-name="Global Punjab (1080p)" tvg-logo="https://i.imgur.com/WDLqcWW.png" tvg-id="globalpunjab" group-title="India",Global Punjab (1080p)
 https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
 
@@ -7826,8 +7826,8 @@ https://yuppftalive.akamaized.net/080823/mantavya/playlist.m3u8
 #EXTINF:-1 tvg-name="Mastiii (1080p)" tvg-logo="https://i.imgur.com/lxgXHx4.png" tvg-id="mastiii" group-title="India",Mastiii (1080p)
 https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Max Middle East (720p)" tvg-logo="https://i.imgur.com/AFXPVYD.png" tvg-id="maxmiddleeast" group-title="India",Max Middle East (720p)
-https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=b6192dbff21b
+#EXTINF:-1 tvg-name="Max Middle East (1080p)" tvg-logo="https://i.imgur.com/AFXPVYD.png" tvg-id="maxmiddleeast" group-title="India",Max Middle East (1080p)
+#EXTVLCOPT:http-referrer=https://nxtlive.net/
 
 #EXTINF:-1 tvg-name="Mazhavil Manorama (396p)" tvg-logo="https://i.imgur.com/fjgzW20.png" tvg-id="mazhavilmanorama" group-title="India",Mazhavil Manorama (396p)
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8
@@ -8129,20 +8129,32 @@ https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 #EXTINF:-1 tvg-name="Songdew TV (396p)" tvg-logo="https://i.imgur.com/aFlKqH4.png" tvg-id="songdewtv" group-title="India",Songdew TV (396p)
 https://yupplivefragcp3.yuppcdn.net/260423/smil:songdew.smil/index.m3u8
 
-#EXTINF:-1 tvg-name="Sony Entertainment Television (720p)" tvg-logo="https://i.imgur.com/AkdfpVr.png" tvg-id="sonyentertainmenttelevision" group-title="India",Sony Entertainment Television (720p)
-https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=2bec2112b890
+#EXTINF:-1 tvg-name="Sony Entertainment Television (1080p)" tvg-logo="https://i.imgur.com/AkdfpVr.png" tvg-id="sonyentertainmenttelevision" group-title="India",Sony Entertainment Television (1080p)
+#EXTVLCOPT:http-referrer=https://nxtlive.net/
+
+#EXTINF:-1 tvg-name="Sony Marathi (1080p)" tvg-logo="https://i.imgur.com/uiDnvqt.png" tvg-id="sonymarathi" group-title="India",Sony Marathi (1080p)
+#EXTVLCOPT:http-referrer=https://nxtlive.net/
 
 #EXTINF:-1 tvg-name="Sony Max 2 (720p)" tvg-logo="https://i.imgur.com/gqUYk6C.png" tvg-id="sonymax2" group-title="India",Sony Max 2 (720p)
 https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=420510be5c17
 
+#EXTINF:-1 tvg-name="Sony Pal (1080p)" tvg-logo="https://i.imgur.com/GnoJkj4.png" tvg-id="sonypal" group-title="India",Sony Pal (1080p)
+#EXTVLCOPT:http-referrer=https://nxtlive.net/
+
 #EXTINF:-1 tvg-name="Sony Pix (720p)" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" tvg-id="sonypix" group-title="India",Sony Pix (720p)
 https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=ea02096b0fbc
 
-#EXTINF:-1 tvg-name="Sony SAB (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Sony_Sab_new.png/512px-Sony_Sab_new.png" tvg-id="sonysab" group-title="India",Sony SAB (720p)
-https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=b7167fe646a4
+#EXTINF:-1 tvg-name="Sony SAB (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Sony_Sab_new.png/512px-Sony_Sab_new.png" tvg-id="sonysab" group-title="India",Sony SAB (1080p)
+#EXTVLCOPT:http-referrer=https://nxtlive.net/
 
 #EXTINF:-1 tvg-name="Sony Six HD (1080p)" tvg-logo="https://i.imgur.com/40BbQUd.png" tvg-id="sonysix" group-title="India",Sony Six HD (1080p)
 #EXTVLCOPT:http-user-agent=stream
+
+#EXTINF:-1 tvg-name="Sony Wah (1080p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="sonywah" group-title="India",Sony Wah (1080p)
+#EXTVLCOPT:http-referrer=https://nxtlive.net/
+
+#EXTINF:-1 tvg-name="Sony Yay! (1080p)" tvg-logo="https://i.imgur.com/MhlO1dB.png" tvg-id="sonyyay" group-title="India",Sony Yay! (1080p)
+#EXTVLCOPT:http-referrer=https://nxtlive.net/
 
 #EXTINF:-1 tvg-name="Sooriyan TV" tvg-logo="https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" tvg-id="sooriyantv" group-title="India",Sooriyan TV
 https://cdn.jwplayer.com/videos/1m0nMXhZ-3SDdwqdV.m3u8
@@ -8167,6 +8179,12 @@ https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sudarshan News (1080p)" tvg-logo="https://i.imgur.com/7AV1VI9.png" tvg-id="sudarshannews" group-title="India",Sudarshan News (1080p)
 https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8
+
+#EXTINF:-1 tvg-name="Sun TV (1080p)" tvg-logo="https://i.imgur.com/Z0HJi56.png" tvg-id="suntv" group-title="India",Sun TV (1080p)
+https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8
+
+#EXTINF:-1 tvg-name="Surya TV (1080p)" tvg-logo="https://i.imgur.com/NqXpFXU.png" tvg-id="suryatv" group-title="India",Surya TV (1080p)
+https://livestream10.sunnxt.com/DolbyVision/SuryaTV_HDR/SuryaTV_HDR_Endpoints/SuryaTV-HDR10-IN-index.m3u8
 
 #EXTINF:-1 tvg-name="SVBC 2 (576p)" tvg-logo="https://i.imgur.com/NtmRt1A.png" tvg-id="svbc2" group-title="India",SVBC 2 (576p)
 https://yuppftalive.akamaized.net/080823/svbc2tamil/playlist.m3u8
@@ -8554,6 +8572,9 @@ https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV Kesehatan (1080p)" tvg-logo="https://i.imgur.com/IGIX3o8.jpg" tvg-id="tvkesehatan" group-title="Indonesia",TV Kesehatan (1080p)
 https://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TV MUI (720p)" tvg-logo="https://i.imgur.com/vWtViyC.png" tvg-id="tvmui" group-title="Indonesia",TV MUI (720p)
+https://mui.siar.us/mui/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TVKU (720p)" tvg-logo="https://i.imgur.com/BAklJGy.png" tvg-id="tvku" group-title="Indonesia",TVKU (720p)
 https://tvku.tv/hlsstream/hls/live.m3u8
@@ -9742,6 +9763,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
+
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Euronews Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsitalian" group-title="Italy",Euronews Italian
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b86ea479a4390007c6d5fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
@@ -16931,12 +16955,6 @@ https://reuters-reutersnow-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="NASA TV Media" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="nasatvmedia" group-title="Usa",NASA TV Media
 https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 
-#EXTINF:-1 tvg-name="BBC Food" tvg-logo="https://i.imgur.com/N3xiz4m.png" tvg-id="bbcfood" group-title="Usa",BBC Food
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
-
-#EXTINF:-1 tvg-name="BBC Home" tvg-logo="https://i.imgur.com/Ii8DX1x.png" tvg-id="bbchome" group-title="Usa",BBC Home
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5836fe745b600070fc743/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
-
 #EXTINF:-1 tvg-name="Docurama" tvg-logo="https://i.imgur.com/bNg8mze.png" tvg-id="docurama" group-title="Usa",Docurama
 https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-docuramaA/CDN/master.m3u8
 
@@ -20356,9 +20374,6 @@ https://fl4.moveonjoy.com/TV_ONE/index.m3u8
 
 #EXTINF:-1 tvg-name="TV QUISQUEYA (720p)" tvg-logo="https://i.imgur.com/G7X4LQI.png" tvg-id="tvquisqueya" group-title="Usa",TV QUISQUEYA (720p)
 https://cloud5.livescast.com:19360/canaltvquisqueya/canaltvquisqueya.m3u8
-
-#EXTINF:-1 tvg-name="TVE Internacional America (720p)" tvg-logo="https://i.imgur.com/iODADvi.png" tvg-id="tveinternacionalamerica" group-title="Usa",TVE Internacional America (720p)
-http://190.11.225.124:5000/live/tve_hd/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TVS Bowling Network (720p)" tvg-logo="https://www.watchyour.tv/channels/logo/tvs-bowling-network.jpg" tvg-id="tvsbowlingnetwork" group-title="Usa",TVS Bowling Network (720p)
 https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
