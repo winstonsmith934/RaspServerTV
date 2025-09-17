@@ -116,6 +116,9 @@ https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 #EXTINF:-1 tvg-name="Asti Radio Television Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/art-tv_1-gr.png" tvg-id="astiradiotelevision" group-title="Greece",Asti Radio Television Ⓖ
 https://rumble.com/live-hls-dvr/6vluby/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ENA Channel" tvg-logo="https://i.imgur.com/3g3yjAq.png" tvg-id="enachannel" group-title="Greece",ENA Channel
+https://cdn5.smart-tv-data.com/local/ena_channel/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Dance TV" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="dancetv" group-title="Hungary",Dance TV
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 
@@ -248,9 +251,6 @@ https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8
 #EXTINF:-1 tvg-name="Rete Sole" tvg-logo="https://i.imgur.com/u0ezKgE.png" tvg-id="retesole" group-title="Italy",Rete Sole
 https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Sicilia Tv" tvg-logo="https://i.imgur.com/I5FoThW.png" tvg-id="siciliatv" group-title="Italy",Sicilia Tv
 https://stream9.xdevel.com/video0s976441-1226/stream/playlist.m3u8
 
@@ -370,6 +370,9 @@ https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
 
 #EXTINF:-1 tvg-name="Rock TV" tvg-logo="https://i.imgur.com/Y9miDQo.png" tvg-id="rocktv" group-title="North_macedonia",Rock TV
 https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
+
+#EXTINF:-1 tvg-name="INTV" tvg-logo="https://i.imgur.com/K7BSjqY.png" tvg-id="intv" group-title="North_macedonia",INTV
+http://tv1.intv.mk:1935/live/intv/index.m3u8
 
 #EXTINF:-1 tvg-name="Unicanal" tvg-logo="https://i.imgur.com/brlepuX.png" tvg-id="unicanal" group-title="Paraguay",Unicanal
 http://45.55.127.106/live/unicanal.m3u8
@@ -553,7 +556,4 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5844bf
 
 #EXTINF:-1 tvg-name="BBC Home" tvg-logo="https://i.imgur.com/Ii8DX1x.png" tvg-id="bbchome" group-title="Usa",BBC Home
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5836fe745b600070fc743/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
-
-#EXTINF:-1 tvg-name="Latina TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/Latinatv.jpg" tvg-id="latinatv" group-title="Venezuela",Latina TV
-https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 

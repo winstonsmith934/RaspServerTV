@@ -6536,9 +6536,6 @@ https://eu1.streams.gr:8081/centertv/index.m3u8
 #EXTINF:-1 tvg-name="DION" tvg-logo="https://i.imgur.com/13MverN.png" tvg-id="dion" group-title="Greece",DION
 https://rtmp.win:3650/live/diontvlive.m3u8
 
-#EXTINF:-1 tvg-name="ENA Channel" tvg-logo="https://i.imgur.com/3g3yjAq.png" tvg-id="enachannel" group-title="Greece",ENA Channel
-https://cdn5.smart-tv-data.com/local/ena_channel/playlist.m3u8
-
 #EXTINF:-1 tvg-name="NEA" tvg-logo="https://i.imgur.com/nvNW8G7.png" tvg-id="nea" group-title="Greece",NEA
 https://live.neatv.gr:8888/hls/neatv_high/index.m3u8
 
@@ -10196,6 +10193,9 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
+https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
 
@@ -12013,9 +12013,6 @@ http://fta.hugo.mk:1935/live/tvhugo/stream/2.m3u8
 
 #EXTINF:-1 tvg-name="Folk Club TV" tvg-logo="https://i.imgur.com/vkGFSl8.png" tvg-id="folkclubtv" group-title="North_macedonia",Folk Club TV
 http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
-
-#EXTINF:-1 tvg-name="INTV" tvg-logo="https://i.imgur.com/K7BSjqY.png" tvg-id="intv" group-title="North_macedonia",INTV
-http://tv1.intv.mk:1935/live/intv/index.m3u8
 
 #EXTINF:-1 tvg-name="Macedonian Documentary Channel" tvg-logo="https://i.imgur.com/uYyG2oA.png" tvg-id="macedoniandocumentarychannel" group-title="North_macedonia",Macedonian Documentary Channel
 https://giganet.mk/hls/macdoc.m3u8
@@ -20974,6 +20971,9 @@ https://vcp2.myplaytv.com/valetv/valetv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telesur" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/TeleSUR.png" tvg-id="telesur" group-title="Venezuela",Telesur
 https://raw.githubusercontent.com/BellezaEmporium/IPTV_Exception/master/channels/ve/telesur.m3u8
+
+#EXTINF:-1 tvg-name="Latina TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/Latinatv.jpg" tvg-id="latinatv" group-title="Venezuela",Latina TV
+https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 
 #EXTINF:-1 tvg-name="Aguacate TV (1080p)" tvg-logo="https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg" tvg-id="aguacatetv" group-title="Venezuela",Aguacate TV (1080p)
 https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8
