@@ -17,6 +17,9 @@ https://live1.mediadesk.al/cnatvlive.m3u8
 #EXTINF:-1 tvg-name="Euronews Albania Ⓨ" tvg-logo="https://i.imgur.com/Skf6vdi.png" tvg-id="euronewsalbania" group-title="Albania",Euronews Albania Ⓨ
 https://www.youtube.com/@EuronewsAlbania/live
 
+#EXTINF:-1 tvg-name="News 24 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/News_24_%28Albania%29.svg/1024px-News_24_%28Albania%29.svg.png" tvg-id="news24" group-title="Albania",News 24 Ⓢ
+https://tv.balkanweb.com/news24/livestream/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Ora News" tvg-logo="https://i.imgur.com/ILZY5bJ.png" tvg-id="oranews" group-title="Albania",Ora News
 https://live1.mediadesk.al/oranews.m3u8
 
@@ -9758,9 +9761,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Euronews Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsitalian" group-title="Italy",Euronews Italian
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b86ea479a4390007c6d5fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 
@@ -10045,6 +10045,9 @@ https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
@@ -11975,9 +11978,6 @@ http://ares.mnet.mk/hls/mnet-info.m3u8
 #EXTINF:-1 tvg-name="TV 24 Ⓖ" tvg-logo="https://i.imgur.com/MFKeNZx.png" tvg-id="tv24" group-title="North_macedonia",TV 24 Ⓖ
 https://hls.telekabel.com.mk:1936/live/11/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ТВ НОВА 12" tvg-logo="https://i.imgur.com/Qo3Hj3t.png" tvg-id="12" group-title="North_macedonia",ТВ НОВА 12
-http://151.236.247.171:8080/nova/index.m3u8
-
 #EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
 https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
 
@@ -13162,6 +13162,9 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist
 
 #EXTINF:-1 tvg-name="Соловьёв Live" tvg-logo="https://i.imgur.com/v0OYe1d.png" tvg-id="live" group-title="Russia",Соловьёв Live
 https://player.smotrim.ru/iframe/stream/live_id/63338
+
+#EXTINF:-1 tvg-name="Ю Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/a/ac/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%AE%C2%BB_%28%D1%81_3_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2018_%D0%B3%D0%BE%D0%B4%D0%B0%29.png" tvg-id="" group-title="Russia",Ю Ⓢ
+https://strm.yandex.ru/kal/utv/utv0.m3u8
 
 #EXTINF:-1 tvg-name="Матч! Планета Ⓢ" tvg-logo="https://i.imgur.com/vhyMb9D.png" tvg-id="" group-title="Russia",Матч! Планета Ⓢ
 http://212.0.211.102:9999/play/a00b/index.m3u8
