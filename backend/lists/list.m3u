@@ -752,9 +752,6 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -9761,6 +9758,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Euronews Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsitalian" group-title="Italy",Euronews Italian
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b86ea479a4390007c6d5fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 
@@ -9808,9 +9808,6 @@ https://media2021.rtvweb.com/antenna3massa/a3/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Antenna 3 Veneto Nord Est" tvg-logo="https://i.imgur.com/NiVHLwp.png" tvg-id="antenna3venetonordest" group-title="Italy",Antenna 3 Veneto Nord Est
 https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Antenna Sud" tvg-logo="https://i.imgur.com/b8y6ImZ.png" tvg-id="antennasud" group-title="Italy",Antenna Sud
-https://live.antennasudwebtv.it:9443/hls/vod.m3u8
 
 #EXTINF:-1 tvg-name="Arte Network Orler" tvg-logo="https://i.imgur.com/DP5y0Er.png" tvg-id="artenetworkorler" group-title="Italy",Arte Network Orler
 https://tsw.streamingwebtv24.it:1936/artenetwork/artenetwork/playlist.m3u8
@@ -9893,9 +9890,6 @@ https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8
 #EXTINF:-1 tvg-name="Di.Tv 92" tvg-logo="https://i.imgur.com/g3SI08H.png" tvg-id="ditv92" group-title="Italy",Di.Tv 92
 https://media2021.rtvweb.com/di_tv_92/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Digital Tv7 Benevento" tvg-logo="https://i.imgur.com/NaQkklP.png" tvg-id="digitaltv7benevento" group-title="Italy",Digital Tv7 Benevento
-http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="E'live Brescia Tv" tvg-logo="https://i.imgur.com/bZ3B7pi.png" tvg-id="elivebresciatv" group-title="Italy",E'live Brescia Tv
 https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8
 
@@ -9949,6 +9943,9 @@ https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Giovanni Paolo Tv" tvg-logo="https://i.imgur.com/GH5eJE6.png" tvg-id="giovannipaolotv" group-title="Italy",Giovanni Paolo Tv
 https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8
+
+#EXTINF:-1 tvg-name="Globus Television" tvg-logo="https://i.imgur.com/yUTYqCv.png" tvg-id="globustelevision" group-title="Italy",Globus Television
+https://cdn.cubws.com/live/globus.m3u8
 
 #EXTINF:-1 tvg-name="Gold Tv" tvg-logo="https://i.imgur.com/3rVi4kD.png" tvg-id="goldtv" group-title="Italy",Gold Tv
 https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8
@@ -10213,6 +10210,9 @@ https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" tvg-id="sardegna1" group-title="Italy",Sardegna 1
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Set Tv Cilento" tvg-logo="https://i.imgur.com/qN5D1jD.png" tvg-id="settvcilento" group-title="Italy",Set Tv Cilento
+https://stream1.aswifi.it/settv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Sesta Rete" tvg-logo="https://i.imgur.com/0B0S2gI.png" tvg-id="sestarete" group-title="Italy",Sesta Rete
 https://stream10.xdevel.com/video0s977089-1792/stream/playlist.m3u8
@@ -10504,6 +10504,9 @@ https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/p
 
 #EXTINF:-1 tvg-name="Video Mediterraneo" tvg-logo="https://i.imgur.com/hJHC3uQ.png" tvg-id="videomediterraneo" group-title="Italy",Video Mediterraneo
 https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Video Nola" tvg-logo="https://i.imgur.com/M5z5UoD.jpg" tvg-id="videonola" group-title="Italy",Video Nola
+https://videonola.aswifi.it/videonolaabr/live.m3u8
 
 #EXTINF:-1 tvg-name="Video Regione Sicilia" tvg-logo="https://i.imgur.com/0szwnR3.png" tvg-id="videoregionesicilia" group-title="Italy",Video Regione Sicilia
 https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/playlist.m3u8
