@@ -20,9 +20,6 @@ https://www.youtube.com/@EuronewsAlbania/live
 #EXTINF:-1 tvg-name="News 24 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/News_24_%28Albania%29.svg/1024px-News_24_%28Albania%29.svg.png" tvg-id="news24" group-title="Albania",News 24 Ⓢ
 https://tv.balkanweb.com/news24/livestream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Ora News" tvg-logo="https://i.imgur.com/ILZY5bJ.png" tvg-id="oranews" group-title="Albania",Ora News
-https://live1.mediadesk.al/oranews.m3u8
-
 #EXTINF:-1 tvg-name="Panorama TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/512px-Panorama_logo.svg.png" tvg-id="panoramatv" group-title="Albania",Panorama TV Ⓢ
 http://198.244.188.94/panorama/livestream/playlist.m3u8
 
@@ -1018,9 +1015,6 @@ https://live-radio-cf-vrt.akamaized.net/groupb/live/0f394a26-c87d-475e-8590-e9c6
 
 #EXTINF:-1 tvg-name="VTM (720p)" tvg-logo="https://i.imgur.com/N3nwyDd.png" tvg-id="vtm" group-title="Belgium",VTM (720p)
 https://dpp-live-events.medialaancdn.be/events/hls/aes/webstream1.m3u8
-
-#EXTINF:-1 tvg-name="BHT 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Logo_of_BHT_1_%282003-2012%29.png" tvg-id="bht1" group-title="Bosnia_and_herzegovina",BHT 1 Ⓢ
-https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
 
 #EXTINF:-1 tvg-name="Federalna televizija (FTV) Ⓢ" tvg-logo="https://i.imgur.com/Jpvs4u3.png" tvg-id="federalnatelevizija" group-title="Bosnia_and_herzegovina",Federalna televizija (FTV) Ⓢ
 http://94.250.2.6:7374/play/a02s/index.m3u8
@@ -9764,6 +9758,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Euronews Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsitalian" group-title="Italy",Euronews Italian
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b86ea479a4390007c6d5fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 
@@ -9832,6 +9829,9 @@ https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/p
 
 #EXTINF:-1 tvg-name="Cafe Tv 24" tvg-logo="https://i.imgur.com/KbcbxFw.png" tvg-id="cafetv24" group-title="Italy",Cafe Tv 24
 https://srvx1.selftv.video/cafe/live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Calabria Uno Tv" tvg-logo="https://i.imgur.com/2TK1GQ5.png" tvg-id="calabriaunotv" group-title="Italy",Calabria Uno Tv
+https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Canale 10" tvg-logo="https://i.imgur.com/KuQcjYV.png" tvg-id="canale10" group-title="Italy",Canale 10
 https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8
@@ -10079,6 +10079,12 @@ https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8
 #EXTINF:-1 tvg-name="Partenope Tv" tvg-logo="https://i.imgur.com/FtuWkj1.png" tvg-id="partenopetv" group-title="Italy",Partenope Tv
 https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8
 
+#EXTINF:-1 tvg-name="Peer Tv Alto Adige" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png" tvg-id="peertvaltoadige" group-title="Italy",Peer Tv Alto Adige
+https://iptv.peer.biz/live/peertv-it.m3u8
+
+#EXTINF:-1 tvg-name="Peer TV Südtirol" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png" tvg-id="peertvsdtirol" group-title="Italy",Peer TV Südtirol
+https://iptv.peer.biz/live/peertv.m3u8
+
 #EXTINF:-1 tvg-name="Prima Tv Napoli" tvg-logo="https://i.imgur.com/yPuQeEy.jpg" tvg-id="primatvnapoli" group-title="Italy",Prima Tv Napoli
 https://57068da1deb21.streamlock.net/primatvnapoli/primatvnapoli/playlist.m3u8
 
@@ -10207,6 +10213,9 @@ https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" tvg-id="sardegna1" group-title="Italy",Sardegna 1
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Set Tv Cilento" tvg-logo="https://i.imgur.com/qN5D1jD.png" tvg-id="settvcilento" group-title="Italy",Set Tv Cilento
+https://stream1.aswifi.it/settv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Sesta Rete" tvg-logo="https://i.imgur.com/0B0S2gI.png" tvg-id="sestarete" group-title="Italy",Sesta Rete
 https://stream10.xdevel.com/video0s977089-1792/stream/playlist.m3u8
@@ -10498,9 +10507,6 @@ https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/p
 
 #EXTINF:-1 tvg-name="Video Mediterraneo" tvg-logo="https://i.imgur.com/hJHC3uQ.png" tvg-id="videomediterraneo" group-title="Italy",Video Mediterraneo
 https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Video Nola" tvg-logo="https://i.imgur.com/M5z5UoD.jpg" tvg-id="videonola" group-title="Italy",Video Nola
-https://videonola.aswifi.it/videonolaabr/live.m3u8
 
 #EXTINF:-1 tvg-name="Video Regione Sicilia" tvg-logo="https://i.imgur.com/0szwnR3.png" tvg-id="videoregionesicilia" group-title="Italy",Video Regione Sicilia
 https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/playlist.m3u8
