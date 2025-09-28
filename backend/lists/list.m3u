@@ -128,14 +128,8 @@ https://www.youtube.com/c/c5n/live
 #EXTINF:-1 tvg-name="LN+ Ⓨ" tvg-logo="https://i.imgur.com/vJYzGt1.png" tvg-id="ln" group-title="Argentina",LN+ Ⓨ
 https://www.youtube.com/c/LaNacionMas/live
 
-#EXTINF:-1 tvg-name="Canal E" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" tvg-id="canale" group-title="Argentina",Canal E
-https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8
-
 #EXTINF:-1 tvg-name="Telemax" tvg-logo="https://i.imgur.com/gfX0hdB.png" tvg-id="telemax" group-title="Argentina",Telemax
 https://live-edge01.telecentro.net.ar/live/smil:tlx.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Net TV" tvg-logo="https://i.imgur.com/EWmshtx.png" tvg-id="nettv" group-title="Argentina",Net TV
-https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/tvLHiAT.png" tvg-id="tvuniversidad" group-title="Argentina",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
@@ -9869,6 +9863,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Euronews Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-id="euronewsitalian" group-title="Italy",Euronews Italian
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b86ea479a4390007c6d5fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 
@@ -10250,9 +10247,6 @@ https://live1.giocabet.tv/stream/6/index.m3u8
 #EXTINF:-1 tvg-name="Rete 8" tvg-logo="https://i.imgur.com/bGsjPRh.png" tvg-id="rete8" group-title="Italy",Rete 8
 https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Rete 8 Sport" tvg-logo="https://i.imgur.com/uUAjWlF.png" tvg-id="rete8sport" group-title="Italy",Rete 8 Sport
-https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Rete Biella Tv" tvg-logo="https://i.imgur.com/e2ryHx7.png" tvg-id="retebiellatv" group-title="Italy",Rete Biella Tv
 https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
 
@@ -10306,6 +10300,9 @@ https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" tvg-id="sardegna1" group-title="Italy",Sardegna 1
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Set Tv Cilento" tvg-logo="https://i.imgur.com/qN5D1jD.png" tvg-id="settvcilento" group-title="Italy",Set Tv Cilento
+https://stream1.aswifi.it/settv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Sesta Rete" tvg-logo="https://i.imgur.com/0B0S2gI.png" tvg-id="sestarete" group-title="Italy",Sesta Rete
 https://stream10.xdevel.com/video0s977089-1792/stream/playlist.m3u8
@@ -16234,9 +16231,6 @@ http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklis
 
 #EXTINF:-1 tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" tvg-id="trtworld" group-title="Uk",TRT World
 https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8
-
-#EXTINF:-1 tvg-name="SportyStuff TV" tvg-logo="https://i.imgur.com/uIgxHSY.png" tvg-id="sportystufftv" group-title="Uk",SportyStuff TV
-https://cdn.rtmp1.vodhosting.com/hls/SportyStuffTV.m3u8
 
 #EXTINF:-1 tvg-name="4Music Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/49/4Music_logo_2018.svg/512px-4Music_logo_2018.svg.png" tvg-id="4music" group-title="Uk",4Music Ⓖ
 https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?spotxc1=195996&spotxc2=190878&yo.up=https://boxtv.secure.footprint.net/boxhits/
