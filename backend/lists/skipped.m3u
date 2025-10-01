@@ -245,6 +245,12 @@ https://stream1.aswifi.it/mediterraneatv/live/index.m3u8
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
 
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
+
 #EXTINF:-1 tvg-name="Odeon 24" tvg-logo="https://i.imgur.com/M1tVBuH.png" tvg-id="odeon24" group-title="Italy",Odeon 24
 https://5a1178b42cc03.streamlock.net/odeon163/odeon163/playlist.m3u8
 
@@ -352,9 +358,6 @@ https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8
 
 #EXTINF:-1 tvg-name="Uno Tv" tvg-logo="https://i.imgur.com/4PNbqqL.png" tvg-id="unotv" group-title="Italy",Uno Tv
 https://stream1.aswifi.it/unotv/live/index.m3u8
-
-#EXTINF:-1 tvg-name="Uno4 Tv" tvg-logo="https://i.imgur.com/wfPPpBA.png" tvg-id="uno4tv" group-title="Italy",Uno4 Tv
-https://cdn.uno4.it/index.m3u8
 
 #EXTINF:-1 tvg-name="Vera Tv" tvg-logo="https://i.imgur.com/djMvkvN.png" tvg-id="veratv" group-title="Italy",Vera Tv
 http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8
@@ -517,6 +520,9 @@ https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
 
 #EXTINF:-1 tvg-name="Ideal World" tvg-logo="https://i.imgur.com/su6GH7i.png" tvg-id="idealworld" group-title="Uk",Ideal World
 https://ythls.armelin.one/channel/UCJbgGTpBWuC87VFIKTTO4RQ.m3u8
+
+#EXTINF:-1 tvg-name="Blaze Ⓖ" tvg-logo="https://i.imgur.com/6UcPWP9.png" tvg-id="blaze" group-title="Uk",Blaze Ⓖ
+https://live.blaze.tv/live7/blaze/bitrate1.isml/live.m3u8
 
 #EXTINF:-1 tvg-name="EarthXTV" tvg-logo="https://i.imgur.com/AvJRFKf.png" tvg-id="earthxtv" group-title="Uk",EarthXTV
 https://ov.ottera.tv/live/master.m3u8?channel=earth_et
