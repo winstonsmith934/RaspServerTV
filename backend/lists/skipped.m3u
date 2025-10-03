@@ -131,6 +131,9 @@ http://78.109.104.240:8000/play/a0ch/index.m3u8?HasBahCa.m3u8
 #EXTINF:-1 tvg-name="Komlos TV" tvg-logo="https://i.imgur.com/MDYb5yz.png" tvg-id="komlostv" group-title="Hungary",Komlos TV
 https://stream.streaming4u.hu/KomlosTV/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-name="Tisza TV" tvg-logo="https://www.tiszatv.hu/style/tiszatv_logo.png" tvg-id="tiszatv" group-title="Hungary",Tisza TV
+https://www.tiszatv.hu/onlinetv/tiszatv_1.m3u8
+
 #EXTINF:-1 tvg-name="M2 / Petőfi TV" tvg-logo="https://i.imgur.com/CzaDhmA.png" tvg-id="m2petfitv" group-title="Hungary",M2 / Petőfi TV
 https://c201-node61-cdn.connectmedia.hu/110102/7184521041cf54cee9c6548e8d0ba377/64117799/index.m3u8
 
@@ -208,6 +211,9 @@ http://77.68.40.210:8888/hls/basilicata1.m3u8
 
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Digital Tv7 Benevento" tvg-logo="https://i.imgur.com/NaQkklP.png" tvg-id="digitaltv7benevento" group-title="Italy",Digital Tv7 Benevento
+http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
@@ -317,8 +323,8 @@ https://59d7d6f47d7fc.streamlock.net/televenezia/televenezia/playlist.m3u8
 #EXTINF:-1 tvg-name="Tele Video Agrigento (T.V.A.)" tvg-logo="https://i.imgur.com/AaPr63E.png" tvg-id="televideoagrigento" group-title="Italy",Tele Video Agrigento (T.V.A.)
 https://59d7d6f47d7fc.streamlock.net/tva/tva/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Teleiblea" tvg-logo="https://i.imgur.com/n1THygZ.png" tvg-id="teleiblea" group-title="Italy",Teleiblea
-https://5f22d76e220e1.streamlock.net/teleiblea/teleiblea/playlist.m3u8
+#EXTINF:-1 tvg-name="TeleAmbiente" tvg-logo="https://i.imgur.com/jxZcQhU.png" tvg-id="teleambiente" group-title="Italy",TeleAmbiente
+https://5f22d76e220e1.streamlock.net/teleambiente2024/teleambiente2024/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TeleRegione Live" tvg-logo="https://i.imgur.com/DBrt8L3.png" tvg-id="teleregionelive" group-title="Italy",TeleRegione Live
 https://5f22d76e220e1.streamlock.net/galluralive/galluralive/playlist.m3u8
@@ -502,9 +508,6 @@ https://live-talktv-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12
 
 #EXTINF:-1 tvg-name="France 24" tvg-logo="https://i.imgur.com/61MSiq9.png" tvg-id="france24" group-title="Uk",France 24
 https://ythls.armelin.one/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg.m3u8
-
-#EXTINF:-1 tvg-name="SportyStuff TV" tvg-logo="https://i.imgur.com/uIgxHSY.png" tvg-id="sportystufftv" group-title="Uk",SportyStuff TV
-https://cdn.rtmp1.vodhosting.com/hls/SportyStuffTV.m3u8
 
 #EXTINF:-1 tvg-name="BBC Radio 1" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1-epg.png" tvg-id="bbcradio1" group-title="Uk",BBC Radio 1
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8
