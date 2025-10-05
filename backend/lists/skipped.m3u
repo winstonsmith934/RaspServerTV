@@ -26,6 +26,9 @@ https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
 #EXTINF:-1 tvg-name="TV BPK Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/Logo_of_RTV_BPK_Gora%C5%BEde.jpg" tvg-id="tvbpk" group-title="Bosnia_and_herzegovina",TV BPK Ⓢ
 http://94.250.2.6:7374/play/a02u/index.m3u8
 
+#EXTINF:-1 tvg-name="Rede Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Marca_rede_brasil_rgb-color.png" tvg-id="redebrasil" group-title="Brazil",Rede Brasil
+https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
+
 #EXTINF:-1 tvg-name="CBC Toronto" tvg-logo="https://i.imgur.com/H5yEbxf.png" tvg-id="cbctoronto" group-title="Canada",CBC Toronto
 https://bozztv.com/teleyupp1/teleup-ydcl2V1MVC/playlist.m3u8
 
@@ -197,23 +200,20 @@ https://5a1178b42cc03.streamlock.net/goldsat/goldsat/playlist.m3u8
 #EXTINF:-1 tvg-name="Alma TV" tvg-logo="https://i.imgur.com/Y8JiDwN.png" tvg-id="almatv" group-title="Italy",Alma TV
 https://5a1178b42cc03.streamlock.net/alma/alma/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="abctv" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
 #EXTINF:-1 tvg-name="AB Channel" tvg-logo="https://i.imgur.com/k8EPLB9.png" tvg-id="abchannel" group-title="Italy",AB Channel
 https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" tvg-id="aristanissupertv" group-title="Italy",Aristanis SuperTv
+https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="basilicata1tv" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
 
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
@@ -250,6 +250,9 @@ https://5a1178b42cc03.streamlock.net/odeon163/odeon163/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Ora Tv" tvg-logo="https://i.imgur.com/clWVrvE.png" tvg-id="oratv" group-title="Italy",Ora Tv
 https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Partenope Tv" tvg-logo="https://i.imgur.com/FtuWkj1.png" tvg-id="partenopetv" group-title="Italy",Partenope Tv
+https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8
 
 #EXTINF:-1 tvg-name="Pop Tv" tvg-logo="https://i.imgur.com/TeolCu9.png" tvg-id="poptv" group-title="Italy",Pop Tv
 https://stream1.aswifi.it/poptelevision/live/index.m3u8
@@ -383,6 +386,9 @@ https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/1080p/prog_index.m3u8
 #EXTINF:-1 tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" tvg-id="" group-title="North_macedonia",Орбис
 http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
 
+#EXTINF:-1 tvg-name="ТВ НОВА 12" tvg-logo="https://i.imgur.com/Qo3Hj3t.png" tvg-id="12" group-title="North_macedonia",ТВ НОВА 12
+http://151.236.247.171:8080/nova/index.m3u8
+
 #EXTINF:-1 tvg-name="Cool TV" tvg-logo="https://i.imgur.com/2tFrjUz.png" tvg-id="cooltv" group-title="North_macedonia",Cool TV
 https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
 
@@ -481,6 +487,60 @@ https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3
 
 #EXTINF:-1 tvg-name="Canal 4 Tenerife" tvg-logo="https://i.imgur.com/Egymir4.png" tvg-id="canal4tenerife" group-title="Spain",Canal 4 Tenerife
 https://videoserver.tmcreativos.com:19360/ccxwhsfcnq/ccxwhsfcnq.m3u8
+
+#EXTINF:-1 tvg-name="HQM Arabic" tvg-logo="https://hqm.es/wp-content/uploads/arabic-hqm-logo.png" tvg-id="hqmarabic" group-title="Spain",HQM Arabic
+https://livelist01.yowi.tv/lista/39596c72840d27b213caf4e58c39599a6f2ed203/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Baladas" tvg-logo="https://hqm.es/wp-content/uploads/baladas-hqm-logo.png" tvg-id="hqmbaladas" group-title="Spain",HQM Baladas
+https://livelist01.yowi.tv/lista/5d7d2c21e0ec7a8a99fd1fdbc52cbdc0782f77fc/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Blues" tvg-logo="https://hqm.es/wp-content/uploads/blues-hqm-logo.png" tvg-id="hqmblues" group-title="Spain",HQM Blues
+https://livelist01.yowi.tv/lista/81c601f370e44dc566113fd752204be5f5f53b61/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Chill Out" tvg-logo="https://hqm.es/wp-content/uploads/chill-out-hqm-logo.png" tvg-id="hqmchillout" group-title="Spain",HQM Chill Out
+https://livelist01.yowi.tv/lista/183a351ddb0e57af6d735256226e6033c32219ab/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Classic" tvg-logo="https://hqm.es/wp-content/uploads/classic-hqm-logo.png" tvg-id="hqmclassic" group-title="Spain",HQM Classic
+https://livelist01.yowi.tv/lista/f04129475945936b248aa723de56519ea2ff10fc/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Dance" tvg-logo="https://hqm.es/wp-content/uploads/dance-hqm-logo.png" tvg-id="hqmdance" group-title="Spain",HQM Dance
+https://livelist01.yowi.tv/lista/57cf2f51b07ff21988a7a6f0270a66d41086d4a4/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Folk" tvg-logo="https://hqm.es/wp-content/uploads/folk-hqm-logo.png" tvg-id="hqmfolk" group-title="Spain",HQM Folk
+https://livelist01.yowi.tv/lista/9f5310c179e8e840188d183be235f755b18cf703/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Gym" tvg-logo="https://hqm.es/wp-content/uploads/gym-hqm-logo.png" tvg-id="hqmgym" group-title="Spain",HQM Gym
+https://livelist01.yowi.tv/lista/abb87f329d0ed03072b1930e9636a53e8076c8d5/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Hip Hop" tvg-logo="https://hqm.es/wp-content/uploads/hip-hop-hqm-logo.png" tvg-id="hqmhiphop" group-title="Spain",HQM Hip Hop
+https://livelist01.yowi.tv/lista/8327abc87895df4c76db1155435fdca6a3607bbd/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Hits" tvg-logo="https://hqm.es/wp-content/uploads/hits-hqm-logo.png" tvg-id="hqmhits" group-title="Spain",HQM Hits
+https://livelist01.yowi.tv/lista/5e2db2017a8fd03f73b40ede363d1a586db4e9a6/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Jazz" tvg-logo="https://hqm.es/wp-content/uploads/jazz-hqm-logo.png" tvg-id="hqmjazz" group-title="Spain",HQM Jazz
+https://livelist01.yowi.tv/lista/f204aa5b3f0691e69851b54b7746ef09ede26f6a/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Kids" tvg-logo="https://hqm.es/wp-content/uploads/kids-hqm-logo.png" tvg-id="hqmkids" group-title="Spain",HQM Kids
+https://livelist01.yowi.tv/lista/e4bc12dafe33c3ceb3e382e3acc0ec2c012cf7fd/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Latin" tvg-logo="https://hqm.es/wp-content/uploads/latin-hqm-logo.png" tvg-id="hqmlatin" group-title="Spain",HQM Latin
+https://livelist01.yowi.tv/lista/9a4da7871ec57b4b63ed49597a13d09869172be0/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Pop" tvg-logo="https://hqm.es/wp-content/uploads/pop-hqm-logo.png" tvg-id="hqmpop" group-title="Spain",HQM Pop
+https://livelist01.yowi.tv/lista/eb2fa68a058a701fa5bd2c80f6c8a6075896f71d/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Relax" tvg-logo="https://hqm.es/wp-content/uploads/relax-hqm-logo.png" tvg-id="hqmrelax" group-title="Spain",HQM Relax
+https://livelist01.yowi.tv/lista/dc1b71c6fda2e687050facaa7242062cbf5a7f2a/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Remember" tvg-logo="https://hqm.es/wp-content/uploads/remember-hqm-logo.png" tvg-id="hqmremember" group-title="Spain",HQM Remember
+https://livelist01.yowi.tv/lista/57c98e2e295a0b69b52dc5f84edc4b1b68783ba2/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Rock" tvg-logo="https://hqm.es/wp-content/uploads/rock-hqm-logo.png" tvg-id="hqmrock" group-title="Spain",HQM Rock
+https://livelist01.yowi.tv/lista/0d6c7ccfac89946bfd41ae34c527e8d94734065c/master.m3u8
+
+#EXTINF:-1 tvg-name="HQM Spanish" tvg-logo="https://hqm.es/wp-content/uploads/spanish-hqm-logo.png" tvg-id="hqmspanish" group-title="Spain",HQM Spanish
+https://livelist01.yowi.tv/lista/8635ae40f8d1a32eccd63d1f58b55662c9c98f9f/master.m3u8
 
 #EXTINF:-1 tvg-name="SVT 1 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SVT1_logo_2016.svg/800px-SVT1_logo_2016.svg.png" tvg-id="svt1" group-title="Sweden",SVT 1 Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svt1/manifest.mpd?defaultSubLang=1
