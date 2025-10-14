@@ -1121,6 +1121,9 @@ https://live.tv-m.net/hls/stream.m3u8
 #EXTINF:-1 tvg-name="TNT Kids (288p)" tvg-logo="https://i.imgur.com/irTDbpn.png" tvg-id="tntkids" group-title="Bosnia_and_herzegovina",TNT Kids (288p)
 https://restreamer1.tnt.ba/hls/tntkids.m3u8
 
+#EXTINF:-1 tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" tvg-id="combrasil" group-title="Brazil",COM Brasil
+https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
+
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-id="sbt" group-title="Brazil",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
 
@@ -3019,6 +3022,9 @@ https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcast
 
 #EXTINF:-1 tvg-name="TV Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png" tvg-id="tvnova" group-title="Croatia",TV Nova
 https://stream.agatin.hr:3727/live/tvnovalive.m3u8
+
+#EXTINF:-1 tvg-name="TV Jadran" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/9a/Tv_jadran_logo.png" tvg-id="tvjadran" group-title="Croatia",TV Jadran
+https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
 
 #EXTINF:-1 tvg-name="Libertas TV" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/8/8a/LibertasTV.png" tvg-id="libertastv" group-title="Croatia",Libertas TV
 https://stream.luci.xyz/hls/LTV.m3u8
@@ -7728,7 +7734,7 @@ https://cdn-1.pishow.tv/live/1456/master.m3u8
 https://yuppftalive.akamaized.net/080823/dishatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Disney International HD (1080p)" tvg-logo="https://i.imgur.com/JkGvrc6.png" tvg-id="disneyinternational" group-title="India",Disney International HD (1080p)
-https://live.dinesh29.com.np/stream/jiotvplus/disneyinternationalhd/master.m3u8
+http://116.90.120.149:8000/play/a0e9/index.m3u8
 
 #EXTINF:-1 tvg-name="Disney Junior (576p)" tvg-logo="https://i.postimg.cc/KvRqrLg2/disneyjunior.png" tvg-id="disneyjunior" group-title="India",Disney Junior (576p)
 http://116.90.120.149:8000/play/a0b3/index.m3u8
@@ -8394,7 +8400,7 @@ https://live.dinesh29.com.np/stream/jiotvplus/starbharathd/master.m3u8
 http://116.90.120.149:8000/play/a0ea/index.m3u8
 
 #EXTINF:-1 tvg-name="Star Gold HD (1080p)" tvg-logo="https://i.imgur.com/xC460sj.png" tvg-id="stargold" group-title="India",Star Gold HD (1080p)
-https://live.dinesh29.com.np/stream/jiotvplus/stargoldhd/master.m3u8
+http://116.90.120.149:8000/play/a0c2/index.m3u8
 
 #EXTINF:-1 tvg-name="Star Gold Romance (576p)" tvg-logo="https://i.imgur.com/gSWv9U3.png" tvg-id="stargoldromance" group-title="India",Star Gold Romance (576p)
 https://live.dinesh29.com.np/stream/jiotvplus/stargoldromance/master.m3u8
@@ -8453,20 +8459,11 @@ https://live.dinesh29.com.np/stream/jiotvplus/suvarna/master.m3u8
 #EXTINF:-1 tvg-name="Star Suvarna Plus (576p)" tvg-logo="https://i.imgur.com/xlCOq0l.png" tvg-id="starsuvarna" group-title="India",Star Suvarna Plus (576p)
 https://live.dinesh29.com.np/stream/jiotvplus/suvarnaplus/master.m3u8
 
-#EXTINF:-1 tvg-name="Star Utsav (576p)" tvg-logo="https://i.imgur.com/H1jhHDl.png" tvg-id="starutsav" group-title="India",Star Utsav (576p)
-https://live.dinesh29.com.np/stream/jiotvplus/starutsav/master.m3u8
-
-#EXTINF:-1 tvg-name="Star Utsav Movies (576p)" tvg-logo="https://i.imgur.com/k5QHfH2.png" tvg-id="starutsavmovies" group-title="India",Star Utsav Movies (576p)
-https://live.dinesh29.com.np/stream/jiotvplus/starutsavmovies/master.m3u8
-
-#EXTINF:-1 tvg-name="Star Vijay HD (1080p)" tvg-logo="https://i.imgur.com/dZtJHAe.png" tvg-id="starvijay" group-title="India",Star Vijay HD (1080p)
-https://live.dinesh29.com.np/stream/jiotvplus/starvijayhd/master.m3u8
-
 #EXTINF:-1 tvg-name="Starnet (480p)" tvg-logo="https://i.imgur.com/J3jB7Kr.png" tvg-id="starnet" group-title="India",Starnet (480p)
 https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8
 
 #EXTINF:-1 tvg-name="StarPlus HD (1080p)" tvg-logo="https://i.imgur.com/xWxNy3L.png" tvg-id="starplus" group-title="India",StarPlus HD (1080p)
-https://live.dinesh29.com.np/stream/jiotvplus/starplushd/master.m3u8
+http://116.90.120.149:8000/play/a0b9/index.m3u8
 
 #EXTINF:-1 tvg-name="Studio One + (720p)" tvg-logo="https://i.imgur.com/yOPB7JB.png" tvg-id="studioone" group-title="India",Studio One + (720p)
 https://cdn-1.pishow.tv/live/276/master.m3u8
@@ -10546,9 +10543,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -13085,26 +13079,11 @@ https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8
 #EXTINF:-1 tvg-name="Al Rayyan Al Qadeem (1080p)" tvg-logo="https://i.imgur.com/4qB5iN0.png" tvg-id="alrayyanalqadeem" group-title="Qatar",Al Rayyan Al Qadeem (1080p)
 https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Alkass Five (1080p)" tvg-logo="https://i.imgur.com/6RGNGsM.png" tvg-id="alkassfive" group-title="Qatar",Alkass Five (1080p)
-https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass5azq/master.m3u8
+#EXTINF:-1 tvg-name="Alkass Three (720p)" tvg-logo="https://i.imgur.com/d57BdFh.png" tvg-id="alkassthree" group-title="Qatar",Alkass Three (720p)
+https://streamer2.qna.org.qa/148161470_live/148161470_296.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Alkass Four (1080p)" tvg-logo="https://i.imgur.com/iDL65Wu.png" tvg-id="alkassfour" group-title="Qatar",Alkass Four (1080p)
-https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass4azq/master.m3u8
-
-#EXTINF:-1 tvg-name="Alkass One (1080p)" tvg-logo="https://i.postimg.cc/c4gKs5wn/alkassone.png" tvg-id="alkassone" group-title="Qatar",Alkass One (1080p)
-https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass1muytrdc/master.m3u8
-
-#EXTINF:-1 tvg-name="Alkass SHOOF (1080p)" tvg-logo="https://shoof.alkass.net/assets/images/shoof.png" tvg-id="alkassshoof" group-title="Qatar",Alkass SHOOF (1080p)
-https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass6Shoof1ab/master.m3u8
-
-#EXTINF:-1 tvg-name="Alkass Six (1080p)" tvg-logo="https://i.imgur.com/CrPSPSC.png" tvg-id="alkasssix" group-title="Qatar",Alkass Six (1080p)
-https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass6buzay/master.m3u8
-
-#EXTINF:-1 tvg-name="Alkass Three (1080p)" tvg-logo="https://i.imgur.com/d57BdFh.png" tvg-id="alkassthree" group-title="Qatar",Alkass Three (1080p)
-https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass3vakazq/master.m3u8
-
-#EXTINF:-1 tvg-name="Alkass Two (1080p)" tvg-logo="https://i.imgur.com/8w61kFX.png" tvg-id="alkasstwo" group-title="Qatar",Alkass Two (1080p)
-https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass2hefazq/master.m3u8
+#EXTINF:-1 tvg-name="Alkass Two (720p)" tvg-logo="https://i.imgur.com/8w61kFX.png" tvg-id="alkasstwo" group-title="Qatar",Alkass Two (720p)
+https://streamer1.qna.org.qa/148133202_live/148133202_63.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Libya Al Ahrar TV" tvg-logo="https://i.imgur.com/xkQKVGi.png" tvg-id="libyaalahrartv" group-title="Qatar",Libya Al Ahrar TV
 https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120757/libyaalahrarhd/playlist.m3u8
@@ -16703,6 +16682,9 @@ http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="ДІМ" tvg-logo="https://i.imgur.com/3cjaXIF.png" tvg-id="" group-title="Ukraine",ДІМ
 http://212.79.122.11:5014/udp/239.255.6.18:1234
 
+#EXTINF:-1 tvg-name="Дніпро TV" tvg-logo="https://i.imgur.com/mbPTVh1.png" tvg-id="tv" group-title="Ukraine",Дніпро TV
+http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
+
 #EXTINF:-1 tvg-name="ГІТ" tvg-logo="https://i.imgur.com/b5K5Uwh.png" tvg-id="" group-title="Ukraine",ГІТ
 https://stream.uagit.tv/gittv.m3u8
 
@@ -18464,8 +18446,8 @@ https://livestream.telvue.com/derrynh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/play
 #EXTINF:-1 tvg-name="Didgah TV (576p)" tvg-logo="https://i.postimg.cc/mkR41jrB/didgahtv.png" tvg-id="didgahtv" group-title="Usa",Didgah TV (576p)
 https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Disney Channel" tvg-logo="https://i.postimg.cc/854KwmH1/disneychannel.png" tvg-id="disneychannel" group-title="Usa",Disney Channel
-https://e3.thetvapp.to/hls/DisneyChannelEast/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-name="Disney Channel (360p)" tvg-logo="https://i.postimg.cc/854KwmH1/disneychannel.png" tvg-id="disneychannel" group-title="Usa",Disney Channel (360p)
+https://e5.thetvapp.to/hls/DisneyChannelEast/tracks-v2a1/mono.m3u8?
 
 #EXTINF:-1 tvg-name="Disney Junior East" tvg-logo="https://i.postimg.cc/KvRqrLg2/disneyjunior.png" tvg-id="disneyjunioreast" group-title="Usa",Disney Junior East
 https://fl7.moveonjoy.com/DISNEY_JR/index.m3u8
