@@ -10013,6 +10013,9 @@ https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:-1 tvg-name="La 5 Ⓖ" tvg-logo="https://i.imgur.com/UNyJaho.png" tvg-id="la5" group-title="Italy",La 5 Ⓖ
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
 
+#EXTINF:-1 tvg-name="Real Time" tvg-logo="https://i.imgur.com/9dcTYg1.png" tvg-id="realtime" group-title="Italy",Real Time
+https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
+
 #EXTINF:-1 tvg-name="QVC" tvg-logo="https://i.imgur.com/Ea7iUX2.png" tvg-id="qvc" group-title="Italy",QVC
 https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 
@@ -10390,6 +10393,9 @@ https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 
 #EXTINF:-1 tvg-name="News24 City" tvg-logo="https://i.imgur.com/dak9AtV.png" tvg-id="news24city" group-title="Italy",News24 City
 https://dc3.telesveva.com:4433/news24.mp4
+
+#EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
+https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
@@ -11122,9 +11128,6 @@ https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/1
 
 #EXTINF:-1 tvg-name="WOWOW Prime (720p)" tvg-logo="https://i.imgur.com/vACq7w8.png" tvg-id="wowowprime" group-title="Japan",WOWOW Prime (720p)
 http://171.244.62.178/jptv2/get.php?id=CXrJaWUllYhR6k5e0_K46w==
-
-#EXTINF:-1 tvg-name="KBS 1TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png" tvg-id="kbs1tv" group-title="Korea",KBS 1TV
-http://mytv.dothome.co.kr/ch/public/1.php
 
 #EXTINF:-1 tvg-name="KBS 2TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/512px-KBS_2_logo.svg.png" tvg-id="kbs2tv" group-title="Korea",KBS 2TV
 http://ye23.vip/z7z8/2021/kbs2020.php?id=2
@@ -13460,6 +13463,9 @@ http://ott-cdn.ucom.am/s88/index.m3u8
 #EXTINF:-1 tvg-name="ТВ-3 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%D0%A2V3_logo_2023.svg/556px-%D0%A2V3_logo_2023.svg.png" tvg-id="3" group-title="Russia",ТВ-3 Ⓢ
 https://streaming.televizor-24-tochka.ru/live/18.m3u8
 
+#EXTINF:-1 tvg-name="Пятница! Ⓢ" tvg-logo="https://i.imgur.com/rS11zVB.png" tvg-id="" group-title="Russia",Пятница! Ⓢ
+https://streaming.televizor-24-tochka.ru/live/19.m3u8
+
 #EXTINF:-1 tvg-name="Звезда" tvg-logo="https://i.imgur.com/c0L0ncA.png" tvg-id="" group-title="Russia",Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 
@@ -13537,9 +13543,6 @@ https://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="360 Новости" tvg-logo="https://i.imgur.com/YXDeX8q.png" tvg-id="360" group-title="Russia",360 Новости
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Вести ФМ" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/r/371/033/8.png" tvg-id="" group-title="Russia",Вести ФМ
-https://player.smotrim.ru/iframe/stream/live_id/52035
 
 #EXTINF:-1 tvg-name="Север" tvg-logo="https://i.imgur.com/sTOQLYl.png" tvg-id="" group-title="Russia",Север
 https://live.mediacdn.ru/sr1/sever/playlist.m3u8
