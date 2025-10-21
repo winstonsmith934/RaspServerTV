@@ -215,6 +215,12 @@ https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Canale 10" tvg-logo="https://i.imgur.com/KuQcjYV.png" tvg-id="canale10" group-title="Italy",Canale 10
+https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
+http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
 
@@ -256,9 +262,6 @@ https://5a1178b42cc03.streamlock.net/odeon163/odeon163/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Onda Web Radio" tvg-logo="https://i.imgur.com/3hTvrC8.jpg" tvg-id="ondawebradio" group-title="Italy",Onda Web Radio
 http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Ora Tv" tvg-logo="https://i.imgur.com/clWVrvE.png" tvg-id="oratv" group-title="Italy",Ora Tv
-https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Pop Tv" tvg-logo="https://i.imgur.com/TeolCu9.png" tvg-id="poptv" group-title="Italy",Pop Tv
 https://stream1.aswifi.it/poptelevision/live/index.m3u8
@@ -311,9 +314,6 @@ https://rst.saiuzwebnetwork.it:19360/teleradioercolano-1/teleradioercolano-1.m3u
 #EXTINF:-1 tvg-name="Tele Radio Orte" tvg-logo="https://i.imgur.com/uX2uxvN.png" tvg-id="teleradioorte" group-title="Italy",Tele Radio Orte
 https://flash2.xdevel.com/ortetv/ortetv/index.m3u8
 
-#EXTINF:-1 tvg-name="Tele Radio Sciacca" tvg-logo="https://i.imgur.com/suhz5mE.png" tvg-id="teleradiosciacca" group-title="Italy",Tele Radio Sciacca
-https://5db313b643fd8.streamlock.net/teleradiosciaccatv/teleradiosciaccatv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Tele Sud Puglia" tvg-logo="https://i.imgur.com/fqTLtvs.png" tvg-id="telesudpuglia" group-title="Italy",Tele Sud Puglia
 https://64b16f23efbee.streamlock.net/telesud/telesud/playlist.m3u8
 
@@ -352,9 +352,6 @@ http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="VB33" tvg-logo="https://i.imgur.com/ygDuIxU.png" tvg-id="vb33" group-title="Italy",VB33
 https://live.ipstream.it/vb33/vb33.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Vuemme Tv" tvg-logo="https://i.imgur.com/x5A0xU6.png" tvg-id="vuemmetv" group-title="Italy",Vuemme Tv
-https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8
 
 #EXTINF:-1 tvg-name="MBC TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Munhwa_Broadcasting_Company.svg/512px-Munhwa_Broadcasting_Company.svg.png" tvg-id="mbctv" group-title="Korea",MBC TV
 http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
@@ -397,6 +394,9 @@ https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
 
 #EXTINF:-1 tvg-name="Love TV" tvg-logo="https://i.imgur.com/B8iaejQ.png" tvg-id="lovetv" group-title="North_macedonia",Love TV
 https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
+
+#EXTINF:-1 tvg-name="Вистел" tvg-logo="https://i.imgur.com/MbM0E6L.png" tvg-id="" group-title="North_macedonia",Вистел
+https://live.vtv.mk/live/vtv/chunks.m3u8
 
 #EXTINF:-1 tvg-name="Unicanal" tvg-logo="https://i.imgur.com/brlepuX.png" tvg-id="unicanal" group-title="Paraguay",Unicanal
 http://45.55.127.106/live/unicanal.m3u8
