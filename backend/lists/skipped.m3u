@@ -194,6 +194,9 @@ https://5a1178b42cc03.streamlock.net/goldsat/goldsat/playlist.m3u8
 #EXTINF:-1 tvg-name="Alma TV" tvg-logo="https://i.imgur.com/Y8JiDwN.png" tvg-id="almatv" group-title="Italy",Alma TV
 https://5a1178b42cc03.streamlock.net/alma/alma/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="abctv" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
@@ -202,9 +205,6 @@ https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="basilicata1tv" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
-
-#EXTINF:-1 tvg-name="Calabria Uno Tv" tvg-logo="https://i.imgur.com/2TK1GQ5.png" tvg-id="calabriaunotv" group-title="Italy",Calabria Uno Tv
-https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
@@ -404,6 +404,9 @@ http://45.55.127.106/live/unicanal.m3u8
 #EXTINF:-1 tvg-name="Panamericana TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/Panamericana_tv_2009.png" tvg-id="panamericanatv" group-title="Peru",Panamericana TV
 https://cdnhd.iblups.com/hls/ptv2.m3u8
 
+#EXTINF:-1 tvg-name="Top Latino TV" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/fTmfsKeREm.png" tvg-id="toplatinotv" group-title="Peru",Top Latino TV
+https://5cefcbf58ba2e.streamlock.net:543/tltvweb/latintv.stream/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Porto Canal Ⓢ" tvg-logo="https://i.imgur.com/wsyvP2H.png" tvg-id="portocanal" group-title="Portugal",Porto Canal Ⓢ
 https://streamer-a01.videos.sapo.pt/live/portocanal/playlist.m3u8
 
@@ -494,9 +497,6 @@ https://ed2.cdn.svt.se/ed7/d1/c/se/svtb/manifest.mpd?defaultSubLang=1
 #EXTINF:-1 tvg-name="Kunskapskanalen Ⓖ" tvg-logo="https://i.imgur.com/9YBxoGc.png" tvg-id="kunskapskanalen" group-title="Sweden",Kunskapskanalen Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
 
-#EXTINF:-1 tvg-name="QVC UK Ⓢ" tvg-logo="https://i.imgur.com/6TWUVrh.png" tvg-id="qvcuk" group-title="Uk",QVC UK Ⓢ
-https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8
-
 #EXTINF:-1 tvg-name="Ideal World" tvg-logo="https://i.imgur.com/su6GH7i.png" tvg-id="idealworld" group-title="Uk",Ideal World
 https://ythls.armelin.one/channel/UCJbgGTpBWuC87VFIKTTO4RQ.m3u8
 
@@ -508,15 +508,6 @@ https://live-talktv-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12
 
 #EXTINF:-1 tvg-name="France 24" tvg-logo="https://i.imgur.com/61MSiq9.png" tvg-id="france24" group-title="Uk",France 24
 https://ythls.armelin.one/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg.m3u8
-
-#EXTINF:-1 tvg-name="QVC Beauty Ⓢ" tvg-logo="https://i.imgur.com/ZBHtqk1.png" tvg-id="qvcbeauty" group-title="Uk",QVC Beauty Ⓢ
-https://qvcuk-live.akamaized.net/hls/live/2097112/qby/3/3.m3u8
-
-#EXTINF:-1 tvg-name="QVC Extra Ⓢ" tvg-logo="https://i.imgur.com/TIe5T9Z.png" tvg-id="qvc" group-title="Uk",QVC Extra Ⓢ
-https://qvcuk-live.akamaized.net/hls/live/2097112/qex/3/3.m3u8
-
-#EXTINF:-1 tvg-name="QVC Style Ⓢ" tvg-logo="https://i.imgur.com/6HZlLL3.png" tvg-id="qvcstyle" group-title="Uk",QVC Style Ⓢ
-https://qvcuk-live.akamaized.net/hls/live/2097112/qst/3/3.m3u8
 
 #EXTINF:-1 tvg-name="BBC Radio 1" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1-epg.png" tvg-id="bbcradio1" group-title="Uk",BBC Radio 1
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8
@@ -550,9 +541,6 @@ http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_asian_network/bbc_asian
 
 #EXTINF:-1 tvg-name="Дніпро TV" tvg-logo="https://i.imgur.com/mbPTVh1.png" tvg-id="tv" group-title="Ukraine",Дніпро TV
 http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="CK 1" tvg-logo="https://i.imgur.com/XiXwr5h.png" tvg-id="ck1" group-title="Ukraine",CK 1
-http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV7+" tvg-logo="https://i.imgur.com/PcTDZ8e.png" tvg-id="tv7" group-title="Ukraine",TV7+
 https://tv7plus.com/hls/tv7_site.m3u8

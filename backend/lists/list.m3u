@@ -10235,9 +10235,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10312,6 +10309,9 @@ https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/p
 
 #EXTINF:-1 tvg-name="Cafe Tv 24" tvg-logo="https://i.imgur.com/KbcbxFw.png" tvg-id="cafetv24" group-title="Italy",Cafe Tv 24
 https://srvx1.selftv.video/cafe/live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Calabria Uno Tv" tvg-logo="https://i.imgur.com/2TK1GQ5.png" tvg-id="calabriaunotv" group-title="Italy",Calabria Uno Tv
+https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Canale 10" tvg-logo="https://i.imgur.com/KuQcjYV.png" tvg-id="canale10" group-title="Italy",Canale 10
 https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8
@@ -12640,9 +12640,6 @@ https://dysmuyxh5vstv.cloudfront.net/hls/atv2.m3u8
 
 #EXTINF:-1 tvg-name="Karibeña TV" tvg-logo="https://i.pinimg.com/280x280_RS/11/85/b6/1185b667fe3f80d7072359d7ce7ce52d.jpg" tvg-id="karibeatv" group-title="Peru",Karibeña TV
 https://cu.onliv3.com/livevd/user1.m3u8
-
-#EXTINF:-1 tvg-name="Top Latino TV" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/fTmfsKeREm.png" tvg-id="toplatinotv" group-title="Peru",Top Latino TV
-https://5cefcbf58ba2e.streamlock.net:543/tltvweb/latintv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="America Television (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/512px-Am%C3%A9rica_Televisi%C3%B3n.svg.png" tvg-id="americatelevision" group-title="Peru",America Television (1080p)
 http://38.183.182.166:8000/play/a0rb/index.m3u8
@@ -16562,6 +16559,9 @@ http://176.65.146.105:8011/play/E4HD/index.m3u8
 #EXTINF:-1 tvg-name="Film4 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Film4_logo_2018.svg/805px-Film4_logo_2018.svg.png" tvg-id="film4" group-title="Uk",Film4 Ⓢ
 http://176.65.146.105:8011/play/FILM4SD/index.m3u8
 
+#EXTINF:-1 tvg-name="QVC UK Ⓢ" tvg-logo="https://i.imgur.com/6TWUVrh.png" tvg-id="qvcuk" group-title="Uk",QVC UK Ⓢ
+https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8
+
 #EXTINF:-1 tvg-name="TJC" tvg-logo="https://i.imgur.com/fk5rEje.png" tvg-id="tjc" group-title="Uk",TJC
 https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/index.m3u8
 
@@ -16636,6 +16636,15 @@ https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,magic-alldev.m3u8?y
 
 #EXTINF:-1 tvg-name="Kerrang!" tvg-logo="https://i.imgur.com/3mwf8Uq.png" tvg-id="kerrang" group-title="Uk",Kerrang!
 https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,kerrang-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/kerrang/
+
+#EXTINF:-1 tvg-name="QVC Beauty Ⓢ" tvg-logo="https://i.imgur.com/ZBHtqk1.png" tvg-id="qvcbeauty" group-title="Uk",QVC Beauty Ⓢ
+https://qvcuk-live.akamaized.net/hls/live/2097112/qby/3/3.m3u8
+
+#EXTINF:-1 tvg-name="QVC Extra Ⓢ" tvg-logo="https://i.imgur.com/TIe5T9Z.png" tvg-id="qvc" group-title="Uk",QVC Extra Ⓢ
+https://qvcuk-live.akamaized.net/hls/live/2097112/qex/3/3.m3u8
+
+#EXTINF:-1 tvg-name="QVC Style Ⓢ" tvg-logo="https://i.imgur.com/6HZlLL3.png" tvg-id="qvcstyle" group-title="Uk",QVC Style Ⓢ
+https://qvcuk-live.akamaized.net/hls/live/2097112/qst/3/3.m3u8
 
 #EXTINF:-1 tvg-name="Now 70s" tvg-logo="https://i.imgur.com/qiCCX5X.png" tvg-id="now70s" group-title="Uk",Now 70s
 https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
@@ -16783,6 +16792,9 @@ https://stream.rai.ua/rai/stream.m3u8
 
 #EXTINF:-1 tvg-name="Тернопіль 1" tvg-logo="https://i.imgur.com/f5EtIzV.png" tvg-id="1" group-title="Ukraine",Тернопіль 1
 https://ott.columbus.te.ua/ternopil1/index.m3u8
+
+#EXTINF:-1 tvg-name="CK 1" tvg-logo="https://i.imgur.com/XiXwr5h.png" tvg-id="ck1" group-title="Ukraine",CK 1
+http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Pervyy gorodskoy Odessa" tvg-logo="https://i.imgur.com/8qdc6aO.png" tvg-id="pervyygorodskoyodessa" group-title="Ukraine",Pervyy gorodskoy Odessa
 https://live.1tv.od.ua/stream1/channel1/playlist.m3u8
