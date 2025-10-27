@@ -3065,9 +3065,6 @@ https://stream.cmctv.hr:49998/cmc/live.m3u8
 #EXTINF:-1 tvg-name="Plava Vinkovačka" tvg-logo="https://i.imgur.com/WJJNtQ3.jpg" tvg-id="plavavinkovaka" group-title="Croatia",Plava Vinkovačka
 https://player-api.new.livestream.com/accounts/26611954/events/7977299/broadcasts/237205435.secure.m3u8
 
-#EXTINF:-1 tvg-name="Televizija Slavonije i Baranje (STV)" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/0/04/STV.PNG" tvg-id="televizijaslavonijeibaranje" group-title="Croatia",Televizija Slavonije i Baranje (STV)
-http://89.201.163.244:8080/hls/hdmi.m3u8
-
 #EXTINF:-1 tvg-name="Osječka televizija (OSTV) Ⓢ" tvg-logo="https://i.imgur.com/o9JgEyG.png" tvg-id="osjekatelevizija" group-title="Croatia",Osječka televizija (OSTV) Ⓢ
 https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcasts/237202062.secure.m3u8
 
@@ -10454,6 +10451,9 @@ https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 #EXTINF:-1 tvg-name="Italia 2 Tv" tvg-logo="https://i.imgur.com/ISbxfY0.png" tvg-id="italia2tv" group-title="Italy",Italia 2 Tv
 https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Italia 7" tvg-logo="https://i.imgur.com/YBXkY4w.png" tvg-id="italia7" group-title="Italy",Italia 7
+https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Italia 8 Prestige" tvg-logo="https://i.imgur.com/uDxWI4a.png" tvg-id="italia8prestige" group-title="Italy",Italia 8 Prestige
 https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8
 
@@ -10519,6 +10519,9 @@ https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
@@ -10648,6 +10651,9 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
+https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -10930,9 +10936,6 @@ https://sportitaliaamd.akamaized.net/live/Telelombardia/hls/1CCCD0BCA2F9C979BC06
 
 #EXTINF:-1 tvg-name="Tremedia Tv" tvg-logo="https://i.imgur.com/dqRV1ff.jpeg" tvg-id="tremediatv" group-title="Italy",Tremedia Tv
 https://stream4.xdevel.com/video0s976062-1263/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Trentino Tv" tvg-logo="https://i.imgur.com/ROKOCR2.png" tvg-id="trentinotv" group-title="Italy",Trentino Tv
-https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tuscia Sabina 2000Tv" tvg-logo="https://i.imgur.com/Tq5nEAy.png" tvg-id="tusciasabina2000tv" group-title="Italy",Tuscia Sabina 2000Tv
 http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8
