@@ -86,6 +86,9 @@ http://178.33.11.6:8696/live/rtshshqip/playlist.m3u8
 #EXTINF:-1 tvg-name="RTSH Sport (1080p)" tvg-logo="https://i.postimg.cc/wMrtS1qZ/rtshsport.png" tvg-id="rtshsport" group-title="Albania",RTSH Sport (1080p)
 http://178.33.11.6:8696/live/rtshsport/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Syri (720p)" tvg-logo="https://i.postimg.cc/5tYL46mq/syri.png" tvg-id="syri" group-title="Albania",Syri (720p)
+https://stream.syritv.al/SyriTV/index.m3u8
+
 #EXTINF:-1 tvg-name="Vizion Plus (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/512px-Vizion_Plus.svg.png" tvg-id="vizion" group-title="Albania",Vizion Plus (1080p)
 https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8
 
@@ -1199,6 +1202,9 @@ https://live.tv-m.net/hls/stream.m3u8
 #EXTINF:-1 tvg-name="TNT Kids (288p)" tvg-logo="https://i.imgur.com/irTDbpn.png" tvg-id="tntkids" group-title="Bosnia_and_herzegovina",TNT Kids (288p)
 https://restreamer1.tnt.ba/hls/tntkids.m3u8
 
+#EXTINF:-1 tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" tvg-id="combrasil" group-title="Brazil",COM Brasil
+https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
+
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-id="sbt" group-title="Brazil",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
 
@@ -2014,6 +2020,12 @@ https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Now TV 102.3FM Edmonton (CKNO-FM)" tvg-logo="https://i.imgur.com/sF2g7KE.png" tvg-id="nowtv1023fmedmonton" group-title="Canada",Now TV 102.3FM Edmonton (CKNO-FM)
 https://videostream.jpbgdigital.com/NOWTV.m3u8
+
+#EXTINF:-1 tvg-name="NTD TV Canada" tvg-logo="https://i.imgur.com/iyFXcDy.png" tvg-id="ntdtvcanada" group-title="Canada",NTD TV Canada
+https://live.ntdtv.com/mllive860/playlist.m3u8
+
+#EXTINF:-1 tvg-name="NTD TV Canada West" tvg-logo="https://i.imgur.com/iyFXcDy.png" tvg-id="ntdtvcanadawest" group-title="Canada",NTD TV Canada West
+https://live.ntdtv.com/cwlive220/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NTV+" tvg-logo="https://i.imgur.com/YEUhPBv.png" tvg-id="ntv" group-title="Canada",NTV+
 https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8
@@ -10340,9 +10352,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -10639,9 +10648,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -10969,6 +10975,9 @@ https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/p
 
 #EXTINF:-1 tvg-name="Video Mediterraneo" tvg-logo="https://i.imgur.com/hJHC3uQ.png" tvg-id="videomediterraneo" group-title="Italy",Video Mediterraneo
 https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Video Nola" tvg-logo="https://i.imgur.com/M5z5UoD.jpg" tvg-id="videonola" group-title="Italy",Video Nola
+https://videonola.aswifi.it/videonolaabr/live.m3u8
 
 #EXTINF:-1 tvg-name="Video Regione Sicilia" tvg-logo="https://i.imgur.com/0szwnR3.png" tvg-id="videoregionesicilia" group-title="Italy",Video Regione Sicilia
 https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/playlist.m3u8
@@ -13754,9 +13763,6 @@ https://api.alpaca.t62a.com/hls/9110/index.m3u8
 #EXTINF:-1 tvg-name="Leomax 24 (1080p)" tvg-logo="https://i.imgur.com/qU9ohQu.png" tvg-id="leomax24" group-title="Russia",Leomax 24 (1080p)
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Mezzo (1080p)" tvg-logo="https://i.imgur.com/auNdGeW.png" tvg-id="mezzo" group-title="Russia",Mezzo (1080p)
-https://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8
-
 #EXTINF:-1 tvg-name="MMA-TV.com" tvg-logo="https://i.imgur.com/QhdxNsB.png" tvg-id="mmatvcom" group-title="Russia",MMA-TV.com
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 
@@ -15290,9 +15296,6 @@ https://zuzenean.goienamedia.eus/goiena-telebista.m3u8
 #EXTINF:-1 tvg-name="Hamaika Telebista (1080p)" tvg-logo="https://i.imgur.com/HR3G3Ie.png" tvg-id="hamaikatelebista" group-title="Spain",Hamaika Telebista (1080p)
 https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Hit Tv" tvg-logo="https://i.postimg.cc/P5tRvxkG/hittv.png" tvg-id="hittv" group-title="Spain",Hit Tv
-http://185.189.225.149/HitTV/index.m3u8
-
 #EXTINF:-1 tvg-name="HOLA! Play (1080p)" tvg-logo="https://m.media-amazon.com/images/I/5194tl8duqL.png" tvg-id="holaplay" group-title="Spain",HOLA! Play (1080p)
 https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8
 
@@ -16013,7 +16016,7 @@ https://live.streamingfast.net/osmflivech2.m3u8
 #EXTINF:-1 tvg-name="Indigenous TV (720p)" tvg-logo="https://i.imgur.com/vmk4F9u.png" tvg-id="indigenoustv" group-title="Taiwan",Indigenous TV (720p)
 http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="NTD TV Asia-Pacific" tvg-logo="https://i.imgur.com/pKq7mJY.png" tvg-id="ntdtvasiapacific" group-title="Taiwan",NTD TV Asia-Pacific
+#EXTINF:-1 tvg-name="NTD TV Asia-Pacific" tvg-logo="https://i.imgur.com/iyFXcDy.png" tvg-id="ntdtvasiapacific" group-title="Taiwan",NTD TV Asia-Pacific
 https://live.ntdtv.com/aplive200/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Supreme Master TV (720p)" tvg-logo="https://i.imgur.com/kFMHayP.png" tvg-id="suprememastertv" group-title="Taiwan",Supreme Master TV (720p)
@@ -19751,6 +19754,51 @@ https://fl1.moveonjoy.com/NFL_NETWORK/index.m3u8
 #EXTINF:-1 tvg-name="NFL RedZone" tvg-logo="https://i.imgur.com/5lPqQj5.png" tvg-id="nflredzone" group-title="Usa",NFL RedZone
 https://fl1.moveonjoy.com/NFL_RedZone/index.m3u8
 
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 1" tvg-logo="https://i.imgur.com/OhHxZrE.png" tvg-id="nflsundayticket1" group-title="Usa",NFL Sunday Ticket 1
+http://fl2.moveonjoy.com/NFL_1/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 2" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket2" group-title="Usa",NFL Sunday Ticket 2
+http://fl2.moveonjoy.com/NFL_2/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 3" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket3" group-title="Usa",NFL Sunday Ticket 3
+http://fl2.moveonjoy.com/NFL_3/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 4" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket4" group-title="Usa",NFL Sunday Ticket 4
+http://fl2.moveonjoy.com/NFL_4/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 5" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket5" group-title="Usa",NFL Sunday Ticket 5
+http://fl2.moveonjoy.com/NFL_5/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 6" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket6" group-title="Usa",NFL Sunday Ticket 6
+http://fl2.moveonjoy.com/NFL_6/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 7" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket7" group-title="Usa",NFL Sunday Ticket 7
+http://fl2.moveonjoy.com/NFL_7/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 8" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket8" group-title="Usa",NFL Sunday Ticket 8
+http://fl2.moveonjoy.com/NFL_8/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 9" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket9" group-title="Usa",NFL Sunday Ticket 9
+http://fl2.moveonjoy.com/NFL_9/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 10" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket10" group-title="Usa",NFL Sunday Ticket 10
+http://fl2.moveonjoy.com/NFL_10/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 11" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket11" group-title="Usa",NFL Sunday Ticket 11
+http://fl2.moveonjoy.com/NFL_11/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 12" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket12" group-title="Usa",NFL Sunday Ticket 12
+http://fl2.moveonjoy.com/NFL_12/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 13" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket13" group-title="Usa",NFL Sunday Ticket 13
+http://fl2.moveonjoy.com/NFL_13/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 14" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket14" group-title="Usa",NFL Sunday Ticket 14
+http://fl2.moveonjoy.com/NFL_14/index.m3u8
+
+#EXTINF:-1 tvg-name="NFL Sunday Ticket 15" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket15" group-title="Usa",NFL Sunday Ticket 15
+http://fl2.moveonjoy.com/NFL_15/index.m3u8
+
 #EXTINF:-1 tvg-name="NHL" tvg-logo="https://i.imgur.com/UNZ8bef.png" tvg-id="nhl" group-title="Usa",NHL
 https://nhl-firetv.amagi.tv/playlist.m3u8
 
@@ -20555,10 +20603,10 @@ https://2-fss-1.streamhoster.com/pl_122/206858-4412976-1/chunklist.m3u8
 #EXTINF:-1 tvg-name="Stryk TV (1080p)" tvg-logo="https://i.imgur.com/rKkHhkX.png" tvg-id="stryktv" group-title="Usa",Stryk TV (1080p)
 https://fffffff110156200.tvustream.com:8298/ryfy.m3u8
 
-#EXTINF:-1 tvg-name="SUMtv English (1080p)" tvg-logo="https://i.imgur.com/W8RLk5w.png" tvg-id="sumtvenglish" group-title="Usa",SUMtv English (1080p)
+#EXTINF:-1 tvg-name="SUMtv English (1080p)" tvg-logo="https://i.imgur.com/hp1rJjX.png" tvg-id="sumtvenglish" group-title="Usa",SUMtv English (1080p)
 https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="SUMtv Latino (1080p)" tvg-logo="https://i.imgur.com/W8RLk5w.png" tvg-id="sumtvlatino" group-title="Usa",SUMtv Latino (1080p)
+#EXTINF:-1 tvg-name="SUMtv Latino (1080p)" tvg-logo="https://i.imgur.com/ZObFN8Z.png" tvg-id="sumtvlatino" group-title="Usa",SUMtv Latino (1080p)
 https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sundance TV East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/512px-SundanceTV_2014.svg.png" tvg-id="sundancetveast" group-title="Usa",Sundance TV East
@@ -20749,6 +20797,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 
 #EXTINF:-1 tvg-name="The Word Network (1080p)" tvg-logo="https://i.imgur.com/ltFBrrj.png" tvg-id="thewordnetwork" group-title="Usa",The Word Network (1080p)
 https://clouditize.piksel.tech/hls/live/2043070/ClouditizeStream1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="theDove TV (720p)" tvg-logo="https://i.imgur.com/ULtuRsj.png" tvg-id="thedovetv" group-title="Usa",theDove TV (720p)
+https://thedovetv.bozztv.com/thedovetv/thedovetv/index.m3u8
 
 #EXTINF:-1 tvg-name="This Old House" tvg-logo="https://i.imgur.com/nrVLyE6.png" tvg-id="thisoldhouse" group-title="Usa",This Old House
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a8054907e03a0008926323/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c7784-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b009a45e-cfd3-41fc-ba90-2b4d44bcb950
