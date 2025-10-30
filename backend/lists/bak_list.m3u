@@ -845,6 +845,9 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -2498,6 +2501,9 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
+#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
+https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
+
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
 
@@ -3290,15 +3296,6 @@ https://vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8
 #EXTINF:-1 tvg-name="Canal+ Sport 2 (1080i)" tvg-logo="https://i.postimg.cc/mDZnMnsL/canalplussport2.png" tvg-id="canalsport2" group-title="Czech_republic",Canal+ Sport 2 (1080i)
 http://78.130.250.2:8023/play/a02w/index.m3u8
 
-#EXTINF:-1 tvg-name="CS Film (720p)" tvg-logo="https://i.postimg.cc/d1bZTzbp/csfilm.png" tvg-id="csfilm" group-title="Czech_republic",CS Film (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
-#EXTINF:-1 tvg-name="CS History (720p)" tvg-logo="https://i.imgur.com/rtYj21D.png" tvg-id="cshistory" group-title="Czech_republic",CS History (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
-#EXTINF:-1 tvg-name="CS Mystery (720p)" tvg-logo="https://i.imgur.com/3cFbkUj.png" tvg-id="csmystery" group-title="Czech_republic",CS Mystery (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
 #EXTINF:-1 tvg-name="ČT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%C4%8CT1_logo_2012.svg/512px-%C4%8CT1_logo_2012.svg.png" tvg-id="t1" group-title="Czech_republic",ČT 1
 http://88.212.15.19/live/test_ct1_25p/playlist.m3u8
 
@@ -3376,9 +3373,6 @@ https://n105.quickmedia.tv/noe-abr/noe-abr/playlist_dvr.m3u8
 
 #EXTINF:-1 tvg-name="TV NOE+ (720p)" tvg-logo="https://i.imgur.com/p4FtFUl.png" tvg-id="tvnoe" group-title="Czech_republic",TV NOE+ (720p)
 https://n105.quickmedia.tv/noe-2-abr/noe-2-abr/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="TV Nova (1080p)" tvg-logo="https://i.imgur.com/77ztmd9.png" tvg-id="tvnova" group-title="Czech_republic",TV Nova (1080p)
-http://88.212.15.19/live/nova_avc_25p/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ÚTV (1080p)" tvg-logo="https://i.imgur.com/ulfeIwM.png" tvg-id="tv" group-title="Czech_republic",ÚTV (1080p)
 https://vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8
@@ -10958,9 +10952,6 @@ https://sportitaliaamd.akamaized.net/live/Telelombardia/hls/1CCCD0BCA2F9C979BC06
 #EXTINF:-1 tvg-name="Tremedia Tv" tvg-logo="https://i.imgur.com/dqRV1ff.jpeg" tvg-id="tremediatv" group-title="Italy",Tremedia Tv
 https://stream4.xdevel.com/video0s976062-1263/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Trentino Tv" tvg-logo="https://i.imgur.com/ROKOCR2.png" tvg-id="trentinotv" group-title="Italy",Trentino Tv
-https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Tuscia Sabina 2000Tv" tvg-logo="https://i.imgur.com/Tq5nEAy.png" tvg-id="tusciasabina2000tv" group-title="Italy",Tuscia Sabina 2000Tv
 http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8
 
@@ -11017,9 +11008,6 @@ https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/p
 
 #EXTINF:-1 tvg-name="Video Star Tv Sicilia" tvg-logo="https://i.imgur.com/1ddJVZ7.jpg" tvg-id="videostartvsicilia" group-title="Italy",Video Star Tv Sicilia
 https://stream9.xdevel.com/video0s976556-1321/stream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Video Touring Tv" tvg-logo="https://i.imgur.com/E2Feao5.jpg" tvg-id="videotouringtv" group-title="Italy",Video Touring Tv
-https://streamingvideo.auranex.cloud/memfs/70baacad-47c6-41a6-aee0-86530c31e080.m3u8
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://i.imgur.com/bnDZJwd.gif" tvg-id="videolina" group-title="Italy",Videolina
 http://livestreaming.videolina.it/live/Videolina/playlist.m3u8
@@ -14627,27 +14615,6 @@ https://fs3.kabelko.sk/9011/index.m3u8?token=btv
 #EXTINF:-1 tvg-name="Jednotka (1080p)" tvg-logo="https://i.imgur.com/aqVki9i.png" tvg-id="jednotka" group-title="Slovakia",Jednotka (1080p)
 https://sktv.plainrock127.xyz/get.php?x=STV1
 
-#EXTINF:-1 tvg-name="JOJ24 (720p)" tvg-logo="https://i.imgur.com/Tv12wOd.png" tvg-id="joj24" group-title="Slovakia",JOJ24 (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
-#EXTINF:-1 tvg-name="JOJ Cinema (720p)" tvg-logo="https://i.imgur.com/5Auduch.png" tvg-id="jojcinema" group-title="Slovakia",JOJ Cinema (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
-#EXTINF:-1 tvg-name="JOJ Family (720p)" tvg-logo="https://i.imgur.com/k1COMHi.png" tvg-id="jojfamily" group-title="Slovakia",JOJ Family (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
-#EXTINF:-1 tvg-name="JOJ Plus (720p)" tvg-logo="https://i.imgur.com/1LHa0EI.png" tvg-id="joj" group-title="Slovakia",JOJ Plus (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
-#EXTINF:-1 tvg-name="JOJ Šport (720p)" tvg-logo="https://i.imgur.com/KirqaU4.png" tvg-id="jojport" group-title="Slovakia",JOJ Šport (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
-#EXTINF:-1 tvg-name="JOJ WAU (720p)" tvg-logo="https://i.imgur.com/j51uAjL.png" tvg-id="jojwau" group-title="Slovakia",JOJ WAU (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
-#EXTINF:-1 tvg-name="Jojko (720p)" tvg-logo="https://i.imgur.com/JBB1n1Z.png" tvg-id="jojko" group-title="Slovakia",Jojko (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
-
 #EXTINF:-1 tvg-name="Kino Barrandov (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kino_Barrandov_logo.png/512px-Kino_Barrandov_logo.png" tvg-id="kinobarrandov" group-title="Slovakia",Kino Barrandov (720p)
 http://83.167.253.107/hdmi1_ext
 
@@ -14656,18 +14623,6 @@ https://kamery.kukni.sk:8181/memfs/fb00d981-d2d4-4d69-bb44-a9ff6aa25a76.m3u8
 
 #EXTINF:-1 tvg-name="LifeTv (1080p)" tvg-logo="https://i.imgur.com/jO8kAY2.png" tvg-id="lifetv" group-title="Slovakia",LifeTv (1080p)
 https://lifetv.mpks.sk/s.m3u8
-
-#EXTINF:-1 tvg-name="Markíza (1080p)" tvg-logo="https://i.imgur.com/W56rOi2.png" tvg-id="markza" group-title="Slovakia",Markíza (1080p)
-http://88.212.15.27/live/test_markiza_25p/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Markíza Klasik (1080p)" tvg-logo="https://sledovanietv.sk/cache/logos256/markiza_klasik.png" tvg-id="markzaklasik" group-title="Slovakia",Markíza Klasik (1080p)
-https://cdnsk003.panaccess.com/local/Markiza_Klasik/index.m3u8
-
-#EXTINF:-1 tvg-name="Markíza Krimi (1080p)" tvg-logo="https://i.postimg.cc/SsPNv3kd/markizakrimi.png" tvg-id="markzakrimi" group-title="Slovakia",Markíza Krimi (1080p)
-https://cdnsk003.panaccess.com/local/Markiza_krimi/index.m3u8
-
-#EXTINF:-1 tvg-name="MarkízaDoma (1080p)" tvg-logo="https://i.imgur.com/emVnkFK.png" tvg-id="markzadoma" group-title="Slovakia",MarkízaDoma (1080p)
-http://88.212.7.11/live/test_doma_hd_hevc/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Minimax (576p) (576p)" tvg-logo="https://i.imgur.com/WWOlm1x.png" tvg-id="minimax" group-title="Slovakia",Minimax (576p) (576p)
 http://88.212.15.19/live/test_minimax/playlist.m3u8
@@ -14713,9 +14668,6 @@ http://95.105.193.219:88/hls/tvb.m3u8
 
 #EXTINF:-1 tvg-name="TV Central (540p)" tvg-logo="https://i.imgur.com/LqGT8o9.png" tvg-id="tvcentral" group-title="Slovakia",TV Central (540p)
 https://arenasportslovakia.ddns.net/hls/cetv2.m3u8
-
-#EXTINF:-1 tvg-name="TV JOJ (720p)" tvg-logo="https://i.imgur.com/NSpxSOD.png" tvg-id="tvjoj" group-title="Slovakia",TV JOJ (720p)
-#EXTVLCOPT:http-referrer=https://media.joj.sk/
 
 #EXTINF:-1 tvg-name="TV Liptov (1080p)" tvg-logo="https://i.imgur.com/CkvB3af.png" tvg-id="tvliptov" group-title="Slovakia",TV Liptov (1080p)
 http://95.105.255.137:1935/tvturiec/tvliptov.stream/playlist.m3u8
