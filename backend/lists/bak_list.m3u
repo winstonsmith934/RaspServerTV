@@ -845,9 +845,6 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -2500,9 +2497,6 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
-
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
@@ -8861,6 +8855,9 @@ https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
 #EXTINF:-1 tvg-name="Atambua TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" tvg-id="atambuatv" group-title="Indonesia",Atambua TV (720p)
 http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ATV (576p)" tvg-logo="https://i.imgur.com/uHcRd1t.png" tvg-id="atv" group-title="Indonesia",ATV (576p)
+http://103.180.118.5:9981/stream/channelid/1457201262
+
 #EXTINF:-1 tvg-name="Bali TV (576p)" tvg-logo="https://i.imgur.com/uH1Szme.png" tvg-id="balitv" group-title="Indonesia",Bali TV (576p)
 http://103.180.118.5:9981/stream/channelid/916002722
 
@@ -8872,6 +8869,9 @@ http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
 
 #EXTINF:-1 tvg-name="BeritaSatu English" tvg-logo="https://i.postimg.cc/SRDWxRGs/13092012142252.jpg" tvg-id="beritasatuenglish" group-title="Indonesia",BeritaSatu English
 https://beritasatu.secureswiftcontent.com/han/beritasatu/bsatu10008/srtoutput/manifest.m3u8
+
+#EXTINF:-1 tvg-name="Bioskop Indonesia (576p)" tvg-logo="https://i.imgur.com/8gdyddg.png" tvg-id="bioskopindonesia" group-title="Indonesia",Bioskop Indonesia (576p)
+http://103.180.118.5:9981/stream/channelid/1574481607
 
 #EXTINF:-1 tvg-name="Biznet Adventure (1080p)" tvg-logo="https://i.imgur.com/ZREy4zM.png" tvg-id="biznetadventure" group-title="Indonesia",Biznet Adventure (1080p)
 http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
@@ -8887,6 +8887,12 @@ https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="BTV (720p)" tvg-logo="https://i.imgur.com/fdygcVx.png" tvg-id="btv" group-title="Indonesia",BTV (720p)
 https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8
+
+#EXTINF:-1 tvg-name="Caruban TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/CarubanTV%28Low-res%29.png" tvg-id="carubantv" group-title="Indonesia",Caruban TV (1080p)
+https://stream.carubantv.id/hls/0/stream.m3u8
+
+#EXTINF:-1 tvg-name="Citra Dangdut (576p)" tvg-logo="https://i.imgur.com/77KYgbz.png" tvg-id="citradangdut" group-title="Indonesia",Citra Dangdut (576p)
+http://103.180.118.5:9981/stream/channelid/64520893
 
 #EXTINF:-1 tvg-name="CNBC Indonesia (720p)" tvg-logo="https://i.imgur.com/bUfeG7Y.png" tvg-id="cnbcindonesia" group-title="Indonesia",CNBC Indonesia (720p)
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
@@ -8905,6 +8911,9 @@ https://e.siar.us/live/dmtv.m3u8
 
 #EXTINF:-1 tvg-name="dTVi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_DTVI.png" tvg-id="dtvi" group-title="Indonesia",dTVi
 https://e.siar.us/live/dtvi.m3u8
+
+#EXTINF:-1 tvg-name="Dunia Lain (576p)" tvg-logo="https://i.imgur.com/XgIuU7M.png" tvg-id="dunialain" group-title="Indonesia",Dunia Lain (576p)
+http://103.180.118.5:9981/stream/channelid/406907994
 
 #EXTINF:-1 tvg-name="Efarina TV (720p)" tvg-logo="https://i.imgur.com/iYTimXh.png" tvg-id="efarinatv" group-title="Indonesia",Efarina TV (720p)
 https://live.efarinatv.net/hls/stream123/index.m3u8
@@ -8987,6 +8996,9 @@ https://wahyu1ptv.pages.dev/MDTV-HD.m3u8
 #EXTINF:-1 tvg-name="MNCTV (720p)" tvg-logo="https://i.imgur.com/SK8pjQy.png" tvg-id="mnctv" group-title="Indonesia",MNCTV (720p)
 http://203.77.246.58:4500/udp/239.1.3.78:5000
 
+#EXTINF:-1 tvg-name="Musik Indonesia (576p)" tvg-logo="https://i.postimg.cc/xdtkx9P0/musik-indo.png" tvg-id="musikindonesia" group-title="Indonesia",Musik Indonesia (576p)
+http://103.180.118.5:9981/stream/channelid/1076749647
+
 #EXTINF:-1 tvg-name="My Cinema (1080p)" tvg-logo="https://i.imgur.com/BTmcTQO.png" tvg-id="mycinema" group-title="Indonesia",My Cinema (1080p)
 http://210.210.155.37/uq2663/h/h192/index.m3u8
 
@@ -9028,6 +9040,9 @@ http://203.77.246.58:4500/udp/239.1.1.108:5000
 
 #EXTINF:-1 tvg-name="Semarang TV (720p)" tvg-logo="https://i.imgur.com/KFC2WSB.png" tvg-id="semarangtv" group-title="Indonesia",Semarang TV (720p)
 http://116.254.112.74/hls/cakralive.m3u8
+
+#EXTINF:-1 tvg-name="Sindo News TV (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/SindoNewsTV_2023.png/375px-SindoNewsTV_2023.png" tvg-id="sindonewstv" group-title="Indonesia",Sindo News TV (576p)
+http://103.180.118.5:9981/stream/channelid/1133438425
 
 #EXTINF:-1 tvg-name="Surabaya TV (1080p)" tvg-logo="https://i.imgur.com/jlss2ll.png" tvg-id="surabayatv" group-title="Indonesia",Surabaya TV (1080p)
 https://e.siar.us/live/surabayatv.m3u8
@@ -9157,6 +9172,9 @@ https://ams.juraganstreaming.com:5443/LiveApp/streams/uchannel1.m3u8
 
 #EXTINF:-1 tvg-name="UGTV (720p)" tvg-logo="https://i.imgur.com/iEKDH26.png" tvg-id="ugtv" group-title="Indonesia",UGTV (720p)
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
+
+#EXTINF:-1 tvg-name="Zee Bioskop (576p)" tvg-logo="https://i.imgur.com/Xl7MJnd.png" tvg-id="zeebioskop" group-title="Indonesia",Zee Bioskop (576p)
+http://103.180.118.5:9981/stream/channelid/789671189
 
 #EXTINF:-1 tvg-name="Al-Alam News Network Ⓢ" tvg-logo="https://i.imgur.com/UbD0Ndr.png" tvg-id="alalamnewsnetwork" group-title="Iran",Al-Alam News Network Ⓢ
 https://live2.alalam.ir/alalam.m3u8
@@ -10355,9 +10373,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -10660,9 +10675,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -18149,8 +18161,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63
 #EXTINF:-1 tvg-name="Bounce" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Bounce_TV_logo.svg/512px-Bounce_TV_logo.svg.png" tvg-id="bounce" group-title="Usa",Bounce
 https://fl1.moveonjoy.com/BOUNCE_TV/index.m3u8
 
-#EXTINF:-1 tvg-name="Bounce XL" tvg-logo="https://i.imgur.com/GzxgSkc.png" tvg-id="bouncexl" group-title="Usa",Bounce XL
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6176fd25e83a5f0007a464c9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2743c7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c190f5a2-d746-452a-adf6-37d9268e59ae
+#EXTINF:-1 tvg-name="Bounce XL (1080p)" tvg-logo="https://i.imgur.com/GzxgSkc.png" tvg-id="bouncexl" group-title="Usa",Bounce XL (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8
 
 #EXTINF:-1 tvg-name="BPX TV Radio" tvg-logo="https://i.imgur.com/86VXni8.jpeg" tvg-id="bpxtvradio" group-title="Usa",BPX TV Radio
 https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8
