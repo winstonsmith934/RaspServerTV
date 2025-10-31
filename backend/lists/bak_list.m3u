@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Kanali 7 Ⓢ" tvg-logo="https://i.imgur.com/rL2v9pM.png" tvg-id="kanali7" group-title="Albania",Kanali 7 Ⓢ
-https://fe.tring.al/delta/105/out/u/1200_1.m3u8
-
 #EXTINF:-1 tvg-name="A2 CNN Albania" tvg-logo="https://i.imgur.com/TgO3Lzi.png" tvg-id="a2cnnalbania" group-title="Albania",A2 CNN Albania
 https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8
 
@@ -10541,6 +10538,9 @@ https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
 
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
+
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -10825,9 +10825,6 @@ https://13574-8.b.cdn12.com/hls/f099fa8883.ulive/_c/master.m3u8
 
 #EXTINF:-1 tvg-name="Tele Oltre" tvg-logo="https://i.imgur.com/PxtJAxs.png" tvg-id="teleoltre" group-title="Italy",Tele Oltre
 http://1se1.troydesign.eu/np_teleoltre/_definst_/channel1_np_teleoltre/playlist.m3u8?ext=.m3u8
-
-#EXTINF:-1 tvg-name="Tele One" tvg-logo="https://i.imgur.com/9trB6mj.png" tvg-id="teleone" group-title="Italy",Tele One
-https://648026e87a75e.streamlock.net/teleone/teleone/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Pace Trento" tvg-logo="https://i.imgur.com/o5sQCpF.png" tvg-id="telepacetrento" group-title="Italy",Tele Pace Trento
 https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8
@@ -13600,9 +13597,6 @@ https://streaming.televizor-24-tochka.ru/live/12.m3u8
 
 #EXTINF:-1 tvg-name="ТВ Центр Ⓢ" tvg-logo="https://i.imgur.com/ZP0D6Rd.png" tvg-id="" group-title="Russia",ТВ Центр Ⓢ
 http://ott-cdn.ucom.am/s54/index.m3u8
-
-#EXTINF:-1 tvg-name="Рен ТВ Ⓢ" tvg-logo="https://i.imgur.com/18TAzYV.png" tvg-id="" group-title="Russia",Рен ТВ Ⓢ
-https://streaming.televizor-24-tochka.ru/live/14.m3u8
 
 #EXTINF:-1 tvg-name="Спас Ⓢ" tvg-logo="https://i.imgur.com/A6Cqsom.jpeg" tvg-id="" group-title="Russia",Спас Ⓢ
 https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
@@ -16810,6 +16804,9 @@ http://stream.ntktv.ua/s/ntk/ntk.m3u8
 
 #EXTINF:-1 tvg-name="TVA" tvg-logo="https://i.imgur.com/PtTQ5lv.png" tvg-id="tva" group-title="Ukraine",TVA
 https://hls.cdn.ua/tva.ua_live/livestream/chunklist_.m3u8
+
+#EXTINF:-1 tvg-name="TV7+" tvg-logo="https://i.imgur.com/PcTDZ8e.png" tvg-id="tv7" group-title="Ukraine",TV7+
+https://tv7plus.com/hls/tv7_site.m3u8
 
 #EXTINF:-1 tvg-name="1+1 Marafon" tvg-logo="https://i.imgur.com/smQKa2G.png" tvg-id="11marafon" group-title="Ukraine",1+1 Marafon
 https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/11maraphon/playlist.m3u8
