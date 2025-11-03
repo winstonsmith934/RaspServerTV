@@ -845,6 +845,9 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -2518,9 +2521,6 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
-
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
@@ -10262,9 +10262,6 @@ https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8
 #EXTINF:-1 tvg-name="111 Tv" tvg-logo="https://i.imgur.com/4jY8yAI.png" tvg-id="111tv" group-title="Italy",111 Tv
 https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8
 
-#EXTINF:-1 tvg-name="4 You Tv" tvg-logo="https://i.imgur.com/NN0cSbz.png" tvg-id="4youtv" group-title="Italy",4 You Tv
-https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8
-
 #EXTINF:-1 tvg-name="Alpauno" tvg-logo="https://i.imgur.com/4QKFtUa.png" tvg-id="alpauno" group-title="Italy",Alpauno
 https://5f22d76e220e1.streamlock.net/alpaunotv/alpaunotv/playlist.m3u8
 
@@ -10450,9 +10447,6 @@ https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Italia 2 Tv" tvg-logo="https://i.imgur.com/ISbxfY0.png" tvg-id="italia2tv" group-title="Italy",Italia 2 Tv
 https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Italia 7" tvg-logo="https://i.imgur.com/YBXkY4w.png" tvg-id="italia7" group-title="Italy",Italia 7
-https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Italia 8 Prestige" tvg-logo="https://i.imgur.com/uDxWI4a.png" tvg-id="italia8prestige" group-title="Italy",Italia 8 Prestige
 https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8
@@ -13565,14 +13559,14 @@ https://streaming.televizor-24-tochka.ru/live/6.m3u8
 #EXTINF:-1 tvg-name="НТВ Ⓢ" tvg-logo="https://i.imgur.com/DtQX5P2.png" tvg-id="" group-title="Russia",НТВ Ⓢ
 http://ott-cdn.ucom.am/s17/index.m3u8
 
+#EXTINF:-1 tvg-name="Пятый канал Ⓢ" tvg-logo="https://i.imgur.com/u8Q69D9.png" tvg-id="" group-title="Russia",Пятый канал Ⓢ
+https://streaming.televizor-24-tochka.ru/live/8.m3u8
+
 #EXTINF:-1 tvg-name="Россия-Культура Ⓢ" tvg-logo="https://i.imgur.com/S12gaLc.png" tvg-id="" group-title="Russia",Россия-Культура Ⓢ
 https://player.smotrim.ru/iframe/stream/live_id/19201
 
 #EXTINF:-1 tvg-name="Карусель Ⓢ" tvg-logo="https://i.imgur.com/4fFMlVq.png" tvg-id="" group-title="Russia",Карусель Ⓢ
 https://streaming102.interskytech.com/live/232.m3u8
-
-#EXTINF:-1 tvg-name="ОТР Ⓢ" tvg-logo="https://i.imgur.com/QyZvT3e.png" tvg-id="" group-title="Russia",ОТР Ⓢ
-https://streaming.televizor-24-tochka.ru/live/12.m3u8
 
 #EXTINF:-1 tvg-name="ТВ Центр Ⓢ" tvg-logo="https://i.imgur.com/ZP0D6Rd.png" tvg-id="" group-title="Russia",ТВ Центр Ⓢ
 http://ott-cdn.ucom.am/s54/index.m3u8
