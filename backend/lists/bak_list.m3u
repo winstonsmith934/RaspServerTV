@@ -1802,6 +1802,21 @@ https://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8
 #EXTINF:-1 tvg-name="CTV News" tvg-logo="https://i.imgur.com/T3oBeiX.png" tvg-id="ctvnews" group-title="Canada",CTV News
 https://pe-fa-lp02a.9c9media.com/live/News1Digi/p/hls/00000201/38ef78f479b07aa0/index/0c6a10a2/live/stream/h264/v1/3500000/manifest.m3u8
 
+#EXTINF:-1 tvg-name="Global News" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnews" group-title="Canada",Global News
+https://i.mjh.nz/PlutoTV/62cbef9ebb857100072fc187-alt.m3u8
+
+#EXTINF:-1 tvg-name="Global News Kingston" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewskingston" group-title="Canada",Global News Kingston
+https://i.mjh.nz/PlutoTV/62cbf4964446e2000742073e-alt.m3u8
+
+#EXTINF:-1 tvg-name="Global News Montreal" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewsmontreal" group-title="Canada",Global News Montreal
+https://i.mjh.nz/PlutoTV/62cbfbd6ad95670007f567af-alt.m3u8
+
+#EXTINF:-1 tvg-name="Global News Saskatoon" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewssaskatoon" group-title="Canada",Global News Saskatoon
+https://i.mjh.nz/PlutoTV/62cc00359cb58900088dc840-alt.m3u8
+
+#EXTINF:-1 tvg-name="Global News Winnipeg" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewswinnipeg" group-title="Canada",Global News Winnipeg
+https://i.mjh.nz/PlutoTV/62cc0120880c890007191016-alt.m3u8
+
 #EXTINF:-1 tvg-name="CPAC (EN)" tvg-logo="https://i.imgur.com/AbdFD0S.png" tvg-id="cpac" group-title="Canada",CPAC (EN)
 https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8
 
@@ -13592,9 +13607,6 @@ http://ott-cdn.ucom.am/s52/04.m3u8
 #EXTINF:-1 tvg-name="Домашний Ⓢ" tvg-logo="https://i.imgur.com/e8wlMIt.png" tvg-id="" group-title="Russia",Домашний Ⓢ
 http://ott-cdn.ucom.am/s88/index.m3u8
 
-#EXTINF:-1 tvg-name="ТВ-3 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%D0%A2V3_logo_2023.svg/556px-%D0%A2V3_logo_2023.svg.png" tvg-id="3" group-title="Russia",ТВ-3 Ⓢ
-https://streaming.televizor-24-tochka.ru/live/18.m3u8
-
 #EXTINF:-1 tvg-name="Пятница! Ⓢ" tvg-logo="https://i.imgur.com/rS11zVB.png" tvg-id="" group-title="Russia",Пятница! Ⓢ
 https://streaming.televizor-24-tochka.ru/live/19.m3u8
 
@@ -13651,6 +13663,9 @@ https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 
 #EXTINF:-1 tvg-name="Кубань 24 Ⓞ" tvg-logo="https://i.imgur.com/atzrXcz.png" tvg-id="24" group-title="Russia",Кубань 24 Ⓞ
 https://ok.ru/video/4157442498242
+
+#EXTINF:-1 tvg-name="Луганск 24" tvg-logo="https://i.imgur.com/YnLFQnt.png" tvg-id="24" group-title="Russia",Луганск 24
+https://tv.gtrklnr.ru/hls/Lugansk24.m3u8
 
 #EXTINF:-1 tvg-name="Мир Белогорья" tvg-logo="https://i.imgur.com/CCNAg7R.png" tvg-id="" group-title="Russia",Мир Белогорья
 http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
