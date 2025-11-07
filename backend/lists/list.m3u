@@ -17,6 +17,9 @@ https://live1.mediadesk.al/cnatvlive.m3u8
 #EXTINF:-1 tvg-name="Euronews Albania Ⓨ" tvg-logo="https://i.imgur.com/Skf6vdi.png" tvg-id="euronewsalbania" group-title="Albania",Euronews Albania Ⓨ
 https://www.youtube.com/@EuronewsAlbania/live
 
+#EXTINF:-1 tvg-name="News 24 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/News_24_%28Albania%29.svg/1024px-News_24_%28Albania%29.svg.png" tvg-id="news24" group-title="Albania",News 24 Ⓢ
+https://tv.balkanweb.com/news24/livestream/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Ora News" tvg-logo="https://i.imgur.com/ILZY5bJ.png" tvg-id="oranews" group-title="Albania",Ora News
 https://live1.mediadesk.al/oranews.m3u8
 
@@ -842,9 +845,6 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -1108,9 +1108,6 @@ https://live-radio-cf-vrt.akamaized.net/groupb/live/0f394a26-c87d-475e-8590-e9c6
 
 #EXTINF:-1 tvg-name="VTM (720p)" tvg-logo="https://i.imgur.com/N3nwyDd.png" tvg-id="vtm" group-title="Belgium",VTM (720p)
 https://dpp-live-events.medialaancdn.be/events/hls/aes/webstream1.m3u8
-
-#EXTINF:-1 tvg-name="BHT 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Logo_of_BHT_1_%282003-2012%29.png" tvg-id="bht1" group-title="Bosnia_and_herzegovina",BHT 1 Ⓢ
-https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
 
 #EXTINF:-1 tvg-name="Federalna televizija (FTV) Ⓢ" tvg-logo="https://i.imgur.com/Jpvs4u3.png" tvg-id="federalnatelevizija" group-title="Bosnia_and_herzegovina",Federalna televizija (FTV) Ⓢ
 http://94.250.2.6:7374/play/a02s/index.m3u8
@@ -2020,6 +2017,9 @@ https://eu1.vectromdigital.com:1936/netvtoronto/netvtoronto/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Newfoundland Television (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bd/CJON-TV.PNG" tvg-id="newfoundlandtelevision" group-title="Canada",Newfoundland Television (480p)
 https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="NHL Centre Ice 4" tvg-logo="https://i.imgur.com/pBKZZ8z.png" tvg-id="nhlcentreice4" group-title="Canada",NHL Centre Ice 4
+http://fl1.moveonjoy.com/NHL_4/index.m3u8
 
 #EXTINF:-1 tvg-name="NHL Centre Ice 5" tvg-logo="https://i.imgur.com/pBKZZ8z.png" tvg-id="nhlcentreice5" group-title="Canada",NHL Centre Ice 5
 http://fl1.moveonjoy.com/NHL_5/index.m3u8
@@ -7832,6 +7832,9 @@ https://cdn-1.pishow.tv/live/1456/master.m3u8
 #EXTINF:-1 tvg-name="Disha TV (576p)" tvg-logo="https://i.imgur.com/U4W0Rw8.png" tvg-id="dishatv" group-title="India",Disha TV (576p)
 https://yuppftalive.akamaized.net/080823/dishatv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Disney Channel HD (1080p)" tvg-logo="https://i.postimg.cc/854KwmH1/disneychannel.png" tvg-id="disneychannel" group-title="India",Disney Channel HD (1080p)
+http://66.102.120.18:8000/play/a013/index.m3u8
+
 #EXTINF:-1 tvg-name="Disney International HD (1080p)" tvg-logo="https://i.imgur.com/JkGvrc6.png" tvg-id="disneyinternational" group-title="India",Disney International HD (1080p)
 http://116.90.120.149:8000/play/a0e9/index.m3u8
 
@@ -10355,9 +10358,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10408,6 +10408,9 @@ https://live.antennasudwebtv.it:9443/hls/vod.m3u8
 
 #EXTINF:-1 tvg-name="Antenna Sud Extra" tvg-logo="https://i.imgur.com/6tBv8VD.png" tvg-id="antennasud" group-title="Italy",Antenna Sud Extra
 https://live.antennasudwebtv.it:9443/hls/vod92.m3u8
+
+#EXTINF:-1 tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" tvg-id="aristanissupertv" group-title="Italy",Aristanis SuperTv
+https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Arte Network Orler" tvg-logo="https://i.imgur.com/DP5y0Er.png" tvg-id="artenetworkorler" group-title="Italy",Arte Network Orler
 https://tsw.streamingwebtv24.it:1936/artenetwork/artenetwork/playlist.m3u8
@@ -10712,9 +10715,6 @@ https://router.xdevel.com/video0s975360-67/stream/playlist_dvr.m3u8
 #EXTINF:-1 tvg-name="Radio m2o Tv" tvg-logo="https://i.imgur.com/wl30UFj.png" tvg-id="radiom2otv" group-title="Italy",Radio m2o Tv
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Radio Monte Kronio Tv (R.M.K.)" tvg-logo="https://i.imgur.com/t0I2Shi.jpg" tvg-id="radiomontekroniotv" group-title="Italy",Radio Monte Kronio Tv (R.M.K.)
-https://648026e87a75e.streamlock.net/rmktv/rmktv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Radio Norba Tv" tvg-logo="https://i.imgur.com/qftBPM9.png" tvg-id="radionorbatv" group-title="Italy",Radio Norba Tv
 https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8
 
@@ -10762,6 +10762,9 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
+https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -19942,6 +19945,15 @@ http://fl2.moveonjoy.com/NFL_15/index.m3u8
 
 #EXTINF:-1 tvg-name="NHL" tvg-logo="https://i.imgur.com/UNZ8bef.png" tvg-id="nhl" group-title="Usa",NHL
 https://nhl-firetv.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="NHL Center Ice 12 (720p)" tvg-logo="https://i.imgur.com/pBKZZ8z.png" tvg-id="nhlcenterice12" group-title="Usa",NHL Center Ice 12 (720p)
+http://fl1.moveonjoy.com/NHL_12/index.m3u8
+
+#EXTINF:-1 tvg-name="NHL Center Ice 13 (720p)" tvg-logo="https://i.imgur.com/pBKZZ8z.png" tvg-id="nhlcenterice13" group-title="Usa",NHL Center Ice 13 (720p)
+http://fl1.moveonjoy.com/NHL_13/index.m3u8
+
+#EXTINF:-1 tvg-name="NHL Center Ice 14 (720p)" tvg-logo="https://i.imgur.com/pBKZZ8z.png" tvg-id="nhlcenterice14" group-title="Usa",NHL Center Ice 14 (720p)
+http://fl1.moveonjoy.com/NHL_14/index.m3u8
 
 #EXTINF:-1 tvg-name="NHRA TV (720p)" tvg-logo="https://i.imgur.com/jZgcm4k.png" tvg-id="nhratv" group-title="Usa",NHRA TV (720p)
 https://livetv-fa.tubi.video/nhra/nh.m3u8
