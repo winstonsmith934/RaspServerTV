@@ -17,6 +17,9 @@ https://rtmp.baku.tv/live/bakutv_720p.m3u8
 #EXTINF:-1 tvg-name="CBC" tvg-logo="https://i.imgur.com/wVT0dwO.png" tvg-id="cbc" group-title="Azerbaijan",CBC
 https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
 http://rtmp.one.by:1200
 
@@ -413,9 +416,6 @@ https://player.smotrim.ru/iframe/stream/live_id/1661
 #EXTINF:-1 tvg-name="Урал 24" tvg-logo="https://i.imgur.com/EaxyGh0.png" tvg-id="24" group-title="Russia",Урал 24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/russia1-hd/index.m3u8
 
-#EXTINF:-1 tvg-name="360 Новости" tvg-logo="https://i.imgur.com/YXDeX8q.png" tvg-id="360" group-title="Russia",360 Новости
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Небеса ТВ7 Ⓢ" tvg-logo="https://www.nebesatv7.com/wp-content/themes/tv7-theme/assets/img/logo_nebesa_short.png" tvg-id="7" group-title="Russia",Небеса ТВ7 Ⓢ
 https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8
 
@@ -466,9 +466,6 @@ https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
 
 #EXTINF:-1 tvg-name="Ideal World" tvg-logo="https://i.imgur.com/su6GH7i.png" tvg-id="idealworld" group-title="Uk",Ideal World
 https://ythls.armelin.one/channel/UCJbgGTpBWuC87VFIKTTO4RQ.m3u8
-
-#EXTINF:-1 tvg-name="Blaze Ⓖ" tvg-logo="https://i.imgur.com/6UcPWP9.png" tvg-id="blaze" group-title="Uk",Blaze Ⓖ
-https://live.blaze.tv/live7/blaze/bitrate1.isml/live.m3u8
 
 #EXTINF:-1 tvg-name="EarthXTV" tvg-logo="https://i.imgur.com/AvJRFKf.png" tvg-id="earthxtv" group-title="Uk",EarthXTV
 https://ov.ottera.tv/live/master.m3u8?channel=earth_et
