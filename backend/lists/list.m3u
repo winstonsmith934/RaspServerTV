@@ -350,6 +350,9 @@ http://38.183.182.166:8000/play/a0j9/index.m3u8
 #EXTINF:-1 tvg-name="El Trece (1080p)" tvg-logo="https://i.imgur.com/TrgBAdA.png" tvg-id="eltrece" group-title="Argentina",El Trece (1080p)
 https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
 
+#EXTINF:-1 tvg-name="Fox Sports (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/512px-FOX_Sports_logo.svg.png" tvg-id="foxsports" group-title="Argentina",Fox Sports (1080p)
+http://181.209.125.237:9000/play/a04e/index.m3u8
+
 #EXTINF:-1 tvg-name="Lapacho TV Canal 11 (720p)" tvg-logo="https://i.imgur.com/PmFBL7x.png" tvg-id="lapachotvcanal11" group-title="Argentina",Lapacho TV Canal 11 (720p)
 https://vivo.solumedia.com:19360/lapacho/lapacho.m3u8
 
@@ -10178,9 +10181,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10285,9 +10285,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -10594,9 +10591,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -13199,6 +13193,9 @@ https://video.angelustv.ro/hls/angelustv.m3u8
 #EXTINF:-1 tvg-name="Antena Monden (720p)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Antena_Monden_2022.png/revision/latest/scale-to-width-down/300" tvg-id="antenamonden" group-title="Romania",Antena Monden (720p)
 https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Antena Stars (1280p)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7e/A_Stars_2022.png/revision/latest/scale-to-width-down/300" tvg-id="antenastars" group-title="Romania",Antena Stars (1280p)
+https://hls.rundletv.eu.org/LIVE$AntenaStars/6.m3u8/Level/300720051?end=END&start=LIVE
+
 #EXTINF:-1 tvg-name="Ardeal TV (480p)" tvg-logo="https://i.imgur.com/5XwtFKd.png" tvg-id="ardealtv" group-title="Romania",Ardeal TV (480p)
 https://frn.rtsp.me/wzhx8pmNF7-kstp_J0AdjA/1695647213/hls/yZ9ED27Q.m3u8
 
@@ -13243,6 +13240,9 @@ https://ythls.armelin.one/channel/UCbATDExtWstHnwWELZnXNZA.m3u8
 
 #EXTINF:-1 tvg-name="Exclusiv TV" tvg-logo="https://i.imgur.com/xw1IWoO.png" tvg-id="exclusivtv" group-title="Romania",Exclusiv TV
 https://ythls.armelin.one/channel/UCXxTnMoETkhNTmsqZc0JMhQ.m3u8
+
+#EXTINF:-1 tvg-name="Happy Channel" tvg-logo="https://i.imgur.com/kpFaiku.png" tvg-id="happychannel" group-title="Romania",Happy Channel
+https://hls.rundletv.eu.org/LIVE$HappyChannel/6.m3u8/Level/300720051?end=END&start=LIVE
 
 #EXTINF:-1 tvg-name="HD365 TV (576p)" tvg-logo="https://i.imgur.com/2cLx4ja.png" tvg-id="hd365tv" group-title="Romania",HD365 TV (576p)
 https://testcam.go.ro:8080/hls/hd365.m3u8
@@ -13364,6 +13364,9 @@ https://video.angelustv.ro/hls/angelustv.m3u8
 #EXTINF:-1 tvg-name="Antena Monden (720p)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Antena_Monden_2022.png/revision/latest/scale-to-width-down/300" tvg-id="antenamonden" group-title="Romania",Antena Monden (720p)
 https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Antena Stars (1280p)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7e/A_Stars_2022.png/revision/latest/scale-to-width-down/300" tvg-id="antenastars" group-title="Romania",Antena Stars (1280p)
+https://hls.rundletv.eu.org/LIVE$AntenaStars/6.m3u8/Level/300720051?end=END&start=LIVE
+
 #EXTINF:-1 tvg-name="Ardeal TV (480p)" tvg-logo="https://i.imgur.com/5XwtFKd.png" tvg-id="ardealtv" group-title="Romania",Ardeal TV (480p)
 https://frn.rtsp.me/wzhx8pmNF7-kstp_J0AdjA/1695647213/hls/yZ9ED27Q.m3u8
 
@@ -13408,6 +13411,9 @@ https://ythls.armelin.one/channel/UCbATDExtWstHnwWELZnXNZA.m3u8
 
 #EXTINF:-1 tvg-name="Exclusiv TV" tvg-logo="https://i.imgur.com/xw1IWoO.png" tvg-id="exclusivtv" group-title="Romania",Exclusiv TV
 https://ythls.armelin.one/channel/UCXxTnMoETkhNTmsqZc0JMhQ.m3u8
+
+#EXTINF:-1 tvg-name="Happy Channel" tvg-logo="https://i.imgur.com/kpFaiku.png" tvg-id="happychannel" group-title="Romania",Happy Channel
+https://hls.rundletv.eu.org/LIVE$HappyChannel/6.m3u8/Level/300720051?end=END&start=LIVE
 
 #EXTINF:-1 tvg-name="HD365 TV (576p)" tvg-logo="https://i.imgur.com/2cLx4ja.png" tvg-id="hd365tv" group-title="Romania",HD365 TV (576p)
 https://testcam.go.ro:8080/hls/hd365.m3u8
@@ -15659,11 +15665,8 @@ https://live.tvkomala.com/live/komala/playlist.m3u8
 #EXTINF:-1 tvg-name="LifeStyleTV (1080p)" tvg-logo="https://i.postimg.cc/HswdwVcB/lifestyletv.png" tvg-id="lifestyletv" group-title="Sweden",LifeStyleTV (1080p)
 https://app.viloud.tv/hls/channel/711fd3f3a4728449889ee22ba72958ff.m3u8
 
-#EXTINF:-1 tvg-name="Miracle Channel (576p)" tvg-logo="https://i.imgur.com/yrt7Rw9.png" tvg-id="miraclechannel" group-title="Sweden",Miracle Channel (576p)
-https://miracle.stream.boxigy.com/hls/miracle1.m3u8
-
-#EXTINF:-1 tvg-name="Miracle TV (576p)" tvg-logo="https://i.imgur.com/rc68GZJ.png" tvg-id="miracletv" group-title="Sweden",Miracle TV (576p)
-https://live.miraclechannel.com/hls/miracle1.m3u8
+#EXTINF:-1 tvg-name="Miracle TV (1080p)" tvg-logo="https://i.imgur.com/rc68GZJ.png" tvg-id="miracletv" group-title="Sweden",Miracle TV (1080p)
+https://live.miracleonline.org/hls/miracle1.m3u8
 
 #EXTINF:-1 tvg-name="The Pet Collective Sweden" tvg-logo="https://i.imgur.com/yH7n2dF.png" tvg-id="thepetcollectivesweden" group-title="Sweden",The Pet Collective Sweden
 https://the-pet-collective-international-se.samsung.wurl.tv/playlist.m3u8
