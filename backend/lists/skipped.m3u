@@ -20,9 +20,6 @@ https://rtmp.baku.tv/live/bakutv_720p.m3u8
 #EXTINF:-1 tvg-name="CBC" tvg-logo="https://i.imgur.com/wVT0dwO.png" tvg-id="cbc" group-title="Azerbaijan",CBC
 https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
 http://rtmp.one.by:1200
 
@@ -79,6 +76,9 @@ https://bcsecurelivehls-i.akamaihd.net/hls/live/680604/1242843915001_3/master.m3
 
 #EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
 https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
+
+#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
+https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 
 #EXTINF:-1 tvg-name="HRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" tvg-id="hrt1" group-title="Croatia",HRT 1
 https://webtvstream.bhtelecom.ba/hls9/hrt1_1200.m3u8
@@ -191,14 +191,14 @@ https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-name="Motor Trend" tvg-logo="https://i.imgur.com/ipj2H0n.png" tvg-id="motortrend" group-title="Italy",Motor Trend
 https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="abctv" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
 #EXTINF:-1 tvg-name="AB Channel" tvg-logo="https://i.imgur.com/k8EPLB9.png" tvg-id="abchannel" group-title="Italy",AB Channel
 https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" tvg-id="aristanissupertv" group-title="Italy",Aristanis SuperTv
+https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="basilicata1tv" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
@@ -277,9 +277,6 @@ https://ltvlive3167.bstrm.net/slive/_definst_/ltvlive_event_3_pg2_44004_default_
 
 #EXTINF:-1 tvg-name="ONE TV" tvg-logo="https://i.imgur.com/Ym1L7No.png" tvg-id="onetv" group-title="Malta",ONE TV
 https://2-fss-2.streamhoster.com/pl_124/201830-1293592-1/playlist.m3u8
-
-#EXTINF:-1 tvg-name="RCG 3 Saltillo" tvg-logo="https://i.imgur.com/NefH5qZ.png" tvg-id="rcg3saltillo" group-title="Mexico",RCG 3 Saltillo
-http://wowzacontrol.com:1936/stream56/stream56/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Vocea Basarabiei" tvg-logo="https://i.imgur.com/irP8QLs.png" tvg-id="voceabasarabiei" group-title="Moldova",Vocea Basarabiei
 https://storage.voceabasarabiei.md/hls/vocea_basarabiei.m3u8
