@@ -845,9 +845,6 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -2336,8 +2333,8 @@ https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal 74 San Antonio" tvg-logo="https://i.imgur.com/WRYsbjX.png" tvg-id="canal74sanantonio" group-title="Chile",Canal 74 San Antonio
 https://eu1.servers10.com:8081/8050/index.m3u8
 
-#EXTINF:-1 tvg-name="Canal Claro (480p)" tvg-logo="https://i.imgur.com/Kgjfd3J.png" tvg-id="canalclaro" group-title="Chile",Canal Claro (480p)
-http://181.188.216.5:18000/play/a09l/index.m3u8
+#EXTINF:-1 tvg-name="Canal Claro (720p)" tvg-logo="https://i.imgur.com/Kgjfd3J.png" tvg-id="canalclaro" group-title="Chile",Canal Claro (720p)
+https://stitcher.pluto.tv/stitch/hls/channel/68224482c5d53e1351aaf2f2/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=e3ca3088-b0b3-11f0-ab21-da2bce2249f9
 
 #EXTINF:-1 tvg-name="Canal ISB (Iglesia San Bernardo) (720p)" tvg-logo="https://i.imgur.com/cQ4ggTw.png" tvg-id="canalisb" group-title="Chile",Canal ISB (Iglesia San Bernardo) (720p)
 https://unlimited1-us.dps.live/isb/isb.smil/playlist.m3u8
@@ -2533,9 +2530,6 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
-
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
@@ -4211,6 +4205,9 @@ https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-name="Africa 24 (1080p)" tvg-logo="https://i.postimg.cc/ZY9Y3vnk/africa24.png" tvg-id="africa24" group-title="France",Africa 24 (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 
+#EXTINF:-1 tvg-name="Africa 24 English (1080p)" tvg-logo="https://i.imgur.com/YWIJdai.png" tvg-id="africa24english" group-title="France",Africa 24 English (1080p)
+https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
+
 #EXTINF:-1 tvg-name="Africa 24 Sport (1080p)" tvg-logo="https://i.imgur.com/YWIJdai.png" tvg-id="africa24sport" group-title="France",Africa 24 Sport (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
@@ -4714,6 +4711,9 @@ https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 tvg-name="Africa 24 (1080p)" tvg-logo="https://i.postimg.cc/ZY9Y3vnk/africa24.png" tvg-id="africa24" group-title="France",Africa 24 (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+
+#EXTINF:-1 tvg-name="Africa 24 English (1080p)" tvg-logo="https://i.imgur.com/YWIJdai.png" tvg-id="africa24english" group-title="France",Africa 24 English (1080p)
+https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
 
 #EXTINF:-1 tvg-name="Africa 24 Sport (1080p)" tvg-logo="https://i.imgur.com/YWIJdai.png" tvg-id="africa24sport" group-title="France",Africa 24 Sport (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
@@ -9962,9 +9962,6 @@ https://d33zah5htxvoxb.cloudfront.net/el/live/dail/hls.m3u8
 #EXTINF:-1 tvg-name="Oireachtas TV Seanad Éireann (720p)" tvg-logo="https://i.imgur.com/c5TI2DT.jpg" tvg-id="oireachtastvseanadireann" group-title="Ireland",Oireachtas TV Seanad Éireann (720p)
 https://d33zah5htxvoxb.cloudfront.net/el/live/seanad/hls.m3u8
 
-#EXTINF:-1 tvg-name="TG4 (1080p)" tvg-logo="https://i.imgur.com/XiAKb4E.png" tvg-id="tg4" group-title="Ireland",TG4 (1080p)
-https://dx4452e0qv6r9.cloudfront.net/tg4_vod_national.m3u8
-
 #EXTINF:-1 tvg-name="U&Alibi (576p)" tvg-logo="https://i.imgur.com/uazjv8g.png" tvg-id="ualibi" group-title="Ireland",U&Alibi (576p)
 http://92.114.85.72:8000/play/a0bi
 
@@ -10187,6 +10184,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10291,9 +10291,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -10442,6 +10439,9 @@ https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/p
 #EXTINF:-1 tvg-name="Lombardia Tv" tvg-logo="https://i.imgur.com/aksVy9f.jpg" tvg-id="lombardiatv" group-title="Italy",Lombardia Tv
 https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Love in Venice" tvg-logo="https://i.imgur.com/lLBzzce.png" tvg-id="loveinvenice" group-title="Italy",Love in Venice
+http://59d7d6f47d7fc.streamlock.net/loveinvenice/loveinvenice/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Made in BO" tvg-logo="https://i.imgur.com/WFnrMS0.png" tvg-id="madeinbo" group-title="Italy",Made in BO
 https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
 
@@ -10589,6 +10589,9 @@ https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
 #EXTINF:-1 tvg-name="Rete Mia" tvg-logo="https://i.imgur.com/kCJ621Q.png" tvg-id="retemia" group-title="Italy",Rete Mia
 https://5db313b643fd8.streamlock.net/rete/rete/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Rete Oro Tv" tvg-logo="https://i.imgur.com/OCxGtwA.png" tvg-id="reteorotv" group-title="Italy",Rete Oro Tv
+https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Rete Sole" tvg-logo="https://i.imgur.com/u0ezKgE.png" tvg-id="retesole" group-title="Italy",Rete Sole
 https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8
 
@@ -10723,9 +10726,6 @@ https://5757bf2aa08e42248fb9b9d620f5d900.msvdn.net/live/S11646715/pE3ax0lT0rBd/p
 
 #EXTINF:-1 tvg-name="Tele Ischia" tvg-logo="https://i.imgur.com/vihHVQn.jpg" tvg-id="teleischia" group-title="Italy",Tele Ischia
 https://rst.saiuzwebnetwork.it:8081/teleischia/index.m3u8
-
-#EXTINF:-1 tvg-name="Tele Jonio" tvg-logo="https://i.imgur.com/qJeDV8R.png" tvg-id="telejonio" group-title="Italy",Tele Jonio
-http://59d7d6f47d7fc.streamlock.net/telejonio/telejonio/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Liberta' HD" tvg-logo="https://i.imgur.com/XzAB5k7.jpg" tvg-id="teleliberta" group-title="Italy",Tele Liberta' HD
 https://streaming.liberta.it/hls/liberta.m3u8
@@ -13229,6 +13229,9 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-name="Bollywood HD" tvg-logo="https://i.imgur.com/scDKOLS.png" tvg-id="bollywood" group-title="Romania",Bollywood HD
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
 
+#EXTINF:-1 tvg-name="Bucovina TV (576i)" tvg-logo="https://i.imgur.com/6klhXxp.png" tvg-id="bucovinatv" group-title="Romania",Bucovina TV (576i)
+https://www.bucovinatv.ro/proxy/video/playlist.m3u8
+
 #EXTINF:-1 tvg-name="CaTine (720p)" tvg-logo="https://i.imgur.com/eFNHuIh.png" tvg-id="catine" group-title="Romania",CaTine (720p)
 https://stream1.antenaplay.ro/live/CaTine/playlist.m3u8
 
@@ -13402,6 +13405,9 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 
 #EXTINF:-1 tvg-name="Bollywood HD" tvg-logo="https://i.imgur.com/scDKOLS.png" tvg-id="bollywood" group-title="Romania",Bollywood HD
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
+
+#EXTINF:-1 tvg-name="Bucovina TV (576i)" tvg-logo="https://i.imgur.com/6klhXxp.png" tvg-id="bucovinatv" group-title="Romania",Bucovina TV (576i)
+https://www.bucovinatv.ro/proxy/video/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CaTine (720p)" tvg-logo="https://i.imgur.com/eFNHuIh.png" tvg-id="catine" group-title="Romania",CaTine (720p)
 https://stream1.antenaplay.ro/live/CaTine/playlist.m3u8
