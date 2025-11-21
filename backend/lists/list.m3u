@@ -848,6 +848,9 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -10463,9 +10466,6 @@ https://dc3.telesveva.com:4433/news24.mp4
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
-
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -10577,6 +10577,9 @@ https://live1.giocabet.tv/stream/6/index.m3u8
 #EXTINF:-1 tvg-name="Rete 8" tvg-logo="https://i.imgur.com/bGsjPRh.png" tvg-id="rete8" group-title="Italy",Rete 8
 https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Rete 8 Sport" tvg-logo="https://i.imgur.com/uUAjWlF.png" tvg-id="rete8sport" group-title="Italy",Rete 8 Sport
+https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Rete Biella Tv" tvg-logo="https://i.imgur.com/e2ryHx7.png" tvg-id="retebiellatv" group-title="Italy",Rete Biella Tv
 https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
 
@@ -10591,6 +10594,9 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
+https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -11993,6 +11999,9 @@ https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/ind
 #EXTINF:-1 tvg-name="RTV Utrecht" tvg-logo="https://i.imgur.com/c0I24N6.png" tvg-id="rtvutrecht" group-title="Netherlands",RTV Utrecht
 http://media.rtvutrecht.nl/live/rtvutrecht/rtvutrecht/index.m3u8
 
+#EXTINF:-1 tvg-name="Omroep Flevoland Ⓢ" tvg-logo="https://i.imgur.com/d1CmTcI.png" tvg-id="omroepflevoland" group-title="Netherlands",Omroep Flevoland Ⓢ
+https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
+
 #EXTINF:-1 tvg-name="NH Nieuws" tvg-logo="https://i.imgur.com/SQPVOwn.png" tvg-id="nhnieuws" group-title="Netherlands",NH Nieuws
 https://rrr.sz.xlcdn.com/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8
 
@@ -12325,9 +12334,6 @@ https://video.uitzending.tv:19360/zo34/zo34.m3u8
 
 #EXTINF:-1 tvg-name="KCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Logo_of_the_Korean_Central_Television.svg/640px-Logo_of_the_Korean_Central_Television.svg.png" tvg-id="kctv" group-title="North_korea",KCTV
 https://tv.nknews.org/tvdash/stream.mpd
-
-#EXTINF:-1 tvg-name="Телевизија Здравкин" tvg-logo="https://i.imgur.com/kSmcAER.png" tvg-id="" group-title="North_macedonia",Телевизија Здравкин
-http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8
 
 #EXTINF:-1 tvg-name="M»Net" tvg-logo="https://i.imgur.com/JWHcGMX.png" tvg-id="mnet" group-title="North_macedonia",M»Net
 http://ares.mnet.mk/hls/mnet.m3u8
