@@ -119,6 +119,9 @@ https://ertflix.akamaized.net/ertlive/ert1/clrdef24723b/index.m3u8
 #EXTINF:-1 tvg-name="ERT World Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/512px-ChannelLogo-ERTWORLD1.png" tvg-id="ertworld" group-title="Greece",ERT World Ⓖ
 https://ertflix.akamaized.net/ertlive/ertworld/default/index.m3u8
 
+#EXTINF:-1 tvg-name="Open TV Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/open-tv-gr.png" tvg-id="opentv" group-title="Greece",Open TV Ⓖ
+https://liveopen.siliconweb.com/openTvLive/liveopen/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Vouli Ⓖ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/vouli-tv-gr.png" tvg-id="vouli" group-title="Greece",Vouli Ⓖ
 https://ertflix.akamaized.net/ertlive/vouli/default/index.m3u8
 
@@ -266,9 +269,6 @@ https://stream1.aswifi.it/mediterraneatv/live/index.m3u8
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
 
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
-
 #EXTINF:-1 tvg-name="Odeon 24" tvg-logo="https://i.imgur.com/M1tVBuH.png" tvg-id="odeon24" group-title="Italy",Odeon 24
 https://5a1178b42cc03.streamlock.net/odeon163/odeon163/playlist.m3u8
 
@@ -385,6 +385,9 @@ https://ltvlive3167.bstrm.net/slive/_definst_/ltvlive_event_3_pg2_44004_default_
 
 #EXTINF:-1 tvg-name="ONE TV" tvg-logo="https://i.imgur.com/Ym1L7No.png" tvg-id="onetv" group-title="Malta",ONE TV
 https://2-fss-2.streamhoster.com/pl_124/201830-1293592-1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="RCG 3 Saltillo" tvg-logo="https://i.imgur.com/NefH5qZ.png" tvg-id="rcg3saltillo" group-title="Mexico",RCG 3 Saltillo
+http://wowzacontrol.com:1936/stream56/stream56/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Vocea Basarabiei" tvg-logo="https://i.imgur.com/irP8QLs.png" tvg-id="voceabasarabiei" group-title="Moldova",Vocea Basarabiei
 https://storage.voceabasarabiei.md/hls/vocea_basarabiei.m3u8
