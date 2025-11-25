@@ -41,6 +41,9 @@ https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 7 Albania" tvg-logo="https://i.imgur.com/k9WqPLZ.png" tvg-id="tv7albania" group-title="Albania",TV 7 Albania
 https://5d00db0e0fcd5.streamlock.net/7064/7064/playlist.m3u8
 
+#EXTINF:-1 tvg-name="TV Apollon Ⓢ" tvg-logo="https://i.imgur.com/gUz2AjM.png" tvg-id="tvapollon" group-title="Albania",TV Apollon Ⓢ
+https://live.apollon.tv/Apollon-WEB/video.m3u8?token=tnt3u76re30d2
+
 #EXTINF:-1 tvg-name="AlbKanale Music TV (720p)" tvg-logo="https://i.imgur.com/JdKxscs.png" tvg-id="albkanalemusictv" group-title="Albania",AlbKanale Music TV (720p)
 https://albportal.net/albkanalemusic.m3u8
 
@@ -2393,9 +2396,6 @@ https://unlimited1-cl-isp.dps.live/girovisual2/girovisual2.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Huasco Television" tvg-logo="https://i.imgur.com/Fo2DV70.png" tvg-id="huascotelevision" group-title="Chile",Huasco Television
 https://paneltv.online:1936/huasco/huasco/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Juntos TV" tvg-logo="https://i.imgur.com/U62q2eM.png" tvg-id="juntostv" group-title="Chile",Juntos TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119960/juntos/playlist.m3u8
-
 #EXTINF:-1 tvg-name="La Popular TV" tvg-logo="https://i.imgur.com/AWdgMCC.png" tvg-id="lapopulartv" group-title="Chile",La Popular TV
 https://tv.arkeo.cl:1936/enlacetv1/enlacetv1/playlist.m3u8
 
@@ -2794,9 +2794,6 @@ http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 
 #EXTINF:-1 tvg-name="SMG Football Channel" tvg-logo="https://i.imgur.com/BaBr5fM.png" tvg-id="smgfootballchannel" group-title="China",SMG Football Channel
 http://49.113.179.174:4022/udp/238.125.2.142:5140
-
-#EXTINF:-1 tvg-name="ST Rembo TV" tvg-logo="https://i.imgur.com/ZuxRb0I.png" tvg-id="strembotv" group-title="China",ST Rembo TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119696/rembotv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="STV City" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/94/Shanghai_City_TV.PNG" tvg-id="stvcity" group-title="China",STV City
 http://61.173.144.157:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
@@ -3710,6 +3707,9 @@ https://ss3.domint.net:3138/mtv_str/maimon/playlist.m3u8
 #EXTINF:-1 tvg-name="Makao TV (360p)" tvg-logo="https://i.imgur.com/asD5y7i.png" tvg-id="makaotv" group-title="Dominican_republic",Makao TV (360p)
 https://live.obslivestream.com/makaomux/tracks-v2a1/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Mega Cine TV (720p)" tvg-logo="https://canalesdominicanos.live/template/images/radios/small/mega-cine-tv.png" tvg-id="megacinetv" group-title="Dominican_republic",Mega Cine TV (720p)
+https://cloudflare.streamgato.us:3125/live/megacinetvlive.m3u8
+
 #EXTINF:-1 tvg-name="MI Turno TV" tvg-logo="https://imgur.com/uODDaEY.png" tvg-id="miturnotv" group-title="Dominican_republic",MI Turno TV
 https://video.udwn.net:19360/miturnotv/miturnotv.m3u8
 
@@ -3864,7 +3864,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/rctvhdtra/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TRA Noticias (576p)" tvg-logo="https://i.imgur.com/M6ZhJqM.png" tvg-id="tranoticias" group-title="Dominican_republic",TRA Noticias (576p)
-https://customer-gllhkkbamkskdl1p.cloudflarestream.com/eyJhbGciOiJSUzI1NiIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIn0.eyJzdWIiOiJiNjExZGM0ZTJjNmUxOTFkYWRlYTg2NWY2ZjA4ODU4ZSIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIiwiZXhwIjoxNzYzMzUwMDMzLCJhY2Nlc3NSdWxlcyI6W3sidHlwZSI6ImlwLmdlb2lwLmNvdW50cnkiLCJhY3Rpb24iOiJibG9jayIsImNvdW50cnkiOlsiUlUiLCJCWSJdfV19.iITdIQH8AFuET9T4o4IyEPRRfLOGn2z-_bctb9T1UrIR4y6TXuHoTU64nKygj8FlvWREqRTKolSfZ-MniJRm2WXDO9emwvkrklBNpJlpffSGIzeihYTCC6-bF_ZEFA-Yzp9FUY4RMTctnSI6-OjDA8-_4jBF8eo3xCucrI-BSB48kg42EqWD5UfUm7nhYZNtEWXpBE62tSxVV-B9qHYsxjAIKct_FV3HagKDXM9vMsGjtigZwnorSkDOeLYFSr4O6_g7UQgfvoVQGW2Q_Wtp0wD8PAZli27G-vAwTd3Uh1b0JAy-fhAQgXItMjnzBBfBbuZxQ3l_YolGBfaK_nLRQQ/manifest/video.m3u8
+https://customer-gllhkkbamkskdl1p.cloudflarestream.com/eyJhbGciOiJSUzI1NiIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIn0.eyJzdWIiOiIwYWVmZTVlYThkY2JkNTQ4NGRiYTEzMWQ3NDA4NjQ1MyIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIiwiZXhwIjoxNzY0MDYzNDgyLCJhY2Nlc3NSdWxlcyI6W3sidHlwZSI6ImlwLmdlb2lwLmNvdW50cnkiLCJhY3Rpb24iOiJibG9jayIsImNvdW50cnkiOlsiUlUiLCJCWSJdfV19.Z-0xe9cNbjjUyUxw_BS70mcWtQBk7HAYMpj1WWE43Lzt59z5J4y1Tu-Knp6btF5m_-gfyi5L2A2_kIcaLTbjv9qk--h0cf7zY6sVuqJ4_TfNepqaMU3zXVuyluJIsJ_b5GvjtMicx12JDqgK-Tja5b7y9IdrmkD8eijWN9vrqgFygGqusvhpK9gSfKuYF6kWNAxsb85Fjilpoo4QVpOBgB2SDkPCqFn8An-FK-7zRk2PlpkYOO0k13OQ5xxd-FuZmufpHNoDpluIdGr1FXuHT7nqCG6TPpOigcRcHoUS2UvY5Z5ExmQ8ZgrOzwpXSgkjwggzLshBCMM587a4JbD0ow/manifest/video.m3u8
 
 #EXTINF:-1 tvg-name="Tu Musica HD (720p)" tvg-logo="https://i.imgur.com/HnjUjog.png" tvg-id="tumusica" group-title="Dominican_republic",Tu Musica HD (720p)
 https://mlb.essastream.com:8081/tumusicahd/tracks-v1a1/mono.m3u8
@@ -4386,7 +4386,7 @@ http://69.64.57.208/france5/mono.m3u8
 https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 
 #EXTINF:-1 tvg-name="France 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/France_24_logo_%282013%29.svg/512px-France_24_logo_%282013%29.svg.png" tvg-id="france24" group-title="France",France 24
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120430/france24french/playlist.m3u8
+https://viamotionhsi.netplus.ch/live/eds/france24/browser-HLS8/france24.m3u8
 
 #EXTINF:-1 tvg-name="France Inter" tvg-logo="https://i.imgur.com/MgBeU52.png" tvg-id="franceinter" group-title="France",France Inter
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinter.m3u8
@@ -4893,7 +4893,7 @@ http://69.64.57.208/france5/mono.m3u8
 https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 
 #EXTINF:-1 tvg-name="France 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/France_24_logo_%282013%29.svg/512px-France_24_logo_%282013%29.svg.png" tvg-id="france24" group-title="France",France 24
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120430/france24french/playlist.m3u8
+https://viamotionhsi.netplus.ch/live/eds/france24/browser-HLS8/france24.m3u8
 
 #EXTINF:-1 tvg-name="France Inter" tvg-logo="https://i.imgur.com/MgBeU52.png" tvg-id="franceinter" group-title="France",France Inter
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinter.m3u8
@@ -10115,6 +10115,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10222,9 +10225,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -12722,8 +12722,14 @@ http://185.236.229.62:9981/play/a03o
 #EXTINF:-1 tvg-name="American Crime Channel" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="americancrimechannel" group-title="Poland",American Crime Channel
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883104
 
+#EXTINF:-1 tvg-name="Antena HD (1080p)" tvg-logo="https://i.imgur.com/obwYQZC.png" tvg-id="antena" group-title="Poland",Antena HD (1080p)
+https://liveovh009.cda.pl/enc114/antenatvhdraw/antenatvhdraw.m3u8
+
 #EXTINF:-1 tvg-name="Bigtime" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/1fe37ff8-c6b7-4123-8c68-653d657b4c5f-width200-quality90.jpeg" tvg-id="bigtime" group-title="Poland",Bigtime
 https://103f01c3ff79408e83c9212f8a374ecc.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_BjgtjmeDarmoweFilmy/playlist.m3u8
+
+#EXTINF:-1 tvg-name="BTB HD (1080p)" tvg-logo="https://i.imgur.com/U8mcRal.png" tvg-id="btb" group-title="Poland",BTB HD (1080p)
+https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.tm5ELzwtPY6t.m3u8
 
 #EXTINF:-1 tvg-name="Buzzfeed Unsolved" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/e16cfcc7-2040-4bd5-8339-16d499f8799e-width200-quality90.png" tvg-id="buzzfeedunsolved" group-title="Poland",Buzzfeed Unsolved
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883099
@@ -13570,6 +13576,9 @@ https://live.mediacdn.ru/sr1/arhis24/playlist_hdhigh.m3u8
 
 #EXTINF:-1 tvg-name="Астрахан 24" tvg-logo="https://i.imgur.com/9WcnjQN.png" tvg-id="24" group-title="Russia",Астрахан 24
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Башкортостан 24" tvg-logo="https://i.imgur.com/FQhWs1M.png" tvg-id="24" group-title="Russia",Башкортостан 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/russia1-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="Белгород 24" tvg-logo="https://i.imgur.com/EEirvyx.png" tvg-id="24" group-title="Russia",Белгород 24
 http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
@@ -14483,11 +14492,11 @@ http://lb.streaming.sk/senzi/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="TA3 Ⓢ" tvg-logo="https://i.imgur.com/kPFBxc9.png" tvg-id="ta3" group-title="Slovakia",TA3 Ⓢ
 https://sktv.plainrock127.xyz/get.php?x=TA3
 
-#EXTINF:-1 tvg-name=":24 (1080p)" tvg-logo="https://i.imgur.com/tTCuczU.png" tvg-id="24" group-title="Slovakia",:24 (1080p)
-http://88.212.15.27/live/test_trojka_25p/playlist.m3u8
-
 #EXTINF:-1 tvg-name=":Šport (1080p)" tvg-logo="https://i.imgur.com/oAtcxNZ.png" tvg-id="port" group-title="Slovakia",:Šport (1080p)
 http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
+
+#EXTINF:-1 tvg-name=":24 (1080p)" tvg-logo="https://i.imgur.com/tTCuczU.png" tvg-id="24" group-title="Slovakia",:24 (1080p)
+http://88.212.15.27/live/test_trojka_25p/playlist.m3u8
 
 #EXTINF:-1 tvg-name="BTV (480p)" tvg-logo="https://i.imgur.com/5CZ6HHn.png" tvg-id="btv" group-title="Slovakia",BTV (480p)
 https://fs3.kabelko.sk/9011/index.m3u8?token=btv
@@ -14678,9 +14687,6 @@ https://cdn.mediavisionuk.com:9000/bulshotv/index.m3u8
 #EXTINF:-1 tvg-name="Hirshabelle TV (576p)" tvg-logo="https://i.imgur.com/Kk0A2o7.png" tvg-id="hirshabelletv" group-title="Somalia",Hirshabelle TV (576p)
 http://ap02.iqplay.tv:8081/iqb8002/h1rshbe1iptv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Horn Cable TV" tvg-logo="https://i.imgur.com/qUqQCjP.png" tvg-id="horncabletv" group-title="Somalia",Horn Cable TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120757/horncabletv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="MM Somali TV (720p)" tvg-logo="https://i.imgur.com/k8nz8Q2.jpg" tvg-id="mmsomalitv" group-title="Somalia",MM Somali TV (720p)
 https://cdn.mediavisionuk.com:9000/MMTV/index.m3u8
 
@@ -14695,9 +14701,6 @@ https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Somali National TV (576p)" tvg-logo="https://i.imgur.com/2y8gv7V.png" tvg-id="somalinationaltv" group-title="Somalia",Somali National TV (576p)
 https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Somaliland National TV" tvg-logo="https://i.imgur.com/FIuQNWN.png" tvg-id="somalilandnationaltv" group-title="Somalia",Somaliland National TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119033/slntv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="La 1" tvg-logo="https://i.imgur.com/NbesiPn.png" tvg-id="la1" group-title="Spain",La 1
 https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x3gcl32l5ffq2/La_1_ES.m3u8
@@ -14977,9 +14980,6 @@ http://176.65.146.237:8401/play/a0ai/index.m3u8
 
 #EXTINF:-1 tvg-name="Atreseries Internacional (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atreseries_2020_logo.svg/512px-Atreseries_2020_logo.svg.png" tvg-id="atreseriesinternacional" group-title="Spain",Atreseries Internacional (1080p)
 http://38.183.182.166:8000/play/a104/index.m3u8
-
-#EXTINF:-1 tvg-name="Az Corazon" tvg-logo="https://i.imgur.com/KIpSdQC.png" tvg-id="azcorazon" group-title="Spain",Az Corazon
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119960/aztecacorazon/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Barca TV" tvg-logo="https://i.postimg.cc/7Z1tW9BF/barcatv.png" tvg-id="barcatv" group-title="Spain",Barca TV
 https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8
@@ -16667,26 +16667,14 @@ http://stream.ntktv.ua/s/ntk/ntk.m3u8
 #EXTINF:-1 tvg-name="TVA" tvg-logo="https://i.imgur.com/PtTQ5lv.png" tvg-id="tva" group-title="Ukraine",TVA
 https://hls.cdn.ua/tva.ua_live/livestream/chunklist_.m3u8
 
-#EXTINF:-1 tvg-name="1+1 Marafon" tvg-logo="https://i.imgur.com/smQKa2G.png" tvg-id="11marafon" group-title="Ukraine",1+1 Marafon
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/11maraphon/playlist.m3u8
-
 #EXTINF:-1 tvg-name="11 Kanal (720p)" tvg-logo="https://i.imgur.com/y78saaG.png" tvg-id="11kanal" group-title="Ukraine",11 Kanal (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
-
-#EXTINF:-1 tvg-name="24 Kanal" tvg-logo="https://i.postimg.cc/1tq0V5Np/24kanal.png" tvg-id="24kanal" group-title="Ukraine",24 Kanal
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/24channel/playlist.m3u8
 
 #EXTINF:-1 tvg-name="24 Канал (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png" tvg-id="24" group-title="Ukraine",24 Канал (1080p)
 https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="100% News (576p)" tvg-logo="https://i.imgur.com/bSXKdK5.png" tvg-id="100news" group-title="Ukraine",100% News (576p)
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
-
-#EXTINF:-1 tvg-name="Apostrophe TV" tvg-logo="https://i.imgur.com/LCXvbQX.png" tvg-id="apostrophetv" group-title="Ukraine",Apostrophe TV
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/apostroftv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Army TV" tvg-logo="https://i.imgur.com/pGByjbh.png" tvg-id="armytv" group-title="Ukraine",Army TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/armiyatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ATR (720p)" tvg-logo="https://i.imgur.com/lRJAXC7.png" tvg-id="atr" group-title="Ukraine",ATR (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
@@ -16697,41 +16685,23 @@ https://avers.pp.ua/hls/efir.m3u8
 #EXTINF:-1 tvg-name="Black Sea TV (432p)" tvg-logo="https://i.imgur.com/D8YJzHV.png" tvg-id="blackseatv" group-title="Ukraine",Black Sea TV (432p)
 https://stream.skyvision.com.ua/blackseatv/stream/main/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cars & Stars TV" tvg-logo="https://i.imgur.com/E8SorC5.png" tvg-id="carsstarstv" group-title="Ukraine",Cars & Stars TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/carsstarstv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Channel 5" tvg-logo="https://i.imgur.com/a9JJXPk.png" tvg-id="channel5" group-title="Ukraine",Channel 5
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/5channel/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Channel 7 Ukraine (720p)" tvg-logo="https://i.imgur.com/9Ll0BIo.png" tvg-id="channel7ukraine" group-title="Ukraine",Channel 7 Ukraine (720p)
 http://cdn10.live-tv.od.ua:8081/7tvod/7tvod-abr/7tvod/7tvod/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cherniveckiy promin (720p)" tvg-logo="https://i.imgur.com/O9nQ5po.png" tvg-id="cherniveckiypromin" group-title="Ukraine",Cherniveckiy promin (720p)
 http://langate.tv/promin/live_720/index.m3u8
 
-#EXTINF:-1 tvg-name="Dacha" tvg-logo="https://i.imgur.com/xq6p9BZ.png" tvg-id="dacha" group-title="Ukraine",Dacha
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/dacha/playlist.m3u8
-
-#EXTINF:-1 tvg-name="DIM" tvg-logo="https://i.imgur.com/3cjaXIF.png" tvg-id="dim" group-title="Ukraine",DIM
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/dimtv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="DniproTV (1080p)" tvg-logo="https://i.imgur.com/mbPTVh1.png" tvg-id="dniprotv" group-title="Ukraine",DniproTV (1080p)
 http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Dynamo Kyiv TV" tvg-logo="https://i.imgur.com/ymxmyyG.png" tvg-id="dynamokyivtv" group-title="Ukraine",Dynamo Kyiv TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/dynamokyivhd/playlist.m3u8
 
 #EXTINF:-1 tvg-name="EWTN Ukraine (1080p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="ewtnukraine" group-title="Ukraine",EWTN Ukraine (1080p)
 https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Fashion TV" tvg-logo="https://i.imgur.com/Bk7W39G.png" tvg-id="fashiontv" group-title="Ukraine",Fashion TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/fashiontvua/playlist.m3u8
-
 #EXTINF:-1 tvg-name="First Business (720p)" tvg-logo="https://i.imgur.com/0wotE9n.png" tvg-id="firstbusiness" group-title="Ukraine",First Business (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 
-#EXTINF:-1 tvg-name="FREEDOM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/512px-FreeDOMUAlogo.svg.png" tvg-id="freedom" group-title="Ukraine",FREEDOM
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/freedomchannels/playlist.m3u8
+#EXTINF:-1 tvg-name="Freedom (FREEДOM) (UATV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/512px-FreeDOMUAlogo.svg.png" tvg-id="freedom" group-title="Ukraine",Freedom (FREEДOM) (UATV) (720p)
+https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
 
 #EXTINF:-1 tvg-name="GIT (720p)" tvg-logo="https://i.imgur.com/b5K5Uwh.png" tvg-id="git" group-title="Ukraine",GIT (720p)
 https://stream.uagit.tv/gittv.m3u8
@@ -16760,12 +16730,6 @@ https://edge2.iptv.macc.com.ua/life/k1_2/index.m3u8
 #EXTINF:-1 tvg-name="Kanal Dom (720p)" tvg-logo="https://i.imgur.com/HJCXEvY.png" tvg-id="kanaldom" group-title="Ukraine",Kanal Dom (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 
-#EXTINF:-1 tvg-name="Kvartal TV" tvg-logo="https://i.imgur.com/6ZYWizP.png" tvg-id="kvartaltv" group-title="Ukraine",Kvartal TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/kvartaltvinternational/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Kyiv" tvg-logo="https://i.imgur.com/TVuCY4N.png" tvg-id="kyiv" group-title="Ukraine",Kyiv
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/kyivtv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="M2 (540p)" tvg-logo="https://i.imgur.com/AfcBWCg.png" tvg-id="m2" group-title="Ukraine",M2 (540p)
 https://live.m2.tv/hls3/stream.m3u8
 
@@ -16778,9 +16742,6 @@ http://185.236.229.62:9981/play/a067
 #EXTINF:-1 tvg-name="Pershiy XTV Media (576p)" tvg-logo="https://i.imgur.com/M7oDym3.png" tvg-id="pershiyxtvmedia" group-title="Ukraine",Pershiy XTV Media (576p)
 https://hls.xtvmedia.pp.ua:8443/hls/trk1tv.m3u8
 
-#EXTINF:-1 tvg-name="Priamyi" tvg-logo="https://i.imgur.com/sEdzw80.png" tvg-id="priamyi" group-title="Ukraine",Priamyi
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/pryamyitv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="PTV (720p)" tvg-logo="https://i.imgur.com/WDHoSVz.png" tvg-id="ptv" group-title="Ukraine",PTV (720p)
 https://cdn10.live-tv.cloud/hrpl/hrpl-abr/playlist.m3u8
 
@@ -16789,9 +16750,6 @@ http://85.238.112.40:8810/hls_sec/online/list-renome.m3u8
 
 #EXTINF:-1 tvg-name="SK 1 (720p)" tvg-logo="https://i.imgur.com/XiXwr5h.png" tvg-id="sk1" group-title="Ukraine",SK 1 (720p)
 http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt720p/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Star Cinema" tvg-logo="https://i.imgur.com/5sis895.png" tvg-id="starcinema" group-title="Ukraine",Star Cinema
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/starcinema/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telekanal RAI (480p)" tvg-logo="https://i.imgur.com/Ouv51WB.png" tvg-id="telekanalrai" group-title="Ukraine",Telekanal RAI (480p)
 https://stream.rai.ua/rai/stream.m3u8
@@ -16816,9 +16774,6 @@ http://89.254.128.5:22280/viasat_kino/index.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Kino Action (576p)" tvg-logo="https://i.imgur.com/HwsNIDK.png" tvg-id="viasatkinoaction" group-title="Ukraine",Viasat Kino Action (576p)
 http://89.254.128.5:22280/viasat_kino_action/index.m3u8
-
-#EXTINF:-1 tvg-name="XSport+" tvg-logo="https://i.imgur.com/epnnKsB.png" tvg-id="xsport" group-title="Ukraine",XSport+
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/xsportsplus/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Z (Запорожье) (1080p)" tvg-logo="https://i.imgur.com/E5aV5aa.png" tvg-id="z" group-title="Ukraine",Z (Запорожье) (1080p)
 https://stream.ztv.zp.ua/hls/live.m3u8
@@ -16892,26 +16847,14 @@ http://46.175.163.130/ks_plus/index.m3u8
 #EXTINF:-1 tvg-name="ЧП Инфо (576p)" tvg-logo="https://i.imgur.com/2cYzroj.png" tvg-id="" group-title="Ukraine",ЧП Инфо (576p)
 http://edge3.iptv.macc.com.ua/life/magnolia_3/index.m3u8
 
-#EXTINF:-1 tvg-name="1+1 Marafon" tvg-logo="https://i.imgur.com/smQKa2G.png" tvg-id="11marafon" group-title="Ukraine",1+1 Marafon
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/11maraphon/playlist.m3u8
-
 #EXTINF:-1 tvg-name="11 Kanal (720p)" tvg-logo="https://i.imgur.com/y78saaG.png" tvg-id="11kanal" group-title="Ukraine",11 Kanal (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
-
-#EXTINF:-1 tvg-name="24 Kanal" tvg-logo="https://i.postimg.cc/1tq0V5Np/24kanal.png" tvg-id="24kanal" group-title="Ukraine",24 Kanal
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/24channel/playlist.m3u8
 
 #EXTINF:-1 tvg-name="24 Канал (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png" tvg-id="24" group-title="Ukraine",24 Канал (1080p)
 https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="100% News (576p)" tvg-logo="https://i.imgur.com/bSXKdK5.png" tvg-id="100news" group-title="Ukraine",100% News (576p)
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
-
-#EXTINF:-1 tvg-name="Apostrophe TV" tvg-logo="https://i.imgur.com/LCXvbQX.png" tvg-id="apostrophetv" group-title="Ukraine",Apostrophe TV
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/apostroftv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Army TV" tvg-logo="https://i.imgur.com/pGByjbh.png" tvg-id="armytv" group-title="Ukraine",Army TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/armiyatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ATR (720p)" tvg-logo="https://i.imgur.com/lRJAXC7.png" tvg-id="atr" group-title="Ukraine",ATR (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
@@ -16922,41 +16865,23 @@ https://avers.pp.ua/hls/efir.m3u8
 #EXTINF:-1 tvg-name="Black Sea TV (432p)" tvg-logo="https://i.imgur.com/D8YJzHV.png" tvg-id="blackseatv" group-title="Ukraine",Black Sea TV (432p)
 https://stream.skyvision.com.ua/blackseatv/stream/main/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cars & Stars TV" tvg-logo="https://i.imgur.com/E8SorC5.png" tvg-id="carsstarstv" group-title="Ukraine",Cars & Stars TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/carsstarstv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Channel 5" tvg-logo="https://i.imgur.com/a9JJXPk.png" tvg-id="channel5" group-title="Ukraine",Channel 5
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/5channel/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Channel 7 Ukraine (720p)" tvg-logo="https://i.imgur.com/9Ll0BIo.png" tvg-id="channel7ukraine" group-title="Ukraine",Channel 7 Ukraine (720p)
 http://cdn10.live-tv.od.ua:8081/7tvod/7tvod-abr/7tvod/7tvod/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cherniveckiy promin (720p)" tvg-logo="https://i.imgur.com/O9nQ5po.png" tvg-id="cherniveckiypromin" group-title="Ukraine",Cherniveckiy promin (720p)
 http://langate.tv/promin/live_720/index.m3u8
 
-#EXTINF:-1 tvg-name="Dacha" tvg-logo="https://i.imgur.com/xq6p9BZ.png" tvg-id="dacha" group-title="Ukraine",Dacha
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/dacha/playlist.m3u8
-
-#EXTINF:-1 tvg-name="DIM" tvg-logo="https://i.imgur.com/3cjaXIF.png" tvg-id="dim" group-title="Ukraine",DIM
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/dimtv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="DniproTV (1080p)" tvg-logo="https://i.imgur.com/mbPTVh1.png" tvg-id="dniprotv" group-title="Ukraine",DniproTV (1080p)
 http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Dynamo Kyiv TV" tvg-logo="https://i.imgur.com/ymxmyyG.png" tvg-id="dynamokyivtv" group-title="Ukraine",Dynamo Kyiv TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/dynamokyivhd/playlist.m3u8
 
 #EXTINF:-1 tvg-name="EWTN Ukraine (1080p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="ewtnukraine" group-title="Ukraine",EWTN Ukraine (1080p)
 https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Fashion TV" tvg-logo="https://i.imgur.com/Bk7W39G.png" tvg-id="fashiontv" group-title="Ukraine",Fashion TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120685/fashiontvua/playlist.m3u8
-
 #EXTINF:-1 tvg-name="First Business (720p)" tvg-logo="https://i.imgur.com/0wotE9n.png" tvg-id="firstbusiness" group-title="Ukraine",First Business (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 
-#EXTINF:-1 tvg-name="FREEDOM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/512px-FreeDOMUAlogo.svg.png" tvg-id="freedom" group-title="Ukraine",FREEDOM
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/freedomchannels/playlist.m3u8
+#EXTINF:-1 tvg-name="Freedom (FREEДOM) (UATV) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/512px-FreeDOMUAlogo.svg.png" tvg-id="freedom" group-title="Ukraine",Freedom (FREEДOM) (UATV) (720p)
+https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
 
 #EXTINF:-1 tvg-name="GIT (720p)" tvg-logo="https://i.imgur.com/b5K5Uwh.png" tvg-id="git" group-title="Ukraine",GIT (720p)
 https://stream.uagit.tv/gittv.m3u8
@@ -16985,12 +16910,6 @@ https://edge2.iptv.macc.com.ua/life/k1_2/index.m3u8
 #EXTINF:-1 tvg-name="Kanal Dom (720p)" tvg-logo="https://i.imgur.com/HJCXEvY.png" tvg-id="kanaldom" group-title="Ukraine",Kanal Dom (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 
-#EXTINF:-1 tvg-name="Kvartal TV" tvg-logo="https://i.imgur.com/6ZYWizP.png" tvg-id="kvartaltv" group-title="Ukraine",Kvartal TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/kvartaltvinternational/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Kyiv" tvg-logo="https://i.imgur.com/TVuCY4N.png" tvg-id="kyiv" group-title="Ukraine",Kyiv
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/kyivtv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="M2 (540p)" tvg-logo="https://i.imgur.com/AfcBWCg.png" tvg-id="m2" group-title="Ukraine",M2 (540p)
 https://live.m2.tv/hls3/stream.m3u8
 
@@ -17003,9 +16922,6 @@ http://185.236.229.62:9981/play/a067
 #EXTINF:-1 tvg-name="Pershiy XTV Media (576p)" tvg-logo="https://i.imgur.com/M7oDym3.png" tvg-id="pershiyxtvmedia" group-title="Ukraine",Pershiy XTV Media (576p)
 https://hls.xtvmedia.pp.ua:8443/hls/trk1tv.m3u8
 
-#EXTINF:-1 tvg-name="Priamyi" tvg-logo="https://i.imgur.com/sEdzw80.png" tvg-id="priamyi" group-title="Ukraine",Priamyi
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/pryamyitv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="PTV (720p)" tvg-logo="https://i.imgur.com/WDHoSVz.png" tvg-id="ptv" group-title="Ukraine",PTV (720p)
 https://cdn10.live-tv.cloud/hrpl/hrpl-abr/playlist.m3u8
 
@@ -17014,9 +16930,6 @@ http://85.238.112.40:8810/hls_sec/online/list-renome.m3u8
 
 #EXTINF:-1 tvg-name="SK 1 (720p)" tvg-logo="https://i.imgur.com/XiXwr5h.png" tvg-id="sk1" group-title="Ukraine",SK 1 (720p)
 http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt720p/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Star Cinema" tvg-logo="https://i.imgur.com/5sis895.png" tvg-id="starcinema" group-title="Ukraine",Star Cinema
-https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/starcinema/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telekanal RAI (480p)" tvg-logo="https://i.imgur.com/Ouv51WB.png" tvg-id="telekanalrai" group-title="Ukraine",Telekanal RAI (480p)
 https://stream.rai.ua/rai/stream.m3u8
@@ -17041,9 +16954,6 @@ http://89.254.128.5:22280/viasat_kino/index.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Kino Action (576p)" tvg-logo="https://i.imgur.com/HwsNIDK.png" tvg-id="viasatkinoaction" group-title="Ukraine",Viasat Kino Action (576p)
 http://89.254.128.5:22280/viasat_kino_action/index.m3u8
-
-#EXTINF:-1 tvg-name="XSport+" tvg-logo="https://i.imgur.com/epnnKsB.png" tvg-id="xsport" group-title="Ukraine",XSport+
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119693/xsportsplus/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Z (Запорожье) (1080p)" tvg-logo="https://i.imgur.com/E5aV5aa.png" tvg-id="z" group-title="Ukraine",Z (Запорожье) (1080p)
 https://stream.ztv.zp.ua/hls/live.m3u8
@@ -17864,9 +17774,6 @@ https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/beverlyhills/G0072_006/playlist.m3u8
 #EXTINF:-1 tvg-name="Beverly Hills Television 35 (720p)" tvg-logo="https://i.imgur.com/3Gqc5f2.png" tvg-id="beverlyhillstelevision35" group-title="Usa",Beverly Hills Television 35 (720p)
 https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/beverlyhills/G0072_007/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Bible Explorations" tvg-logo="https://i.imgur.com/lP6VSNx.png" tvg-id="bibleexplorations" group-title="Usa",Bible Explorations
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120683/bibleexplorationstv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Big Ten Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Big_Ten_Network_Logo.svg/512px-Big_Ten_Network_Logo.svg.png" tvg-id="bigtennetwork" group-title="Usa",Big Ten Network
 https://fl1.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
 
@@ -18421,9 +18328,6 @@ https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
 
 #EXTINF:-1 tvg-name="Eagle One News (576p)" tvg-logo="https://i.imgur.com/qelJwNi.png" tvg-id="eagleonenews" group-title="Usa",Eagle One News (576p)
 https://5a1178b42cc03.streamlock.net/8182/8182/playlist.m3u8
-
-#EXTINF:-1 tvg-name="EBS" tvg-logo="https://i.imgur.com/zqbK2IB.png" tvg-id="ebs" group-title="Usa",EBS
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120977/ebstv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="EBS Cinema (720p)" tvg-logo="https://i.imgur.com/fewPTFE.png" tvg-id="ebscinema" group-title="Usa",EBS Cinema (720p)
 https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8
@@ -19081,6 +18985,9 @@ https://cvtv.cvalley.net/hls/KYOUDT4/KYOUDT4.m3u8
 
 #EXTINF:-1 tvg-name="KYOU-DT5 (720p)" tvg-logo="https://i.imgur.com/6w1Wj3j.png" tvg-id="kyoudt5" group-title="Usa",KYOU-DT5 (720p)
 https://cvtv.cvalley.net/hls/KYOUGrit/KYOUGrit.m3u8
+
+#EXTINF:-1 tvg-name="KYW-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/KYW-TV_CBS_2013_logo.png" tvg-id="kywdt1" group-title="Usa",KYW-DT1
+https://fl1.moveonjoy.com/PA_PHILADELPHIA_CBS/index.m3u8
 
 #EXTINF:-1 tvg-name="KZTV-DT1 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="kztvdt1" group-title="Usa",KZTV-DT1 (720p)
 https://content.uplynk.com/channel/d1f868588ae5476dadaeff450170a183.m3u8
@@ -20846,6 +20753,9 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00312-graytelevisioni-wbtvnews-vizi
 #EXTINF:-1 tvg-name="WBZ-DT1 (720p)" tvg-logo="https://i.imgur.com/NC5qL8u.png" tvg-id="wbzdt1" group-title="Usa",WBZ-DT1 (720p)
 http://143.244.60.30/CBSEAST/index.m3u8
 
+#EXTINF:-1 tvg-name="WCAU-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WCAUlogo2.svg/512px-WCAUlogo2.svg.png" tvg-id="wcaudt1" group-title="Usa",WCAU-DT1
+https://fl1.moveonjoy.com/PA_PHILADELPHIA_NBC/index.m3u8
+
 #EXTINF:-1 tvg-name="WCBI (Columbus MI) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="wcbi" group-title="Usa",WCBI (Columbus MI) (720p)
 https://townnews.g-mana.live/media/4efc62fa-ad0b-445c-a839-4d1e7636988e/main.m3u8
 
@@ -21067,6 +20977,9 @@ https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8
 
 #EXTINF:-1 tvg-name="WPVI ABC 6 News (Philadelphia PA) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wpviabc6news" group-title="Usa",WPVI ABC 6 News (Philadelphia PA) (720p)
 https://content.uplynk.com/channel/ext/10b98e7c615f43a98b180d51797e74aa/wpvi_24x7_news.m3u8
+
+#EXTINF:-1 tvg-name="WPVI-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wpvidt1" group-title="Usa",WPVI-DT1
+https://fl1.moveonjoy.com/PA_PHILADELPHIA_ABC/index.m3u8
 
 #EXTINF:-1 tvg-name="WPXI-DT1 (1080p)" tvg-logo="https://i.imgur.com/MNSBpDW.png" tvg-id="wpxidt1" group-title="Usa",WPXI-DT1 (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wpxibreaking-ono/playlist.m3u8
