@@ -2546,6 +2546,9 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
+#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
+https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
+
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
 
@@ -5321,14 +5324,8 @@ https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 #EXTINF:-1 tvg-name="ARTE Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/186px-Arte_Logo_2017.svg.png" tvg-id="arte" group-title="Germany",ARTE Ⓖ
 https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
 
-#EXTINF:-1 tvg-name="DELUXE MUSIC" tvg-logo="https://i.imgur.com/E65GQN9.png" tvg-id="deluxemusic" group-title="Germany",DELUXE MUSIC
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
-
 #EXTINF:-1 tvg-name="DELUXE MUSIC DANCE BY KONTOR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/666px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" tvg-id="deluxemusicdancebykontor" group-title="Germany",DELUXE MUSIC DANCE BY KONTOR
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
-
-#EXTINF:-1 tvg-name="DELUXE MUSIC RAP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/666px-Deluxe_Rap_Logo_2023.svg.png" tvg-id="deluxemusicrap" group-title="Germany",DELUXE MUSIC RAP
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
 
 #EXTINF:-1 tvg-name="SCHLAGER DELUXE" tvg-logo="https://i.imgur.com/YPpgUOg.png" tvg-id="schlagerdeluxe" group-title="Germany",SCHLAGER DELUXE
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/26658/26658_264_live.m3u8
@@ -10133,6 +10130,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10243,6 +10243,9 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
+http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -10417,6 +10420,9 @@ https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
@@ -13690,6 +13696,9 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/playlist
 
 #EXTINF:-1 tvg-name="Смотрим - Тайны" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/r/456/396/2.png" tvg-id="" group-title="Russia",Смотрим - Тайны
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-07.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Смотрим - Честный Детектив" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/r/444/241/8.png" tvg-id="" group-title="Russia",Смотрим - Честный Детектив
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Соловьёв Live" tvg-logo="https://i.imgur.com/v0OYe1d.png" tvg-id="live" group-title="Russia",Соловьёв Live
 https://player.smotrim.ru/iframe/stream/live_id/63338
