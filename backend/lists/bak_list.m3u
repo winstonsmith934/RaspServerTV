@@ -857,6 +857,9 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -4076,6 +4079,9 @@ https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="National Geographic Finland Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-id="nationalgeographicfinland" group-title="Finland",National Geographic Finland Ⓖ
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Viaplay TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Viaplay_TV_logo.svg/640px-Viaplay_TV_logo.svg.png" tvg-id="viaplaytv" group-title="Finland",Viaplay TV
+https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="OnniTV" tvg-logo="https://i.imgur.com/HzILf2H.png" tvg-id="onnitv" group-title="Finland",OnniTV
 https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8?organizationId=83459409&suiteItemId=83459780
 
@@ -5317,6 +5323,9 @@ https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 
 #EXTINF:-1 tvg-name="ARTE Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/186px-Arte_Logo_2017.svg.png" tvg-id="arte" group-title="Germany",ARTE Ⓖ
 https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
+
+#EXTINF:-1 tvg-name="DELUXE MUSIC" tvg-logo="https://i.imgur.com/E65GQN9.png" tvg-id="deluxemusic" group-title="Germany",DELUXE MUSIC
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
 
 #EXTINF:-1 tvg-name="DELUXE MUSIC DANCE BY KONTOR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/666px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" tvg-id="deluxemusicdancebykontor" group-title="Germany",DELUXE MUSIC DANCE BY KONTOR
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
@@ -10199,9 +10208,6 @@ https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/p
 #EXTINF:-1 tvg-name="Cafe Tv 24" tvg-logo="https://i.imgur.com/KbcbxFw.png" tvg-id="cafetv24" group-title="Italy",Cafe Tv 24
 https://srvx1.selftv.video/cafe/live/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Calabria Uno Tv" tvg-logo="https://i.imgur.com/2TK1GQ5.png" tvg-id="calabriaunotv" group-title="Italy",Calabria Uno Tv
-https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Canale 10" tvg-logo="https://i.imgur.com/KuQcjYV.png" tvg-id="canale10" group-title="Italy",Canale 10
 https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8
 
@@ -10381,6 +10387,9 @@ https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/p
 
 #EXTINF:-1 tvg-name="Lombardia Tv" tvg-logo="https://i.imgur.com/aksVy9f.jpg" tvg-id="lombardiatv" group-title="Italy",Lombardia Tv
 https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Made in BO" tvg-logo="https://i.imgur.com/WFnrMS0.png" tvg-id="madeinbo" group-title="Italy",Made in BO
+https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Maria Vision" tvg-logo="https://i.imgur.com/fdx5YXi.png" tvg-id="mariavision" group-title="Italy",Maria Vision
 https://1601580044.rsc.cdn77.org/live/_jcn_/amls:CHANNEL_2/playlist.m3u8
@@ -10909,9 +10918,6 @@ https://5db313b643fd8.streamlock.net/WLTV/WLTV/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Yvii Tv" tvg-logo="https://i.imgur.com/yP5AvDo.png" tvg-id="yviitv" group-title="Italy",Yvii Tv
 https://stream.wired-shop.com/hls/yviitv.m3u8
-
-#EXTINF:-1 tvg-name="Zerouno Tv Music" tvg-logo="https://i.imgur.com/r74lqW8.png" tvg-id="zerounotvmusic" group-title="Italy",Zerouno Tv Music
-https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Zerouno Tv News" tvg-logo="https://i.imgur.com/vxRzyjE.png" tvg-id="zerounotvnews" group-title="Italy",Zerouno Tv News
 https://5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8
@@ -13675,9 +13681,6 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/playlist
 
 #EXTINF:-1 tvg-name="Смотрим - Тайны" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/r/456/396/2.png" tvg-id="" group-title="Russia",Смотрим - Тайны
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-07.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Смотрим - Честный Детектив" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/r/444/241/8.png" tvg-id="" group-title="Russia",Смотрим - Честный Детектив
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Соловьёв Live" tvg-logo="https://i.imgur.com/v0OYe1d.png" tvg-id="live" group-title="Russia",Соловьёв Live
 https://player.smotrim.ru/iframe/stream/live_id/63338
@@ -16693,6 +16696,9 @@ https://ott.columbus.te.ua/ternopil1/index.m3u8
 
 #EXTINF:-1 tvg-name="CK 1" tvg-logo="https://i.imgur.com/XiXwr5h.png" tvg-id="ck1" group-title="Ukraine",CK 1
 http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pervyy gorodskoy Odessa" tvg-logo="https://i.imgur.com/8qdc6aO.png" tvg-id="pervyygorodskoyodessa" group-title="Ukraine",Pervyy gorodskoy Odessa
+https://live.1tv.od.ua/stream1/channel1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Київ 24" tvg-logo="https://i.imgur.com/TVuCY4N.png" tvg-id="24" group-title="Ukraine",Київ 24
 https://ext.cdn.nashnet.tv/228.0.0.15/index.m3u8
