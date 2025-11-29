@@ -350,9 +350,6 @@ http://38.183.182.166:8000/play/a0j9/index.m3u8
 #EXTINF:-1 tvg-name="El Trece (1080p)" tvg-logo="https://i.imgur.com/TrgBAdA.png" tvg-id="eltrece" group-title="Argentina",El Trece (1080p)
 https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
 
-#EXTINF:-1 tvg-name="Fox Sports (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/512px-FOX_Sports_logo.svg.png" tvg-id="foxsports" group-title="Argentina",Fox Sports (1080p)
-http://181.209.125.237:9000/play/a04e/index.m3u8
-
 #EXTINF:-1 tvg-name="Lapacho TV Canal 11 (720p)" tvg-logo="https://i.imgur.com/PmFBL7x.png" tvg-id="lapachotvcanal11" group-title="Argentina",Lapacho TV Canal 11 (720p)
 https://vivo.solumedia.com:19360/lapacho/lapacho.m3u8
 
@@ -2546,6 +2543,9 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
+#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
+https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
+
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
 
@@ -4075,9 +4075,6 @@ https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="National Geographic Finland Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-id="nationalgeographicfinland" group-title="Finland",National Geographic Finland Ⓖ
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Viaplay TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Viaplay_TV_logo.svg/640px-Viaplay_TV_logo.svg.png" tvg-id="viaplaytv" group-title="Finland",Viaplay TV
-https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="OnniTV" tvg-logo="https://i.imgur.com/HzILf2H.png" tvg-id="onnitv" group-title="Finland",OnniTV
 https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8?organizationId=83459409&suiteItemId=83459780
@@ -10238,9 +10235,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -10411,9 +10405,6 @@ https://dc3.telesveva.com:4433/news24.mp4
 
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
@@ -10867,9 +10858,6 @@ https://stream1.aswifi.it/radioyes/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Tva Vicenza" tvg-logo="https://i.imgur.com/FtFuPCC.png" tvg-id="tvavicenza" group-title="Italy",Tva Vicenza
 http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Tvm Palermo" tvg-logo="https://i.imgur.com/uqOdAXB.png" tvg-id="tvmpalermo" group-title="Italy",Tvm Palermo
-https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8
 
 #EXTINF:-1 tvg-name="Tvr Xenon" tvg-logo="https://i.imgur.com/kLzW1Pf.jpg" tvg-id="tvrxenon" group-title="Italy",Tvr Xenon
 https://cdn107-ita.azotosolutions.com:8443/cdnedge4/smil:live4.smil/playlist.m3u8
@@ -15560,6 +15548,9 @@ http://ventdelnord.tv:8080/girona/directe.m3u8
 #EXTINF:-1 tvg-name="TV San Vicente (1080p)" tvg-logo="https://i.imgur.com/oLnrf0d.png" tvg-id="tvsanvicente" group-title="Spain",TV San Vicente (1080p)
 https://emision.arpamedia.es:4343/hls/tvsanvicenteweb.m3u8
 
+#EXTINF:-1 tvg-name="TVOMIX (720p)" tvg-logo="https://ugc.production.linktr.ee/7ef61237-c46d-456b-afe3-a42ef49a979e_Mejorado2.png" tvg-id="tvomix" group-title="Spain",TVOMIX (720p)
+https://cloud.tvomix.com/TVOMIX/index.m3u8
+
 #EXTINF:-1 tvg-name="Univers TV (720p)" tvg-logo="https://i.imgur.com/EW2bfix.png" tvg-id="universtv" group-title="Spain",Univers TV (720p)
 https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 
@@ -18004,9 +17995,6 @@ https://livetv-fa.tubi.video/wtkr/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 3 Omaha NE (KMTV-TV) (720p)" tvg-logo="https://i.imgur.com/E4PkyqN.png" tvg-id="cbs3omahane" group-title="Usa",CBS 3 Omaha NE (KMTV-TV) (720p)
 https://content.uplynk.com/channel/328d1434fb51476cb6567c74d5b2cc70.m3u8
-
-#EXTINF:-1 tvg-name="CBS 5 Nashville TN (WTVF) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs5nashvilletn" group-title="Usa",CBS 5 Nashville TN (WTVF) (720p)
-https://livetv-fa.tubi.video/wtvf2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CBS 6 Richmond VA (WTVR) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="cbs6richmondva" group-title="Usa",CBS 6 Richmond VA (WTVR) (720p)
 https://livetv-fa.tubi.video/wtvr/playlist.m3u8
@@ -20954,6 +20942,9 @@ https://dvrfl03.bozztv.com/hondu-cbsorlando/index.m3u8
 #EXTINF:-1 tvg-name="WKOH-DT4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" tvg-id="wkohdt4" group-title="Usa",WKOH-DT4
 https://dvrfl03.bozztv.com/hondu/hondu-pbs-kids/index.m3u8
 
+#EXTINF:-1 tvg-name="WKRN-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/WKRN-TV_%282016%29.svg/512px-WKRN-TV_%282016%29.svg.png" tvg-id="wkrndt1" group-title="Usa",WKRN-DT1
+https://fl1.moveonjoy.com/TN_NASHVILLE_ABC/index.m3u8
+
 #EXTINF:-1 tvg-name="WLMB" tvg-logo="https://i.imgur.com/KeELZ1Y.png" tvg-id="wlmb" group-title="Usa",WLMB
 https://rpn.bozztv.com/wlmb/wlmb/wlmb/index.m3u8
 
@@ -21050,6 +21041,9 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsbbreakingnews
 #EXTINF:-1 tvg-name="WSBS-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/MegaTV.png" tvg-id="wsbsdt1" group-title="Usa",WSBS-DT1 (1080p)
 https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8
 
+#EXTINF:-1 tvg-name="WSMV-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="wsmvdt1" group-title="Usa",WSMV-DT1
+https://fl1.moveonjoy.com/TN_Nashville_NBC/index.m3u8
+
 #EXTINF:-1 tvg-name="WSOC-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wsocdt1" group-title="Usa",WSOC-DT1 (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8
 
@@ -21076,6 +21070,9 @@ http://68.251.105.81:5004/auto/v11.3
 
 #EXTINF:-1 tvg-name="WTVD ABC 11 News (Raleigh-Durham NC) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wtvdabc11news" group-title="Usa",WTVD ABC 11 News (Raleigh-Durham NC) (720p)
 https://content.uplynk.com/channel/ext/f05837c508c44712aa7129d531f7dbe6/wtvd_24x7_news.m3u8
+
+#EXTINF:-1 tvg-name="WTVF-DT1 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="wtvfdt1" group-title="Usa",WTVF-DT1 (720p)
+https://fl1.moveonjoy.com/TN_Nashville_CBS/mpegts
 
 #EXTINF:-1 tvg-name="WTVJ-DT1" tvg-logo="https://i.imgur.com/p3HXpSv.png" tvg-id="wtvjdt1" group-title="Usa",WTVJ-DT1
 https://streamer2.nexgen.bz/NBC/index.m3u8
@@ -21106,6 +21103,9 @@ https://streaming-live-fcdn.api.prd.univisionnow.com/wxtv/wxtv.isml/hls/wxtv.m3u
 
 #EXTINF:-1 tvg-name="WXXV-TV News (Biloxi MS) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" tvg-id="wxxvtvnews" group-title="Usa",WXXV-TV News (Biloxi MS) (720p)
 https://townnews.g-mana.live/media/c8c354e0-672f-4368-a17d-a862ee98af4a/main.m3u8
+
+#EXTINF:-1 tvg-name="WZTV-DT1" tvg-logo="https://i.imgur.com/2ZjwRof.png" tvg-id="wztvdt1" group-title="Usa",WZTV-DT1
+https://fl1.moveonjoy.com/TN_Nashville_FOX/index.m3u8
 
 #EXTINF:-1 tvg-name="Xplore" tvg-logo="https://i.imgur.com/WaGRlFO.png" tvg-id="xplore" group-title="Usa",Xplore
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8
