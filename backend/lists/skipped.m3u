@@ -20,6 +20,9 @@ http://85.132.81.184:8080/arb/live/index.m3u8
 #EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/640px-Baku_TV_%282018%29.png" tvg-id="bakutv" group-title="Azerbaijan",Baku TV
 https://rtmp.baku.tv/live/bakutv_720p.m3u8
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
 http://rtmp.one.by:1200
 
@@ -80,12 +83,6 @@ https://bcsecurelivehls-i.akamaihd.net/hls/live/680604/1242843915001_3/master.m3
 #EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
 https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
 
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
-
-#EXTINF:-1 tvg-name="88 Stereo" tvg-logo="http://www.88stereo.com/wp-content/uploads/2017/05/88Stereo-logoweb.png" tvg-id="88stereo" group-title="Costa_rica",88 Stereo
-http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8
-
 #EXTINF:-1 tvg-name="HRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" tvg-id="hrt1" group-title="Croatia",HRT 1
 https://webtvstream.bhtelecom.ba/hls9/hrt1_1200.m3u8
 
@@ -112,6 +109,9 @@ https://stream-33.mazana.tv/slagr2.m3u
 
 #EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
 https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TBN Baltia" tvg-logo="https://i.imgur.com/rKBaK56.png" tvg-id="tbnbaltia" group-title="Estonia",TBN Baltia
+http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
 
 #EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
 https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
@@ -274,9 +274,6 @@ https://stream1.aswifi.it/mediterraneatv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
-
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
