@@ -188,7 +188,7 @@ http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
 #EXTINF:-1 tvg-name="24/7 Canal de Noticias" tvg-logo="https://i.imgur.com/4hDCB1M.png" tvg-id="247canaldenoticias" group-title="Argentina",24/7 Canal de Noticias
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 
-#EXTINF:-1 tvg-name=" como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"" tvg-logo="https://i.imgur.com/LnXQkIU.png" tvg-id="comogeckochrome112000mobilesafari53736" group-title="Argentina", como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+#EXTINF:-1 tvg-name="A24 (720p)" tvg-logo="https://i.imgur.com/LnXQkIU.png" tvg-id="a24" group-title="Argentina",A24 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 
 #EXTINF:-1 tvg-name="Aire de Santa Fe (1080p)" tvg-logo="https://i.imgur.com/60vSWW0.png" tvg-id="airedesantafe" group-title="Argentina",Aire de Santa Fe (1080p)
@@ -197,7 +197,7 @@ https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u
 #EXTINF:-1 tvg-name="Alterna TV (720p)" tvg-logo="https://alternatv.ar/alternatv.png" tvg-id="alternatv" group-title="Argentina",Alterna TV (720p)
 https://alternatv.ar/stream/hls/live.m3u8
 
-#EXTINF:-1 tvg-name=" como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/512px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" tvg-id="comogeckochrome112000mobilesafari53736" group-title="Argentina", como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+#EXTINF:-1 tvg-name="America TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/512px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" tvg-id="americatv" group-title="Argentina",America TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 
 #EXTINF:-1 tvg-name="Argentinísima Satelital (540p)" tvg-logo="https://i.imgur.com/xFgJawa.png" tvg-id="argentinsimasatelital" group-title="Argentina",Argentinísima Satelital (540p)
@@ -851,6 +851,9 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -1172,7 +1175,7 @@ https://stream.rtvze.ba/live/123/123.m3u8
 #EXTINF:-1 tvg-name="Arena Sport 1 (720p)" tvg-logo="https://i.imgur.com/RJrJGbW.png" tvg-id="arenasport1" group-title="Bosnia_and_herzegovina",Arena Sport 1 (720p)
 http://91.132.74.5:8000/play/a00k
 
-#EXTINF:-1 tvg-name=" like Gecko) Version/17.10 Safari/605.1.1"" tvg-logo="https://i.imgur.com/LEwlEEE.png" tvg-id="likegeckoversion1710safari60511" group-title="Bosnia_and_herzegovina", like Gecko) Version/17.10 Safari/605.1.1"
+#EXTINF:-1 tvg-name="BHT 1 (720p)" tvg-logo="https://i.imgur.com/LEwlEEE.png" tvg-id="bht1" group-title="Bosnia_and_herzegovina",BHT 1 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.1
 
 #EXTINF:-1 tvg-name="Bloomberg Adria (1080p)" tvg-logo="https://i.imgur.com/A5ui53C.png" tvg-id="bloombergadria" group-title="Bosnia_and_herzegovina",Bloomberg Adria (1080p)
@@ -1401,7 +1404,7 @@ https://viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-HLS8/re
 http://200.77.176.130:8000/udp/224.0.0.4:49152
 
 #EXTINF:-1 tvg-name="Rede CNT Salvador (576i)" tvg-logo="https://i.imgur.com/jcasAmw.png" tvg-id="redecntsalvador" group-title="Brazil",Rede CNT Salvador (576i)
-http://168.205.87.198:8555/live/1368/123456/150.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64;rv:60.0)Gecko/20100101 Firefox/67.0
 
 #EXTINF:-1 tvg-name="Rede Metrópole (1080p)" tvg-logo="https://i.imgur.com/qJx9Zvd.png" tvg-id="redemetrpole" group-title="Brazil",Rede Metrópole (1080p)
 https://acesso.ecast.site:3456/hybrid/play.m3u8
@@ -1475,8 +1478,8 @@ https://cdn.jmvstream.com/w/LVW-8379/LVW8379_rIq6ZYiIiA/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Assembléia Ceará (720p)" tvg-logo="https://i.imgur.com/UPa1tjs.png" tvg-id="tvassembliacear" group-title="Brazil",TV Assembléia Ceará (720p)
 https://jjn5dkk9bd.zoeweb.tv/z404-live/stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/129.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/sJOrvHg.png" tvg-id="likegeckochrome129000safari53736" group-title="Brazil", like Gecko) Chrome/129.0.0.0 Safari/537.36"
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:-1 tvg-name="TV Bahia (1080i)" tvg-logo="https://i.imgur.com/sJOrvHg.png" tvg-id="tvbahia" group-title="Brazil",TV Bahia (1080i)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-name="TV Beltrão (1080p)" tvg-logo="https://i.imgur.com/JxsyXCD.png" tvg-id="tvbeltro" group-title="Brazil",TV Beltrão (1080p)
 https://5cf4a2c2512a2.streamlock.net/tvbeltrao/tvbeltrao/playlist.m3u8
@@ -2333,11 +2336,11 @@ https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Aysen TV (720p)" tvg-logo="https://i.imgur.com/DmdBf9S.png" tvg-id="aysentv" group-title="Chile",Aysen TV (720p)
 https://v1.tustreaming.cl/aysentv/index.m3u8
 
+#EXTINF:-1 tvg-name="Canal 1 Nuble" tvg-logo="https://i.imgur.com/PGSixH5.png" tvg-id="canal1nuble" group-title="Chile",Canal 1 Nuble
+https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Canal 13 (1080p)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/" tvg-id="canal13" group-title="Chile",Canal 13 (1080p)
 http://38.250.127.17:9800/play/a067/index.m3u8
-
-#EXTINF:-1 tvg-name="Canal 21" tvg-logo="https://i.imgur.com/znmWqhW.png" tvg-id="canal21" group-title="Chile",Canal 21
-https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Canal 74 San Antonio" tvg-logo="https://i.imgur.com/WRYsbjX.png" tvg-id="canal74sanantonio" group-title="Chile",Canal 74 San Antonio
 https://eu1.servers10.com:8081/8050/index.m3u8
@@ -3071,7 +3074,7 @@ https://cloudvideo.servers10.com:8081/8230/index.m3u8
 #EXTINF:-1 tvg-name="Telefides (720p)" tvg-logo="https://i.ibb.co/yn5M8dw/telefides-costa-rica.png" tvg-id="telefides" group-title="Costa_rica",Telefides (720p)
 https://s2.cwebtv.net:4433/telefides/telefides/playlist.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/aadWnIx.jpg" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Costa_rica", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Trivisión 36 (1080p)" tvg-logo="https://i.imgur.com/aadWnIx.jpg" tvg-id="trivisin36" group-title="Costa_rica",Trivisión 36 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="TV Sur Canal 14 (1080p)" tvg-logo="https://i.imgur.com/OpHYYZA.png" tvg-id="tvsurcanal14" group-title="Costa_rica",TV Sur Canal 14 (1080p)
@@ -3155,19 +3158,19 @@ https://diadoratv.stream/live/diadora/playlist.m3u8
 #EXTINF:-1 tvg-name="Extra TV (1080p)" tvg-logo="https://i.imgur.com/5edYPBO.png" tvg-id="tv" group-title="Croatia",Extra TV (1080p)
 https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/81.0.4044.138 Safari/537.36"" tvg-logo="https://i.imgur.com/lDSctzX.png" tvg-id="likegeckochrome8104044138safari53736" group-title="Croatia", like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+#EXTINF:-1 tvg-name="HRT 1 (720p)" tvg-logo="https://i.imgur.com/lDSctzX.png" tvg-id="hrt1" group-title="Croatia",HRT 1 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 
 #EXTINF:-1 tvg-name="HRT 1 HD (1080p)" tvg-logo="https://i.imgur.com/lDSctzX.png" tvg-id="hrt1" group-title="Croatia",HRT 1 HD (1080p)
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT1/default/index.mpd
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/81.0.4044.138 Safari/537.36"" tvg-logo="https://i.imgur.com/yyePcl1.png" tvg-id="likegeckochrome8104044138safari53736" group-title="Croatia", like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+#EXTINF:-1 tvg-name="HRT 2 (720p)" tvg-logo="https://i.imgur.com/yyePcl1.png" tvg-id="hrt2" group-title="Croatia",HRT 2 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 
 #EXTINF:-1 tvg-name="HRT 2 HD (1080p)" tvg-logo="https://i.imgur.com/yyePcl1.png" tvg-id="hrt2" group-title="Croatia",HRT 2 HD (1080p)
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT2/default/index.mpd
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/81.0.4044.138 Safari/537.36"" tvg-logo="https://i.imgur.com/4OrOJRx.png" tvg-id="likegeckochrome8104044138safari53736" group-title="Croatia", like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+#EXTINF:-1 tvg-name="HRT 3 (720p)" tvg-logo="https://i.imgur.com/4OrOJRx.png" tvg-id="hrt3" group-title="Croatia",HRT 3 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 
 #EXTINF:-1 tvg-name="HRT 3 HD (720p)" tvg-logo="https://i.imgur.com/4OrOJRx.png" tvg-id="hrt3" group-title="Croatia",HRT 3 HD (720p)
@@ -3608,7 +3611,7 @@ https://soportedvb.click:3620/live/deultimominutomedialive.m3u8
 #EXTINF:-1 tvg-name="Delta TV Canal 50" tvg-logo="https://imgur.com/Z1K1tyl.jpg" tvg-id="deltatvcanal50" group-title="Dominican_republic",Delta TV Canal 50
 https://rdn.essastream.com:3949/live/deltatv50live.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://i.imgur.com/v3mkmZa.png" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
+#EXTINF:-1 tvg-name="Digital 15 (1080p)" tvg-logo="https://i.imgur.com/v3mkmZa.png" tvg-id="digital15" group-title="Dominican_republic",Digital 15 (1080p)
 #EXTVLCOPT:http-referrer=https://telemicro.com.do/players/5tv/
 
 #EXTINF:-1 tvg-name="Digital809 TV (720p)" tvg-logo="https://i.imgur.com/NKdV8b1.png" tvg-id="digital809tv" group-title="Dominican_republic",Digital809 TV (720p)
@@ -3664,9 +3667,6 @@ https://cnn.livestreaminggroup.info:3050/live/gettvlive.m3u8
 
 #EXTINF:-1 tvg-name="GH Television (1080p)" tvg-logo="https://i.imgur.com/xhkiiO3.png" tvg-id="ghtelevision" group-title="Dominican_republic",GH Television (1080p)
 https://tv.ghtelevision.com:3018/live/ghtelevisionlive.m3u8
-
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/113.0.0.0 Safari/537.36"" tvg-logo="https://imgur.com/sGN1NbR.png" tvg-id="likegeckochrome113000safari53736" group-title="Dominican_republic", like Gecko) Chrome/113.0.0.0 Safari/537.36"
-#EXTVLCOPT:http-referrer=https://player.castr.com/
 
 #EXTINF:-1 tvg-name="Global TV (720p)" tvg-logo="https://i.imgur.com/1rQaROm.png" tvg-id="globaltv" group-title="Dominican_republic",Global TV (720p)
 https://stmv4.voxtvhd.com.br/globaltv/globaltv/playlist.m3u8
@@ -3724,9 +3724,6 @@ https://cloudflare.streamgato.us:3125/live/megacinetvlive.m3u8
 
 #EXTINF:-1 tvg-name="MI Turno TV" tvg-logo="https://imgur.com/uODDaEY.png" tvg-id="miturnotv" group-title="Dominican_republic",MI Turno TV
 https://video.udwn.net:19360/miturnotv/miturnotv.m3u8
-
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://i.imgur.com/vclDXV7.jpeg" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
-#EXTVLCOPT:http-referrer=https://player.castr.com/
 
 #EXTINF:-1 tvg-name="MorroTV (414p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="morrotv" group-title="Dominican_republic",MorroTV (414p)
 https://soportedvb.click:3257/live/morrotvlive.m3u8
@@ -3815,9 +3812,6 @@ https://vdo1.streamgato.us:3592/live/teleorientaldigitallive.m3u8
 #EXTINF:-1 tvg-name="TeleCaribe TV" tvg-logo="https://i.imgur.com/zDL8mGu.png" tvg-id="telecaribetv" group-title="Dominican_republic",TeleCaribe TV
 https://cloudflare.streamgato.us:3413/live/telecaribehdlive.m3u8?DVR=
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://i.imgur.com/F17zNXh.png" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
-#EXTVLCOPT:http-referrer=https://telemicro.com.do/players/5tv/
-
 #EXTINF:-1 tvg-name="Telecontacto" tvg-logo="https://i.imgur.com/TMvV9dF.png" tvg-id="telecontacto" group-title="Dominican_republic",Telecontacto
 https://streaming.grupomediosdelnorte.com:19360/telecontacto/telecontacto.m3u8
 
@@ -3827,7 +3821,7 @@ http://190.110.36.254/TELEFUTURO/index.m3u8
 #EXTINF:-1 tvg-name="Telemax (1080p)" tvg-logo="https://i.imgur.com/QvKmjvV.png" tvg-id="telemax" group-title="Dominican_republic",Telemax (1080p)
 https://vdo2.streamgato.us:3673/live/telemaxlive.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://i.imgur.com/WhgySAk.png" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
+#EXTINF:-1 tvg-name="Telemicro (1080p)" tvg-logo="https://i.imgur.com/WhgySAk.png" tvg-id="telemicro" group-title="Dominican_republic",Telemicro (1080p)
 #EXTVLCOPT:http-referrer=https://telemicro.com.do/players/5tv/
 
 #EXTINF:-1 tvg-name="Telenews TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3878-294x165-FFFFFF.jpg" tvg-id="telenewstv" group-title="Dominican_republic",Telenews TV
@@ -3857,17 +3851,8 @@ https://cloudflare.streamgato.us:3227/live/teleturtvlive.m3u8
 #EXTINF:-1 tvg-name="Teleuniverso (720p)" tvg-logo="https://i.imgur.com/gQev8ST.png" tvg-id="teleuniverso" group-title="Dominican_republic",Teleuniverso (720p)
 https://videoserver.tmcreativos.com:19360/kptjeckkaa/kptjeckkaa.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://i.imgur.com/M9A6hqR.png" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
-#EXTVLCOPT:http-referrer=https://player.castr.com/
-
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://i.imgur.com/M9A6hqR.png" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
-#EXTVLCOPT:http-referrer=https://player.castr.com/
-
 #EXTINF:-1 tvg-name="Televisión del Este (720p)" tvg-logo="https://i.imgur.com/mmjbcGr.png" tvg-id="televisindeleste" group-title="Dominican_republic",Televisión del Este (720p)
 https://vdo2.streamgato.us:3632/live/televisiondelestelive.m3u8
-
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/92.0.4515.131 Safari/537.36"" tvg-logo="https://i.imgur.com/rSIB579.jpeg" tvg-id="likegeckochrome9204515131safari53736" group-title="Dominican_republic", like Gecko) Chrome/92.0.4515.131 Safari/537.36"
-#EXTVLCOPT:http-referrer=https://player.castr.com/
 
 #EXTINF:-1 tvg-name="Tom And Jerry" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" tvg-id="tomandjerry" group-title="Dominican_republic",Tom And Jerry
 https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
@@ -4082,6 +4067,9 @@ https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="National Geographic Finland Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-id="nationalgeographicfinland" group-title="Finland",National Geographic Finland Ⓖ
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Viaplay TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Viaplay_TV_logo.svg/640px-Viaplay_TV_logo.svg.png" tvg-id="viaplaytv" group-title="Finland",Viaplay TV
+https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="OnniTV" tvg-logo="https://i.imgur.com/HzILf2H.png" tvg-id="onnitv" group-title="Finland",OnniTV
 https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8?organizationId=83459409&suiteItemId=83459780
 
@@ -4250,40 +4238,40 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 #EXTINF:-1 tvg-name="BFM2" tvg-logo="https://i.postimg.cc/PrbrSsjT/bfm2.png" tvg-id="bfm2" group-title="France",BFM2
 https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/iRsbEpg.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Alsace (1080p)" tvg-logo="https://i.imgur.com/iRsbEpg.png" tvg-id="bfmalsace" group-title="France",BFM Alsace (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-name="BFM Business (576p)" tvg-logo="https://i.imgur.com/psqIHn4.png" tvg-id="bfmbusiness" group-title="France",BFM Business (576p)
 https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM DICI Alpes du Sud (1080p)" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-id="bfmdicialpesdusud" group-title="France",BFM DICI Alpes du Sud (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM DICI Haute-Provence (1080p)" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-id="bfmdicihauteprovence" group-title="France",BFM DICI Haute-Provence (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/HE5xP0r.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Grand Lille (1080p)" tvg-logo="https://i.imgur.com/HE5xP0r.png" tvg-id="bfmgrandlille" group-title="France",BFM Grand Lille (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/j7F9MwH.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Grand Littoral (1080p)" tvg-logo="https://i.imgur.com/j7F9MwH.png" tvg-id="bfmgrandlittoral" group-title="France",BFM Grand Littoral (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-name="BFM Lyon (576p)" tvg-logo="https://i.imgur.com/0uiiZRo.png" tvg-id="bfmlyon" group-title="France",BFM Lyon (576p)
 https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/h7t0l6q.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Marseille (1080p)" tvg-logo="https://i.imgur.com/h7t0l6q.png" tvg-id="bfmmarseille" group-title="France",BFM Marseille (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/iiVFvIw.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Nice Côte d'Azur (1080p)" tvg-logo="https://i.imgur.com/iiVFvIw.png" tvg-id="bfmnicectedazur" group-title="France",BFM Nice Côte d'Azur (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/WWWQ44G.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Normandie (1080p)" tvg-logo="https://i.imgur.com/WWWQ44G.png" tvg-id="bfmnormandie" group-title="France",BFM Normandie (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/FQ0FpXV.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Tech & Co (1080p)" tvg-logo="https://i.imgur.com/FQ0FpXV.png" tvg-id="bfmtechco" group-title="France",BFM Tech & Co (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/vp1oVj3.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Toulon Var (1080p)" tvg-logo="https://i.imgur.com/vp1oVj3.png" tvg-id="bfmtoulonvar" group-title="France",BFM Toulon Var (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-name="BFM TV (576p)" tvg-logo="https://i.imgur.com/YJCcczD.png" tvg-id="bfmtv" group-title="France",BFM TV (576p)
@@ -4757,40 +4745,40 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 #EXTINF:-1 tvg-name="BFM2" tvg-logo="https://i.postimg.cc/PrbrSsjT/bfm2.png" tvg-id="bfm2" group-title="France",BFM2
 https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/iRsbEpg.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Alsace (1080p)" tvg-logo="https://i.imgur.com/iRsbEpg.png" tvg-id="bfmalsace" group-title="France",BFM Alsace (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-name="BFM Business (576p)" tvg-logo="https://i.imgur.com/psqIHn4.png" tvg-id="bfmbusiness" group-title="France",BFM Business (576p)
 https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM DICI Alpes du Sud (1080p)" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-id="bfmdicialpesdusud" group-title="France",BFM DICI Alpes du Sud (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM DICI Haute-Provence (1080p)" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-id="bfmdicihauteprovence" group-title="France",BFM DICI Haute-Provence (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/HE5xP0r.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Grand Lille (1080p)" tvg-logo="https://i.imgur.com/HE5xP0r.png" tvg-id="bfmgrandlille" group-title="France",BFM Grand Lille (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/j7F9MwH.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Grand Littoral (1080p)" tvg-logo="https://i.imgur.com/j7F9MwH.png" tvg-id="bfmgrandlittoral" group-title="France",BFM Grand Littoral (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-name="BFM Lyon (576p)" tvg-logo="https://i.imgur.com/0uiiZRo.png" tvg-id="bfmlyon" group-title="France",BFM Lyon (576p)
 https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/h7t0l6q.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Marseille (1080p)" tvg-logo="https://i.imgur.com/h7t0l6q.png" tvg-id="bfmmarseille" group-title="France",BFM Marseille (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/iiVFvIw.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Nice Côte d'Azur (1080p)" tvg-logo="https://i.imgur.com/iiVFvIw.png" tvg-id="bfmnicectedazur" group-title="France",BFM Nice Côte d'Azur (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/WWWQ44G.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Normandie (1080p)" tvg-logo="https://i.imgur.com/WWWQ44G.png" tvg-id="bfmnormandie" group-title="France",BFM Normandie (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/FQ0FpXV.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Tech & Co (1080p)" tvg-logo="https://i.imgur.com/FQ0FpXV.png" tvg-id="bfmtechco" group-title="France",BFM Tech & Co (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/108.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/vp1oVj3.png" tvg-id="likegeckochrome108000safari53736" group-title="France", like Gecko) Chrome/108.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="BFM Toulon Var (1080p)" tvg-logo="https://i.imgur.com/vp1oVj3.png" tvg-id="bfmtoulonvar" group-title="France",BFM Toulon Var (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-name="BFM TV (576p)" tvg-logo="https://i.imgur.com/YJCcczD.png" tvg-id="bfmtv" group-title="France",BFM TV (576p)
@@ -7344,7 +7332,7 @@ https://abplivetv.akamaized.net/hls/live/2043013/ganga/master.m3u8
 https://in1.sunilprasad.com.np/yuppLive/abp-majha/master.m3u8
 
 #EXTINF:-1 tvg-name="ABP News (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/ABP_News_logo.svg/512px-ABP_News_logo.svg.png" tvg-id="abpnews" group-title="India",ABP News (1080p)
-https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
+#EXTVLCOPT:http-referrer=https://cdn.abplive.com
 
 #EXTINF:-1 tvg-name="ABP Sanjha (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ABP_Sanjha_logo.svg/512px-ABP_Sanjha_logo.svg.png" tvg-id="abpsanjha" group-title="India",ABP Sanjha (720p)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/master.m3u8
@@ -7403,9 +7391,6 @@ http://87.255.35.150:18813
 #EXTINF:-1 tvg-name="Asianet News (360p)" tvg-logo="https://i.imgur.com/LrHGfdC.png" tvg-id="asianetnews" group-title="India",Asianet News (360p)
 https://asianetnews.vgcdn.net/ptnr-Embed/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/1c19363c-e4a0-4e4d-ba28-771d5615b88e/9bd4a057-456d-43de-b887-7b87b021f1cc/3.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"" tvg-logo="https://i.imgur.com/19joZ1o.png" tvg-id="likegeckochrome142000safari53736edg142000" group-title="India", like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
-https://asianetnews.vgcdn.net/ptnr-Embed/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e2e5f74b-d075-45e4-aa07-e604a45fc1b1/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Asianet Plus (576p)" tvg-logo="https://i.imgur.com/qg1IhV8.png" tvg-id="asianet" group-title="India",Asianet Plus (576p)
 http://87.255.35.150:18831
 
@@ -7445,8 +7430,8 @@ http://163.61.227.29:8000/play/a05s/index.m3u8
 #EXTINF:-1 tvg-name="Bhakthi TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/61/Bhakthi_TV_logo.jpg" tvg-id="bhakthitv" group-title="India",Bhakthi TV (720p)
 https://cdn-1.pishow.tv/live/397/master.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"" tvg-logo="https://i.imgur.com/Jx1OX9N.png" tvg-id="likegeckochrome142000safari53736edg142000" group-title="India", like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
-https://cdn.ottlive.co.in/bharat24/index.fmp4.m3u8
+#EXTINF:-1 tvg-name="Bharat24 (1080p)" tvg-logo="https://i.imgur.com/Jx1OX9N.png" tvg-id="bharat24" group-title="India",Bharat24 (1080p)
+#EXTVLCOPT:http-referrer=https://cdn.ottlive.co.in/bharat24/embed.html
 
 #EXTINF:-1 tvg-name="Bharat Express (480p)" tvg-logo="https://bharatexpress.com/wp-content/themes/newstrackcms/images/bharat-express-new-logo.png" tvg-id="bharatexpress" group-title="India",Bharat Express (480p)
 https://stream1.livebox.co.in/VCAREhls/live.m3u8
@@ -7850,8 +7835,8 @@ https://server1.thewebworld.in:3114/live/iniyantvlive.m3u8
 #EXTINF:-1 tvg-name="IND 24 (576p)" tvg-logo="https://i.imgur.com/exRpVmL.png" tvg-id="ind24" group-title="India",IND 24 (576p)
 http://202.164.50.194:8000/play/a01d/index.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"" tvg-logo="https://i.imgur.com/l54AGtz.png" tvg-id="likegeckochrome142000safari53736edg142000" group-title="India", like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
-https://newsxott.in/hls/indianewsnational.m3u8
+#EXTINF:-1 tvg-name="India News (1080p)" tvg-logo="https://i.imgur.com/l54AGtz.png" tvg-id="indianews" group-title="India",India News (1080p)
+#EXTVLCOPT:http-referrer=https://newsxott.in/embed.html?channel=indianewsnational
 
 #EXTINF:-1 tvg-name="India News Haryana (576p)" tvg-logo="https://i.imgur.com/Ot8FDqS.png" tvg-id="indianewsharyana" group-title="India",India News Haryana (576p)
 https://livetv.newsx.com/itv/itvnetwork2/playlist.m3u8
@@ -8117,8 +8102,8 @@ https://segment.yuppcdn.net/240122/news7/playlist.m3u8
 #EXTINF:-1 tvg-name="News9Live (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/News9live-logo_1_300x.png" tvg-id="news9live" group-title="India",News9Live (720p)
 https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"" tvg-logo="https://i.imgur.com/3XVFxdO.png" tvg-id="likegeckochrome142000safari53736edg142000" group-title="India", like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
-https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 tvg-name="News18 Kannada (1080p)" tvg-logo="https://i.imgur.com/3XVFxdO.png" tvg-id="news18kannada" group-title="India",News18 Kannada (1080p)
+#EXTVLCOPT:http-referrer=https://kannada.news18.com/
 
 #EXTINF:-1 tvg-name="News 24 (720p)" tvg-logo="https://i.imgur.com/x72O77X.png" tvg-id="news24" group-title="India",News 24 (720p)
 https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
@@ -8162,8 +8147,8 @@ https://cdn-1.pishow.tv/live/965/master.m3u8
 #EXTINF:-1 tvg-name="NK TV 24x7 (1080p)" tvg-logo="https://i.imgur.com/xMJ2bv9.png" tvg-id="nktv24x7" group-title="India",NK TV 24x7 (1080p)
 https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"" tvg-logo="https://i.imgur.com/0Zpwy1Y.png" tvg-id="likegeckochrome142000safari53736edg142000" group-title="India", like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
-https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8
+#EXTINF:-1 tvg-name="Northeast Live (720p)" tvg-logo="https://i.imgur.com/0Zpwy1Y.png" tvg-id="northeastlive" group-title="India",Northeast Live (720p)
+#EXTVLCOPT:http-referrer=https://server.thelegitpro.in/northeastlive/northeastlive/embed.html
 
 #EXTINF:-1 tvg-name="NTC TV (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/shows/2025-11-21/2511213393009.jpg" tvg-id="ntctv" group-title="India",NTC TV (720p)
 https://galaxyott.live/hls/ntv.m3u8
@@ -8207,8 +8192,8 @@ https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413
 #EXTINF:-1 tvg-name="Polimer TV (720p)" tvg-logo="https://i.imgur.com/BTYagXd.png" tvg-id="polimertv" group-title="India",Polimer TV (720p)
 https://cdn-2.pishow.tv/live/1241/master.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"" tvg-logo="https://i.imgur.com/7wqqA1n.png" tvg-id="likegeckochrome142000safari53736edg142000" group-title="India", like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
-https://powertvkannada.com/hls/stream.m3u8
+#EXTINF:-1 tvg-name="Power TV (576p)" tvg-logo="https://i.imgur.com/7wqqA1n.png" tvg-id="powertv" group-title="India",Power TV (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
 
 #EXTINF:-1 tvg-name="Prarthana Bhawan TV (576p)" tvg-logo="https://i.imgur.com/1OUfPzr.png" tvg-id="prarthanabhawantv" group-title="India",Prarthana Bhawan TV (576p)
 http://202.164.50.194:8000/play/a05x/index.m3u8
@@ -8834,7 +8819,7 @@ https://live-stream.utkalbongo.com/utkalbongo/stream18/hls/zillarbartalive.m3u8
 #EXTINF:-1 tvg-name="Zing! (576p)" tvg-logo="https://i.imgur.com/zStK8g2.png" tvg-id="zing" group-title="India",Zing! (576p)
 http://183.89.246.119:8881/play/a09a/index.m3u8
 
-#EXTINF:-1 tvg-name="Zoom (720p)" tvg-logo="https://i.imgur.com/kcDJ4g0.png" tvg-id="zoom" group-title="India",Zoom (720p)
+#EXTINF:-1 tvg-name="Zoom Global (720p)" tvg-logo="https://i.imgur.com/kcDJ4g0.png" tvg-id="zoomglobal" group-title="India",Zoom Global (720p)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8
 
 #EXTINF:-1 tvg-name="CNBC Indonesia" tvg-logo="https://imgur.com/ie2zSTY" tvg-id="cnbcindonesia" group-title="Indonesia",CNBC Indonesia
@@ -8898,7 +8883,7 @@ https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
 https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8
 
 #EXTINF:-1 tvg-name="Caruban TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/CarubanTV%28Low-res%29.png" tvg-id="carubantv" group-title="Indonesia",Caruban TV (1080p)
-https://stream.carubantv.id/hls/0/stream.m3u8
+#EXTVLCOPT:http-referrer=https://stream.carubantv.id
 
 #EXTINF:-1 tvg-name="Citra Dangdut (576p)" tvg-logo="https://i.imgur.com/77KYgbz.png" tvg-id="citradangdut" group-title="Indonesia",Citra Dangdut (576p)
 http://103.180.118.5:9981/stream/channelid/64520893
@@ -8910,7 +8895,7 @@ https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
 
 #EXTINF:-1 tvg-name="Davika TV (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/60/Logo_Davika_TV.png" tvg-id="davikatv" group-title="Indonesia",Davika TV (480p)
-https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8
+#EXTVLCOPT:http-referrer=https://davikatv.co/livestreaming/
 
 #EXTINF:-1 tvg-name="Dhoho TV (720p)" tvg-logo="https://i.imgur.com/4Khyyfh.png" tvg-id="dhohotv" group-title="Indonesia",Dhoho TV (720p)
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
@@ -9005,9 +8990,6 @@ https://wahyu1ptv.pages.dev/MDTV-HD.m3u8
 #EXTINF:-1 tvg-name="MNCTV (720p)" tvg-logo="https://i.imgur.com/SK8pjQy.png" tvg-id="mnctv" group-title="Indonesia",MNCTV (720p)
 http://203.77.246.58:4500/udp/239.1.3.78:5000
 
-#EXTINF:-1 tvg-name="Musik Indonesia (576p)" tvg-logo="https://i.postimg.cc/xdtkx9P0/musik-indo.png" tvg-id="musikindonesia" group-title="Indonesia",Musik Indonesia (576p)
-http://103.180.118.5:9981/stream/channelid/1076749647
-
 #EXTINF:-1 tvg-name="My Cinema (1080p)" tvg-logo="https://i.imgur.com/BTmcTQO.png" tvg-id="mycinema" group-title="Indonesia",My Cinema (1080p)
 http://210.210.155.37/uq2663/h/h192/index.m3u8
 
@@ -9057,16 +9039,16 @@ http://175.158.57.130:8888/stream/channelid/1138678610
 http://103.180.118.5:9981/stream/channelid/1133438425
 
 #EXTINF:-1 tvg-name="Stara TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" tvg-id="staratv" group-title="Indonesia",Stara TV (720p)
-https://stream.staratv.id/hls/0/stream.m3u8
+#EXTVLCOPT:http-referrer=https://stream.staratv.id/
 
 #EXTINF:-1 tvg-name="Stara TV Bandung (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" tvg-id="staratvbandung" group-title="Indonesia",Stara TV Bandung (1080p)
-https://bandung.staratv.id/hls/0/stream.m3u8
+#EXTVLCOPT:http-referrer=https://bandung.staratv.id/
 
 #EXTINF:-1 tvg-name="Stara TV Cianjur (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" tvg-id="staratvcianjur" group-title="Indonesia",Stara TV Cianjur (720p)
-https://cianjur.staratv.id/hls/0/stream.m3u8
+#EXTVLCOPT:http-referrer=https://cianjur.staratv.id/
 
 #EXTINF:-1 tvg-name="Stara TV Malang (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" tvg-id="staratvmalang" group-title="Indonesia",Stara TV Malang (1080p)
-https://malang.staratv.id/hls/0/stream.m3u8
+#EXTVLCOPT:http-referrer=https://malang.staratv.id/
 
 #EXTINF:-1 tvg-name="Surabaya TV (1080p)" tvg-logo="https://i.imgur.com/jlss2ll.png" tvg-id="surabayatv" group-title="Indonesia",Surabaya TV (1080p)
 https://e.siar.us/live/surabayatv.m3u8
@@ -9192,7 +9174,7 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
 
 #EXTINF:-1 tvg-name="U Channel (720p)" tvg-logo="https://i.imgur.com/qxkb0cy.png" tvg-id="uchannel" group-title="Indonesia",U Channel (720p)
-https://ams.juraganstreaming.com:5443/LiveApp/streams/uchannel1.m3u8
+#EXTVLCOPT:http-referrer=https://www.u-channel.tv/
 
 #EXTINF:-1 tvg-name="UGTV (720p)" tvg-logo="https://i.imgur.com/iEKDH26.png" tvg-id="ugtv" group-title="Indonesia",UGTV (720p)
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
@@ -9220,9 +9202,6 @@ https://4kuhls.persiana.live/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="4 Music" tvg-logo="https://i.postimg.cc/W1XctWXT/4music-01.jpg" tvg-id="4music" group-title="Iran",4 Music
 https://4muhls.persiana.live/hls/stream.m3u8
-
-#EXTINF:-1 tvg-name="4 Sport" tvg-logo="https://i.ibb.co/RTVXW2gj/Screenshot-2025-05-18-231648.png" tvg-id="4sport" group-title="Iran",4 Sport
-https://pepsi.abntv.live/hls/4spstream.m3u8
 
 #EXTINF:-1 tvg-name="4U TV (720p)" tvg-logo="https://i.imgur.com/PexhKwp.png" tvg-id="4utv" group-title="Iran",4U TV (720p)
 https://hls.4utv.live/hls/stream.m3u8
@@ -9677,8 +9656,17 @@ https://twohls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Persiana Series" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-series-fr.png" tvg-id="persianaseries" group-title="Iran",Persiana Series
 https://onehls.persiana.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-name="Persiana Sport" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png" tvg-id="persianasport" group-title="Iran",Persiana Sport
+#EXTINF:-1 tvg-name="Persiana Sports" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png" tvg-id="persianasports" group-title="Iran",Persiana Sports
 https://spstr.abntv.live/hls/psstream.m3u8
+
+#EXTINF:-1 tvg-name="Persiana Sports 2" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png" tvg-id="persianasports2" group-title="Iran",Persiana Sports 2
+https://pepsi.abntv.live/hls/4spstream.m3u8
+
+#EXTINF:-1 tvg-name="Persiana Sports 3" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png" tvg-id="persianasports3" group-title="Iran",Persiana Sports 3
+https://pepsi3.abntv.live/hls/psp3.m3u8
+
+#EXTINF:-1 tvg-name="Persiana Sports 4" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png" tvg-id="persianasports4" group-title="Iran",Persiana Sports 4
+https://pepsi4.abntv.live/hls/psp4.m3u8
 
 #EXTINF:-1 tvg-name="Persiana Teen" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-teen-fr.png" tvg-id="persianateen" group-title="Iran",Persiana Teen
 https://kphls.persiana.live/hls/stream.m3u8
@@ -11387,7 +11375,7 @@ https://www.youtube.com/c/kbsworldtv/live
 #EXTINF:-1 tvg-name="All the K-Pop Ⓨ" tvg-logo="https://i.imgur.com/tBbTTAx.png" tvg-id="allthekpop" group-title="Korea",All the K-Pop Ⓨ
 https://www.youtube.com/c/ALLTHEKPOP/live
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/118.0.4044.138 Safari/537.36"" tvg-logo="https://i.imgur.com/p02AEOF.png" tvg-id="likegeckochrome11804044138safari53736" group-title="Korea", like Gecko) Chrome/118.0.4044.138 Safari/537.36"
+#EXTINF:-1 tvg-name="Korean Central Television (KCTV) (576p)" tvg-logo="https://i.imgur.com/p02AEOF.png" tvg-id="koreancentraltelevision" group-title="Korea",Korean Central Television (KCTV) (576p)
 #EXTVLCOPT:http-referrer=https://kcnawatch.org/
 
 #EXTINF:-1 tvg-name="RTK 1" tvg-logo="https://i.imgur.com/KTcWcO6.png" tvg-id="rtk1" group-title="Kosovo",RTK 1
@@ -12624,7 +12612,7 @@ https://frikanalen.no/stream/index.m3u8
 http://media1.adventist.no:1935/live/hope1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sunnmøre LIVE" tvg-logo="https://i.imgur.com/Vreqm1O.png" tvg-id="sunnmrelive" group-title="Norway",Sunnmøre LIVE
-#EXTVLCOPT:http-referrer=https%3A%2F%2Fslive.no%2F
+#EXTVLCOPT:http-referrer=https://slive.no/
 
 #EXTINF:-1 tvg-name="TV Modum (720p)" tvg-logo="https://i.imgur.com/kljua5X.png" tvg-id="tvmodum" group-title="Norway",TV Modum (720p)
 https://cdn010.panaccess.com/5677_streams/TVMODUM/index.m3u8
@@ -12825,7 +12813,7 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/STUDIO_UNIVERSAL/index.
 https://envivo.bolivia-link.com:3337/live/tele6live.m3u8
 
 #EXTINF:-1 tvg-name="Telelima (1080p)" tvg-logo="https://i.imgur.com/HzWRvXc.png" tvg-id="telelima" group-title="Peru",Telelima (1080p)
-https://live.telelima.net/TL_GRUPO-MVCE/index.m3u8
+#EXTVLCOPT:http-referrer=https://www.telelima.pe/
 
 #EXTINF:-1 tvg-name="Teleselva" tvg-logo="https://i.imgur.com/cu7hTn8.png" tvg-id="teleselva" group-title="Peru",Teleselva
 https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8
@@ -12837,10 +12825,10 @@ https://servilive.com:3531/stream/play.m3u8
 http://38.183.182.166:8000/play/a12u/index.m3u8
 
 #EXTINF:-1 tvg-name="TV Peru Internacional (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TV_Per%C3%BA_Internacional_2019_-_copia.png/512px-TV_Per%C3%BA_Internacional_2019_-_copia.png" tvg-id="tvperuinternacional" group-title="Peru",TV Peru Internacional (720p)
-https://cdnhd.iblups.com/hls/ee2450c81e554f4cae0e6292106993c27.m3u8
+#EXTVLCOPT:http-referrer=https://www.tvperu.gob.pe/internacional
 
 #EXTINF:-1 tvg-name="TV Peru Noticias (360p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/TV_Per%C3%BA_Noticias_-_2019_logo.png/512px-TV_Per%C3%BA_Noticias_-_2019_logo.png" tvg-id="tvperunoticias" group-title="Peru",TV Peru Noticias (360p)
-https://cdnhd.iblups.com/hls/902c1a0395264f269f1160efa00660e47.m3u8
+#EXTVLCOPT:http-referrer=http://www.tvperu.gob.pe/noticias
 
 #EXTINF:-1 tvg-name="TVUNO (720p)" tvg-logo="https://i.imgur.com/dht94P4.png" tvg-id="tvuno" group-title="Peru",TVUNO (720p)
 https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8
@@ -12852,7 +12840,7 @@ https://cdn.mycloudstream.io/hls/live/broadcast/ic1frrzz/index.m3u8
 https://play.agenciastreaming.com:8081/uniteltv/index.m3u8
 
 #EXTINF:-1 tvg-name="USMPTV (720p)" tvg-logo="https://i.imgur.com/9cmIv3q.png" tvg-id="usmptv" group-title="Peru",USMPTV (720p)
-https://streamusmptv.ddns.net/live/stream.m3u8
+#EXTVLCOPT:http-referrer=https://usmptv.pe/
 
 #EXTINF:-1 tvg-name="Vamisa TV (480p)" tvg-logo="https://i.imgur.com/qaR3aqn.png" tvg-id="vamisatv" group-title="Peru",Vamisa TV (480p)
 https://inliveserver.com:1936/10044/10044/playlist.m3u8
@@ -12862,9 +12850,6 @@ https://live.obslivestream.com/vivatv/index.m3u8
 
 #EXTINF:-1 tvg-name="VNP" tvg-logo="https://i.imgur.com/TOnknEW.png" tvg-id="vnp" group-title="Peru",VNP
 https://videoserver.tmcreativos.com:19360/visionnoticias/visionnoticias.m3u8
-
-#EXTINF:-1 tvg-name="Willax TV (720p)" tvg-logo="https://i.imgur.com/bZnDDPH.png" tvg-id="willaxtv" group-title="Peru",Willax TV (720p)
-http://38.183.182.166:8000/play/a0zn/index.m3u8
 
 #EXTINF:-1 tvg-name="TVP1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/TVP1_logo.svg/640px-TVP1_logo.svg.png" tvg-id="tvp1" group-title="Poland",TVP1
 https://www.tvkaista.net/stream-forwarder/get.php?x=TVP1
@@ -15161,7 +15146,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0
 #EXTINF:-1 tvg-name="BCN Gospel TV (1080p)" tvg-logo="https://i.imgur.com/ZKAnehs.png" tvg-id="bcngospeltv" group-title="Spain",BCN Gospel TV (1080p)
 https://live1.ovalcast.com:3641/live/bcngospeltvlive.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/ktasO33.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="BDNCOM (1080p)" tvg-logo="https://i.imgur.com/ktasO33.png" tvg-id="bdncom" group-title="Spain",BDNCOM (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Be Mad (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Be_Mad_TV.svg/512px-Be_Mad_TV.svg.png" tvg-id="bemad" group-title="Spain",Be Mad (1080p)
@@ -15209,7 +15194,7 @@ https://nlb2-live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8
 #EXTINF:-1 tvg-name="Canal Luz Televisión (1080p)" tvg-logo="https://i.imgur.com/H3JzQ1G.jpg" tvg-id="canalluztelevisin" group-title="Spain",Canal Luz Televisión (1080p)
 https://5d8d85cf2c308.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/HYRc9sJ.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Canal Reus TV (720p)" tvg-logo="https://i.imgur.com/HYRc9sJ.png" tvg-id="canalreustv" group-title="Spain",Canal Reus TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Canal Sur (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg/512px-Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg.png" tvg-id="canalsur" group-title="Spain",Canal Sur (1080p)
@@ -15224,16 +15209,10 @@ https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal Sur Noticias" tvg-logo="https://i.imgur.com/A3JscwS.png" tvg-id="canalsurnoticias" group-title="Spain",Canal Sur Noticias
 https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/RP8VcqZ.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Canal Terrassa (1080p)" tvg-logo="https://i.imgur.com/5fc5ZyI.png" tvg-id="canalterrassa" group-title="Spain",Canal Terrassa (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/RP8VcqZ.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/5fc5ZyI.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.ibb.co/3ynghbW/logox2.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Canal Terres de L'Ebre (1080p)" tvg-logo="https://i.ibb.co/3ynghbW/logox2.png" tvg-id="canalterresdelebre" group-title="Spain",Canal Terres de L'Ebre (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="CanalCosta (1080p)" tvg-logo="https://i.imgur.com/ap4FmYb.png" tvg-id="canalcosta" group-title="Spain",CanalCosta (1080p)
@@ -15257,7 +15236,7 @@ https://cristianos2.todostreaming.es/live/malaga-livestream.m3u8
 #EXTINF:-1 tvg-name="Cuatro (1080p)" tvg-logo="https://i.imgur.com/NYLnABb.png" tvg-id="cuatro" group-title="Spain",Cuatro (1080p)
 http://176.65.146.237:8401/play/a09s/index.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/0WQC25N.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Cugat TV (1080p)" tvg-logo="https://i.imgur.com/0WQC25N.png" tvg-id="cugattv" group-title="Spain",Cugat TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Diez TV Las Villas (1080p)" tvg-logo="https://i.imgur.com/QTA40lP.png" tvg-id="dieztvlasvillas" group-title="Spain",Diez TV Las Villas (1080p)
@@ -15275,7 +15254,7 @@ http://176.65.146.237:8401/play/a09q/index.m3u8
 #EXTINF:-1 tvg-name="Durangaldeko Telebista (576p)" tvg-logo="https://i.imgur.com/qdlW6cg.png" tvg-id="durangaldekotelebista" group-title="Spain",Durangaldeko Telebista (576p)
 https://nlb2-live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/master.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/QyW5VyW.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="El 9 TV (1080p)" tvg-logo="https://i.imgur.com/QyW5VyW.png" tvg-id="el9tv" group-title="Spain",El 9 TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="El Confidencial TV (1080p)" tvg-logo="https://i.imgur.com/W2Qqz2F.png" tvg-id="elconfidencialtv" group-title="Spain",El Confidencial TV (1080p)
@@ -15314,7 +15293,7 @@ https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
 #EXTINF:-1 tvg-name="ETB Basque (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/512px-ETB_Basque_2022_logo.svg.png" tvg-id="etbbasque" group-title="Spain",ETB Basque (480p)
 https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/Waf1SOq.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="ETV Terramar (1080p)" tvg-logo="https://i.imgur.com/Waf1SOq.png" tvg-id="etvterramar" group-title="Spain",ETV Terramar (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="EWTN Spain & Latin America (720p)" tvg-logo="https://i.imgur.com/sua70RO.png" tvg-id="ewtnspainlatinamerica" group-title="Spain",EWTN Spain & Latin America (720p)
@@ -15398,7 +15377,7 @@ https://laotra-1-23-secure2.akamaized.net/master.m3u8
 #EXTINF:-1 tvg-name="LiraTV (720p)" tvg-logo="https://i.imgur.com/hBswXYZ.png" tvg-id="liratv" group-title="Spain",LiraTV (720p)
 https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/xWY2568.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Lleida Televisió (1080p)" tvg-logo="https://i.imgur.com/xWY2568.png" tvg-id="lleidatelevisi" group-title="Spain",Lleida Televisió (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Maestrat TV (1080p)" tvg-logo="https://i.imgur.com/9gOS1ts.png" tvg-id="maestrattv" group-title="Spain",Maestrat TV (1080p)
@@ -15407,7 +15386,7 @@ https://stream.maestrat.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Mar TV (1080p)" tvg-logo="https://i.imgur.com/qQkkavo.png" tvg-id="martv" group-title="Spain",Mar TV (1080p)
 http://iptv.services.everywan.net:8080/martv-web/video.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/FTGbu8A.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Mataró Televisió (1080p)" tvg-logo="https://i.imgur.com/FTGbu8A.png" tvg-id="matartelevisi" group-title="Spain",Mataró Televisió (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Mega (1080p)" tvg-logo="https://i.imgur.com/Udrt2eK.png" tvg-id="mega" group-title="Spain",Mega (1080p)
@@ -15437,7 +15416,7 @@ http://amaru.dyndns.org:8870/0.m3u8
 #EXTINF:-1 tvg-name="Nova (1080p)" tvg-logo="https://i.imgur.com/Vx1F4o5.png" tvg-id="nova" group-title="Spain",Nova (1080p)
 http://176.65.146.237:8401/play/a0ah/index.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/u8wO4Lf.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Olot TV (1080p)" tvg-logo="https://i.imgur.com/u8wO4Lf.png" tvg-id="olottv" group-title="Spain",Olot TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Onda 15 TV (224p)" tvg-logo="https://i.imgur.com/mUrZz9O.png" tvg-id="onda15tv" group-title="Spain",Onda 15 TV (224p)
@@ -15458,7 +15437,7 @@ https://cloudvideo.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-name="Paramount Network Spain (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" tvg-id="paramountnetworkspain" group-title="Spain",Paramount Network Spain (1080p)
 http://176.65.146.237:8401/play/a09i/index.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/mNuv3OL.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Penedès Televisió (1080p)" tvg-logo="https://i.imgur.com/mNuv3OL.png" tvg-id="penedstelevisi" group-title="Spain",Penedès Televisió (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Pirineus TV (1080p)" tvg-logo="https://i.imgur.com/8b5znGY.png" tvg-id="pirineustv" group-title="Spain",Pirineus TV (1080p)
@@ -15566,7 +15545,7 @@ https://common01.todostreaming.es/live/ribera-livestream.m3u8
 #EXTINF:-1 tvg-name="ROTV Valencia (720p)" tvg-logo="https://i.imgur.com/0TDnVQ4.png" tvg-id="rotvvalencia" group-title="Spain",ROTV Valencia (720p)
 https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/x9CgczD.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="RTV El Vendrell (1080p)" tvg-logo="https://i.imgur.com/x9CgczD.png" tvg-id="rtvelvendrell" group-title="Spain",RTV El Vendrell (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="RTV Marbella (720p)" tvg-logo="https://i.imgur.com/o9Ro8TR.png" tvg-id="rtvmarbella" group-title="Spain",RTV Marbella (720p)
@@ -15575,7 +15554,7 @@ https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8
 #EXTINF:-1 tvg-name="RTV Vida (1080p)" tvg-logo="https://i.imgur.com/EqUfEAh.png" tvg-id="rtvvida" group-title="Spain",RTV Vida (1080p)
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/rrCJyza.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="RTVC Cardedeu (1080p)" tvg-logo="https://i.imgur.com/rrCJyza.png" tvg-id="rtvccardedeu" group-title="Spain",RTVC Cardedeu (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Sal Televisión (720p)" tvg-logo="https://i.imgur.com/7ewYJ4Y.jpg" tvg-id="saltelevisin" group-title="Spain",Sal Televisión (720p)
@@ -15602,13 +15581,13 @@ https://5d2733224ac48.streamlock.net/taroteame/tarot_web/playlist.m3u8
 #EXTINF:-1 tvg-name="TBN España (576p)" tvg-logo="https://i.imgur.com/oGvsUH9.png" tvg-id="tbnespaa" group-title="Spain",TBN España (576p)
 https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/JcuV9ZE.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Tele 7 (720p)" tvg-logo="https://i.imgur.com/JcuV9ZE.png" tvg-id="tele7" group-title="Spain",Tele 7 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Tele Elx (1080p)" tvg-logo="https://i.imgur.com/w5NTWpl.png" tvg-id="teleelx" group-title="Spain",Tele Elx (1080p)
 https://tvdirecto.teleelx.es/stream/teleelx.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/x2HmBq1.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="TeleBilbao (384p)" tvg-logo="https://i.imgur.com/x2HmBq1.png" tvg-id="telebilbao" group-title="Spain",TeleBilbao (384p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Telecinco (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Telecinco.svg/512px-Telecinco.svg.png" tvg-id="telecinco" group-title="Spain",Telecinco (1080p)
@@ -15656,25 +15635,25 @@ https://live.fullsport.es/hls/tvalmassora.m3u8
 #EXTINF:-1 tvg-name="TV Artequatre (576p)" tvg-logo="https://i.imgur.com/aobkgrS.png" tvg-id="tvartequatre" group-title="Spain",TV Artequatre (576p)
 https://streaming007.gestec-video.com/hls/artequatreTVA.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/U5OVi3L.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="TV Berguedà (1080p)" tvg-logo="https://i.imgur.com/U5OVi3L.png" tvg-id="tvbergued" group-title="Spain",TV Berguedà (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="TV BRICS Spanish (1080p)" tvg-logo="https://i.imgur.com/vLpm8tN.png" tvg-id="tvbricsspanish" group-title="Spain",TV BRICS Spanish (1080p)
 https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/i6EnVZa.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="TV Costa Brava (1080p)" tvg-logo="https://i.imgur.com/i6EnVZa.png" tvg-id="tvcostabrava" group-title="Spain",TV Costa Brava (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="TV Girona (1080p)" tvg-logo="https://i.imgur.com/yfiK1Vp.png" tvg-id="tvgirona" group-title="Spain",TV Girona (1080p)
 http://ventdelnord.tv:8080/girona/directe.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Logotip_TV_L%27H.svg/400px-Logotip_TV_L%27H.svg.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="TV L'Hospitalet (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Logotip_TV_L%27H.svg/400px-Logotip_TV_L%27H.svg.png" tvg-id="tvlhospitalet" group-title="Spain",TV L'Hospitalet (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/S5KB9DS.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="TV Ripollès (1080p)" tvg-logo="https://i.imgur.com/S5KB9DS.png" tvg-id="tvripolls" group-title="Spain",TV Ripollès (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/fSTsGbG.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="TV Sabadell-Vallès (1080p)" tvg-logo="https://i.imgur.com/fSTsGbG.png" tvg-id="tvsabadellvalls" group-title="Spain",TV Sabadell-Vallès (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="TV San Vicente (1080p)" tvg-logo="https://i.imgur.com/oLnrf0d.png" tvg-id="tvsanvicente" group-title="Spain",TV San Vicente (1080p)
@@ -15689,7 +15668,7 @@ https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u
 #EXTINF:-1 tvg-name="Urola Telebista (416p)" tvg-logo="https://i.imgur.com/V23bltn.png" tvg-id="urolatelebista" group-title="Spain",Urola Telebista (416p)
 https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://www.vallesvisio.cat/wp-content/uploads/cropped-Logo-Valles-Visio-1.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="Vallès Visió (1080p)" tvg-logo="https://www.vallesvisio.cat/wp-content/uploads/cropped-Logo-Valles-Visio-1.png" tvg-id="vallsvisi" group-title="Spain",Vallès Visió (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="Ventdelnord TV (404p)" tvg-logo="https://i.imgur.com/6sUkVOd.png" tvg-id="ventdelnordtv" group-title="Spain",Ventdelnord TV (404p)
@@ -15704,7 +15683,7 @@ http://185.36.211.142:8080/tmp_hls/viva/index.m3u8
 #EXTINF:-1 tvg-name="Vivamóvil (720p)" tvg-logo="https://i.imgur.com/QQviU5m.png" tvg-id="vivamvil" group-title="Spain",Vivamóvil (720p)
 https://5d8d85cf2c308.streamlock.net:1936/AlcalaTV/endirecto/playlist.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"" tvg-logo="https://i.imgur.com/1g2Z64L.png" tvg-id="likegeckochrome830410397safari53736crkey144191160" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+#EXTINF:-1 tvg-name="VOTV (1080p)" tvg-logo="https://i.imgur.com/1g2Z64L.png" tvg-id="votv" group-title="Spain",VOTV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
 #EXTINF:-1 tvg-name="XPTV1 (720p)" tvg-logo="https://i.imgur.com/Ty7GkoN.png" tvg-id="xptv1" group-title="Spain",XPTV1 (720p)
@@ -16154,7 +16133,7 @@ https://tv-e-okul02.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="4U TV (720p)" tvg-logo="https://i.imgur.com/PexhKwp.png" tvg-id="4utv" group-title="Turkey",4U TV (720p)
 https://hls.4utv.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko Chrome/76.0.3809.25 Safari/537.36"" tvg-logo="https://i.imgur.com/8FO41es.png" tvg-id="likegeckochrome760380925safari53736" group-title="Turkey", like Gecko Chrome/76.0.3809.25 Safari/537.36"
+#EXTINF:-1 tvg-name="24 TV (1080p)" tvg-logo="https://i.imgur.com/8FO41es.png" tvg-id="24tv" group-title="Turkey",24 TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 
 #EXTINF:-1 tvg-name="A2TV" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" tvg-id="a2tv" group-title="Turkey",A2TV
@@ -18572,7 +18551,7 @@ https://reflect-fcpublicmedia.cablecast.tv/live-5/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-name="Fear Factor (1080p)" tvg-logo="https://i.imgur.com/CIYnLWz.png" tvg-id="fearfactor" group-title="Usa",Fear Factor (1080p)
 https://amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungau/playlist.m3u8
 
-#EXTINF:-1 tvg-name=" like Gecko) Chrome/113.0.0.0 Safari/537.36"" tvg-logo="https://i.imgur.com/Z9xclnE.png" tvg-id="likegeckochrome113000safari53736" group-title="Usa", like Gecko) Chrome/113.0.0.0 Safari/537.36"
+#EXTINF:-1 tvg-name="FETV" tvg-logo="https://i.imgur.com/Z9xclnE.png" tvg-id="fetv" group-title="Usa",FETV
 #EXTVLCOPT:http-referrer=https://www.ustvnow.com
 
 #EXTINF:-1 tvg-name="Fidele TV (480p)" tvg-logo="https://i.ibb.co/YtBZ0Lc/FIDELE-TV.png" tvg-id="fideletv" group-title="Usa",Fidele TV (480p)
