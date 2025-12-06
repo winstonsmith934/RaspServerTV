@@ -848,9 +848,6 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -10697,9 +10694,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
 
@@ -10910,15 +10904,6 @@ https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8
 #EXTINF:-1 tvg-name="Telecittà Padova" tvg-logo="https://i.imgur.com/xvVgEaA.jpg" tvg-id="telecittpadova" group-title="Italy",Telecittà Padova
 https://tango.wifi4all.it/telecitta/telecitta.m3u8
 
-#EXTINF:-1 tvg-name="Telecity Lombardia" tvg-logo="https://i.imgur.com/ECvJ3ZD.jpeg" tvg-id="telecitylombardia" group-title="Italy",Telecity Lombardia
-https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Telecity Piemonte" tvg-logo="https://i.imgur.com/CrlzHjv.jpeg" tvg-id="telecitypiemonte" group-title="Italy",Telecity Piemonte
-https://64b16f23efbee.streamlock.net/telecitypiemonte/telecitypiemonte/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Telecity Valle D'Aosta" tvg-logo="https://i.imgur.com/T9EsAOX.jpeg" tvg-id="telecityvalledaosta" group-title="Italy",Telecity Valle D'Aosta
-https://64b16f23efbee.streamlock.net/telecityvda/telecityvda/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TeleCostaSmeralda" tvg-logo="https://i.imgur.com/QLqkbss.png" tvg-id="telecostasmeralda" group-title="Italy",TeleCostaSmeralda
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8
 
@@ -11035,9 +11020,6 @@ https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/p
 
 #EXTINF:-1 tvg-name="Video Mediterraneo" tvg-logo="https://i.imgur.com/hJHC3uQ.png" tvg-id="videomediterraneo" group-title="Italy",Video Mediterraneo
 https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Video Nola" tvg-logo="https://i.imgur.com/M5z5UoD.jpg" tvg-id="videonola" group-title="Italy",Video Nola
-https://videonola.aswifi.it/videonolaabr/live.m3u8
 
 #EXTINF:-1 tvg-name="Video Regione Sicilia" tvg-logo="https://i.imgur.com/0szwnR3.png" tvg-id="videoregionesicilia" group-title="Italy",Video Regione Sicilia
 https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/playlist.m3u8
@@ -13651,6 +13633,9 @@ https://streaming.televizor-24-tochka.ru/live/8.m3u8
 
 #EXTINF:-1 tvg-name="Россия-Культура Ⓢ" tvg-logo="https://i.imgur.com/S12gaLc.png" tvg-id="" group-title="Russia",Россия-Культура Ⓢ
 https://player.smotrim.ru/iframe/stream/live_id/19201
+
+#EXTINF:-1 tvg-name="Россия-24 Ⓢ" tvg-logo="https://i.imgur.com/tpqsFzm.png" tvg-id="24" group-title="Russia",Россия-24 Ⓢ
+https://player.smotrim.ru/iframe/stream/live_id/21
 
 #EXTINF:-1 tvg-name="Карусель Ⓢ" tvg-logo="https://i.imgur.com/4fFMlVq.png" tvg-id="" group-title="Russia",Карусель Ⓢ
 https://streaming102.interskytech.com/live/232.m3u8
