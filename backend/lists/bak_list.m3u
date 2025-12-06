@@ -335,6 +335,9 @@ https://canaletaplus.com:3922/hybrid/play.m3u8
 #EXTINF:-1 tvg-name="CPEtv (720p)" tvg-logo="https://i.imgur.com/zFgbobO.png" tvg-id="cpetv" group-title="Argentina",CPEtv (720p)
 https://stream.arcast.live/cpe/ngrp:cpe_all/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Cumbia Mix (720p)" tvg-logo="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6901dfd41a05195b77301d7b/b306e57e4_Logo-TV-C.png" tvg-id="cumbiamix" group-title="Argentina",Cumbia Mix (720p)
+https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
+
 #EXTINF:-1 tvg-name="DirecTV Sports (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/512px-DirecTV_Sports_Latin_America_%282018%29.png" tvg-id="directvsports" group-title="Argentina",DirecTV Sports (1080p)
 http://38.183.182.166:8000/play/a125/index.m3u8
 
@@ -343,9 +346,6 @@ http://201.230.121.186:8000/play/a0fb/index.m3u8
 
 #EXTINF:-1 tvg-name="Disney Channel Latin America Panregional HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" tvg-id="disneychannellatinamericapanregional" group-title="Argentina",Disney Channel Latin America Panregional HD (1080p)
 http://201.217.246.177:8000/play/a02r/index.m3u8
-
-#EXTINF:-1 tvg-name="Disney Jr. Latin America South (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" tvg-id="disneyjrlatinamericasouth" group-title="Argentina",Disney Jr. Latin America South (480p)
-http://38.183.182.166:8000/play/a0j9/index.m3u8
 
 #EXTINF:-1 tvg-name="El Trece (1080p)" tvg-logo="https://i.imgur.com/TrgBAdA.png" tvg-id="eltrece" group-title="Argentina",El Trece (1080p)
 https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
@@ -487,9 +487,6 @@ https://amtv.tulixcdn.com/amtv3/am3abr/index.m3u8
 
 #EXTINF:-1 tvg-name="First Channel News (1080p)" tvg-logo="https://i.imgur.com/RlYJUH4.png" tvg-id="firstchannelnews" group-title="Armenia",First Channel News (1080p)
 https://amtv1-2.livestreamingcdn.com/am3abr/index.m3u8
-
-#EXTINF:-1 tvg-name="SONGTV Armenia (720p)" tvg-logo="https://i.imgur.com/nM7LbmV.png" tvg-id="songtvarmenia" group-title="Armenia",SONGTV Armenia (720p)
-https://songtv.hls.iptvdc.com/web-armenia/index.m3u8
 
 #EXTINF:-1 tvg-name="ABC" tvg-logo="https://i.imgur.com/5CVl5EF.png" tvg-id="abc" group-title="Australia",ABC
 https://c.mjh.nz/101002210221/
@@ -2387,9 +2384,6 @@ http://201.230.121.186:8000/play/a0fb/index.m3u8
 #EXTINF:-1 tvg-name="Disney Channel Latin America Panregional HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" tvg-id="disneychannellatinamericapanregional" group-title="Chile",Disney Channel Latin America Panregional HD (1080p)
 http://201.217.246.177:8000/play/a02r/index.m3u8
 
-#EXTINF:-1 tvg-name="Disney Jr. Latin America South (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" tvg-id="disneyjrlatinamericasouth" group-title="Chile",Disney Jr. Latin America South (480p)
-http://38.183.182.166:8000/play/a0j9/index.m3u8
-
 #EXTINF:-1 tvg-name="EGM Channel (480p)" tvg-logo="https://i.imgur.com/RXRKPvs.png" tvg-id="egmchannel" group-title="Chile",EGM Channel (480p)
 https://paneltv.online:1936/8186/8186/playlist.m3u8
 
@@ -2545,9 +2539,6 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
-
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
@@ -8144,6 +8135,9 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-name="News X (576p)" tvg-logo="https://i.imgur.com/Zpxsc0Q.png" tvg-id="newsx" group-title="India",News X (576p)
 https://newsxott.in/hls/newsx.m3u8
 
+#EXTINF:-1 tvg-name="NewsX World (1080p)" tvg-logo="https://newsx-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/04174249/News-X-no-bg-3-1.png" tvg-id="newsxworld" group-title="India",NewsX World (1080p)
+#EXTVLCOPT:http-referrer=https://newsxott.in/embed.html?channel=newsxworld
+
 #EXTINF:-1 tvg-name="Nickelodeon (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Nick.svg/512px-Nick.svg.png" tvg-id="nickelodeon" group-title="India",Nickelodeon (576p)
 http://87.255.35.150:18249
 
@@ -10403,9 +10397,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -10573,9 +10564,6 @@ https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 
 #EXTINF:-1 tvg-name="News24 City" tvg-logo="https://i.imgur.com/dak9AtV.png" tvg-id="news24city" group-title="Italy",News24 City
 https://dc3.telesveva.com:4433/news24.mp4
-
-#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
 
 #EXTINF:-1 tvg-name="Ofanto Tv" tvg-logo="https://i.imgur.com/UCgATWn.png" tvg-id="ofantotv" group-title="Italy",Ofanto Tv
 https://videostream.isgm.it:3276/live/tvofantolive.m3u8
@@ -11789,9 +11777,6 @@ https://stream.oursnetworktv.com/radio/luperronaocotlan/playlist.m3u8
 #EXTINF:-1 tvg-name="La Ranchera de Cuauhtémoc 89.7 FM (720p)" tvg-logo="https://i.imgur.com/jbeojin.png" tvg-id="larancheradecuauhtmoc897fm" group-title="Mexico",La Ranchera de Cuauhtémoc 89.7 FM (720p)
 https://5fa5de1a545ae.streamlock.net/8010/8010/playlist.m3u8
 
-#EXTINF:-1 tvg-name="La Voz Grupera TV (720p)" tvg-logo="https://i.imgur.com/Ku1CEeb.png" tvg-id="lavozgruperatv" group-title="Mexico",La Voz Grupera TV (720p)
-https://cloudvideo.servers10.com:8081/8128/index.m3u8
-
 #EXTINF:-1 tvg-name="Las Estrellas (1080p)" tvg-logo="https://i.imgur.com/g5ShxZ7.png" tvg-id="lasestrellas" group-title="Mexico",Las Estrellas (1080p)
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 
@@ -12668,9 +12653,6 @@ http://201.230.121.186:8000/play/a0fb/index.m3u8
 #EXTINF:-1 tvg-name="Disney Channel Latin America Panregional HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" tvg-id="disneychannellatinamericapanregional" group-title="Paraguay",Disney Channel Latin America Panregional HD (1080p)
 http://201.217.246.177:8000/play/a02r/index.m3u8
 
-#EXTINF:-1 tvg-name="Disney Jr. Latin America South (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" tvg-id="disneyjrlatinamericasouth" group-title="Paraguay",Disney Jr. Latin America South (480p)
-http://38.183.182.166:8000/play/a0j9/index.m3u8
-
 #EXTINF:-1 tvg-name="Gen (480p)" tvg-logo="https://i.imgur.com/vEMnZF4.png" tvg-id="gen" group-title="Paraguay",Gen (480p)
 https://gentvpeer.desdeparaguay.net/gentvpeer/gentv_py_baja/playlist.m3u8
 
@@ -12748,9 +12730,6 @@ http://201.230.121.186:8000/play/a0fb/index.m3u8
 
 #EXTINF:-1 tvg-name="Disney Channel Latin America Panregional HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" tvg-id="disneychannellatinamericapanregional" group-title="Peru",Disney Channel Latin America Panregional HD (1080p)
 http://201.217.246.177:8000/play/a02r/index.m3u8
-
-#EXTINF:-1 tvg-name="Disney Jr. Latin America South (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" tvg-id="disneyjrlatinamericasouth" group-title="Peru",Disney Jr. Latin America South (480p)
-http://38.183.182.166:8000/play/a0j9/index.m3u8
 
 #EXTINF:-1 tvg-name="Exitosa (720p)" tvg-logo="https://i.imgur.com/pu0BSB7.png" tvg-id="exitosa" group-title="Peru",Exitosa (720p)
 https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8
@@ -14663,11 +14642,11 @@ http://lb.streaming.sk/senzi/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="TA3 Ⓢ" tvg-logo="https://i.imgur.com/kPFBxc9.png" tvg-id="ta3" group-title="Slovakia",TA3 Ⓢ
 https://sktv.plainrock127.xyz/get.php?x=TA3
 
-#EXTINF:-1 tvg-name=":24 (1080p)" tvg-logo="https://i.imgur.com/tTCuczU.png" tvg-id="24" group-title="Slovakia",:24 (1080p)
-http://88.212.15.27/live/test_trojka_25p/playlist.m3u8
-
 #EXTINF:-1 tvg-name=":Šport (1080p)" tvg-logo="https://i.imgur.com/oAtcxNZ.png" tvg-id="port" group-title="Slovakia",:Šport (1080p)
 http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
+
+#EXTINF:-1 tvg-name=":24 (1080p)" tvg-logo="https://i.imgur.com/tTCuczU.png" tvg-id="24" group-title="Slovakia",:24 (1080p)
+http://88.212.15.27/live/test_trojka_25p/playlist.m3u8
 
 #EXTINF:-1 tvg-name="BTV (480p)" tvg-logo="https://i.imgur.com/5CZ6HHn.png" tvg-id="btv" group-title="Slovakia",BTV (480p)
 https://fs3.kabelko.sk/9011/index.m3u8?token=btv
@@ -19682,9 +19661,6 @@ http://fl2.moveonjoy.com/NFL_14/index.m3u8
 #EXTINF:-1 tvg-name="NFL Sunday Ticket 15" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket15" group-title="Usa",NFL Sunday Ticket 15
 http://fl2.moveonjoy.com/NFL_15/index.m3u8
 
-#EXTINF:-1 tvg-name="NHL" tvg-logo="https://i.imgur.com/UNZ8bef.png" tvg-id="nhl" group-title="Usa",NHL
-https://nhl-firetv.amagi.tv/playlist.m3u8
-
 #EXTINF:-1 tvg-name="NHL Center Ice 12 (720p)" tvg-logo="https://i.imgur.com/pBKZZ8z.png" tvg-id="nhlcenterice12" group-title="Usa",NHL Center Ice 12 (720p)
 http://fl1.moveonjoy.com/NHL_12/index.m3u8
 
@@ -19693,6 +19669,9 @@ http://fl1.moveonjoy.com/NHL_13/index.m3u8
 
 #EXTINF:-1 tvg-name="NHL Center Ice 14 (720p)" tvg-logo="https://i.imgur.com/pBKZZ8z.png" tvg-id="nhlcenterice14" group-title="Usa",NHL Center Ice 14 (720p)
 http://fl1.moveonjoy.com/NHL_14/index.m3u8
+
+#EXTINF:-1 tvg-name="NHL Network (720p)" tvg-logo="https://i.imgur.com/UNZ8bef.png" tvg-id="nhlnetwork" group-title="Usa",NHL Network (720p)
+https://fl1.moveonjoy.com/NHL_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-name="NHRA TV (720p)" tvg-logo="https://i.imgur.com/jZgcm4k.png" tvg-id="nhratv" group-title="Usa",NHRA TV (720p)
 https://livetv-fa.tubi.video/nhra/nh.m3u8
@@ -21161,6 +21140,9 @@ http://72.46.118.193/Newsy/index.m3u8
 #EXTINF:-1 tvg-name="WPXX-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/512px-Ion_logo.svg.png" tvg-id="wpxxdt1" group-title="Usa",WPXX-DT1
 http://104.255.88.155/ion/index.m3u8
 
+#EXTINF:-1 tvg-name="WRMD-CD1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png" tvg-id="wrmdcd1" group-title="Usa",WRMD-CD1
+http://104.238.205.28:8989/278676_.m3u8
+
 #EXTINF:-1 tvg-name="WSB-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/38/WSB-TV_2_logo.png" tvg-id="wsbdt1" group-title="Usa",WSB-DT1 (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsbbreakingnews-ono/playlist.m3u8
 
@@ -21169,6 +21151,9 @@ https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8
 
 #EXTINF:-1 tvg-name="WSMV-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="wsmvdt1" group-title="Usa",WSMV-DT1
 https://fl1.moveonjoy.com/TN_Nashville_NBC/index.m3u8
+
+#EXTINF:-1 tvg-name="WSNS-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png" tvg-id="wsnsdt1" group-title="Usa",WSNS-DT1
+http://172.93.102.112:8989/158735_.m3u8
 
 #EXTINF:-1 tvg-name="WSOC-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wsocdt1" group-title="Usa",WSOC-DT1 (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8
