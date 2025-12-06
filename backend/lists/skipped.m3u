@@ -32,9 +32,6 @@ http://94.250.2.6:7374/play/a02u/index.m3u8
 #EXTINF:-1 tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" tvg-id="combrasil" group-title="Brazil",COM Brasil
 https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" tvg-id="istv" group-title="Brazil",ISTV
-https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
-
 #EXTINF:-1 tvg-name="CBC Toronto" tvg-logo="https://i.imgur.com/H5yEbxf.png" tvg-id="cbctoronto" group-title="Canada",CBC Toronto
 https://bozztv.com/teleyupp1/teleup-ydcl2V1MVC/playlist.m3u8
 
@@ -85,9 +82,6 @@ https://bcsecurelivehls-i.akamaihd.net/hls/live/680604/1242843915001_3/master.m3
 
 #EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
 https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
-
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 
 #EXTINF:-1 tvg-name="HRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" tvg-id="hrt1" group-title="Croatia",HRT 1
 https://webtvstream.bhtelecom.ba/hls9/hrt1_1200.m3u8
@@ -374,9 +368,6 @@ http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8
 #EXTINF:-1 tvg-name="VB33" tvg-logo="https://i.imgur.com/ygDuIxU.png" tvg-id="vb33" group-title="Italy",VB33
 https://live.ipstream.it/vb33/vb33.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Video Nola" tvg-logo="https://i.imgur.com/M5z5UoD.jpg" tvg-id="videonola" group-title="Italy",Video Nola
-https://videonola.aswifi.it/videonolaabr/live.m3u8
-
 #EXTINF:-1 tvg-name="Vuemme Tv" tvg-logo="https://i.imgur.com/x5A0xU6.png" tvg-id="vuemmetv" group-title="Italy",Vuemme Tv
 https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8
 
@@ -574,6 +565,9 @@ https://thegateway.app/BizTV/BizTV-Tones/chunks.m3u8?nimblesessionid=94690008
 
 #EXTINF:-1 tvg-name="NASA TV Public" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="nasatvpublic" group-title="Usa",NASA TV Public
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+
+#EXTINF:-1 tvg-name="BBC Food" tvg-logo="https://i.imgur.com/N3xiz4m.png" tvg-id="bbcfood" group-title="Usa",BBC Food
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 
 #EXTINF:-1 tvg-name="BBC Home" tvg-logo="https://i.imgur.com/Ii8DX1x.png" tvg-id="bbchome" group-title="Usa",BBC Home
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5836fe745b600070fc743/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
