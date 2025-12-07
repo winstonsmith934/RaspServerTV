@@ -848,9 +848,6 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -3476,9 +3473,6 @@ http://sdream.info:8080/hls/livestream/index.m3u8
 #EXTINF:-1 tvg-name="Canal RTVD 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/CERTV_4_2015.png" tvg-id="canalrtvd4" group-title="Dominican_republic",Canal RTVD 4
 https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
 
-#EXTINF:-1 tvg-name="002 Radio TV (720p)" tvg-logo="https://i.imgur.com/7oNe8xj.png" tvg-id="002radiotv" group-title="Dominican_republic",002 Radio TV (720p)
-https://cdn.002radio.com:3909/live/radio002live.m3u8
-
 #EXTINF:-1 tvg-name="Acento TV" tvg-logo="https://i.imgur.com/jhiZfHf.png" tvg-id="acentotv" group-title="Dominican_republic",Acento TV
 #EXTVLCOPT:http-referrer=https://acentotv01.streamprolive.com/i/cp/hls/player.html
 
@@ -3509,8 +3503,8 @@ https://d3mhrz6vhsrmmq.cloudfront.net/index.m3u8
 #EXTINF:-1 tvg-name="Area 809 El Original (1080p)" tvg-logo="https://i.ibb.co/WkMfnGs/Channels4-profile-8.jpg" tvg-id="area809eloriginal" group-title="Dominican_republic",Area 809 El Original (1080p)
 https://vdo.voxhdnet.com:3159/stream/play.m3u8
 
-#EXTINF:-1 tvg-name="Bebeto TV (720p)" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bebeto-tv-do.png" tvg-id="bebetotv" group-title="Dominican_republic",Bebeto TV (720p)
-https://television.essastream.com:3502/live/bebetotelevisionlive.m3u8
+#EXTINF:-1 tvg-name="Bebeto TV (1080p)" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bebeto-tv-do.png" tvg-id="bebetotv" group-title="Dominican_republic",Bebeto TV (1080p)
+https://mlb.essastream.com:8081/bebetotelevision/index.m3u8
 
 #EXTINF:-1 tvg-name="Bellavisión (1080p)" tvg-logo="https://i.imgur.com/XqQ3kCs.png" tvg-id="bellavisin" group-title="Dominican_republic",Bellavisión (1080p)
 https://rdn.essastream.com:3110/live/bellavision8hdlive.m3u8
@@ -3590,6 +3584,9 @@ https://cloudflare.streamgato.us:3253/live/canalcocotvlive.m3u8
 #EXTINF:-1 tvg-name="ColimdoT TV (720p)" tvg-logo="https://i.imgur.com/ZeUgLCa.png" tvg-id="colimdottv" group-title="Dominican_republic",ColimdoT TV (720p)
 https://cnn.livestreaminggroup.info:3132/live/colimdotvlive.m3u8
 
+#EXTINF:-1 tvg-name="Coral 39 (480p)" tvg-logo="https://i.imgur.com/k6cv9A9.png" tvg-id="coral39" group-title="Dominican_republic",Coral 39 (480p)
+http://190.110.36.254:80/CORAL39/index.m3u8
+
 #EXTINF:-1 tvg-name="Cotubanama TV (1080p)" tvg-logo="https://i.imgur.com/D6gAezp.png" tvg-id="cotubanamatv" group-title="Dominican_republic",Cotubanama TV (1080p)
 https://host.streamingnation.live/p/3588/hybrid/play.m3u8
 
@@ -3644,17 +3641,11 @@ https://rdn.essastream.com:3356/live/enntivisiontvlive.m3u8
 #EXTINF:-1 tvg-name="Entelevisión (720p)" tvg-logo="https://i.imgur.com/gVtLpMD.png" tvg-id="entelevisin" group-title="Dominican_republic",Entelevisión (720p)
 https://tv.livestreaminggroup.info:3985/live/entelevisionlive.m3u8
 
-#EXTINF:-1 tvg-name="EStylo TV (720p)" tvg-logo="https://i.imgur.com/GLpeqpp.png" tvg-id="estylotv" group-title="Dominican_republic",EStylo TV (720p)
-https://vdo2.streamgato.us:3035/live/estylotvlive.m3u8
-
 #EXTINF:-1 tvg-name="Extra 86 TV (720p)" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3780-294x165-FFFFFF.jpg" tvg-id="86tv" group-title="Dominican_republic",Extra 86 TV (720p)
 https://samson.streamerr.co:8081/xtelevisionrd/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-name="Farovisión (720p)" tvg-logo="https://i.imgur.com/YtdOXWb.png" tvg-id="farovisin" group-title="Dominican_republic",Farovisión (720p)
 https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
-
-#EXTINF:-1 tvg-name="FRATA TV (720p)" tvg-logo="https://i.imgur.com/VxeTREd.png" tvg-id="fratatv" group-title="Dominican_republic",FRATA TV (720p)
-https://cdn9.streamgato.us:3602/live/fratatvlive.m3u8
 
 #EXTINF:-1 tvg-name="Galaxia TV (360p)" tvg-logo="https://grupomediosdelnorte.com/iptv/galaxia.png" tvg-id="galaxiatv" group-title="Dominican_republic",Galaxia TV (360p)
 https://streaming.grupomediosdelnorte.com:19360/galaxiateve/galaxiateve.m3u8
@@ -3667,9 +3658,6 @@ https://tv.ghtelevision.com:3018/live/ghtelevisionlive.m3u8
 
 #EXTINF:-1 tvg-name="Global TV (720p)" tvg-logo="https://i.imgur.com/1rQaROm.png" tvg-id="globaltv" group-title="Dominican_republic",Global TV (720p)
 https://stmv4.voxtvhd.com.br/globaltv/globaltv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Guacara TV (720p)" tvg-logo="https://i.imgur.com/f0gWvU9.png" tvg-id="guacaratv" group-title="Dominican_republic",Guacara TV (720p)
-https://imagenuniversaltv.net:3820/live/guacaratvlive.m3u8
 
 #EXTINF:-1 tvg-name="Haina Vision (720p)" tvg-logo="https://i.imgur.com/eoodUNJ.png" tvg-id="hainavision" group-title="Dominican_republic",Haina Vision (720p)
 https://cdn.streamingcpanel.com:3447/live/hainavisionlive.m3u8
@@ -3729,7 +3717,7 @@ https://soportedvb.click:3257/live/morrotvlive.m3u8
 https://vdo2.streamgato.us:3144/live/mund2tvlive.m3u8
 
 #EXTINF:-1 tvg-name="Musavision (1080p)" tvg-logo="https://i.imgur.com/wMse6cT.png" tvg-id="musavision" group-title="Dominican_republic",Musavision (1080p)
-https://soportedvb.click:3827/live/musavisiontvlive.m3u8
+https://cnn.hostlagarto.com/musavisiontv/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-name="Naranja TV (720p)" tvg-logo="https://i.imgur.com/g7iFN3s.png" tvg-id="naranjatv" group-title="Dominican_republic",Naranja TV (720p)
 https://cdn.streamingcpanel.com:3526/live/teleraiceslive.m3u8
@@ -3770,17 +3758,11 @@ https://ss2.domint.net:3100/rtv_str/rvision/playlist.m3u8
 #EXTINF:-1 tvg-name="Romana TV Canal 42 (480p)" tvg-logo="https://i.imgur.com/EXnsmhx.png" tvg-id="romanatvcanal42" group-title="Dominican_republic",Romana TV Canal 42 (480p)
 https://videoserver.tmcreativos.com:19360/cvmhbyrcat/cvmhbyrcat.m3u8
 
-#EXTINF:-1 tvg-name="Rumba 98.5 FM (720p)" tvg-logo="https://i.imgur.com/snbcCWi.png" tvg-id="rumba985fm" group-title="Dominican_republic",Rumba 98.5 FM (720p)
-https://ss5.domint.net:3038/rum_str/rumba985fm/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Ruta66 TV (720p)" tvg-logo="https://i.imgur.com/oY4Xfvq.png" tvg-id="ruta66tv" group-title="Dominican_republic",Ruta66 TV (720p)
 https://cnn.livestreaminggroup.info:3796/live/ruta66tvlive.m3u8
 
 #EXTINF:-1 tvg-name="Santiago TV (720p)" tvg-logo="https://i.imgur.com/10SUxGZ.png" tvg-id="santiagotv" group-title="Dominican_republic",Santiago TV (720p)
 https://vdo1.streamgato.us:3677/live/telemileniolive.m3u8
-
-#EXTINF:-1 tvg-name="Sensación TV (360p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="sensacintv" group-title="Dominican_republic",Sensación TV (360p)
-https://ss5.domint.net:3002/stv_str/sensaciontv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Siembra TV (720p)" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3226-294x165-FFFFFF.jpg" tvg-id="siembratv" group-title="Dominican_republic",Siembra TV (720p)
 https://streamunoapp.com:3809/live/siembratvlive.m3u8
@@ -3798,16 +3780,10 @@ https://175036.global.ssl.fastly.net/6217e980d5bee0e090792fdf/live_75f5635097ba1
 https://tv.livestreaminggroup.info:3295/live/super7tvlive.m3u8
 
 #EXTINF:-1 tvg-name="Tele Antillas (480p)" tvg-logo="https://i.imgur.com/G1pJZkC.png" tvg-id="teleantillas" group-title="Dominican_republic",Tele Antillas (480p)
-http://181.189.244.252:8000/play/a00x/index.m3u8
+http://200.125.170.122:8000/play/a0cg/index.m3u8
 
 #EXTINF:-1 tvg-name="Tele Dominicana TV (720p)" tvg-logo="https://dominicanchannels.com/wp-content/uploads/teledominicana.png" tvg-id="teledominicanatv" group-title="Dominican_republic",Tele Dominicana TV (720p)
 https://vdopanel.jlahozconsulting.com/p/3417/hybrid/play.m3u8
-
-#EXTINF:-1 tvg-name="Tele Oriental (720p)" tvg-logo="https://i.imgur.com/WV6lmco.png" tvg-id="teleoriental" group-title="Dominican_republic",Tele Oriental (720p)
-https://vdo1.streamgato.us:3592/live/teleorientaldigitallive.m3u8
-
-#EXTINF:-1 tvg-name="TeleCaribe TV" tvg-logo="https://i.imgur.com/zDL8mGu.png" tvg-id="telecaribetv" group-title="Dominican_republic",TeleCaribe TV
-https://cloudflare.streamgato.us:3413/live/telecaribehdlive.m3u8?DVR=
 
 #EXTINF:-1 tvg-name="Telecontacto" tvg-logo="https://i.imgur.com/TMvV9dF.png" tvg-id="telecontacto" group-title="Dominican_republic",Telecontacto
 https://streaming.grupomediosdelnorte.com:19360/telecontacto/telecontacto.m3u8
@@ -3830,14 +3806,8 @@ https://rdn.essastream.com:3230/live/telenovisa43live.m3u8
 #EXTINF:-1 tvg-name="TeleRadioNorte (720p)" tvg-logo="https://i.imgur.com/s43eFy0.png" tvg-id="teleradionorte" group-title="Dominican_republic",TeleRadioNorte (720p)
 https://angelistic.live:3785/live/tvoficiallive.m3u8
 
-#EXTINF:-1 tvg-name="Telesantodomingo (720p)" tvg-logo="https://i.imgur.com/rI8c5UM.png" tvg-id="telesantodomingo" group-title="Dominican_republic",Telesantodomingo (720p)
-https://vdopanel.jlahozconsulting.com/p/3668/live/santodomingolive.m3u8
-
-#EXTINF:-1 tvg-name="Telesistema 11" tvg-logo="https://i.imgur.com/ZzeZKCu.png" tvg-id="telesistema11" group-title="Dominican_republic",Telesistema 11
-http://181.189.244.252:8000/play/a00w/index.m3u8
-
-#EXTINF:-1 tvg-name="Telesur Canal 10 (720p)" tvg-logo="https://i.imgur.com/qsxaOFq.png" tvg-id="telesurcanal10" group-title="Dominican_republic",Telesur Canal 10 (720p)
-https://ss3.domint.net:3124/tls_str/telesur/playlist.m3u8
+#EXTINF:-1 tvg-name="Telesistema 11 (480p)" tvg-logo="https://i.imgur.com/ZzeZKCu.png" tvg-id="telesistema11" group-title="Dominican_republic",Telesistema 11 (480p)
+http://200.125.170.122:8000/play/a0ci/index.m3u8
 
 #EXTINF:-1 tvg-name="Teletur (1080p)" tvg-logo="https://i.imgur.com/Ig4gR93.png" tvg-id="teletur" group-title="Dominican_republic",Teletur (1080p)
 https://cloudflare.streamgato.us:3227/live/teleturtvlive.m3u8
@@ -3857,9 +3827,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1 tvg-name="TRA 2 (576p)" tvg-logo="https://i.imgur.com/iwJ42rD.png" tvg-id="tra2" group-title="Dominican_republic",TRA 2 (576p)
 https://live20.bozztv.com/akamaissh101/ssh101/rctvhdtra/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TRA Noticias (576p)" tvg-logo="https://i.imgur.com/M6ZhJqM.png" tvg-id="tranoticias" group-title="Dominican_republic",TRA Noticias (576p)
-https://customer-gllhkkbamkskdl1p.cloudflarestream.com/eyJhbGciOiJSUzI1NiIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIn0.eyJzdWIiOiIwYWVmZTVlYThkY2JkNTQ4NGRiYTEzMWQ3NDA4NjQ1MyIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIiwiZXhwIjoxNzY0MDYzNDgyLCJhY2Nlc3NSdWxlcyI6W3sidHlwZSI6ImlwLmdlb2lwLmNvdW50cnkiLCJhY3Rpb24iOiJibG9jayIsImNvdW50cnkiOlsiUlUiLCJCWSJdfV19.Z-0xe9cNbjjUyUxw_BS70mcWtQBk7HAYMpj1WWE43Lzt59z5J4y1Tu-Knp6btF5m_-gfyi5L2A2_kIcaLTbjv9qk--h0cf7zY6sVuqJ4_TfNepqaMU3zXVuyluJIsJ_b5GvjtMicx12JDqgK-Tja5b7y9IdrmkD8eijWN9vrqgFygGqusvhpK9gSfKuYF6kWNAxsb85Fjilpoo4QVpOBgB2SDkPCqFn8An-FK-7zRk2PlpkYOO0k13OQ5xxd-FuZmufpHNoDpluIdGr1FXuHT7nqCG6TPpOigcRcHoUS2UvY5Z5ExmQ8ZgrOzwpXSgkjwggzLshBCMM587a4JbD0ow/manifest/video.m3u8
-
 #EXTINF:-1 tvg-name="Tu Musica HD (720p)" tvg-logo="https://i.imgur.com/HnjUjog.png" tvg-id="tumusica" group-title="Dominican_republic",Tu Musica HD (720p)
 https://mlb.essastream.com:8081/tumusicahd/tracks-v1a1/mono.m3u8
 
@@ -3868,9 +3835,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-208343/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Turismo RDTV (720p)" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3800-294x165-FFFFFF.jpg" tvg-id="turismordtv" group-title="Dominican_republic",Turismo RDTV (720p)
 https://streamunoapp.com:3086/live/telemileniolive.m3u8
-
-#EXTINF:-1 tvg-name="TV 10 San Juan (720p)" tvg-logo="https://i.imgur.com/e2BXUdH.png" tvg-id="tv10sanjuan" group-title="Dominican_republic",TV 10 San Juan (720p)
-https://59d39900ebfb8.streamlock.net/TV10SanJuan/TV10SanJuan/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV Canal Sur (1080p)" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv-canal-sur-do.png" tvg-id="tvcanalsur" group-title="Dominican_republic",TV Canal Sur (1080p)
 https://streamtvs.tvcanalsur.com.do/hls/stream/index.m3u8
@@ -3892,6 +3856,9 @@ https://ss2.tvrdomi.com:1936/vozzmedianetwork/vozzmedianetwork/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TVO" tvg-logo="https://i.imgur.com/MhloaFB.png" tvg-id="tvo" group-title="Dominican_republic",TVO
 https://cdn.mycloudstream.io/hls/live/broadcast/aa5i1jfn/index.m3u8
+
+#EXTINF:-1 tvg-name="Valle Nuevo TV" tvg-logo="https://i.imgur.com/RvIkFxp.png" tvg-id="vallenuevotv" group-title="Dominican_republic",Valle Nuevo TV
+https://stmv6.voxtvhd.com.br/vallenuevotv/vallenuevotv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Vegavisión Canal 18 (720p)" tvg-logo="https://i.imgur.com/352jxnd.png" tvg-id="vegavisincanal18" group-title="Dominican_republic",Vegavisión Canal 18 (720p)
 https://rdn.essastream.com:3400/live/canal18hdlive.m3u8
@@ -10277,6 +10244,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10384,9 +10354,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -10555,9 +10522,6 @@ https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 
 #EXTINF:-1 tvg-name="News24 City" tvg-logo="https://i.imgur.com/dak9AtV.png" tvg-id="news24city" group-title="Italy",News24 City
 https://dc3.telesveva.com:4433/news24.mp4
-
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
@@ -11032,6 +10996,9 @@ https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/p
 
 #EXTINF:-1 tvg-name="Video Mediterraneo" tvg-logo="https://i.imgur.com/hJHC3uQ.png" tvg-id="videomediterraneo" group-title="Italy",Video Mediterraneo
 https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Video Nola" tvg-logo="https://i.imgur.com/M5z5UoD.jpg" tvg-id="videonola" group-title="Italy",Video Nola
+https://videonola.aswifi.it/videonolaabr/live.m3u8
 
 #EXTINF:-1 tvg-name="Video Regione Sicilia" tvg-logo="https://i.imgur.com/0szwnR3.png" tvg-id="videoregionesicilia" group-title="Italy",Video Regione Sicilia
 https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/playlist.m3u8
@@ -12752,6 +12719,9 @@ http://148.72.155.144:8000/play/a01i/index.m3u8
 #EXTINF:-1 tvg-name="L1 Max (1080p)" tvg-logo="https://i.imgur.com/2fziU2B.png" tvg-id="l1max" group-title="Peru",L1 Max (1080p)
 http://38.183.182.166:8000/play/a12t/index.m3u8
 
+#EXTINF:-1 tvg-name="La Fabulosa Radio y TV" tvg-logo="https://i.imgur.com/GjME5H0.png" tvg-id="lafabulosaradioytv" group-title="Peru",La Fabulosa Radio y TV
+https://eu1.servers10.com:8081/8004/index.m3u8
+
 #EXTINF:-1 tvg-name="La Tele" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/512px-LaTele_Per%C3%BA_2018_Logo.png" tvg-id="latele" group-title="Peru",La Tele
 https://live-evg1.tv360.bitel.com.pe/bitel/latele/playlist.m3u8
 
@@ -12813,7 +12783,7 @@ https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8
 https://servilive.com:3531/stream/play.m3u8
 
 #EXTINF:-1 tvg-name="TV Peru (1080p)" tvg-logo="https://i.imgur.com/6io0IrX.png" tvg-id="tvperu" group-title="Peru",TV Peru (1080p)
-http://38.183.182.166:8000/play/a12u/index.m3u8
+#EXTVLCOPT:http-referrer=http://tvperu.gob.pe/
 
 #EXTINF:-1 tvg-name="TV Peru Internacional (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TV_Per%C3%BA_Internacional_2019_-_copia.png/512px-TV_Per%C3%BA_Internacional_2019_-_copia.png" tvg-id="tvperuinternacional" group-title="Peru",TV Peru Internacional (720p)
 #EXTVLCOPT:http-referrer=https://www.tvperu.gob.pe/internacional
@@ -18338,6 +18308,9 @@ https://2-fss-1.themediacdn.com/pl_122/206280-3059514-1/playlist.m3u8
 #EXTINF:-1 tvg-name="Costa Mesa's Municipal Access Channel CMTV 3 (720p)" tvg-logo="https://i.imgur.com/73LKwAK.png" tvg-id="costamesasmunicipalaccesschannelcmtv3" group-title="Usa",Costa Mesa's Municipal Access Channel CMTV 3 (720p)
 https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/costamesa/G0075_002/playlist.m3u8
 
+#EXTINF:-1 tvg-name="COStv" tvg-logo="https://i.imgur.com/IVqjCRE.png" tvg-id="costv" group-title="Usa",COStv
+https://irctv.cablecast.tv/live/stream-1/live.m3u8
+
 #EXTINF:-1 tvg-name="County News Center (CNC TV) (San Diego CA) (720p)" tvg-logo="https://i.imgur.com/6pqmyPl.png" tvg-id="countynewscenter" group-title="Usa",County News Center (CNC TV) (San Diego CA) (720p)
 https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/sdcounty/G0283_012/playlist.m3u8
 
@@ -20129,6 +20102,9 @@ https://d2qa45tniogkj6.cloudfront.net/out/v1/30f129d3a8a8482b9efe5092cf46e601/in
 #EXTINF:-1 tvg-name="Pursuit UP (720p)" tvg-logo="https://i.imgur.com/5Vzwqts.png" tvg-id="pursuitup" group-title="Usa",Pursuit UP (720p)
 https://linear-205.frequency.stream/dist/glewedtv/205/hls/master/playlist.m3u8
 
+#EXTINF:-1 tvg-name="PVS TV" tvg-logo="https://i.imgur.com/7YCi514.png" tvg-id="pvstv" group-title="Usa",PVS TV
+https://2-fss-1.streamhoster.com/pl_122/202676-1357858-1/playlist.m3u8
+
 #EXTINF:-1 tvg-name="QVC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/QVC_logo_2019.svg/512px-QVC_logo_2019.svg.png" tvg-id="qvc" group-title="Usa",QVC
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8
 
@@ -20143,6 +20119,12 @@ https://livetv-fa.tubi.video/racing-america/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Radio Télé Prince (480p)" tvg-logo="https://i.ibb.co/BCr6LVN/radio-tele-prince-fm-logo.png" tvg-id="radiotlprince" group-title="Usa",Radio Télé Prince (480p)
 https://59d39900ebfb8.streamlock.net/radioteleprince/radioteleprince/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Radio Tele Puissance" tvg-logo="https://i.imgur.com/ZLPwJug.png" tvg-id="radiotelepuissance" group-title="Usa",Radio Tele Puissance
+https://video1.getstreamhosting.com:1936/8560/8560/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Radio Tele Sentinel" tvg-logo="https://i.imgur.com/hy3BJxj.png" tvg-id="radiotelesentinel" group-title="Usa",Radio Tele Sentinel
+https://59d39900ebfb8.streamlock.net/radiotelesentinel/radiotelesentinel/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Radio y Televisión Martí (720p)" tvg-logo="https://i.imgur.com/J2ZMa4g.png" tvg-id="radioytelevisinmart" group-title="Usa",Radio y Televisión Martí (720p)
 https://ocb-ingest.akamaized.net/hls/live/2037032/tvmc01/playlist.m3u8
