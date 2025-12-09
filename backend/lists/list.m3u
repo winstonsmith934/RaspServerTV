@@ -2534,9 +2534,6 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
-
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
 
@@ -4004,6 +4001,9 @@ https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8
 #EXTINF:-1 tvg-name="MTV Sub" tvg-logo="https://i.imgur.com/VRCuxQt.png" tvg-id="mtvsub" group-title="Finland",MTV Sub
 https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
+https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Kutonen" tvg-logo="https://i.imgur.com/4giVyxb.png" tvg-id="kutonen" group-title="Finland",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
 
@@ -4027,6 +4027,9 @@ https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="National Geographic Finland Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-id="nationalgeographicfinland" group-title="Finland",National Geographic Finland Ⓖ
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Viaplay TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Viaplay_TV_logo.svg/640px-Viaplay_TV_logo.svg.png" tvg-id="viaplaytv" group-title="Finland",Viaplay TV
+https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="OnniTV" tvg-logo="https://i.imgur.com/HzILf2H.png" tvg-id="onnitv" group-title="Finland",OnniTV
 https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8?organizationId=83459409&suiteItemId=83459780
@@ -10259,9 +10262,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10585,9 +10585,6 @@ https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PrimaFREE" tvg-logo="https://i.imgur.com/YrSSmOL.png" tvg-id="primafree" group-title="Italy",PrimaFREE
 https://5f22d76e220e1.streamlock.net/primafree/primafree/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Primantenna Torino" tvg-logo="https://i.imgur.com/sqEcPFs.gif" tvg-id="primantennatorino" group-title="Italy",Primantenna Torino
-https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Primocanale" tvg-logo="https://i.imgur.com/xWF1A1U.png" tvg-id="primocanale" group-title="Italy",Primocanale
 https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
@@ -14706,30 +14703,6 @@ https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
 https://ap02.iqplay.tv:8082/iqb8002/somc131/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Somali National TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/SNTV_REBRANDED_LOGO.png" tvg-id="somalinationaltv" group-title="Somalia",Somali National TV Ⓢ
-https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Arlaadi TV" tvg-logo="https://i.imgur.com/2tlFMXF.png" tvg-id="arlaaditv" group-title="Somalia",Arlaadi TV
-https://ap02.iqplay.tv:8082/iqb8002/alr114iapp/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Bulsho TV" tvg-logo="https://i.imgur.com/7qo4rb7.png" tvg-id="bulshotv" group-title="Somalia",Bulsho TV
-https://cdn.mediavisionuk.com:9000/bulshotv/index.m3u8
-
-#EXTINF:-1 tvg-name="Hirshabelle TV (576p)" tvg-logo="https://i.imgur.com/Kk0A2o7.png" tvg-id="hirshabelletv" group-title="Somalia",Hirshabelle TV (576p)
-http://ap02.iqplay.tv:8081/iqb8002/h1rshbe1iptv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="MM Somali TV (720p)" tvg-logo="https://i.imgur.com/k8nz8Q2.jpg" tvg-id="mmsomalitv" group-title="Somalia",MM Somali TV (720p)
-https://cdn.mediavisionuk.com:9000/MMTV/index.m3u8
-
-#EXTINF:-1 tvg-name="Puntland TV (720p)" tvg-logo="https://i.imgur.com/C8EvQUo.png" tvg-id="puntlandtv" group-title="Somalia",Puntland TV (720p)
-http://cdn.mediavisionuae.com:1935/live/putlandtv2.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Saab TV (576p)" tvg-logo="https://i.imgur.com/JEC1J89.png" tvg-id="saabtv" group-title="Somalia",Saab TV (576p)
-https://ap02.iqplay.tv:8082/iqb8002/s03btv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="SNTV Daljir (576p)" tvg-logo="https://i.imgur.com/zmVKI26.jpg" tvg-id="sntvdaljir" group-title="Somalia",SNTV Daljir (576p)
-https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Somali National TV (576p)" tvg-logo="https://i.imgur.com/2y8gv7V.png" tvg-id="somalinationaltv" group-title="Somalia",Somali National TV (576p)
 https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8
 
 #EXTINF:-1 tvg-name="La 1" tvg-logo="https://i.imgur.com/NbesiPn.png" tvg-id="la1" group-title="Spain",La 1
