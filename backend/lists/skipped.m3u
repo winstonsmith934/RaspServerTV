@@ -20,6 +20,9 @@ http://85.132.81.184:8080/arb/live/index.m3u8
 #EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/640px-Baku_TV_%282018%29.png" tvg-id="bakutv" group-title="Azerbaijan",Baku TV
 https://rtmp.baku.tv/live/bakutv_720p.m3u8
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
 http://rtmp.one.by:1200
 
@@ -77,8 +80,8 @@ https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1
 #EXTINF:-1 tvg-name="CPAC (FR)" tvg-logo="https://i.imgur.com/AbdFD0S.png" tvg-id="cpac" group-title="Canada",CPAC (FR)
 https://bcsecurelivehls-i.akamaihd.net/hls/live/680604/1242843915001_3/master.m3u8
 
-#EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
-https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
+#EXTINF:-1 tvg-name="TV Chile Ⓖ" tvg-logo="https://i.imgur.com/yCL888l.png" tvg-id="tvchile" group-title="Chile",TV Chile Ⓖ
+https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
 https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
@@ -91,6 +94,12 @@ https://webtvstream.bhtelecom.ba/hls9/hrt2_1200.m3u8
 
 #EXTINF:-1 tvg-name="HRT 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/HRT3_Logo_aktuell.png" tvg-id="hrt3" group-title="Croatia",HRT 3
 https://webtvstream.bhtelecom.ba/hls9/hrt3_1200.m3u8
+
+#EXTINF:-1 tvg-name="Televizija Slavonije i Baranje (STV)" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/0/04/STV.PNG" tvg-id="televizijaslavonijeibaranje" group-title="Croatia",Televizija Slavonije i Baranje (STV)
+http://89.201.163.244:8080/hls/hdmi.m3u8
+
+#EXTINF:-1 tvg-name="TV Jadran" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/9a/Tv_jadran_logo.png" tvg-id="tvjadran" group-title="Croatia",TV Jadran
+https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
 
 #EXTINF:-1 tvg-name="RIK 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Logo_RIK_1_2017.svg/640px-Logo_RIK_1_2017.svg.png" tvg-id="rik1" group-title="Cyprus",RIK 1 Ⓢ
 http://l6.cloudskep.com/tvb6/rik1-1/mpeg.2ts
@@ -167,9 +176,6 @@ https://c201-node61-cdn.connectmedia.hu/110102/7184521041cf54cee9c6548e8d0ba377/
 #EXTINF:-1 tvg-name="M4 Sport" tvg-logo="https://nb1.hu/uploads/news/3/31023.jpg" tvg-id="m4sport" group-title="Hungary",M4 Sport
 https://c401-node62-cdn.connectmedia.hu/110110/5dd8dc6d853c9b7f94db85646ed44326/641177e3/index.m3u8
 
-#EXTINF:-1 tvg-name="DD India Ⓨ" tvg-logo="https://i.imgur.com/45uptR8.png" tvg-id="ddindia" group-title="India",DD India Ⓨ
-https://www.youtube.com/DDIndia/live
-
 #EXTINF:-1 tvg-name="Al-Hurra Iraq" tvg-logo="https://i.imgur.com/mXBZEQP.png" tvg-id="alhurrairaq" group-title="Iraq",Al-Hurra Iraq
 https://mbnvvideoingest-i.akamaihd.net/hls/live/1004674/MBNV_ALHURRA_IRAQ/playlist.m3u8
 
@@ -227,8 +233,14 @@ https://5a1178b42cc03.streamlock.net/goldsat/goldsat/playlist.m3u8
 #EXTINF:-1 tvg-name="Alma TV" tvg-logo="https://i.imgur.com/Y8JiDwN.png" tvg-id="almatv" group-title="Italy",Alma TV
 https://5a1178b42cc03.streamlock.net/alma/alma/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="abctv" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
+
+#EXTINF:-1 tvg-name="AB Channel" tvg-logo="https://i.imgur.com/k8EPLB9.png" tvg-id="abchannel" group-title="Italy",AB Channel
+https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="basilicata1tv" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
@@ -250,6 +262,9 @@ https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Idea Plus" tvg-logo="https://i.imgur.com/2edmxYF.png" tvg-id="idea" group-title="Italy",Idea Plus
 https://rst.saiuzwebnetwork.it:19360/teleidea/teleidea.m3u8
+
+#EXTINF:-1 tvg-name="Italia 7" tvg-logo="https://i.imgur.com/YBXkY4w.png" tvg-id="italia7" group-title="Italy",Italia 7
+https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Lazio Tv" tvg-logo="https://i.imgur.com/DAj5Uwb.png" tvg-id="laziotv" group-title="Italy",Lazio Tv
 https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8
@@ -376,6 +391,9 @@ https://live.ipstream.it/vb33/vb33.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Video Nola" tvg-logo="https://i.imgur.com/M5z5UoD.jpg" tvg-id="videonola" group-title="Italy",Video Nola
 https://videonola.aswifi.it/videonolaabr/live.m3u8
+
+#EXTINF:-1 tvg-name="Video Touring Tv" tvg-logo="https://i.imgur.com/E2Feao5.jpg" tvg-id="videotouringtv" group-title="Italy",Video Touring Tv
+https://streamingvideo.auranex.cloud/memfs/70baacad-47c6-41a6-aee0-86530c31e080.m3u8
 
 #EXTINF:-1 tvg-name="Vuemme Tv" tvg-logo="https://i.imgur.com/x5A0xU6.png" tvg-id="vuemmetv" group-title="Italy",Vuemme Tv
 https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8
