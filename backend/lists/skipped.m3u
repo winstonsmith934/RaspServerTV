@@ -80,8 +80,17 @@ https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1
 #EXTINF:-1 tvg-name="CPAC (FR)" tvg-logo="https://i.imgur.com/AbdFD0S.png" tvg-id="cpac" group-title="Canada",CPAC (FR)
 https://bcsecurelivehls-i.akamaihd.net/hls/live/680604/1242843915001_3/master.m3u8
 
+#EXTINF:-1 tvg-name="TVN Ⓖ" tvg-logo="https://i.imgur.com/WoN1dai.png" tvg-id="tvn" group-title="Chile",TVN Ⓖ
+https://sktv-forwarders.7m.pl/get.php?x=TVN
+
+#EXTINF:-1 tvg-name="Canal 13" tvg-logo="https://i.imgur.com/JIo1HBs.png" tvg-id="canal13" group-title="Chile",Canal 13
+https://sktv-forwarders.7m.pl/get.php?x=Canal13
+
 #EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
 https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
+
+#EXTINF:-1 tvg-name="Chilevisión Ⓖ" tvg-logo="https://i.imgur.com/2Pu8yXf.png" tvg-id="chilevisin" group-title="Chile",Chilevisión Ⓖ
+https://sktv-forwarders.7m.pl/get.php?x=Chilevision
 
 #EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
 https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
@@ -124,6 +133,9 @@ https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Rustavi 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/Rustavi_2_logo.png" tvg-id="rustavi2" group-title="Georgia",Rustavi 2
+https://sktv-forwarders.7m.pl/get.php?x=Rustavi2
 
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
@@ -248,9 +260,6 @@ https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="calabriatv" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
 
@@ -295,6 +304,9 @@ https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Pop Tv" tvg-logo="https://i.imgur.com/TeolCu9.png" tvg-id="poptv" group-title="Italy",Pop Tv
 https://stream1.aswifi.it/poptelevision/live/index.m3u8
+
+#EXTINF:-1 tvg-name="Radio Monte Kronio Tv (R.M.K.)" tvg-logo="https://i.imgur.com/t0I2Shi.jpg" tvg-id="radiomontekroniotv" group-title="Italy",Radio Monte Kronio Tv (R.M.K.)
+https://648026e87a75e.streamlock.net/rmktv/rmktv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Radio Roma" tvg-logo="https://i.imgur.com/RKvfStm.png" tvg-id="radioroma" group-title="Italy",Radio Roma
 https://585b674743bbb.streamlock.net/9044/9044/playlist.m3u8
@@ -440,6 +452,9 @@ https://5cefcbf58ba2e.streamlock.net:543/tltvweb/latintv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Porto Canal Ⓢ" tvg-logo="https://i.imgur.com/wsyvP2H.png" tvg-id="portocanal" group-title="Portugal",Porto Canal Ⓢ
 https://streamer-a01.videos.sapo.pt/live/portocanal/playlist.m3u8
 
+#EXTINF:-1 tvg-name="CNN Portugal" tvg-logo="https://i.imgur.com/NYH39xs.png" tvg-id="cnnportugal" group-title="Portugal",CNN Portugal
+https://sktv-forwarders.7m.pl/get.php?x=CNN_Portugal
+
 #EXTINF:-1 tvg-name="Al Araby TV" tvg-logo="https://i.imgur.com/YMqWEe4.png" tvg-id="alarabytv" group-title="Qatar",Al Araby TV
 https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/chunklist.m3u8
 
@@ -505,6 +520,24 @@ https://ed2.cdn.svt.se/ed7/d1/c/se/svtb/manifest.mpd?defaultSubLang=1
 
 #EXTINF:-1 tvg-name="Kunskapskanalen Ⓖ" tvg-logo="https://i.imgur.com/9YBxoGc.png" tvg-id="kunskapskanalen" group-title="Sweden",Kunskapskanalen Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
+
+#EXTINF:-1 tvg-name="CNC3" tvg-logo="https://i.imgur.com/1E73l2j.png" tvg-id="cnc3" group-title="Trinidad",CNC3
+https://sktv-forwarders.7m.pl/get.php?x=CNC3
+
+#EXTINF:-1 tvg-name="gayelle" tvg-logo="https://i.imgur.com/GhWdqLq.jpg" tvg-id="gayelle" group-title="Trinidad",gayelle
+https://sktv-forwarders.7m.pl/get.php?x=gayelle
+
+#EXTINF:-1 tvg-name="Synergy TV" tvg-logo="https://i.imgur.com/ugAy0UG.jpg" tvg-id="synergytv" group-title="Trinidad",Synergy TV
+https://sktv-forwarders.7m.pl/get.php?x=Synergy_TV
+
+#EXTINF:-1 tvg-name="TTT" tvg-logo="https://i.imgur.com/rxf4x8J.jpg" tvg-id="ttt" group-title="Trinidad",TTT
+https://sktv-forwarders.7m.pl/get.php?x=TTT
+
+#EXTINF:-1 tvg-name="IBN" tvg-logo="https://i.imgur.com/hSJGncF.jpg" tvg-id="ibn" group-title="Trinidad",IBN
+https://sktv-forwarders.7m.pl/get.php?x=IBN
+
+#EXTINF:-1 tvg-name="Trinity TV" tvg-logo="https://i.imgur.com/prgVynR.jpg" tvg-id="trinitytv" group-title="Trinidad",Trinity TV
+https://sktv-forwarders.7m.pl/get.php?x=Trinity_TV
 
 #EXTINF:-1 tvg-name="Ideal World" tvg-logo="https://i.imgur.com/su6GH7i.png" tvg-id="idealworld" group-title="Uk",Ideal World
 https://ythls.armelin.one/channel/UCJbgGTpBWuC87VFIKTTO4RQ.m3u8
