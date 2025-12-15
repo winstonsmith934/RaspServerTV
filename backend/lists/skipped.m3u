@@ -32,6 +32,9 @@ https://webtvstream.bhtelecom.ba/hls15/bhrtportal.m3u8
 #EXTINF:-1 tvg-name="Federalna televizija (FTV) Ⓢ" tvg-logo="https://i.imgur.com/Jpvs4u3.png" tvg-id="federalnatelevizija" group-title="Bosnia_and_herzegovina",Federalna televizija (FTV) Ⓢ
 http://94.250.2.6:7374/play/a02s/index.m3u8
 
+#EXTINF:-1 tvg-name="SuperTV" tvg-logo="https://i.imgur.com/XYWgd3E.png" tvg-id="supertv" group-title="Bosnia_and_herzegovina",SuperTV
+https://mirtv.club/live/mirtv/index.m3u8
+
 #EXTINF:-1 tvg-name="TV BPK Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/Logo_of_RTV_BPK_Gora%C5%BEde.jpg" tvg-id="tvbpk" group-title="Bosnia_and_herzegovina",TV BPK Ⓢ
 http://94.250.2.6:7374/play/a02u/index.m3u8
 
@@ -85,9 +88,6 @@ https://bcsecurelivehls-i.akamaihd.net/hls/live/680604/1242843915001_3/master.m3
 
 #EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
 https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
-
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 
 #EXTINF:-1 tvg-name="HRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" tvg-id="hrt1" group-title="Croatia",HRT 1
 https://webtvstream.bhtelecom.ba/hls9/hrt1_1200.m3u8
@@ -242,6 +242,9 @@ https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="donnashoppingtv" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="FM Tv Marche" tvg-logo="https://i.imgur.com/yY01NhL.jpg" tvg-id="fmtvmarche" group-title="Italy",FM Tv Marche
+https://bbtv.intvstream.net:3988/hybrid/play.m3u8
+
 #EXTINF:-1 tvg-name="Fascino Tv" tvg-logo="https://i.imgur.com/4XYYY5B.png" tvg-id="fascinotv" group-title="Italy",Fascino Tv
 https://5f22d76e220e1.streamlock.net/canale157/canale157/playlist.m3u8
 
@@ -286,9 +289,6 @@ https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Pop Tv" tvg-logo="https://i.imgur.com/TeolCu9.png" tvg-id="poptv" group-title="Italy",Pop Tv
 https://stream1.aswifi.it/poptelevision/live/index.m3u8
-
-#EXTINF:-1 tvg-name="Radio Radiosa Tv" tvg-logo="https://i.imgur.com/8kqyxvz.png" tvg-id="radioradiosatv" group-title="Italy",Radio Radiosa Tv
-https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Radio Roma" tvg-logo="https://i.imgur.com/RKvfStm.png" tvg-id="radioroma" group-title="Italy",Radio Roma
 https://585b674743bbb.streamlock.net/9044/9044/playlist.m3u8
