@@ -845,9 +845,6 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -3463,9 +3460,6 @@ https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
 
 #EXTINF:-1 tvg-name="TVMarineret (1080p)" tvg-logo="https://i.imgur.com/r1Caske.jpg" tvg-id="tvmarineret" group-title="Denmark",TVMarineret (1080p)
 http://sdream.info:8080/hls/livestream/index.m3u8
-
-#EXTINF:-1 tvg-name="Canal RTVD 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/CERTV_4_2015.png" tvg-id="canalrtvd4" group-title="Dominican_republic",Canal RTVD 4
-https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Acento TV" tvg-logo="https://i.imgur.com/jhiZfHf.png" tvg-id="acentotv" group-title="Dominican_republic",Acento TV
 #EXTVLCOPT:http-referrer=https://acentotv01.streamprolive.com/i/cp/hls/player.html
@@ -10499,9 +10493,6 @@ https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5.m3u8
 #EXTINF:-1 tvg-name="GarganoTv" tvg-logo="https://i.imgur.com/OlJohKK.png" tvg-id="garganotv" group-title="Italy",GarganoTv
 https://cdn80-ger.azotosolutions.com:8443/cdnedge3/smil:live3.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Giornale Radio Tv" tvg-logo="https://i.imgur.com/TMtvCLL.jpg" tvg-id="giornaleradiotv" group-title="Italy",Giornale Radio Tv
-https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Giovanni Paolo Tv" tvg-logo="https://i.imgur.com/GH5eJE6.png" tvg-id="giovannipaolotv" group-title="Italy",Giovanni Paolo Tv
 https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8
 
@@ -10691,6 +10682,9 @@ https://tvd-piter.fluid.stream/RadioPiterpanTV/livestream/chunklist_w1866496033.
 #EXTINF:-1 tvg-name="Radio Radio Tv" tvg-logo="https://i.imgur.com/iKuRg2b.png" tvg-id="radioradiotv" group-title="Italy",Radio Radio Tv
 https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_22f84390fe1411ed919df3da85a483cc/rewind-14400.m3u8
 
+#EXTINF:-1 tvg-name="Radio Radiosa Tv" tvg-logo="https://i.imgur.com/8kqyxvz.png" tvg-id="radioradiosatv" group-title="Italy",Radio Radiosa Tv
+https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Reggio Tv" tvg-logo="https://i.imgur.com/merrg2C.png" tvg-id="reggiotv" group-title="Italy",Reggio Tv
 https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8
 
@@ -10792,9 +10786,6 @@ http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
 
 #EXTINF:-1 tvg-name="TRC Santeramo" tvg-logo="https://i.imgur.com/VbYdS8P.jpg" tvg-id="trcsanteramo" group-title="Italy",TRC Santeramo
 https://stream7.livinlive.it/trc/trc/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TRL Tele Radio Leo" tvg-logo="https://i.imgur.com/qAagkJT.png" tvg-id="trlteleradioleo" group-title="Italy",TRL Tele Radio Leo
-https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TSD Tv Arezzo(Tele San Domenico)" tvg-logo="https://i.imgur.com/WQ8eQXc.png" tvg-id="tsdtvarezzo" group-title="Italy",TSD Tv Arezzo(Tele San Domenico)
 https://stream.mariatvcdn.com/tsd/7c59373bfdb38201b9215ff86f0ce6af.sdp/playlist.m3u8
