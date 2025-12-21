@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Kanali 7 Ⓢ" tvg-logo="https://i.imgur.com/rL2v9pM.png" tvg-id="kanali7" group-title="Albania",Kanali 7 Ⓢ
+https://fe.tring.al/delta/105/out/u/1200_1.m3u8
+
 #EXTINF:-1 tvg-name="A2 CNN Albania" tvg-logo="https://i.imgur.com/TgO3Lzi.png" tvg-id="a2cnnalbania" group-title="Albania",A2 CNN Albania
 https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8
 
@@ -3146,23 +3149,11 @@ https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8
 #EXTINF:-1 tvg-name="HRT 1 (720p)" tvg-logo="https://i.imgur.com/lDSctzX.png" tvg-id="hrt1" group-title="Croatia",HRT 1 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 
-#EXTINF:-1 tvg-name="HRT 1 HD (1080p)" tvg-logo="https://i.imgur.com/lDSctzX.png" tvg-id="hrt1" group-title="Croatia",HRT 1 HD (1080p)
-https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT1/default/index.mpd
-
 #EXTINF:-1 tvg-name="HRT 2 (720p)" tvg-logo="https://i.imgur.com/yyePcl1.png" tvg-id="hrt2" group-title="Croatia",HRT 2 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 
-#EXTINF:-1 tvg-name="HRT 2 HD (1080p)" tvg-logo="https://i.imgur.com/yyePcl1.png" tvg-id="hrt2" group-title="Croatia",HRT 2 HD (1080p)
-https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT2/default/index.mpd
-
 #EXTINF:-1 tvg-name="HRT 3 (720p)" tvg-logo="https://i.imgur.com/4OrOJRx.png" tvg-id="hrt3" group-title="Croatia",HRT 3 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-
-#EXTINF:-1 tvg-name="HRT 3 HD (720p)" tvg-logo="https://i.imgur.com/4OrOJRx.png" tvg-id="hrt3" group-title="Croatia",HRT 3 HD (720p)
-https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT3/default/index.mpd
-
-#EXTINF:-1 tvg-name="HRT 4 HD (720p)" tvg-logo="https://i.imgur.com/VcNrY0m.png" tvg-id="hrt4" group-title="Croatia",HRT 4 HD (720p)
-https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT4/default/index.mpd
 
 #EXTINF:-1 tvg-name="Klape i Tambure TV (1080p)" tvg-logo="https://i.imgur.com/sKj3dgc.png" tvg-id="klapeitamburetv" group-title="Croatia",Klape i Tambure TV (1080p)
 https://stream.cmctv.hr:49998/kit/live.m3u8
@@ -7529,17 +7520,11 @@ http://103.182.170.32:8888/play/a01o
 #EXTINF:-1 tvg-name="Colors Gujarati (1080p)" tvg-logo="https://i.imgur.com/ZWMyR3j.png" tvg-id="colorsgujarati" group-title="India",Colors Gujarati (1080p)
 http://87.255.35.150:18230
 
-#EXTINF:-1 tvg-name="Colors Infinity (1080p)" tvg-logo="https://i.imgur.com/a5uES9j.png" tvg-id="colorsinfinity" group-title="India",Colors Infinity (1080p)
-http://87.255.35.150:18838
-
 #EXTINF:-1 tvg-name="Colors Kannada (1080p)" tvg-logo="https://i.imgur.com/CFUn43Z.png" tvg-id="colorskannada" group-title="India",Colors Kannada (1080p)
 http://87.255.35.150:18219
 
 #EXTINF:-1 tvg-name="Colors Kannada Cinema (576p)" tvg-logo="https://i.imgur.com/gNbA3NO.png" tvg-id="colorskannadacinema" group-title="India",Colors Kannada Cinema (576p)
 http://87.255.35.150:18940
-
-#EXTINF:-1 tvg-name="Colors Marathi (1080p)" tvg-logo="https://i.imgur.com/q43P31H.png" tvg-id="colorsmarathi" group-title="India",Colors Marathi (1080p)
-http://87.255.35.150:18233
 
 #EXTINF:-1 tvg-name="Colors Rishtey Asia (576p)" tvg-logo="https://i.imgur.com/YKWfMZo.png" tvg-id="colorsrishteyasia" group-title="India",Colors Rishtey Asia (576p)
 http://87.255.35.150:18886
@@ -8186,9 +8171,6 @@ https://cdn-1.pishow.tv/live/965/master.m3u8
 #EXTINF:-1 tvg-name="NK TV 24x7 (1080p)" tvg-logo="https://i.imgur.com/xMJ2bv9.png" tvg-id="nktv24x7" group-title="India",NK TV 24x7 (1080p)
 https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8
 
-#EXTINF:-1 tvg-name="Northeast Live (720p)" tvg-logo="https://i.imgur.com/0Zpwy1Y.png" tvg-id="northeastlive" group-title="India",Northeast Live (720p)
-#EXTVLCOPT:http-referrer=https://server.thelegitpro.in/northeastlive/northeastlive/embed.html
-
 #EXTINF:-1 tvg-name="NTC TV (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/shows/2025-11-21/2511213393009.jpg" tvg-id="ntctv" group-title="India",NTC TV (720p)
 https://galaxyott.live/hls/ntv.m3u8
 
@@ -8338,6 +8320,9 @@ https://vg-republictvlive.akamaized.net/ptnr-republicweb/title-Republic_TV_Kanna
 
 #EXTINF:-1 tvg-name="Rongeen TV (720p)" tvg-logo="https://i.imgur.com/9gImDY5.png" tvg-id="rongeentv" group-title="India",Rongeen TV (720p)
 https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
+
+#EXTINF:-1 tvg-name="RT India (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg" tvg-id="rtindia" group-title="India",RT India (1080p)
+https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rupasi Bangla (720p)" tvg-logo="https://i.imgur.com/ev0Vazj.png" tvg-id="rupasibangla" group-title="India",Rupasi Bangla (720p)
 https://cdn-4.pishow.tv/live/1039/master.m3u8
@@ -10313,9 +10298,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10420,9 +10402,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -10976,9 +10955,6 @@ https://streaming.softwarecreation.it/TR118/TR118/playlist.m3u8
 #EXTINF:-1 tvg-name="TeleRegione Color" tvg-logo="https://i.imgur.com/vi5Nf3S.png" tvg-id="teleregionecolor" group-title="Italy",TeleRegione Color
 https://live.antennasudwebtv.it:9443/hls/vodtele.m3u8
 
-#EXTINF:-1 tvg-name="TeleRent 7Gold" tvg-logo="https://i.imgur.com/YZadq0M.png" tvg-id="telerent7gold" group-title="Italy",TeleRent 7Gold
-https://router.xdevel.com/video0s86-21/stream/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Telereporter" tvg-logo="https://i.imgur.com/WIo6SPc.png" tvg-id="telereporter" group-title="Italy",Telereporter
 https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8
 
@@ -11059,6 +11035,9 @@ https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/p
 
 #EXTINF:-1 tvg-name="Video Mediterraneo" tvg-logo="https://i.imgur.com/hJHC3uQ.png" tvg-id="videomediterraneo" group-title="Italy",Video Mediterraneo
 https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Video Nola" tvg-logo="https://i.imgur.com/M5z5UoD.jpg" tvg-id="videonola" group-title="Italy",Video Nola
+https://videonola.aswifi.it/videonolaabr/live.m3u8
 
 #EXTINF:-1 tvg-name="Video Regione Sicilia" tvg-logo="https://i.imgur.com/0szwnR3.png" tvg-id="videoregionesicilia" group-title="Italy",Video Regione Sicilia
 https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/playlist.m3u8
@@ -12631,9 +12610,6 @@ https://dysmuyxh5vstv.cloudfront.net/hls/atv2.m3u8
 
 #EXTINF:-1 tvg-name="Karibeña TV" tvg-logo="https://i.pinimg.com/280x280_RS/11/85/b6/1185b667fe3f80d7072359d7ce7ce52d.jpg" tvg-id="karibeatv" group-title="Peru",Karibeña TV
 https://cu.onliv3.com/livevd/user1.m3u8
-
-#EXTINF:-1 tvg-name="Angienet TV" tvg-logo="https://i.imgur.com/GCCriH4.png" tvg-id="angienettv" group-title="Peru",Angienet TV
-https://servilive.com:3624/stream/play.m3u8
 
 #EXTINF:-1 tvg-name="Antena SUR" tvg-logo="https://i.imgur.com/4aHrD2l.jpeg" tvg-id="antenasur" group-title="Peru",Antena SUR
 https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8
@@ -18944,9 +18920,6 @@ https://amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv/playlist/amg0
 #EXTINF:-1 tvg-name="Just For Laughs Gags (720p)" tvg-logo="https://i.imgur.com/HjVEVMJ.png" tvg-id="justforlaughsgags" group-title="Usa",Just For Laughs Gags (720p)
 https://distributionsjustepourrire-justforlaughsgags-1-be.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Kajou TV" tvg-logo="https://i.imgur.com/2XzghdT.png" tvg-id="kajoutv" group-title="Usa",Kajou TV
-https://dvrfl03.bozztv.com/hdirect/hdirect-kajoutv/index.m3u8
-
 #EXTINF:-1 tvg-name="Kartoon Channel (1080p)" tvg-logo="https://i.imgur.com/1luzP3T.png" tvg-id="kartoonchannel" group-title="Usa",Kartoon Channel (1080p)
 https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
 
@@ -19610,50 +19583,8 @@ https://fl1.moveonjoy.com/NFL_NETWORK/index.m3u8
 #EXTINF:-1 tvg-name="NFL RedZone" tvg-logo="https://i.imgur.com/5lPqQj5.png" tvg-id="nflredzone" group-title="Usa",NFL RedZone
 https://fl1.moveonjoy.com/NFL_RedZone/index.m3u8
 
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 1" tvg-logo="https://i.imgur.com/OhHxZrE.png" tvg-id="nflsundayticket1" group-title="Usa",NFL Sunday Ticket 1
-http://fl2.moveonjoy.com/NFL_1/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 2" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket2" group-title="Usa",NFL Sunday Ticket 2
-http://fl2.moveonjoy.com/NFL_2/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 3" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket3" group-title="Usa",NFL Sunday Ticket 3
-http://fl2.moveonjoy.com/NFL_3/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 4" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket4" group-title="Usa",NFL Sunday Ticket 4
-http://fl2.moveonjoy.com/NFL_4/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 5" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket5" group-title="Usa",NFL Sunday Ticket 5
-http://fl2.moveonjoy.com/NFL_5/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 6" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket6" group-title="Usa",NFL Sunday Ticket 6
-http://fl2.moveonjoy.com/NFL_6/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 7" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket7" group-title="Usa",NFL Sunday Ticket 7
-http://fl2.moveonjoy.com/NFL_7/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 8" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket8" group-title="Usa",NFL Sunday Ticket 8
-http://fl2.moveonjoy.com/NFL_8/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 9" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket9" group-title="Usa",NFL Sunday Ticket 9
-http://fl2.moveonjoy.com/NFL_9/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 10" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket10" group-title="Usa",NFL Sunday Ticket 10
-http://fl2.moveonjoy.com/NFL_10/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 11" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket11" group-title="Usa",NFL Sunday Ticket 11
-http://fl2.moveonjoy.com/NFL_11/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 12" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket12" group-title="Usa",NFL Sunday Ticket 12
-http://fl2.moveonjoy.com/NFL_12/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 13" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket13" group-title="Usa",NFL Sunday Ticket 13
-http://fl2.moveonjoy.com/NFL_13/index.m3u8
-
 #EXTINF:-1 tvg-name="NFL Sunday Ticket 14" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket14" group-title="Usa",NFL Sunday Ticket 14
 http://fl2.moveonjoy.com/NFL_14/index.m3u8
-
-#EXTINF:-1 tvg-name="NFL Sunday Ticket 15" tvg-logo="https://i.imgur.com/WBOM46Z.png" tvg-id="nflsundayticket15" group-title="Usa",NFL Sunday Ticket 15
-http://fl2.moveonjoy.com/NFL_15/index.m3u8
 
 #EXTINF:-1 tvg-name="NHL Center Ice 12 (720p)" tvg-logo="https://i.imgur.com/pBKZZ8z.png" tvg-id="nhlcenterice12" group-title="Usa",NHL Center Ice 12 (720p)
 http://fl1.moveonjoy.com/NHL_12/index.m3u8
@@ -21079,9 +21010,6 @@ https://fl61.moveonjoy.com/NY_New_York_NBC/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-name="WNET-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg" tvg-id="wnetdt1" group-title="Usa",WNET-DT1
 https://e5.thetvapp.to/hls/WNET/index.m3u8
-
-#EXTINF:-1 tvg-name="WNJU-DT1 (360p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png" tvg-id="wnjudt1" group-title="Usa",WNJU-DT1 (360p)
-https://e5.thetvapp.to/hls/TelemundoEast/index.m3u8
 
 #EXTINF:-1 tvg-name="WNYW-DT1 (1080p)" tvg-logo="https://i.imgur.com/zZd9Tkt.png" tvg-id="wnywdt1" group-title="Usa",WNYW-DT1 (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8
