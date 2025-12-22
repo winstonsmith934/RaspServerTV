@@ -845,6 +845,9 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -6602,9 +6605,6 @@ https://live.neatv.gr:8888/hls/neatv_high/index.m3u8
 #EXTINF:-1 tvg-name="Naftemporiki TV" tvg-logo="https://i.imgur.com/9OFdMud.png" tvg-id="naftemporikitv" group-title="Greece",Naftemporiki TV
 https://stream-188125.castr.net/631af9c016e5eace19ff9a5b/live_048998706a2311ee83b33fe7fbad252d/index.fmp4.m3u8
 
-#EXTINF:-1 tvg-name="TV 100" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/tv-100-gr.png" tvg-id="tv100" group-title="Greece",TV 100
-https://panel.gwebstream.eu:19360/tv100skg/tv100skg.m3u8
-
 #EXTINF:-1 tvg-name="Netmax TV" tvg-logo="https://i.imgur.com/dLvRD4k.png" tvg-id="netmaxtv" group-title="Greece",Netmax TV
 https://live.netmaxtv.com:1936/live/live/playlist.m3u8
 
@@ -9830,6 +9830,9 @@ https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8
 #EXTINF:-1 tvg-name="Al-Sharqiya" tvg-logo="https://i.imgur.com/bPYyXNf.png" tvg-id="alsharqiya" group-title="Iraq",Al-Sharqiya
 https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Dijlah TV" tvg-logo="https://i.imgur.com/FJEeYiz.png" tvg-id="dijlahtv" group-title="Iraq",Dijlah TV
+https://ghaasiflu.online/Dijlah/tracks-v1a1/playlist.m3u8
+
 #EXTINF:-1 tvg-name="iNEWS" tvg-logo="https://i.imgur.com/PeuBkaH.png" tvg-id="inews" group-title="Iraq",iNEWS
 https://svs.itworkscdn.net/inewsiqlive/inewsiq.smil/playlist.m3u8
 
@@ -10583,12 +10586,6 @@ https://dc3.telesveva.com:4433/news24.mp4
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
-
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
-
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -10618,9 +10615,6 @@ https://tsw.streamingwebtv24.it:1936/paradisetv/paradisetv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Parole di Vita" tvg-logo="https://i.imgur.com/M9mIiZD.png" tvg-id="paroledivita" group-title="Italy",Parole di Vita
 https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Partenope Tv" tvg-logo="https://i.imgur.com/FtuWkj1.png" tvg-id="partenopetv" group-title="Italy",Partenope Tv
-https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8
 
 #EXTINF:-1 tvg-name="Peer Tv Alto Adige" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png" tvg-id="peertvaltoadige" group-title="Italy",Peer Tv Alto Adige
 https://iptv.peer.biz/live/peertv-it.m3u8
@@ -12517,6 +12511,9 @@ https://ws31-hls-live.akamaized.net/out/u/1416253.m3u8
 
 #EXTINF:-1 tvg-name="TV 2 Nyheter" tvg-logo="https://i.imgur.com/kkKoY6s.png" tvg-id="tv2nyheter" group-title="Norway",TV 2 Nyheter
 https://ws15-hls-live.akamaized.net/out/u/1153546.m3u8
+
+#EXTINF:-1 tvg-name="Frikanalen" tvg-logo="https://i.imgur.com/rY3Owxl.png" tvg-id="frikanalen" group-title="Norway",Frikanalen
+https://frikanalen.no/stream/index.m3u8
 
 #EXTINF:-1 tvg-name="Kanal 10 Norge" tvg-logo="https://i.imgur.com/2fOcZfK.png" tvg-id="kanal10norge" group-title="Norway",Kanal 10 Norge
 https://player-api.new.livestream.com/accounts/29308686/events/10787545/broadcasts/235454817.secure.m3u8

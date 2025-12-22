@@ -20,9 +20,6 @@ http://85.132.81.184:8080/arb/live/index.m3u8
 #EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/640px-Baku_TV_%282018%29.png" tvg-id="bakutv" group-title="Azerbaijan",Baku TV
 https://rtmp.baku.tv/live/bakutv_720p.m3u8
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="pervyymuzykalnyyby" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
 http://rtmp.one.by:1200
 
@@ -137,6 +134,9 @@ https://rumble.com/live-hls-dvr/6vluby/playlist.m3u8
 #EXTINF:-1 tvg-name="ENA Channel" tvg-logo="https://i.imgur.com/3g3yjAq.png" tvg-id="enachannel" group-title="Greece",ENA Channel
 https://cdn5.smart-tv-data.com/local/ena_channel/playlist.m3u8
 
+#EXTINF:-1 tvg-name="TV 100" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/tv-100-gr.png" tvg-id="tv100" group-title="Greece",TV 100
+https://panel.gwebstream.eu:19360/tv100skg/tv100skg.m3u8
+
 #EXTINF:-1 tvg-name="ERT News Ⓖ" tvg-logo="https://i.imgur.com/pr5anZ1.png" tvg-id="ertnews" group-title="Greece",ERT News Ⓖ
 https://ertflix.akamaized.net/ertlive/ertnews/hls8test/index.m3u8
 
@@ -172,9 +172,6 @@ https://mbnvvideoingest-i.akamaihd.net/hls/live/1004673/MBNV_ALHURRA_MAIN/playli
 
 #EXTINF:-1 tvg-name="Dijlah Tarab" tvg-logo="https://i.imgur.com/2SBjjBQ.png" tvg-id="dijlahtarab" group-title="Iraq",Dijlah Tarab
 https://ghaasiflu.online/tarab/tracks-v1a1/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Dijlah TV" tvg-logo="https://i.imgur.com/FJEeYiz.png" tvg-id="dijlahtv" group-title="Iraq",Dijlah TV
-https://ghaasiflu.online/Dijlah/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Turkmeneli TV" tvg-logo="https://i.imgur.com/iUhhg4B.png" tvg-id="turkmenelitv" group-title="Iraq",Turkmeneli TV
 https://137840.global.ssl.fastly.net/edge/live_6b7c6e205afb11ebb010f5a331abaf98/playlist.m3u8
@@ -272,11 +269,20 @@ https://stream1.aswifi.it/mediterraneatv/live/index.m3u8
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
 
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
+
 #EXTINF:-1 tvg-name="Odeon 24" tvg-logo="https://i.imgur.com/M1tVBuH.png" tvg-id="odeon24" group-title="Italy",Odeon 24
 https://5a1178b42cc03.streamlock.net/odeon163/odeon163/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Ora Tv" tvg-logo="https://i.imgur.com/clWVrvE.png" tvg-id="oratv" group-title="Italy",Ora Tv
 https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Partenope Tv" tvg-logo="https://i.imgur.com/FtuWkj1.png" tvg-id="partenopetv" group-title="Italy",Partenope Tv
+https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8
 
 #EXTINF:-1 tvg-name="Pop Tv" tvg-logo="https://i.imgur.com/TeolCu9.png" tvg-id="poptv" group-title="Italy",Pop Tv
 https://stream1.aswifi.it/poptelevision/live/index.m3u8
@@ -412,9 +418,6 @@ http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
 
 #EXTINF:-1 tvg-name="Love TV" tvg-logo="https://i.imgur.com/B8iaejQ.png" tvg-id="lovetv" group-title="North_macedonia",Love TV
 https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
-
-#EXTINF:-1 tvg-name="Frikanalen" tvg-logo="https://i.imgur.com/rY3Owxl.png" tvg-id="frikanalen" group-title="Norway",Frikanalen
-https://frikanalen.no/stream/index.m3u8
 
 #EXTINF:-1 tvg-name="Unicanal" tvg-logo="https://i.imgur.com/brlepuX.png" tvg-id="unicanal" group-title="Paraguay",Unicanal
 http://45.55.127.106/live/unicanal.m3u8
