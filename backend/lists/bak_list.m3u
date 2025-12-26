@@ -845,6 +845,9 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
+#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
+https://str.yodacdn.net/medeniyyet/index.m3u8
+
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -10211,6 +10214,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10285,6 +10291,9 @@ https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/p
 
 #EXTINF:-1 tvg-name="Cafe Tv 24" tvg-logo="https://i.imgur.com/KbcbxFw.png" tvg-id="cafetv24" group-title="Italy",Cafe Tv 24
 https://srvx1.selftv.video/cafe/live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Calabria Uno Tv" tvg-logo="https://i.imgur.com/2TK1GQ5.png" tvg-id="calabriaunotv" group-title="Italy",Calabria Uno Tv
+https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Canale 10" tvg-logo="https://i.imgur.com/KuQcjYV.png" tvg-id="canale10" group-title="Italy",Canale 10
 https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8
@@ -10841,9 +10850,6 @@ https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlis
 #EXTINF:-1 tvg-name="Telecity Piemonte" tvg-logo="https://i.imgur.com/CrlzHjv.jpeg" tvg-id="telecitypiemonte" group-title="Italy",Telecity Piemonte
 https://64b16f23efbee.streamlock.net/telecitypiemonte/telecitypiemonte/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Telecity Valle D'Aosta" tvg-logo="https://i.imgur.com/T9EsAOX.jpeg" tvg-id="telecityvalledaosta" group-title="Italy",Telecity Valle D'Aosta
-https://64b16f23efbee.streamlock.net/telecityvda/telecityvda/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TeleCostaSmeralda" tvg-logo="https://i.imgur.com/QLqkbss.png" tvg-id="telecostasmeralda" group-title="Italy",TeleCostaSmeralda
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8
 
@@ -11359,48 +11365,6 @@ https://air.star.lv/TV_Jurmala_multistream/index.m3u8
 
 #EXTINF:-1 tvg-name="Vidusdaugavas Televīzija" tvg-logo="https://i.imgur.com/L5U3PQR.png" tvg-id="vidusdaugavastelevzija" group-title="Latvia",Vidusdaugavas Televīzija
 https://straume.vdtv.lv/vdtv2/index.m3u8
-
-#EXTINF:-1 tvg-name="Kino 24" tvg-logo="https://i.imgur.com/QAdDARF.png" tvg-id="kino24" group-title="Latvia",Kino 24
-http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
-
-#EXTINF:-1 tvg-name="Movify Kino (576p)" tvg-logo="https://i.imgur.com/XIk5EJN.png" tvg-id="movifykino" group-title="Latvia",Movify Kino (576p)
-#EXTVLCOPT:http-referrer=https://void.greenhosting.ru/
-
-#EXTINF:-1 tvg-name="Multimania (Latvia) (576p)" tvg-logo="https://i.imgur.com/J9Lwc0T.png" tvg-id="multimania" group-title="Latvia",Multimania (Latvia) (576p)
-https://void.greenhosting.ru/Multimania_Mpeg4/index.m3u8
-
-#EXTINF:-1 tvg-name="Pro100TV" tvg-logo="https://i.imgur.com/YfQEflM.png" tvg-id="pro100tv" group-title="Latvia",Pro100TV
-https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
-
-#EXTINF:-1 tvg-name="Radio SWH TV (1080p)" tvg-logo="https://i.imgur.com/cFrNsXn.png" tvg-id="radioswhtv" group-title="Latvia",Radio SWH TV (1080p)
-https://00ff00.latnet.media/edge/swh_tv.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Re TV (1080p)" tvg-logo="https://i.postimg.cc/ZYFdwPQd/retv.png" tvg-id="retv" group-title="Latvia",Re TV (1080p)
-https://retv2132.cloudycdn.services/slive/_definst_/retv_retv_channel_5k7_42787_default_891_hls.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TV Jūrmala (1080p)" tvg-logo="https://i.imgur.com/tQHkHD0.png" tvg-id="tvjrmala" group-title="Latvia",TV Jūrmala (1080p)
-https://air.star.lv/TV_Jurmala_multistream/index.m3u8
-
-#EXTINF:-1 tvg-name="TV XXI" tvg-logo="https://i.imgur.com/Fja4bWt.png" tvg-id="tvxxi" group-title="Latvia",TV XXI
-http://31.148.48.15/TV_XXI/index.m3u8
-
-#EXTINF:-1 tvg-name="TVNET (360p)" tvg-logo="https://i.imgur.com/jzv1ssE.png" tvg-id="tvnet" group-title="Latvia",TVNET (360p)
-https://player.tvnet.lv/stream/amlst:61659/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Viasat Kino (576p)" tvg-logo="https://i.imgur.com/io0WAkA.png" tvg-id="viasatkino" group-title="Latvia",Viasat Kino (576p)
-http://89.254.128.5:22280/viasat_kino/index.m3u8
-
-#EXTINF:-1 tvg-name="Viasat Kino Action (576p)" tvg-logo="https://i.imgur.com/HwsNIDK.png" tvg-id="viasatkinoaction" group-title="Latvia",Viasat Kino Action (576p)
-http://89.254.128.5:22280/viasat_kino_action/index.m3u8
-
-#EXTINF:-1 tvg-name="Vidusdaugavas Televīzija (576p)" tvg-logo="https://i.imgur.com/L5U3PQR.png" tvg-id="vidusdaugavastelevzija" group-title="Latvia",Vidusdaugavas Televīzija (576p)
-https://straume.vdtv.lv/vdtv2/index.m3u8
-
-#EXTINF:-1 tvg-name="ТНТ International" tvg-logo="https://i.imgur.com/l0RGbRI.png" tvg-id="international" group-title="Latvia",ТНТ International
-https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
-
-#EXTINF:-1 tvg-name="Хочу всё знать (576p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="" group-title="Latvia",Хочу всё знать (576p)
-#EXTVLCOPT:http-referrer=https://void.greenhosting.ru/
 
 #EXTINF:-1 tvg-name="LRT TV" tvg-logo="https://i.imgur.com/FL2ZuGC.png" tvg-id="lrttv" group-title="Lithuania",LRT TV
 https://stream-syncwords.lrt.lt/out/v1/channel-group-lrt-portal-prod-01/channel-lrt-portal-prod-01/endpoint-lrt-portal-prod-01/index.m3u8
