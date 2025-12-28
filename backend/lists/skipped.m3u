@@ -221,6 +221,9 @@ https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-name="Motor Trend" tvg-logo="https://i.imgur.com/ipj2H0n.png" tvg-id="motortrend" group-title="Italy",Motor Trend
 https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="abctv" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
@@ -491,9 +494,6 @@ https://ed2.cdn.svt.se/ed7/d1/c/se/svtb/manifest.mpd?defaultSubLang=1
 #EXTINF:-1 tvg-name="Kunskapskanalen Ⓖ" tvg-logo="https://i.imgur.com/9YBxoGc.png" tvg-id="kunskapskanalen" group-title="Sweden",Kunskapskanalen Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
 
-#EXTINF:-1 tvg-name="Öppna Kanalen Malmö Ⓢ" tvg-logo="https://i.imgur.com/sjw8dsM.jpg" tvg-id="ppnakanalenmalm" group-title="Sweden",Öppna Kanalen Malmö Ⓢ
-https://edg01-prd-de-ixn.solidtango.com/edge/_8ynhbua3_/8ynhbua3/manifest.m3u8
-
 #EXTINF:-1 tvg-name="Ideal World" tvg-logo="https://i.imgur.com/su6GH7i.png" tvg-id="idealworld" group-title="Uk",Ideal World
 https://ythls.armelin.one/channel/UCJbgGTpBWuC87VFIKTTO4RQ.m3u8
 
@@ -526,9 +526,6 @@ http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_five_live/bbc_rad
 
 #EXTINF:-1 tvg-name="BBC Radio 6 Music" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd6-epg.png" tvg-id="bbcradio6music" group-title="Uk",BBC Radio 6 Music
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d96000.norewind.m3u8
-
-#EXTINF:-1 tvg-name="BBC Radio 1Xtra" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1x-epg.png" tvg-id="bbcradio1xtra" group-title="Uk",BBC Radio 1Xtra
-http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio%3d96000.norewind.m3u8
 
 #EXTINF:-1 tvg-name="BBC Radio 4 Extra" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd4x-epg.png" tvg-id="bbcradio4" group-title="Uk",BBC Radio 4 Extra
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio%3d96000.norewind.m3u8
