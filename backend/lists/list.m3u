@@ -3965,9 +3965,6 @@ https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8
 #EXTINF:-1 tvg-name="MTV Sub" tvg-logo="https://i.imgur.com/VRCuxQt.png" tvg-id="mtvsub" group-title="Finland",MTV Sub
 https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 
-#EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
-https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
 https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
 
@@ -3985,9 +3982,6 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
-https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -7703,6 +7697,9 @@ http://103.178.78.151:7505/play/a1sd/index.m3u8
 #EXTINF:-1 tvg-name="Colors Bangla (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png" tvg-id="colorsbangla" group-title="India",Colors Bangla (1080p)
 http://103.140.254.2:3500/live/756.m3u8
 
+#EXTINF:-1 tvg-name="Colors Bangla Cinema (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA_CINEMA/images/LOGO_HD/image.png" tvg-id="colorsbanglacinema" group-title="India",Colors Bangla Cinema (576p)
+http://103.140.254.2:3500/live/1657.m3u8
+
 #EXTINF:-1 tvg-name="Colors Cineplex (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX/images/LOGO_HD/image.png" tvg-id="colorscineplex" group-title="India",Colors Cineplex (576p)
 http://103.167.255.18:8085/play/a0km/index.m3u8
 
@@ -7727,14 +7724,29 @@ http://103.167.255.18:8085/play/a0kf/index.m3u8
 #EXTINF:-1 tvg-name="Colors Infinity (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png" tvg-id="colorsinfinity" group-title="India",Colors Infinity (1080p)
 http://66.102.120.18:8000/play/a014/index.m3u8
 
+#EXTINF:-1 tvg-name="Colors Infinity (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png" tvg-id="colorsinfinity" group-title="India",Colors Infinity (576p)
+http://103.140.254.2:3500/live/1325.m3u8
+
 #EXTINF:-1 tvg-name="Colors Kannada (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_HD/images/LOGO_HD/image.png" tvg-id="colorskannada" group-title="India",Colors Kannada (1080p)
 http://103.140.254.2:3500/live/757.m3u8
+
+#EXTINF:-1 tvg-name="Colors Kannada (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA/images/LOGO_HD/image.png" tvg-id="colorskannada" group-title="India",Colors Kannada (576p)
+http://103.140.254.2:3500/live/1370.m3u8
+
+#EXTINF:-1 tvg-name="Colors Kannada Cinema (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_CINEMA/images/LOGO_HD/image.png" tvg-id="colorskannadacinema" group-title="India",Colors Kannada Cinema (576p)
+http://103.140.254.2:3500/live/1632.m3u8
 
 #EXTINF:-1 tvg-name="Colors Marathi (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_MARATHI/images/LOGO_HD/image.png" tvg-id="colorsmarathi" group-title="India",Colors Marathi (1080p)
 http://103.140.254.2:3500/live/755.m3u8
 
+#EXTINF:-1 tvg-name="Colors Marathi (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_MARATHI/images/LOGO_HD/image.png" tvg-id="colorsmarathi" group-title="India",Colors Marathi (576p)
+http://103.140.254.2:3500/live/1326.m3u8
+
 #EXTINF:-1 tvg-name="Colors Super (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_SUPER/images/LOGO_HD/image.png" tvg-id="colorssuper" group-title="India",Colors Super (1080p)
 http://103.140.254.2:3500/live/785.m3u8
+
+#EXTINF:-1 tvg-name="Colors Tamil (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" tvg-id="colorstamil" group-title="India",Colors Tamil (576p)
+http://103.140.254.2:3500/live/1371.m3u8
 
 #EXTINF:-1 tvg-name="Colors Tamil HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" tvg-id="colorstamil" group-title="India",Colors Tamil HD (1080p)
 http://103.140.254.2:3500/live/429.m3u8
@@ -8975,6 +8987,9 @@ https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 #EXTINF:-1 tvg-name="Zee Action (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ACTION_CINEMA/images/LOGO_HD/LOGO_HD_image.png" tvg-id="zeeaction" group-title="India",Zee Action (576p)
 http://163.61.227.29:8000/play/a044/index.m3u8
 
+#EXTINF:-1 tvg-name="Zee Bangla (360p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA_HD/images/LOGO_HD/LOGO_HD_image.png" tvg-id="zeebangla" group-title="India",Zee Bangla (360p)
+http://103.140.254.2:3500/live/625.m3u8
+
 #EXTINF:-1 tvg-name="Zee Bharat (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BHARAT/images/LOGO_HD/LOGO_HD_image.png" tvg-id="zeebharat" group-title="India",Zee Bharat (720p)
 https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8
 
@@ -9144,7 +9159,7 @@ https://e.siar.us/live/dmtv.m3u8
 https://e.siar.us/live/dtvi.m3u8
 
 #EXTINF:-1 tvg-name="Efarina TV (720p)" tvg-logo="https://i.imgur.com/iYTimXh.png" tvg-id="efarinatv" group-title="Indonesia",Efarina TV (720p)
-https://live.efarinatv.net/hls/stream123/index.m3u8
+#EXTVLCOPT:http-referrer=https://live.efarinatv.net/
 
 #EXTINF:-1 tvg-name="Elshinta TV" tvg-logo="https://i.imgur.com/x5uoy2H.png" tvg-id="elshintatv" group-title="Indonesia",Elshinta TV
 https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
@@ -10606,9 +10621,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -13055,6 +13067,12 @@ https://app.viloud.tv/hls/channel/e32c100fc7304040b61e6cc98b041f93.m3u8
 #EXTINF:-1 tvg-name="Pogoda24 TV (1080p)" tvg-logo="https://i.ibb.co/d0GfMcSs/114731.jpg" tvg-id="pogoda24tv" group-title="Poland",Pogoda24 TV (1080p)
 http://80.53.89.117:29980/Pogoda24/index.m3u8
 
+#EXTINF:-1 tvg-name="Polsat Viasat Explore (1080p)" tvg-logo="https://i.imgur.com/gDlqO9h.png" tvg-id="polsatviasatexplore" group-title="Poland",Polsat Viasat Explore (1080p)
+https://liveovh010.cda.pl/enc107/polsatviasatexplorehdraw/polsatviasatexplorehdraw.mpd
+
+#EXTINF:-1 tvg-name="Polsat Viasat History (1080p)" tvg-logo="https://i.imgur.com/X16UGUf.png" tvg-id="polsatviasathistory" group-title="Poland",Polsat Viasat History (1080p)
+https://liveovh010.cda.pl/enc105/polsatviasathistoryhdraw/polsatviasathistoryhdraw.mpd
+
 #EXTINF:-1 tvg-name="Polsat Viasat Nature (1080p)" tvg-logo="https://i.imgur.com/TUcM0oS.png" tvg-id="polsatviasatnature" group-title="Poland",Polsat Viasat Nature (1080p)
 https://liveovh010.cda.pl/enc104/polsatviasatnaturehdraw/polsatviasatnaturehdraw.mpd
 
@@ -15479,10 +15497,10 @@ https://interalmeria.tv/directo/live.m3u8
 #EXTINF:-1 tvg-name="La 1 (720p)" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" tvg-id="la1" group-title="Spain",La 1 (720p)
 https://ztnr.rtve.es/ztnr/1688877.m3u8
 
-#EXTINF:-1 tvg-name="La 1 Canarias (720p)" tvg-logo="https://i.imgur.com/RqUJ4oj.png" tvg-id="la1canarias" group-title="Spain",La 1 Canarias (720p)
+#EXTINF:-1 tvg-name="La 1 Canarias (720p)" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" tvg-id="la1canarias" group-title="Spain",La 1 Canarias (720p)
 https://ztnr.rtve.es/ztnr/5190066.m3u8
 
-#EXTINF:-1 tvg-name="La 1 Catalunya (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_La_1.svg/330px-Logo_La_1.svg.png" tvg-id="la1catalunya" group-title="Spain",La 1 Catalunya (720p)
+#EXTINF:-1 tvg-name="La 1 Catalunya (720p)" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" tvg-id="la1catalunya" group-title="Spain",La 1 Catalunya (720p)
 https://ztnr.rtve.es/ztnr/3293681.m3u8
 
 #EXTINF:-1 tvg-name="La 1 HEVC (1080p)" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" tvg-id="la1hevc" group-title="Spain",La 1 HEVC (1080p)
@@ -15494,7 +15512,7 @@ http://176.65.146.237:8401/play/a09u/index.m3u8
 #EXTINF:-1 tvg-name="La 2 (1080p)" tvg-logo="https://i.ibb.co/rfsr9PSh/La-2.png" tvg-id="la2" group-title="Spain",La 2 (1080p)
 https://d4g9wh8d4wiaw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-crbrakk0yedqb/La2ES.m3u8
 
-#EXTINF:-1 tvg-name="La 2 Canarias (720p)" tvg-logo="https://i.imgur.com/iwDi3ND.png" tvg-id="la2canarias" group-title="Spain",La 2 Canarias (720p)
+#EXTINF:-1 tvg-name="La 2 Canarias (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Logo_La_2_Canarias.png/512px-Logo_La_2_Canarias.png" tvg-id="la2canarias" group-title="Spain",La 2 Canarias (720p)
 https://ztnr.rtve.es/ztnr/5468585.m3u8
 
 #EXTINF:-1 tvg-name="La 2 Catalunya (720p)" tvg-logo="https://i.ibb.co/Lztt9rgr/La-2-Catalunya.png" tvg-id="la2catalunya" group-title="Spain",La 2 Catalunya (720p)
@@ -19661,6 +19679,9 @@ https://aegis-cloudfront-1.tubi.video/5e3aff30-070f-4951-aa59-5ca415acb3c1/playl
 #EXTINF:-1 tvg-name="NBC 4 Milwaukee WI (WTMJ) (720p)" tvg-logo="https://i.imgur.com/HC85eBq.png" tvg-id="nbc4milwaukeewi" group-title="Usa",NBC 4 Milwaukee WI (WTMJ) (720p)
 https://aegis-cloudfront-1.tubi.video/d4d923f2-17de-4371-b86d-43490499bcdb/playlist.m3u8
 
+#EXTINF:-1 tvg-name="NBC 5 Chicago Live News (1080p)" tvg-logo="https://i.imgur.com/wblxisu.png" tvg-id="nbc5chicagolivenews" group-title="Usa",NBC 5 Chicago Live News (1080p)
+https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&ads.xumo_ifaType=&ads.xumo_providerId=3818&ads.xumo_providerName=NBCNCHI
+
 #EXTINF:-1 tvg-name="NBC 8 Lancaster PA (WGAL) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" tvg-id="nbc8lancasterpa" group-title="Usa",NBC 8 Lancaster PA (WGAL) (720p)
 https://aegis-cloudfront-1.tubi.video/5d314174-0110-42af-8811-feaae073ea1e/playlist.m3u8
 
@@ -19678,9 +19699,6 @@ https://aegis-cloudfront-1.tubi.video/54b357b4-bf4b-4356-97b4-b1acb6ab62f7/playl
 
 #EXTINF:-1 tvg-name="NBC 26 Green Bay WI (WGBA-DT1) (720p)" tvg-logo="https://i.imgur.com/bzgfmRL.png" tvg-id="nbc26greenbaywi" group-title="Usa",NBC 26 Green Bay WI (WGBA-DT1) (720p)
 https://content.uplynk.com/channel/1fbfb28ae5044f619f75ae0adb011989.m3u8
-
-#EXTINF:-1 tvg-name="NBC Chicago WMAQ-DT1" tvg-logo="https://i.imgur.com/wblxisu.png" tvg-id="nbcchicagowmaqdt1" group-title="Usa",NBC Chicago WMAQ-DT1
-https://fl1.moveonjoy.com/IL_Chicago_NBC/index.m3u8
 
 #EXTINF:-1 tvg-name="NBC News NOW (1080p)" tvg-logo="https://i.imgur.com/JZt2qh5.png" tvg-id="nbcnewsnow" group-title="Usa",NBC News NOW (1080p)
 https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8
