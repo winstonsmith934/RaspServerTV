@@ -926,6 +926,9 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Беларусь 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Belarus_3_logo.svg/742px-Belarus_3_logo.svg.png" tvg-id="3" group-title="Belarus",Беларусь 3
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ОНТ Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg/991px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg.png" tvg-id="" group-title="Belarus",ОНТ Ⓢ
+https://stream.dc.beltelecom.by/ont/ont/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Беларусь 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Belarus_5_logo.svg/742px-Belarus_5_logo.svg.png" tvg-id="5" group-title="Belarus",Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 
@@ -1213,9 +1216,6 @@ https://live.tv-m.net/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="TNT Kids (288p)" tvg-logo="https://i.imgur.com/irTDbpn.png" tvg-id="tntkids" group-title="Bosnia_and_herzegovina",TNT Kids (288p)
 https://restreamer1.tnt.ba/hls/tntkids.m3u8
-
-#EXTINF:-1 tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" tvg-id="combrasil" group-title="Brazil",COM Brasil
-https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-id="sbt" group-title="Brazil",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
@@ -3965,9 +3965,6 @@ https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
 https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
 
-#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
-https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
 https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 
@@ -3982,9 +3979,6 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
-https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -6698,9 +6692,6 @@ https://video.streams.ovh:1936/pellatv/pellatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Pontos" tvg-logo="https://i.imgur.com/sbTxP6o.png" tvg-id="pontos" group-title="Greece",Pontos
 https://rtmp.win:3842/live/recme1live.m3u8
 
-#EXTINF:-1 tvg-name="TV 100" tvg-logo="https://i.imgur.com/9rtf8OR.png" tvg-id="tv100" group-title="Greece",TV 100
-https://panel.gwebstream.eu:19360/tv100skg/tv100skg.m3u8
-
 #EXTINF:-1 tvg-name="Vergina" tvg-logo="https://i.imgur.com/cpF6wvR.png" tvg-id="vergina" group-title="Greece",Vergina
 https://verginanews.gr:8443/hls_live/stream1.m3u8
 
@@ -6712,9 +6703,6 @@ https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Ionian Channel" tvg-logo="https://i.imgur.com/ADVYeQd.png" tvg-id="ionianchannel" group-title="Greece",Ionian Channel
 https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Lepanto" tvg-logo="https://i.imgur.com/h6Tqe0k.png" tvg-id="lepanto" group-title="Greece",Lepanto
-https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Lychnos" tvg-logo="hhttps://i.imgur.com/JYSlBfY.png" tvg-id="lychnos" group-title="Greece",Lychnos
 https://thor.mental-media.gr:19360/imp/imp.m3u8
@@ -8557,9 +8545,6 @@ https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeesalaam/v1/manifest/611d79b1
 
 #EXTINF:-1 tvg-name="Salvation TV (1080p)" tvg-logo="https://content.jdmagicbox.com/comp/bangalore/l5/080pxx80.xx80.150207120517.e4l5/catalogue/salvation-tv-network-pvt-m-g-road-bangalore-religious-organizations-1sabn2d.jpg" tvg-id="salvationtv" group-title="India",Salvation TV (1080p)
 https://ktismaservers.in:3902/live/salvationtvlive.m3u8
-
-#EXTINF:-1 tvg-name="Samachar Plus (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Samachar_Plus.png" tvg-id="samachar" group-title="India",Samachar Plus (1080p)
-https://samacharplus.livebox.co.in/samacharplushls/live.m3u8
 
 #EXTINF:-1 tvg-name="Samay Kolkata (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Samay_Kolkata.png" tvg-id="samaykolkata" group-title="India",Samay Kolkata (720p)
 https://5dd3981940faa.streamlock.net/kbcration/kbcration/playlist.m3u8
@@ -10523,9 +10508,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -10633,9 +10615,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -11519,9 +11498,6 @@ http://171.244.62.178/jptv2/get.php?id=4SlJSS46Vw5igmOdvfKMww==
 #EXTINF:-1 tvg-name="JOCX-DTV" tvg-logo="https://i.imgur.com/sEWDmMD.png" tvg-id="jocxdtv" group-title="Japan",JOCX-DTV
 http://171.244.62.178/jptv2/get.php?id=uAJJq7DD6hKyPLoaMOBSUA==
 
-#EXTINF:-1 tvg-name="JOEX-DTV" tvg-logo="https://i.imgur.com/YCqB5Kj.png" tvg-id="joexdtv" group-title="Japan",JOEX-DTV
-http://171.244.62.178/jptv2/get.php?id=aNwnFAidrAjzqK5Wo0KvWw==
-
 #EXTINF:-1 tvg-name="JORX-DTV" tvg-logo="https://i.imgur.com/dUn2GRn.png" tvg-id="jorxdtv" group-title="Japan",JORX-DTV
 http://171.244.62.178/jptv2/get.php?id=p1cu_Z3QI6VV01VJmw8vJQ==
 
@@ -12283,9 +12259,6 @@ https://rrr.sz.xlcdn.com/?account=nhnieuws&file=live&type=live&service=wowza&pro
 
 #EXTINF:-1 tvg-name="RTV Rijnmond" tvg-logo="https://i.imgur.com/TNhUVEm.png" tvg-id="rtvrijnmond" group-title="Netherlands",RTV Rijnmond
 https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8
-
-#EXTINF:-1 tvg-name="Omroep West" tvg-logo="https://i.imgur.com/aax1HPH.png" tvg-id="omroepwest" group-title="Netherlands",Omroep West
-https://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8
 
 #EXTINF:-1 tvg-name="Omroep Zeeland" tvg-logo="https://i.imgur.com/8aLDyUI.png" tvg-id="omroepzeeland" group-title="Netherlands",Omroep Zeeland
 http://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
@@ -15472,6 +15445,9 @@ https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
 
 #EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160" group-title="General"" tvg-logo="https://i.imgur.com/Waf1SOq.png" tvg-id="likegeckochrome830410397safari53736crkey144191160grouptitlegeneral" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160" group-title="General"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
+
+#EXTINF:-1 tvg-name="EWTN Espana" tvg-logo="https://i.imgur.com/KvpMbkd.png" tvg-id="ewtnespana" group-title="Spain",EWTN Espana
+https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/q6xkg9py/480/chunklist.m3u8
 
 #EXTINF:-1 tvg-name="EWTN Spain & Latin America (720p)" tvg-logo="https://i.imgur.com/sua70RO.png" tvg-id="ewtnspainlatinamerica" group-title="Spain",EWTN Spain & Latin America (720p)
 https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
