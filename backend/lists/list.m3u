@@ -593,8 +593,8 @@ http://146.59.85.40:89/dunaworld/index.m3u8
 #EXTINF:-1 tvg-name="ERT World (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/512px-ChannelLogo-ERTWORLD1.png" tvg-id="ertworld" group-title="Australia",ERT World (720p)
 https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
 
-#EXTINF:-1 tvg-name="Euronews" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronews" group-title="Australia",Euronews
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60d35bcaf1ff4a00078af0a6/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0614c6-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=90bc590c-c00a-4ff4-b9e2-ad20ea686992
+#EXTINF:-1 tvg-name="Euronews French (720p)" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronewsfrench" group-title="Australia",Euronews French (720p)
+https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Euronews French HD" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronewsfrench" group-title="Australia",Euronews French HD
 https://viamotionhsi.netplus.ch/live/eds/euronews/browser-HLS8/euronews.m3u8
@@ -925,6 +925,9 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Беларусь 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Belarus_3_logo.svg/742px-Belarus_3_logo.svg.png" tvg-id="3" group-title="Belarus",Беларусь 3
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ОНТ Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg/991px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg.png" tvg-id="" group-title="Belarus",ОНТ Ⓢ
+https://stream.dc.beltelecom.by/ont/ont/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Беларусь 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Belarus_5_logo.svg/742px-Belarus_5_logo.svg.png" tvg-id="5" group-title="Belarus",Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
@@ -4178,7 +4181,7 @@ https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/arab
 #EXTINF:-1 tvg-name="arte HD (1080p)" tvg-logo="https://i.imgur.com/ecXMjNl.png" tvg-id="arte" group-title="France",arte HD (1080p)
 https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8
 
-#EXTINF:-1 tvg-name="Avatar" tvg-logo="https://i.imgur.com/2ijwlnR.png" tvg-id="avatar" group-title="France",Avatar
+#EXTINF:-1 tvg-name="Avatar" tvg-logo="https://images.pluto.tv/channels/60b4c17a81e29300071d3a39/colorLogoPNG.png" tvg-id="avatar" group-title="France",Avatar
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60b4c17a81e29300071d3a39/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e05edb7-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=640a4092-5016-4d01-bcbf-d66e4f7aa21d
 
 #EXTINF:-1 tvg-name="B Smart TV (320p)" tvg-logo="https://i.imgur.com/RyVEFcG.png" tvg-id="bsmarttv" group-title="France",B Smart TV (320p)
@@ -4289,8 +4292,8 @@ https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/emci
 #EXTINF:-1 tvg-name="Equidia (1080p)" tvg-logo="https://i.imgur.com/QPpbRcZ.png" tvg-id="equidia" group-title="France",Equidia (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
 
-#EXTINF:-1 tvg-name="Euronews" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronews" group-title="France",Euronews
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60d35bcaf1ff4a00078af0a6/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0614c6-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=90bc590c-c00a-4ff4-b9e2-ad20ea686992
+#EXTINF:-1 tvg-name="Euronews French (720p)" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronewsfrench" group-title="France",Euronews French (720p)
+https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Euronews French HD" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronewsfrench" group-title="France",Euronews French HD
 https://viamotionhsi.netplus.ch/live/eds/euronews/browser-HLS8/euronews.m3u8
@@ -4730,7 +4733,7 @@ https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/arab
 #EXTINF:-1 tvg-name="arte HD (1080p)" tvg-logo="https://i.imgur.com/ecXMjNl.png" tvg-id="arte" group-title="France",arte HD (1080p)
 https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8
 
-#EXTINF:-1 tvg-name="Avatar" tvg-logo="https://i.imgur.com/2ijwlnR.png" tvg-id="avatar" group-title="France",Avatar
+#EXTINF:-1 tvg-name="Avatar" tvg-logo="https://images.pluto.tv/channels/60b4c17a81e29300071d3a39/colorLogoPNG.png" tvg-id="avatar" group-title="France",Avatar
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60b4c17a81e29300071d3a39/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e05edb7-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=640a4092-5016-4d01-bcbf-d66e4f7aa21d
 
 #EXTINF:-1 tvg-name="B Smart TV (320p)" tvg-logo="https://i.imgur.com/RyVEFcG.png" tvg-id="bsmarttv" group-title="France",B Smart TV (320p)
@@ -4841,8 +4844,8 @@ https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/emci
 #EXTINF:-1 tvg-name="Equidia (1080p)" tvg-logo="https://i.imgur.com/QPpbRcZ.png" tvg-id="equidia" group-title="France",Equidia (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
 
-#EXTINF:-1 tvg-name="Euronews" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronews" group-title="France",Euronews
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60d35bcaf1ff4a00078af0a6/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0614c6-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=90bc590c-c00a-4ff4-b9e2-ad20ea686992
+#EXTINF:-1 tvg-name="Euronews French (720p)" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronewsfrench" group-title="France",Euronews French (720p)
+https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Euronews French HD" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronewsfrench" group-title="France",Euronews French HD
 https://viamotionhsi.netplus.ch/live/eds/euronews/browser-HLS8/euronews.m3u8
@@ -5480,7 +5483,7 @@ https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="Autentic Travel (1080p)" tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png" tvg-id="autentictravel" group-title="Germany",Autentic Travel (1080p)
 https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Avatar" tvg-logo="https://i.imgur.com/2ijwlnR.png" tvg-id="avatar" group-title="Germany",Avatar
+#EXTINF:-1 tvg-name="Avatar" tvg-logo="https://images.pluto.tv/channels/600adbdf8c554e00072125c9/colorLogoPNG.png" tvg-id="avatar" group-title="Germany",Avatar
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/600adbdf8c554e00072125c9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ac5690-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f0f2f9f0-a766-421f-b28e-f13232bf4b9f
 
 #EXTINF:-1 tvg-name="Baden TV Süd (480p)" tvg-logo="https://badentvsued.s3.welocal.cloud/sources/60631840dfa86.png" tvg-id="badentvsd" group-title="Germany",Baden TV Süd (480p)
@@ -5692,6 +5695,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 #EXTINF:-1 tvg-name="n-tv (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/512px-N-tv_logo-september2017.svg.png" tvg-id="ntv" group-title="Germany",n-tv (1080p)
 https://viamotionhsi.netplus.ch/live/eds/ntv/browser-HLS8/ntv.m3u8
+
+#EXTINF:-1 tvg-name="Naruto" tvg-logo="https://i.imgur.com/M8X3Kvc.png" tvg-id="naruto" group-title="Germany",Naruto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65d5fc39a25d5e00082895c4/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae2b56-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=624d6e59-b964-41c4-8e12-4ec9c07d66e8
 
 #EXTINF:-1 tvg-name="NDR Fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/512px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="ndrfernsehen" group-title="Germany",NDR Fernsehen
 https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8
@@ -6068,7 +6074,7 @@ https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="Autentic Travel (1080p)" tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png" tvg-id="autentictravel" group-title="Germany",Autentic Travel (1080p)
 https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Avatar" tvg-logo="https://i.imgur.com/2ijwlnR.png" tvg-id="avatar" group-title="Germany",Avatar
+#EXTINF:-1 tvg-name="Avatar" tvg-logo="https://images.pluto.tv/channels/600adbdf8c554e00072125c9/colorLogoPNG.png" tvg-id="avatar" group-title="Germany",Avatar
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/600adbdf8c554e00072125c9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ac5690-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f0f2f9f0-a766-421f-b28e-f13232bf4b9f
 
 #EXTINF:-1 tvg-name="Baden TV Süd (480p)" tvg-logo="https://badentvsued.s3.welocal.cloud/sources/60631840dfa86.png" tvg-id="badentvsd" group-title="Germany",Baden TV Süd (480p)
@@ -6280,6 +6286,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 #EXTINF:-1 tvg-name="n-tv (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/512px-N-tv_logo-september2017.svg.png" tvg-id="ntv" group-title="Germany",n-tv (1080p)
 https://viamotionhsi.netplus.ch/live/eds/ntv/browser-HLS8/ntv.m3u8
+
+#EXTINF:-1 tvg-name="Naruto" tvg-logo="https://i.imgur.com/M8X3Kvc.png" tvg-id="naruto" group-title="Germany",Naruto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65d5fc39a25d5e00082895c4/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae2b56-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=624d6e59-b964-41c4-8e12-4ec9c07d66e8
 
 #EXTINF:-1 tvg-name="NDR Fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/512px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="ndrfernsehen" group-title="Germany",NDR Fernsehen
 https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8
@@ -8315,6 +8324,9 @@ https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8
 #EXTINF:-1 tvg-name="NDTV Marathi (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_MARATHI/images/LOGO_HD/image.png" tvg-id="ndtvmarathi" group-title="India",NDTV Marathi (1080p)
 #EXTVLCOPT:http-referrer=https://marathi.ndtv.com/
 
+#EXTINF:-1 tvg-name="NDTV Profit (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_PROFIT_PRIME/images/LOGO_HD/image.png" tvg-id="ndtvprofit" group-title="India",NDTV Profit (1080p)
+https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
+
 #EXTINF:-1 tvg-name="NDTV Rajasthan (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_RAJASTHAN/images/LOGO_HD/image.png" tvg-id="ndtvrajasthan" group-title="India",NDTV Rajasthan (1080p)
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
 
@@ -8753,9 +8765,6 @@ http://103.167.255.18:8085/play/a0m9/index.m3u8
 #EXTINF:-1 tvg-name="Star Gold Thrills (576p)" tvg-logo="https://i.imgur.com/azqtpYh.png" tvg-id="stargoldthrills" group-title="India",Star Gold Thrills (576p)
 http://103.167.255.18:8085/play/a0nd/index.m3u8
 
-#EXTINF:-1 tvg-name="Star Maa HD (1080p)" tvg-logo="https://i.imgur.com/5c9PVS0.png" tvg-id="starmaa" group-title="India",Star Maa HD (1080p)
-http://103.167.255.18:8085/play/a0nj/index.m3u8
-
 #EXTINF:-1 tvg-name="Star Movies HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" tvg-id="starmovies" group-title="India",Star Movies HD (1080p)
 http://103.178.78.151:7505/play/a1ge/index.m3u8
 
@@ -8929,9 +8938,6 @@ https://cdn-2.pishow.tv/live/1522/master.m3u8
 
 #EXTINF:-1 tvg-name="Travelxp (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" tvg-id="travelxp" group-title="India",Travelxp (720p)
 https://travelxp-travelxp-1-au.samsung.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Tribe TV (720p)" tvg-logo="https://i.imgur.com/zG2P1WZ.png" tvg-id="tribetv" group-title="India",Tribe TV (720p)
-https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
 
 #EXTINF:-1 tvg-name="Tunes 6 (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Tunes_6.png" tvg-id="tunes6" group-title="India",Tunes 6 (576p)
 http://103.140.254.2:3500/live/803.m3u8
@@ -10694,9 +10700,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -11561,6 +11564,9 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
 #EXTINF:-1 tvg-name="MNB World (1080p)" tvg-logo="https://i.imgur.com/PHlj84Q.png" tvg-id="mnbworld" group-title="Japan",MNB World (1080p)
 https://cdn4.skygo.mn/live/disk1/MNB_World/HLSv3-FTA/MNB_World.m3u8
 
+#EXTINF:-1 tvg-name="NHK BS" tvg-logo="https://i.imgur.com/t0uZcSR.png" tvg-id="nhkbs" group-title="Japan",NHK BS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
+
 #EXTINF:-1 tvg-name="QVC Japan (720p)" tvg-logo="https://i.imgur.com/6TWUVrh.png" tvg-id="qvcjapan" group-title="Japan",QVC Japan (720p)
 https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
 
@@ -11923,9 +11929,6 @@ https://s5.mexside.net:1936/envio2/envio2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="California Medios TV (720p)" tvg-logo="https://i.imgur.com/IDvpRNI.png" tvg-id="californiamediostv" group-title="Mexico",California Medios TV (720p)
 https://s5.mexside.net:1936/medios/medios/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Canal 5 (1080p)" tvg-logo="https://i.imgur.com/uZdVSoW.png" tvg-id="canal5" group-title="Mexico",Canal 5 (1080p)
-https://d162h6qqsk8wvl.cloudfront.net/c219e4b7-9521-4cbc-b94e-7e002ec43462/manifest.m3u8
 
 #EXTINF:-1 tvg-name="Canal 5 TV Cozumel (1080p)" tvg-logo="https://i.imgur.com/0nzNMuP.jpeg" tvg-id="canal5tvcozumel" group-title="Mexico",Canal 5 TV Cozumel (1080p)
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
@@ -13064,6 +13067,9 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 #EXTINF:-1 tvg-name="Cartoon Classics" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/3227c06e-333b-4b1b-b657-3e3ab99ebd06-width200-quality90.jpeg" tvg-id="cartoonclassics" group-title="Poland",Cartoon Classics
 https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8
 
+#EXTINF:-1 tvg-name="Comedy Central (1080i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/512px-Comedy_Central_2018.svg.png" tvg-id="comedycentral" group-title="Poland",Comedy Central (1080i)
+https://liveovh010.cda.pl/enc006/comedycentralhdraw/comedycentralhdraw.m3u8
+
 #EXTINF:-1 tvg-name="DAZN Combat" tvg-logo="https://i.postimg.cc/VsW3Jsrz/logo-DAZN-Combat.png" tvg-id="dazncombat" group-title="Poland",DAZN Combat
 https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8
 
@@ -13193,6 +13199,9 @@ https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b6
 #EXTINF:-1 tvg-name="TV ASTA (720p)" tvg-logo="https://i.postimg.cc/44KQ54H9/tvasta.png" tvg-id="tvasta" group-title="Poland",TV ASTA (720p)
 https://5cce8c6f0e84c.streamlock.net/LiveCast/smil:PlayStream9.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-name="TVC (1080i)" tvg-logo="https://i.imgur.com/1Wmib2f.png" tvg-id="tvc" group-title="Poland",TVC (1080i)
+https://liveovh010.cda.pl/enc118/tvchdraw/tvchdraw.m3u8
+
 #EXTINF:-1 tvg-name="TVK Stella (576p)" tvg-logo="https://www.tvkstella.pl/img/poster.png" tvg-id="tvkstella" group-title="Poland",TVK Stella (576p)
 https://stream.tvkstella.pl/stella/stella.m3u8
 
@@ -13264,6 +13273,9 @@ https://janya-digimix.akamaized.net/vglive-sk-382409/portuese/ngrp:angelportugue
 
 #EXTINF:-1 tvg-name="Disney Channel (576p)" tvg-logo="https://i.postimg.cc/854KwmH1/disneychannel.png" tvg-id="disneychannel" group-title="Portugal",Disney Channel (576p)
 http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
+
+#EXTINF:-1 tvg-name="Euronews Portuguese (720p)" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-id="euronewsportuguese" group-title="Portugal",Euronews Portuguese (720p)
+https://6e52fb8b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c1BvcnR1Z3Vlc19ITFM/playlist.m3u8
 
 #EXTINF:-1 tvg-name="FIFA+ Portuguese (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" tvg-id="fifaportuguese" group-title="Portugal",FIFA+ Portuguese (720p)
 https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
@@ -15494,6 +15506,9 @@ https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
 #EXTINF:-1 tvg-name="ETB Basque (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/512px-ETB_Basque_2022_logo.svg.png" tvg-id="etbbasque" group-title="Spain",ETB Basque (480p)
 https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
 
+#EXTINF:-1 tvg-name="ETB Events 1 (1080p)" tvg-logo="https://i.imgur.com/bVUEmx9.png" tvg-id="etbevents1" group-title="Spain",ETB Events 1 (1080p)
+https://cdn1.etbon.eus/oc1/index.m3u8
+
 #EXTINF:-1 tvg-name=" like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160" group-title="General"" tvg-logo="https://i.imgur.com/Waf1SOq.png" tvg-id="likegeckochrome830410397safari53736crkey144191160grouptitlegeneral" group-title="Spain", like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160" group-title="General"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 
@@ -17156,6 +17171,9 @@ http://93.78.206.172:8080/stream3/stream.m3u8
 #EXTINF:-1 tvg-name="Pershiy XTV Media (576p)" tvg-logo="https://i.imgur.com/M7oDym3.png" tvg-id="pershiyxtvmedia" group-title="Ukraine",Pershiy XTV Media (576p)
 https://hls.xtvmedia.pp.ua:8443/hls/trk1tv.m3u8
 
+#EXTINF:-1 tvg-name="Perviy Krymskiy (720p)" tvg-logo="https://i.imgur.com/i6hg7QG.png" tvg-id="perviykrymskiy" group-title="Ukraine",Perviy Krymskiy (720p)
+https://live1.1tvcrimea.ru/1tvcrimea.m3u8
+
 #EXTINF:-1 tvg-name="PTV (720p)" tvg-logo="https://i.imgur.com/WDHoSVz.png" tvg-id="ptv" group-title="Ukraine",PTV (720p)
 https://cdn10.live-tv.cloud/hrpl/hrpl-abr/playlist.m3u8
 
@@ -17335,6 +17353,9 @@ http://93.78.206.172:8080/stream3/stream.m3u8
 
 #EXTINF:-1 tvg-name="Pershiy XTV Media (576p)" tvg-logo="https://i.imgur.com/M7oDym3.png" tvg-id="pershiyxtvmedia" group-title="Ukraine",Pershiy XTV Media (576p)
 https://hls.xtvmedia.pp.ua:8443/hls/trk1tv.m3u8
+
+#EXTINF:-1 tvg-name="Perviy Krymskiy (720p)" tvg-logo="https://i.imgur.com/i6hg7QG.png" tvg-id="perviykrymskiy" group-title="Ukraine",Perviy Krymskiy (720p)
+https://live1.1tvcrimea.ru/1tvcrimea.m3u8
 
 #EXTINF:-1 tvg-name="PTV (720p)" tvg-logo="https://i.imgur.com/WDHoSVz.png" tvg-id="ptv" group-title="Ukraine",PTV (720p)
 https://cdn10.live-tv.cloud/hrpl/hrpl-abr/playlist.m3u8
@@ -21134,8 +21155,8 @@ https://fl1.moveonjoy.com/FL_West_Palm_Beach_FOX/index.m3u8
 #EXTINF:-1 tvg-name="WFMZ-TV Channel 69" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1f/WFMZ.png" tvg-id="wfmztvchannel69" group-title="Usa",WFMZ-TV Channel 69
 https://cdn.jaybirdtv.com/wfmz/channel/1/master.m3u8
 
-#EXTINF:-1 tvg-name="WFTS-DT1 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wftsdt1" group-title="Usa",WFTS-DT1 (720p)
-http://143.244.60.30/FL_Tampa_ABC/index.m3u8
+#EXTINF:-1 tvg-name="WFTS-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wftsdt1" group-title="Usa",WFTS-DT1
+https://fl1.moveonjoy.com/FL_Tampa_ABC/index.m3u8
 
 #EXTINF:-1 tvg-name="WFTT-DT1" tvg-logo="https://i.imgur.com/HFmkjiR.png" tvg-id="wfttdt1" group-title="Usa",WFTT-DT1
 https://stream-tampa.scientology.org/master.m3u8
@@ -21235,9 +21256,6 @@ https://fl1.moveonjoy.com/TN_NASHVILLE_ABC/index.m3u8
 
 #EXTINF:-1 tvg-name="WLMB" tvg-logo="https://i.imgur.com/KeELZ1Y.png" tvg-id="wlmb" group-title="Usa",WLMB
 https://rpn.bozztv.com/wlmb/wlmb/wlmb/index.m3u8
-
-#EXTINF:-1 tvg-name="WLNY-DT1 (720p)" tvg-logo="https://i.imgur.com/ubsNr5F.jpg" tvg-id="wlnydt1" group-title="Usa",WLNY-DT1 (720p)
-http://restream-live.realiptv.to:8080/live/19742329/27604387/89717.m3u8
 
 #EXTINF:-1 tvg-name="WLS ABC 7 News (Chicago IL) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" tvg-id="wlsabc7news" group-title="Usa",WLS ABC 7 News (Chicago IL) (720p)
 https://content.uplynk.com/channel/ext/aac37e2c66614e699fb189ab391084ff/wls_24x7_news.m3u8
