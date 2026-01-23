@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Kanali 7 Ⓢ" tvg-logo="https://i.imgur.com/rL2v9pM.png" tvg-id="kanali7" group-title="Albania",Kanali 7 Ⓢ
-https://fe.tring.al/delta/105/out/u/1200_1.m3u8
-
 #EXTINF:-1 tvg-name="A2 CNN Albania" tvg-logo="https://i.imgur.com/TgO3Lzi.png" tvg-id="a2cnnalbania" group-title="Albania",A2 CNN Albania
 https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8
 
@@ -1228,6 +1225,9 @@ https://www.youtube.com/watch?v=oUdd3CsxYaE
 
 #EXTINF:-1 tvg-name="Record News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/Record_News_logo_2023.svg" tvg-id="recordnews" group-title="Brazil",Record News
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116
+
+#EXTINF:-1 tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" tvg-id="istv" group-title="Brazil",ISTV
+https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 
 #EXTINF:-1 tvg-name="Rede Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Marca_rede_brasil_rgb-color.png" tvg-id="redebrasil" group-title="Brazil",Rede Brasil
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
@@ -10997,9 +10997,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
 
@@ -13024,6 +13021,9 @@ https://www.tvkaista.net/stream-forwarder/get.php?x=TVPHistoria2
 
 #EXTINF:-1 tvg-name="TVP Kultura 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TVP_Kultura_2_%282020%29.svg/640px-TVP_Kultura_2_%282020%29.svg.png" tvg-id="tvpkultura2" group-title="Poland",TVP Kultura 2
 https://www.tvkaista.net/stream-forwarder/get.php?x=TVPKultura2
+
+#EXTINF:-1 tvg-name="4fun.tv Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/4fun.tv_Logo_%282017%29.svg/640px-4fun.tv_Logo_%282017%29.svg.png" tvg-id="4funtv" group-title="Poland",4fun.tv Ⓢ
+https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 
 #EXTINF:-1 tvg-name="TV Republika" tvg-logo="https://i.imgur.com/ljpK6dZ.png" tvg-id="tvrepublika" group-title="Poland",TV Republika
 https://redir.cache.orange.pl/jupiter/o1-cl7/ssl/live/tvrepublika/live.m3u8
