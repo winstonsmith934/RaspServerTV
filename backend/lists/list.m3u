@@ -29,9 +29,6 @@ http://198.244.188.94/panorama/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name="Report TV" tvg-logo="https://i.imgur.com/yuRDJYY.png" tvg-id="reporttv" group-title="Albania",Report TV
 https://deb10stream.duckdns.org/hls/stream.m3u8
 
-#EXTINF:-1 tvg-name="Syri" tvg-logo="https://i.imgur.com/4zVyj1M.png" tvg-id="syri" group-title="Albania",Syri
-https://stream.syritv.al/SyriTV/index.m3u8
-
 #EXTINF:-1 tvg-name="Top News Ⓣ" tvg-logo="https://i.imgur.com/tBAXkOW.png" tvg-id="topnews" group-title="Albania",Top News Ⓣ
 https://www.twitch.tv/topnewsal
 
@@ -166,6 +163,9 @@ https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 
 #EXTINF:-1 tvg-name="Barricada TV" tvg-logo="https://www.barricadatv.org/?p=23082" tvg-id="barricadatv" group-title="Argentina",Barricada TV
 https://live-ak.vimeocdn.com/exp=1696402364~acl=%2F9f41e203-241b-4eb7-b0b5-b1839903408f%2F%2A~hmac=d4819f301510676a986bfe610b664765ee2b1a23e1e1ca3214398f949a0b2778/9f41e203-241b-4eb7-b0b5-b1839903408f/hls.m3u8?min_seconds=30
+
+#EXTINF:-1 tvg-name="Urbana Tevé" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQLeFMWMeoumi-o24ohLPXSEdNL5-oJ9W5oP5KnnA=s900-c-k-c0x00ffffff-no-rj" tvg-id="urbanatev" group-title="Argentina",Urbana Tevé
+https://cdnhd.iblups.com/hls/DD3nXkAkWk.m3u8
 
 #EXTINF:-1 tvg-name="Comarca TV" tvg-logo="http://directostv.teleame.com/wp-content/uploads/2020/10/Comarca-TV-en-vivo-Online.png" tvg-id="comarcatv" group-title="Argentina",Comarca TV
 https://video-weaver.ord56.hls.ttvnw.net/v1/playlist/Cq4FFLOPxq44Qy0kxjcr_wXuRRwjKU6gJ80Tc5eWRkaz5XdeNfeq7DzoNAstinu7BLtnw7jYDANX5yCDozdlS55_kYfuDyqQhwF0JpzU75lDUv5NOuUVWBwlP0m1Bh1JMn21v_OvA_teSCI7hcIFl2DoINrr8bHnpSS8EUvXNesfdX_LcfQH-clqftQ0sCreLIbTvxI5MyL6Wnm8jGh2yg48A2c_k9YHDH6TpM3tLo-pbRrrfByqMq-IoMQREf5DV_sTfHtAzinQQU3Np309s2ScJwcBlAjzz4VJ7svuJ1UbWBBylenSTnrXQW5Vws7OqG2kcoAHHpAQN6BQCpxaXO6dE7MLg7Nq6E7961fHEVSqFCRQg2Y5orbSsEwMo7_S4s5POZSQX1tn04QDuHfLixx-aBcbctSSFmI1CNZ3YDCEZVvWHOU6SyKQcsZeJCFLA1DsxqY3DeAn6n7xpPS4pdsizKqlqsT66liv_L-48h7jGujNZPDHge0fcgUs_7b7jlKJlKv-S_s1mGgLqPEUEQ8dhn5AugB0kfjAGgcTHIP_qLPRY0M7OikuBaMxh1pUpPkVG9AX4jCg1cwCgcfa64OP9ed4pwMjoiKm0dIfytTQ8hWjwXtkv16nJDfZ3kkqaMnM8ErZG6tRw-JVy3nRooKubY7Re0Fc1RHB85_eX2NYQD88N7r-UgaiO2ax0FQ-E_IdfuwSmp5oDy6Di6pT7r_zDRN3znbV64s4i-INUg-D2Leeq4xqYhe_Zhj-3AoxXDWCB0-DCc1kFEComkNpY01YA19zEm01TKLCbdaJwdC6bQpSEoJkOCoPAMnxm7oPNlqZRbhM4TVCJ34f4Y1guzaDomcEABl4Cii2UF-OhskRUZF-SUWjWdO6z62UqZagzG2QOTr6VBH-ItT_16fLsRUaDGTVKzgYHT8XcSqTkyABKgl1cy1lYXN0LTEwjQY.m3u8
@@ -1823,11 +1823,8 @@ https://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8
 #EXTINF:-1 tvg-name="CTV News" tvg-logo="https://i.imgur.com/T3oBeiX.png" tvg-id="ctvnews" group-title="Canada",CTV News
 https://pe-fa-lp02a.9c9media.com/live/News1Digi/p/hls/00000201/38ef78f479b07aa0/index/0c6a10a2/live/stream/h264/v1/3500000/manifest.m3u8
 
-#EXTINF:-1 tvg-name="Global News" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnews" group-title="Canada",Global News
-https://i.mjh.nz/PlutoTV/62cbef9ebb857100072fc187-alt.m3u8
-
-#EXTINF:-1 tvg-name="Global News Winnipeg" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewswinnipeg" group-title="Canada",Global News Winnipeg
-https://i.mjh.nz/PlutoTV/62cc0120880c890007191016-alt.m3u8
+#EXTINF:-1 tvg-name="Global News Montreal" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewsmontreal" group-title="Canada",Global News Montreal
+https://i.mjh.nz/PlutoTV/62cbfbd6ad95670007f567af-alt.m3u8
 
 #EXTINF:-1 tvg-name="ICI RDI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/640px-ICI_RDI_logo.svg.png" tvg-id="icirdi" group-title="Canada",ICI RDI
 https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
@@ -11066,6 +11063,9 @@ https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
 #EXTINF:-1 tvg-name="Rete Biella Tv" tvg-logo="https://i.imgur.com/e2ryHx7.png" tvg-id="retebiellatv" group-title="Italy",Rete Biella Tv
 https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Rete Mia" tvg-logo="https://i.imgur.com/kCJ621Q.png" tvg-id="retemia" group-title="Italy",Rete Mia
+https://5db313b643fd8.streamlock.net/rete/rete/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Rete Oro Tv" tvg-logo="https://i.imgur.com/OCxGtwA.png" tvg-id="reteorotv" group-title="Italy",Rete Oro Tv
 https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
 
@@ -11074,6 +11074,9 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
+https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
