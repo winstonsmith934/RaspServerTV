@@ -3950,9 +3950,6 @@ https://yletv.akamaized.net/hls/live/622365/yletv1fin/index.m3u8
 #EXTINF:-1 tvg-name="Yle TV2 Ⓖ" tvg-logo="https://i.imgur.com/4xkc6PL.png" tvg-id="yletv2" group-title="Finland",Yle TV2 Ⓖ
 https://yletv.akamaized.net/hls/live/622366/yletv2fin/index.m3u8
 
-#EXTINF:-1 tvg-name="MTV3" tvg-logo="https://i.imgur.com/kNbmc8n.png" tvg-id="mtv3" group-title="Finland",MTV3
-https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Yle Teema Fem Ⓖ" tvg-logo="https://i.imgur.com/iDljufz.png" tvg-id="yleteemafem" group-title="Finland",Yle Teema Fem Ⓖ
 https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8
 
@@ -10910,6 +10907,9 @@ https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
 
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
+
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -11011,9 +11011,6 @@ https://tvd-piter.fluid.stream/RadioPiterpanTV/livestream/chunklist_w1866496033.
 
 #EXTINF:-1 tvg-name="Radio Radio Tv" tvg-logo="https://i.imgur.com/iKuRg2b.png" tvg-id="radioradiotv" group-title="Italy",Radio Radio Tv
 https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_22f84390fe1411ed919df3da85a483cc/rewind-14400.m3u8
-
-#EXTINF:-1 tvg-name="Radio Radiosa Tv" tvg-logo="https://i.imgur.com/8kqyxvz.png" tvg-id="radioradiosatv" group-title="Italy",Radio Radiosa Tv
-https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Reggio Tv" tvg-logo="https://i.imgur.com/merrg2C.png" tvg-id="reggiotv" group-title="Italy",Reggio Tv
 https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8
@@ -11300,12 +11297,6 @@ https://live.antennasudwebtv.it:9443/hls/vodtele.m3u8
 #EXTINF:-1 tvg-name="Telereporter" tvg-logo="https://i.imgur.com/WIo6SPc.png" tvg-id="telereporter" group-title="Italy",Telereporter
 https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Teleromagna" tvg-logo="https://i.imgur.com/4jWadI8.png" tvg-id="teleromagna" group-title="Italy",Teleromagna
-https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Teleromagna 24" tvg-logo="https://i.imgur.com/Bpml478.png" tvg-id="teleromagna24" group-title="Italy",Teleromagna 24
-https://livetr.teleromagna.it/mia/live/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TeleRomaDue" tvg-logo="https://i.imgur.com/78hA7ma.png" tvg-id="teleromadue" group-title="Italy",TeleRomaDue
 https://57068da1deb21.streamlock.net/teletibur/teletibur/playlist.m3u8
 
@@ -11371,6 +11362,9 @@ https://diretta.teleterni.it:8080//show/show.m3u8
 
 #EXTINF:-1 tvg-name="Umbria Tv" tvg-logo="https://i.imgur.com/XKCVEmK.png" tvg-id="umbriatv" group-title="Italy",Umbria Tv
 https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Uno4 Tv" tvg-logo="https://i.imgur.com/wfPPpBA.png" tvg-id="uno4tv" group-title="Italy",Uno4 Tv
+https://cdn.uno4.it/index.m3u8
 
 #EXTINF:-1 tvg-name="Video Calabria" tvg-logo="https://i.imgur.com/Bc2AvIm.png" tvg-id="videocalabria" group-title="Italy",Video Calabria
 https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/playlist.m3u8
