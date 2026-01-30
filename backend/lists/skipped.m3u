@@ -35,6 +35,9 @@ http://94.250.2.6:7374/play/a02u/index.m3u8
 #EXTINF:-1 tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" tvg-id="istv" group-title="Brazil",ISTV
 https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 
+#EXTINF:-1 tvg-name="Rede Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Marca_rede_brasil_rgb-color.png" tvg-id="redebrasil" group-title="Brazil",Rede Brasil
+https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
+
 #EXTINF:-1 tvg-name="CBC Toronto" tvg-logo="https://i.imgur.com/H5yEbxf.png" tvg-id="cbctoronto" group-title="Canada",CBC Toronto
 https://bozztv.com/teleyupp1/teleup-ydcl2V1MVC/playlist.m3u8
 
@@ -116,14 +119,14 @@ https://stream-33.mazana.tv/slagr2.m3u
 #EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
 https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 
+#EXTINF:-1 tvg-name="MTV3" tvg-logo="https://i.imgur.com/kNbmc8n.png" tvg-id="mtv3" group-title="Finland",MTV3
+https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
 https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Viaplay TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Viaplay_TV_logo.svg/640px-Viaplay_TV_logo.svg.png" tvg-id="viaplaytv" group-title="Finland",Viaplay TV
-https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
@@ -265,9 +268,6 @@ https://stream1.aswifi.it/mediterraneatv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
-
-#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
 https://nuovatv.net:8443/tv2/stream.m3u8
@@ -490,9 +490,6 @@ https://ed2.cdn.svt.se/ed7/d1/c/se/svtb/manifest.mpd?defaultSubLang=1
 
 #EXTINF:-1 tvg-name="Kunskapskanalen Ⓖ" tvg-logo="https://i.imgur.com/9YBxoGc.png" tvg-id="kunskapskanalen" group-title="Sweden",Kunskapskanalen Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
-
-#EXTINF:-1 tvg-name="Öppna Kanalen Malmö Ⓢ" tvg-logo="https://i.imgur.com/sjw8dsM.jpg" tvg-id="ppnakanalenmalm" group-title="Sweden",Öppna Kanalen Malmö Ⓢ
-https://edg01-prd-de-ixn.solidtango.com/edge/_8ynhbua3_/8ynhbua3/manifest.m3u8
 
 #EXTINF:-1 tvg-name="TVO" tvg-logo="https://i.imgur.com/5QFZ05B.png" tvg-id="tvo" group-title="Switzerland",TVO
 https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8
