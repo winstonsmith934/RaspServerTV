@@ -926,9 +926,6 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Беларусь 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Belarus_3_logo.svg/742px-Belarus_3_logo.svg.png" tvg-id="3" group-title="Belarus",Беларусь 3
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ОНТ Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg/991px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg.png" tvg-id="" group-title="Belarus",ОНТ Ⓢ
-https://stream.dc.beltelecom.by/ont/ont/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Беларусь 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Belarus_5_logo.svg/742px-Belarus_5_logo.svg.png" tvg-id="5" group-title="Belarus",Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 
@@ -3848,6 +3845,9 @@ https://lifetv.bitflip.ee/live/stream2.m3u8
 #EXTINF:-1 tvg-name="Life TV Europe" tvg-logo="https://i.imgur.com/JhrTB82.png" tvg-id="lifetveurope" group-title="Estonia",Life TV Europe
 https://lifetv.bitflip.ee/live/stream1.m3u8
 
+#EXTINF:-1 tvg-name="TBN Baltia" tvg-logo="https://i.imgur.com/rKBaK56.png" tvg-id="tbnbaltia" group-title="Estonia",TBN Baltia
+http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
+
 #EXTINF:-1 tvg-name="Best of Dance TV (1080p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="bestofdancetv" group-title="Estonia",Best of Dance TV (1080p)
 https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8
 
@@ -3973,9 +3973,6 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
-https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -6833,6 +6830,9 @@ https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8
 #EXTINF:-1 tvg-name="Corfu Channel (720p)" tvg-logo="https://i.imgur.com/EFL1Tjg.png" tvg-id="corfuchannel" group-title="Greece",Corfu Channel (720p)
 https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Cosmote Sport 1" tvg-logo="https://i.imgur.com/fn0TM6V.png" tvg-id="cosmotesport1" group-title="Greece",Cosmote Sport 1
+http://138.2.160.168:8080/fetch?COSMOTESPORT1
+
 #EXTINF:-1 tvg-name="Cosmote Sport 2" tvg-logo="https://i.imgur.com/1RSyE5N.png" tvg-id="cosmotesport2" group-title="Greece",Cosmote Sport 2
 http://138.2.160.168:8080/fetch?COSMOTESPORT2
 
@@ -8582,14 +8582,14 @@ https://cdn-4.pishow.tv/live/1231/master.m3u8
 #EXTINF:-1 tvg-name="Raftaar Media (240p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAFTAAR_MEDIA/images/LOGO_HD/image.png" tvg-id="raftaarmedia" group-title="India",Raftaar Media (240p)
 https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Raj Digital Plus (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_DIGITAL_PLUS/images/LOGO_HD/image.png" tvg-id="rajdigital" group-title="India",Raj Digital Plus (576p)
-http://103.140.254.2:3500/live/683.m3u8
+#EXTINF:-1 tvg-name="Raj Digital Plus (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_DIGITAL_PLUS/images/LOGO_HD/image.png" tvg-id="rajdigital" group-title="India",Raj Digital Plus (1080p)
+https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8
 
 #EXTINF:-1 tvg-name="Raj Musix Malayalam (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_MALAYALAM/images/LOGO_HD/image.png" tvg-id="rajmusixmalayalam" group-title="India",Raj Musix Malayalam (576p)
 https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8
 
-#EXTINF:-1 tvg-name="Raj Musix Tamil (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_TAMIL/images/LOGO_HD/image.png" tvg-id="rajmusixtamil" group-title="India",Raj Musix Tamil (576p)
-http://103.140.254.2:3500/live/748.m3u8
+#EXTINF:-1 tvg-name="Raj Musix Tamil (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_TAMIL/images/LOGO_HD/image.png" tvg-id="rajmusixtamil" group-title="India",Raj Musix Tamil (1080p)
+https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8
 
 #EXTINF:-1 tvg-name="Raj Musix Telugu (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_TELUGU/images/LOGO_HD/image.png" tvg-id="rajmusixtelugu" group-title="India",Raj Musix Telugu (720p)
 https://cdn-1.pishow.tv/live/1213/master.m3u8
@@ -10733,9 +10733,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -11389,9 +11386,6 @@ https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/p
 
 #EXTINF:-1 tvg-name="Video Star Tv Sicilia" tvg-logo="https://i.imgur.com/1ddJVZ7.jpg" tvg-id="videostartvsicilia" group-title="Italy",Video Star Tv Sicilia
 https://stream9.xdevel.com/video0s976556-1321/stream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Video Touring Tv" tvg-logo="https://i.imgur.com/E2Feao5.jpg" tvg-id="videotouringtv" group-title="Italy",Video Touring Tv
-https://streamingvideo.auranex.cloud/memfs/70baacad-47c6-41a6-aee0-86530c31e080.m3u8
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://i.imgur.com/bnDZJwd.gif" tvg-id="videolina" group-title="Italy",Videolina
 http://livestreaming.videolina.it/live/Videolina/playlist.m3u8
@@ -12305,6 +12299,9 @@ https://tezaurtv.md/wp-content/uploads/live/index.m3u8
 #EXTINF:-1 tvg-name="TV-Nord (1080p)" tvg-logo="https://i.imgur.com/86JYRVH.png" tvg-id="tvnord" group-title="Moldova",TV-Nord (1080p)
 https://6065d3147e895.streamlock.net:4444/npcl/live/playlist.m3u8
 
+#EXTINF:-1 tvg-name="TVR Moldova HD (1440p)" tvg-logo="https://i.imgur.com/wDe9gL2.png" tvg-id="tvrmoldova" group-title="Moldova",TVR Moldova HD (1440p)
+https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/chunklist.m3u8
+
 #EXTINF:-1 tvg-name="TV Monaco" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TVMonaco_2023.svg/320px-TVMonaco_2023.svg.png" tvg-id="tvmonaco" group-title="Monaco",TV Monaco
 https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/2027/media.m3u8
 
@@ -12953,8 +12950,8 @@ https://cu.onliv3.com/livevd/user1.m3u8
 #EXTINF:-1 tvg-name="Antena SUR" tvg-logo="https://i.imgur.com/4aHrD2l.jpeg" tvg-id="antenasur" group-title="Peru",Antena SUR
 https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8
 
-#EXTINF:-1 tvg-name="ATV+" tvg-logo="https://i.imgur.com/fY9256H.png" tvg-id="atv" group-title="Peru",ATV+
-https://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8
+#EXTINF:-1 tvg-name="ATV+ (720p)" tvg-logo="https://i.imgur.com/fY9256H.png" tvg-id="atv" group-title="Peru",ATV+ (720p)
+https://d2qsan2ut81n2k.cloudfront.net/live/77eece7f-8de5-4406-9f7e-7be16d81f2ce/ts:abr.m3u8
 
 #EXTINF:-1 tvg-name="Bethel TV" tvg-logo="https://i.postimg.cc/g2PmhMXQ/betheltv.png" tvg-id="betheltv" group-title="Peru",Bethel TV
 https://alfa.betheltv.tv/srt/3_abr/playlist.m3u8
@@ -16852,9 +16849,6 @@ https://tele1-live.ercdn.net/tele1/tele1.m3u8
 
 #EXTINF:-1 tvg-name="Tempo TV (720p)" tvg-logo="https://i.imgur.com/tZpx32y.png" tvg-id="tempotv" group-title="Turkey",Tempo TV (720p)
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Teve2 (1080p)" tvg-logo="https://i.postimg.cc/vZC5jSqX/teve2.png" tvg-id="teve2" group-title="Turkey",Teve2 (1080p)
-https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
 
 #EXTINF:-1 tvg-name="TGRT Haber (720p)" tvg-logo="https://i.imgur.com/PrxwKDw.png" tvg-id="tgrthaber" group-title="Turkey",TGRT Haber (720p)
 https://canli.tgrthaber.com/tgrt.m3u8
