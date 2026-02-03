@@ -113,20 +113,11 @@ https://stream-33.mazana.tv/slagr2.m3u
 #EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
 https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="MTV3" tvg-logo="https://i.imgur.com/kNbmc8n.png" tvg-id="mtv3" group-title="Finland",MTV3
-https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
-https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
 https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
 https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
-https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
@@ -290,12 +281,6 @@ https://nuovatv.net:8443/tv/stream.m3u8
 #EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
 https://nuovatv.net:8443/tv2/stream.m3u8
 
-#EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
-https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
-
-#EXTINF:-1 tvg-name="Odeon 24" tvg-logo="https://i.imgur.com/M1tVBuH.png" tvg-id="odeon24" group-title="Italy",Odeon 24
-https://streaming.softwarecreation.it/Odeon/Odeon/manifest.m3u8
-
 #EXTINF:-1 tvg-name="Ora Tv" tvg-logo="https://i.imgur.com/clWVrvE.png" tvg-id="oratv" group-title="Italy",Ora Tv
 https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
 
@@ -325,6 +310,9 @@ https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Sole" tvg-logo="https://i.imgur.com/u0ezKgE.png" tvg-id="retesole" group-title="Italy",Rete Sole
 https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
+https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sicilia Tv" tvg-logo="https://i.imgur.com/I5FoThW.png" tvg-id="siciliatv" group-title="Italy",Sicilia Tv
 https://stream9.xdevel.com/video0s976441-1226/stream/playlist.m3u8
@@ -397,6 +385,9 @@ http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="VB33" tvg-logo="https://i.imgur.com/ygDuIxU.png" tvg-id="vb33" group-title="Italy",VB33
 https://live.ipstream.it/vb33/vb33.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Video Nola" tvg-logo="https://i.imgur.com/M5z5UoD.jpg" tvg-id="videonola" group-title="Italy",Video Nola
+https://videonola.aswifi.it/videonolaabr/live.m3u8
 
 #EXTINF:-1 tvg-name="Vuemme Tv" tvg-logo="https://i.imgur.com/x5A0xU6.png" tvg-id="vuemmetv" group-title="Italy",Vuemme Tv
 https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8
@@ -526,9 +517,6 @@ https://ed2.cdn.svt.se/ed7/d1/c/se/svtb/manifest.mpd?defaultSubLang=1
 
 #EXTINF:-1 tvg-name="Kunskapskanalen Ⓖ" tvg-logo="https://i.imgur.com/9YBxoGc.png" tvg-id="kunskapskanalen" group-title="Sweden",Kunskapskanalen Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
-
-#EXTINF:-1 tvg-name="Öppna Kanalen Malmö Ⓢ" tvg-logo="https://i.imgur.com/sjw8dsM.jpg" tvg-id="ppnakanalenmalm" group-title="Sweden",Öppna Kanalen Malmö Ⓢ
-https://edg01-prd-de-ixn.solidtango.com/edge/_8ynhbua3_/8ynhbua3/manifest.m3u8
 
 #EXTINF:-1 tvg-name="TVO" tvg-logo="https://i.imgur.com/5QFZ05B.png" tvg-id="tvo" group-title="Switzerland",TVO
 https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8
