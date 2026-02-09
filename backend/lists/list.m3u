@@ -2522,6 +2522,9 @@ http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://i.imgur.com/BRe0ybV.png" tvg-id="cetv4" group-title="China",CETV-4
 http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
+#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
+https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
+
 #EXTINF:-1 tvg-name="ABN China (720p)" tvg-logo="https://i.imgur.com/zagVLQH.png" tvg-id="abnchina" group-title="China",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
 
@@ -6797,33 +6800,6 @@ https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8
 #EXTINF:-1 tvg-name="Corfu Channel (720p)" tvg-logo="https://i.imgur.com/EFL1Tjg.png" tvg-id="corfuchannel" group-title="Greece",Corfu Channel (720p)
 https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cosmote Sport 1" tvg-logo="https://i.imgur.com/fn0TM6V.png" tvg-id="cosmotesport1" group-title="Greece",Cosmote Sport 1
-http://138.2.160.168:8080/fetch?COSMOTESPORT1
-
-#EXTINF:-1 tvg-name="Cosmote Sport 2" tvg-logo="https://i.imgur.com/1RSyE5N.png" tvg-id="cosmotesport2" group-title="Greece",Cosmote Sport 2
-http://138.2.160.168:8080/fetch?COSMOTESPORT2
-
-#EXTINF:-1 tvg-name="Cosmote Sport 3" tvg-logo="https://i.imgur.com/V5qKXx9.png" tvg-id="cosmotesport3" group-title="Greece",Cosmote Sport 3
-http://138.2.160.168:8080/fetch?COSMOTESPORT3
-
-#EXTINF:-1 tvg-name="Cosmote Sport 4" tvg-logo="https://i.imgur.com/zEdJUZU.png" tvg-id="cosmotesport4" group-title="Greece",Cosmote Sport 4
-http://138.2.160.168:8080/fetch?COSMOTESPORT4
-
-#EXTINF:-1 tvg-name="Cosmote Sport 5" tvg-logo="https://i.imgur.com/0GKXahH.png" tvg-id="cosmotesport5" group-title="Greece",Cosmote Sport 5
-http://138.2.160.168:8080/fetch?COSMOTESPORT5
-
-#EXTINF:-1 tvg-name="Cosmote Sport 6" tvg-logo="https://i.imgur.com/KG6VWN1.png" tvg-id="cosmotesport6" group-title="Greece",Cosmote Sport 6
-http://138.2.160.168:8080/fetch?COSMOTESPORT6
-
-#EXTINF:-1 tvg-name="Cosmote Sport 7" tvg-logo="https://i.imgur.com/p0DKcn2.png" tvg-id="cosmotesport7" group-title="Greece",Cosmote Sport 7
-http://138.2.160.168:8080/fetch?COSMOTESPORT7
-
-#EXTINF:-1 tvg-name="Cosmote Sport 8" tvg-logo="https://i.imgur.com/DKlW5ka.png" tvg-id="cosmotesport8" group-title="Greece",Cosmote Sport 8
-http://138.2.160.168:8080/fetch?COSMOTESPORT8
-
-#EXTINF:-1 tvg-name="Cosmote Sport 9" tvg-logo="https://i.imgur.com/3YwAXcH.png" tvg-id="cosmotesport9" group-title="Greece",Cosmote Sport 9
-http://138.2.160.168:8080/fetch?COSMOTESPORT9
-
 #EXTINF:-1 tvg-name="DELTA TV (720p)" tvg-logo="https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png" tvg-id="deltatv" group-title="Greece",DELTA TV (720p)
 http://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8
 
@@ -7481,7 +7457,10 @@ https://cdn-1.pishow.tv/live/1211/master.m3u8
 #EXTINF:-1 tvg-name="Aadinath TV (396p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AADINATH_TV/images/LOGO_HD/image.png" tvg-id="aadinathtv" group-title="India",Aadinath TV (396p)
 #EXTVLCOPT:http-referrer=https://keralive.com/
 
-#EXTINF:-1 tvg-name="Aaj Tak (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" tvg-id="aajtak" group-title="India",Aaj Tak (1080p)
+#EXTINF:-1 tvg-name="Aaj Tak (404p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" tvg-id="aajtak" group-title="India",Aaj Tak (404p)
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Aaj Tak HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" tvg-id="aajtak" group-title="India",Aaj Tak HD (1080p)
 https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8
 
 #EXTINF:-1 tvg-name="Aakaash Aath (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAKASH_AATH/images/LOGO_HD/image.png" tvg-id="aakaashaath" group-title="India",Aakaash Aath (720p)
@@ -7801,6 +7780,9 @@ http://103.78.149.54:8000/play/a02h/index.m3u8
 
 #EXTINF:-1 tvg-name="DD NEWS (576p)" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png" tvg-id="ddnews" group-title="India",DD NEWS (576p)
 http://103.78.149.54:8000/play/a002/index.m3u8
+
+#EXTINF:-1 tvg-name="DD News HD (1080p)" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png" tvg-id="ddnews" group-title="India",DD News HD (1080p)
+http://103.78.149.54:8000/play/a02f/index.m3u8
 
 #EXTINF:-1 tvg-name="DD Oriya (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_ORIYA/images/LOGO_HD/image.png" tvg-id="ddoriya" group-title="India",DD Oriya (576p)
 http://103.78.149.54:8000/play/a033/index.m3u8
@@ -10445,9 +10427,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 
@@ -10546,6 +10525,9 @@ https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8
 
 #EXTINF:-1 tvg-name="Icaro Tv Rimini" tvg-logo="https://i.imgur.com/z05VSSN.png" tvg-id="icarotvrimini" group-title="Italy",Icaro Tv Rimini
 https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Idea Plus" tvg-logo="https://i.imgur.com/2edmxYF.png" tvg-id="idea" group-title="Italy",Idea Plus
+https://rst.saiuzwebnetwork.it:19360/teleidea/teleidea.m3u8
 
 #EXTINF:-1 tvg-name="il61" tvg-logo="https://i.imgur.com/1rUZsBv.png" tvg-id="il61" group-title="Italy",il61
 https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
@@ -10750,9 +10732,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -13865,14 +13844,14 @@ http://31.148.48.15/Bridge_TV_Dance/index.m3u8
 #EXTINF:-1 tvg-name="Cinema" tvg-logo="https://i.imgur.com/b5e9qUA.png" tvg-id="cinema" group-title="Russia",Cinema
 http://catchup.videoline.ru/cinema/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Crimea 24 (576i)" tvg-logo="https://i.imgur.com/k4C0uvp.png" tvg-id="crimea24" group-title="Russia",Crimea 24 (576i)
-https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
-
 #EXTINF:-1 tvg-name="DanceHits80" tvg-logo="https://i.imgur.com/uMw3kks.png" tvg-id="dancehits80" group-title="Russia",DanceHits80
 http://dancehits80.denvs.ru:8080/index.m3u8
 
 #EXTINF:-1 tvg-name="Europa Plus TV" tvg-logo="https://i.imgur.com/GLc4qrc.png" tvg-id="europatv" group-title="Russia",Europa Plus TV
 http://31.148.48.15/Europa_Plus_HD/index.m3u8
+
+#EXTINF:-1 tvg-name="FON Music" tvg-logo="https://i.imgur.com/tXABQDE.png" tvg-id="fonmusic" group-title="Russia",FON Music
+https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8
 
 #EXTINF:-1 tvg-name="FoodTime" tvg-logo="https://i.imgur.com/gxCYAwH.png" tvg-id="foodtime" group-title="Russia",FoodTime
 http://31.148.48.15/Eda_Premium_HD/index.m3u8
@@ -14015,9 +13994,6 @@ https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
 #EXTINF:-1 tvg-name="Дон 24" tvg-logo="https://i.imgur.com/fW15la1.png" tvg-id="24" group-title="Russia",Дон 24
 https://donmedia.bonus-tv.ru/cdn/donmedia/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Дума ТВ" tvg-logo="https://i.imgur.com/JvlO3PU.png" tvg-id="" group-title="Russia",Дума ТВ
-https://dumatv.iptv2022.com/tracks-v2a1/mono.m3u8
-
 #EXTINF:-1 tvg-name="Евразия (Орск) (720p)" tvg-logo="https://i.imgur.com/4JUHIVS.png" tvg-id="" group-title="Russia",Евразия (Орск) (720p)
 https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
 
@@ -14083,6 +14059,9 @@ http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 
 #EXTINF:-1 tvg-name="КРИК-ТВ (Екатеринбург)" tvg-logo="https://i.postimg.cc/qRy8Jsq8/kriktv.png" tvg-id="" group-title="Russia",КРИК-ТВ (Екатеринбург)
 http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Крым 24" tvg-logo="https://i.imgur.com/k4C0uvp.png" tvg-id="24" group-title="Russia",Крым 24
+https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 
 #EXTINF:-1 tvg-name="Курай (Уфа) (576p)" tvg-logo="https://i.imgur.com/hZXBD9F.png" tvg-id="" group-title="Russia",Курай (Уфа) (576p)
 https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
@@ -14531,8 +14510,8 @@ http://66.102.120.18:8000/play/a03o/index.m3u8
 #EXTINF:-1 tvg-name="KSA Sports 2 (1080p)" tvg-logo="https://i.postimg.cc/4NBpxNfF/ksasports2.png" tvg-id="ksasports2" group-title="Saudi_arabia",KSA Sports 2 (1080p)
 http://66.102.120.18:8000/play/a03p/index.m3u8
 
-#EXTINF:-1 tvg-name="M+ (1080p)" tvg-logo="https://i.imgur.com/Ho8N310.png" tvg-id="m" group-title="Saudi_arabia",M+ (1080p)
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8
+#EXTINF:-1 tvg-name="M+" tvg-logo="https://i.imgur.com/Ho8N310.png" tvg-id="m" group-title="Saudi_arabia",M+
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8?ads.vf=6otIjpqWKPe
 
 #EXTINF:-1 tvg-name="Majid Al Mohandis (1080p)" tvg-logo="https://i.discogs.com/Fk9Bm8gTYJYeVXIJKX-EOGmYQ90sVQPtkIW5ZK4fydo/rs:fit/g:sm/q:90/h:372/w:412/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2OTY4/MzMtMTU2ODk0NjI5/MC01Njk2LmpwZWc.jpeg" tvg-id="majidalmohandis" group-title="Saudi_arabia",Majid Al Mohandis (1080p)
 https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8
@@ -14570,8 +14549,8 @@ https://shls-live-enc.edgenextcdn.net/out/v1/ea4275b6dc0840c198c17f6dc6f1ec49/in
 #EXTINF:-1 tvg-name="Rashid AlMajed (1080p)" tvg-logo="https://assets.mbcmood.com/channels/1720177618Rashid%20AlMajed.webp" tvg-id="rashidalmajed" group-title="Saudi_arabia",Rashid AlMajed (1080p)
 https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8
 
-#EXTINF:-1 tvg-name="Rotana Aflam+ (1080p)" tvg-logo="https://i.imgur.com/DLDfFpu.png" tvg-id="rotanaaflam" group-title="Saudi_arabia",Rotana Aflam+ (1080p)
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8
+#EXTINF:-1 tvg-name="Rotana Aflam+" tvg-logo="https://i.imgur.com/DLDfFpu.png" tvg-id="rotanaaflam" group-title="Saudi_arabia",Rotana Aflam+
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8?ads.vf=0PRJnP3xh_q
 
 #EXTINF:-1 tvg-name="Rotana FM KSA (720p)" tvg-logo="https://rotanaradios.com/wp-content/uploads/2024/10/Asset-4.png" tvg-id="rotanafmksa" group-title="Saudi_arabia",Rotana FM KSA (720p)
 rtmp://live.restream.io/pull/play_320121_94512612fd0e084bd284
@@ -14720,11 +14699,11 @@ http://lb.streaming.sk/senzi/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="TA3 Ⓢ" tvg-logo="https://i.imgur.com/kPFBxc9.png" tvg-id="ta3" group-title="Slovakia",TA3 Ⓢ
 https://sktv.plainrock127.xyz/get.php?x=TA3
 
-#EXTINF:-1 tvg-name=":Šport (1080p)" tvg-logo="https://i.imgur.com/oAtcxNZ.png" tvg-id="port" group-title="Slovakia",:Šport (1080p)
-http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
-
 #EXTINF:-1 tvg-name=":24 (1080p)" tvg-logo="https://i.imgur.com/tTCuczU.png" tvg-id="24" group-title="Slovakia",:24 (1080p)
 http://88.212.15.27/live/test_trojka_25p/playlist.m3u8
+
+#EXTINF:-1 tvg-name=":Šport (1080p)" tvg-logo="https://i.imgur.com/oAtcxNZ.png" tvg-id="port" group-title="Slovakia",:Šport (1080p)
+http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
 
 #EXTINF:-1 tvg-name="BTV (480p)" tvg-logo="https://i.imgur.com/5CZ6HHn.png" tvg-id="btv" group-title="Slovakia",BTV (480p)
 https://fs3.kabelko.sk/9011/index.m3u8?token=btv
@@ -16985,9 +16964,6 @@ http://cdn10.live-tv.od.ua:8081/7tvod/7tvod-abr/7tvod/7tvod/playlist.m3u8
 #EXTINF:-1 tvg-name="Cherniveckiy promin (720p)" tvg-logo="https://i.imgur.com/O9nQ5po.png" tvg-id="cherniveckiypromin" group-title="Ukraine",Cherniveckiy promin (720p)
 http://langate.tv/promin/live_720/index.m3u8
 
-#EXTINF:-1 tvg-name="Crimea 24 (576i)" tvg-logo="https://i.imgur.com/k4C0uvp.png" tvg-id="crimea24" group-title="Ukraine",Crimea 24 (576i)
-https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
-
 #EXTINF:-1 tvg-name="DniproTV (1080p)" tvg-logo="https://i.imgur.com/mbPTVh1.png" tvg-id="dniprotv" group-title="Ukraine",DniproTV (1080p)
 http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
 
@@ -17036,6 +17012,9 @@ https://live.m2.tv/hls3/stream.m3u8
 #EXTINF:-1 tvg-name="Micto (360p)" tvg-logo="https://i.imgur.com/NHjg1Jm.png" tvg-id="micto" group-title="Ukraine",Micto (360p)
 http://93.78.206.172:8080/stream3/stream.m3u8
 
+#EXTINF:-1 tvg-name="Millet (720p)" tvg-logo="https://i.imgur.com/hUjLRLy.png" tvg-id="millet" group-title="Ukraine",Millet (720p)
+https://live1.1tvcrimea.ru/milletlive.m3u8
+
 #EXTINF:-1 tvg-name="Pershiy XTV Media (576p)" tvg-logo="https://i.imgur.com/M7oDym3.png" tvg-id="pershiyxtvmedia" group-title="Ukraine",Pershiy XTV Media (576p)
 https://hls.xtvmedia.pp.ua:8443/hls/trk1tv.m3u8
 
@@ -17083,6 +17062,9 @@ http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
 
 #EXTINF:-1 tvg-name="За!ТВ" tvg-logo="https://i.imgur.com/pVPTl8J.png" tvg-id="" group-title="Ukraine",За!ТВ
 https://streaming.televizor-24-tochka.ru/live/25.m3u8
+
+#EXTINF:-1 tvg-name="Крым 24" tvg-logo="https://i.imgur.com/k4C0uvp.png" tvg-id="24" group-title="Ukraine",Крым 24
+https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 
 #EXTINF:-1 tvg-name="Ланет.TV (486p)" tvg-logo="https://i.imgur.com/Jdy4SoG.png" tvg-id="tv" group-title="Ukraine",Ланет.TV (486p)
 https://kiev1-cdn.lanet.tv/live/1008.m3u8
@@ -17171,9 +17153,6 @@ http://cdn10.live-tv.od.ua:8081/7tvod/7tvod-abr/7tvod/7tvod/playlist.m3u8
 #EXTINF:-1 tvg-name="Cherniveckiy promin (720p)" tvg-logo="https://i.imgur.com/O9nQ5po.png" tvg-id="cherniveckiypromin" group-title="Ukraine",Cherniveckiy promin (720p)
 http://langate.tv/promin/live_720/index.m3u8
 
-#EXTINF:-1 tvg-name="Crimea 24 (576i)" tvg-logo="https://i.imgur.com/k4C0uvp.png" tvg-id="crimea24" group-title="Ukraine",Crimea 24 (576i)
-https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
-
 #EXTINF:-1 tvg-name="DniproTV (1080p)" tvg-logo="https://i.imgur.com/mbPTVh1.png" tvg-id="dniprotv" group-title="Ukraine",DniproTV (1080p)
 http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
 
@@ -17222,6 +17201,9 @@ https://live.m2.tv/hls3/stream.m3u8
 #EXTINF:-1 tvg-name="Micto (360p)" tvg-logo="https://i.imgur.com/NHjg1Jm.png" tvg-id="micto" group-title="Ukraine",Micto (360p)
 http://93.78.206.172:8080/stream3/stream.m3u8
 
+#EXTINF:-1 tvg-name="Millet (720p)" tvg-logo="https://i.imgur.com/hUjLRLy.png" tvg-id="millet" group-title="Ukraine",Millet (720p)
+https://live1.1tvcrimea.ru/milletlive.m3u8
+
 #EXTINF:-1 tvg-name="Pershiy XTV Media (576p)" tvg-logo="https://i.imgur.com/M7oDym3.png" tvg-id="pershiyxtvmedia" group-title="Ukraine",Pershiy XTV Media (576p)
 https://hls.xtvmedia.pp.ua:8443/hls/trk1tv.m3u8
 
@@ -17269,6 +17251,9 @@ http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
 
 #EXTINF:-1 tvg-name="За!ТВ" tvg-logo="https://i.imgur.com/pVPTl8J.png" tvg-id="" group-title="Ukraine",За!ТВ
 https://streaming.televizor-24-tochka.ru/live/25.m3u8
+
+#EXTINF:-1 tvg-name="Крым 24" tvg-logo="https://i.imgur.com/k4C0uvp.png" tvg-id="24" group-title="Ukraine",Крым 24
+https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 
 #EXTINF:-1 tvg-name="Ланет.TV (486p)" tvg-logo="https://i.imgur.com/Jdy4SoG.png" tvg-id="tv" group-title="Ukraine",Ланет.TV (486p)
 https://kiev1-cdn.lanet.tv/live/1008.m3u8
@@ -21244,9 +21229,6 @@ https://fl1002.bozztv.com/gf-zarintv/index.m3u8
 
 #EXTINF:-1 tvg-name="Zoom TV Kurdish (720p)" tvg-logo="https://t4.ftcdn.net/jpg/03/88/22/21/360_F_388222175_D6PTsMoUyegpPJ63zvkecPsZAttc95mD.jpg" tvg-id="zoomtvkurdish" group-title="Usa",Zoom TV Kurdish (720p)
 #EXTVLCOPT:http-referrer=https://zoomnews.info/
-
-#EXTINF:-1 tvg-name="РТР Планета США" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" tvg-id="" group-title="Usa",РТР Планета США
-https://player.smotrim.ru/iframe/stream/live_id/cf22fa5c-e21a-433e-8317-7e8dd3150d6a
 
 #EXTINF:-1 tvg-name="ТНТ International" tvg-logo="https://i.imgur.com/l0RGbRI.png" tvg-id="international" group-title="Usa",ТНТ International
 https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
