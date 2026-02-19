@@ -155,12 +155,6 @@ https://stream-33.mazana.tv/slagr2.m3u
 #EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
 https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
-https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
-https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
 
@@ -188,8 +182,14 @@ https://ertflix.akamaized.net/ertlive/music/default/index.m3u8
 #EXTINF:-1 tvg-name="ART" tvg-logo="https://i.imgur.com/7TyUxLj.png" tvg-id="art" group-title="Greece",ART
 https://rumble.com/live-hls/7113t0/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Blue Sky" tvg-logo="https://i.imgur.com/rzuQslM.png" tvg-id="bluesky" group-title="Greece",Blue Sky
+https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Naftemporiki TV" tvg-logo="https://i.imgur.com/9OFdMud.png" tvg-id="naftemporikitv" group-title="Greece",Naftemporiki TV
 https://stream-188125.castr.net/631af9c016e5eace19ff9a5b/live_048998706a2311ee83b33fe7fbad252d/index.fmp4.m3u8
+
+#EXTINF:-1 tvg-name="Vergina" tvg-logo="https://i.imgur.com/cpF6wvR.png" tvg-id="vergina" group-title="Greece",Vergina
+https://verginanews.gr:8443/hls_live/stream1.m3u8
 
 #EXTINF:-1 tvg-name="Thessalia" tvg-logo="https://i.imgur.com/KXz67LY.png" tvg-id="thessalia" group-title="Greece",Thessalia
 https://thessaliachannel.gr:3339/live/thesstvlive.m3u8
@@ -406,9 +406,6 @@ https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8
 
 #EXTINF:-1 tvg-name="Uno Tv" tvg-logo="https://i.imgur.com/4PNbqqL.png" tvg-id="unotv" group-title="Italy",Uno Tv
 https://stream1.aswifi.it/unotv/live/index.m3u8
-
-#EXTINF:-1 tvg-name="Uno4 Tv" tvg-logo="https://i.imgur.com/wfPPpBA.png" tvg-id="uno4tv" group-title="Italy",Uno4 Tv
-https://cdn.uno4.it/index.m3u8
 
 #EXTINF:-1 tvg-name="Vera Tv" tvg-logo="https://i.imgur.com/djMvkvN.png" tvg-id="veratv" group-title="Italy",Vera Tv
 http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8
