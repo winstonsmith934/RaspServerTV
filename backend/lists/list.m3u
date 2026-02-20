@@ -2408,9 +2408,6 @@ http://123.175.209.52:9003/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-13 (1080p)" tvg-logo="https://i.imgur.com/6MTar6J.png" tvg-id="cctv13" group-title="China",CCTV-13 (1080p)
 https://cdn3.163189.xyz/163189/cctv13
 
-#EXTINF:-1 tvg-name="CCTV-14 (2160p)" tvg-logo="https://i.imgur.com/c5SXW7i.png" tvg-id="cctv14" group-title="China",CCTV-14 (2160p)
-http://123.175.209.52:9003/hls/15/index.m3u8
-
 #EXTINF:-1 tvg-name="CCTV-15 (576p)" tvg-logo="https://i.imgur.com/CCV0eRG.png" tvg-id="cctv15" group-title="China",CCTV-15 (576p)
 http://123.175.209.52:9003/hls/16/index.m3u8
 
@@ -7403,6 +7400,9 @@ https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
 #EXTINF:-1 tvg-name="KTV HD (360p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KTV_HD/images/LOGO_HD/image.png" tvg-id="ktv" group-title="India",KTV HD (360p)
 http://198.27.83.207:2550/KTV_SD/index.m3u8
 
+#EXTINF:-1 tvg-name="Life TV (720p)" tvg-logo="https://i.ibb.co/v1C0bdR/logo-1.png" tvg-id="lifetv" group-title="India",Life TV (720p)
+https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8
+
 #EXTINF:-1 tvg-name="Living India News (1080p)" tvg-logo="https://i.imgur.com/YikaJvd.png" tvg-id="livingindianews" group-title="India",Living India News (1080p)
 https://stream.ottlive.co.in/livingindia/index.m3u8
 
@@ -7823,8 +7823,8 @@ https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeesalaam/v1/manifest/611d79b1
 #EXTINF:-1 tvg-name="Salvation TV (1080p)" tvg-logo="https://content.jdmagicbox.com/comp/bangalore/l5/080pxx80.xx80.150207120517.e4l5/catalogue/salvation-tv-network-pvt-m-g-road-bangalore-religious-organizations-1sabn2d.jpg" tvg-id="salvationtv" group-title="India",Salvation TV (1080p)
 https://ktismaservers.in:3902/live/salvationtvlive.m3u8
 
-#EXTINF:-1 tvg-name="Samay Kolkata (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Samay_Kolkata.png" tvg-id="samaykolkata" group-title="India",Samay Kolkata (720p)
-https://5dd3981940faa.streamlock.net/kbcration/kbcration/playlist.m3u8
+#EXTINF:-1 tvg-name="Samay Kolkata (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Samay_Kolkata.png" tvg-id="samaykolkata" group-title="India",Samay Kolkata (1080p)
+https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8
 
 #EXTINF:-1 tvg-name="Sandesh News (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sandesh_News.png" tvg-id="sandeshnews" group-title="India",Sandesh News (1080p)
 https://dkshlpp7ugzua.cloudfront.net/sandeshnews/index.m3u8
@@ -9698,6 +9698,9 @@ https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8
 #EXTINF:-1 tvg-name="12 Tv Parma" tvg-logo="https://i.imgur.com/xnUgx6b.png" tvg-id="12tvparma" group-title="Italy",12 Tv Parma
 https://5929b138b139d.streamlock.net/12TVParma/livestream/playlist.m3u8
 
+#EXTINF:-1 tvg-name="4 You Tv" tvg-logo="https://i.imgur.com/NN0cSbz.png" tvg-id="4youtv" group-title="Italy",4 You Tv
+https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8
+
 #EXTINF:-1 tvg-name="Alpauno" tvg-logo="https://i.imgur.com/4QKFtUa.png" tvg-id="alpauno" group-title="Italy",Alpauno
 https://5f22d76e220e1.streamlock.net/alpaunotv/alpaunotv/playlist.m3u8
 
@@ -9775,9 +9778,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -9883,9 +9883,6 @@ https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Italia 2 Tv" tvg-logo="https://i.imgur.com/ISbxfY0.png" tvg-id="italia2tv" group-title="Italy",Italia 2 Tv
 https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Italia 7" tvg-logo="https://i.imgur.com/YBXkY4w.png" tvg-id="italia7" group-title="Italy",Italia 7
-https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Italia 8 Prestige" tvg-logo="https://i.imgur.com/uDxWI4a.png" tvg-id="italia8prestige" group-title="Italy",Italia 8 Prestige
 https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8
@@ -10087,9 +10084,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
