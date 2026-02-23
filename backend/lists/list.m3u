@@ -2843,6 +2843,9 @@ https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcast
 #EXTINF:-1 tvg-name="TV Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png" tvg-id="tvnova" group-title="Croatia",TV Nova
 https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 
+#EXTINF:-1 tvg-name="TV Jadran" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/9a/Tv_jadran_logo.png" tvg-id="tvjadran" group-title="Croatia",TV Jadran
+https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
+
 #EXTINF:-1 tvg-name="Libertas TV" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/8/8a/LibertasTV.png" tvg-id="libertastv" group-title="Croatia",Libertas TV
 https://stream.luci.xyz/hls/LTV.m3u8
 
@@ -5951,9 +5954,6 @@ https://rtmp.win:3650/live/diontvlive.m3u8
 #EXTINF:-1 tvg-name="Egnatia" tvg-logo="https://i.imgur.com/zuyYIca.png" tvg-id="egnatia" group-title="Greece",Egnatia
 https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u
 
-#EXTINF:-1 tvg-name="Euro" tvg-logo="https://i.imgur.com/mHCk05E.png" tvg-id="euro" group-title="Greece",Euro
-https://live20.bozztv.com/akamaissh101/ssh101/eurotvlive/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Gnomi" tvg-logo="https://i.imgur.com/mHCk05E.png" tvg-id="gnomi" group-title="Greece",Gnomi
 https://live.streams.ovh:8081/gnomitv/index.m3u8
 
@@ -5971,9 +5971,6 @@ https://verginanews.gr:8443/hls_live/stream1.m3u8
 
 #EXTINF:-1 tvg-name="Best TV" tvg-logo="https://i.imgur.com/VA13E3w.png" tvg-id="besttv" group-title="Greece",Best TV
 https://besttv.siliconweb.com/bestTV/live_abr/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Hlektra" tvg-logo="https://i.imgur.com/LbogUPS.png" tvg-id="hlektra" group-title="Greece",Hlektra
-https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Ionian Channel" tvg-logo="https://i.imgur.com/ADVYeQd.png" tvg-id="ionianchannel" group-title="Greece",Ionian Channel
 https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8
@@ -6019,9 +6016,6 @@ https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Creta" tvg-logo="https://i.imgur.com/x0qK8IE.png" tvg-id="creta" group-title="Greece",Creta
 http://live.streams.ovh:1935/tvcreta/tvcreta/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Kriti 1" tvg-logo="https://i.imgur.com/C1ucQeC.png" tvg-id="kriti1" group-title="Greece",Kriti 1
-https://livetv.streams.ovh:8081/kriti/index.m3u8
 
 #EXTINF:-1 tvg-name="Kriti TV" tvg-logo="https://i.imgur.com/eLhYMmc.png" tvg-id="krititv" group-title="Greece",Kriti TV
 https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8
@@ -9857,6 +9851,9 @@ https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
 #EXTINF:-1 tvg-name="Extra Tv" tvg-logo="https://i.imgur.com/KCBurST.png" tvg-id="tv" group-title="Italy",Extra Tv
 https://rst2.saiuzwebnetwork.it:8081/extratvlive/index.m3u8
 
+#EXTINF:-1 tvg-name="Fano Tv" tvg-logo="https://i.imgur.com/orqEzJ6.png" tvg-id="fanotv" group-title="Italy",Fano Tv
+https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8
+
 #EXTINF:-1 tvg-name="GRP Televisione" tvg-logo="https://i.imgur.com/1zNPpVE.png" tvg-id="grptelevisione" group-title="Italy",GRP Televisione
 https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5.m3u8
 
@@ -10160,6 +10157,9 @@ http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
 #EXTINF:-1 tvg-name="T9" tvg-logo="https://i.imgur.com/XzL05Py.png" tvg-id="t9" group-title="Italy",T9
 https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8
 
+#EXTINF:-1 tvg-name="TRL Tele Radio Leo" tvg-logo="https://i.imgur.com/qAagkJT.png" tvg-id="trlteleradioleo" group-title="Italy",TRL Tele Radio Leo
+https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Tcf Tv" tvg-logo="https://i.imgur.com/fiylFs2.jpg" tvg-id="tcftv" group-title="Italy",Tcf Tv
 https://stream10.xdevel.com/video1s977294-1864/stream/playlist.m3u8
 
@@ -10183,6 +10183,9 @@ https://5e73cf528f404.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Bari" tvg-logo="https://i.imgur.com/HYSz4rx.png" tvg-id="telebari" group-title="Italy",Tele Bari
 https://w1.mediastreaming.it/telebari/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Tele Belluno" tvg-logo="https://i.imgur.com/YiM2Z7E.png" tvg-id="telebelluno" group-title="Italy",Tele Belluno
+https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8
 
 #EXTINF:-1 tvg-name="Tele Boario" tvg-logo="https://i.imgur.com/LlLD3L6.png" tvg-id="teleboario" group-title="Italy",Tele Boario
 https://stream7.xdevel.com/video0s976425-1244/stream/playlist_dvr.m3u8
@@ -11818,6 +11821,9 @@ http://151.236.247.171:8080/nova/index.m3u8
 
 #EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
 https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
+
+#EXTINF:-1 tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" tvg-id="1" group-title="North_macedonia",ЗОНА М1 ТВ
+https://zonam1.ddns.net/hls/stream1.m3u8
 
 #EXTINF:-1 tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" tvg-id="" group-title="North_macedonia",Наша ТВ
 https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
