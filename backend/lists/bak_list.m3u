@@ -182,9 +182,6 @@ https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1 tvg-name="Aire de Santa Fe (1080p)" tvg-logo="https://i.imgur.com/60vSWW0.png" tvg-id="airedesantafe" group-title="Argentina",Aire de Santa Fe (1080p)
 https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Alterna TV (720p)" tvg-logo="https://alternatv.ar/alternatv.png" tvg-id="alternatv" group-title="Argentina",Alterna TV (720p)
-https://tv.alterna.ar/stream/hls/live.m3u8
-
 #EXTINF:-1 tvg-name=" como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36" group-title="General"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/512px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" tvg-id="comogeckochrome112000mobilesafari53736grouptitlegeneral" group-title="Argentina", como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36" group-title="General"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 
@@ -754,6 +751,9 @@ https://m317.video-stream-hosting.de/gzSoftware-live/_definst_/smil:livestream.s
 
 #EXTINF:-1 tvg-name="ServusTV HD" tvg-logo="https://i.imgur.com/6W637Gn.png" tvg-id="servustv" group-title="Austria",ServusTV HD
 https://viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8
+
+#EXTINF:-1 tvg-name="Sportdigital FUSSBALL HD (1080p)" tvg-logo="https://i.imgur.com/NDbWxqF.png" tvg-id="sportdigitalfussball" group-title="Austria",Sportdigital FUSSBALL HD (1080p)
+https://live20.bozztv.com/akamaissh101/ssh101/sportdigtal1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Steiermark TV (1080p)" tvg-logo="https://i.imgur.com/AJrUPze.png" tvg-id="steiermarktv" group-title="Austria",Steiermark TV (1080p)
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=
@@ -3533,11 +3533,11 @@ https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="Yle Teema Fem Ⓖ" tvg-logo="https://i.imgur.com/iDljufz.png" tvg-id="yleteemafem" group-title="Finland",Yle Teema Fem Ⓖ
 https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8
 
+#EXTINF:-1 tvg-name="MTV Sub" tvg-logo="https://i.imgur.com/VRCuxQt.png" tvg-id="mtvsub" group-title="Finland",MTV Sub
+https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
 https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
-https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
 https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
@@ -3550,6 +3550,9 @@ https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Star Channel Finland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/640px-Star_Channel_2020.svg.png" tvg-id="starchannelfinland" group-title="Finland",Star Channel Finland
 https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
+https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -5198,6 +5201,9 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6
 #EXTINF:-1 tvg-name="SpongeBob Schwammkopf" tvg-logo="https://i.imgur.com/NIsgNvI.png" tvg-id="spongebobschwammkopf" group-title="Germany",SpongeBob Schwammkopf
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d00e8adaab96b5635b2a005/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=62b227dc-b436-4646-95c2-26345773df69&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=08e94cb5-cbfe-47bf-8a8c-06c2fb63bded
 
+#EXTINF:-1 tvg-name="Sportdigital FUSSBALL HD (1080p)" tvg-logo="https://i.imgur.com/NDbWxqF.png" tvg-id="sportdigitalfussball" group-title="Germany",Sportdigital FUSSBALL HD (1080p)
+https://live20.bozztv.com/akamaissh101/ssh101/sportdigtal1/playlist.m3u8
+
 #EXTINF:-1 tvg-name="SR Fernsehen (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/512px-SR_Fernsehen_Logo_2023.svg.png" tvg-id="srfernsehen" group-title="Germany",SR Fernsehen (720p)
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
 
@@ -5780,6 +5786,9 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6
 #EXTINF:-1 tvg-name="SpongeBob Schwammkopf" tvg-logo="https://i.imgur.com/NIsgNvI.png" tvg-id="spongebobschwammkopf" group-title="Germany",SpongeBob Schwammkopf
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d00e8adaab96b5635b2a005/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=62b227dc-b436-4646-95c2-26345773df69&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=08e94cb5-cbfe-47bf-8a8c-06c2fb63bded
 
+#EXTINF:-1 tvg-name="Sportdigital FUSSBALL HD (1080p)" tvg-logo="https://i.imgur.com/NDbWxqF.png" tvg-id="sportdigitalfussball" group-title="Germany",Sportdigital FUSSBALL HD (1080p)
+https://live20.bozztv.com/akamaissh101/ssh101/sportdigtal1/playlist.m3u8
+
 #EXTINF:-1 tvg-name="SR Fernsehen (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/512px-SR_Fernsehen_Logo_2023.svg.png" tvg-id="srfernsehen" group-title="Germany",SR Fernsehen (720p)
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
 
@@ -5944,6 +5953,9 @@ https://live.streams.ovh:8081/gnomitv/index.m3u8
 
 #EXTINF:-1 tvg-name="Pella" tvg-logo="https://i.imgur.com/pwUkkGL.jpeg" tvg-id="pella" group-title="Greece",Pella
 https://video.streams.ovh:1936/pellatv/pellatv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pontos" tvg-logo="https://i.imgur.com/sbTxP6o.png" tvg-id="pontos" group-title="Greece",Pontos
+https://rtmp.win:3842/live/recme1live.m3u8
 
 #EXTINF:-1 tvg-name="TV 100" tvg-logo="https://i.imgur.com/9rtf8OR.png" tvg-id="tv100" group-title="Greece",TV 100
 https://panel.gwebstream.eu:19360/tv100skg/tv100skg.m3u8
@@ -7304,6 +7316,9 @@ https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccda
 #EXTINF:-1 tvg-name="Janta TV (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JANTA_TV/images/LOGO_HD/image.png" tvg-id="jantatv" group-title="India",Janta TV (1080p)
 https://live.jswk.online/IK_RTPM/live/index.m3u8
 
+#EXTINF:-1 tvg-name="Jaya Plus (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_PLUS/images/LOGO_HD/image.png" tvg-id="jaya" group-title="India",Jaya Plus (576p)
+https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8
+
 #EXTINF:-1 tvg-name="Jaya TV (360p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png" tvg-id="jayatv" group-title="India",Jaya TV (360p)
 http://198.27.83.207:2550/JAYA_TV_SD/index.m3u8
 
@@ -7804,6 +7819,9 @@ https://ktismaservers.in:3902/live/salvationtvlive.m3u8
 
 #EXTINF:-1 tvg-name="Samay Kolkata (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Samay_Kolkata.png" tvg-id="samaykolkata" group-title="India",Samay Kolkata (1080p)
 https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8
+
+#EXTINF:-1 tvg-name="Sana Tv" tvg-logo="https://i.imgur.com/CR7DGBv.png" tvg-id="sanatv" group-title="India",Sana Tv
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/index.m3u8?ads.vf=-nqSBaSbTTO
 
 #EXTINF:-1 tvg-name="Sandesh News (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sandesh_News.png" tvg-id="sandeshnews" group-title="India",Sandesh News (1080p)
 https://dkshlpp7ugzua.cloudfront.net/sandeshnews/index.m3u8
@@ -9766,9 +9784,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -12250,6 +12265,9 @@ https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
 
 #EXTINF:-1 tvg-name="TVP Polonia (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png" tvg-id="tvppolonia" group-title="Poland",TVP Polonia (1080p)
 https://lowa8026-cmyk.github.io/tvpvod/399723.m3u8
+
+#EXTINF:-1 tvg-name="TVP Sport (1080p)" tvg-logo="https://i.imgur.com/JUZDOCO.png" tvg-id="tvpsport" group-title="Poland",TVP Sport (1080p)
+https://estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd
 
 #EXTINF:-1 tvg-name="TVP World (1080p)" tvg-logo="https://i.imgur.com/lB4MgRI.png" tvg-id="tvpworld" group-title="Poland",TVP World (1080p)
 https://lowa8026-cmyk.github.io/tvpvod/399731.m3u8
@@ -15082,6 +15100,9 @@ https://streameurope.ch/live/shivalivetv.m3u8
 
 #EXTINF:-1 tvg-name="Sivan TV (1080p)" tvg-logo="https://i.ibb.co/b3HG9wm/Logo-site.png" tvg-id="sivantv" group-title="Switzerland",Sivan TV (1080p)
 http://sivantv.livebox.co.in/sivantvhls/sivan.m3u8
+
+#EXTINF:-1 tvg-name="Sportdigital FUSSBALL HD (1080p)" tvg-logo="https://i.imgur.com/NDbWxqF.png" tvg-id="sportdigitalfussball" group-title="Switzerland",Sportdigital FUSSBALL HD (1080p)
+https://live20.bozztv.com/akamaissh101/ssh101/sportdigtal1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="SRF 1 (1080p)" tvg-logo="https://i.imgur.com/xgml2Pl.png" tvg-id="srf1" group-title="Switzerland",SRF 1 (1080p)
 https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8
@@ -17953,6 +17974,9 @@ https://cvtv.cvalley.net/hls/KTVOCBS/KTVOCBS.m3u8
 
 #EXTINF:-1 tvg-name="KTVO-DT3 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/512px-Comet_logo.svg.png" tvg-id="ktvodt3" group-title="Usa",KTVO-DT3 (720p)
 https://cvtv.cvalley.net/hls/KTVOComet/KTVOComet.m3u8
+
+#EXTINF:-1 tvg-name="KUVN-DT1" tvg-logo="https://i.imgur.com/PGJOFD4.png" tvg-id="kuvndt1" group-title="Usa",KUVN-DT1
+https://streaming-live-fcdn.api.prd.univisionnow.com/kuvn/kuvn.isml/hls/kuvn.m3u8
 
 #EXTINF:-1 tvg-name="KVEA-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png" tvg-id="kveadt1" group-title="Usa",KVEA-DT1
 http://104.238.205.28:9090/278661_.m3u8
