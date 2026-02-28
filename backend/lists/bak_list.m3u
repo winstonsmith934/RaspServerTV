@@ -3371,6 +3371,12 @@ https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
 https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
+https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
+https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Kutonen" tvg-logo="https://i.imgur.com/4giVyxb.png" tvg-id="kutonen" group-title="Finland",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
 
@@ -4400,8 +4406,8 @@ https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="EuroAl TV (720p)" tvg-logo="https://i.imgur.com/0GrDAWx.png" tvg-id="euroaltv" group-title="Germany",EuroAl TV (720p)
 http://5.135.92.131:1935/live/euroAl/playlist.m3u8
 
-#EXTINF:-1 tvg-name="EWTN Germany (720p)" tvg-logo="https://i.imgur.com/NXeygNk.png" tvg-id="ewtngermany" group-title="Germany",EWTN Germany (720p)
-https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-name="EWTN" tvg-logo="https://i.imgur.com/NXeygNk.png" tvg-id="ewtn" group-title="Germany",EWTN
+https://dash3.antik.sk/live/test_ewtn_tizen/playlist.m3u8
 
 #EXTINF:-1 tvg-name="FIFA+ German (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" tvg-id="fifagerman" group-title="Germany",FIFA+ German (720p)
 https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8
@@ -4796,8 +4802,8 @@ https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="EuroAl TV (720p)" tvg-logo="https://i.imgur.com/0GrDAWx.png" tvg-id="euroaltv" group-title="Germany",EuroAl TV (720p)
 http://5.135.92.131:1935/live/euroAl/playlist.m3u8
 
-#EXTINF:-1 tvg-name="EWTN Germany (720p)" tvg-logo="https://i.imgur.com/NXeygNk.png" tvg-id="ewtngermany" group-title="Germany",EWTN Germany (720p)
-https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-name="EWTN" tvg-logo="https://i.imgur.com/NXeygNk.png" tvg-id="ewtn" group-title="Germany",EWTN
+https://dash3.antik.sk/live/test_ewtn_tizen/playlist.m3u8
 
 #EXTINF:-1 tvg-name="FIFA+ German (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" tvg-id="fifagerman" group-title="Germany",FIFA+ German (720p)
 https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8
@@ -6002,6 +6008,9 @@ https://mumt05.tangotv.in/ASSAMTALKS/index.m3u8
 #EXTINF:-1 tvg-name="B4U Bhojpuri (1080p)" tvg-logo="https://i.imgur.com/NwOQUDp.png" tvg-id="b4ubhojpuri" group-title="India",B4U Bhojpuri (1080p)
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
 
+#EXTINF:-1 tvg-name="B4U Hitz (576p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="b4uhitz" group-title="India",B4U Hitz (576p)
+http://115.42.65.142:9981/stream/channelid/1099703605
+
 #EXTINF:-1 tvg-name="B4U Music (1080p)" tvg-logo="https://i.imgur.com/KSxPLJA.png" tvg-id="b4umusic" group-title="India",B4U Music (1080p)
 https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8
 
@@ -7187,7 +7196,10 @@ http://161.248.38.40:8000/play/a06n/index.m3u8
 #EXTINF:-1 tvg-name="Star Sports 2 Hindi HD (480p)" tvg-logo="https://i.imgur.com/kHerF19.png" tvg-id="starsports2hindi" group-title="India",Star Sports 2 Hindi HD (480p)
 http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8
 
-#EXTINF:-1 tvg-name="Star Sports 2 Tamil (1080p)" tvg-logo="https://i.imgur.com/eWPoUxB.png" tvg-id="starsports2tamil" group-title="India",Star Sports 2 Tamil (1080p)
+#EXTINF:-1 tvg-name="Star Sports 2 Tamil (576p)" tvg-logo="https://i.imgur.com/eWPoUxB.png" tvg-id="starsports2tamil" group-title="India",Star Sports 2 Tamil (576p)
+http://103.229.254.25:7001/play/a0dc/index.m3u8
+
+#EXTINF:-1 tvg-name="Star Sports 2 Tamil HD (1080p)" tvg-logo="https://i.imgur.com/eWPoUxB.png" tvg-id="starsports2tamil" group-title="India",Star Sports 2 Tamil HD (1080p)
 http://103.229.254.25:7001/play/a0d1/index.m3u8
 
 #EXTINF:-1 tvg-name="Star Sports Select 1 HD (1080p)" tvg-logo="https://i.imgur.com/Mh9tKPx.png" tvg-id="starsportsselect1" group-title="India",Star Sports Select 1 HD (1080p)
@@ -8378,7 +8390,7 @@ https://korhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Persiana Latino" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-latino-fr.png" tvg-id="persianalatino" group-title="Iran",Persiana Latino
 https://latinohls.persiana.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-name="Persiana Medical" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="persianamedical" group-title="Iran",Persiana Medical
+#EXTINF:-1 tvg-name="Persiana Medical" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-medical-fr.png" tvg-id="persianamedical" group-title="Iran",Persiana Medical
 https://phd2hls.persiana.live/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="Persiana Music" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="persianamusic" group-title="Iran",Persiana Music
@@ -8399,7 +8411,7 @@ https://onehls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Persiana Teen" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-teen-fr.png" tvg-id="persianateen" group-title="Iran",Persiana Teen
 https://kphls.persiana.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-name="Persiana Travel" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="persianatravel" group-title="Iran",Persiana Travel
+#EXTINF:-1 tvg-name="Persiana Travel" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-travel-fr.png" tvg-id="persianatravel" group-title="Iran",Persiana Travel
 https://ptravelhls.persiana.live/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="Persiana Turkiye" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-turkiye-fr.png" tvg-id="persianaturkiye" group-title="Iran",Persiana Turkiye
@@ -8945,9 +8957,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
-#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -9049,9 +9058,6 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" tvg-id="casasanremotv" group-title="Italy",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="castrovillaritv" group-title="Italy",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" tvg-id="cittacelestetv" group-title="Italy",Cittaceleste Tv
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -9358,9 +9364,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -12379,6 +12382,9 @@ http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 
 #EXTINF:-1 tvg-name="Leomax 24 (1080p)" tvg-logo="https://i.imgur.com/qU9ohQu.png" tvg-id="leomax24" group-title="Russia",Leomax 24 (1080p)
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Match! Strana" tvg-logo="https://i.imgur.com/X02s2UE.png" tvg-id="matchstrana" group-title="Russia",Match! Strana
+http://31.148.48.15/Match_Strana/index.m3u8
 
 #EXTINF:-1 tvg-name="MMA-TV.com" tvg-logo="https://i.imgur.com/QhdxNsB.png" tvg-id="mmatvcom" group-title="Russia",MMA-TV.com
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
@@ -16124,8 +16130,8 @@ https://buenapark.cablecast.tv/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-name="Burbank Channel (720p)" tvg-logo="https://i.imgur.com/SpkR1Fb.png" tvg-id="burbankchannel" group-title="Usa",Burbank Channel (720p)
 https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/burbank/G0240_009/playlist.m3u8
 
-#EXTINF:-1 tvg-name="BUZZR (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/512px-Buzzr_logo.svg.png" tvg-id="buzzr" group-title="Usa",BUZZR (720p)
-https://aegis-cloudfront-1.tubi.video/d4038326-a3e3-4aba-b1f1-f0526c912c74/playlist.m3u8
+#EXTINF:-1 tvg-name="Buzzr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/512px-Buzzr_logo.svg.png" tvg-id="buzzr" group-title="Usa",Buzzr
+https://buzzrota-ono.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="BX Arts (720p)" tvg-logo="https://i.imgur.com/PF71rdZ.png" tvg-id="bxarts" group-title="Usa",BX Arts (720p)
 https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8
@@ -16448,7 +16454,7 @@ https://linear-896.frequency.stream/dist/xumo/896/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-name="Dr. Gene Scott (1080p)" tvg-logo="https://i.imgur.com/Db3EI19.png" tvg-id="drgenescott" group-title="Usa",Dr. Gene Scott (1080p)
 https://wescottcc.piksel.tech/hls/live/2041478/adp/playlist.m3u8
 
-#EXTINF:-1 tvg-name="DraftKings Network" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="draftkingsnetwork" group-title="Usa",DraftKings Network
+#EXTINF:-1 tvg-name="DraftKings Network" tvg-logo="https://i.imgur.com/SFYhgrt.png" tvg-id="draftkingsnetwork" group-title="Usa",DraftKings Network
 https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
 
 #EXTINF:-1 tvg-name="Dry Bar Comedy (720p)" tvg-logo="https://i.imgur.com/3N2C60N.png" tvg-id="drybarcomedy" group-title="Usa",Dry Bar Comedy (720p)
@@ -16499,10 +16505,10 @@ http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
 #EXTINF:-1 tvg-name="Failarmy International (720p)" tvg-logo="https://i.imgur.com/VIpQJxL.png" tvg-id="failarmyinternational" group-title="Usa",Failarmy International (720p)
 https://failarmy-international-au.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="FanDuel Racing" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="fanduelracing" group-title="Usa",FanDuel Racing
+#EXTINF:-1 tvg-name="FanDuel Racing" tvg-logo="https://i.imgur.com/84lMjSj.png" tvg-id="fanduelracing" group-title="Usa",FanDuel Racing
 https://d3ehq1uaxory6w.cloudfront.net/out/v1/35c05f080f4e49a4b4eb031b5a14e505/TVG2index_2.m3u8
 
-#EXTINF:-1 tvg-name="FanDuel TV (720p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="fandueltv" group-title="Usa",FanDuel TV (720p)
+#EXTINF:-1 tvg-name="FanDuel TV (720p)" tvg-logo="https://i.imgur.com/YPHrFU0.png" tvg-id="fandueltv" group-title="Usa",FanDuel TV (720p)
 https://d2jl8r92tdc3f1.cloudfront.net/out/v1/59419700344b4625b7cb0693ba265ea3/TVGindex_1.m3u8
 
 #EXTINF:-1 tvg-name="Fashion Finds" tvg-logo="https://i.imgur.com/GvDRZgq.png" tvg-id="fashionfinds" group-title="Usa",Fashion Finds
@@ -17095,6 +17101,9 @@ https://reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8
 
 #EXTINF:-1 tvg-name="Loveland TV (Loveland CO) (1080p)" tvg-logo="https://i.imgur.com/K9eCdXD.png" tvg-id="lovelandtv" group-title="Usa",Loveland TV (Loveland CO) (1080p)
 https://reflect-cityofloveland-co.cablecast.tv/live-3/live/live.m3u8
+
+#EXTINF:-1 tvg-name="LoveWorld USA (720p)" tvg-logo="https://img.icons8.com/office40/512/raspberry-pi.png" tvg-id="loveworldusa" group-title="Usa",LoveWorld USA (720p)
+https://cdn3.wowza.com/5/RGtVZkFxL3FOQkxX/LWU/ngrp:lwu.stream_all/playlist.m3u8
 
 #EXTINF:-1 tvg-name="LPTV (1080p)" tvg-logo="https://i.imgur.com/d5w2pT4.png" tvg-id="lptv" group-title="Usa",LPTV (1080p)
 https://livestream.telvue.com/lexmedia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia1/stream1/playlist.m3u8
@@ -18041,6 +18050,9 @@ https://xumo-xumoent-vc-107-xmuvk.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 tvg-name="Us Weekly TV" tvg-logo="https://i.imgur.com/IMsk88B.png" tvg-id="usweeklytv" group-title="Usa",Us Weekly TV
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/us-weekly-tv/master.m3u8?ads.vf=IeWXlf9QgFK
 
+#EXTINF:-1 tvg-name="USA Today" tvg-logo="https://i.imgur.com/37K0AZX.png" tvg-id="usatoday" group-title="Usa",USA Today
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Vallejo Community Access Television (V-CAT) (Vallejo CA) (480p)" tvg-logo="https://i.imgur.com/OrRSj8q.png" tvg-id="vallejocommunityaccesstelevision" group-title="Usa",Vallejo Community Access Television (V-CAT) (Vallejo CA) (480p)
 https://vallejo.cablecast.tv/live-3/live/live.m3u8
 
@@ -18322,6 +18334,9 @@ http://68.251.105.81:5004/auto/v11.2
 
 #EXTINF:-1 tvg-name="WTTW-DT3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Create_TV_network_logo.svg/512px-Create_TV_network_logo.svg.png" tvg-id="wttwdt3" group-title="Usa",WTTW-DT3
 http://68.251.105.81:5004/auto/v11.3
+
+#EXTINF:-1 tvg-name="WTVJ-DT1 (1080p)" tvg-logo="https://i.imgur.com/p3HXpSv.png" tvg-id="wtvjdt1" group-title="Usa",WTVJ-DT1 (1080p)
+https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8
 
 #EXTINF:-1 tvg-name="WTVQ ABC 36 News (Lexington KY) (720p)" tvg-logo="https://i.imgur.com/XIoBeja.png" tvg-id="wtvqabc36news" group-title="Usa",WTVQ ABC 36 News (Lexington KY) (720p)
 https://townnews.g-mana.live/media/14d1fd2c-0548-4803-80ad-6657831a7981/main.m3u8
