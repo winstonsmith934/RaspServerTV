@@ -2732,12 +2732,6 @@ http://185.62.75.22:1935/trend/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Nova (720p)" tvg-logo="https://i.imgur.com/gFjJ7YB.png" tvg-id="tvnova" group-title="Croatia",TV Nova (720p)
 https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 
-#EXTINF:-1 tvg-name="RIK 1 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Logo_RIK_1_2017.svg/640px-Logo_RIK_1_2017.svg.png" tvg-id="rik1" group-title="Cyprus",RIK 1 Ⓢ
-http://l6.cloudskep.com/tvb6/rik1-1/mpeg.2ts
-
-#EXTINF:-1 tvg-name="RIK 2 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Logo_RIK_2_2017.svg/640px-Logo_RIK_2_2017.svg.png" tvg-id="rik2" group-title="Cyprus",RIK 2 Ⓢ
-http://l6.cloudskep.com/tvb6/rik2-1/mpeg.2ts
-
 #EXTINF:-1 tvg-name="RIK Sat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Logo_RIK_Sat_2017.svg/640px-Logo_RIK_Sat_2017.svg.png" tvg-id="riksat" group-title="Cyprus",RIK Sat
 https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
 
@@ -3424,9 +3418,6 @@ https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="National Geographic Finland Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-id="nationalgeographicfinland" group-title="Finland",National Geographic Finland Ⓖ
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Viaplay TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Viaplay_TV_logo.svg/640px-Viaplay_TV_logo.svg.png" tvg-id="viaplaytv" group-title="Finland",Viaplay TV
-https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="OnniTV" tvg-logo="https://i.imgur.com/HzILf2H.png" tvg-id="onnitv" group-title="Finland",OnniTV
 https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8?organizationId=83459409&suiteItemId=83459780
@@ -5299,6 +5290,9 @@ https://rtmp.win:3650/live/diontvlive.m3u8
 
 #EXTINF:-1 tvg-name="Egnatia" tvg-logo="https://i.imgur.com/zuyYIca.png" tvg-id="egnatia" group-title="Greece",Egnatia
 https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u
+
+#EXTINF:-1 tvg-name="Euro" tvg-logo="https://i.imgur.com/mHCk05E.png" tvg-id="euro" group-title="Greece",Euro
+https://live20.bozztv.com/akamaissh101/ssh101/eurotvlive/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Gnomi" tvg-logo="https://i.imgur.com/mHCk05E.png" tvg-id="gnomi" group-title="Greece",Gnomi
 https://live.streams.ovh:8081/gnomitv/index.m3u8
@@ -9572,12 +9566,6 @@ https://dc3.telesveva.com:4433/news24.mp4
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="nuovatvnazionale" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
-
-#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
-https://nuovatv.net:8443/tv2/stream.m3u8
-
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -9715,9 +9703,6 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -10021,9 +10006,6 @@ https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tv Uno" tvg-logo="https://i.imgur.com/OtCwYsh.jpg" tvg-id="tvuno" group-title="Italy",Tv Uno
 http://ftp.tiscali.it/francescovernata/TVUNO/monoscopioTvUNOint-1.wmv
-
-#EXTINF:-1 tvg-name="Tv Yes" tvg-logo="https://i.imgur.com/1wsO8U7.png" tvg-id="tvyes" group-title="Italy",Tv Yes
-https://stream1.aswifi.it/radioyes/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Tva Vicenza" tvg-logo="https://i.imgur.com/FtFuPCC.png" tvg-id="tvavicenza" group-title="Italy",Tva Vicenza
 http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8
@@ -11938,9 +11920,6 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RTP2 Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4d/Rtp2_2016_logo.png" tvg-id="rtp2" group-title="Portugal",RTP2 Ⓖ
 https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="SIC" tvg-logo="https://i.imgur.com/SPMqiDG.png" tvg-id="sic" group-title="Portugal",SIC
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 
 #EXTINF:-1 tvg-name="RTP Açores" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RTP_A%C3%A7ores_%282016%29.svg/640px-RTP_A%C3%A7ores_%282016%29.svg.png" tvg-id="rtpaores" group-title="Portugal",RTP Açores
 https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
