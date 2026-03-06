@@ -869,9 +869,6 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Беларусь 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Belarus_3_logo.svg/742px-Belarus_3_logo.svg.png" tvg-id="3" group-title="Belarus",Беларусь 3
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ОНТ Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg/991px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg.png" tvg-id="" group-title="Belarus",ОНТ Ⓢ
-https://stream.dc.beltelecom.by/ont/ont/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Беларусь 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Belarus_5_logo.svg/742px-Belarus_5_logo.svg.png" tvg-id="5" group-title="Belarus",Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 
@@ -1624,6 +1621,18 @@ https://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8
 
 #EXTINF:-1 tvg-name="CTV News" tvg-logo="https://i.imgur.com/T3oBeiX.png" tvg-id="ctvnews" group-title="Canada",CTV News
 https://pe-fa-lp02a.9c9media.com/live/News1Digi/p/hls/00000201/38ef78f479b07aa0/index/0c6a10a2/live/stream/h264/v1/3500000/manifest.m3u8
+
+#EXTINF:-1 tvg-name="Global News Kingston" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewskingston" group-title="Canada",Global News Kingston
+https://i.mjh.nz/PlutoTV/62cbf4964446e2000742073e-alt.m3u8
+
+#EXTINF:-1 tvg-name="Global News Montreal" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewsmontreal" group-title="Canada",Global News Montreal
+https://i.mjh.nz/PlutoTV/62cbfbd6ad95670007f567af-alt.m3u8
+
+#EXTINF:-1 tvg-name="Global News Peterborough" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewspeterborough" group-title="Canada",Global News Peterborough
+https://i.mjh.nz/PlutoTV/62cbfcd8c2db990007861e43-alt.m3u8
+
+#EXTINF:-1 tvg-name="Global News Regina" tvg-logo="https://i.imgur.com/IpfmG93.png" tvg-id="globalnewsregina" group-title="Canada",Global News Regina
+https://i.mjh.nz/PlutoTV/62cbff53ca8f2200080253b5-alt.m3u8
 
 #EXTINF:-1 tvg-name="ICI RDI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/640px-ICI_RDI_logo.svg.png" tvg-id="icirdi" group-title="Canada",ICI RDI
 https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
@@ -5293,9 +5302,6 @@ https://ertflix.ascdn.broadpeak.io/ertlive/ert3/default/index.mpd
 
 #EXTINF:-1 tvg-name="ERT News" tvg-logo="https://i.imgur.com/saIGLvr.png" tvg-id="ertnews" group-title="Greece",ERT News
 https://ertflix.ascdn.broadpeak.io/ertlive/ertnews/default/index.m3u8
-
-#EXTINF:-1 tvg-name="ERT World" tvg-logo="https://i.imgur.com/KsMTWYw.png" tvg-id="ertworld" group-title="Greece",ERT World
-https://ertflix-ertworld.siliconweb.com/mpegts/618618_3479286/master_mpegts.m3u8
 
 #EXTINF:-1 tvg-name="Vouli TV" tvg-logo="https://i.imgur.com/1vqW7lc.png" tvg-id="voulitv" group-title="Greece",Vouli TV
 https://diavlos-cache.cnt.grnet.gr/parltv/webtv-1b.sdp/playlist.m3u8
@@ -9389,6 +9395,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="BIKE Channel" tvg-logo="https://i.imgur.com/4IzVSQI.png" tvg-id="bikechannel" group-title="Italy",BIKE Channel
 https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 
@@ -9809,6 +9818,9 @@ https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 #EXTINF:-1 tvg-name="Rete Veneta" tvg-logo="https://i.imgur.com/cInhQFp.png" tvg-id="reteveneta" group-title="Italy",Rete Veneta
 http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
+https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Rossini Tv" tvg-logo="https://i.imgur.com/K0Em0nx.jpg" tvg-id="rossinitv" group-title="Italy",Rossini Tv
 https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
 
@@ -9940,6 +9952,9 @@ https://streaming.liberta.it/hls/liberta.m3u8
 
 #EXTINF:-1 tvg-name="Tele Liguria Sud" tvg-logo="https://i.imgur.com/BeLAYJ6.jpg" tvg-id="teleliguriasud" group-title="Italy",Tele Liguria Sud
 https://64b16f23efbee.streamlock.net/teleliguriasud/teleliguriasud/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Tele Mantova" tvg-logo="https://i.imgur.com/bkSPcs4.png" tvg-id="telemantova" group-title="Italy",Tele Mantova
+https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Mia" tvg-logo="https://i.imgur.com/SdXpCwL.png" tvg-id="telemia" group-title="Italy",Tele Mia
 https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
@@ -10108,9 +10123,6 @@ https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tv Uno" tvg-logo="https://i.imgur.com/OtCwYsh.jpg" tvg-id="tvuno" group-title="Italy",Tv Uno
 http://ftp.tiscali.it/francescovernata/TVUNO/monoscopioTvUNOint-1.wmv
-
-#EXTINF:-1 tvg-name="Tv Yes" tvg-logo="https://i.imgur.com/1wsO8U7.png" tvg-id="tvyes" group-title="Italy",Tv Yes
-https://stream1.aswifi.it/radioyes/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Tva Vicenza" tvg-logo="https://i.imgur.com/FtFuPCC.png" tvg-id="tvavicenza" group-title="Italy",Tva Vicenza
 http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8
@@ -11528,6 +11540,9 @@ http://ares.mnet.mk/hls/mnet-info.m3u8
 #EXTINF:-1 tvg-name="TV 24 Ⓖ" tvg-logo="https://i.imgur.com/MFKeNZx.png" tvg-id="tv24" group-title="North_macedonia",TV 24 Ⓖ
 https://hls.telekabel.com.mk:1936/live/11/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ТВ НОВА 12" tvg-logo="https://i.imgur.com/Qo3Hj3t.png" tvg-id="12" group-title="North_macedonia",ТВ НОВА 12
+http://151.236.247.171:8080/nova/index.m3u8
+
 #EXTINF:-1 tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" tvg-id="" group-title="North_macedonia",Вардар тв
 https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
 
@@ -12694,6 +12709,9 @@ https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/chunklist
 
 #EXTINF:-1 tvg-name="ZU TV (1080p)" tvg-logo="https://i.imgur.com/1gtkGhB.png" tvg-id="zutv" group-title="Romania",ZU TV (1080p)
 https://hls.rundletv.eu.org/LIVE$RadioZU/6.m3u8/Level/300720051?end=END&start=LIVE
+
+#EXTINF:-1 tvg-name="Первый канал" tvg-logo="https://i.imgur.com/1IqCGe9.png" tvg-id="" group-title="Russia",Первый канал
+https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
 #EXTINF:-1 tvg-name="Россия 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Russia-1.svg/1024px-Russia-1.svg.png" tvg-id="1" group-title="Russia",Россия 1
 https://player.smotrim.ru/iframe/stream/live_id/2961
