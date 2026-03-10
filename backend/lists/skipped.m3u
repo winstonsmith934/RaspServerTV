@@ -191,9 +191,6 @@ https://137840.global.ssl.fastly.net/edge/live_6b7c6e205afb11ebb010f5a331abaf98/
 #EXTINF:-1 tvg-name="ערוץ 14" tvg-logo="https://i.imgur.com/Iq2Kb69.png" tvg-id="14" group-title="Israel",ערוץ 14
 https://now14.g-mana.live/media/91517161-44ab-4e46-af70-e9fe26117d2e/mainManifest.m3u8
 
-#EXTINF:-1 tvg-name="Knesset" tvg-logo="https://i.imgur.com/PEdXHSE.png" tvg-id="knesset" group-title="Israel",Knesset
-https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Nove" tvg-logo="https://i.imgur.com/Hp723RU.png" tvg-id="nove" group-title="Italy",Nove
 https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
 
@@ -277,6 +274,9 @@ https://stream1.aswifi.it/mediterraneatv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="medjugorjetvpuglia" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
 
 #EXTINF:-1 tvg-name="Ora Tv" tvg-logo="https://i.imgur.com/clWVrvE.png" tvg-id="oratv" group-title="Italy",Ora Tv
 https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
@@ -487,9 +487,6 @@ https://ed2.cdn.svt.se/ed7/d1/c/se/svtb/manifest.mpd?defaultSubLang=1
 
 #EXTINF:-1 tvg-name="Kunskapskanalen Ⓖ" tvg-logo="https://i.imgur.com/9YBxoGc.png" tvg-id="kunskapskanalen" group-title="Sweden",Kunskapskanalen Ⓖ
 https://ed2.cdn.svt.se/ed7/d1/c/se/svtk/manifest.mpd?defaultSubLang=1
-
-#EXTINF:-1 tvg-name="Öppna Kanalen Malmö Ⓢ" tvg-logo="https://i.imgur.com/sjw8dsM.jpg" tvg-id="ppnakanalenmalm" group-title="Sweden",Öppna Kanalen Malmö Ⓢ
-https://edg01-prd-de-ixn.solidtango.com/edge/_8ynhbua3_/8ynhbua3/manifest.m3u8
 
 #EXTINF:-1 tvg-name="TVO" tvg-logo="https://i.imgur.com/5QFZ05B.png" tvg-id="tvo" group-title="Switzerland",TVO
 https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8
