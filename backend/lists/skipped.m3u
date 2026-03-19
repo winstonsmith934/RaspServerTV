@@ -38,9 +38,6 @@ https://www.tvkaista.net/stream-forwarder/get.php?x=Dunya
 #EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kanal_S_%282022%29.png/616px-Kanal_S_%282022%29.png" tvg-id="kanals" group-title="Azerbaijan",Kanal S
 https://www.tvkaista.net/stream-forwarder/get.php?x=KanalS
 
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
-
 #EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="realtv" group-title="Azerbaijan",Real TV
 https://www.tvkaista.net/stream-forwarder/get.php?x=RealTV
 
@@ -151,12 +148,6 @@ https://stream-33.mazana.tv/slagr2.m3u
 
 #EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
 https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
-
-#EXTINF:-1 tvg-name="MTV Sub" tvg-logo="https://i.imgur.com/VRCuxQt.png" tvg-id="mtvsub" group-title="Finland",MTV Sub
-https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
-https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
@@ -395,6 +386,9 @@ https://router.xdevel.com/video0s86-21/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Telesud Trapani" tvg-logo="https://i.imgur.com/tpZvU1P.png" tvg-id="telesudtrapani" group-title="Italy",Telesud Trapani
 https://64b16f23efbee.streamlock.net/telesudtrapani/telesudtrapani/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Tv Yes" tvg-logo="https://i.imgur.com/1wsO8U7.png" tvg-id="tvyes" group-title="Italy",Tv Yes
+https://stream1.aswifi.it/radioyes/live/index.m3u8
+
 #EXTINF:-1 tvg-name="Tvm Palermo" tvg-logo="https://i.imgur.com/uqOdAXB.png" tvg-id="tvmpalermo" group-title="Italy",Tvm Palermo
 https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8
 
@@ -628,9 +622,6 @@ http://as-hls-uk-live.akamaized.net/pool_904/live/uk/bbc_radio_five_live_sports_
 
 #EXTINF:-1 tvg-name="BBC Asian Network" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcasiannet-epg.png" tvg-id="bbcasiannetwork" group-title="Uk",BBC Asian Network
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d96000.norewind.m3u8
-
-#EXTINF:-1 tvg-name="TV7+" tvg-logo="https://i.imgur.com/PcTDZ8e.png" tvg-id="tv7" group-title="Ukraine",TV7+
-https://tv7plus.com/hls/tv7_site.m3u8
 
 #EXTINF:-1 tvg-name="Stadium" tvg-logo="https://i.imgur.com/6ae9E8d.png" tvg-id="stadium" group-title="Usa",Stadium
 https://bcovlive-a.akamaihd.net/e64d564b9275484f85981d8c146fb915/us-east-1/5994000126001/profile_1/976f34cf5a614518b7b539cbf9812080/chunklist_ssaiV.m3u8
