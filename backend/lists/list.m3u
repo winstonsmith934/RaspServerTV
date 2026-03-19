@@ -833,6 +833,9 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Беларусь 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Belarus_3_logo.svg/742px-Belarus_3_logo.svg.png" tvg-id="3" group-title="Belarus",Беларусь 3
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ОНТ Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg/991px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%9E%D0%9D%D0%A2%C2%BB.svg.png" tvg-id="" group-title="Belarus",ОНТ Ⓢ
+https://stream.dc.beltelecom.by/ont/ont/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Беларусь 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Belarus_5_logo.svg/742px-Belarus_5_logo.svg.png" tvg-id="5" group-title="Belarus",Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 
@@ -3551,6 +3554,9 @@ https://yletv.akamaized.net/hls/live/622366/yletv2fin/index.m3u8
 #EXTINF:-1 tvg-name="MTV3" tvg-logo="https://i.imgur.com/kNbmc8n.png" tvg-id="mtv3" group-title="Finland",MTV3
 https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
+https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Yle Teema Fem Ⓖ" tvg-logo="https://i.imgur.com/iDljufz.png" tvg-id="yleteemafem" group-title="Finland",Yle Teema Fem Ⓖ
 https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8
 
@@ -3577,6 +3583,9 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
+https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -10178,6 +10187,9 @@ https://cdn.cubws.com/live/globus.m3u8
 #EXTINF:-1 tvg-name="Gold Tv" tvg-logo="https://i.imgur.com/3rVi4kD.png" tvg-id="goldtv" group-title="Italy",Gold Tv
 https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="GO-TV Channel" tvg-logo="https://i.imgur.com/xgjrAAn.png" tvg-id="gotvchannel" group-title="Italy",GO-TV Channel
+https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8
+
 #EXTINF:-1 tvg-name="GS Channel" tvg-logo="https://i.imgur.com/ExfxCRv.png" tvg-id="gschannel" group-title="Italy",GS Channel
 https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8
 
@@ -10388,6 +10400,9 @@ https://5db313b643fd8.streamlock.net/rete/rete/playlist.m3u8
 #EXTINF:-1 tvg-name="Rete Oro Tv" tvg-logo="https://i.imgur.com/OCxGtwA.png" tvg-id="reteorotv" group-title="Italy",Rete Oro Tv
 https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Rete Sole" tvg-logo="https://i.imgur.com/u0ezKgE.png" tvg-id="retesole" group-title="Italy",Rete Sole
+https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Rete Tv Italia" tvg-logo="https://i.imgur.com/lXGWoV9.png" tvg-id="retetvitalia" group-title="Italy",Rete Tv Italia
 https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 
@@ -10429,9 +10444,6 @@ https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" tvg-id="sardegna1" group-title="Italy",Sardegna 1
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Set Tv Cilento" tvg-logo="https://i.imgur.com/qN5D1jD.png" tvg-id="settvcilento" group-title="Italy",Set Tv Cilento
-https://stream1.aswifi.it/settv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Sesta Rete" tvg-logo="https://i.imgur.com/0B0S2gI.png" tvg-id="sestarete" group-title="Italy",Sesta Rete
 https://stream10.xdevel.com/video0s977089-1792/stream/playlist.m3u8
