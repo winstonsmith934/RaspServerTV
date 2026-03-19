@@ -89,9 +89,6 @@ https://bcsecurelivehls-i.akamaihd.net/hls/live/680604/1242843915001_3/master.m3
 #EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
 https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
 
-#EXTINF:-1 tvg-name="TV BRICS Chinese" tvg-logo="https://i.imgur.com/896132Z.png" tvg-id="tvbricschinese" group-title="China",TV BRICS Chinese
-https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
-
 #EXTINF:-1 tvg-name="HRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" tvg-id="hrt1" group-title="Croatia",HRT 1
 https://webtvstream.bhtelecom.ba/hls9/hrt1_1200.m3u8
 
@@ -118,6 +115,12 @@ https://stream-33.mazana.tv/slagr2.m3u
 
 #EXTINF:-1 tvg-name="Praha TV" tvg-logo="https://www.praga2018.cz/wp-content/uploads/logo-prahatv.png" tvg-id="prahatv" group-title="Czech_republic",Praha TV
 https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
+https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
+https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Mtavari Arkhi" tvg-logo="https://i.imgur.com/tLtGnJW.png" tvg-id="mtavariarkhi" group-title="Georgia",Mtavari Arkhi
 https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
@@ -389,6 +392,12 @@ https://2-fss-2.streamhoster.com/pl_124/201830-1293592-1/playlist.m3u8
 #EXTINF:-1 tvg-name="RCG 3 Saltillo" tvg-logo="https://i.imgur.com/NefH5qZ.png" tvg-id="rcg3saltillo" group-title="Mexico",RCG 3 Saltillo
 http://wowzacontrol.com:1936/stream56/stream56/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Moldova 1" tvg-logo="https://i.imgur.com/ZbQY56v.png" tvg-id="moldova1" group-title="Moldova",Moldova 1
+https://www.tvkaista.net/stream-forwarder/get.php?x=Moldova1
+
+#EXTINF:-1 tvg-name="Moldova 2" tvg-logo="https://i.imgur.com/Hv6Nk8A.png" tvg-id="moldova2" group-title="Moldova",Moldova 2
+https://www.tvkaista.net/stream-forwarder/get.php?x=Moldova2
+
 #EXTINF:-1 tvg-name="NPO 1 Ⓖ" tvg-logo="https://i.imgur.com/pUBy4Pb.png" tvg-id="npo1" group-title="Netherlands",NPO 1 Ⓖ
 http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo1/npo1.isml/.m3u8
 
@@ -413,8 +422,47 @@ https://cdnhd.iblups.com/hls/ptv2.m3u8
 #EXTINF:-1 tvg-name="Top Latino TV" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/fTmfsKeREm.png" tvg-id="toplatinotv" group-title="Peru",Top Latino TV
 https://5cefcbf58ba2e.streamlock.net:543/tltvweb/latintv.stream/playlist.m3u8
 
+#EXTINF:-1 tvg-name="TVP1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/TVP1_logo.svg/640px-TVP1_logo.svg.png" tvg-id="tvp1" group-title="Poland",TVP1
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVP1
+
+#EXTINF:-1 tvg-name="TVP3 Warszawa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/TVP3_%282016%29.svg/640px-TVP3_%282016%29.svg.png" tvg-id="tvp3warszawa" group-title="Poland",TVP3 Warszawa
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVP3Warszawa
+
+#EXTINF:-1 tvg-name="TVP Polonia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/640px-TVP_Polonia_Logo_2020.svg.png" tvg-id="tvppolonia" group-title="Poland",TVP Polonia
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVPPolonia
+
+#EXTINF:-1 tvg-name="Alfa TVP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alfa_TVP_%282022%29.svg/640px-Alfa_TVP_%282022%29.svg.png" tvg-id="alfatvp" group-title="Poland",Alfa TVP
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlfaTVP
+
+#EXTINF:-1 tvg-name="TVP Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/640px-TVP_Info_logo.svg.png" tvg-id="tvpinfo" group-title="Poland",TVP Info
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVPInfo
+
+#EXTINF:-1 tvg-name="TVP World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVP_World_%282021%29.svg/640px-TVP_World_%282021%29.svg.png" tvg-id="tvpworld" group-title="Poland",TVP World
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVPWorld
+
+#EXTINF:-1 tvg-name="TVP ABC 2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/TVP_ABC_2_%282022%29.svg/640px-TVP_ABC_2_%282022%29.svg.png" tvg-id="tvpabc2" group-title="Poland",TVP ABC 2
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVPABC2
+
+#EXTINF:-1 tvg-name="TVP Historia 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TVP_Historia_2_%282021%29.svg/640px-TVP_Historia_2_%282021%29.svg.png" tvg-id="tvphistoria2" group-title="Poland",TVP Historia 2
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVPHistoria2
+
+#EXTINF:-1 tvg-name="TVP Kultura 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TVP_Kultura_2_%282020%29.svg/640px-TVP_Kultura_2_%282020%29.svg.png" tvg-id="tvpkultura2" group-title="Poland",TVP Kultura 2
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVPKultura2
+
 #EXTINF:-1 tvg-name="Porto Canal Ⓢ" tvg-logo="https://i.imgur.com/wsyvP2H.png" tvg-id="portocanal" group-title="Portugal",Porto Canal Ⓢ
 https://streamer-a01.videos.sapo.pt/live/portocanal/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Alkass One" tvg-logo="https://i.imgur.com/10mmlha.png" tvg-id="alkassone" group-title="Qatar",Alkass One
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlkassOne
+
+#EXTINF:-1 tvg-name="Alkass Two" tvg-logo="https://i.imgur.com/8w61kFX.png" tvg-id="alkasstwo" group-title="Qatar",Alkass Two
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlkassTwo
+
+#EXTINF:-1 tvg-name="Alkass Three" tvg-logo="https://i.imgur.com/d57BdFh.png" tvg-id="alkassthree" group-title="Qatar",Alkass Three
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlkassThree
+
+#EXTINF:-1 tvg-name="Alkass Four" tvg-logo="https://i.imgur.com/iDL65Wu.png" tvg-id="alkassfour" group-title="Qatar",Alkass Four
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlkassFour
 
 #EXTINF:-1 tvg-name="Al Araby TV" tvg-logo="https://i.imgur.com/YMqWEe4.png" tvg-id="alarabytv" group-title="Qatar",Al Araby TV
 https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/chunklist.m3u8
@@ -445,6 +493,24 @@ https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/chunk
 
 #EXTINF:-1 tvg-name="San Marino Rtv Sport" tvg-logo="https://i.imgur.com/PGm944g.png" tvg-id="sanmarinortvsport" group-title="San_marino",San Marino Rtv Sport
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/chunklist_b1692000_slita.m3u8
+
+#EXTINF:-1 tvg-name="TV SLO 1" tvg-logo="https://i.imgur.com/YIZOtcm.png" tvg-id="tvslo1" group-title="Slovenia",TV SLO 1
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVSLO1
+
+#EXTINF:-1 tvg-name="TV SLO 2" tvg-logo="https://i.imgur.com/mQe9U2h.png" tvg-id="tvslo2" group-title="Slovenia",TV SLO 2
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVSLO2
+
+#EXTINF:-1 tvg-name="TV SLO 3" tvg-logo="https://i.imgur.com/WGUyj7r.png" tvg-id="tvslo3" group-title="Slovenia",TV SLO 3
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVSLO3
+
+#EXTINF:-1 tvg-name="TV Koper/Capodistria" tvg-logo="https://i.imgur.com/NQvOJNh.png" tvg-id="tvkopercapodistria" group-title="Slovenia",TV Koper/Capodistria
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVKC
+
+#EXTINF:-1 tvg-name="TV Maribor" tvg-logo="https://i.imgur.com/tWf3dgf.png" tvg-id="tvmaribor" group-title="Slovenia",TV Maribor
+https://www.tvkaista.net/stream-forwarder/get.php?x=TVMaribor
+
+#EXTINF:-1 tvg-name="MMC TV" tvg-logo="https://i.imgur.com/yzETQJ4.png" tvg-id="mmctv" group-title="Slovenia",MMC TV
+https://www.tvkaista.net/stream-forwarder/get.php?x=MMCTV
 
 #EXTINF:-1 tvg-name="MM Somali TV Ⓢ" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mm-somali-tv-so.png" tvg-id="mmsomalitv" group-title="Somalia",MM Somali TV Ⓢ
 https://cdn.mediavisionuk.com:9000/MMTV/index.m3u8
