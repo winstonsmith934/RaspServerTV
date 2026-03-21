@@ -1751,6 +1751,9 @@ https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/61016
 #EXTINF:-1 tvg-name="Savoir Média" tvg-logo="https://i.imgur.com/pa4wOVY.png" tvg-id="savoirmdia" group-title="Canada",Savoir Média
 https://hls.savoir.media/live/stream.m3u8
 
+#EXTINF:-1 tvg-name="CPAC (FR)" tvg-logo="https://i.imgur.com/AbdFD0S.png" tvg-id="cpac" group-title="Canada",CPAC (FR)
+https://bcsecurelivehls-i.akamaihd.net/hls/live/680604/1242843915001_3/master.m3u8
+
 #EXTINF:-1 tvg-name="ICI Montreal" tvg-logo="https://i.imgur.com/Z1b2TJD.png" tvg-id="icimontreal" group-title="Canada",ICI Montreal
 https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8
 
@@ -3551,12 +3554,6 @@ https://yletv.akamaized.net/hls/live/622365/yletv1fin/index.m3u8
 #EXTINF:-1 tvg-name="Yle TV2 Ⓖ" tvg-logo="https://i.imgur.com/4xkc6PL.png" tvg-id="yletv2" group-title="Finland",Yle TV2 Ⓖ
 https://yletv.akamaized.net/hls/live/622366/yletv2fin/index.m3u8
 
-#EXTINF:-1 tvg-name="MTV3" tvg-logo="https://i.imgur.com/kNbmc8n.png" tvg-id="mtv3" group-title="Finland",MTV3
-https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
-https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Yle Teema Fem Ⓖ" tvg-logo="https://i.imgur.com/iDljufz.png" tvg-id="yleteemafem" group-title="Finland",Yle Teema Fem Ⓖ
 https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8
 
@@ -3566,12 +3563,6 @@ https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="tv5finland" group-title="Finland",TV5 Finland
 https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
 
-#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
-https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
-https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Kutonen" tvg-logo="https://i.imgur.com/4giVyxb.png" tvg-id="kutonen" group-title="Finland",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
 
@@ -3580,9 +3571,6 @@ https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Star Channel Finland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/640px-Star_Channel_2020.svg.png" tvg-id="starchannelfinland" group-title="Finland",Star Channel Finland
 https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
-https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -9959,6 +9947,9 @@ https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/p
 #EXTINF:-1 tvg-name="Cafe Tv 24" tvg-logo="https://i.imgur.com/KbcbxFw.png" tvg-id="cafetv24" group-title="Italy",Cafe Tv 24
 https://srvx1.selftv.video/cafe/live/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Calabria Uno Tv" tvg-logo="https://i.imgur.com/2TK1GQ5.png" tvg-id="calabriaunotv" group-title="Italy",Calabria Uno Tv
+https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Canale 10" tvg-logo="https://i.imgur.com/KuQcjYV.png" tvg-id="canale10" group-title="Italy",Canale 10
 https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8
 
@@ -12640,9 +12631,6 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RTP3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Rtp3.png" tvg-id="rtp3" group-title="Portugal",RTP3
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR=
-
-#EXTINF:-1 tvg-name="ADtv Ⓢ" tvg-logo="https://i.imgur.com/FvlcU3z.png" tvg-id="adtv" group-title="Portugal",ADtv Ⓢ
-https://playout172.livextend.cloud/liveiframe/_definst_/ngrp:liveartvabr_abr/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CNN Portugal" tvg-logo="https://i.imgur.com/NYH39xs.png" tvg-id="cnnportugal" group-title="Portugal",CNN Portugal
 https://sktv-forwarders.7m.pl/get.php?x=CNN_Portugal
