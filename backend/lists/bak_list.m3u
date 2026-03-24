@@ -1106,9 +1106,6 @@ https://live.tv-m.net/hls/stream.m3u8
 #EXTINF:-1 tvg-name="TNT Kids (288p)" tvg-logo="https://i.imgur.com/irTDbpn.png" tvg-id="tntkids" group-title="Bosnia_and_herzegovina",TNT Kids (288p)
 https://restreamer1.tnt.ba/hls/tntkids.m3u8
 
-#EXTINF:-1 tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" tvg-id="combrasil" group-title="Brazil",COM Brasil
-https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
-
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-id="sbt" group-title="Brazil",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
 
@@ -3581,6 +3578,9 @@ https://yletv.akamaized.net/hls/live/622366/yletv2fin/index.m3u8
 #EXTINF:-1 tvg-name="MTV3" tvg-logo="https://i.imgur.com/kNbmc8n.png" tvg-id="mtv3" group-title="Finland",MTV3
 https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
+https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Yle Teema Fem Ⓖ" tvg-logo="https://i.imgur.com/iDljufz.png" tvg-id="yleteemafem" group-title="Finland",Yle Teema Fem Ⓖ
 https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8
 
@@ -3607,6 +3607,9 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
+https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -9758,6 +9761,9 @@ https://5929b138b139d.streamlock.net/12TVParma/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name="4 You Tv" tvg-logo="https://i.imgur.com/NN0cSbz.png" tvg-id="4youtv" group-title="Italy",4 You Tv
 https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8
 
+#EXTINF:-1 tvg-name="AB Channel" tvg-logo="https://i.imgur.com/k8EPLB9.png" tvg-id="abchannel" group-title="Italy",AB Channel
+https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Alpauno" tvg-logo="https://i.imgur.com/4QKFtUa.png" tvg-id="alpauno" group-title="Italy",Alpauno
 https://5f22d76e220e1.streamlock.net/alpaunotv/alpaunotv/playlist.m3u8
 
@@ -10283,6 +10289,9 @@ https://5757bf2aa08e42248fb9b9d620f5d900.msvdn.net/live/S11646715/pE3ax0lT0rBd/p
 #EXTINF:-1 tvg-name="Tele Ischia" tvg-logo="https://i.imgur.com/vihHVQn.jpg" tvg-id="teleischia" group-title="Italy",Tele Ischia
 https://rst.saiuzwebnetwork.it:8081/teleischia/index.m3u8
 
+#EXTINF:-1 tvg-name="Tele Jonio" tvg-logo="https://i.imgur.com/qJeDV8R.png" tvg-id="telejonio" group-title="Italy",Tele Jonio
+http://59d7d6f47d7fc.streamlock.net/telejonio/telejonio/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Tele Liberta' HD" tvg-logo="https://i.imgur.com/XzAB5k7.jpg" tvg-id="teleliberta" group-title="Italy",Tele Liberta' HD
 https://streaming.liberta.it/hls/liberta.m3u8
 
@@ -10405,12 +10414,6 @@ https://live.antennasudwebtv.it:9443/hls/vodtele.m3u8
 
 #EXTINF:-1 tvg-name="Telereporter" tvg-logo="https://i.imgur.com/WIo6SPc.png" tvg-id="telereporter" group-title="Italy",Telereporter
 https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Teleromagna" tvg-logo="https://i.imgur.com/4jWadI8.png" tvg-id="teleromagna" group-title="Italy",Teleromagna
-https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Teleromagna 24" tvg-logo="https://i.imgur.com/Bpml478.png" tvg-id="teleromagna24" group-title="Italy",Teleromagna 24
-https://livetr.teleromagna.it/mia/live/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TeleRomaDue" tvg-logo="https://i.imgur.com/78hA7ma.png" tvg-id="teleromadue" group-title="Italy",TeleRomaDue
 https://57068da1deb21.streamlock.net/teletibur/teletibur/playlist.m3u8
