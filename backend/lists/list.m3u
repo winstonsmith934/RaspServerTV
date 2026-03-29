@@ -152,9 +152,6 @@ https://live-edge01.telecentro.net.ar/live/smil:tlx.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Net TV" tvg-logo="https://i.imgur.com/EWmshtx.png" tvg-id="nettv" group-title="Argentina",Net TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/tvLHiAT.png" tvg-id="tvuniversidad" group-title="Argentina",TV Universidad
-https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
-
 #EXTINF:-1 tvg-name="Barricada TV" tvg-logo="https://www.barricadatv.org/?p=23082" tvg-id="barricadatv" group-title="Argentina",Barricada TV
 https://live-ak.vimeocdn.com/exp=1696402364~acl=%2F9f41e203-241b-4eb7-b0b5-b1839903408f%2F%2A~hmac=d4819f301510676a986bfe610b664765ee2b1a23e1e1ca3214398f949a0b2778/9f41e203-241b-4eb7-b0b5-b1839903408f/hls.m3u8?min_seconds=30
 
@@ -2164,9 +2161,6 @@ https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 tvg-name="Canal 13" tvg-logo="https://i.imgur.com/JIo1HBs.png" tvg-id="canal13" group-title="Chile",Canal 13
 https://sktv-forwarders.7m.pl/get.php?x=Canal13
-
-#EXTINF:-1 tvg-name="TV+ Ⓖ" tvg-logo="https://i.imgur.com/NtuZIEJ.png" tvg-id="tv" group-title="Chile",TV+ Ⓖ
-https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
 
 #EXTINF:-1 tvg-name="Chilevisión Ⓖ" tvg-logo="https://i.imgur.com/2Pu8yXf.png" tvg-id="chilevisin" group-title="Chile",Chilevisión Ⓖ
 https://sktv-forwarders.7m.pl/get.php?x=Chilevision
@@ -5740,9 +5734,6 @@ https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Blue Sky" tvg-logo="https://i.imgur.com/rzuQslM.png" tvg-id="bluesky" group-title="Greece",Blue Sky
 https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8
-
-#EXTINF:-1 tvg-name="High TV" tvg-logo="https://i.imgur.com/wHzCGry.png" tvg-id="hightv" group-title="Greece",High TV
-https://live.streams.ovh/hightv/hightv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Kontra" tvg-logo="https://i.imgur.com/ROZ9VfV.png" tvg-id="kontra" group-title="Greece",Kontra
 https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
@@ -9976,6 +9967,9 @@ https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="nuovatv1" group-title="Italy",Nuova Tv 1
 https://nuovatv.net:8443/tv/stream.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="nuovatv2" group-title="Italy",Nuova Tv 2
+https://nuovatv.net:8443/tv2/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="nuvolatv" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
