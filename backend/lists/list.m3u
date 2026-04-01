@@ -773,9 +773,6 @@ https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_ad
 #EXTINF:-1 tvg-name="Zee One German (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" tvg-id="zeeonegerman" group-title="Austria",Zee One German (720p)
 https://e4955b54.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1kZV9aZWVPbmVfSExT/playlist.m3u8
 
-#EXTINF:-1 tvg-name="ARB 24" tvg-logo="https://i.imgur.com/mtvIFyq.png" tvg-id="arb24" group-title="Azerbaijan",ARB 24
-http://85.132.81.184:8080/arb/live/index.m3u8
-
 #EXTINF:-1 tvg-name="ARB Ⓢ" tvg-logo="https://i.imgur.com/E97M2OL.png" tvg-id="arb" group-title="Azerbaijan",ARB Ⓢ
 http://109.205.166.68/server124/arb/index.m3u8
 
@@ -793,9 +790,6 @@ http://109.205.166.68/server124/ictimai_tv/index.m3u8
 
 #EXTINF:-1 tvg-name="İdman TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/8/88/%C4%B0dman_Az%C9%99rbaycan_TV_loqo_%282019-h.h.%29.png/640px-%C4%B0dman_Az%C9%99rbaycan_TV_loqo_%282019-h.h.%29.png" tvg-id="dmantv" group-title="Azerbaijan",İdman TV Ⓢ
 http://109.205.166.68/server124/idman_az/index.m3u8
-
-#EXTINF:-1 tvg-name="Mədəniyyət TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/M%C9%99d%C9%99niyy%C9%99t_TV_logo.png" tvg-id="mdniyyttv" group-title="Azerbaijan",Mədəniyyət TV Ⓢ
-https://str.yodacdn.net/medeniyyet/index.m3u8
 
 #EXTINF:-1 tvg-name="Space TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Space_TV_loqosu_%282023-h.h.%29.png/296px-Space_TV_loqosu_%282023-h.h.%29.png" tvg-id="spacetv" group-title="Azerbaijan",Space TV Ⓢ
 http://109.205.166.68/server124/space_tv/index.m3u8
@@ -3599,6 +3593,9 @@ https://yletv.akamaized.net/hls/live/622366/yletv2fin/index.m3u8
 #EXTINF:-1 tvg-name="MTV3" tvg-logo="https://i.imgur.com/kNbmc8n.png" tvg-id="mtv3" group-title="Finland",MTV3
 https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
+https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Yle Teema Fem Ⓖ" tvg-logo="https://i.imgur.com/iDljufz.png" tvg-id="yleteemafem" group-title="Finland",Yle Teema Fem Ⓖ
 https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8
 
@@ -3622,6 +3619,9 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="MTV Ava" tvg-logo="https://i.imgur.com/rtyJVgB.png" tvg-id="mtvava" group-title="Finland",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
+https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Frii" tvg-logo="https://i.imgur.com/ljKoG9I.png" tvg-id="frii" group-title="Finland",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
@@ -5765,9 +5765,6 @@ https://rtmp.win:3650/live/diontvlive.m3u8
 #EXTINF:-1 tvg-name="Egnatia" tvg-logo="https://i.imgur.com/zuyYIca.png" tvg-id="egnatia" group-title="Greece",Egnatia
 https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u
 
-#EXTINF:-1 tvg-name="Euro" tvg-logo="https://i.imgur.com/mHCk05E.png" tvg-id="euro" group-title="Greece",Euro
-https://live20.bozztv.com/akamaissh101/ssh101/eurotvlive/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Gnomi" tvg-logo="https://i.imgur.com/mHCk05E.png" tvg-id="gnomi" group-title="Greece",Gnomi
 https://live.streams.ovh:8081/gnomitv/index.m3u8
 
@@ -5785,9 +5782,6 @@ https://verginanews.gr:8443/hls_live/stream1.m3u8
 
 #EXTINF:-1 tvg-name="Best TV" tvg-logo="https://i.imgur.com/VA13E3w.png" tvg-id="besttv" group-title="Greece",Best TV
 https://besttv.siliconweb.com/bestTV/live_abr/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Hlektra" tvg-logo="https://i.imgur.com/LbogUPS.png" tvg-id="hlektra" group-title="Greece",Hlektra
-https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Ionian Channel" tvg-logo="https://i.imgur.com/ADVYeQd.png" tvg-id="ionianchannel" group-title="Greece",Ionian Channel
 https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8
@@ -9719,6 +9713,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 tvg-name="Radio TV Serie A con RDS" tvg-logo="https://i.imgur.com/NzDeCIx.png" tvg-id="radiotvserieaconrds" group-title="Italy",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
 
+#EXTINF:-1 tvg-name="Sportitalia SOLOCALCIO" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="sportitaliasolocalcio" group-title="Italy",Sportitalia SOLOCALCIO
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Radio Montecarlo TV Ⓖ" tvg-logo="https://i.imgur.com/3TMMXmS.png" tvg-id="radiomontecarlotv" group-title="Italy",Radio Montecarlo TV Ⓖ
 https://live02-seg.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8
 
@@ -9892,6 +9889,9 @@ https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Extra Tv" tvg-logo="https://i.imgur.com/KCBurST.png" tvg-id="tv" group-title="Italy",Extra Tv
 https://rst2.saiuzwebnetwork.it:8081/extratvlive/index.m3u8
+
+#EXTINF:-1 tvg-name="FM Tv Marche" tvg-logo="https://i.imgur.com/yY01NhL.jpg" tvg-id="fmtvmarche" group-title="Italy",FM Tv Marche
+https://bbtv.intvstream.net:3988/hybrid/play.m3u8
 
 #EXTINF:-1 tvg-name="Fano Tv" tvg-logo="https://i.imgur.com/orqEzJ6.png" tvg-id="fanotv" group-title="Italy",Fano Tv
 https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8
@@ -10222,6 +10222,9 @@ https://lostream.it/hls/telea/video.m3u8
 
 #EXTINF:-1 tvg-name="Tele Abruzzo Tv" tvg-logo="https://i.imgur.com/koB8J4b.jpg" tvg-id="teleabruzzotv" group-title="Italy",Tele Abruzzo Tv
 http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Tele Acras" tvg-logo="https://i.imgur.com/90Lsv8q.png" tvg-id="teleacras" group-title="Italy",Tele Acras
+https://5db313b643fd8.streamlock.net/teleacras/teleacras/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tele Arena" tvg-logo="https://i.imgur.com/9hsoWMO.png" tvg-id="telearena" group-title="Italy",Tele Arena
 https://5e73cf528f404.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8
