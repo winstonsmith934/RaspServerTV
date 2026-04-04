@@ -158,11 +158,11 @@ https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 #EXTINF:-1 tvg-name="MTV3" tvg-logo="https://i.imgur.com/kNbmc8n.png" tvg-id="mtv3" group-title="Finland",MTV3
 https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
 
-#EXTINF:-1 tvg-name="Nelonen" tvg-logo="https://i.imgur.com/BFbCyfY.png" tvg-id="nelonen" group-title="Finland",Nelonen
-https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
-
 #EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="liv" group-title="Finland",Liv
 https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="jim" group-title="Finland",Jim
+https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="hero" group-title="Finland",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
@@ -193,6 +193,9 @@ https://ertflix.akamaized.net/ertlive/music/default/index.m3u8
 
 #EXTINF:-1 tvg-name="ART" tvg-logo="https://i.imgur.com/7TyUxLj.png" tvg-id="art" group-title="Greece",ART
 https://rumble.com/live-hls/7113t0/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Hlektra" tvg-logo="https://i.imgur.com/LbogUPS.png" tvg-id="hlektra" group-title="Greece",Hlektra
+https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Thessalia" tvg-logo="https://i.imgur.com/KXz67LY.png" tvg-id="thessalia" group-title="Greece",Thessalia
 https://thessaliachannel.gr:3339/live/thesstvlive.m3u8
@@ -349,9 +352,6 @@ https://rst2.saiuzwebnetwork.it:8081/rdetrieste/index.m3u8
 
 #EXTINF:-1 tvg-name="Rete 8 Vga" tvg-logo="https://i.imgur.com/3wF2AJX.jpg" tvg-id="rete8vga" group-title="Italy",Rete 8 Vga
 https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="romatv82" group-title="Italy",Roma Tv 82
-https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RTC Quarta Rete" tvg-logo="https://i.imgur.com/rFGA6qL.png" tvg-id="rtcquartarete" group-title="Italy",RTC Quarta Rete
 https://msh0232.stream.seeweb.it/live/stream00.sdp/playlist.m3u8
